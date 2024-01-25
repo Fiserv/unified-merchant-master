@@ -36,29 +36,13 @@ info:
     and documentation.
   version: 1.0.0
 servers:
-  - url: https://tenants.fiserv.com/
+  - url: https://connect.fiservapis.com/unifiedmerchantmaster/
 paths:
-  /umm:
-    patch:
-      requestBody:
-        content:
-          application/json:
-            schema:
-              allOf:
-                - $ref: '#/components/schemas/North'
-                - $ref: '#/components/schemas/Omni'
-      responses:
-        '200':
-          description: Updated 
-
-  /v1/docs:
-    get:
+  /graphql:
+    post:
       tags:
-        - Documents
-      x-group-name: Documents
-      x-proxy-name: docs
-      summary: Returns Docs in markdown format.
-      operationId: DocsAPIId
+        - Query
+      summary: Return the GrapghQL query Response.
       parameters:
         - in: query
           name: path
@@ -69,58 +53,13 @@ paths:
       responses:
         200:
           description: ""
-          content: {}
-      x-codegen-request-body-name: Body
-  /v1/layouts:
-    get:
-      tags:
-        - Layout
-      x-group-name: Layout
-      x-proxy-name: layouts
-      summary: Returns the product page layout.
-      operationId: LayoutAPIId
-      responses:
-        200:
-          description: This text will appear as description of your response body.
-          content:
+          content: 
             application/json:
               schema:
-                $ref: '#/components/schemas/PageLayoutResponse'
-            text/yaml:
-              schema:
-                $ref: '#/components/schemas/PageLayoutResponse'
-            text/plain:
-              schema:
-                $ref: '#/components/schemas/PageLayoutResponse'
-  /live:
-    get:
-      tags:
-        - HealthCheck
-      x-group-name: HealthCheck
-      x-proxy-name: live
-      summary: Health check probes.
-      operationId: healthCheckId
-      x-links: 
-        link1: 
-          description: Developer Studio
-          flag: external
-          url:  'https://dev-developerstudio.fiserv.com/'
-        link2: 
-          description: Setup tenant
-          flag: internal
-          url:  '../docs?path=docs/getting-started/setup-tenant/setup-tenant.md'
-        link3: 
-          description: Fiserv Portal
-          flag: external
-          url:  'https://fiserv.com'
-      responses:
-        200:
-          description: Health check.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/LiveProbeResponse'
-  
+                allOf:
+                  - $ref: '#/components/schemas/North'
+                  - $ref: '#/components/schemas/Omni'
+   
 components:
   schemas:
     North:
