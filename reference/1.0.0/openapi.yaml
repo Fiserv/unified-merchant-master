@@ -36,15 +36,15 @@ info:
     and documentation.
   version: 1.0.0
 servers:
-  - url: https://tenants.fiserv.com/
+  - url: https://connect.fiservapis.com/unifiedmerchantmaster/
 paths:
-  /v1/products:
+  /graphql:
     get:
       tags:
-        - Omni
-      x-group-name: Omni
+        - Query
+      x-group-name: Query
       x-proxy-name: products
-      summary: Omni API.
+      summary: UMM Query
       operationId: merchantID
       responses:
         200:
