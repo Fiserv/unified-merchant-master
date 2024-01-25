@@ -36,37 +36,13 @@ info:
     and documentation.
   version: 1.0.0
 servers:
-  - url: https://tenants.fiserv.com/
+  - url: https://connect.fiservapis.com/unifiedmerchantmaster/
 paths:
-  /v1/products:
-    get:
+  /graphql:
+    post:
       tags:
-        - Omni
-      x-group-name: Omni
-      x-proxy-name: products
-      summary: Omni API.
-      operationId: merchantID
-      responses:
-        200:
-          description: Omni. <a href="https://fiserv.com" rel="noopener noreferrer" target="_blank">external link</a> <a href="../docs?path=docs/getting-started/setup-tenant/setup-tenant.md">Setup Tenant</a>
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Omni'
-            text/yaml:
-              schema:
-                $ref: '#/components/schemas/Omni'
-            text/plain:
-              schema:
-                $ref: '#/components/schemas/Omni'
-  /v1/docs:
-    get:
-      tags:
-        - Documents
-      x-group-name: Documents
-      x-proxy-name: docs
-      summary: Returns Docs in markdown format.
-      operationId: DocsAPIId
+        - Query
+      summary: Return the GrapghQL query Response.
       parameters:
         - in: query
           name: path
@@ -77,66 +53,21 @@ paths:
       responses:
         200:
           description: ""
-          content: {}
-      x-codegen-request-body-name: Body
-  /v1/layouts:
-    get:
-      tags:
-        - Layout
-      x-group-name: Layout
-      x-proxy-name: layouts
-      summary: Returns the product page layout.
-      operationId: LayoutAPIId
-      responses:
-        200:
-          description: This text will appear as description of your response body.
-          content:
+          content: 
             application/json:
               schema:
-                $ref: '#/components/schemas/Omni'
-            text/yaml:
-              schema:
-                $ref: '#/components/schemas/Omni'
-            text/plain:
-              schema:
-                $ref: '#/components/schemas/Omni'
-  /live:
-    get:
-      tags:
-        - HealthCheck
-      x-group-name: HealthCheck
-      x-proxy-name: live
-      summary: Health check probes.
-      operationId: healthCheckId
-      x-links: 
-        link1: 
-          description: Developer Studio
-          flag: external
-          url:  'https://dev-developerstudio.fiserv.com/'
-        link2: 
-          description: Setup tenant
-          flag: internal
-          url:  '../docs?path=docs/getting-started/setup-tenant/setup-tenant.md'
-        link3: 
-          description: Fiserv Portal
-          flag: external
-          url:  'https://fiserv.com'
-      responses:
-        200:
-          description: Health check.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/North'
-  
+                allOf:
+                  - $ref: '#/components/schemas/North'
+                  - $ref: '#/components/schemas/Omni'
+   
 components:
   schemas:
     North:
       type: object
       properties:
         dbaName:
-          type: string
           description: Do Business As Name for the merchant
+          type: string 
           maxLength: 100
           minLength: 20
           example: 'TEST DBANAME'
@@ -286,7 +217,6 @@ components:
                                     type: object
                                     properties: 
                                       0: 
-                                        type: string
                             frequencyInd: 
                               type: object
                               properties: 
@@ -298,19 +228,19 @@ components:
                                     type: object
                                     properties: 
                                       0: 
-                                        type: string  
+                                        type: string
     Omni:
       type: object
       properties:
         dbaName:
-          type: string
           description: Do Business As Name for the merchant
+          type: string 
           maxLength: 100
           minLength: 20
           example: 'TEST DBANAME'
         legalName:
-          type: string
           description: Legal Name for the merchant
+          type: string
           maxLength: 100
           minLength: 3
           example: 'TEST LEGAL NAME'
@@ -422,72 +352,25 @@ components:
               description: Fees
               type: array
               items:
-                type: object 
-                properties:
-                  attributes: 
+                type: string 
+                enum:
+                  - F100PRODMON
+                  - F1TMACCSETADDLOC
+                  - F250STMTCR3M
+                  - FACCENTMON
+                  - FACCENTSETUP
+            attributes:               
+              description: Attributes
+              type: object
+              properties:
+                feeAttr:
+                  description: Fee Attribute
+                  type: object
+                  properties:
+                    processingInd:
+                      description: Processing Indicator
                       type: object
-                      properties: 
-                        feeAttr: 
-                          type: object
-                          properties: 
-                            domainDescription: 
-                              type: string
-                            processingInd: 
-                              type: object
-                              properties: 
-                                attributeDescription: 
-                                  type: string
-                                values: 
-                                  type: array
-                                  items: 
-                                    type: object
-                                    properties: 
-                                      0: 
-                                        type: string
-  responses:
-    apiSpecResponseWrapper:
-      description: OpenAPI Spec for the APIs. 
-      content: {}
-    docsResponseWrapper:
-      description: Markdown files.
-      content: {}
-    liveResponse:
-      description: Health check.
-      content:
-        application/json: 
-          schema:
-            $ref: '#/components/schemas/North'
-        text/yaml:
-          schema:
-            $ref: '#/components/schemas/North'
-        text/plain:
-          schema:
-            $ref: '#/components/schemas/North'
-    productPage:
-      description: This text will appear as description of your response body. 
-      content:
-        application/json:
-          schema:
-            $ref: '#/components/schemas/Omni'
-        text/yaml:
-          schema:
-            $ref: '#/components/schemas/Omni'
-        text/plain:
-          schema:
-            $ref: '#/components/schemas/Omni'
-    tenant:
-      description: This text will appear as description of your response body. 
-      content:
-        application/json:
-          schema:
-            $ref: '#/components/schemas/Omni'
-        text/yaml:
-          schema:
-            $ref: '#/components/schemas/Omni'
-        text/plain:
-          schema:
-            $ref: '#/components/schemas/Omni'
-  securitySchemes:
-    basic:
-      type: http
-      scheme: basic
+                    frequencyInd: 
+                      description: Frequency Indicator
+                      type: object
+    
