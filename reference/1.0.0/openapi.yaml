@@ -38,27 +38,27 @@ info:
 servers:
   - url: https://tenants.fiserv.com/
 paths:
-  /v1/products:
-    get:
+  /graphql:
+    post:
       tags:
-        - Omni
-      x-group-name: Omni
-      x-proxy-name: products
-      summary: Omni API.
-      operationId: merchantID
+        - Query
+      summary: Return the GrapghQL query Response.
+      parameters:
+        - in: query
+          name: path
+          schema:
+            type: string
+          required: true
+          description: Markdown document path
       responses:
         200:
-          description: Omni. <a href="https://fiserv.com" rel="noopener noreferrer" target="_blank">external link</a> <a href="../docs?path=docs/getting-started/setup-tenant/setup-tenant.md">Setup Tenant</a>
-          content:
+          description: ""
+          content: 
             application/json:
               schema:
-                $ref: '#/components/schemas/Omni'
-            text/yaml:
-              schema:
-                $ref: '#/components/schemas/Omni'
-            text/plain:
-              schema:
-                $ref: '#/components/schemas/Omni'
+                allOf:
+                  - $ref: '#/components/schemas/North'
+                  - $ref: '#/components/schemas/Omni'
   /v1/docs:
     get:
       tags:
