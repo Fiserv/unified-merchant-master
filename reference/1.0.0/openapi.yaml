@@ -41,14 +41,14 @@ paths:
   /v1/products:
     get:
       tags:
-        - Tenant
-      x-group-name: Tenant
+        - Omni
+      x-group-name: Omni
       x-proxy-name: products
-      summary: Returns tenant provider API.
-      operationId: TenantProviderID
+      summary: Omni API.
+      operationId: merchantID
       responses:
         200:
-          description: Tenant provider response. <a href="https://fiserv.com" rel="noopener noreferrer" target="_blank">external link</a> <a href="../docs?path=docs/getting-started/setup-tenant/setup-tenant.md">Setup Tenant</a>
+          description: Omni. <a href="https://fiserv.com" rel="noopener noreferrer" target="_blank">external link</a> <a href="../docs?path=docs/getting-started/setup-tenant/setup-tenant.md">Setup Tenant</a>
           content:
             application/json:
               schema:
@@ -140,6 +140,165 @@ components:
           maxLength: 100
           minLength: 20
           example: 'TEST DBANAME'
+        legalName:
+          description: Legal Name for the merchant
+          type: string
+          maxLength: 100
+          minLength: 3
+          example: 'TEST LEGAL NAME'
+        merchantBusinessInformation:
+          description: Merchant Business Information
+          type: object
+          properties:
+            legalEntityTypeCode:
+              description: Legal Entity Type Code
+              type: string
+              minLength: 5
+              maxLength: 10
+              enum: 
+                - PUBLIC_PRIVATE_CORP
+                - INTERNATIONAL_ORG
+                - TAX_EXEMPT_GOVERNMENT
+                - ASSOCIATION_ESTATE_TRUST
+                - OTHER
+                - PROPRIETOR
+                - PARTNERSHIP
+                - LTD_LIABILITY_COMP
+            registrationNumber:
+              description: Registration Number
+              type: string
+              minLength: 20
+              maxLength: 100
+        languageCode:
+          description: Language Code
+          type: string
+          enum: [Arabic, English, French]
+        businessTypCode:
+          description: Business Type Code
+          type: string
+          enum: [Retail, Moto_EComm]
+        merchantAttributes:
+          description: Merchant Attributes
+          type: object
+          properties:
+            boardingAdditionalInfo:
+              description: Boarding Additional Information
+              type: object
+              properties:
+                accountOfficerId:
+                  description: Account Officer ID
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - accountOfficerId
+                      type: array
+                      items:
+                        type: string
+            settlementConfig:
+              description: Settlement Configuration
+              type: object
+              properties:
+                settleFrequencyCode:
+                  description: Settle Frequency Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - settleFrequencyCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - AT_SETTLEMENT
+                          - DAILY_DISC
+        owners:
+          description: Owners
+          type: object
+          properties:
+            ownerIdentificationDetails:
+              description: Owner Identification Details
+              type: object
+              properties:
+                identityDocTypeCode:
+                  description: identity DocType Code
+                  type: string
+                  minLength: 3
+                  maxLength: 10
+                  example: "TIN"
+                identityDocNumber:
+                  description: Identity Doc Number
+                  type: string
+                  minLength: 20
+                  maxLength: 50
+        products:
+          type: object
+          properties:
+            fees:
+              type: array
+              items: 
+                  type: object
+                  properties: 
+                    productCode: 
+                      type: string
+                    retailAmountOrPercent: 
+                      type: number
+                    wholeSaleAmountOrPercent: 
+                      type: number
+                    attributes: 
+                      type: object
+                      properties: 
+                        feeAttr: 
+                          type: object
+                          properties: 
+                            domainDescription: 
+                              type: string
+                            processingInd: 
+                              type: object
+                              properties: 
+                                attributeDescription: 
+                                  type: string
+                                values: 
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties: 
+                                      0: 
+                                        type: string
+                            retailDate: 
+                              type: object
+                              properties: 
+                                attributeDescription: 
+                                  type: string
+                                values: 
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties: 
+                                      0: 
+                                        type: string
+                            wholesaleDate: 
+                              type: object
+                              properties: 
+                                attributeDescription: 
+                                  type: string
+                                values: 
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties: 
+                                      0: 
+                                        type: string
+                            frequencyInd: 
+                              type: object
+                              properties: 
+                                attributeDescription: 
+                                  type: string
+                                values: 
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties: 
+                                      0: 
+                                        type: string  
     Omni:
       type: object
       properties:
@@ -155,6 +314,136 @@ components:
           maxLength: 100
           minLength: 3
           example: 'TEST LEGAL NAME'
+        merchantBusinessInformation:
+          description: Merchant Business Information
+          type: object
+          properties:
+            legalEntityTypeCode:
+              description: Legal Entity Type Code
+              type: string
+              minLength: 3
+              maxLength: 3
+              enum: 
+                - JOINT_STOCK
+                - LEGAL_FORM
+                - PARTNERSHIP
+                - CHARITY
+                - LLC
+                - ASSOCIATIONS
+                - NA
+                - LIMITED_PARTNERS
+                - PUBLIC_COMPANY
+                - NONPROFITCOMPANY
+                - PROPRIETORSHIP
+                - NON_PROFIT_ORG
+                - OTHER
+                - GENERAL_PARTNERS
+                - EXTERNAL_COMPANY
+                - CORPORATION
+                - PRIVATE_COMPANY
+                - SOLE_TRADER
+            registrationNumber:
+              description: Registration Number
+              type: string
+              minLength: 0
+              maxLength: 15
+        languageCode:
+          description: Language Code
+          type: string
+          enum: [Arabic, English, French, Spanish, Swedish]
+        businessTypCode:
+          description: Business Type Code
+          type: string
+          enum: [Retail, Moto_EComm, Both]
+        merchantAttributes:
+          description: Merchant Attributes
+          type: object
+          properties:
+            boardingAdditionalInfo:
+              description: Boarding Additional Information
+              type: object
+              properties:
+                accountOfficerId:
+                  description: Account Officer ID
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - accountOfficerId
+                      type: array
+                      items:
+                        type: string
+            settlementConfig:
+              description: Settlement Configuration
+              type: object
+              properties:
+                settleFrequencyCode:
+                  description: Settle Frequency Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - settleFrequencyCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - DE_DAILY
+                          - IFS_DAILY
+                          - IFS_TREASURY
+                          - IFS_DAILY_NEG
+                          - DAILY_CUP
+                          - DE_DAILY_CUP
+                          - IFS_MONTHLY_NEG
+                          - IFS_DAILY_CUP
+                          - IFS_DAILY_NEG_CUP
+                          - DAILY
+        owners:
+          description: Owners
+          type: object
+          properties:
+            ownerIdentificationDetails:
+              description: Owner Identification Details
+              type: object
+              properties:
+                identityDocTypeCode:
+                  description: identity DocType Code
+                  type: string
+                  minLength: 3
+                  maxLength: 10
+                identityDocNumber:
+                  description: Identity Doc Number
+                  type: string
+                  minLength: 20
+                  maxLength: 50
+        products:
+          description: Products
+          type: object
+          properties:
+            fees:
+              description: Fees
+              type: array
+              items:
+                type: object 
+                properties:
+                  attributes: 
+                      type: object
+                      properties: 
+                        feeAttr: 
+                          type: object
+                          properties: 
+                            domainDescription: 
+                              type: string
+                            processingInd: 
+                              type: object
+                              properties: 
+                                attributeDescription: 
+                                  type: string
+                                values: 
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties: 
+                                      0: 
+                                        type: string
   responses:
     apiSpecResponseWrapper:
       description: OpenAPI Spec for the APIs. 
