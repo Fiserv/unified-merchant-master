@@ -36,19 +36,60 @@ info:
     and documentation.
   version: 1.0.0
 servers:
-  - url: https://connect.fiservapis.com/unifiedmerchantmaster/
+  - url: https://tenants.fiserv.com/
 paths:
-  /graphql:
+  /v1/products:
     get:
       tags:
-        - Query
-      x-group-name: Query
+        - North
+      x-group-name: North
       x-proxy-name: products
-      summary: UMM Query
+      summary: North API.
       operationId: merchantID
       responses:
         200:
-          description: Omni. <a href="https://fiserv.com" rel="noopener noreferrer" target="_blank">external link</a> <a href="../docs?path=docs/getting-started/setup-tenant/setup-tenant.md">Setup Tenant</a>
+          description: North. <a href="https://fiserv.com" rel="noopener noreferrer" target="_blank">external link</a> <a href="../docs?path=docs/getting-started/setup-tenant/setup-tenant.md">Setup Tenant</a>
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/North'
+            text/yaml:
+              schema:
+                $ref: '#/components/schemas/North'
+            text/plain:
+              schema:
+                $ref: '#/components/schemas/North'
+  /v1/docs:
+    get:
+      tags:
+        - Documents
+      x-group-name: Documents
+      x-proxy-name: docs
+      summary: Returns Docs in markdown format.
+      operationId: DocsAPIId
+      parameters:
+        - in: query
+          name: path
+          schema:
+            type: string
+          required: true
+          description: Markdown document path
+      responses:
+        200:
+          description: ""
+          content: {}
+      x-codegen-request-body-name: Body
+  /v1/layouts:
+    get:
+      tags:
+        - Layout
+      x-group-name: Layout
+      x-proxy-name: layouts
+      summary: Returns the product page layout.
+      operationId: LayoutAPIId
+      responses:
+        200:
+          description: This text will appear as description of your response body.
           content:
             application/json:
               schema:
@@ -59,6 +100,34 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/Omni'
+  /live:
+    get:
+      tags:
+        - HealthCheck
+      x-group-name: HealthCheck
+      x-proxy-name: live
+      summary: Health check probes.
+      operationId: healthCheckId
+      x-links: 
+        link1: 
+          description: Developer Studio
+          flag: external
+          url:  'https://dev-developerstudio.fiserv.com/'
+        link2: 
+          description: Setup tenant
+          flag: internal
+          url:  '../docs?path=docs/getting-started/setup-tenant/setup-tenant.md'
+        link3: 
+          description: Fiserv Portal
+          flag: external
+          url:  'https://fiserv.com'
+      responses:
+        200:
+          description: Health check.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/North'
   
 components:
   schemas:
@@ -100,10 +169,88 @@ components:
               type: string
               minLength: 20
               maxLength: 100
+            salesCurrencyCode:
+              description: Sales Currency Code
+              type: string
+            customerServicePhoneNumber:
+              description: Customer Service Phone Number
+              type: string
+              minLength: 10
+              maxLength: 15
+            accountApprovalDate:
+              description: Account Approval Date
+              type: string
+              minLength: 10
+              maxLength: 10
+            salesChannelId:
+              description: Sales Channel Id
+              type: string
+              minLength: 10
+              maxLength: 50
+            signedSalesValue:
+              description: Signed Sales Value
+              type: string
+              minLength: 38
+              maxLength: 38
+            averageTicketAmount:
+              description: Average Ticket Amount
+              type: string
+              minLength: 38
+              maxLength: 38
+            annualSalesAmount:
+              description: Annual Sales Amount
+              type: string
+              minLength: 38
+              maxLength: 38
+            accountSignedDate:
+              description: Account Signed Date
+              type: string
+              minLength: 10
+              maxLength: 10
+            legalContactName:
+              description: Legal Contact Name
+              type: string
+              minLength: 30
+              maxLength: 80
+            legalContactTitle:
+              description: Legal Contact Title
+              type: string
+              minLength: 30
+              maxLength: 80
+            salesTaxExemptIndicator:
+              description: Sales Tax Exempt Indicator
+              type: string
+              minLength: 1
+              maxLength: 1
+            thirdPartyProcessorCode:
+              description: Third Party Processor Code
+              type: string
+              minLength: 3
+              maxLength: 10
+              enum:
+                - APRIVA
+                - VERIFONE
+                - SHIFT4
+                - NONE
+                - CYBERSOURCE
+                - AUTH.NET
+                - YAHOO
+                - FIS
+                - SIX_PMT_SVC_GRP
+                - VERISIGN
+                - OTHER
+                - MER_LINK
         languageCode:
           description: Language Code
           type: string
+          minLength: 5
+          maxLength: 10
           enum: [Arabic, English, French]
+        merchantCategoryCode:
+          description: Merchant Category Code
+          type: string
+          minLength: 4
+          maxLength: 4
         businessTypCode:
           description: Business Type Code
           type: string
@@ -125,6 +272,296 @@ components:
                       type: array
                       items:
                         type: string
+                residencyFeeLevelCode:        
+                  description: Residency Fee Level Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attributes - residencyFeeLevelCode
+                      type: array
+                      items:
+                        type: string
+                branchId:        
+                  description: Branch ID
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attributes - branchId
+                      type: array
+                      items:
+                        type: string
+                floorLimitCurrencyCode:        
+                  description: Floor Limit Currency Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attributes - floorLimitCurrencyCode
+                      type: array
+                      items:
+                        type: string
+                merchantGrade:        
+                  description: Merchant Grade
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attributes - merchantGrade
+                      type: array
+                      items:
+                        type: string
+                secondaryTaxId:        
+                  description: Secondary Tax ID
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attributes - secondaryTaxId
+                      type: array
+                      items:
+                        type: string
+                businessOwnerId:        
+                  description: Business Owner ID
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attributes - businessOwnerId
+                      type: array
+                      items:
+                        type: string
+                salesLead:        
+                  description: Sales Lead
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attributes - salesLead
+                      type: array
+                      items:
+                        type: string
+                signedNumberSales:        
+                  description: Signed Number Sales
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attributes - signedNumberSales
+                      type: array
+                      items:
+                        type: string
+                referenceId:        
+                  description: Reference ID
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attributes - referenceId
+                      type: array
+                      items:
+                        type: string
+                referenceValue:        
+                  description: Reference Value
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attributes - referenceValue
+                      type: array
+                      items:
+                        type: string
+            contract:
+              description: Contract
+              type: object
+              properties:
+                contractReference:
+                  description: Contract Reference
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - contractReference
+                      type: array
+                      items:
+                        type: string
+                clientTariff:
+                  description: Client Tariff
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - clientTariff
+                      type: array
+                      items:
+                        type: string
+                postingTariff:
+                  description: Posting Tariff
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - postingTariff
+                      type: array
+                      items:
+                        type: string
+                protectAgainstFXChange:
+                  description: Protect Against FXChange
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - protectAgainstFXChange
+                      type: array
+                      items:
+                        type: string
+                clientRegion:
+                  description: Client Region
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - clientRegion
+                      type: array
+                      items:
+                        type: string
+                tierStructure:
+                  description: Tier Structure
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - tierStructure
+                      type: array
+                      items:
+                        type: string
+                withholdIncomeTariff:
+                  description: Withhold Income Tariff
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - withholdIncomeTariff
+                      type: array
+                      items:
+                        type: string
+                withholdVatTariff:
+                  description: Withhold Vat Tariff
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - withholdVatTariff
+                      type: array
+                      items:
+                        type: string
+                regionalTax:
+                  description: Regional Tax
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - regionalTax
+                      type: array
+                      items:
+                        type: string
+                serviceContract:
+                  description: Service Contract
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - serviceContract
+                      type: array
+                      items:
+                        type: string
+            statementConfig:
+              description: Statement Configuration
+              type: object
+              properties:
+                paymentAdviceGeneration:
+                  description: Payment Advice Generation
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - paymentAdviceGeneration
+                      type: array
+                      items:
+                        type: string
+                paymentDeliveryMethodCode:
+                  description: Payment Delivery Method Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - paymentDeliveryMethodCode
+                      type: array
+                      items:
+                        type: string
+                email:
+                  description: Email
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - email
+                      type: array
+                      items:
+                        type: string
+                icplusStatementFormatCode:
+                  description: Statement Format Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - icplusStatementFormatCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - ICPLUS_LONG_STMT
+                statementFaxNumber:
+                  description: Statement Fax Number
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - statementFaxNumber
+                      type: array
+                      items:
+                        type: string
+                statementHoldIndicator:
+                  description: Statement Hold Indicator
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - statementHoldIndicator
+                      type: array
+                      items:
+                        type: string
+                statementMailToCode:
+                  description: Statement Mail to Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - statementMailToCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - MAIL_TO_CORP_NO_RECAP
+                          - SUPP_STMT_RECAP
+                          - RECAP_NO_STMT
+                          - MAIL_TO_CORP
+                          - MAIL_TO_OUTLET
+                          - RECAP_CORP_STMT_OUTLET
+                statementDeliveryCode:
+                  description: Statement Delivery Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - statementDeliveryCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - EMAIL
+                          - BOTH
+                          - HOLD
+                          - MAIL
+                          - ONLINE
+                          - PRINT
+                statementTypeCode:
+                  description: Statement Type Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - statementTypeCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - FISERV_SUMMARY
+                          - CONCORD_DETAIL
+                          - CONCORD_SUMMARY
+                          - FISERV_DETAIL
             settlementConfig:
               description: Settlement Configuration
               type: object
@@ -141,6 +578,441 @@ components:
                         enum:
                           - AT_SETTLEMENT
                           - DAILY_DISC
+                processingTypeCode:
+                  description: Processing Type Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - processingTypeCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - PAPER_TERMINAL
+                          - PAPER_VOICE
+                          - DIRECT_SOLUTIONS
+                          - CASH_ADV_OUTLET_ON_US
+                          - ECR
+                          - TAPE_DEPOSITOR
+                          - FUNDING_ACCT
+                          - EDC
+                billbackCode:
+                  description: Billback Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - billbackCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - AUTO_BILLBK_NO_REVERSAL
+                          - LEGACY
+                          - FUEL_CARD
+                          - AUTO_BILLBK_ON
+                          - AUTO_BILLBK_OFF
+                          - NOT_AUTO_BILLBK
+                          - AUTO_BILLBK_WITH_REVERSAL
+                billbackHierarchyCode:
+                  description: Billback Hierarchy Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - billbackHierarchyCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - BANK
+                          - CHAIN
+                          - OUTLET
+                billbackSurchargeCode:
+                  description: Billback Surcharge Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - billbackSurchargeCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - FUEL_CARD_PLAN_CODE_VI
+                          - GOVT_PLAN_CODE_VI
+                          - EXCLUDE_AUTO_FUEL_VI
+                          - COMMERCIAL_CARD_PLAN_CODE_MC_VI
+                          - CORP_CARD_PLAN_CODE_MC_VI
+                          - AUTO_BILLSRCHRG_MER
+                          - AUTO_BILL_SRCHRG_BSNS
+                          - NO_AUTO_BILL_SRCHRG
+                surchargeExceptionCode:
+                  description: Surcharge Exception Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - surchargeExceptionCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - ALLOW_SCHG
+                          - NO_SCHG_VISA_INF_MC_F20A
+                          - NO_SCHG_VISA_INF_COMM
+                          - NO_SCHG_VISA_SIG_COMM
+                          - NO_SCHG_VISA_INF_MC
+                          - NO_SCHG_VISA_SIG_MC
+                billbackRoundingIndicator:
+                  description: Billback Rounding Indicator
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - billbackRoundingIndicator
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - NO
+                          - YES
+            fundingConfig:
+              description: Funding Configuration
+              type: object
+              properties:
+                fundingMethodCode:
+                  description: Funding Method Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingMethodCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - ACH_MER_BLK_CHAIN
+                          - BNKWIRE_CHAIN_AUTO_NEG
+                          - BNKWIRE_OUTLET
+                          - BNKWIRE_BANK
+                          - ACH_BANK
+                          - ACH_OUTLET
+                          - CHK_TO_MAIN_BLK_LVL
+                          - BY_CHK_TO_OUTLET
+                          - BNKWIRE_MER_BLK_CHAIN
+                          - AGENT_BANK_SPLIT_FUNDING
+                          - SPLIT_CHAIN_BNKWIRE_ACH
+                          - SPLIT_OUTLET_BNKWIRE_ACH
+                          - BNKWIRE_AGENT_AUTO_NEG
+                billbackSurchargeCode:
+                  description: Billback Surcharge Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - billbackSurchargeCode
+                      type: array
+                      items:
+                        type: string
+                fundingRunCode:
+                  description: Funding Run Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingRunCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - FUNDING_RUN4
+                          - FUNDING_RUN6
+                          - FUNDING_RUN3
+                          - FUNDING_RUN1
+                          - FUNDING_RUNS
+                          - FUNDING_RUN2
+                fundingRollupCode:
+                  description: Funding Rollup Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingRollupCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - NET_FEE_TRANS
+                          - EACH_TRANSFER
+                          - DEPOSIT_BATCH
+                          - DEBIT_CREDIT
+                          - NET_ROLLUP
+                          - VIA_CATGRY
+                fundingAchDelayDays:
+                  description: Funding ACH Delay Days
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingAchDelayDays
+                      type: array
+                      items:
+                        type: string
+                fundingExcludeCode:
+                  description: Funding Exclude Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingExcludeCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - YES
+                          - NO
+                          - DIVERT
+                fundingExcludeDailyLimitAmount:
+                  description: Funding Exclude Daily Limt Amount
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingExcludeDailyLimitAmount
+                      type: array
+                      items:
+                        type: string
+                fundingExclude30DayLimitAmount:
+                  description: Funding Exclude 30 Day Limit Amount
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingExclude30DayLimitAmount
+                      type: array
+                      items:
+                        type: string
+                fundingRppDelayDays:
+                  description: Funding Rpp Delay Days
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingRppDelayDays
+                      type: array
+                      items:
+                        type: string
+                fundingRppMinimumAmount:
+                  description: Funding Rpp Minimum Amount
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingRppMinimumAmount
+                      type: array
+                      items:
+                        type: string
+                fundingRppMinimumReserveAmount:
+                  description: Funding Rpp Minimum Reserve Amount
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingRppMinimumReserveAmount
+                      type: array
+                      items:
+                        type: string
+                fundingRppPercent:
+                  description: Funding Rpp Percent
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingRppPercent
+                      type: array
+                      items:
+                        type: string
+                ptsLimitsIndicator:
+                  description: Pts Limits Indicator
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - ptsLimitsIndicator
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - YES
+                          - NO
+                achSuspenseHoldIndicator:
+                  description: ACH Suspense Hold Indicator
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - achSuspenseHoldIndicator
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - NO
+                          - YES
+                fundingNotifyContactName:
+                  description: Funding Notify Contact Name
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingNotifyContactName
+                      type: array
+                      items:
+                        type: string
+                fundingNotifyFaxNumber:
+                  description: Funding Notify Fax Number
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingNotifyFaxNumber
+                      type: array
+                      items:
+                        type: string
+                fundingNotifyIndicator:
+                  description: Funding Notify Indicator
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingNotifyIndicator
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - YES
+                          - NO
+                fundingNotifyMethodCode:
+                  description: Funding Notify Method Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - fundingNotifyMethodCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - EMAIL
+                          - FAX
+                          - NOT_USED
+                          - TELEPHONE
+                          - MAIL
+                interchangeAssessmentsFundingRollupCode:
+                  description: Interchange Assessments Funding Rollup Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - interchangeAssessmentsFundingRollupCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - DEPOSIT_BATCH
+                          - DEBIT_CREDIT
+                          - NET_ROLLUP
+                          - EACH_TRANSFER
+                          - VIA_CATGRY
+                          - NET_FEE_TRANS
+                discountsFundingRollupCode:
+                  description: Discounts Funding Rollup Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - discountsFundingRollupCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - NET_ROLLUP
+                          - NET_FEE_TRANS
+                          - DEPOSIT_BATCH
+                          - DEBIT_CREDIT
+                          - EACH_TRANSFER
+                          - VIA_CATGRY
+                chargebacksFundingRollupCode:
+                  description: Chargebacks Funding Rollup Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - chargebacksFundingRollupCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - EACH_TRANSFER
+                          - VIA_CATGRY
+                          - NET_ROLLUP
+                          - DEBIT_CREDIT
+                          - DEPOSIT_BATCH
+                          - NET_FEE_TRANS
+                reversalsFundingRollupCode:
+                  description: Reversals Funding Rollup Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - reversalsFundingRollupCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - NET_ROLLUP
+                          - NET_FEE_TRANS
+                          - EACH_TRANSFER
+                          - DEPOSIT_BATCH
+                          - VIA_CATGRY
+                          - DEBIT_CREDIT
+                depositAdjustmentsFundingRollupCode:
+                  description: Deposit Adjustments Funding Rollup Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - depositAdjustmentsFundingRollupCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - NET_FEE_TRANS
+                          - DEPOSIT_BATCH
+                          - DEBIT_CREDIT
+                          - NET_ROLLUP
+                          - VIA_CATGRY
+                          - EACH_TRANSFER
+                nonBankcardAdjustmentsFundingRollupCode:
+                  description: Non-Bankcard Adjustments Funding Rollup Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - nonBankcardAdjustmentsFundingRollupCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - EACH_TRANSFER
+                          - NET_FEE_TRANS
+                          - DEPOSIT_BATCH
+                          - DEBIT_CREDIT
+                          - NET_ROLLUP
+                          - VIA_CATGRY
+                depositsFundingRollupCode:
+                  description: Deposits Funding Rollup Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - depositsFundingRollupCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - DEBIT_CREDIT
+                          - NET_ROLLUP
+                          - VIA_CATGRY
+                          - NET_FEE_TRANS
+                          - DEPOSIT_BATCH
+                          - EACH_TRANSFER
+                feesFundingRollupCode:
+                  description: Fees Funding Rollup Code
+                  type: object
+                  properties:
+                    values:
+                      description: Values for attribute - feesFundingRollupCode
+                      type: array
+                      items:
+                        type: string
+                        enum:
+                          - NET_FEE_TRANS
+                          - DEBIT_CREDIT
+                          - DEPOSIT_BATCH
+                          - EACH_TRANSFER
+                          - NET_ROLLUP
+                          - VIA_CATGRY
         owners:
           description: Owners
           type: object
