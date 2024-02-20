@@ -134,18 +134,39 @@ components:
     North:
       type: object
       properties:
-        dbaName:
+        merchantId:
+          description: Merchant ID
           type: string
-          description: Do Business As Name for the merchant
-          maxLength: 100
-          minLength: 20
-          example: 'TEST DBANAME'
+          minLength: 8
+          maxLength: 50
+        merchantXrefs:
+          description: Merchant Xrefs
+          type: array
+          items:
+              type: object
+              properties:
+                xrefPlatformCode:
+                  description: XREF Platform Code
+                  type: string
+                  minLength: 5
+                  maxLength: 40
+                xrefPlatformMid:
+                  description: XREF Platform MID
+                  type: string
+                  minLength: 5
+                  maxLength: 50
         legalName:
           description: Legal Name for the merchant
           type: string
-          maxLength: 100
           minLength: 3
+          maxLength: 100
           example: 'TEST LEGAL NAME'
+        dbaName:
+          type: string
+          description: Do Business As Name for the merchant
+          minLength: 20
+          maxLength: 100
+          example: 'TEST DBANAME'
         merchantBusinessInformation:
           description: Merchant Business Information
           type: object
@@ -1583,95 +1604,3354 @@ components:
                       type: array
                       items:
                         type: string
-        owners:
-          description: Owners
+        pricingTypeCode:
+          description: Pricing Type Code
+          type: string
+          minLength: 3
+          maxLength: 27
+          enum: [RG_CASH_ADV, RG_DC_MOTO]
+        taxId:
+          description: Tax ID
+          type: string
+          minLength: 15
+          maxLength: 100
+        multiCurrencyIndicator:
+          description: Multi Currency Indicator
+          type: string
+          minLength: 3
+          maxLength: 50
+          enum:
+            - DCC_GMA
+            - TAI
+            - NO_CURR_CONV
+            - INDIA
+            - GLOBAL_EPRICING
+            - CURR_CONV
+            - FOREIGN_PROCESSING
+        merchantServiceNote:
+          description: Merchant Service Note
           type: object
           properties:
-            ownerIdentificationDetails:
-              description: Owner Identification Details
+            comments1Txt:
+              description: Comments 1 Text
+              type: string
+              minLength: 20
+              maxLength: 100
+        acctOpenDate:
+          description: Account Open Date
+          type: string
+          minLength: 10
+          maxLength: 10
+        salesmanCode:
+          description: Salesman Code
+          type: string
+          minLength: 20
+          maxLength: 100
+        addresses:
+          description: Merchant Addresses
+          type: array
+          items:
               type: object
               properties:
-                identityDocTypeCode:
-                  description: identity DocType Code
+                addressTypeCode:
+                  description: Merchant Address Type Code
+                  type: string
+                  minLength: 1
+                  maxLength: 10
+                address1Text:
+                  description: Address 1 Text
+                  type: string
+                  minLength: 80
+                  maxLength: 150
+                city:
+                  description: City
+                  type: string
+                  minLength: 40
+                  maxLength: 100
+                stateCode:
+                  description: State Code
                   type: string
                   minLength: 3
                   maxLength: 10
-                  example: "TIN"
-                identityDocNumber:
-                  description: Identity Doc Number
+                countryCode:
+                  description: Country Code
+                  type: string
+                  minLength: 2
+                  maxLength: 10
+                postalCode:
+                  description: Postal Code
+                  type: string
+                  minLength: 5
+                  maxLength: 20
+                countyCode:
+                  description: County Code
+                  type: string
+                  minLength: 2
+                  maxLength: 50
+                businessPhone:
+                  description: Business Phone
+                  type: string
+                  minLength: 10
+                  maxLength: 15
+                address2Text:
+                  description: Address 2 Text
+                  type: string
+                  minLength: 80
+                  maxLength: 150
+                address3Text:
+                  description: Address 3 Text
+                  type: string
+                  minLength: 80
+                  maxLength: 150
+                address4Text:
+                  description: Address 4 Text
+                  type: string
+                  minLength: 80
+                  maxLength: 150
+                address5Text:
+                  description: Address 5 Text
+                  type: string
+                  minLength: 80
+                  maxLength: 150
+                fax:
+                  description: Fax
+                  type: string
+                  minLength: 10
+                  maxLength: 100
+                deliveryMethod:
+                  description: Delivery Method
+                  type: string
+                  minLength: 10
+                  maxLength: 100
+                emailAddress:
+                  description: Email Address
+                  type: string
+                  minLength: 3
+                  maxLength: 320
+                effectiveStartDate:
+                  description: Effective Start Date
+                  type: string
+                  minLength: 10
+                  maxLength: 10
+                contactName:
+                  description: Contact Name
+                  type: string
+                  minLength: 30
+                  maxLength: 80
+                groupSpecific:
+                  description: Group Specific
+                  type: boolean
+                state:
+                  description: State
+                  type: string
+                  minLength: 2
+                  maxLength: 10
+                countyName:
+                  description: County Name
+                  type: string
+                  minLength: 2
+                  maxLength: 100
+                mobile:
+                  description: Mobile Number
+                  type: string
+                  minLength: 10
+                  maxLength: 15
+        merchantHierarchies:
+          description: Merchant Hierarchies
+          type: array
+          items:
+              type: object
+              properties:
+                hierarchyLevelCode:
+                  description: Hierarchy Level Code
                   type: string
                   minLength: 20
-                  maxLength: 50
+                  maxLength: 100
+                hierarchyMerchantId:
+                  description: Hierarchy Merchant Id
+                  type: string
+                  minLength: 8
+                  maxLength: 100
         products:
+          description: Merchant Products
           type: object
           properties:
-            fees:
+            entitlements:
+              description: Entitlements
               type: array
               items: 
                   type: object
                   properties: 
-                    productCode: 
-                      type: string
-                    retailAmountOrPercent: 
-                      type: number
-                    wholeSaleAmountOrPercent: 
-                      type: number
-                    attributes: 
+                    attributes:
+                      description: Attributes
                       type: object
                       properties: 
-                        feeAttr: 
+                        entitlementAttr:
+                          description: Entitlement Attribute
                           type: object
                           properties: 
-                            domainDescription: 
-                              type: string
-                            processingInd: 
+                            assigned:
+                              description: Assigned
                               type: object
                               properties: 
-                                attributeDescription: 
+                                values:
+                                  description: Values for attribute - assigned
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            mcIntlEcomFeeInd:
+                              description: Ecom Fee Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Values for attribute - mcIntlEcomFeeInd
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            mcPifFeeInd:
+                              description: Fee Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Values for attribute - mcPifFeeInd
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            mcAbvFeeInd:
+                              description: Fee Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Values for attribute - mcAbvFeeInd
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            mcPaymentFacilitatorId:
+                              description: Payment Facilitator ID
+                              type: object
+                              properties: 
+                                values:
+                                  description: Values for attribute - mcPaymentFacilitatorId
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            mcISOId:
+                              description: ISO ID
+                              type: object
+                              properties: 
+                                values:
+                                  description: Values for attribute - mcISOId
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            mcCrossBorderFeeInd:
+                              description: MC Cross Border Fee Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Values for attribute - mcCrossBorderFeeInd
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            viCrossBorderFeeInd:
+                              description: VI Cross Border Fee Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Values for attribute - viCrossBorderFeeInd
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            viCanIasfFeeInd:
+                              description: VI CanIasf Fee Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Values for attribute - viCanIasfFeeInd
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            viEuIntlEcomFeeInd:
+                              description: VI Eu Intl Ecom Fee Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Values for attribute - viEuIntlEcomFeeInd
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            viEuIntlnonEcomFeeInd:
+                              description: VI Eu Intl Non-Ecom Fee Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Values for attribute - viEuIntlnonEcomFeeInd
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            viPaymentFacilitatorId:
+                              description: VI Payment Facilitator Id
+                              type: object
+                              properties: 
+                                values:
+                                  description: Values for attribute - viPaymentFacilitatorId
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            seNum:
+                              description: SE Number
+                              type: object
+                              properties: 
+                                values:
+                                  description: Values for attribute - seNum
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            mccCode:
+                              description: Merchant Category Code
+                              type: object
+                              properties: 
+                                values:
+                                  description: Card Brand Merchant Category Code values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            discountMethodCode:
+                              description: Discount Method Code
+                              type: object
+                              properties: 
+                                values:
+                                  description: Discount Method Code values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - DM_DUMMY_ACCOUNT
+                                          - RT_DISCOUNT_RATES
+                                          - T2_TIERED_DISCOUNT
+                                          - BAMS_DISCOUNT_OPTION_1
+                                          - T10_TIERED_DISCOUNT
+                                          - T13_TIERED_DISCOUNT
+                                          - FISERV_DISCOUNT_OPTION
+                                          - T9_TIERED_DISCOUNT
+                                          - ML_DISCOUNT_OPTION_1
+                                          - T1_TIERED_DISCOUNT
+                                          - TIERED_DISCOUNT_43
+                                          - T8_TIERED_DISCOUNT
+                                          - T7_TIERED_DISCOUNT
+                                          - T4_TIERED_DISCOUNT
+                                          - WELLS_FLAT_RATE
+                                          - T5_TIERED_DISCOUNT
+                                          - T3_TIERED_DISCOUNT
+                                          - ML_DISCOUNT_OPTION_2
+                                          - ML_DISCOUNT_OPTION_7
+                                          - T0_TIERED_DISCOUNT
+                                          - GD_GRID
+                                          - ML_DISCOUNT_OPTION_6
+                                          - T12_TIERED_DISCOUNT
+                                          - T6_TIERED_DISCOUNT
+                                          - IP_INTERCHANGE_FEES
+                                          - RF_PROCESSING_FEES
+                                          - T11_TIERED_DISCOUNT
+                                          - ML_DISCOUNT_OPTION_4
+                                          - ML_DISCOUNT_OPTION_5
+                            clearingPlanCode:
+                              description: Clearing Plan Code
+                              type: object
+                              properties: 
+                                values:
+                                  description: clearingPlanCode values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            edcCode:
+                              description: EDC Code
+                              type: object
+                              properties: 
+                                values:
+                                  description: Card brand EDC Code values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            effectiveDate:
+                              description: Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Entitlement contract date values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            floorLimitAmount:
+                              description: Floor Limit Amount
+                              type: object
+                              properties: 
+                                values:
+                                  description: Entitlement floor limit amount values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: integer
+                            pricingPlanCode:
+                              description: Pricing Plan Code
+                              type: object
+                              properties: 
+                                values:
+                                  description: Entitlement Pricing Plan Code values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            serviceTypeCode:
+                              description: Service Type Code
+                              type: object
+                              properties: 
+                                values:
+                                  description: Card Brand Service Type values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NOT_ENTITLED
+                                          - INFO_ONLY_SPLIT_DIAL
+                                          - MEMO_POST
+                                          - FULL_SERVICE
+                                          - DEPOSIT_AND_AUTH_CAPTURE
+                                          - AUTH_ONLY
+                            signedVolumeAmount:
+                              description: Signed Volume Amount
+                              type: object
+                              properties: 
+                                values:
+                                  description: Bank card signed sales volume amount at time of boarding enrollment values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: integer
+                            serviceEstablishmentNumber:
+                              description: Service Establishment Number
+                              type: object
+                              properties: 
+                                values:
+                                  description: Card Brand Service Establishment Number values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: integer
+                            clovergoStatus:
+                              description: Clover Go Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Clover Go - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            clovergoOfferingType:
+                              description: Clover Go Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Clover Go - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            gyftStatus:
+                              description: GYFT Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for GYFT - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            gyftBillingMethod:
+                              description: GYFT Billing Method
+                              type: object
+                              properties: 
+                                values:
+                                  description: Billing Method for GYFT - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - VALUELINK
+                                          - CLOVER
+                            paypalEnblOfferingType:
+                              description: Paypal Enablement Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: offering Type for Paypal Enablement for Discover - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NOT_ELIGIBLE_ACQ_ON
+                                          - ELIGIBLE
+                            valuelinkSeNumber:
+                              description: Value Link SE Number
+                              type: object
+                              properties: 
+                                values:
+                                  description: Value Link SE Number - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            paypalVenmoPayerId:
+                              description: Paypal/Venmo Payer ID
+                              type: object
+                              properties: 
+                                values:
+                                  description: Paypal/Venmo Payer ID - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            paypalVenmoLocationID:
+                              description: Paypal/Venmo Location ID
+                              type: object
+                              properties: 
+                                values:
+                                  description: Paypal/Venmo Location ID - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            paypalVenmoLatitude:
+                              description: Paypal/Venmo Latitude
+                              type: object
+                              properties: 
+                                values:
+                                  description: Paypal/Venmo Latitude for Merchant Location - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            paypalVenmoLongitude:
+                              description: Paypal/Venmo Longitude
+                              type: object
+                              properties: 
+                                values:
+                                  description: Paypal/Venmo Longitude for Merchant Location - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            paypalVenmoPayerIdStatus:
+                              description: Paypal/Venmo Payer ID Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Paypal/Venmo Payer ID Status - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - FAILED
+                                          - INITIATED
+                                          - PROVISIONED
+                            paypalVenmoLocationIDStatus:
+                              description: Paypal/Venmo Location ID Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Paypal/Venmo Location ID Status - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - PENDING
+                                          - OPTED_OUT
+                                          - INITIATED
+                                          - PROVISIONED
+                                          - FAILED
+                            paypalVenmoErrorMessage:
+                              description: Paypal/Venmo Error Message
+                              type: object
+                              properties: 
+                                values:
+                                  description: Paypal/Venmo Error Message - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            bentoBoxStatus:
+                              description: Bento Box Program Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Bento Box Program Status - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            interacFlashMVV:
+                              description: Interac Flash MVV
+                              type: object
+                              properties: 
+                                values:
+                                  description: MVV for Interac Flash Entitlement - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            interacFlashStatus:
+                              description: Interac Flash Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Interac Flash Entitlement - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            interacContactStatus:
+                              description: Interac Contact Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Interac Contact Entitlement - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            interacInAppStatus:
+                              description: Interac In App Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Interac In App Entitlement - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            upiDebitStatus:
+                              description: UPI Debit Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for UPI Debit Entitlement - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            upiCreditStatus:
+                              description: UPI Credit Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for UPI Credit Entitlement - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            alipayOfferingType:
+                              description: Alipay Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Clover Go - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ALIPAY_ELIGIBLE
+                            chinaUnionOfferingType:
+                              description: China Union Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Clover Go - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CUP_ELIGIBLE
+            fees:
+              description: Fees
+              type: array
+              items: 
+                  type: object
+                  properties: 
+                    attributes:
+                      description: Attributes
+                      type: object
+                      properties: 
+                        feeAttr:
+                          description: Fee Attribute
+                          type: object
+                          properties: 
+                            processingInd:
+                              description: Processing Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Processing Indicator Values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - '1'
+                                          - '2'
+                                          - '3'
+                                          - '4'
+                                          - '5'
+                            frequencyInd:
+                              description: Frequency Indicator
+                              type: object
+                              properties: 
+                                attributeDescription:
+                                  description: Attribute Description
                                   type: string
-                                values: 
+                                values:
+                                  description: Frequency Indicator values
                                   type: array
                                   items: 
                                     type: object
                                     properties: 
                                       0: 
                                         type: string
-                            retailDate: 
+                                        enum:
+                                          - MONTHLY
+                                          - SPECIAL
+                                          - DAILY
+                                          - DELAYED_BILLING
+                                          - BIWEEKLY
+            valueAddedServices:
+              description: Value Added Services
+              type: array
+              items: 
+                  type: object
+                  properties: 
+                    attributes:
+                      description: Attributes
+                      type: object
+                      properties: 
+                        serviceAttr:
+                          description: Service Attribute
+                          type: object
+                          properties: 
+                            mcMoneySendStatus:
+                              description: Mastercard Moneysend Status
                               type: object
                               properties: 
-                                attributeDescription: 
-                                  type: string
-                                values: 
+                                values:
+                                  description: Mastercard Moneysend Status values
                                   type: array
                                   items: 
                                     type: object
-                                    properties: 
-                                      0: 
+                                    properties:
+                                      0:
                                         type: string
-                            wholesaleDate: 
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            mcMoneySendOfferingType:
+                              description: Mastercard Moneysend Offering Type
                               type: object
                               properties: 
-                                attributeDescription: 
-                                  type: string
-                                values: 
+                                values:
+                                  description: Mastercard Moneysend Program Type values
                                   type: array
                                   items: 
                                     type: object
-                                    properties: 
-                                      0: 
+                                    properties:
+                                      0:
                                         type: string
-                            frequencyInd: 
+                                        enum:
+                                          - PERSON_TO_PERSON
+                            memberShipId:
+                              description: Membership ID
                               type: object
                               properties: 
-                                attributeDescription: 
-                                  type: string
-                                values: 
+                                values:
+                                  description: SAMS Club Membership ID values
                                   type: array
                                   items: 
                                     type: object
-                                    properties: 
-                                      0: 
-                                        type: string  
+                                    properties:
+                                      0:
+                                        type: string
+                            clubNum:
+                              description: Club Number
+                              type: object
+                              properties: 
+                                values:
+                                  description: SAMS Club - Club Number values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            nxtRnwlDt:
+                              description: Next Renewal Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: SAMS Club Next Renewal Date values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            rnwlAmtPaid:
+                              description: Renewal Amount Paid
+                              type: object
+                              properties: 
+                                values:
+                                  description: SAMS Club Renewal Amount Paid values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            newUpgRnwlInd:
+                              description: New/Upgrade/Renewal Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: SAMS Club New/Upgrade/Renewal Indicator values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - UPGRADE
+                                          - NEW
+                                          - RENEW
+                            ceoLPreference:
+                              description: CEO Preference
+                              type: object
+                              properties: 
+                                values:
+                                  description: Wells Ceo Preference Field values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ONLINE_ONLY
+                                          - PRINT_ONLY
+                                          - ONLINE_AND_PRINT
+                            bobPreference:
+                              description: Bob Preference
+                              type: object
+                              properties: 
+                                values:
+                                  description: Wells Bob Preference Field values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ONLINE_AND_PRINT
+                                          - ONLINE_ONLY
+                                          - PRINT_ONLY
+                            companyId:
+                              description: Company ID
+                              type: object
+                              properties: 
+                                values:
+                                  description: Wells Company Id Field values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            dataRightsOptOutCode:
+                              description: Data Rights Opt Out Code
+                              type: object
+                              properties: 
+                                values:
+                                  description: Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - OPTED_OUT
+                                          - IAS_PRODUCT_EXCEPTION
+                            analyticsProductType:
+                              description: Analytics Product Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Product Offering That A Merchant Is Enrolled To Use - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - MSI_EXPRESS
+                                          - MSI_APP
+                                          - MAIN_STREET_INSIGHTS
+                            mainStreetProgramstatus:
+                              description: Mainstreet Program Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - UNSUBSCRIBED
+                                          - CANCELLED_BY_FD
+                                          - SUBSCRIBED
+                                          - PENDING_UPGRADE
+                                          - CANCELLED_BY_MERCHANT
+                                          - PENDING_CONTACTED
+                                          - FREE_TRIAL
+                                          - NO_RESPONSE
+                                          - PENDING_UNCONTACTED
+                            primaryEmailInd:
+                              description: Primary Email Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Primary Email Indicator values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - USE_USER_PROVIDED
+                                          - USE_PRIMARY_EMAIL
+                            cloverInsightsEmail:
+                              description: Clover Insights Email
+                              type: object
+                              properties: 
+                                values:
+                                  description: User Provided Clover Insights Email values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            mainStreetbillingEffectiveDate:
+                              description: Main Street Billing Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Billing Effective Date values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            perkaProductType:
+                              description: Perka Product Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Perka Product Type -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            contractSignDateTime:
+                              description: Contract Sign Date Time
+                              type: object
+                              properties: 
+                                values:
+                                  description: Date Time Contract Signed - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            perkaAccountNum:
+                              description: Perka Account Number
+                              type: object
+                              properties: 
+                                values:
+                                  description: Perka Account Number - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            perkaAccountStatus:
+                              description: Perka Account Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Account Status - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                                          - PENDING
+                            reccuringCharge:
+                              description: Reccuring Charge
+                              type: object
+                              properties: 
+                                values:
+                                  description: Recurring Charge - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            term:
+                              description: Term
+                              type: object
+                              properties: 
+                                values:
+                                  description: Term - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ANNUAL
+                                          - MONTHLY
+                            perkaUniqueId:
+                              description: Perka Unique Identifier
+                              type: object
+                              properties: 
+                                values:
+                                  description: Perka Unique Identifier - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            perkaTrainInd:
+                              description: Perka Training Identifier
+                              type: object
+                              properties: 
+                                values:
+                                  description: Perka Training Indicator - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - TRAINING_NOT_REQUESTED
+                                          - TRAINING_REQUESTED
+                            perkaBillingEffectiveDate:
+                              description: Perka Billing Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Billing Effective Date for Perka - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            veteransProgramType:
+                              description: Veterans Program Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Veterans Program Offering Type - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            veteransProgramstatus:
+                              description: Veterans Program Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Veterans Program Account Status - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            referralCode:
+                              description: Referral Code
+                              type: object
+                              properties: 
+                                values:
+                                  description: Referral Code - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            payezeeyProgramStatus:
+                              description: Payeezy Program Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Payeezy Program Status - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            payezeeyOfferingType:
+                              description: Payeezy Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Payeezy Offering Type - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            webStore:
+                              description: Web Store
+                              type: object
+                              properties: 
+                                values:
+                                  description: Web Store - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CLOVER_ONLINE_STORE
+                            payezeeyBillingEffectiveDate:
+                              description: Payezeey Billing Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Billing Effective Date - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            developerId:
+                              description: Developer ID
+                              type: object
+                              properties: 
+                                values:
+                                  description: Developer ID - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            developerEmailId:
+                              description: Developer Email ID
+                              type: object
+                              properties: 
+                                values:
+                                  description: Developer Email ID - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            masterpassstatus:
+                              description: Masterpass Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Masterpass Status - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            masterpassofferingType:
+                              description: Masterpass Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Masterpass Offering Type - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                                values1:
+                                  description: VRU Services Offering Type - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                values2:
+                                  description: Request New VRU Id For Compromised One - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            vruServiceofferingType:
+                              description: VRU Service Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: VRU Services Offering Type - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - WHITE_LISTED
+                                          - BLACK_LISTED
+                            requestNewVruIdCd:
+                              description: Request New VRU Id
+                              type: object
+                              properties: 
+                                values:
+                                  description: Request New VRU Id For Compromised One - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NEW_VRU_ID_COMPLETED
+                                          - NEW_VRU_ID_REQUESTED
+                                          - NO_REQUEST_OF_NEW_VRU
+                            rebateAmount:
+                              description: Rebate Amount
+                              type: object
+                              properties: 
+                                values:
+                                  description: EMV Rebate Amount - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            emvProgramStatus:
+                              description: EMV Program Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: EMV Program Status - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            emvOfferingType:
+                              description: EMV Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: EMV Offering Type - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - EMV_CAMPAIGN
+                            emvBillingEffectiveDate:
+                              description: EMV Billing Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: EMV Billing Effective Date - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            emvBillingExpirationDate:
+                              description: EMV Billing Expiration Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: EMV Billing Expiration Date - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            tempusProgramStatus:
+                              description: Tempus Program Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Tempus Program Status - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            fraudFlexStatus:
+                              description: Fraud Flex Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Fraud Flex - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            fraudFlexOfferingType:
+                              description: VRU Service Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: VRU Services Offering Type - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            fraudFlexBillingEffectiveDate:
+                              description: Fraud Flex Billing Effective Date
+                              properties: 
+                                values:
+                                  description: Billing Effective Date for Fraud Flex - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            emvEnablementStatus:
+                              description: EMV Enablement Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for EMV Enablement - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - MIX_EMV_AND_NON_EMV
+                                          - MERCH_EQ_EMV_CAPABLE
+                            fraudDetectstatus:
+                              description: Fraud Detect Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Fraud Detect - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            fraudDetectofferingType:
+                              description: Fraud Detect Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Fraud Detect - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NOT_APPLICABLE
+                                          - STANDARD
+                                          - PREMIUM
+                                          - ADVANCED
+                                          - ESSENTIALS
+                                          - FRAUD_DETECT_SMB_TRIAL
+                                          - FRAUD_DETECT_SMB
+                            fraudDetectBillingEffectiveDate:
+                              description: Fraud Detect Billing Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Billing Effective Date for Fraud Detect - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            gatewayApi:
+                              description: Gateway API
+                              type: object
+                              properties: 
+                                values:
+                                  description: Fraud Detect Entry Point - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NONE
+                                          - UCOMM
+                                          - PAYEEZY
+                                          - IPG
+                                          - FIRST_API
+                            mobInd:
+                              description: Mobile Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Mobile Indicator for BP Mobile - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NO
+                                          - YES
+                            bpMobiletermType:
+                              description: BP Mobile Terminal Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Mobile Terminal Type for BP Mobile - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            convenienceFeeInd:
+                              description: Convenience Fee Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Convenience Fee Indicator for BP Mobile - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NO
+                                          - YES
+                            chargebackInd:
+                              description: Chargeback Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: OEMV Chargeback Writeoff Indicator for BP Mobile - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NO
+                                          - YES
+                            terminalType01:
+                              description: Terminal Type 01
+                              type: object
+                              properties: 
+                                values:
+                                  description: Terminal Type 01 for BP Mobile - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            terminalType03:
+                              description: Terminal Type 03
+                              type: object
+                              properties: 
+                                values:
+                                  description: Terminal Type 03 for BP Mobile - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            ebtFnsNum:
+                              description: EBT FNS Number
+                              type: object
+                              properties: 
+                                values:
+                                  description: EBT FNS Number for BP Mobile - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            entInsightDemographicStatus:
+                              description: Enterprise Insight Demographic Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Enterprise Insights Demographic - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            entInsightDemographicOfferingType:
+                              description: Enterprise Insight Demographic Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Enterprise Insights Demographic - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            entInsightDemographicbillingEffectiveDate:
+                              description: Enterprise Insight Demographic Billing Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Billing Effective Date for Enterprise Insights Demographic - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            entInsightBenchStatus:
+                              description: Enterprise Insight Bench Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Enterprise Insights Bench - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            entInsightBenchofferingType:
+                              description: Enterprise Insight Bench Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Enterprise Insights Bench - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            entInsightBenchBillingEffectiveDate:
+                              description: Enterprise Insight Bench Billing Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Billing Effective Date for Enterprise Insights Bench - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            entInsightLobbyStatus:
+                              description: Enterprise Insight Lobby Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Enterprise Insights Lobby - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            entInsightLobbyOfferingType:
+                              description: Enterprise Insight Lobby Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Enterprise Insights Lobby - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            entInsightLobbyBillingEffectiveDate:
+                              description: Enterprise Insight Lobby Billing Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Billing Effective Date for Enterprise Insights Lobby - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            transactionInsightStatus:
+                              description: Transaction Insight Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Transaction Insights - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            transactionInsightOfferingType:
+                              description: Transaction Insight Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Transaction Insights - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            transactionInsightBillingEffectiveDate:
+                              description: Transaction Insight Billing Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Billing Effective Date for Transaction Insights - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            transarmorP2peStatus:
+                              description: Transrmor P2PE Pragram Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Transrmor P2PE Pragram Status - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            rsavpki:
+                              description: rsavpki for Transarmor
+                              type: object
+                              properties: 
+                                values:
+                                  description: rsavpki for Transarmor - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CHECKED
+                                          - NOT_CHECKED
+                            verifoneProtect:
+                              description: Verifone Protect
+                              type: object
+                              properties: 
+                                values:
+                                  description: Verifone Protect for Transarmor - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CHECKED
+                                          - NOT_CHECKED
+                            verifoneProtectWsp:
+                              description: Verifone Protect W/SP
+                              type: object
+                              properties: 
+                                values:
+                                  description: Verifone Protect W/SP for  Transarmor - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CHECKED
+                                          - NOT_CHECKED
+                            3des:
+                              description: 3DES
+                              type: object
+                              properties: 
+                                values:
+                                  description: 3DES for Transarmor - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CHECKED
+                                          - NOT_CHECKED
+                            ingenicoOnguard:
+                              description: Ingenico On-Guard
+                              type: object
+                              properties: 
+                                values:
+                                  description: Ingenico On-Guard for Transarmor - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NOT_CHECKED
+                                          - CHECKED
+                            aesDukpt:
+                              description: AES DUKPT
+                              type: object
+                              properties: 
+                                values:
+                                  description: AES DUKPT for Transarmor - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NOT_CHECKED
+                                          - CHECKED
+                            advInsightStatus:
+                              description: Advertising Insight Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Advertising Insights - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            advInsightOfferingType:
+                              description: Advertising Insight Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Advertising Insights - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            advInsightBillingEffectiveDate:
+                              description: Advertising Insight Billing Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Billing Effective Date for Advertising Insights - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            entInsightStatus:
+                              description: Enterprise Insight Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Enterprise Insights - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            entInsightOfferingType:
+                              description: Enterprise Insight Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Enterprise Insights - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            entInsightBillingEffectiveDate:
+                              description: Enterprise Insight Billing Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Billing Effective Date for Enterprise Insights - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            personalDataProtectionStatus:
+                              description: Personal Data Protection Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Personal Data Protection - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            personalDataProtectionOfferingType:
+                              description: Personal Data Protection Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Personal Data Protection - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            personalDataProtectionBillingEffectiveDate:
+                              description: Personal Data Protection Billing Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Billing Effective Date for Personal Data Protection - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            lcrStatus:
+                              description: LCR Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status of LCR Fallback - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - APPLY_FALL_BACK
+                                          - DO_NOT_APPLY_FALLBACK
+                            lcrDebitStatus:
+                              description: LCR Debit Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for LCR Debit Flags (Optional) - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ALLOW_DEBIT_FLAGS
+                                          - DONT_APPLY_DEBIT_FLAGS
+                            visaAcctUpdStatus:
+                              description: VISA Account Update Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status VISA Account Update -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            merchantIdentifier:
+                              description: Merchant Identifier
+                              type: object
+                              properties: 
+                                values:
+                                  description: Merchant Identifier for Wisely Entitlement - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - PF_CHANGS
+                                          - BO_JANGLES
+                                          - FIREBIRDS
+                                          - UNCLE_JULIO
+                                          - SONNYS_BBQ
+                                          - SPRINKLES
+                                          - ABUELOS
+                                          - UNION_SQ_HOSPITAL
+                            enrollmentStatus:
+                              description: Enrollment Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Enrollment Status for Wisely Entitlement - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - DELETE
+                                          - ADD
+                            visaChkOutStatus:
+                              description: VISA Checkout Update
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status VISA Account Update -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            partner:
+                              description: Partner
+                              type: object
+                              properties: 
+                                values:
+                                  description: Partner for GBS POS Installments - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - BREAD
+                            ecommercePlatform:
+                              description: Ecommerce Platform
+                              type: object
+                              properties: 
+                                values:
+                                  description: Ecommerce Platform for GBS POS Installments - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - OTHER
+                                          - NOT_APPLICABLE
+                                          - ORACLE_NET_SUITE
+                                          - MAGENTO2
+                                          - MIVA
+                                          - WOOCOMMERCE
+                                          - SALESFORCE_COMMERCE
+                                          - 3DCART
+                                          - SHOPIFY
+                                          - KIBO
+                                          - BIGCOMMERCE
+                            channel:
+                              description: Channel
+                              type: object
+                              properties: 
+                                values:
+                                  description: Channel for GBS POS Installments - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - AGENT_ISV
+                                          - CMM
+                                          - CBS
+                            gbsPosInsStatus:
+                              description: GBS POS Installment Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for GBS POS Installment - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NEW_APPLICATION
+                                          - IN_PROGRESS
+                                          - CANCEL
+                                          - STANDARD_OFFERING
+                                          - APPROVED
+                                          - DECLINED
+                                          - LIVE
+                            gbsPosInsofferingType:
+                              description: GBS POS Installment Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for GBS POS Installment - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            visaOctStatus:
+                              description: VISA Oct Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Visa Oct -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            visaOctOfferingType:
+                              description: VISA Oct offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Visa Oct -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - PERSON_TO_PERSON
+                                          - BUSINESS_TO_BUSINESS
+                                          - FUNDS_DISBURSEMENTS
+                                          - GOVT_DISBURSEMENTS
+                                          - GAMBLING_PAYOUT
+                                          - LOYALTY_N_OFFERS
+                                          - MERCH_DISBURSEMENTS
+                                          - ONLINE_GAMBLING
+                                          - MNY_TRFR_MERCH_INIT
+                                          - BANK_INITIATED_P2P
+                                          - CASH_DEPOSIT
+                                          - ACCOUNT_TO_ACCOUNT
+                                          - FUNDS_TRANSFER
+                                          - WALLET_TRANSFER
+                                          - PAYRL_PNSN_DISBRSMNT
+                                          - RAPID_DEPOSIT
+                            visaActFndStatus:
+                              description: VISA Account Find Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Visa Act Find -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            visaActFndOfferingType:
+                              description: VISA Account Find Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Visa Act Find -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACCOUNT_TO_ACCOUNT
+                                          - BANK_INITIATED_TRANS
+                                          - FUNDS_TRANSFER
+                                          - WALLET_TRANSFER
+                                          - PREPAID_LOADS
+                                          - PERSON_TO_PERSON
+                                          - BUSINESS_TO_BUSINESS
+                                          - NON-CARD_BILL_PAY
+                                          - CREDIT_CARD_BILL_PAY
+                            discDbtAcpStatus:
+                              description: Discover Debit Acceptance Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Discover Debit Acceptance -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            discDbtAcpOfferingType:
+                              description: Discover Debit Acceptance Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Discover Debit Acceptance -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            discIncAuthStatus:
+                              description: Discover Inc Auth Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Discover Inc Auth -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            discIncAuthOfferingType:
+                              description: Discover Inc Auth Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Discover Inc Auth -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            merchSurchargeProgSurchargeRate:
+                              description: Merchant Surcharge Program Surcharge Rate
+                              type: object
+                              properties: 
+                                values:
+                                  description: Surcharge Rate for Merchant Surcharge Program - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            merchSurchargeProgStatus:
+                              description: Merchant Surcharge Program Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Merchant Surcharge Program - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL_SURCHARGING
+                                          - ACTIVE_SURCHARGING
+                            merchSurchargeProgOfferingType:
+                              description: Merchant Surcharge Program Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Merchant Surcharge Program - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - STANDARD_OFFERING
+                            thirdParty:
+                              description: Third Party
+                              type: object
+                              properties: 
+                                values:
+                                  description: Third Party for Merchant Surcharge Program - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - SNAPPAY_CARDX
+                                          - OTHER
+                                          - NON_SURCHARGE_SNAPPAY_CARDX
+                                          - CARDX
+                                          - TEMPUS
+                                          - CENPOS
+                            merchSurchargeProgEffectiveDate:
+                              description: Merchant Surcharge Program Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Surcharge Effective Date for Merchant Surcharge Program - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            merchSurchargeProgSolutionType:
+                              description: Merchant Surcharge Program Solution Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Solution Type for Merchant Surcharge Program - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - FDMS_POS
+                                          - BLANK
+                                          - NON_FDMS_POS
+                            fiservTokenRequesterId:
+                              description: Fiserv Token Requester ID
+                              type: object
+                              properties: 
+                                values:
+                                  description: Fiserv Token Requester ID for Network Tokens - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            visa:
+                              description: VISA
+                              type: object
+                              properties: 
+                                values:
+                                  description: Visa Network Tokens - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - YES
+                                          - NO
+                            masterCard:
+                              description: Master Card
+                              type: object
+                              properties: 
+                                values:
+                                  description: Master Card Network Tokens - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - YES
+                                          - NO
+                            americanExpress:
+                              description: American Express
+                              type: object
+                              properties: 
+                                values:
+                                  description: American Express Network Tokens - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - YES
+                                          - NO
+                            discover:
+                              description: Discover
+                              type: object
+                              properties: 
+                                values:
+                                  description: Discover Token - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NO
+                                          - YES
+                            networkTokenStatus:
+                              description: Network Token Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Network Tokens - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            networkTokenOfferingType:
+                              description: VISA Account Find Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Offering Type for Network Tokens - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NT_ON_THE_GO
+                                          - NT_STANDARD
+                                          - NT_HYBRID
+                            networkTokenBillingEffectiveDate:
+                              description: Network Token Billing Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Billing Effective Date for Network Tokens - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            discPrmPrgEffectiveDate:
+                              description: Discover Prm Prg Effective Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Effective Date for Discover Prm Prg -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            discPrmPrgExpiryDate:
+                              description: Discover Prm Prg Expiry Date
+                              type: object
+                              properties: 
+                                values:
+                                  description: Expiry Date for Discover Prm Prg -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            discPrmPrgPVI:
+                              description: Discover Prm Prg PVI
+                              type: object
+                              properties: 
+                                values:
+                                  description: PVI for Discover Prm Prg -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            discPrmPrgStatus:
+                              description: Discover Prm Prg Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Discover Prm Prg -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - APPROVED
+                                          - DISCOVER_REVIEW
+                                          - DENIED
+                            discPrmPrgOfferingType:
+                              description: Discover Prm Prg Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: offering Type for Discover Prm Prg -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            dbtTermIdStatus:
+                              description: Debit Term Id Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Debit Term Id -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            pinlessEcomStatus:
+                              description: Pinless Ecomm Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Pinless Ecomm -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            tckCpPrdct:
+                              description: Telecheck CP Product
+                              type: object
+                              properties: 
+                                values:
+                                  description: Product for Telecheck CP -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            tckCpServEntl:
+                              description: Telecheck CP Service Entitlement
+                              type: object
+                              properties: 
+                                values:
+                                  description: Service Entitlement for Telecheck CP -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            tckCpPrcsInd:
+                              description: Telecheck CP Process Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Process Indicator Telecheck CP -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            tckCpStatus:
+                              description: Telecheck CP Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Program Status for Telecheck CP -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - CANCEL
+                                          - ACTIVE
+                            tckCpSettlInd:
+                              description: Telecheck CP Settlement Indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Settlement Indicator for Telecheck CP -  values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            transarmorProgramstatus:
+                              description: Transarmor Program Status
+                              type: object
+                              properties: 
+                                values:
+                                  description: Transarmor Program Status - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - ACTIVE
+                                          - CANCEL
+                            transarmorofferingType:
+                              description: Transarmor Offering Type
+                              type: object
+                              properties: 
+                                values:
+                                  description: Transarmor Offering Type - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - AUTHORIZATION_DATA
+                                          - SETTLEMENT_DATA
+                                          - AUTH_AND_SETTLEMENT
+                            encryptServiceLevelCode:
+                              description: Encryption security level code
+                              type: object
+                              properties: 
+                                values:
+                                  description: Encryption security level code - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - BOTH
+                                          - NONE
+                                          - TOKEN_ONLY
+                                          - ENCRP_ONLY
+                            encryptTokenHierarchyCode:
+                              description: Encryption token hierarchy level code
+                              type: object
+                              properties: 
+                                values:
+                                  description: Encryption multipay token hierarchy level code - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - BUSINESS
+                                          - OUTLET
+                                          - CHAIN
+                                          - CORP
+                                          - AGENT
+                                          - BANK
+                            encryptTokenCode:
+                              description: Encryption token type code
+                              type: object
+                              properties: 
+                                values:
+                                  description: Encryption token type code - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            encryptTypeCode:
+                              description: Encryption type code
+                              type: object
+                              properties: 
+                                values:
+                                  description: Encryption type code - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - 3DES
+                                          - VERISHIELD_TRANSARMOR
+                                          - VERISHIELD_PROTECT
+                                          - RSA_PKI
+                                          - INGENICO_ONGUARD
+                                          - AES_DUKPT
+                                          - NONE
+                            encryptExceptionKeyId:
+                              description: Encryption exception key ID
+                              type: object
+                              properties: 
+                                values:
+                                  description: Encryption exception key ID - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            encryptTokenOverrideIndicator:
+                              description: Encryption token override indicator
+                              type: object
+                              properties: 
+                                values:
+                                  description: Encryption multipay token override indicator - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                                        enum:
+                                          - NO
+                                          - YES
+                            vspBrand:
+                              description: VSP brand
+                              type: object
+                              properties: 
+                                values:
+                                  description: VSP brand indicates the TransArmor VeriFone VSP Brand - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+                            vspDomain:
+                              description: VSP domain
+                              type: object
+                              properties: 
+                                values:
+                                  description: VSP domain Indicates the Corporate Identifier for TransArmor VeriFone Edition - values
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties:
+                                      0:
+                                        type: string
+        merchantAccounts:
+          description: List of merchant accounts
+          type: object
+          properties:
+            accountUsageCode:
+              description: Account Usage Code
+              type: string
+              minLength: 3
+              maxLength: 10
+              enum:
+                - SAVINGS
+                - CHECKING
+            currencyCode:
+              description: Currency Code
+              type: string
+              minLength: 3
+              maxLength: 4
+            billingLevel:
+              description: Billing Level
+              type: boolean
+              minLength: 4
+              maxLength: 5
+            receiverCountry:
+              description: Receiver Country
+              type: string
+              minLength: 5
+              maxLength: 100
+            paymentReference:
+              description: Payment Reference
+              type: string
+              minLength: 10
+              maxLength: 100
+            bankName:
+              description: Bank Name
+              type: string
+              minLength: 10
+              maxLength: 100
+            nameOnAccount:
+              description: Name on Account
+              type: string
+              minLength: 5
+              maxLength: 100
+            routingNumber:
+              description: Bank Routing Number
+              type: string
+              minLength: 8
+              maxLength: 50
+            accountNumber:
+              description: Bank Account Number
+              type: string
+              minLength: 16
+              maxLength: 50
+            iban:
+              description: International Bank Account Number
+              type: string
+              minLength: 16
+              maxLength: 50
+            phoneNumber:
+              description: Phone Number
+              type: string
+              minLength: 10
+              maxLength: 15
+            contactName:
+              description: Contact Name
+              type: string
+              minLength: 10
+              maxLength: 80
+            correspondentBankNo:
+              description: Correspondent Bank Number
+              type: string
+              minLength: 10
+              maxLength: 50
+            bankCity:
+              description: Bank City
+              type: string
+              minLength: 10
+              maxLength: 50
+            paymentFormatId:
+              description: Payment Format Id
+              type: string
+              minLength: 10
+              maxLength: 100
+            clearingEntity:
+              description: Clearing Entity
+              type: string
+              minLength: 10
+              maxLength: 100
+            paymentDelayDays:
+              description: Payment Delay Days
+              type: integer
+              minLength: 1
+              maxLength: 3
+            correspondentBankAccount:
+              description: Correspondent Bank Account
+              type: string
+              minLength: 10
+              maxLength: 20
+            bankFundingFileCode:
+              description: Bank Funding File Code
+              type: string
+              minLength: 10
+              maxLength: 50
+              enum:
+                - DDA_BUSINESS_LEVEL
+                - DDA_BANK_LEVEL
+                - DDA_AGENT_LEVEL
+                - FED_BANK_LEVEL
+                - FED_AGENT_LEVEL
+                - FED_BUSINESS_LEVEL
+            sequenceNumber:
+              description: Bank Sequence Number
+              type: integer
+              minLength: 1
+              maxLength: 1
+            accountEffectiveDate:
+              description: Account Effective Date
+              type: string
+              minLength: 10
+              maxLength: 10
+        acctCloseDate:
+          description: Account Close Date
+          type: string
+          minLength: 10
+          maxLength: 10
+        merchantIrsDetails:
+          description: Merchant IRS Details
+          type: object
+          properties:
+            exclusionCode:
+              description: Exclusion Code
+              type: string
+              minLength: 1
+              maxLength: 80
+              enum:
+                - GOVERNMENT_ENTITY
+                - FOREIGN_ENTITY_VERIFIED
+                - FOREIGN_ENTITY_PRIOR_1/1/11
+                - NONPROFIT_NOT_VERIFIED
+                - NONPROFIT_VERIFIED
+                - FOREIGN_ENTITY_PENDING_VERIFICATION
+                - FINANCIAL_INSTITUTION
+                - NOT_EXCLUDED
+            irsTinValidationCode:
+              description: IRS TIN Validation Code
+              type: string
+              minLength: 10
+              maxLength: 80
+              enum:
+                - TIN_MISSING
+                - TIN_MATCHED
+                - DUPLICATE_TIN
+                - TIN_MATCHED_EIN
+                - TIN_UNISSUED
+                - TIN_NOTMATCHED
+                - INVALID_TIN
+                - FAILED_PRESCREEN
+                - TIN_MATCHED_SSN
+                - INVALID_NOT_TFN
+                - IN_PROCESS
+                - INVALID_TIN_MULTI_TFN
+                - TEST_ACCOUNT
+                - IN_PROCESS_NO_UPDATE_MMF
+                - TIN_MATCHED_SSN_EIN
+            tinValidationDate:
+              description: IRS TIN Validation Date
+              type: string
+              minLength: 10
+              maxLength: 10
+            payeeCode:
+              description: IRS Payee Code
+              type: string
+              minLength: 1
+              maxLength: 80
+              enum:
+                - CHAIN_PAYEE
+                - OUTLET_PAYEE_UNRELATED
+                - SINGLETON_PAYEE
+                - OUTLET_PAYEE_RELATED
+                - OUTLET_NON_PAYEE_RELATED
+                - OUTLET_NONPAYEE_UNRELATD
+                - CHAIN_OUTLET_NO_1099K
+                - CHAIN_NON_PAYEE
+                - CHAIN_PAYEE_AGREGATOR
+            cp2100NoticeReceivedDate:
+              description: CP2100 Notice Received Date
+              type: string
+              minLength: 10
+              maxLength: 10
+            cp2100NoticeEffectiveDate:
+              description: CP2100 Notice Effective Date
+              type: string
+              minLength: 10
+              maxLength: 10
+            withholdingNotificationCode:
+              description: Withholding Notification Code
+              type: string
+              minLength: 6
+              maxLength: 80
+              enum:
+                - 2ND_BUW_NOTICE
+                - 1099K_REPORT_AND_STATE
+                - 1ST_BUW_NOTICE
+                - BUW_MISSING_TIN
+                - TIMS_MANL_BUW
+                - 1099K_REPORT
+                - W8_EXP
+                - BUW_WARN_LETTER
+            withholdingNotificationDate:
+              description: Withholding Notification Date
+              type: string
+              minLength: 10
+              maxLength: 10
+            withHoldingReasonCode:
+              description: Withholding Reason Code
+              type: string
+              minLength: 1
+              maxLength: 80
+              enum:
+                - MISSING_TIN
+                - NO_RESPONSE_1ST_NOTICE
+                - NO_RESPONSE_2ND_NOTICE
+                - PROPOSED_PENALTY_RECEIVD
+                - MANUAL_OVERRIDE
+            withHoldingEffectiveDate:
+              description: Withholding Effective Date
+              type: string
+              minLength: 10
+              maxLength: 10
+            withHoldingEndDate:
+              description: Withholding End Date
+              type: string
+              minLength: 10
+              maxLength: 10
+            formCertStatusCode:
+              description: Form Certification Status Code
+              type: string
+              minLength: 1
+              maxLength: 80
+              enum:
+                - W9_RECEIVED_EXEMPTION
+                - W8_NO_EXPIRATIONS
+                - W8_FOREIGN_COMPLETE
+                - W8_FOREIGN_PNDING_REVIEW
+                - SS_CARDCOPY_OR_LTR147C
+                - INCOMPLETE_PAPERWORK
+                - FORM_CERTIFY_PENDING
+                - W9_ON_FILE
+                - W8_EXPIRATION_PENDING
+                - TIMS_MANUAL_BUW_OFF
+            formCertStatusReceivedDate:
+              description: Form Certification Status Received Date
+              type: string
+              minLength: 10
+              maxLength: 10
+            turfReasonCode:
+              description: TURF Update Reason Code
+              type: string
+              minLength: 1
+              maxLength: 80
+              enum:
+                - CHANGE_IN_OWNERSHIP
+                - CHANGE_IN_FILING_STATUS
+                - NO_TIN/TFN_CHANGE
+                - CORRECT_WRONG_TIN/TFN
+                - ADD_MISSING_TIN/TFN
+            turfEffectiveDate:
+              description: TURF Update Effective Date
+              type: string
+              minLength: 10
+              maxLength: 10
+            turfUpdateDate:
+              description: TURF Update Date
+              type: string
+              minLength: 10
+              maxLength: 10
+            taxEffectiveYear:
+              description: Tax Effective Year
+              type: string
+              minLength: 4
+              maxLength: 10
+            timsAccountNumber:
+              description: TIMS Account Number
+              type: string
+              minLength: 5
+              maxLength: 50
+            withHoldingCode:
+              description: TURF Update Reason Code
+              type: string
+              minLength: 1
+              maxLength: 80
+              enum:
+                - NOT_REQUIRED
+                - REQUIRED
+            fedWithHoldingPercent:
+              description: Fed withholding percent
+              type: integer
+              minLength: 1
+              maxLength: 7
+            stateWithHoldingPercent:
+              description: State withholding percent
+              type: integer
+              minLength: 1
+              maxLength: 3
+        owners:
+          description: Business Owners
+          type: array
+          items:
+              type: object
+              properties:
+                ownerIdentificationDetails:
+                  description: Owner Identification Details
+                  type: object
+                  properties:
+                    identityDocTypeCode:
+                      description: identity DocType Code
+                      type: string
+                      minLength: 3
+                      maxLength: 10
+                      example: "TIN"
+                    identityDocNumber:
+                      description: Identity Doc Number
+                      type: string
+                      minLength: 20
+                      maxLength: 50
+        businessUrl:
+          description: Business Website URL
+          type: string
+          minLength: 24
+          maxLength: 100
+        storeId:
+          description: Store ID
+          type: string
+          minLength: 10
+          maxLength: 100
+        lastStatusCode:
+          description: Merchant's Previous Status Code
+          type: string
+          minLength: 20
+          maxLength: 50
+          enum:
+            - CANCELLED_CREDIT
+            - CANCELLED_FRAUD
+            - PENDING
+            - ACTIVE
+            - CANCELLED_MERCHANT
+        closeReasonCode:
+          description: Reason Code for Closure
+          type: string
+          minLength: 20
+          maxLength: 50
+        franchiseIndicator:
+          description: Franchise Indicator
+          type: string
+          minLength: 2
+          maxLength: 50
+          enum:
+            - YES
+            - NO
+        seasonalIndicator:
+          description: Seasonal Indicator
+          type: string
+          minLength: 2
+          maxLength: 50
+          enum:
+            - NO
+            - YES
+        markerBankCode:
+          description: Marker Bank Code
+          type: string
+          minLength: 3
+          maxLength: 10
+        clearingBankCode:
+          description: Clearing Bank Code
+          type: string
+          minLength: 3
+          maxLength: 10
+        standardIndustryClassCode:
+          description: SIC Code
+          type: string
+          minLength: 4
+          maxLength: 4
+        statusCode:
+          description: Merchant Status Code
+          type: string
+          minLength: 7
+          maxLength: 50
+          enum:
+            - ACTIVE
+            - CANCELLED_MERCHANT
+            - CANCELLED_CREDIT
+            - CANCELLED_FRAUD
+            - PENDING
+        taxIdTypeCode:
+          description: Tax ID Type Code
+          type: string
+          minLength: 20
+          maxLength: 50
+          enum:
+            - REFUSED
+            - OTHER
+            - EIN
+            - SSN
+        intlTaxExemptIndicator:
+          description: International Tax Exempt Indicator
+          type: string
+          minLength: 2
+          maxLength: 50
+          enum:
+            - NO
+            - YES
     Omni:
       type: object
       properties:
@@ -1791,6 +5071,32 @@ components:
           description: Products
           type: object
           properties:
+            entitlements:
+              description: Entitlements
+              type: array
+              items:
+                type: object 
+                properties:
+                  attributes: 
+                      type: object
+                      properties: 
+                        entitlementAttr: 
+                          type: object
+                          properties: 
+                            assigned: 
+                              type: string
+                            processingInd: 
+                              type: object
+                              properties: 
+                                attributeDescription: 
+                                  type: string
+                                values: 
+                                  type: array
+                                  items: 
+                                    type: object
+                                    properties: 
+                                      0: 
+                                        type: string
             fees:
               description: Fees
               type: array
