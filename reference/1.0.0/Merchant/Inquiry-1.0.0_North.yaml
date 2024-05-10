@@ -1,0 +1,33 @@
+openapi: 3.0.3
+info:
+  title: Inquiry Service
+  description: This readonly service allows consumer to retrieve demographic information, entitlements, hardware
+    and value added services for a merchant
+  version: 1.0.0
+servers:
+  - url: '/'
+paths:
+  /graphql:
+    post:
+      tags:
+        - Inquiry Servie
+      summary: Inquiry Servie
+      description: "This readonly service allows consumer to retrieve demographic information, entitlements, hardware
+    and value added services for a merchant"
+      parameters:
+        - name: merchantId
+          in: query
+          description: merchant Id of the merchant inquired
+        - in: query
+          name: platformCode
+          description: merchant Id of the merchant inquired
+
+      responses:
+        "200":
+          description: Success
+      x-group-name: Inquiry
+      x-proxy-name: Graphql
+      x-child-product-name: Merchant
+      x-core: North
+
+  
