@@ -16,18 +16,32 @@ paths:
     and value added services for a merchant"
       parameters:
         - name: merchantId
+          allowEmptyValue: false
+          required: true
           in: query
           description: merchant Id of the merchant inquired
+          schema:
+            $ref: '#/components/schemas/merchantId'
         - in: query
+          allowEmptyValue: false
+          required: true
           name: platformCode
-          description: merchant Id of the merchant inquired
-
+          description: platform code of the merchant inquired
+          schema:
+            $ref: '#/components/schemas/merchantId'
       responses:
         "200":
           description: Success
       x-group-name: Inquiry
       x-proxy-name: Graphql
       x-child-product-name: Merchant
-      x-core: North
+      x-core: 'North'
+components:
+    schemas:
+      merchantId:
+        type: string
+        maxLength: 12
+        minimum: 12
+        description: merchant Id of the merchant inquired
 
-  
+

@@ -16,22 +16,37 @@ paths:
     and value added services for a merchant"
       parameters:
         - name: merchantId
+          allowEmptyValue: false
+          required: true
           in: query
           description: merchant Id of the merchant inquired
+          schema:
+            $ref: '#/components/schemas/merchantId'
         - in: query
+          allowEmptyValue: false
+          required: true
           name: platformCode
-          description: merchant Id of the merchant inquired
-
+          description: platform code of the merchant inquired
+          schema:
+            $ref: '#/components/schemas/platformCode'
       responses:
         "200":
           description: Success
-        "400":
-            description: Not Found
-        default:
-              description: To view the complete list of response codes, <a href="../docs/?path=docs/response-codes.md" title="Click to open">click here.</a>
       x-group-name: Inquiry
       x-proxy-name: Graphql
       x-child-product-name: Merchant
-      x-core: South
+      x-core: 'South'
+components:
+  schemas:
+    merchantId:
+      type: string
+      maxLength: 12
+      minimum: 12
+      description: merchant Id of the merchant inquired
+    platformCode:
+      type: string
+      enum:
+        - SOUTH
+      description: PlatformCode of the merchant inquired; For south use SOUTH
 
-  
+
