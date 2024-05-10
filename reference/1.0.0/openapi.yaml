@@ -65,7 +65,7 @@ paths:
         - Documents
       x-group-name: Documents
       x-proxy-name: docs
-      summary: Returns Docs in markdown format.
+      summary: Returns Docs in markdown format-sure.
       operationId: DocsAPIId
       parameters:
         - in: query
