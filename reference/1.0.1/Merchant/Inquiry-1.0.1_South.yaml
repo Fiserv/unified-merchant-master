@@ -5,13 +5,13 @@ info:
     and value added services for a merchant
   version: 1.0.1_South
 servers:
-  - url: '/'
+  - url: /
 paths:
   /graphql:
     post:
       tags:
         - Inquiry Servie
-      summary: Inquiry Servie
+      summary: Inquiry Service
       description: "This readonly service allows consumer to retrieve demographic information, entitlements, hardware
     and value added services for a merchant"
       parameters:
@@ -32,10 +32,10 @@ paths:
       responses:
         "200":
           description: Success
-      x-group-name: Inquiry
+      x-group-name: Inquiry Service
       x-proxy-name: Graphql
       x-child-product-name: Merchant
-      x-core: 'South'
+      x-core: South
 components:
   schemas:
     merchantId:
