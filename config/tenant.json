@@ -11,7 +11,8 @@
       "versionType": "major",
       "releaseNotesPath": "docs/release-notes/2022/march.md",
       "apiSpecFileNames": [
-        "openapi"
+        "Inquiry-1.0.0_North.yaml",
+        "Inquiry-1.0.0_South.yaml"
       ]
     }
   ],
