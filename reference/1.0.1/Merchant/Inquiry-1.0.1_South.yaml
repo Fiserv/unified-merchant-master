@@ -34,8 +34,8 @@ paths:
           description: Success
       x-group-name: Inquiry Service
       x-proxy-name: Graphql
-      x-child-product-name: Merchant
-      x-core: South
+   #   x-child-product-name: Merchant
+   #   x-core: South
 components:
   schemas:
     merchantId:
