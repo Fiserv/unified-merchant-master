@@ -11,7 +11,8 @@
       "versionType": "major",
       "releaseNotesPath": "docs/release-notes/2022/march.md",
       "apiSpecFileNames": [
-        "openapi"
+        "Merchant/Inquiry-1.0.0_North",
+        "Merchant/Inquiry-1.0.0_South"
       ]
     }
   ],
