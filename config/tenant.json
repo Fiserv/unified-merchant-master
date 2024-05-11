@@ -31,7 +31,7 @@
     "documenttreeV2": "/v2/docs/UNIFIEDMERCHANTMASTER",
     "docsCount": "/v2/docs/count/UNIFIEDMERCHANTMASTER",
     "sandbox": "/v2/sandboxrun/UNIFIEDMERCHANTMASTER",
-    "accessConfig": "/v1/fileAccess/UNIFIEDMERCHANT ASTER",
+    "accessConfig": "/v1/fileAccess/UNIFIEDMERCHANTMASTER",
     "assets": "/v1/assets/UNIFIEDMERCHANTMASTER",
     "feature": [
       {
