@@ -36,7 +36,7 @@ header:
     altText: REPLACEME™
 featuredFeatures:
   - title: TESTING REPLACE ME
-    description:  TESTING REPLACE ME
+    description:  REPLACED
     tags: ["REPLACEME", "REPLACEME", "REPLACEME"]
     bullets: ["REPLACEME", "REPLACEME" ]  
     relatedDocs:
