@@ -40,8 +40,8 @@ components:
   schemas:
     merchantId:
       type: string
-      maxLength: 12
-      minimum: 12
+      maxLength: 11
+      minimum: 11
       description: merchant Id of the merchant inquired
     platformCode:
       type: string
