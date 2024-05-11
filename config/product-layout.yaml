@@ -36,7 +36,7 @@ header:
     altText: REPLACEME™
 featuredFeatures:
   - title: TESTING REPLACE ME
-    description:  Replacing to see if deplyed.
+    description:  TESTING REPLACE ME
     tags: ["REPLACEME", "REPLACEME", "REPLACEME"]
     bullets: ["REPLACEME", "REPLACEME" ]  
     relatedDocs:
