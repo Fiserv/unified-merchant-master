@@ -37,10 +37,10 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/northResponse'
-      x-group-name: Inquiry Service
-      x-proxy-name: Graphql
-  #    x-child-product-name: Merchant
-  #    x-core: North
+      x-group-name: UNIFIEDMERCHANTMASTER
+      x-proxy-name: INQUIRY
+      #    x-child-product-name: Merchant
+      #    x-core: North
 components:
     schemas:
       merchantId:
