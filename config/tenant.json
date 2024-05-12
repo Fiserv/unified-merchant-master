@@ -13,7 +13,7 @@
       "versionType": "major",
       "releaseNotesPath": "docs/release-notes/2022/march.md",
       "apiSpecFileNames": [
-        "Inquiry-1.0.1_North"]
+        "Inquiry"]
     }
   ],
   "getStartedFilePath": "/docs/getting-started.md",
