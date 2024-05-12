@@ -11,7 +11,7 @@ paths:
     post:
       tags:
         - Inquiry Service
-      x-group-name: UNIFIEDMERCHANTMASTER
+      x-group-name: Inquiry
       x-proxy-name: INQUIRY
       summary: Inquiry Servie
       description: "This readonly service allows consumer to retrieve demographic information, entitlements, hardware
