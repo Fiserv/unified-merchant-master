@@ -1,7 +1,7 @@
 
 
 ---
-version: 1.0.1
+version: 1.1.0
 recipes:
 - link: recipes/Recipe-1.md
   title: Payment with JS
