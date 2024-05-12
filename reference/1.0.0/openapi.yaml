@@ -36,7 +36,7 @@ info:
     and documentation.
   version: 1.0.0
 servers:
-  - url: https://tenants.fiserv.com/
+  - url: https://connect.fiservapis.com/unifiedmerchantmaster/
 paths:
   /v1/products:
     get:
