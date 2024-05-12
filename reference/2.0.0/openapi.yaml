@@ -11,6 +11,8 @@ paths:
     post:
       tags:
         - Inquiry Service
+      x-group-name: UNIFIEDMERCHANTMASTER
+      x-proxy-name: INQUIRY
       summary: Inquiry Servie
       description: "This readonly service allows consumer to retrieve demographic information, entitlements, hardware
     and value added services for a merchant"
@@ -37,10 +39,9 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/northResponse'
-      x-group-name: Inquiry Service
-      x-proxy-name: Graphql
-  #    x-child-product-name: Merchant
-  #    x-core: North
+
+      #    x-child-product-name: Merchant
+      #    x-core: North
 components:
     schemas:
       merchantId:
