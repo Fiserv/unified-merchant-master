@@ -2,7 +2,7 @@
 
 March 03 2022
 
-## v1.0.0 (api version)
+## v1.1.0 (api version)
 
 ## What's New
 
