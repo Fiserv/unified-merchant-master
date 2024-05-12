@@ -13,7 +13,8 @@
       "versionType": "major",
       "releaseNotesPath": "docs/release-notes/2022/march.md",
       "apiSpecFileNames": [
-        "Inquiry"]
+        "openapi"
+      ]
     }
   ],
   "getStartedFilePath": "/docs/getting-started.md",
