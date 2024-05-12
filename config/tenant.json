@@ -9,7 +9,7 @@
   "brandDescription": "Explore and use our APIs to retrieve and maintain merchant data across backends",
   "apiVersions": [
     {
-      "version": "1.0.1",
+      "version": "1.0.0",
       "versionType": "major",
       "releaseNotesPath": "docs/release-notes/2022/march.md",
       "apiSpecFileNames": [
