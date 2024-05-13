@@ -394,7 +394,7 @@ components:
                       items:
                         type: string
                 protectAgainstFXChange:
-                  description: Protect Against FXChange Test ABCD
+                  description: Protect Against FXChange Test ABCDE
                   type: object
                   properties:
                     values:
