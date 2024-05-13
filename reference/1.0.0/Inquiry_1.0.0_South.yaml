@@ -34,7 +34,7 @@ info:
   description: To onboard properly into the Fiserv Developer Studio as a tenant each
     product must support these APIs so that we can retrieve product specific API specifications
     and documentation.
-  version: 1.0.0
+  version: 1.0.0_South
 servers:
   - url: https://connect.fiservapis.com/unifiedmerchantmaster/
 paths:
@@ -46,7 +46,7 @@ paths:
       x-group-name: Merchant
       x-proxy-name: graphql
       x-child-product-name: getMerchant
-      x-core: North
+      x-core: South
 
       summary: North API.
 
@@ -160,8 +160,6 @@ components:
         platformCode:
           type: string
           enum:
-            - NORTH
-            - OMAHA
             - SOUTH
         setupIndicator:
           type: string
@@ -254,10 +252,10 @@ components:
             $ref: '#/components/schemas/Address'
         products:
           $ref: '#/components/schemas/MerchantProduct'
-        merchantAttributes:
-          type: object
-          additionalProperties:
-            type: object
+#        merchantAttributes:
+#          type: object
+#          additionalProperties:
+#            type: object
         merchantBusinessInformation:
           $ref: '#/components/schemas/MerchantBusinessInformation'
         merchantHierarchies:
