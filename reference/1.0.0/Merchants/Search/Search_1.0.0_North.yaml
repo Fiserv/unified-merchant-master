@@ -36,7 +36,7 @@ info:
 servers:
   - url: https://connect.fiservapis.com/unifiedmerchantmaster/
 paths:
-  /getMerchant:
+  /graphql/search:
     post:
       tags:
         - merchant-open-api
@@ -49,7 +49,7 @@ paths:
       summary: GrpahQL API to search merchant by single or multiple search Criteria
 
       parameters:
-        - name: merchantId
+        - name: taxID
           in: query
           description: Merchant Id
           required: true
@@ -63,13 +63,6 @@ paths:
           schema:
             type: string
             description: Platform Code
-        - name: effectiveDate
-          in: query
-          description: Effective Date
-          required: false
-          schema:
-            type: string
-            description: Effective Date
       requestBody:
         content:
           application/json:
