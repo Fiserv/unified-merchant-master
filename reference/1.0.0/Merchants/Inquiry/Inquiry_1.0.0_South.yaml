@@ -30,11 +30,9 @@
 
 openapi: 3.0.2
 info:
-  title: Dev Portal Tenant APIs.
-  description: To onboard properly into the Fiserv Developer Studio as a tenant each
-    product must support these APIs so that we can retrieve product specific API specifications
-    and documentation.
-  version: 1.0.0
+  title: UMM Inquiry Service.
+  description: GrpahQL API to retrieve Merchant's information using Merchant ID.
+  version: 1.0.0_South
 servers:
   - url: https://connect.fiservapis.com/unifiedmerchantmaster/
 paths:
@@ -43,12 +41,12 @@ paths:
       tags:
         - merchant-open-api
       operationId: getMerchant
-      x-group-name: Merchant
-      x-proxy-name: graphql
-      x-child-product-name: getMerchant
-      x-core: North
+      x-group-name: Inquiry
+      x-proxy-name: getMerchant
+      x-child-product-name: Merchants
+      x-core: South
 
-      summary: North API.
+      summary: GrpahQL API to retrieve Merchant's information using Merchant ID.
 
       parameters:
         - name: merchantId
@@ -160,8 +158,6 @@ components:
         platformCode:
           type: string
           enum:
-            - NORTH
-            - OMAHA
             - SOUTH
         setupIndicator:
           type: string
@@ -254,10 +250,10 @@ components:
             $ref: '#/components/schemas/Address'
         products:
           $ref: '#/components/schemas/MerchantProduct'
-        merchantAttributes:
-          type: object
-          additionalProperties:
-            type: object
+#        merchantAttributes:
+#          type: object
+#          additionalProperties:
+#            type: object
         merchantBusinessInformation:
           $ref: '#/components/schemas/MerchantBusinessInformation'
         merchantHierarchies:
