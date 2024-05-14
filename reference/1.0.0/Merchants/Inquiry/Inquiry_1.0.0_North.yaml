@@ -36,7 +36,7 @@ info:
 servers:
   - url: https://connect.fiservapis.com/unifiedmerchantmaster/
 paths:
-  /getMerchant:
+  /graphql:
     post:
       tags:
         - merchant-open-api
