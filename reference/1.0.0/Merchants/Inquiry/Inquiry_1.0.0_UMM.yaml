@@ -84,9 +84,8 @@ paths:
               schema:
                 oneOf:
                   - $ref: '#/components/schemas/UMM'
-                  - $ref: '../../reference/1.0.0/Merchants/Inquiry/Inquiry_1.0.0_North.yaml#/components/schemas/NORTH'
-                  - $ref: '../../reference/1.0.0/Merchants/Inquiry/Inquiry_1.0.0_South.yaml#/components/schemas/SOUTH'
-
+                  - $ref: './Inquiry_1.0.0_North.yaml#/components/schemas/NORTH'
+                  - $ref: './Inquiry_1.0.0_South.yaml#/components/schemas/SOUTH'
             '*/*':
               schema:
                 $ref: '#/components/schemas/Errors'
@@ -111,6 +110,7 @@ components:
           format: date
         addressTypeCode:
           type: string
+
           enum:
             - LOCATION
             - CORPORATE
@@ -194,6 +194,8 @@ components:
         productsSold:
           type: string
         statusCode:
+          discriminator:
+
           type: string
         acctOpenDate:
           type: string
