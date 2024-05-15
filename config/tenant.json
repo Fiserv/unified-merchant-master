@@ -11,9 +11,9 @@
       "versionType": "major",
       "releaseNotesPath": "docs/release-notes/2022/march.md",
       "apiSpecFileNames": [
+        "Merchants/Inquiry/Inquiry_1.0.0_UMM",
         "Merchants/Inquiry/Inquiry_1.0.0_North",
         "Merchants/Inquiry/Inquiry_1.0.0_South",
-        "Merchants/Inquiry/Inquiry_1.0.0_UMM",
         "Merchants/Search/Search_1.0.0_North"
       ]
     }
