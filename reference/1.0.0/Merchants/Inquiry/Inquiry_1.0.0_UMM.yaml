@@ -84,8 +84,8 @@ paths:
               schema:
                 oneOf:
                   - $ref: '#/components/schemas/UMM'
-                  - $ref: '/reference/1.0.0/Merchants/Inquiry/Inquiry_1.0.0_North.yaml/#/components/schemas/NORTH'
-                  - $ref: '/reference/1.0.0/Merchants/Inquiry_1.0.0_South.yaml/#/components/schemas/SOUTH'
+                  - $ref: '../reference/1.0.0/Merchants/Inquiry/Inquiry_1.0.0_North.yaml/#/components/schemas/NORTH'
+                  - $ref: '../reference/1.0.0/Merchants/Inquiry_1.0.0_South.yaml/#/components/schemas/SOUTH'
 
             '*/*':
               schema:
