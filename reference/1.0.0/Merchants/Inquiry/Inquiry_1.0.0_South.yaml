@@ -82,7 +82,7 @@ paths:
           content:
             application/graphql-response+json:
               schema:
-                $ref: '#/components/schemas/Merchant'
+                $ref: '#/components/schemas/SOUTH'
             '*/*':
               schema:
                 $ref: '#/components/schemas/Errors'
@@ -150,7 +150,7 @@ components:
           type: string
         deliveryMethod:
           type: string
-    Merchant:
+    SOUTH:
       type: object
       properties:
         merchantId:

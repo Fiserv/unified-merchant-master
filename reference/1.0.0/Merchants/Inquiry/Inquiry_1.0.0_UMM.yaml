@@ -27,8 +27,8 @@
 # are granted or extended by this work or
 # the delivery of this work
 ################################################################################
-
 openapi: 3.0.2
+
 info:
   title: UMM Inquiry Service.
   description: GrpahQL API to retrieve Merchant's information using Merchant ID.
@@ -82,7 +82,11 @@ paths:
           content:
             application/graphql-response+json:
               schema:
-                $ref: '#/components/schemas/Merchant'
+                oneOf:
+                  - $ref: '#/components/schemas/UMM'
+                  - $ref: '../../reference/1.0.0/Merchants/Inquiry/Inquiry_1.0.0_North.yaml#/components/schemas/NORTH'
+                  - $ref: '../../reference/1.0.0/Merchants/Inquiry/Inquiry_1.0.0_South.yaml#/components/schemas/SOUTH'
+
             '*/*':
               schema:
                 $ref: '#/components/schemas/Errors'
@@ -150,7 +154,7 @@ components:
           type: string
         deliveryMethod:
           type: string
-    Merchant:
+    UMM:
       type: object
       properties:
         merchantId:
