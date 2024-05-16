@@ -27,27 +27,34 @@
 # are granted or extended by this work or
 # the delivery of this work
 ################################################################################
+
 openapi: 3.0.2
 info:
-  title: UMM Inquiry Service.
-  description: GrpahQL API to retrieve Merchant's information using Merchant ID.
-  version: 1.0.0
+  title: UMM GraphQL Service
+  description: GraphQL API to retrieve Merchant's information using Merchant ID
+  version: 1.0.0_UMM
 servers:
   - url: https://connect.fiservapis.com/unifiedmerchantmaster/
 paths:
-  /graphql:
+  /graphql/getMerchant:
     post:
       tags:
-        - merchant-open-api
+        - Merchant Inquiry
+      summary: GraphQL API to retrieve Merchant's information using Merchant ID
       operationId: getMerchant
-      x-group-name: Inquiry
       x-proxy-name: getMerchant
-      x-child-product-name: Merchants
+      x-group-name: Inquiry
       x-core: UMM
-
-      summary: GraphQL API to retrieve Merchant's information using Merchant ID.
+      x-child-product-name: Merchants
 
       parameters:
+        - name: x-consumer-name
+          in: header
+          description: Consumer Name
+          required: true
+          schema:
+            type: string
+            description: Consumer Name
         - name: merchantId
           in: query
           description: Merchant Id
@@ -55,18 +62,13 @@ paths:
           schema:
             type: string
             description: Merchant Id
-        - name: platform
+        - name: platformCode
           in: query
           description: Platform Code
           required: true
           schema:
             type: string
             description: Platform Code
-            default: NORTH
-            enum:
-              - NORTH
-              - OMAHA
-              - SOUTH
         - name: effectiveDate
           in: query
           description: Effective Date
@@ -81,39 +83,18 @@ paths:
               $ref: '#/components/schemas/InquiryBody'
         required: true
       responses:
-        '200':
+        "200":
           description: Success
           content:
             application/graphql-response+json:
               schema:
-                $ref: '#/components/schemas/UMM'
-                # discriminator:
-                #   propertyName: platformCode
-                #   mapping:
-                #     UMM: '#/components/schemas/UMM'
-                #     NORTH: ./Inquiry_1.0.0_North.yaml#/components/schemas/NORTH
-                #     SOUTH: ./Inquiry_1.0.0_South.yaml#/components/schemas/SOUTH
-                # oneOf:
-                #   - $ref: '#/components/schemas/UMM'
-                #   - $ref: ./Inquiry_1.0.0_North.yaml#/components/schemas/NORTH
-                #   - $ref: ./Inquiry_1.0.0_South.yaml#/components/schemas/SOUTH
-            application/graphql-error+json:
+                $ref: '#/components/schemas/Merchant'
+            application/graphql-problem+json:
               schema:
                 $ref: '#/components/schemas/Errors'
+
 components:
   schemas:
-    OmahaSetupIndicator:
-      type: string
-      enum: ['1', '2']
-      maxLength: 1
-    NorthSetupIndicator:
-      type: string
-      enum: ['3', '4']
-      maxLength: 2
-    SouthSetupIndicator:
-      type: string
-      enum: ['5', '6']
-      maxLength: 3
     Address:
       type: object
       properties:
@@ -176,7 +157,7 @@ components:
           type: string
         deliveryMethod:
           type: string
-    UMM:
+    Merchant:
       type: object
       properties:
         merchantId:
@@ -189,10 +170,6 @@ components:
             - SOUTH
         setupIndicator:
           type: string
-          oneOf:
-            - $ref: '#/components/schemas/NorthSetupIndicator'
-            - $ref: '#/components/schemas/OmahaSetupIndicator'
-            - $ref: '#/components/schemas/SouthSetupIndicator'
         effectiveStartDate:
           type: string
           format: date
@@ -382,7 +359,61 @@ components:
         legalContactName:
           type: string
         legalEntityTypeCode:
-          type: string
+          type: object
+          format: string
+          oneOf:
+            - title: NORTH
+              type: string
+              enum:
+                - PUBLIC_PRIVATE_CORP
+                - OTHER
+                - PROPRIETOR
+                - PARTNERSHIP
+                - ASSOCIATION_ESTATE_TRUST
+                - TAX_EXEMPT_GOVERNMENT
+                - INTERNATIONAL_ORG
+                - LTD_LIABILITY_COMP
+            - title: OMNIPAY
+              type: string
+              enum:
+                - NOT_APPLICABLE
+                - CORPORATION
+                - OTHERS
+                - PROPRIETORSHIP
+                - PARTNERSHIP
+                - LLC
+                - JOINT_STOCK
+                - GENERAL_PARTNERS
+                - LIMITED_PARTNERS
+                - CHARITY
+                - ASSOCIATIONS
+                - NON_PROFIT_ORGANIZATION
+                - SOLE_TRADER
+                - EXTERNAL_COMPANY
+                - LEGAL_FORM
+                - NON_PROFIT_COMPANY
+                - PRIVATE_COMPANY
+                - PUBLIC_COMPANY
+                - INDIVIDUAL
+                - PUBLIC_LIMITED_COMPANY
+                - LLC_GMBH
+                - SOCIETE_ANONYME
+                - COMPANY
+                - CO_OPERATIVE
+                - CIVIL_LAW_ASSOCIATION
+                - TRUST
+                - FOUNDATION
+                - PROPRIETORSHIP_DITTA_INDIVIDUAL
+                - SIMPLIFIED_SHAREHOLDER_COMPANY
+                - LLC_SRL
+                - PARTNERSHIP_SNC
+                - JOINT_STOCK_SPA
+                - CO_OPERATIVE_SCRL
+                - NON_PROFIT_ORGANIZATION_ONLUS
+                - ALTRO
+                - BUSINESS_TRUST
+                - CLOSED_CORPORATION
+                - PERSONAL_LIABILITY_COMPANY
         legalContactTitle:
           type: string
         customerServicePhoneNumber:
@@ -847,7 +878,7 @@ components:
       properties:
         query:
           type: string
-          description: query
+          description: Inquiry Query
           example: |
             query inquiry($merchantId: String!, $platformCode: String!) {
               getMerchant(merchantId: $merchantId, platformCode: $platformCode) {
