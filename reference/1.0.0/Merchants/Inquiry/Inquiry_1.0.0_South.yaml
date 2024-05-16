@@ -39,7 +39,7 @@ paths:
   /graphql/getMerchant:
     post:
       tags:
-        - merchant-open-api
+        - Merchant Inquiry
       operationId: getMerchant
       x-group-name: Inquiry
       x-proxy-name: getMerchant
