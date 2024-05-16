@@ -28,7 +28,6 @@
 # the delivery of this work
 ################################################################################
 openapi: 3.0.2
-
 info:
   title: UMM Inquiry Service.
   description: GrpahQL API to retrieve Merchant's information using Merchant ID.
@@ -46,7 +45,7 @@ paths:
       x-child-product-name: Merchants
       x-core: UMM
 
-      summary: GrpahQL API to retrieve Merchant's information using Merchant ID.
+      summary: GraphQL API to retrieve Merchant's information using Merchant ID.
 
       parameters:
         - name: merchantId
@@ -63,6 +62,11 @@ paths:
           schema:
             type: string
             description: Platform Code
+            default: NORTH
+            enum:
+              - NORTH
+              - OMAHA
+              - SOUTH
         - name: effectiveDate
           in: query
           description: Effective Date
@@ -72,26 +76,44 @@ paths:
             description: Effective Date
       requestBody:
         content:
-          application/json:
+          application/graphql-request+json:
             schema:
               $ref: '#/components/schemas/InquiryBody'
         required: true
       responses:
-        "200":
+        '200':
           description: Success
           content:
             application/graphql-response+json:
               schema:
-                oneOf:
-                  - $ref: '#/components/schemas/UMM'
-                  - $ref: '../../reference/1.0.0/Merchants/Inquiry/Inquiry_1.0.0_North.yaml#/components/schemas/NORTH'
-                  - $ref: '../../reference/1.0.0/Merchants/Inquiry/Inquiry_1.0.0_South.yaml#/components/schemas/SOUTH'
-
-            '*/*':
+                $ref: '#/components/schemas/UMM'
+                # discriminator:
+                #   propertyName: platformCode
+                #   mapping:
+                #     UMM: '#/components/schemas/UMM'
+                #     NORTH: ./Inquiry_1.0.0_North.yaml#/components/schemas/NORTH
+                #     SOUTH: ./Inquiry_1.0.0_South.yaml#/components/schemas/SOUTH
+                # oneOf:
+                #   - $ref: '#/components/schemas/UMM'
+                #   - $ref: ./Inquiry_1.0.0_North.yaml#/components/schemas/NORTH
+                #   - $ref: ./Inquiry_1.0.0_South.yaml#/components/schemas/SOUTH
+            application/graphql-error+json:
               schema:
                 $ref: '#/components/schemas/Errors'
 components:
   schemas:
+    OmahaSetupIndicator:
+      type: string
+      enum: ['1', '2']
+      maxLength: 1
+    NorthSetupIndicator:
+      type: string
+      enum: ['3', '4']
+      maxLength: 2
+    SouthSetupIndicator:
+      type: string
+      enum: ['5', '6']
+      maxLength: 3
     Address:
       type: object
       properties:
@@ -167,6 +189,10 @@ components:
             - SOUTH
         setupIndicator:
           type: string
+          oneOf:
+            - $ref: '#/components/schemas/NorthSetupIndicator'
+            - $ref: '#/components/schemas/OmahaSetupIndicator'
+            - $ref: '#/components/schemas/SouthSetupIndicator'
         effectiveStartDate:
           type: string
           format: date
@@ -822,7 +848,11 @@ components:
         query:
           type: string
           description: query
-          example: "query inquiry($merchantId: String!, $platformCode: String!) {\\\
-            n  getMerchant(merchantId: $merchantId, platformCode: $platformCode) {\\\
-            n dbaName\\n  platformCode\\n}\\n}"
+          example: |
+            query inquiry($merchantId: String!, $platformCode: String!) {
+              getMerchant(merchantId: $merchantId, platformCode: $platformCode) {
+                dbaName
+                platformCode
+              }
+            }
       description: Merchant Details
