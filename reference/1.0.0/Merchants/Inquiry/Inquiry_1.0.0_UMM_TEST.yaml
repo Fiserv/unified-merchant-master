@@ -108,24 +108,43 @@ components:
           additionalProperties:
             type: object
         merchantBusinessInformation:
-          $ref: '#/components/schemas/MerchantBusinessInformation'
-    MerchantBusinessInformation:
+          oneOf:
+            - $ref: '#/components/schemas/MerchantBusinessInformation'
+            - $ref: '#/components/schemas/SouthMerchantBusinessInformation'
+          discriminator:
+            propertyName: platformCode
+            mapping:
+              NORTH: '#/components/schemas/MerchantBusinessInformation'
+              SOUTH: '#/components/schemas/SouthMerchantBusinessInformation'
+
+    SouthMerchantBusinessInformation:
         type: object
         properties:
+          platformCode:
+            readOnly: true
+            enum:
+              - SOUTH
           legalContactName:
             type: string
           legalEntityTypeCode:
-            type: string
-            oneOf:
-             - $ref: '#/components/schemas/legalEntityTypeCodeNorth'
-             - $ref: '#/components/schemas/legalEntityTypeCodeSouth'
-#            discriminator:
-#              propertyName: platformCode
-#              mapping:
-#                legalEntityTypeCodeNorth: '#/components/schemas/legalEntityTypeCodeNorth'
-#                legalEntityTypeCodeSouth: '#/components/schemas/legalEntityTypeCodeSouth'
+            $ref: '#/components/schemas/legalEntityTypeCodeSouth'
           legalContactTitle:
             type: string
+
+    MerchantBusinessInformation:
+      type: object
+      properties:
+        platformCode:
+          readOnly: true
+          enum:
+            - NORTH
+        legalContactName:
+          type: string
+        legalEntityTypeCode:
+          $ref: '#/components/schemas/legalEntityTypeCodeNorth'
+        legalContactTitle:
+          type: string
+
     legalEntityTypeCodeNorth:
       title: NORTH
       type: string
