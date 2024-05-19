@@ -361,7 +361,7 @@ components:
         legalEntityTypeCode:
           type: object
           format: string
-          oneOf:
+          anyOf:
             - title: NORTH
               type: string
               enum:
