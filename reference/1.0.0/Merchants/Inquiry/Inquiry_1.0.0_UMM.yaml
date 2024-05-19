@@ -359,7 +359,6 @@ components:
         legalContactName:
           type: string
         legalEntityTypeCode:
-          type: object
           format: string
           anyOf:
             - title: NORTH
