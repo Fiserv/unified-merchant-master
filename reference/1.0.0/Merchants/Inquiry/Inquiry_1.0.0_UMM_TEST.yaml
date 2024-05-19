@@ -64,11 +64,9 @@ paths:
             description: Merchant Id
         - name: platformCode
           in: query
-          description: Platform Code
           required: true
           schema:
-            type: string
-            description: Platform Code
+            $ref: '#/components/schemas/platformCode'
         - name: effectiveDate
           in: query
           description: Effective Date
@@ -88,19 +86,99 @@ paths:
           content:
             application/graphql-response+json:
               schema:
-                oneOf:
-                  - $ref: './Inquiry_1.0.0_NORTH_TEST.yaml#/components/schemas/NORTH_Merchant'
-                  - $ref: './Inquiry_1.0.0_SOUTH_TEST.yaml#/components/schemas/SOUTH_Merchant'
-                discriminator:
-                  propertyName: platformCode
-#                  mapping:
-#                    NORTH_Merchant: './Inquiry_1.0.0_NORTH_TEST.yaml#/components/schemas/NORTH_Merchant'
-#                    SOUTH_Merchant:  './Inquiry_1.0.0_SOUTH_TEST.yaml#/components/schemas/SOUTH_Merchant'
+               $ref: '#/components/schemas/Merchant'
             application/graphql-problem+json:
               schema:
                 $ref: '#/components/schemas/Errors'
 components:
   schemas:
+    Merchant:
+      title: Merchant
+      type: object
+      properties:
+        merchantId:
+          type: string
+        platformCode:
+          $ref: '#/components/schemas/platformCode'
+        dbaName:
+          type: string
+        legalName:
+          type: string
+        merchantAttributes:
+          type: object
+          additionalProperties:
+            type: object
+        merchantBusinessInformation:
+          $ref: '#/components/schemas/MerchantBusinessInformation'
+    MerchantBusinessInformation:
+        type: object
+        properties:
+          legalContactName:
+            type: string
+          legalEntityTypeCode:
+            type: string
+            oneOf:
+             - $ref: '#/components/schemas/legalEntityTypeCodeNorth'
+             - $ref: '#/components/schemas/legalEntityTypeCodeSouth'
+#            discriminator:
+#              propertyName: platformCode
+#              mapping:
+#                legalEntityTypeCodeNorth: '#/components/schemas/legalEntityTypeCodeNorth'
+#                legalEntityTypeCodeSouth: '#/components/schemas/legalEntityTypeCodeSouth'
+          legalContactTitle:
+            type: string
+    legalEntityTypeCodeNorth:
+      title: NORTH
+      enum:
+        - PUBLIC_PRIVATE_CORP
+        - OTHER
+        - PROPRIETOR
+        - PARTNERSHIP
+        - ASSOCIATION_ESTATE_TRUST
+        - TAX_EXEMPT_GOVERNMENT
+        - INTERNATIONAL_ORG
+        - LTD_LIABILITY_COMP
+    legalEntityTypeCodeSouth:
+      title: SOUTH
+      enum:
+          - NOT_APPLICABLE
+          - CORPORATION
+          - OTHERS
+          - PROPRIETORSHIP
+          - PARTNERSHIP
+          - LLC
+          - JOINT_STOCK
+          - GENERAL_PARTNERS
+          - LIMITED_PARTNERS
+          - CHARITY
+          - ASSOCIATIONS
+          - NON_PROFIT_ORGANIZATION
+          - SOLE_TRADER
+          - EXTERNAL_COMPANY
+          - LEGAL_FORM
+          - NON_PROFIT_COMPANY
+          - PRIVATE_COMPANY
+          - PUBLIC_COMPANY
+          - INDIVIDUAL
+          - PUBLIC_LIMITED_COMPANY
+          - LLC_GMBH
+          - SOCIETE_ANONYME
+          - COMPANY
+          - CO_OPERATIVE
+          - CIVIL_LAW_ASSOCIATION
+          - TRUST
+          - FOUNDATION
+          - PROPRIETORSHIP_DITTA_INDIVIDUAL
+          - SIMPLIFIED_SHAREHOLDER_COMPANY
+          - LLC_SRL
+          - PARTNERSHIP_SNC
+          - JOINT_STOCK_SPA
+          - CO_OPERATIVE_SCRL
+          - NON_PROFIT_ORGANIZATION_ONLUS
+          - ALTRO
+          - BUSINESS_TRUST
+          - CLOSED_CORPORATION
+          - PERSONAL_LIABILITY_COMPANY
     Error:
       type: object
       properties:
@@ -185,6 +263,12 @@ components:
           type: string
         errorSource:
           type: string
+    platformCode:
+      type: string
+      enum:
+        - NORTH
+        - SOUTH
+      required: true
     Errors:
       type: object
       properties:
