@@ -64,7 +64,6 @@ paths:
             description: Merchant Id
         - name: platformCode
           in: query
-          required: true
           schema:
             $ref: '#/components/schemas/platformCode'
         - name: effectiveDate
@@ -268,7 +267,6 @@ components:
       enum:
         - NORTH
         - SOUTH
-      required: true
     Errors:
       type: object
       properties:
