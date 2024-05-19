@@ -1,0 +1,210 @@
+################################################################################
+# Copyrights © 2021-2022 Fiserv, Inc. or its affiliates.
+# Fiserv is a trademark of Fiserv, Inc.,
+# registered or used in the United States and foreign countries,
+# and may or may not be registered in your country.
+# All trademarks, service marks,
+# and trade names referenced in this
+# material are the property of their
+# respective owners. This work, including its contents
+# and programming, is confidential and its use
+# is strictly limited. This work is furnished only
+# for use by duly authorized licensees of Fiserv, Inc.
+# or its affiliates, and their designated agents
+# or employees responsible for installation or
+# operation of the products. Any other use,
+# duplication, or dissemination without the
+# prior written consent of Fiserv, Inc.
+# or its affiliates is strictly prohibited.
+# Except as specified by the agreement under
+# which the materials are furnished, Fiserv, Inc.
+# and its affiliates do not accept any liabilities
+# with respect to the information contained herein
+# and are not responsible for any direct, indirect,
+# special, consequential or exemplary damages
+# resulting from the use of this information.
+# No warranties, either express or implied,
+# are granted or extended by this work or
+# the delivery of this work
+################################################################################
+
+openapi: 3.0.2
+info:
+  title: UMM GraphQL Service
+  description: GraphQL API to retrieve Merchant's information using Merchant ID
+  version: 1.0.0_UMM_TEST
+servers:
+  - url: https://connect.fiservapis.com/unifiedmerchantmaster/
+paths:
+  /graphql/getMerchant:
+    post:
+      tags:
+        - Merchant Inquiry
+      summary: GraphQL API to retrieve Merchant's information using Merchant ID
+      operationId: getMerchant
+      x-proxy-name: getMerchant
+      x-group-name: Inquiry
+      x-core: UMM_TEST
+      x-child-product-name: Merchants
+
+      parameters:
+        - name: x-consumer-name
+          in: header
+          description: Consumer Name
+          required: true
+          schema:
+            type: string
+            description: Consumer Name
+        - name: merchantId
+          in: query
+          description: Merchant Id
+          required: true
+          schema:
+            type: string
+            description: Merchant Id
+        - name: platformCode
+          in: query
+          description: Platform Code
+          required: true
+          schema:
+            type: string
+            description: Platform Code
+        - name: effectiveDate
+          in: query
+          description: Effective Date
+          required: false
+          schema:
+            type: string
+            description: Effective Date
+      requestBody:
+        content:
+          application/graphql-request+json:
+            schema:
+              $ref: '#/components/schemas/InquiryBody'
+        required: true
+      responses:
+        "200":
+          description: Success
+          content:
+            application/graphql-response+json:
+              schema:
+                oneOf:
+                  - $ref: './Inquiry_1.0.0_NORTH_TEST.yaml#/components/schemas/NORTH_Merchant'
+                  - $ref: './Inquiry_1.0.0_SOUTH_TEST.yaml#/components/schemas/SOUTH_Merchant'
+                discriminator:
+                  propertyName: platformCode
+#                  mapping:
+#                    NORTH_Merchant: './Inquiry_1.0.0_NORTH_TEST.yaml#/components/schemas/NORTH_Merchant'
+#                    SOUTH_Merchant:  './Inquiry_1.0.0_SOUTH_TEST.yaml#/components/schemas/SOUTH_Merchant'
+            application/graphql-problem+json:
+              schema:
+                $ref: '#/components/schemas/Errors'
+components:
+  schemas:
+    Error:
+      type: object
+      properties:
+        errorCode:
+          type: integer
+          format: int32
+        errorMessage:
+          type: string
+        httpStatusCode:
+          type: string
+          enum:
+            - 100 CONTINUE
+            - 101 SWITCHING_PROTOCOLS
+            - 102 PROCESSING
+            - 103 EARLY_HINTS
+            - 103 CHECKPOINT
+            - 200 OK
+            - 201 CREATED
+            - 202 ACCEPTED
+            - 203 NON_AUTHORITATIVE_INFORMATION
+            - 204 NO_CONTENT
+            - 205 RESET_CONTENT
+            - 206 PARTIAL_CONTENT
+            - 207 MULTI_STATUS
+            - 208 ALREADY_REPORTED
+            - 226 IM_USED
+            - 300 MULTIPLE_CHOICES
+            - 301 MOVED_PERMANENTLY
+            - 302 FOUND
+            - 302 MOVED_TEMPORARILY
+            - 303 SEE_OTHER
+            - 304 NOT_MODIFIED
+            - 305 USE_PROXY
+            - 307 TEMPORARY_REDIRECT
+            - 308 PERMANENT_REDIRECT
+            - 400 BAD_REQUEST
+            - 401 UNAUTHORIZED
+            - 402 PAYMENT_REQUIRED
+            - 403 FORBIDDEN
+            - 404 NOT_FOUND
+            - 405 METHOD_NOT_ALLOWED
+            - 406 NOT_ACCEPTABLE
+            - 407 PROXY_AUTHENTICATION_REQUIRED
+            - 408 REQUEST_TIMEOUT
+            - 409 CONFLICT
+            - 410 GONE
+            - 411 LENGTH_REQUIRED
+            - 412 PRECONDITION_FAILED
+            - 413 PAYLOAD_TOO_LARGE
+            - 413 REQUEST_ENTITY_TOO_LARGE
+            - 414 URI_TOO_LONG
+            - 414 REQUEST_URI_TOO_LONG
+            - 415 UNSUPPORTED_MEDIA_TYPE
+            - 416 REQUESTED_RANGE_NOT_SATISFIABLE
+            - 417 EXPECTATION_FAILED
+            - 418 I_AM_A_TEAPOT
+            - 419 INSUFFICIENT_SPACE_ON_RESOURCE
+            - 420 METHOD_FAILURE
+            - 421 DESTINATION_LOCKED
+            - 422 UNPROCESSABLE_ENTITY
+            - 423 LOCKED
+            - 424 FAILED_DEPENDENCY
+            - 425 TOO_EARLY
+            - 426 UPGRADE_REQUIRED
+            - 428 PRECONDITION_REQUIRED
+            - 429 TOO_MANY_REQUESTS
+            - 431 REQUEST_HEADER_FIELDS_TOO_LARGE
+            - 451 UNAVAILABLE_FOR_LEGAL_REASONS
+            - 500 INTERNAL_SERVER_ERROR
+            - 501 NOT_IMPLEMENTED
+            - 502 BAD_GATEWAY
+            - 503 SERVICE_UNAVAILABLE
+            - 504 GATEWAY_TIMEOUT
+            - 505 HTTP_VERSION_NOT_SUPPORTED
+            - 506 VARIANT_ALSO_NEGOTIATES
+            - 507 INSUFFICIENT_STORAGE
+            - 508 LOOP_DETECTED
+            - 509 BANDWIDTH_LIMIT_EXCEEDED
+            - 510 NOT_EXTENDED
+            - 511 NETWORK_AUTHENTICATION_REQUIRED
+        rawExceptionMessage:
+          type: string
+        errorSource:
+          type: string
+    Errors:
+      type: object
+      properties:
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/Error'
+    InquiryBody:
+      required:
+        - query
+      type: object
+      properties:
+        query:
+          type: string
+          description: Inquiry Query
+          example: |
+            query inquiry($merchantId: String!, $platformCode: String!) {
+              getMerchant(merchantId: $merchantId, platformCode: $platformCode) {
+                dbaName
+                platformCode
+              }
+            }
+      description: Merchant Details
