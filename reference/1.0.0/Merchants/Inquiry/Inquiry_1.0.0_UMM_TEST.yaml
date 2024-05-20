@@ -107,7 +107,7 @@ components:
           type: object
           additionalProperties:
             type: object
-        merchantBusinessInformation:
+        merchantBusinessInformationOneOF:
           oneOf:
             - $ref: '#/components/schemas/MerchantBusinessInformation'
             - $ref: '#/components/schemas/SouthMerchantBusinessInformation'
