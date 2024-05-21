@@ -101,7 +101,7 @@ components:
           $ref: '#/components/schemas/platformCode'
         dbaName:
           type: string
-          description: Merchant Doing Business As name aka trading name. <a href=\"../docs?path=docs/Merchant.md\" >See platform level restriction on field length</a>
+          description: "Merchant Doing Business As name aka trading name. <a href=\"../docs?path=docs/Merchant.md\" >See platform level restriction on field length</a>"
           maxLength: 100
           minLength: 5
           externalDocs:
