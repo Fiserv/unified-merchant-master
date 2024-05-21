@@ -41,3 +41,5 @@
       sections:
         - title: Merchant
           link: docs/documentation/Merchant.md
+        - title: Merchant Business Information
+          link: docs/documentation/MerchantBusinessInformation.md
