@@ -1,7 +1,7 @@
 # This is custom file to hide/ignore any document file(s) or directory(s).
 
 # Docs tutorials directory
-docs/documentation/
+#docs/documentation/
 
 # This should all file and subdirectory under versioning dir
 #docs/documentation/**
