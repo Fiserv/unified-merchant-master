@@ -101,6 +101,13 @@ components:
           $ref: '#/components/schemas/platformCode'
         dbaName:
           type: string
+          description: Merchant Doing Business As name aka trading name. <a href=\"../docs?path=docs/Merchant.md\" >See platform level restriction on field length</a>
+          maxLength: 100
+          minLength: 5
+          externalDocs:
+            description: see platform level restriction on field length
+            url: "../docs?path=docs/Merchant.md"
+
         legalName:
           type: string
         merchantAttributes:
@@ -121,7 +128,6 @@ components:
         type: object
         properties:
           platformCode:
-            readOnly: true
             enum:
               - SOUTH
           legalContactName:
@@ -135,7 +141,6 @@ components:
       type: object
       properties:
         platformCode:
-          readOnly: true
           enum:
             - NORTH
         legalContactName:
