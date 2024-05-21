@@ -104,7 +104,6 @@ components:
           description: Merchant Doing Business As name aka trading name. <a href=\"../docs?path=docs/Merchant.md\" >See platform level restriction on field length</a>
           maxLength: 100
           minLength: 5
-          required: yes
           externalDocs:
             description: see platform level restriction on field length
             url: "../docs?path=docs/Merchant.md"
