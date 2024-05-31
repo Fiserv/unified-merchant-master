@@ -9,13 +9,9 @@
     {
       "version": "1.0.0",
       "versionType": "major",
-      "releaseNotesPath": "docs/release-notes/2022/march.md",
+      "releaseNotesPath": "docs/release-notes/2024/may.md",
       "apiSpecFileNames": [
-        "Merchants/Inquiry/Inquiry_1.0.0_UMM",
-        "Merchants/Inquiry/Inquiry_1.0.0_UMM_TEST",
-        "Merchants/Inquiry/Inquiry_1.0.0_North",
-        "Merchants/Inquiry/Inquiry_1.0.0_South",
-        "Merchants/Search/Search_1.0.0_North"
+        "Merchants/Inquiry/Inquiry_1.0.0_UMM"
       ]
     }
   ],

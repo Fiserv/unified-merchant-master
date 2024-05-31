@@ -1,9 +1,3 @@
 # Getting Started
 
-Sample
-
-
 ___
-
-
- 
