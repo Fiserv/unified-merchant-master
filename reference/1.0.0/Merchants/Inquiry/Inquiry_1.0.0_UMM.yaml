@@ -818,10 +818,6 @@ components:
           - GLOBAL_EPRICING
           - NO_CURR_CONV
           - TAI
-        createdBy:
-          type: string
-        modifiedBy:
-          type: string
         owners:
           type: array
           items:
@@ -1130,9 +1126,6 @@ components:
     MerchantIrsTax:
       type: object
       properties:
-        effectiveEndDate:
-          type: string
-          format: date
         exclusionCode:
           type: string
         irsTinValidationCode:
