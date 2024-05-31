@@ -1,6 +1,7 @@
 
 
-# MerchantBusinessInformationLegalEntityTypeCode
+# MerchantBusinessInformation
+## LegalEntityTypeCode
 
 
 ## Properties

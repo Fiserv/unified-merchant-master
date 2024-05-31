@@ -1,8 +1,8 @@
 # Release Notes
 
-March 03 2022
+March 2022
 
-## v1.1.0 (api version)
+## v1.0.0 (api version)
 
 ## What's New
 
@@ -23,7 +23,3 @@ March 03 2022
 ## Deprecated
 
 - regarded as obsolete and best avoided
-
-
-March 17 2022
-

@@ -9,7 +9,7 @@
 |------------ | ------------- | ------------- | -------------|
 |**effectiveEndDate** | **LocalDate** |  |  [optional] |
 |**legalContactName** | **String** |  |  [optional] |
-|**legalEntityTypeCode** | [**MerchantBusinessInformationLegalEntityTypeCode**](MerchantBusinessInformationLegalEntityTypeCode.md) |  |  [optional] |
+|**legalEntityTypeCode** | [**MerchantBusinessInformationLegalEntityTypeCode**](merchantbusinessinformation/LegalEntityTypeCode.md) |  |  [optional] |
 |**legalContactTitle** | **String** |  |  [optional] |
 |**customerServicePhoneNumber** | **String** |  |  [optional] |
 |**locationStartDate** | **LocalDate** |  |  [optional] |

@@ -34,12 +34,12 @@
 - sections:
   - title: Release notes
     sections:
-    - title: March 2022
-      link: docs/release-notes/2022/march.md
+    - title: May 2024
+      link: docs/release-notes/2024/may.md
 - sections:
     - title: UMM Specifications
       sections:
         - title: Merchant
-          link: docs/documentation/Merchant.md
+          link: docs/definitions/Merchant.md
         - title: Merchant Business Information
-          link: docs/documentation/MerchantBusinessInformation.md
+          link: docs/definitions/MerchantBusinessInformation.md
