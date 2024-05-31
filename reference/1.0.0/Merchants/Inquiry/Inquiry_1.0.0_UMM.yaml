@@ -129,27 +129,6 @@ components:
     Address:
       type: object
       properties:
-        merchantId:
-          maxLength: 50
-          minLength: 12
-          type: string
-          description: Unique identifier of the merchant. It is required to query/add
-            merchant-specific information from/to the database
-        platformCode:
-          type: string
-          description: Code to identify the specific backend platform. It adds the
-            required information for the merchant
-          enum:
-          - NORTH
-          - OMAHA
-          - SOUTH
-          - OMNIPAY26
-        effectiveStartDate:
-          type: string
-          format: date
-        effectiveEndDate:
-          type: string
-          format: date
         addressTypeCode:
           type: string
           readOnly: true
@@ -355,18 +334,6 @@ components:
           - OMNIPAY26
         setupIndicator:
           type: string
-        effectiveStartDate:
-          type: string
-          description: Effective date from when the user can start fetching the snapshot
-            data for a particular merchant and platform using UMM DB
-          format: date
-          readOnly: true
-        effectiveEndDate:
-          type: string
-          description: Effective date from when the user can stop fetching the snapshot
-            data for a particular merchant and platform using UMM DB
-          format: date
-          readOnly: true
         dbaName:
           maxLength: 40
           minLength: 10
@@ -919,17 +886,6 @@ components:
     MerchantAccount:
       type: object
       properties:
-        merchantId:
-          maxLength: 50
-          minLength: 12
-          type: string
-          description: Unique identifier of the merchant. It is required to query/add
-            merchant-specific information from/to the database
-        platformCode:
-          type: string
-        effectiveStartDate:
-          type: string
-          format: date
         accountUsageCode:
           type: string
           description: Unique identifier assigned to a checking or current account.
@@ -937,9 +893,6 @@ components:
           enum:
           - FUNDING
           - LEASING
-        effectiveEndDate:
-          type: string
-          format: date
         sequenceNumber:
           type: integer
           description: "ABA/DDA occurrence is a sequential number which allows financial\
@@ -1020,9 +973,6 @@ components:
     MerchantBusinessInformation:
       type: object
       properties:
-        effectiveEndDate:
-          type: string
-          format: date
         legalContactName:
           type: string
         legalEntityTypeCode:
@@ -1275,27 +1225,6 @@ components:
     Owner:
       type: object
       properties:
-        merchantId:
-          maxLength: 50
-          minLength: 12
-          type: string
-          description: Unique identifier of the merchant. It is required to query/add
-            merchant-specific information from/to the database
-        platformCode:
-          type: string
-          description: Code to identify the specific backend platform. It adds the
-            required information for the merchant
-          enum:
-          - NORTH
-          - OMAHA
-          - SOUTH
-          - OMNIPAY26
-        effectiveStartDate:
-          type: string
-          format: date
-        effectiveEndDate:
-          type: string
-          format: date
         ownerSeqCode:
           type: string
           x-not-for-north: "true"
@@ -1556,12 +1485,12 @@ components:
     ResponseMerchant:
       type: object
       properties:
+        data:
+          $ref: '#/components/schemas/Merchant'
         errors:
           type: array
           items:
             $ref: '#/components/schemas/Error'
-        data:
-          $ref: '#/components/schemas/Merchant'
       description: GraphQl Response
   securitySchemes:
     x-consumer-name:
