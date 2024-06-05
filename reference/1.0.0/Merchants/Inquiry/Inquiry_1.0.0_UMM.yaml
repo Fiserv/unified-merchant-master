@@ -1127,62 +1127,218 @@ components:
       type: object
       properties:
         exclusionCode:
+          maxLength: 35
+          minLength: 12
           type: string
+          description: Indicates weather the merchant is excluded from the IRS processing
+          enum:
+          - FINANCIAL_INSTITUTION
+          - FOREIGN_ENTITY_PENDING_VERIFICATION
+          - FOREIGN_ENTITY_PRIOR_1/1/11
+          - FOREIGN_ENTITY_VERIFIED
+          - GOVERNMENT_ENTITY
+          - NONPROFIT_NOT_VERIFIED
+          - NONPROFIT_VERIFIED
+          - NOT_EXCLUDED
         irsTinValidationCode:
+          maxLength: 24
+          minLength: 10
           type: string
+          description: Code to validate the taxpayer identification number (TIN) of
+            a merchant
+          enum:
+          - DUPLICATE_TIN
+          - FAILED_PRESCREEN
+          - INVALID_NOT TFN
+          - INVALID_TIN
+          - INVALID_TIN_MULTI_TFN
+          - IN_PROCESS
+          - IN_PROCESS_NO_UPDATE_MMF
+          - TEST_ACCOUNT
+          - TIN_MATCHED
+          - TIN_MATCHED_EIN
+          - TIN_MATCHED_SSN
+          - TIN_MATCHED_SSN_EIN
+          - TIN_MISSING
+          - TIN_NOTMATCHED
+          - TIN_UNISSUED
         tinValidationDate:
+          maxLength: 10
+          minLength: 10
           type: string
+          description: Date when the IRS taxpayer identification number (TIN) validation
+            was last performed for a merchant
           format: date
         payeeId:
           type: string
+          x-not-for-north: "true"
         payeeCode:
+          maxLength: 24
+          minLength: 11
           type: string
+          description: Unique code assigned to a payee or recipient for tax reporting
+            purposes by the Internal Revenue Service (IRS)
+          enum:
+          - CHAIN_NON_PAYEE
+          - CHAIN_OUTLET_NO_1099K
+          - CHAIN_PAYEE
+          - CHAIN_PAYEE_AGREGATOR
+          - OUTLET_NONPAYEE_UNRELATD
+          - OUTLET_NON_PAYEE_RELATED
+          - OUTLET_PAYEE_RELATED
+          - OUTLET_PAYEE_UNRELATED
+          - SINGLETON_PAYEE
         cp2100NoticeReceivedDate:
+          maxLength: 10
+          minLength: 10
           type: string
+          description: Displays the date when a merchant received a CP2100 notice
           format: date
         cp2100NoticeEffectiveDate:
+          maxLength: 10
+          minLength: 10
           type: string
+          description: Displays the specific date when the CP2100 notice becomes effective
           format: date
         withHoldingCode:
+          maxLength: 12
+          minLength: 8
           type: string
+          description: Indicates if the IRS holding code is required or not
+          enum:
+          - REQUIRED
+          - NOT_REQUIRED
         withholdingNotificationCode:
+          maxLength: 22
+          minLength: 6
           type: string
+          description: IRS code associated with a notification related to income withholding
+            for tax purposes
+          enum:
+          - 1099K_REPORT
+          - 1099K_REPORT_AND_STATE
+          - 1ST_BUW_NOTICE
+          - 2ND_BUW_NOTICE
+          - BUW_MISSING_TIN
+          - BUW_WARN_LETTER
+          - NONE
+          - TIMS_MANL_BUW
+          - W8_EXP
         withholdingNotificationDate:
+          maxLength: 10
+          minLength: 10
           type: string
+          description: Date when a taxpayer or payer received a notification related
+            to income withholding
           format: date
         withHoldingReasonCode:
+          maxLength: 24
+          minLength: 11
           type: string
+          description: Code associated with the reason for income withholding
+          enum:
+          - NO_RESPONSE_2ND_NOTICE
+          - MANUAL_OVERRIDE
+          - MISSING_TIN
+          - NO_RESPONSE_1ST_NOTICE
+          - PROPOSED_PENALTY_RECEIVD
         withHoldingEffectiveDate:
+          maxLength: 10
+          minLength: 10
           type: string
+          description: Effective date of income withholding as prescribed by the IRS
           format: date
         withHoldingEndDate:
+          maxLength: 10
+          minLength: 10
           type: string
+          description: End date of income withholding as specified by the IRS
           format: date
         fedWithHoldingPercent:
+          maxLength: 7
+          minLength: 1
           type: number
+          description: Percentage of backup withholding that is required to be withheld
+            by the the IRS
         stateWithHoldingPercent:
+          maxLength: 3
+          minLength: 1
           type: number
+          description: Indicates the percentage that applies to the withholding of
+            state income tax
         formCertStatusCode:
+          maxLength: 24
+          minLength: 10
           type: string
+          description: Indicates the certification status code of an IRS form
+          enum:
+          - FORM_CERTIFY_PENDING
+          - INCOMPLETE_PAPERWORK
+          - SS_CARDCOPY_OR_LTR147C
+          - TIMS_MANUAL_BUW_OFF
+          - W8_EXPIRATION_PENDING
+          - W8_FOREIGN_COMPLETE
+          - W8_FOREIGN_PNDING_REVIEW
+          - W8_NO_EXPIRATIONS
+          - W9_ON_FILE
+          - W9_RECEIVED_EXEMPTION
         formCertStatusReceivedDate:
+          maxLength: 10
+          minLength: 10
           type: string
+          description: Date when the certification status of an IRS form was received
+            or updated
           format: date
         turfEffectiveDate:
+          maxLength: 10
+          minLength: 10
           type: string
+          description: Effective date of a Taxpayer's United Reporting Federation
+            (TURF) agreement with the IRS
           format: date
         turfReasonCode:
+          maxLength: 23
+          minLength: 17
           type: string
+          description: Code to indicate the reason or purpose of the United Reporting
+            Federation (TURF) agreement with the IRS
+          enum:
+          - NO_TIN/TFN_CHANGE
+          - ADD_MISSING_TIN/TFN
+          - CHANGE_IN_FILING_STATUS
+          - CHANGE_IN_OWNERSHIP
+          - CORRECT_WRONG_TIN/TFN
         turfUpdateDate:
+          maxLength: 10
+          minLength: 10
           type: string
+          description: Date when a Taxpayer's United Reporting Federation (TURF) agreement
+            with the IRS was last updated
           format: date
         taxEffectiveYear:
+          maxLength: 4
+          minLength: 4
           type: string
+          description: "Tax year for which the IRS tax regulations, rules, and rates\
+            \ come into effect"
         timsAccountNumber:
+          maxLength: 50
+          minLength: 20
           type: string
+          description: Account number associated with the Taxpayer Information Management
+            System (TIMS)
         payeeDefaultIndicator:
           type: string
+          x-not-for-north: "true"
         taxPayIndicator:
+          maxLength: 3
+          minLength: 2
           type: string
+          description: Indicates whether a taxpayer has made the required tax payments
+            for a specific period or tax year
+          enum:
+          - "YES"
+          - "NO"
     MerchantProduct:
       type: object
       properties:
@@ -1206,15 +1362,26 @@ components:
       type: object
       properties:
         xrefPlatformMid:
+          maxLength: 50
+          minLength: 12
           type: string
+          description: Unique identifier assigned to a merchant
         xrefPlatformCode:
           type: string
+          description: Indicates the usage status or validity of a cross-reference
+            record associated with the merchant
         primarySecurityCode:
           type: string
+          description: Primary security code assigned to a valid front end network
         alliancePlatformCode:
           type: string
+          description: Code that indicates the alliance pratform
         xrefCorrespondenceIndicator:
+          maxLength: 50
+          minLength: 2
           type: string
+          description: Indicates whether the merchants and communications utilize
+            the associated cross-reference number
     Owner:
       type: object
       properties:
