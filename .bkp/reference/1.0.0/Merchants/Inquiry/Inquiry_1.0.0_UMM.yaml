@@ -31,7 +31,7 @@
 openapi: 3.0.1
 info:
   title: UMM GraphQL Service
-  description: GraphQL API to retrieve Merchant's information
+  description: GraphQL API to retrieve Merchant's information using Merchant ID
   version: 1.0.0
 servers:
 - url: https://connect.fiservapis.com/unifiedmerchantmaster
@@ -40,9 +40,7 @@ paths:
     post:
       tags:
       - Merchant Inquiry
-      summary: GraphQL API to retrieve Merchant's information. Additional filtering
-        can be perfomed based on certail parameter as shown in the provided request
-        sample
+      summary: GraphQL API to retrieve Merchant's information using Merchant ID
       operationId: getMerchant
       parameters:
       - name: merchantId
@@ -76,8 +74,6 @@ paths:
           description: Effective date from when the user can start fetching the snapshot
             data for a particular merchant and platform using UMM DB
           format: yyyy-MM-dd
-          example: 2024-06-06
-        example: 2024-06-06
       - name: x-encrypted-data
         in: header
         description: Use data encryption
@@ -89,7 +85,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/InquiryRequest'
+              $ref: '#/components/schemas/Request'
         required: true
       responses:
         "200":
@@ -106,7 +102,7 @@ paths:
       x-child-product-name: Merchants
 components:
   schemas:
-    InquiryRequest:
+    Request:
       required:
       - operationName
       - query
@@ -114,28 +110,22 @@ components:
       properties:
         operationName:
           type: string
-          description: GraphQL Operation Name
+          description: Operation Name
           example: inquiry
         query:
           type: string
-          description: GraphQL Query
+          description: GraphQl Query
           example: |
             query inquiry {
-              getMerchant(merchantId: "12345678901", platformCode: NORTH) {
+              getMerchant(merchantId: "123456789012", platformCode: NORTH) {
                 ... on Merchant {
                   merchantId
                   platformCode
                   dbaName
-                  addresses {
-                    addressTypeCode (filterByAddressType:[LOCATION])
-                    contactName
-                    contactTitle
-                    address1Text
-                  }
                 }
               }
             }
-      description: Merchant Inquiry Request
+      description: GraphQl Request
     Address:
       type: object
       properties:
@@ -980,17 +970,9 @@ components:
       type: object
       properties:
         legalContactName:
-          maxLength: 40
-          minLength: 5
           type: string
-          description: Individual designated as the legal contact for a business or
-            organization
         legalEntityTypeCode:
-          maxLength: 16
-          minLength: 2
           type: object
-          description: Identifier used to denote the legal entity type of a business
-            or organization
           format: string
           oneOf:
           - title: NORTH
@@ -1048,16 +1030,9 @@ components:
           x-for-north: "true"
           x-for-omnipay26: "true"
         legalContactTitle:
-          maxLength: 30
-          minLength: 1
           type: string
-          description: Professional title or designation of the legal contact for
-            a business or organization
         customerServicePhoneNumber:
-          maxLength: 15
-          minLength: 10
           type: string
-          description: Customer service contact number provided by the merchant
         locationStartDate:
           type: string
           format: date
@@ -1077,116 +1052,53 @@ components:
           type: string
           format: date
         electronicSigIndicator:
-          maxLength: 3
-          minLength: 2
           type: string
-          enum:
-          - "YES"
-          - "NO"
         residentStatusCode:
           type: string
         registrationNumber:
           type: string
         salesTaxExemptIndicator:
-          maxLength: 1
-          minLength: 1
           type: string
-          description: Indicates whether the merchant is exempt from paying tax
-          enum:
-          - "YES"
-          - "NO"
         thirdPartyProcessorCode:
-          maxLength: 15
-          minLength: 3
           type: string
-          description: Unique identifier associated with a third-party payment processor
-            used by a merchant
-          enum:
-          - APRIVA
-          - AUTH.NET
-          - CYBERSOURCE
-          - FIS
-          - MER_LINK
-          - NONE
-          - OTHER
-          - SHIFT4
-          - SIX_PMT_SVC_GRP
-          - VERIFONE
-          - VERISIGN
-          - YAHOO
         periodicReviewIndicator:
-          maxLength: 3
-          minLength: 2
           type: string
-          enum:
-          - "YES"
-          - "NO"
         annualSalesAmount:
           type: number
         averageTicketAmount:
-          maxLength: 39
-          minLength: 4
           type: number
-          description: Average amount of each individual transaction made by customers
-            at a merchant's establishment
         highestTicketAmount:
           type: number
-          description: Average amount of each individual transaction made by customers
-            at a merchant's establishment
         largeTicketPurchaseIndicator:
-          maxLength: 3
-          minLength: 2
           type: string
-          enum:
-          - "YES"
-          - "NO"
         mailOrderPercent:
           type: number
-          x-not-for-north: "true"
         phoneOrderPercent:
           type: number
-          x-not-for-north: "true"
         posOrderPercent:
           type: number
-          x-not-for-north: "true"
         swipedPercent:
           type: number
-          x-not-for-north: "true"
         keyedPercent:
-          maxLength: 5
-          minLength: 1
           type: number
-          description: Percentage entered manually rather than being automatically
-            calculated or derived from a system
         salesChannelId:
           type: string
-          x-not-for-north: "true"
         salesLeadTrackingNo:
           type: string
-          x-not-for-north: "true"
         accountSignedDate:
           type: string
           format: date
-          x-not-for-north: "true"
         accountApprovalDate:
           type: string
           format: date
-          x-not-for-north: "true"
         quasiCashIndicator:
-          maxLength: 3
-          minLength: 2
           type: string
         internetOrderPercent:
-          maxLength: 6
-          minLength: 4
           type: number
         firstActivityDate:
           type: string
-          description: First recorded activity
           format: date
         thirdPartyProcessorName:
-          maxLength: 15
-          minLength: 10
           type: string
         del0To7DayPercent:
           type: number
@@ -1203,8 +1115,7 @@ components:
           type: string
           x-not-for-north: "true"
         hierarchySeq:
-          type: integer
-          format: int64
+          type: string
           x-not-for-north: "true"
         hierarchyName:
           type: string
@@ -1645,7 +1556,6 @@ components:
       properties:
         productCode:
           type: string
-          description: Code that indicate the brand entitlement of the product
         subCategory:
           type: string
         productShortDesc:
@@ -1662,13 +1572,9 @@ components:
           type: integer
           format: int64
         feeTableId:
-          maxLength: 10
-          minLength: 10
           type: string
-          description: Unique identifier of pricing grid assigned to a merchant
         isActive:
           type: string
-          x-not-for-north: "true"
         uniqueIdentifier:
           type: string
         uniqueId:
@@ -1692,15 +1598,9 @@ components:
         productAssociation:
           $ref: '#/components/schemas/ProductAssociation'
         wholesaleAmountOrPercent:
-          maxLength: 11
-          minLength: 11
           type: number
-          x-not-for-north: "true"
         retailAmountOrPercent:
-          maxLength: 11
-          minLength: 11
           type: number
-          x-not-for-north: "true"
         feeTypeCode:
           type: string
         equipmentCategory:
