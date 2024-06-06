@@ -11,7 +11,8 @@
       "versionType": "major",
       "releaseNotesPath": "docs/release-notes/2024/may.md",
       "apiSpecFileNames": [
-        "Merchants/Inquiry/Inquiry_1.0.0_UMM"
+        "Merchants/Inquiry/umm-api-docs",
+        "Products/Inquiry/umm-internal-api-docs"
       ]
     }
   ],

@@ -41,7 +41,7 @@ paths:
       tags:
       - Merchant Inquiry
       summary: GraphQL API to retrieve Merchant's information. Additional filtering
-        can be perfomed based on certail parameter as shown in the provided request
+        can be perfomed based on certain parameter as shown in the provided request
         sample
       operationId: getMerchant
       parameters:
