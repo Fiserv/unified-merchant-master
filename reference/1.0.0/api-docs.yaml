@@ -30,12 +30,13 @@
 
 openapi: 3.0.1
 info:
-  title: UMM GraphQL Service
-  description: GraphQL API to retrieve Merchant's information
+  title: UMM API
+  description: Unified API to retrieve/update Merchant's information or retrieve metadata
   version: 1.0.0
 servers:
 - url: https://connect.fiservapis.com/unifiedmerchantmaster
 paths:
+# getMerchant start
   /graphql/getMerchant:
     post:
       tags:
@@ -104,8 +105,89 @@ paths:
       x-group-name: Inquiry
       x-core: UMM
       x-child-product-name: Merchants
+# getMerchant end
+# products start
+  /internal/v1/products:
+    get:
+      tags:
+      - Product Inquiry
+      summary: API to retrieve Products
+      operationId: products
+      parameters:
+      - name: platformCode
+        in: query
+        description: Code to identify the specific backend platform. It adds the required
+          information for the merchant
+        required: true
+        schema:
+          type: string
+          description: Code to identify the specific backend platform. It adds the
+            required information for the merchant
+          example: NORTH
+          enum:
+          - NORTH
+          - OMAHA
+          - SOUTH
+          - OMNIPAY26
+        example: NORTH
+      - name: productCategory
+        in: query
+        required: true
+        schema:
+          type: string
+          example: VAS
+        example: VAS
+      - name: productCode
+        in: query
+        description: Code that indicate the brand entitlement of the product
+        required: false
+        schema:
+          type: string
+          description: Code that indicate the brand entitlement of the product
+      - name: productShortDescription
+        in: query
+        required: false
+        schema:
+          maxLength: 2147483647
+          minLength: 4
+          type: string
+      - name: includeInactive
+        in: query
+        required: false
+        schema:
+          type: string
+          example: true
+        example: true
+      - name: pageNumber
+        in: query
+        required: false
+        schema:
+          minLength: 1
+          type: string
+          example: 1
+        example: 1
+      - name: tags
+        in: query
+        required: false
+        schema:
+          maxLength: 10
+          minLength: 0
+          type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductMasterResponse'
+      x-proxy-name: v1/products
+      x-group-name: Inquiry
+      x-core: UMM
+      x-child-product-name: Products
+# products end
 components:
   schemas:
+# getMerchant start
     InquiryRequest:
       required:
       - operationName
@@ -1836,6 +1918,59 @@ components:
           items:
             $ref: '#/components/schemas/Error'
       description: GraphQl Response
+# getMerchant end
+# products start
+    ProductMasterExternalCrossRefResponse:
+      type: object
+      properties:
+        xrefPlatform:
+          type: string
+        xrefPlatformIdentifier:
+          type: string
+    ProductMasterResponse:
+      type: object
+      properties:
+        products:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductResponse'
+        pageNumber:
+          type: integer
+          format: int32
+        pageSize:
+          type: integer
+          format: int32
+        totalCount:
+          type: integer
+          format: int64
+    ProductResponse:
+      type: object
+      properties:
+        productId:
+          type: integer
+          format: int64
+        productCode:
+          type: string
+          description: Code that indicate the brand entitlement of the product
+        productLongDesc:
+          type: string
+        productShortDesc:
+          type: string
+        productSubCategory:
+          type: string
+        pricingConfigType:
+          type: string
+        feeTypeCode:
+          type: string
+        isActive:
+          type: string
+        productCategory:
+          type: string
+        crossReference:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductMasterExternalCrossRefResponse'
+# products end
   securitySchemes:
     x-consumer-name:
       type: http
