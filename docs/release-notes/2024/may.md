@@ -1,6 +1,6 @@
 # Release Notes
 
-March 2022
+May 2022
 
 ## v1.0.0 (api version)
 
