@@ -35,12 +35,12 @@ header:
     link: "/assets/images/Fiserv_Logo.jpg"
     altText: UMM™
 benefits:
-  - title: Unification & Single source of truth for merchant data
-    description: Single database hosting merchant , equipment , fees & product data across Fiserv platforms in unified format.
+  - title: Unified Data Lake
+    description: Single database hosting merchant , equipment , fees & product data across Fiserv platforms in unified format
   - title: Simplified Integration
     description: Unified API layer to retrieve, on-board or update merchant across Fiserv platforms.
-  - title: Real time Data sync capability
-    description: Bi-directional data sync capability with backend merchant masters keeping UMM always in sync with backends at real time.
+  - title: Analystics & Reporting
+    description: Convert unstructured data into eays-to-read insight to make solid business decisions
 getStarted: /docs/getting-started.md
 featuredFeatures:
   - title: Merchant Inquiry
