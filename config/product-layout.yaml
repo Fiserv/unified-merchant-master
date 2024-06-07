@@ -56,7 +56,7 @@ featuredFeatures:
       - relatedAPI: 
         title: Merchant Inquiry
         description: Unified GraphQL merchant inquiry API
-        type: "POST"
+        type: "post"
         path: "/graphql/getMerchant"
   - title: Product Inquiry
     description:  Unified Product Inquiry API
@@ -79,7 +79,7 @@ featuredFeatures:
       - relatedAPI: 
         title: Product Inquiry
         description: Unified Product Inquiry API
-        type: "GET"
+        type: "get"
         path: "/internal/v1/products"
       # - relatedAPI: 
       #   title: REPLACEME
