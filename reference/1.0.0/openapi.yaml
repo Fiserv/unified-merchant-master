@@ -31,12 +31,11 @@
 openapi: 3.0.1
 info:
   title: UMM API
-  description: Unified API to retrieve/update Merchant's information or retrieve metadata
+  description: Unified API to retrieve/update Merchant's information and/or product information
   version: 1.0.0
 servers:
 - url: https://connect.fiservapis.com/unifiedmerchantmaster
 paths:
-# getMerchant start
   /graphql/getMerchant:
     post:
       tags:
@@ -105,8 +104,6 @@ paths:
       x-group-name: Inquiry
       x-core: UMM
       x-child-product-name: Merchants
-# getMerchant end
-# products start
   /internal/v1/products:
     get:
       tags:
@@ -173,6 +170,13 @@ paths:
           maxLength: 10
           minLength: 0
           type: string
+      - name: x-encrypted-data
+        in: header
+        description: Use data encryption
+        required: true
+        schema:
+          type: string
+        example: true
       responses:
         "200":
           description: OK
@@ -184,10 +188,8 @@ paths:
       x-group-name: Inquiry
       x-core: UMM
       x-child-product-name: Products
-# products end
 components:
   schemas:
-# getMerchant start
     InquiryRequest:
       required:
       - operationName
@@ -1918,8 +1920,6 @@ components:
           items:
             $ref: '#/components/schemas/Error'
       description: GraphQl Response
-# getMerchant end
-# products start
     ProductMasterExternalCrossRefResponse:
       type: object
       properties:
@@ -1970,7 +1970,6 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/ProductMasterExternalCrossRefResponse'
-# products end
   securitySchemes:
     x-consumer-name:
       type: http
