@@ -30,7 +30,7 @@
 
 openapi: 3.0.1
 info:
-  title: UMM API
+  title: UMM GraphQL
   description: Unified API to retrieve/update Merchant's information and/or product
     information
   version: 1.0.0
