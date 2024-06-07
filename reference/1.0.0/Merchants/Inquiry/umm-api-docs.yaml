@@ -30,8 +30,9 @@
 
 openapi: 3.0.1
 info:
-  title: UMM GraphQL Service
-  description: GraphQL API to retrieve Merchant's information
+  title: UMM API
+  description: Unified API to retrieve/update Merchant's information and/or product
+    information
   version: 1.0.0
 servers:
 - url: https://connect.fiservapis.com/unifiedmerchantmaster
@@ -78,6 +79,13 @@ paths:
           format: yyyy-MM-dd
           example: 2024-06-06
         example: 2024-06-06
+      - name: Authorization
+        in: header
+        description: Bearer token
+        required: true
+        schema:
+          type: string
+        example: "Bearer {token}"
       - name: x-encrypted-data
         in: header
         description: Use data encryption
@@ -98,8 +106,6 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ResponseMerchant'
-      security:
-      - x-consumer-name: []
       x-proxy-name: getMerchant
       x-group-name: Inquiry
       x-core: UMM
@@ -1836,8 +1842,3 @@ components:
           items:
             $ref: '#/components/schemas/Error'
       description: GraphQl Response
-  securitySchemes:
-    x-consumer-name:
-      type: http
-      scheme: bearer
-      bearerFormat: JWT
