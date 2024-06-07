@@ -28,43 +28,66 @@
 # the delivery of this work
 ################################################################################
 header:
-  productName: TESTING
-  productionDescription: REPLACEME
-  whoIsItFor: REPLACEME
+  productName: Unified Merchant Master
+  productionDescription: UMM offers single unified definition of products & offerings, fees, equipment and merchant demographic information across multiple Fiserv platforms under one umbrella enabling real time access of data using unified API gateway leading to ease of integration, low maintenance, easy consumption of change and reduce development time. With unified/canonical data model on Snowflake & unified GraphQL API, it reduces friction in on-boarding, account maintenance, offering management product rollout & provides an easy interface for reconciliation and comprehensive analytics of merchant data
+  whoIsItFor: Internal
   image: 
     link: "/assets/images/Fiserv_Logo.jpg"
-    altText: REPLACEME™
+    altText: UMM™
+benefits:
+  - title: Unification & Single source of truth for merchant data
+    description: Single database hosting merchant , equipment , fees & product data across Fiserv platforms in unified format.
+  - title: Simplified Integration
+    description: Unified API layer to retrieve, on-board or update merchant across Fiserv platforms.
+  - title: Real time Data sync capability
+    description: Bi-directional data sync capability with backend merchant masters keeping UMM always in sync with backends at real time.
+getStarted: /docs/getting-started.md
 featuredFeatures:
-  - title: TESTING REPLACE ME
-    description:  REPLACE ME 1.0.0
-    tags: ["REPLACEME", "REPLACEME", "REPLACEME"]
-    bullets: ["REPLACEME", "REPLACEME" ]  
+  - title: Merchant Inquiry
+    description: Unified GraphQL Merchant Inquiry API
+    tags: ["UMM", "Merchant", "GraphQL"]
+    bullets: ["UMM", "Merchant", "GraphQL"]
     relatedDocs:
       - relatedDoc: 
-        title: REPLACEME
-        description: REPLACEME
-        link: ./docs/REPLACE-ME1.md
-      - relatedDoc: 
-        title: REPLACEME
-        description: REPLACEME
-        link: ./docs/REPLACE-ME2.md
-      - relatedDoc: 
-        title: REPLACEME
-        description: REPLACEME
-        link: ./docs/REPLACE-ME3.md
+        title: Merchant
+        description: Merchant
+        link: ./docs/merchant.md
     relatedAPIs:
       - relatedAPI: 
-        title: REPLACEME
-        description: REPLACEME
-        type: "patch"        
-        path: "/v1/REPLACEME1"
+        title: Merchant Inquiry
+        description: Unified GraphQL merchant inquiry API
+        type: "POST"
+        path: "/graphql/getMerchant"
+  - title: Product Inquiry
+    description:  Unified Product Inquiry API
+    tags: ["UMM", "Product"]
+    bullets: ["UMM", "Product"] 
+    relatedDocs:
+      - relatedDoc: 
+        title: Products
+        description: Products
+        link: ./docs/products.md
+      # - relatedDoc: 
+      #   title: REPLACEME
+      #   description: REPLACEME
+      #   link: ./docs/REPLACE-ME2.md
+      # - relatedDoc: 
+      #   title: REPLACEME
+      #   description: REPLACEME
+      #   link: ./docs/REPLACE-ME3.md
+    relatedAPIs:
       - relatedAPI: 
-        title: REPLACEME
-        description: REPLACEME
-        type: "post"        
-        path: "/v1/REPLACEME2"
-      - relatedAPI: 
-        title: REPLACEME
-        description: REPLACEME
-        type: "get"        
-        path: "/v1/REPLACEME3"
+        title: Product Inquiry
+        description: Unified Product Inquiry API
+        type: "GET"
+        path: "/internal/v1/products"
+      # - relatedAPI: 
+      #   title: REPLACEME
+      #   description: REPLACEME
+      #   type: "post"        
+      #   path: "/v1/REPLACEME2"
+      # - relatedAPI: 
+      #   title: REPLACEME
+      #   description: REPLACEME
+      #   type: "get"        
+      #   path: "/v1/REPLACEME3"

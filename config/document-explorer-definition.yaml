@@ -36,6 +36,11 @@
     sections:
     - title: May 2024
       link: docs/release-notes/2024/may.md
+- sections:
+  - title: Working with UMM API
+    sections:
+    - title: Authentication
+      link: docs/authentication.md
 # - sections:
 #     - title: UMM Specifications
 #       sections:
