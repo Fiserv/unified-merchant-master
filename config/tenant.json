@@ -10,7 +10,7 @@
       "version": "1.0.0",
       "versionType": "major",
       "releaseNotesPath": "docs/release-notes/2024/may.md",
-      "apiSpecFileNames": [ "api-docs" ]
+      "apiSpecFileNames": [ "openapi" ]
     }
   ],
   "getStartedFilePath": "/docs/getting-started.md",
