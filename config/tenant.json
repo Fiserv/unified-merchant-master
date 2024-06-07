@@ -11,8 +11,8 @@
       "versionType": "major",
       "releaseNotesPath": "docs/release-notes/2024/may.md",
       "apiSpecFileNames": [ 
-        "Merchants/Inquiry/umm-api-docs.yaml", 
-        "Products/Inquiry/umm-internal-api-docs.yaml"
+        "Merchants/Inquiry/umm-api-docs", 
+        "Products/Inquiry/umm-internal-api-docs"
       ]
     }
   ],
