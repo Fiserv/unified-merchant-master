@@ -10,7 +10,10 @@
       "version": "1.0.0",
       "versionType": "major",
       "releaseNotesPath": "docs/release-notes/2024/may.md",
-      "apiSpecFileNames": [ "openapi" ]
+      "apiSpecFileNames": [ 
+        "Merchants/Inquiry/umm-api-docs", 
+        "Products/Inquiry/umm-internal-api-docs"
+      ]
     }
   ],
   "getStartedFilePath": "/docs/getting-started.md",

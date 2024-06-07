@@ -102,6 +102,13 @@ paths:
           maxLength: 10
           minLength: 0
           type: string
+      - name: Authorization
+        in: header
+        description: Bearer token
+        required: true
+        schema:
+          type: string
+        example: "Bearer {token}"
       responses:
         "200":
           description: OK
