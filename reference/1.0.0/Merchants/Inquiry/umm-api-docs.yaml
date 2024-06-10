@@ -31,8 +31,7 @@
 openapi: 3.0.1
 info:
   title: UMM GraphQL
-  description: Unified API to retrieve/update Merchant's information and/or product
-    information
+  description: Unified API to retrieve/update Merchant's information
   version: 1.0.0
 servers:
 - url: https://connect.fiservapis.com/unifiedmerchantmaster
@@ -164,6 +163,7 @@ components:
           type: string
         contactTitle:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         address1Text:
           maxLength: 150
@@ -245,6 +245,7 @@ components:
           description: E-mail address of the merchant
         deliveryMethod:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
     Error:
       type: object
@@ -331,6 +332,9 @@ components:
         errorSource:
           type: string
     Merchant:
+      required:
+      - merchantId
+      - platformCode
       type: object
       properties:
         merchantId:
@@ -873,23 +877,6 @@ components:
                   }
                 }
                 ```
-            example:
-              domain#1:
-                domainDescription: "domain #1 description"
-                attribute#1:
-                  attributeDescription: attribute description
-                  values:
-                  - some value
-                attribute#2:
-                  attributeDescription: attribute description
-                  values:
-                  - some value
-              domain#2:
-                domainDescription: "domain #2 description"
-                attribute#1:
-                  attributeDescription: attribute description
-                  values:
-                  - some value
           description: |2
               Will contain one or more attributes in the format shown below
               > For additional information refer to the documentation
@@ -915,23 +902,6 @@ components:
                 }
               }
               ```
-          example:
-            domain#1:
-              domainDescription: "domain #1 description"
-              attribute#1:
-                attributeDescription: attribute description
-                values:
-                - some value
-              attribute#2:
-                attributeDescription: attribute description
-                values:
-                - some value
-            domain#2:
-              domainDescription: "domain #2 description"
-              attribute#1:
-                attributeDescription: attribute description
-                values:
-                - some value
         merchantBusinessInformation:
           $ref: '#/components/schemas/MerchantBusinessInformation'
         merchantHierarchies:
@@ -997,9 +967,11 @@ components:
           format: int64
         recordType:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         billingLevel:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         routingNumber:
           type: string
@@ -1009,9 +981,11 @@ components:
             account
         nameOnAccount:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         bankName:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         accountEffectiveDate:
           type: string
@@ -1019,6 +993,7 @@ components:
           format: date
         receiverCountry:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         phoneNumber:
           type: string
@@ -1027,39 +1002,50 @@ components:
           type: string
         paymentReference:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         iban:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         correspondentBankNo:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         paymentFormatId:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         clearingEntity:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         paymentDelayDays:
           type: integer
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           format: int32
           x-not-for-north: "true"
         currencyCode:
           type: string
-          description: ISO 4217 currency of the account selected
+          description: |
+            ISO 4217 currency of the account selected
+            `OMNIPAY2`
           x-for-omnipay26: "true"
           x-not-for-north: "true"
         bankReference:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         correspondentBankAccount:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         bankFundingFileCode:
           type: string
           description: Indicate the funding file process associated with ABA/DDA transactions
         bankCity:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         bankAccountType:
           type: string
@@ -1079,8 +1065,10 @@ components:
           maxLength: 16
           minLength: 2
           type: object
-          description: Identifier used to denote the legal entity type of a business
-            or organization
+          description: |2
+              Identifier used to denote the legal entity type of a business or organization
+
+              `NORTH` `OMNIPAY26`
           format: string
           oneOf:
           - title: NORTH
@@ -1232,15 +1220,19 @@ components:
           - "NO"
         mailOrderPercent:
           type: number
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         phoneOrderPercent:
           type: number
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         posOrderPercent:
           type: number
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         swipedPercent:
           type: number
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         keyedPercent:
           maxLength: 5
@@ -1253,6 +1245,7 @@ components:
           x-not-for-north: "true"
         salesLeadTrackingNo:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         accountSignedDate:
           type: string
@@ -1260,6 +1253,7 @@ components:
           x-not-for-north: "true"
         accountApprovalDate:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           format: date
           x-not-for-north: "true"
         quasiCashIndicator:
@@ -1291,16 +1285,20 @@ components:
       properties:
         hierarchyLevelCode:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         hierarchySeq:
           type: integer
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           format: int64
           x-not-for-north: "true"
         hierarchyName:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         hierarchyMerchantId:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
     MerchantIrsTax:
       type: object
@@ -1350,6 +1348,7 @@ components:
           format: date
         payeeId:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         payeeCode:
           maxLength: 24
@@ -1508,6 +1507,7 @@ components:
             System (TIMS)
         payeeDefaultIndicator:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         taxPayIndicator:
           maxLength: 3
@@ -1566,6 +1566,7 @@ components:
       properties:
         ownerSeqCode:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         firstName:
           maxLength: 100
@@ -1758,6 +1759,7 @@ components:
           description: Unique identifier of pricing grid assigned to a merchant
         isActive:
           type: string
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         uniqueIdentifier:
           type: string
@@ -1785,11 +1787,13 @@ components:
           maxLength: 11
           minLength: 11
           type: number
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         retailAmountOrPercent:
           maxLength: 11
           minLength: 11
           type: number
+          description: '`OMAHA` `OMNIPAY26` `SOUTH`'
           x-not-for-north: "true"
         feeTypeCode:
           type: string
