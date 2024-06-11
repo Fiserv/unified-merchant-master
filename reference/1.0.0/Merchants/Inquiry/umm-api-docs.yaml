@@ -1773,30 +1773,6 @@ components:
       properties:
         merchant:
           $ref: '#/components/schemas/Merchant'
-      description: |
-        GraphQL mutation query (sample) to update Merchant
-
-        ```
-        mutation merchant {
-          updateMerchant(
-            merchant: {
-              merchantId: "1234567890"
-              platformCode: NORTH
-              addresses: [
-                {
-                  addressTypeCode: CORPORATE,
-                  address1Text: "123 Nowhere Lane"
-                }
-              ]
-            }
-          ) {
-            ... on Merchant {
-              merchantId
-              platformCode
-            }
-          }
-        }
-        ```
       example: |
         mutation merchant {
           updateMerchant(
@@ -1926,26 +1902,6 @@ components:
       properties:
         query:
           type: string
-          description: |
-            GraphQL Query (sample)
-
-            ```
-            query inquiry {
-              getMerchant(merchantId: "12345678901", platformCode: NORTH) {
-                ... on Merchant {
-                  merchantId
-                  platformCode
-                  dbaName
-                  addresses {
-                    addressTypeCode (filterByAddressType:[LOCATION])
-                    contactName
-                    contactTitle
-                    address1Text
-                  }
-                }
-              }
-            }
-            ```
           example: |
             query inquiry {
               getMerchant(merchantId: "12345678901", platformCode: NORTH) {
