@@ -41,6 +41,10 @@
     sections:
     - title: Authentication
       link: docs/authentication.md
+    - title: Attributes
+      sections:
+      - title: Merchant
+        link: docs/attribute/merchant/details.md
 # - sections:
 #     - title: UMM Specifications
 #       sections:
