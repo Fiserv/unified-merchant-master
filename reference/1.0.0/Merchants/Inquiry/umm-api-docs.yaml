@@ -1500,8 +1500,7 @@ components:
           description: Official name of the merchant as it appears in legal and corporate
             documents
       description: "> 🚫 This is for reference, **not** required in request payload"
-      enum:
-      - "{}"
+      default: 🚫
     MerchantXref:
       type: object
       properties:
@@ -2638,8 +2637,7 @@ components:
         subPlatformCode:
           type: string
       description: "> 🚫 This is for reference, **not** required in request payload"
-      enum:
-      - "{}"
+      default: 🚫
     MerchantProductDelete:
       type: object
       properties:
