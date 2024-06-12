@@ -1404,7 +1404,8 @@ components:
             type: object
             description: |2
                 Will contain one or more attributes in the format shown below
-                > For additional information refer to the documentation
+                > For additional information refer to
+                      <a href="../docs?path=docs/attribute/merchant/details.md">attributes definition</a>
                 ```
                 {
                   "domain#1": {
@@ -1429,7 +1430,8 @@ components:
                 ```
           description: |2
               Will contain one or more attributes in the format shown below
-              > For additional information refer to the documentation
+              > For additional information refer to
+                    <a href="../docs?path=docs/attribute/merchant/details.md">attributes definition</a>
               ```
               {
                 "domain#1": {
@@ -2439,7 +2441,8 @@ components:
             type: object
             description: |2
                 Will contain one or more attributes in the format shown below
-                > For additional information refer to the documentation
+                > For additional information refer to
+                      <a href="../docs?path=docs/attribute/merchant/details.md">attributes definition</a>
                 ```
                 {
                   "domain#1": {
@@ -2464,7 +2467,8 @@ components:
                 ```
           description: |2
               Will contain one or more attributes in the format shown below
-              > For additional information refer to the documentation
+              > For additional information refer to
+                    <a href="../docs?path=docs/attribute/merchant/details.md">attributes definition</a>
               ```
               {
                 "domain#1": {
