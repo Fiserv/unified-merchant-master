@@ -61,7 +61,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/MutationRequestUpdateMerchant'
+              $ref: '#/components/schemas/UpdateMerchant'
         required: true
       responses:
         "200":
@@ -145,6 +145,44 @@ paths:
                 $ref: '#/components/schemas/ResponseMerchant'
       x-proxy-name: getMerchant
       x-group-name: Inquiry
+      x-core: UMM
+      x-child-product-name: Merchants
+  /graphql/deleteMerchant:
+    post:
+      tags:
+      - Merchant Delete
+      summary: GraphQL API to delete Merchant's information
+      operationId: deleteMerchant
+      parameters:
+      - name: Authorization
+        in: header
+        description: Bearer token
+        required: true
+        schema:
+          type: string
+        example: "Bearer {token}"
+      - name: x-encrypted-data
+        in: header
+        description: Use data encryption
+        required: true
+        schema:
+          type: string
+        example: true
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DeleteMerchant'
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResponseBoolean'
+      x-proxy-name: deleteMerchant
+      x-group-name: Mutation
       x-core: UMM
       x-child-product-name: Merchants
 components:
@@ -873,6 +911,7 @@ components:
           type: string
           description: Official name of the merchant as it appears in legal and corporate
             documents
+      description: "> 🚫 This is for reference, **not** required in request payload"
     MerchantAccount:
       type: object
       properties:
@@ -1485,14 +1524,6 @@ components:
           type: string
           description: Indicates whether the merchants and communications utilize
             the associated cross-reference number
-    MutationRequestUpdateMerchant:
-      required:
-      - query
-      type: object
-      properties:
-        query:
-          $ref: '#/components/schemas/UpdateMerchant'
-      description: Merchant Mutation Request
     Owner:
       type: object
       properties:
@@ -1769,30 +1800,37 @@ components:
         frontEndMid:
           type: string
     UpdateMerchant:
+      required:
+      - query
       type: object
       properties:
-        merchant:
-          $ref: '#/components/schemas/Merchant'
-      example: |
-        mutation merchant {
-          updateMerchant(
-            merchant: {
-              merchantId: "1234567890"
-              platformCode: NORTH
-              addresses: [
-                {
-                  addressTypeCode: CORPORATE,
-                  address1Text: "123 Nowhere Lane"
+        query:
+          type: string
+          description: |
+            Sample merchant update mutation query
+            ```
+            mutation merchant {
+              updateMerchant(
+                merchant: {
+                  merchantId: "1234567890"
+                  platformCode: NORTH
+                  addresses: [
+                    {
+                      addressTypeCode: CORPORATE,
+                      address1Text: "123 Nowhere Lane"
+                    }
+                  ]
                 }
-              ]
+              ) {
+                ... on Merchant {
+                  merchantId
+                  platformCode
+                }
+              }
             }
-          ) {
-            ... on Merchant {
-              merchantId
-              platformCode
-            }
-          }
-        }
+            ```
+        schema:
+          $ref: '#/components/schemas/Merchant'
     Error:
       type: object
       properties:
@@ -1886,15 +1924,6 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Error'
-      description: |
-        GraphQl Response, normally contains the fields requested in the following section in the query
-        ```
-        {
-        ... on Merchant {
-          merchantId
-          platformCode
-        }
-        ```
     InquiryRequest:
       required:
       - query
@@ -1902,7 +1931,9 @@ components:
       properties:
         query:
           type: string
-          example: |
+          description: |
+            Sample merchant inquiry query
+            ```
             query inquiry {
               getMerchant(merchantId: "12345678901", platformCode: NORTH) {
                 ... on Merchant {
@@ -1918,4 +1949,128 @@ components:
                 }
               }
             }
+            ```
       description: Merchant Inquiry Request
+    DeleteMerchant:
+      required:
+      - query
+      type: object
+      properties:
+        query:
+          type: string
+          description: |
+            Sample merchant delete mutation query
+            ```
+            ```
+        schema:
+          $ref: '#/components/schemas/MerchantDelete'
+    MerchantAccountDelete:
+      type: object
+      properties:
+        accountUsageCode:
+          type: string
+          description: Unique identifier assigned to a checking or current account.
+            It distinguishs one account from another within a financial institution
+          enum:
+          - FUNDING
+          - LEASING
+        sequenceNumber:
+          type: integer
+          format: int64
+    MerchantDelete:
+      required:
+      - merchantId
+      type: object
+      properties:
+        merchantId:
+          maxLength: 50
+          minLength: 12
+          type: string
+          description: Unique identifier of the merchant. It is required to query/add
+            merchant-specific information from/to the database
+        platformCode:
+          type: string
+          description: Code to identify the specific backend platform. It adds the
+            required information for the merchant
+          enum:
+          - NORTH
+          - OMAHA
+          - SOUTH
+          - OMNIPAY26
+        owners:
+          type: array
+          items:
+            $ref: '#/components/schemas/OwnerDelete'
+        products:
+          $ref: '#/components/schemas/MerchantProductDelete'
+        merchantXrefs:
+          type: array
+          items:
+            $ref: '#/components/schemas/MerchantXrefDelete'
+        merchantAccounts:
+          type: array
+          items:
+            $ref: '#/components/schemas/MerchantAccountDelete'
+        subPlatformCode:
+          type: string
+      description: "> 🚫 This is for reference, **not** required in request payload"
+    MerchantProductDelete:
+      type: object
+      properties:
+        entitlements:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductDelete'
+        valueAddedServices:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductDelete'
+        fees:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductDelete'
+        equipments:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductDelete'
+    MerchantXrefDelete:
+      type: object
+      properties:
+        xrefPlatformMid:
+          type: string
+        xrefPlatformCode:
+          type: string
+    OwnerDelete:
+      type: object
+      properties:
+        ownerSeqCode:
+          type: string
+        ownerIdentificationDetails:
+          type: array
+          items:
+            $ref: '#/components/schemas/OwnerIdentificationDelete'
+    OwnerIdentificationDelete:
+      type: object
+      properties:
+        identityDocTypeCode:
+          type: string
+        identityDocNumber:
+          type: string
+    ProductDelete:
+      type: object
+      properties:
+        productCode:
+          type: string
+        attributes:
+          type: object
+          additionalProperties:
+            type: object
+    ResponseBoolean:
+      type: object
+      properties:
+        data:
+          type: boolean
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/Error'
