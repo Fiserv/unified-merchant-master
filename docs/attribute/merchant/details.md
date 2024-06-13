@@ -19,7 +19,7 @@ The below section list the attributes grouped by **Domain**
 | `icplusStatementFormatCode` | `ICPLUS_LONG_STMT` | Interchange Plus Long Statement |
 | `statementMailToCode` | [View Details](#statementmailtocode) | [View Description](#statementmailtocode) |
 
-> #### `statementMailToCode`
+> ### `statementMailToCode`
 >
 > | Allowed Values | Description |
 > | ------- | ------- |
@@ -31,4 +31,5 @@ The below section list the attributes grouped by **Domain**
 > | `MAIL_TO_OUTLET` | Mail To Outlet |
 > | `MAIL_TO_CORP` | Mail to Corp |
 > | `RECAP_NO_STMT` | Recap/No Statements |
- 
+
+---

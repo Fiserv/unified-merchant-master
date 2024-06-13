@@ -9,13 +9,13 @@ To read about how to edit these files refer to the [Tenant Documentation](https:
 
 ## Directory structure
 
-- /docs : All markdown files are to be placed in this directory
-- /assets :  Static assets like image etc here
-- /config/document-explorer-definition.yaml : Provide document tree structure for dev studio left side navigation.
-- /config/tenant.json : Tenant configuration file
-- /config/product-layout.yaml : Yaml spec for product page content
-- /reference/[api-version]/openapi.yaml : Tenant OpenAPI 3.0 Spec
-- .docignore : Use .docignore to hide markdown files from showing up in the doc explorer and from being indexed & searchable
+- `/docs` : All markdown files are to be placed in this directory
+- `/assets` :  Static assets like image etc here
+- `/config/document-explorer-definition.yaml` : Provide document tree structure for dev studio left side navigation.
+- `/config/tenant.json` : Tenant configuration file
+- `/config/product-layout.yaml` : Yaml spec for product page content
+- `/reference/[api-version]/openapi.yaml` : Tenant OpenAPI 3.0 Spec
+- `.docignore` : Use `.docignore` to hide markdown files from showing up in the doc explorer and from being indexed & searchable
 
 ### Configure tenant.json product-layout.yaml document-explorer-definition.yaml
 
