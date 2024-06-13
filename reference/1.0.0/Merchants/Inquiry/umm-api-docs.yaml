@@ -43,20 +43,25 @@ paths:
       summary: GraphQL API to update Merchant's information
       operationId: updateMerchant
       parameters:
+      - name: merchant
+        in: query
+        required: false
+        schema:
+          $ref: '#/components/schemas/MerchantUpdateSchema'
       - name: Authorization
         in: header
-        description: Bearer token
+        description: Apigee Bearer token
         required: true
         schema:
           type: string
         example: "Bearer {token}"
       - name: x-encrypted-data
         in: header
-        description: Use data encryption
-        required: true
+        description: Use to signify if data is encrypted
+        required: false
         schema:
           type: string
-        example: true
+        example: false
       requestBody:
         content:
           application/json:
@@ -118,18 +123,18 @@ paths:
         example: 2024-06-06
       - name: Authorization
         in: header
-        description: Bearer token
+        description: Apigee Bearer token
         required: true
         schema:
           type: string
         example: "Bearer {token}"
       - name: x-encrypted-data
         in: header
-        description: Use data encryption
-        required: true
+        description: Use to signify if data is encrypted
+        required: false
         schema:
           type: string
-        example: true
+        example: false
       requestBody:
         content:
           application/json:
@@ -154,20 +159,25 @@ paths:
       summary: GraphQL API to delete Merchant's information
       operationId: deleteMerchant
       parameters:
+      - name: merchant
+        in: query
+        required: false
+        schema:
+          $ref: '#/components/schemas/MerchantDeleteSchema'
       - name: Authorization
         in: header
-        description: Bearer token
+        description: Apigee Bearer token
         required: true
         schema:
           type: string
         example: "Bearer {token}"
       - name: x-encrypted-data
         in: header
-        description: Use data encryption
-        required: true
+        description: Use to signify if data is encrypted
+        required: false
         schema:
           type: string
-        example: true
+        example: false
       requestBody:
         content:
           application/json:
@@ -1501,8 +1511,8 @@ components:
           type: string
           description: Official name of the merchant as it appears in legal and corporate
             documents
-      description: "> 🚫 This is for reference, **not** required in request payload"
-      default: 🚫
+      description: "> 🚫 This is for reference, **not** required in query parameter;\
+        \ this will be part of the graphql mutation query"
     MerchantXref:
       type: object
       properties:
@@ -1832,8 +1842,6 @@ components:
               }
             }
             ```
-        schema:
-          $ref: '#/components/schemas/MerchantUpdateSchema'
     Error:
       type: object
       properties:
@@ -2574,23 +2582,6 @@ components:
             }
             ```
       description: Merchant Inquiry Request
-    DeleteMerchant:
-      required:
-      - query
-      type: object
-      properties:
-        query:
-          type: string
-          description: |
-            This API can be used to delete specific Merchant information like
-            Owner, Xref etc. and is not meant to delete the actual merchant information.
-            Refer to the attached schema to identify the deletable information
-
-            Sample merchant delete mutation query
-            ```
-            ```
-        schema:
-          $ref: '#/components/schemas/MerchantDeleteSchema'
     MerchantAccountDelete:
       type: object
       properties:
@@ -2640,8 +2631,8 @@ components:
             $ref: '#/components/schemas/MerchantAccountDelete'
         subPlatformCode:
           type: string
-      description: "> 🚫 This is for reference, **not** required in request payload"
-      default: 🚫
+      description: "> 🚫 This is for reference, **not** required in query parameter;\
+        \ this will be part of the graphql mutation query"
     MerchantProductDelete:
       type: object
       properties:
@@ -2693,6 +2684,21 @@ components:
           type: object
           additionalProperties:
             type: object
+    DeleteMerchant:
+      required:
+      - query
+      type: object
+      properties:
+        query:
+          type: string
+          description: |
+            This API can be used to delete specific Merchant information like
+            Owner, Xref etc. and is not meant to delete the actual merchant information.
+            Refer to the attached schema to identify the deletable information
+
+            Sample merchant delete mutation query
+            ```
+            ```
     ResponseBoolean:
       type: object
       properties:
