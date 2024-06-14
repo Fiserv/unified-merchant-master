@@ -57,7 +57,7 @@ featuredFeatures:
         title: Merchant Inquiry
         description: Unified GraphQL merchant inquiry API
         type: "post"
-        path: "/graphql/getMerchant"
+        path: "/graphql"
   - title: Product Inquiry
     description:  Unified Product Inquiry API
     tags: ["UMM", "Product"]

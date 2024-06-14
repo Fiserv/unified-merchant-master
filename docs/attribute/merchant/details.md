@@ -10,6 +10,19 @@ The below section list the attributes grouped by **Domain**
 | `mediaRetrievalCode` | | |
 | `chargebackPrenoteIndicator` | `YES`, `NO` | Chargeback Prenote Indicator |
 
+#### Sample:
+
+```
+"chargebackConfig": {
+  "email": {
+    "values": [ "test.email@email.com" ]
+  },
+  "chargebackPrenoteIndicator": {
+    "attributeDescription": "Chargeback Prenote Indicator",
+    "values": [ "YES" ]
+  }
+}
+```
 ---
 
 ## `statementConfig`
@@ -32,4 +45,18 @@ The below section list the attributes grouped by **Domain**
 > | `MAIL_TO_CORP` | Mail to Corp |
 > | `RECAP_NO_STMT` | Recap/No Statements |
 
+#### Sample:
+
+```
+"statementConfig": {
+  "icplusStatementFormatCode": {
+    "attributeDescription": "Interchange Plus Long Statement",
+    "values": [ "ICPLUS_LONG_STMT" ]
+  },
+  "statementMailToCode": {
+    "attributeDescription": "Mail to Corp, No Recap",
+    "values": [ "MAIL_TO_CORP_NO_RECAP" ]
+  }
+}
+```
 ---
