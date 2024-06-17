@@ -14,9 +14,7 @@ paths:
         can be perfomed based on certain parameter as shown in the provided request
         sample
       description: |
-        > ⚠ All APIs are POST
-
-        > ℹ Unless explicitly mentioned, fields are applicable for all Platforms
+        ⚠ All APIs are POST ⚠ Unless explicitly mentioned, fields are applicable for all Platforms
       operationId: getMerchant
       parameters:
       - name: merchantId
@@ -24,10 +22,12 @@ paths:
         required: true
         schema:
           maxLength: 50
-          minLength: 12
+          minLength: 7
           type: string
-          description: Unique identifier of the merchant. It is required to query/add
-            merchant-specific information from/to the database
+          description: |
+            Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
+
+            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md">`NORTH`</a>, <a href="../docs?path=docs/specification/merchant/north.md">`SOUTH`</a> definition
       - name: platformCode
         in: query
         description: Code to identify the specific backend platform. It adds the required
@@ -312,10 +312,12 @@ components:
       properties:
         merchantId:
           maxLength: 50
-          minLength: 12
+          minLength: 7
           type: string
-          description: Unique identifier of the merchant. It is required to query/add
-            merchant-specific information from/to the database
+          description: |
+            Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
+
+            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md">`NORTH`</a>, <a href="../docs?path=docs/specification/merchant/north.md">`SOUTH`</a> definition
         platformCode:
           type: string
           description: Code to identify the specific backend platform. It adds the
