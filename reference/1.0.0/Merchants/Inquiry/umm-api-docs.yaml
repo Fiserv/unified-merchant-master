@@ -81,7 +81,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ResponseMerchant'
-      x-proxy-name: getMerchant
+      x-proxy-name: graphql
       x-group-name: Inquiry
       x-core: UMM
       x-child-product-name: Merchants
