@@ -40,6 +40,13 @@
       - title: Data Lake Access
         link: docs/getting-access/database-access.md
 - sections:
+  - title: UMM Specifications
+    sections:
+      - title: Attributes
+        sectons:
+        - title: Merchant
+          link: docs/attribute/merchant/details.md
+- sections:
   - title: Release notes
     sections:
     - title: May 2024
@@ -49,8 +56,8 @@
 #     sections:
 #     - title: Authentication
 #       link: docs/authentication.md
-#     - title: Attributes
-#       sections:
+#     - titlei: Attributes
+#       sectons:
 #       - title: Merchant
 #         link: docs/attribute/merchant/details.md
 # - sections:
