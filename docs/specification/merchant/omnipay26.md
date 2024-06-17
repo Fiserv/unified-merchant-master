@@ -4,15 +4,15 @@
 
 | Name | Min Length | Max Length | Pattern |
 |---|---|---|---|
-| merchantId | 8 | 8 | `^[0-9]{8,8}$` |
-| merchantHierarchies | [View Details](#merchant-hierarchies) | [View Description](#merchant-hierarchies) | [View Details](#merchant-hierarchies) |
+| `merchantId` | 8 | 8 | `^[0-9]{8,8}$` |
+| `merchantHierarchies` | [View Details](#merchant-hierarchies) | [View Description](#merchant-hierarchies) | [View Details](#merchant-hierarchies) |
 
 ## Merchant Hierarchies
 
 | Name | Min Length | Max Length | Pattern |
 |---|---|---|---|
-| hierarchyMerchantId | 8 | 8 | `^[0-9]{8,8}$` |
-| hierarchyLevelCode | 5 | 9 | |
+| `hierarchyMerchantId` | 8 | 8 | `^[0-9]{8,8}$` |
+| `hierarchyLevelCode` | 5 | 9 | |
 
 ## Attributes
 
