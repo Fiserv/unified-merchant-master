@@ -5,7 +5,7 @@
 | Name | Min Length | Max Length | Pattern |
 |---|---|---|---|
 | merchantId | 8 | 8 | `^[0-9]{8,8}$` |
-| merchantHierarchies | [View Details](#merchantmierarchies) | [View Description](#merchantmierarchies) | [View Details](#merchantmierarchies) |
+| merchantHierarchies | [View Details](#merchant-hierarchies) | [View Description](#merchant-hierarchies) | [View Details](#merchant-hierarchies) |
 
 ## Merchant Hierarchies
 
