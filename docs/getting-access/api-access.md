@@ -4,7 +4,7 @@ UMM API uses OAuth 2.0 access token for requests authentication . Access token a
 
 ## Steps to integrate with UMM API 
 
-### Step 1 : Generate an API Key and Secret
+#### Step 1 : Generate an API Key and Secret
 
 Please contact <sanku.bairagya@fiserv.com>  for obtaining  application specific key and secret.
 
@@ -23,3 +23,4 @@ curl --location 'https://connect.fiservapis.com/unifiedmerchantmaster/graphql' \
 --header 'Authorization: Bearer {token}' \
 --data {payload}
 ```
+---

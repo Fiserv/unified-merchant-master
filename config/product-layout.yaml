@@ -35,8 +35,8 @@ header:
     link: "/assets/images/Fiserv_Logo.jpg"
     altText: UMM™
 benefits:
-  - title: Unified Data Lake
-    description: Single database hosting merchant, equipment, fees & product data across Fiserv platforms in unified format
+  - title: Unified Data Model
+    description: Data lake hosting merchant, equipment, fees & product data across Fiserv platforms in unified format
   - title: Simplified Integration
     description: Unified API layer to retrieve, on-board or update merchant across Fiserv platforms.
   - title: Analystics & Reporting
