@@ -31,20 +31,28 @@
 - sections:
   - title: Getting Started
     link: docs/getting-started.md
+    sections:
+    - title: Getting Access
+      link: docs/getting-access/umm-access.md
+      sections:
+      - title: API Access
+        link: docs/getting-access/api-access.md
+      - title: Data Lake Access
+        link: docs/getting-access/database-access.md
 - sections:
   - title: Release notes
     sections:
     - title: May 2024
       link: docs/release-notes/2024/may.md
-- sections:
-  - title: Working with UMM API
-    sections:
-    - title: Authentication
-      link: docs/authentication.md
-    - title: Attributes
-      sections:
-      - title: Merchant
-        link: docs/attribute/merchant/details.md
+# - sections:
+#   - title: Working with UMM API
+#     sections:
+#     - title: Authentication
+#       link: docs/authentication.md
+#     - title: Attributes
+#       sections:
+#       - title: Merchant
+#         link: docs/attribute/merchant/details.md
 # - sections:
 #     - title: UMM Specifications
 #       sections:
