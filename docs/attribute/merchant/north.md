@@ -1,4 +1,4 @@
-# Merchant Attributes
+# North Merchant Attributes
 
 The below section list the attributes grouped by **Domain**
 
@@ -36,12 +36,10 @@ The below section list the attributes grouped by **Domain**
 >
 > | Allowed Values | Description |
 > | ------- | ------- |
-> | `SUPP_STMT_RECAP` | Suppress Stmts/Recap |
 > | `MAIL_TO_OUTLET` | Mail To Outlet |
 > | `RECAP_CORP_STMT_OUTLET` | Recap Corp/Stmt Outlet |
 > | `SUPP_STMT_RECAP` | Suppress Stmts/Recap |
 > | `MAIL_TO_CORP_NO_RECAP` | Mail to Corp, No Recap |
-> | `MAIL_TO_OUTLET` | Mail To Outlet |
 > | `MAIL_TO_CORP` | Mail to Corp |
 > | `RECAP_NO_STMT` | Recap/No Statements |
 

@@ -42,10 +42,20 @@
 - sections:
   - title: UMM Specifications
     sections:
+      - title: Merchant
+        sections:
+        - title: North
+          link: docs/specification/merchant/north.md
+        - title: Omnipay26
+          link: docs/specification/merchant/omnipay26.md
       - title: Attributes
-        sectons:
+        sections:
         - title: Merchant
-          link: docs/attribute/merchant/details.md
+          sections:
+          - title: North
+            link: docs/attribute/merchant/north.md
+          - title: Omnipay
+            link: docs/attribute/merchant/omnipay26.md
 - sections:
   - title: Release notes
     sections:
