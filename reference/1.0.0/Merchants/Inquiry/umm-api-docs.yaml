@@ -26,7 +26,7 @@ paths:
           type: string
           description: |
             Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
-            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md">`NORTH`</a>/<a href="../docs?path=docs/specification/merchant/omnipay26.md">`OMNIPAY26`</a> definition
+            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#base-properties">`NORTH`</a>/<a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#base-properties">`OMNIPAY26`</a> definition
       - name: platformCode
         in: query
         description: Code to identify the specific backend platform. It adds the required
@@ -315,7 +315,7 @@ components:
           type: string
           description: |
             Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
-            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md">`NORTH`</a>/<a href="../docs?path=docs/specification/merchant/omnipay26.md">`OMNIPAY26`</a> definition
+            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#base-properties">`NORTH`</a>/<a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#base-properties">`OMNIPAY26`</a> definition
         platformCode:
           type: string
           description: Code to identify the specific backend platform. It adds the
@@ -813,6 +813,8 @@ components:
           - TAI
         owners:
           type: array
+          description: |
+            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#owners">`NORTH`</a> definition
           items:
             $ref: '#/components/schemas/Owner'
         addresses:
@@ -879,6 +881,8 @@ components:
           $ref: '#/components/schemas/MerchantBusinessInformation'
         merchantHierarchies:
           type: array
+          description: |
+            > For more details refer to <a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#merchant-hierarchies">`OMNIPAY26`</a> definition
           items:
             $ref: '#/components/schemas/MerchantHierarchies'
         merchantXrefs:
@@ -1276,6 +1280,8 @@ components:
           type: string
           description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
           x-not-for-north: "true"
+      description: |
+        > For more details refer to <a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#merchant-hierarchies">`OMNIPAY26`</a> definition
     MerchantIrsTax:
       type: object
       properties:
@@ -1693,6 +1699,8 @@ components:
           minLength: 10
           type: string
           description: Phone number of the principal owner of the business
+      description: |
+        > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#owners">`NORTH`</a> definition
     OwnerIdentification:
       type: object
       properties:
