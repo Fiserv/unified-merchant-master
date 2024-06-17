@@ -26,8 +26,7 @@ paths:
           type: string
           description: |
             Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
-
-            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md">`NORTH`</a>, <a href="../docs?path=docs/specification/merchant/north.md">`SOUTH`</a> definition
+            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md">`NORTH`</a>/<a href="../docs?path=docs/specification/merchant/omnipay26.md">`OMNIPAY26`</a> definition
       - name: platformCode
         in: query
         description: Code to identify the specific backend platform. It adds the required
@@ -316,8 +315,7 @@ components:
           type: string
           description: |
             Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
-
-            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md">`NORTH`</a>, <a href="../docs?path=docs/specification/merchant/north.md">`SOUTH`</a> definition
+            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md">`NORTH`</a>/<a href="../docs?path=docs/specification/merchant/omnipay26.md">`OMNIPAY26`</a> definition
         platformCode:
           type: string
           description: Code to identify the specific backend platform. It adds the
@@ -829,8 +827,7 @@ components:
             type: object
             description: |2
                 Will contain one or more attributes in the format shown below
-                > For additional information refer to
-                      <a href="../docs?path=docs/attribute/merchant/details.md">attributes definition</a>
+                > For additional information refer to <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a>/<a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a> attributes definition
                 ```
                 {
                   "domain#1": {
@@ -855,8 +852,7 @@ components:
                 ```
           description: |2
               Will contain one or more attributes in the format shown below
-              > For additional information refer to
-                    <a href="../docs?path=docs/attribute/merchant/details.md">attributes definition</a>
+              > For additional information refer to <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a>/<a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a> attributes definition
               ```
               {
                 "domain#1": {
