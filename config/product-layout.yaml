@@ -44,29 +44,50 @@ benefits:
 getStarted: /docs/getting-started.md
 featuredFeatures:
   - title: Merchant Inquiry
+  - title: Merchant Inquiry
     description: Unified GraphQL Merchant Inquiry API
-    tags: ["UMM", "Merchant", "GraphQL"]
-    bullets: ["UMM", "Merchant", "GraphQL"]
+    tags: ["UMM", "Merchant", "GraphQL", "Inquiry"]
+    bullets: ["UMM", "Merchant", "GraphQL", "Inquiry"]
     relatedDocs:
       - relatedDoc: 
         title: Merchant
         description: Merchant
-        link: ./docs/merchant.md
+        link: ./docs/getting-started.md
     relatedAPIs:
       - relatedAPI: 
         title: Merchant Inquiry
         description: Unified GraphQL merchant inquiry API
         type: "post"
         path: "/graphql"
+  - title: Merchant Mutation
+    description: Unified GraphQL Merchant Mutation API
+    tags: ["UMM", "Merchant", "GraphQL", "Update", "Delete", "Boarding"]
+    bullets: ["UMM", "Merchant", "GraphQL", "Update", "Delete", "Boarding"]
+    relatedDocs:
+      - relatedDoc: 
+        title: Merchant
+        description: Merchant
+        link: ./docs/getting-started.md
+    relatedAPIs:
+      - relatedAPI: 
+        title: Merchant Update
+        description: Unified GraphQL merchant update API
+        type: "post"
+        path: "/graphql "
+      - relatedAPI: 
+        title: Merchant Delete
+        description: Unified GraphQL merchant delete API
+        type: "post"
+        path: "/graphql  "
   - title: Product Inquiry
     description:  Unified Product Inquiry API
-    tags: ["UMM", "Product"]
-    bullets: ["UMM", "Product"] 
+    tags: ["UMM", "Product", "Inquiry"]
+    bullets: ["UMM", "Product", "Inquiry"] 
     relatedDocs:
       - relatedDoc: 
         title: Products
         description: Products
-        link: ./docs/products.md
+        link: ./docs/getting-started.md
       # - relatedDoc: 
       #   title: REPLACEME
       #   description: REPLACEME
