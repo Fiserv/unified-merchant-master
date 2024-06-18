@@ -57,9 +57,8 @@ paths:
       - name: Authorization
         in: header
         description: |
-          Bearer access token
-          > For token generation refer to
-          <a href="../docs?path=docs/getting-access/api-access.md">`API access`</a>
+          Bearer access token. For token generation refer to
+          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
         required: true
         schema:
           type: string
@@ -99,9 +98,8 @@ paths:
       - name: Authorization
         in: header
         description: |
-          Bearer access token
-          > For token generation refer to
-          <a href="../docs?path=docs/getting-access/api-access.md">`API access`</a>
+          Bearer access token. For token generation refer to
+          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
         required: true
         schema:
           type: string
@@ -141,9 +139,8 @@ paths:
       - name: Authorization
         in: header
         description: |
-          Bearer access token
-          > For token generation refer to
-          <a href="../docs?path=docs/getting-access/api-access.md">`API access`</a>
+          Bearer access token. For token generation refer to
+          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
         required: true
         schema:
           type: string
@@ -2700,8 +2697,7 @@ components:
       description: "> 🚫 This is for reference, **not** required in request body;\
         \ this will be part of the graphql mutation query"
       nullable: true
-      enum:
-      - 🚫
+      default: {}
     UpdateMerchant:
       required:
       - query
@@ -2947,8 +2943,7 @@ components:
       description: "> 🚫 This is for reference, **not** required in request body;\
         \ this will be part of the graphql mutation query"
       nullable: true
-      enum:
-      - 🚫
+      default: {}
     MerchantProductDelete:
       type: object
       properties:
