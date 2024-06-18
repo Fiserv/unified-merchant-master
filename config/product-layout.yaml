@@ -44,7 +44,6 @@ benefits:
 getStarted: /docs/getting-started.md
 featuredFeatures:
   - title: Merchant Inquiry
-  - title: Merchant Inquiry
     description: Unified GraphQL Merchant Inquiry API
     tags: ["UMM", "Merchant", "GraphQL", "Inquiry"]
     bullets: ["UMM", "Merchant", "GraphQL", "Inquiry"]
@@ -56,13 +55,13 @@ featuredFeatures:
     relatedAPIs:
       - relatedAPI: 
         title: Merchant Inquiry
-        description: Unified GraphQL merchant inquiry API
+        description: Unified GraphQL Merchant Inquiry API
         type: "post"
         path: "/graphql"
-  - title: Merchant Mutation
-    description: Unified GraphQL Merchant Mutation API
-    tags: ["UMM", "Merchant", "GraphQL", "Update", "Delete", "Boarding"]
-    bullets: ["UMM", "Merchant", "GraphQL", "Update", "Delete", "Boarding"]
+  - title: Merchant Update
+    description: Unified GraphQL Merchant Update API
+    tags: ["UMM", "Merchant", "GraphQL", "Update"]
+    bullets: ["UMM", "Merchant", "GraphQL", "Update"]
     relatedDocs:
       - relatedDoc: 
         title: Merchant
@@ -71,12 +70,22 @@ featuredFeatures:
     relatedAPIs:
       - relatedAPI: 
         title: Merchant Update
-        description: Unified GraphQL merchant update API
+        description: Unified GraphQL Merchant Update API
         type: "post"
         path: "/graphql "
+  - title: Merchant Delete
+    description: Unified GraphQL Merchant Delete API
+    tags: ["UMM", "Merchant", "GraphQL", "Delete"]
+    bullets: ["UMM", "Merchant", "GraphQL", "Delete"]
+    relatedDocs:
+      - relatedDoc: 
+        title: Merchant
+        description: Merchant
+        link: ./docs/getting-started.md
+    relatedAPIs:
       - relatedAPI: 
         title: Merchant Delete
-        description: Unified GraphQL merchant delete API
+        description: Unified GraphQL Merchant Delete API
         type: "post"
         path: "/graphql  "
   - title: Product Inquiry
