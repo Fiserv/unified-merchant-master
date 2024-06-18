@@ -6,13 +6,14 @@ The below section list the attributes grouped by **Domain**
 
 | Name | Allowed Values | Description |
 | -------- | ------- | ------- |
-| `clientRegion` | `BY_COUNTRY`, `BY_TRANSACTION`  | [View Description](#clientregion) |
+| `clientRegion` |  `BY_COUNTRY`, `BY_TRANSACTION` | Client Region |
 
 #### Sample:
 
 ```
 "contract": {
   "clientRegion": {
+    "attributeDescription": "Client Region",
     "values": [ "BY_TRANSACTION" ]
   }
 }
@@ -23,26 +24,14 @@ The below section list the attributes grouped by **Domain**
 
 | Name | Allowed Values | Description |
 | -------- | ------- | ------- |
-| `settlementMethod` | [View Details](#settlementmethod) | [View Description](#settlementmethod) |
+| `settlementMethod` | `DE_DAILY_CUP`, `IFS_DAILY`, `IFS_MONTHLY_NEG`, `IFS_DAILY_NEG_CUP`, `DAILY`, `IFS_DAILY_CUP`, `DAILY_CUP`, `IFS_DAILY_NEG`, `IFS_TREASURY`, `DE_DAILY` | Settlement Method |
 
-> ### `settlementMethod`
->
-> | Allowed Values | Description |
-> | ------- | ------- |
-> | `DE_DAILY_CUP` |  |
-> | `IFS_DAILY` |  |
-> | `IFS_MONTHLY_NEG` |  |
-> | `IFS_DAILY_NEG_CUP` |  |
-> | `DAILY` |  |
-> | `IFS_DAILY_CUP` |  |
-> | `DAILY_CUP` |  |
-> | `IFS_DAILY_NEG` |  |
-> | `IFS_TREASURY` |  |
-> | `DE_DAILY` |  |
+#### Sample:
 
 ```
 "settlementConfig": {
   "settlementMethod": {
+    "attributeDescription": "Settlement Method",
     "values": [ "DAILY" ]
   }
 }
