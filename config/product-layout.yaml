@@ -75,8 +75,8 @@ featuredFeatures:
         path: "/graphql "
   - title: Merchant Delete
     description: Unified GraphQL Merchant Delete API
-    tags: ["UMM", "Merchant", "GraphQL", "Delete", "Boarding"]
-    bullets: ["UMM", "Merchant", "GraphQL", "Delete", "Boarding"]
+    tags: ["UMM", "Merchant", "GraphQL", "Delete"]
+    bullets: ["UMM", "Merchant", "GraphQL", "Delete"]
     relatedDocs:
       - relatedDoc: 
         title: Merchant
