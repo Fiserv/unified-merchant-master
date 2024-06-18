@@ -6,17 +6,12 @@ The below section list the attributes grouped by **Domain**
 
 | Name | Allowed Values | Description |
 | -------- | ------- | ------- |
-| `email` | | |
-| `mediaRetrievalCode` | | |
 | `chargebackPrenoteIndicator` | `YES`, `NO` | Chargeback Prenote Indicator |
 
 #### Sample:
 
 ```
 "chargebackConfig": {
-  "email": {
-    "values": [ "test.email@email.com" ]
-  },
   "chargebackPrenoteIndicator": {
     "attributeDescription": "Chargeback Prenote Indicator",
     "values": [ "YES" ]
