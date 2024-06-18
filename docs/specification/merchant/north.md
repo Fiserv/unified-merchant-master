@@ -4,7 +4,7 @@
 
 | Name | Min Length | Max Length | Pattern |
 |---|---|---|---|
-| `merchantId` | 8 | 50 | `^[0-9]{8}$` |
+| `merchantId` | 12 | 12 | `^[0-9]{12,12}$` |
 | `owners` | [View Details](#owners) | [View Details](#owners) | [View Details](#owners) |
 
 ## Owners

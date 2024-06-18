@@ -14,7 +14,7 @@ paths:
         can be perfomed based on certain parameter as shown in the provided request
         sample
       description: |
-        ⚠ All APIs are POST ⚠ Unless explicitly mentioned, fields are applicable for all Platforms
+        ⚠ All GraphQL APIs are POST ⚠ Unless explicitly mentioned, fields are applicable for all Platforms
       operationId: getMerchant
       parameters:
       - name: merchantId
@@ -26,7 +26,10 @@ paths:
           type: string
           description: |
             Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
-            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#base-properties">`NORTH`</a>/<a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#base-properties">`OMNIPAY26`</a> definition
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#base-properties">`NORTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#base-properties">`OMNIPAY26`</a>
+            definition
       - name: platformCode
         in: query
         required: true
@@ -134,7 +137,7 @@ components:
           type: string
         contactTitle:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         address1Text:
           maxLength: 150
@@ -216,7 +219,7 @@ components:
           description: E-mail address of the merchant
         deliveryMethod:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
     Error:
       type: object
@@ -314,7 +317,10 @@ components:
           type: string
           description: |
             Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
-            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#base-properties">`NORTH`</a>/<a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#base-properties">`OMNIPAY26`</a> definition
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#base-properties">`NORTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#base-properties">`OMNIPAY26`</a>
+            definition
         platformCode:
           type: string
           description: Code to identify the specific backend platform. It adds the
@@ -813,8 +819,6 @@ components:
           - TAI
         owners:
           type: array
-          description: |
-            > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#owners">`NORTH`</a> definition
           items:
             $ref: '#/components/schemas/Owner'
         addresses:
@@ -829,7 +833,10 @@ components:
             type: object
             description: |2
                 Will contain one or more attributes in the format shown below
-                > For additional information refer to <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a>/<a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a> attributes definition
+                > For additional information refer to
+                <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a> /
+                <a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a>
+                attributes definition
                 ```
                 {
                   "domain#1": {
@@ -854,7 +861,10 @@ components:
                 ```
           description: |2
               Will contain one or more attributes in the format shown below
-              > For additional information refer to <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a>/<a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a> attributes definition
+              > For additional information refer to
+              <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a> /
+              <a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a>
+              attributes definition
               ```
               {
                 "domain#1": {
@@ -881,8 +891,6 @@ components:
           $ref: '#/components/schemas/MerchantBusinessInformation'
         merchantHierarchies:
           type: array
-          description: |
-            > For more details refer to <a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#merchant-hierarchies">`OMNIPAY26`</a> definition
           items:
             $ref: '#/components/schemas/MerchantHierarchies'
         merchantXrefs:
@@ -1082,11 +1090,11 @@ components:
           format: int64
         recordType:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         billingLevel:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         routingNumber:
           type: string
@@ -1096,11 +1104,11 @@ components:
             account
         nameOnAccount:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         bankName:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         accountEffectiveDate:
           type: string
@@ -1108,7 +1116,7 @@ components:
           format: date
         receiverCountry:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         phoneNumber:
           type: string
@@ -1117,51 +1125,51 @@ components:
           type: string
         paymentReference:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         iban:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         correspondentBankNo:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         paymentFormatId:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         clearingEntity:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         paymentDelayDays:
           type: integer
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           format: int32
           x-not-for-north: "true"
         currencyCode:
           type: string
           description: |
-            Applicable for `OMNIPAY2`
+            Applicable for `OMNIPAY26`
 
             ISO 4217 currency of the account selected
           x-for-omnipay26: "true"
           x-not-for-north: "true"
         bankReference:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         correspondentBankAccount:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         bankFundingFileCode:
           type: string
           description: Indicate the funding file process associated with ABA/DDA transactions
         bankCity:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         bankAccountType:
           type: string
@@ -1348,19 +1356,19 @@ components:
           - "NO"
         mailOrderPercent:
           type: number
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         phoneOrderPercent:
           type: number
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         posOrderPercent:
           type: number
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         swipedPercent:
           type: number
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         keyedPercent:
           maxLength: 5
@@ -1373,7 +1381,7 @@ components:
           x-not-for-north: "true"
         salesLeadTrackingNo:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         accountSignedDate:
           type: string
@@ -1381,7 +1389,7 @@ components:
           x-not-for-north: "true"
         accountApprovalDate:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           format: date
           x-not-for-north: "true"
         quasiCashIndicator:
@@ -1413,23 +1421,21 @@ components:
       properties:
         hierarchyLevelCode:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         hierarchySeq:
           type: integer
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           format: int64
           x-not-for-north: "true"
         hierarchyName:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         hierarchyMerchantId:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
-      description: |
-        > For more details refer to <a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#merchant-hierarchies">`OMNIPAY26`</a> definition
     MerchantIrsTax:
       type: object
       properties:
@@ -1478,7 +1484,7 @@ components:
           format: date
         payeeId:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         payeeCode:
           maxLength: 24
@@ -1637,7 +1643,7 @@ components:
             System (TIMS)
         payeeDefaultIndicator:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         taxPayIndicator:
           maxLength: 3
@@ -1696,8 +1702,8 @@ components:
       properties:
         ownerSeqCode:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
-          x-not-for-north: "true"
+          description: Sequesnce number of the principal owner associated with the
+            business
         firstName:
           maxLength: 100
           minLength: 3
@@ -1847,8 +1853,6 @@ components:
           minLength: 10
           type: string
           description: Phone number of the principal owner of the business
-      description: |
-        > For more details refer to <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#owners">`NORTH`</a> definition
     OwnerIdentification:
       type: object
       properties:
@@ -1891,7 +1895,7 @@ components:
           description: Unique identifier of pricing grid assigned to a merchant
         isActive:
           type: string
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         uniqueIdentifier:
           type: string
@@ -1919,13 +1923,13 @@ components:
           maxLength: 11
           minLength: 11
           type: number
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         retailAmountOrPercent:
           maxLength: 11
           minLength: 11
           type: number
-          description: Applicable for `OMAHA` `OMNIPAY26` `SOUTH`
+          description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
         feeTypeCode:
           type: string
