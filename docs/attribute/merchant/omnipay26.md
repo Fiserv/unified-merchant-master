@@ -4,9 +4,9 @@ The below section list the attributes grouped by **Domain**
 
 ## `contract`
 
-| Name | Allowed Values | Description |
+| Name | Description | Allowed Values |
 | -------- | ------- | ------- |
-| `clientRegion` |  `BY_COUNTRY`, `BY_TRANSACTION` | Client Region |
+| `clientRegion` | Client Region | `BY_COUNTRY`, `BY_TRANSACTION` |
 
 #### Sample:
 
@@ -22,9 +22,9 @@ The below section list the attributes grouped by **Domain**
 
 ## `settlementConfig`
 
-| Name | Allowed Values | Description |
+| Name | Description | Allowed Values |
 | -------- | ------- | ------- |
-| `settlementMethod` | `DE_DAILY_CUP`, `IFS_DAILY`, `IFS_MONTHLY_NEG`, `IFS_DAILY_NEG_CUP`, `DAILY`, `IFS_DAILY_CUP`, `DAILY_CUP`, `IFS_DAILY_NEG`, `IFS_TREASURY`, `DE_DAILY` | Settlement Method |
+| `settlementMethod` | Settlement Method | `DE_DAILY_CUP`, `IFS_DAILY`, `IFS_MONTHLY_NEG`, `IFS_DAILY_NEG_CUP`, `DAILY`, `IFS_DAILY_CUP`, `DAILY_CUP`, `IFS_DAILY_NEG`, `IFS_TREASURY`, `DE_DAILY` |
 
 #### Sample:
 

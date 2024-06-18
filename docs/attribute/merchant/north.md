@@ -4,9 +4,9 @@ The below section list the attributes grouped by **Domain**
 
 ## `chargebackConfig`
 
-| Name | Allowed Values | Description |
+| Name | Description | Allowed Values |
 | -------- | ------- | ------- |
-| `chargebackPrenoteIndicator` | `YES`, `NO` | Chargeback Prenote Indicator |
+| `chargebackPrenoteIndicator` | Chargeback Prenote Indicator | `YES`, `NO` |
 
 #### Sample:
 
@@ -22,11 +22,11 @@ The below section list the attributes grouped by **Domain**
 
 ## `fundingConfig`
 
-| Name | Allowed Values | Description |
+| Name | Description | Allowed Values |
 | -------- | ------- | ------- |
-| `fundingRunCode` | `FUNDING_RUN6`, `FUNDING_RUN2`, `FUNDING_RUN1`, `FUNDING_RUNS`, `FUNDING_RUN6`, `FUNDING_RUN3`, `FUNDING_RUN4`| Merchant Funding Run Code |
-| `fundingRollupCode` | `DEBIT_CREDIT`, `DEPOSIT_BATCH`, `EACH_TRANSFER`, `NET_ROLLUP`, `VIA_CATGRY`, `NET_FEE_TRANS` | Indicates how the funding transactions will be combined on DDA statement |
-| `fundingExcludeCode` | `YES`, `NO`, '`DIVERT` | Merchant funding exclusion code |
+| `fundingRunCode` | Merchant Funding Run Code | `FUNDING_RUN6`, `FUNDING_RUN2`, `FUNDING_RUN1`, `FUNDING_RUNS`, `FUNDING_RUN6`, `FUNDING_RUN3`, `FUNDING_RUN4`|
+| `fundingRollupCode` | Indicates how the funding transactions will be combined on DDA statement | `DEBIT_CREDIT`, `DEPOSIT_BATCH`, `EACH_TRANSFER`, `NET_ROLLUP`, `VIA_CATGRY`, `NET_FEE_TRANS` |
+| `fundingExcludeCode` | Merchant funding exclusion code | `YES`, `NO`, '`DIVERT` |
 
 #### Sample:
 
@@ -50,10 +50,10 @@ The below section list the attributes grouped by **Domain**
 
 ## `statementConfig`
 
-| Name | Allowed Values | Description |
+| Name | Description | Allowed Values |
 | -------- | ------- | ------- |
-| `icplusStatementFormatCode` | `ICPLUS_LONG_STMT` | Interchange Plus Long Statement |
-| `statementMailToCode` | [View Details](#statementmailtocode) | [View Description](#statementmailtocode) |
+| `icplusStatementFormatCode` | Interchange Plus Long Statement | `ICPLUS_LONG_STMT` |
+| `statementMailToCode` | [View Description](#statementmailtocode) | [View Details](#statementmailtocode) |
 
 > ### `statementMailToCode`
 >
