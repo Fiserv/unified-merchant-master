@@ -5,12 +5,12 @@ Consumers can use UMM data in two different ways -
 * API
 * Snowflake Database as a Canonical data source
 
-#### This documentation covers specifications for both ways and provides in depth details on what consumer needs to start using the UMM data.
+#### This documentation covers specifications for both ways and provides in depth details on what consumer needs to know to start using the UMM data.
 
 # General Construct of the UMM Data Store
 
 * Merchant data in UMM is logically grouped under multiple entities and stored as tables in Snowflake as well as represented in UMM APIs. 
-See the [`List of Entities`](#Entities) section for the full list of entities UMM has and click on each entity to further reading.
+See the ['List of Entities'](#Entities) section for the full list of entities UMM has and click on each entity to further reading.
 * Each entity has the below columns as part of their key
     * MERCHANT_ID : Unique Identifier for the Merchant
     * PLATFORM_CODE: Identifies the Backend Platform the merchant is on. Supported platforms on UMM can be found [here](?path=docs/specification/supportedPlatforms.md)
