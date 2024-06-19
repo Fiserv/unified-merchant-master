@@ -28,8 +28,8 @@ Stores basic but critical information about the merchant. Any merchant in UMM wi
     <!--
     type: tab
     --> 
-    
-    #### South Specification
+
+    ##### South Specification
     | Type | Minimum Length | Max Length | Inquiry | Create  | Update  |
     |------|:--------------:|:----------:|:--------:|:-------:|:-------:|
     |String|       11       |     11     |Required|Required|Required|
@@ -37,13 +37,13 @@ Stores basic but critical information about the merchant. Any merchant in UMM wi
     <!--
     type: tab
     -->
-    
-    #### GMA Specification
+
+    ##### GMA Specification
     | Type | Minimum Length | Max Length | Inquiry | Create  | Update  |
     |------|:--------------:|:----------:|:--------:|:-------:|:-------:|
     |String|       11       |     11     |Required|Required|Required|
     <!-- type: tab-end -->
-  
+  ---
   * **PLATFORM_CODE**
     * Description: Backend unique identifier.
     * API field: platformCode
