@@ -64,12 +64,12 @@
         - title: Supported Backend Platforms
           link: docs/specification/supportedPlatforms.md
           sections:
-          - title: UMM Entities
-            sections:
-              - title: Merchant
-                link: docs/specification/merchant/merchant.md
-              - title: Merchant Business Information
-                link: docs/specification/merchant/merchantBusinessInformation.md
+        - title: UMM Entities
+          sections:
+            - title: Merchant
+              link: docs/specification/merchant/merchant.md
+            - title: Merchant Business Information
+              link: docs/specification/merchant/merchantBusinessInformation.md
 
 - sections:
   - title: Release notes
