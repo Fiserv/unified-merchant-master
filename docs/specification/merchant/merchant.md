@@ -76,20 +76,20 @@ titles: UMM, North, South, GMA
 
 - **Valid Values**:
 
-  |  Options   | Platform  | Description     | 
-  |:----------:|:---------:|:----------------|
-  |   OUTLET   |   NORTH   | Outlet level    |
-  |   CHAIN    |   NORTH   | Chain level     |
-  |    CORP    |   NORTH   | Corporate level |
-  |   AGENT    |   NORTH   | Agent level     |
-  |    BANK    |   NORTH   | Bank level      |
-  |  BUSINESS  |   NORTH   | Business level  |
-  |   GROUP    | OMNIPAY26 | Group level     |
-  |  SUBGROUP  | OMNIPAY26 | Sub-Group level |
-  |   MEMBER   | OMNIPAY26 | Member level    |
-  |    ROOT    |   SOUTH   | Root level      |
-  |    CORP    |   SOUTH   | Corporate level |
-  |   OUTLET   |   SOUTH   | Location level  |
+  | Platform  |  Options   | Description     | 
+  |:---------:|:----------:|:----------------|
+  |   NORTH   |   OUTLET   | Outlet level    |
+  |   NORTH   |   CHAIN    | Chain level     |
+  |   NORTH   |    CORP    | Corporate level |
+  |   NORTH   |   AGENT    | Agent level     |
+  |   NORTH   |    BANK    | Bank level      |
+  |   NORTH   |  BUSINESS  | Business level  |
+  | OMNIPAY26 |   GROUP    | Group level     |
+  | OMNIPAY26 |  SUBGROUP  | Sub-Group level |
+  | OMNIPAY26 |   MEMBER   | Member level    |
+  |   SOUTH   |    ROOT    | Root level      |
+  |   SOUTH   |    CORP    | Corporate level |
+  |   SOUTH   |   OUTLET   | Location level  |
 
 
 <!-- type: tab-->
@@ -109,10 +109,8 @@ titles: UMM, North, South, GMA
     | AGENT    | Agent level     |
     | BANK     | Bank level      |
     | BUSINESS | Business level  |
----
 
-<img src="/docs/specification/assets/NorthHierarchy.png" alt="North Hierarchy">
-
+ ![North Hierarchy!](?path=docs/specification/assets/NorthHierarchy.png" "North Hierarchy")
 
 <!-- type: tab--> 
 
