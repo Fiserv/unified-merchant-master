@@ -1,4 +1,4 @@
-# What does this specification cover
+# What does this specification cover?
  
 Read this document to understand UMM data specifications across different back ends that UMM supports.
 Consumers can use UMM data in two different ways -
@@ -19,7 +19,7 @@ See the [`List of Entities`](#Entities) section for the full list of entities UM
 Read [Auditing page](?path=docs/specification/merchant/merchantAuditing.md) for further information on Auditing with examples.
 
       
-## Entities
+# Entities
 * [Merchant](?path=docs/specification/merchant/merchant.md):Stores basic but critical information about the merchant. Any merchant in UMM will always have this entity.
 * [Merchant Business Information](?path=docs/specification/merchant/merchantBusinessInformation.md): This entity stores information about the business of the merchant.
 * Merchant Hierarchy: Hierarchy of the merchant.
