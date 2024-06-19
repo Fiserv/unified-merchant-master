@@ -13,31 +13,31 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type |Minimum Length|Max Length| Inquiry | Create  | Update  |
-|------|:----------:|:--------:|:--------:|:-------:|:-------:|
-|String|BE specific|50|Required|Required|Required|
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |  Update  |
+|--------|:--------------:|:----------:|:--------:|:--------:|:--------:|
+| String |  BE specific   |     50     | Required | Required | Required |
 
 <!-- type: tab-->
 
 ##### North Specification
-| Type | Minimum Length | Max Length | Inquiry | Create  | Update  |
-|------|:--------------:|:----------:|:--------:|:-------:|:-------:|
-|String|       12       |     12     |Required|Required|Required|
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |  Update  |
+|--------|:--------------:|:----------:|:--------:|:--------:|:--------:|
+| String |       12       |     12     | Required | Required | Required |
 
 <!-- type: tab--> 
 
 ##### South Specification
 
-| Type | Minimum Length | Max Length | Inquiry | Create  | Update  |
-|------|:--------------:|:----------:|:--------:|:-------:|:-------:|
-|String|       11       |     11     |Required|Required|Required|
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |  Update  |
+|--------|:--------------:|:----------:|:--------:|:--------:|:--------:|
+| String |       11       |     11     | Required | Required | Required |
 
 <!-- type: tab-->
 
 ##### GMA Specification
-| Type | Minimum Length | Max Length | Inquiry | Create  | Update  |
-|------|:--------------:|:----------:|:--------:|:-------:|:-------:|
-|String|       11       |     11     |Required|Required|Required|
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |  Update  |
+|--------|:--------------:|:----------:|:--------:|:--------:|:--------:|
+| String |       11       |     11     | Required | Required | Required |
 
 <!-- type: tab-end -->
 
@@ -53,9 +53,9 @@ titles: UMM
 -->
 
 ##### UMM Specification
-| Type | Minimum Length | Max Length | Inquiry  | Create  | Update  |
-|------|:--------------:|:----------:|:--------:|:-------:|:-------:|
-| ENUM |      N/A       |     40     | Returned |Required|Required|
+| Type | Minimum Length | Max Length | Inquiry  |  Create  |  Update  |
+|------|:--------------:|:----------:|:--------:|:--------:|:--------:|
+| ENUM |      N/A       |     40     | Returned | Required | Required |
 
 See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
 <!-- type: tab-end -->
@@ -70,9 +70,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type | Minimum Length | Max Length | Inquiry  | Create  | Update |
-|------|:--------------:|:----------:|:--------:|:-------:|:------:|
-| Enum |      N/A       |     10     | Response |Required|  N/A   |
+| Type | Minimum Length | Max Length | Inquiry  |  Create  | Update |
+|------|:--------------:|:----------:|:--------:|:--------:|:------:|
+| Enum |      N/A       |     10     | Response | Required |  N/A   |
 
 - **Valid Values**:
 
@@ -95,9 +95,9 @@ titles: UMM, North, South, GMA
 <!-- type: tab-->
 
 ##### North Specification
-| Type | Minimum Length | Max Length | Inquiry  | Create  | Update |
-|------|:--------------:|:----------:|:--------:|:-------:|:------:|
-| Enum |      N/A       |     10     | Response |Required|  N/A   |
+| Type | Minimum Length | Max Length | Inquiry  |  Create  | Update |
+|------|:--------------:|:----------:|:--------:|:--------:|:------:|
+| Enum |      N/A       |     10     | Response | Required |  N/A   |
 
 - **Valid Values**:
     
@@ -109,15 +109,17 @@ titles: UMM, North, South, GMA
     | AGENT    | Agent level     |
     | BANK     | Bank level      |
     | BUSINESS | Business level  |
+---
 
-    <img src="/assets/images/NorthHierarchy.png">
+<img src="/docs/specification/assets/NorthHierarchy.png" alt="North Hierarchy">
+
 
 <!-- type: tab--> 
 
 ##### South Specification
-| Type | Minimum Length | Max Length | Inquiry  | Create  | Update |
-|------|:--------------:|:----------:|:--------:|:-------:|:------:|
-| Enum |      N/A       |     10     | Response |Required|  N/A   |
+| Type | Minimum Length | Max Length | Inquiry  |  Create  | Update |
+|------|:--------------:|:----------:|:--------:|:--------:|:------:|
+| Enum |      N/A       |     10     | Response | Required |  N/A   |
 
 - **Valid Values**:
 
@@ -130,9 +132,9 @@ titles: UMM, North, South, GMA
 <!-- type: tab-->
 
 ##### GMA Specification
-| Type | Minimum Length | Max Length | Inquiry  | Create  | Update |
-|------|:--------------:|:----------:|:--------:|:-------:|:------:|
-| Enum |      N/A       |     10     | Response |Required|  N/A   |
+| Type | Minimum Length | Max Length | Inquiry  |  Create  | Update |
+|------|:--------------:|:----------:|:--------:|:--------:|:------:|
+| Enum |      N/A       |     10     | Response | Required |  N/A   |
 
 - **Valid Values**:
 
