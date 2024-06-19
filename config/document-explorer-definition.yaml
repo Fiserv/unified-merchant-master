@@ -57,6 +57,13 @@
           - title: Omnipay
             link: docs/attribute/merchant/omnipay26.md
 - sections:
+    - title: UMM Data Specification
+      sections:
+        - title: Read Me
+          link: docs/specification/readMe.md
+        - title: Supported Backend Platforms
+          link: docs/specification/supportedPlatforms.md
+- sections:
   - title: Release notes
     sections:
     - title: May 2024
