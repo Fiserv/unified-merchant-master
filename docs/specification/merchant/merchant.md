@@ -110,7 +110,7 @@ titles: UMM, North, South, GMA
     | BANK     | Bank level      |
     | BUSINESS | Business level  |
 
- ![North Hierarchy!](?path=docs/specification/assets/NorthHierarchy.png" "North Hierarchy")
+ ![North Hierarchy!](/assets/images/NorthHierarchy.png "North Hierarchy")
 
 <!-- type: tab--> 
 
