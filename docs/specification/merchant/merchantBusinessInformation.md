@@ -50,7 +50,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: North, South, GMA 
+titles: UMM
 -->
 
 ##### UMM Specification
@@ -67,8 +67,10 @@ See supported platform and values of the enum [here](?path=docs/specification/su
 * Description: Contact name of the Legal owner of the merchant business
 * API field: legalContactName
 * Field Specification:
+
 <!-- type: tab 
-titles: UMM, North, South, GMA -->
+titles: UMM, North, South, GMA 
+-->
 
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |  Update  |
