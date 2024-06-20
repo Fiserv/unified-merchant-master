@@ -26,6 +26,7 @@ Read [Auditing page](?path=docs/specification/merchant/merchantAuditing.md) for 
 ## Entities
 * [Merchant](?path=docs/specification/merchant/merchant.md):Stores basic but critical information about the merchant. Any merchant in UMM will always have this entity.
 * [Merchant Business Information](?path=docs/specification/merchant/merchantBusinessInformation.md): This entity stores information about the business of the merchant.
+* [Merchant Attributes](?path=docs/specification/merchant/merchantAttributes.md): This entity stores various merchant attributes grouped under logical domains.
 * Merchant Hierarchy: Hierarchy of the merchant.
 * Address: All addresses on file for a merchant. 
 * Owner : Ownership details of the merchant business. 
