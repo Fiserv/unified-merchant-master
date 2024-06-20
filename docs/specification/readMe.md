@@ -14,8 +14,8 @@ Consumers can use UMM data in two different ways -
   * Product: UMM maintains a list of products to represent subscribed card entitlements,fees, payment features, value added services and equipments. 
   Additional information about product can be found [here](?path=docs/specification/merchant/merchantProduct.md)
   * Attribute: Related fields logically grouped under a domain and stored as key value pair. This construct is used at both merchant level and product level.
-    Additional information about `Merchant Level Attributes` can be found [here](?path=docs/specification/merchant/merchantAttributes.md)
-    Additional information about `Product Level Attribute` can be found [here](?path=docs/specification/merchant/merchantProductAttributes.md)
+    - Additional information about `Merchant Level Attributes` can be found [here](?path=docs/specification/merchant/merchantAttributes.md)
+    - Additional information about `Product Level Attribute` can be found [here](?path=docs/specification/merchant/merchantProductAttributes.md)
 * Each entity has the below columns as part of their key
     * MERCHANT_ID : Unique Identifier for the Merchant
     * PLATFORM_CODE: Identifies the Backend Platform the merchant is on. Supported platforms on UMM can be found [here](?path=docs/specification/supportedPlatforms.md)

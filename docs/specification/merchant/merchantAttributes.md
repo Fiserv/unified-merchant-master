@@ -180,7 +180,7 @@ titles: UMM
 
 ---
 
-##  Domains
+##  List of Domains
 ### chargebackConfig
 - Description: Chargeback Configuration
 - List of Attributes:
