@@ -248,11 +248,16 @@ titles: UMM, North, South, GMA
 
 ##### UMM Specification
 
+###### accentIntermedia
+
 |Domain|Domain Description|Attribute Name|Attribute Description |
 |------|------------------|--------------|----------------------|
 |accentIntermedia|Accent Intermedia|miscInfoText|Misc Info Text|
 |accentIntermedia|Accent Intermedia|isEnabled|Is Enabled|
 |accentIntermedia|Accent Intermedia|effectiveDate|Effective Date|
+
+|Domain|Domain Description|Attribute Name|Attribute Description |
+|------|------------------|--------------|----------------------|
 |acknowledgementFilePreference|Acknowledgement File Preference|ackFilePreference|Acknowledgement File Preference|
 |additionalBusinessInfo|Additional Business Information|rccCode|Merchant Retailer Category|
 |additionalTaxInfo|Additional Tax Information|incomeTaxCode|Income Tax Code|
