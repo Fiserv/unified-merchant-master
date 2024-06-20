@@ -1,8 +1,7 @@
-## Merchant Business Information
-# Merchant
-* **Description**: Stores basic but critical information about the merchant. Any merchant in UMM will always have this entity.
-* **API section**: root
-* **Table Name**: UMM.MERCHANT
+# Merchant Business Information
+* **Description**: Data elements of this entity provides a glance of the merchant business.
+* **API section**: merchantBusinessInformation
+* **Table Name**: UMM.MERCHANT_BUSINESS_INFORMATION
 ## List of Fields:
 ### MERCHANT_ID
 * Description: Backend unique identifier for a merchant.

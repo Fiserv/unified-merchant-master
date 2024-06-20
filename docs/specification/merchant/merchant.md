@@ -58,7 +58,9 @@ titles: UMM
 | ENUM |      N/A       |     40     | Returned | Required | Required |
 
 See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
+
 <!-- type: tab-end -->
+
 ---
 ### HIERARCHY_LEVEL_CODE 
 * Description: Indicates the hierarchy level of the merchant.
