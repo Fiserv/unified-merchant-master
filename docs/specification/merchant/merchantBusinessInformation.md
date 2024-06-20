@@ -1,6 +1,6 @@
 # Merchant Business Information
 * **Description**: Data elements of this entity provides a glance of the merchant business.
-* **API section**: root
+* **API section**: merchantBusinessInformation
 * **Table Name**: UMM.MERCHANT_BUSINESS_INFORMATION
 ## List of Fields:
 ### MERCHANT_ID
