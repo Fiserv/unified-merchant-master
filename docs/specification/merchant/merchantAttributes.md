@@ -172,12 +172,74 @@ titles: UMM
 -->
 
 ##### UMM Specification
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Numeric |      N/A       |     6      |   N/A   |  N/A   |  N/A   |
+| Type   | Minimum Length | Max Length | Inquiry | Create | Update |
+|--------|:--------------:|:----------:|:-------:|:------:|:------:|
+| String |      N/A       |    200     |   N/A   |  N/A   |  N/A   |
 
 <!-- type: tab-end -->
 
 ---
+
+##  Domains
+### chargebackConfig
+- Description: Chargeback Configuration
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create | Update |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:------:|:------:|
+| excessiveChargebackIndicator | Excessive Chargeback Indicator                    | YES           | Merchant has excessive Chargeback                         | Returned |  N/A   |  Yes   |
+|                              |                                                   | NO            | Merchant does not have excessive Chargeback               | Returned |  N/A   |  Yes   |
+| chargebackPrenoteDays        | Chargeback Prenote Days                           | Numeric Value | Chargeback Prenote Days                                   | Returned |  N/A   |  Yes   |
+| email                        | email                                             | String        | Email address on file to send CHGBK related Communication | Returned |  N/A   |  Yes   |
+| chargebackAddressCode        | Indicates where the chargeback advice is directed | DBA_ADDR_ONLY | chargeback advice is directed to DBA Address on file      | Returned |  N/A   |  Yes   |
+
+
+<!-- type: tab-->
+
+##### North Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create | Update |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:------:|:------:|
+| excessiveChargebackIndicator | Excessive Chargeback Indicator                    | YES           | Merchant has excessive Chargeback                         | Returned |  N/A   |  Yes   |
+|                              |                                                   | NO            | Merchant does not have excessive Chargeback               | Returned |  N/A   |  Yes   |
+| chargebackPrenoteDays        | Chargeback Prenote Days                           | Numeric Value | Chargeback Prenote Days                                   | Returned |  N/A   |  Yes   |
+| email                        | email                                             | String        | Email address on file to send CHGBK related Communication | Returned |  N/A   |  Yes   |
+| chargebackAddressCode        | Indicates where the chargeback advice is directed | DBA_ADDR_ONLY | chargeback advice is directed to DBA Address on file      | Returned |  N/A   |  Yes   |
+
+
+<!-- type: tab--> 
+
+##### South Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create | Update |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:------:|:------:|
+| excessiveChargebackIndicator | Excessive Chargeback Indicator                    | YES           | Merchant has excessive Chargeback                         | Returned |  N/A   |  Yes   |
+|                              |                                                   | NO            | Merchant does not have excessive Chargeback               | Returned |  N/A   |  Yes   |
+| chargebackPrenoteDays        | Chargeback Prenote Days                           | Numeric Value | Chargeback Prenote Days                                   | Returned |  N/A   |  Yes   |
+| email                        | email                                             | String        | Email address on file to send CHGBK related Communication | Returned |  N/A   |  Yes   |
+| chargebackAddressCode        | Indicates where the chargeback advice is directed | DBA_ADDR_ONLY | chargeback advice is directed to DBA Address on file      | Returned |  N/A   |  Yes   |
+
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create | Update |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:------:|:------:|
+| excessiveChargebackIndicator | Excessive Chargeback Indicator                    | YES           | Merchant has excessive Chargeback                         | Returned |  N/A   |  Yes   |
+|                              |                                                   | NO            | Merchant does not have excessive Chargeback               | Returned |  N/A   |  Yes   |
+| chargebackPrenoteDays        | Chargeback Prenote Days                           | Numeric Value | Chargeback Prenote Days                                   | Returned |  N/A   |  Yes   |
+| email                        | email                                             | String        | Email address on file to send CHGBK related Communication | Returned |  N/A   |  Yes   |
+| chargebackAddressCode        | Indicates where the chargeback advice is directed | DBA_ADDR_ONLY | chargeback advice is directed to DBA Address on file      | Returned |  N/A   |  Yes   |
+
+
+<!-- type: tab-end -->
+
+---
+
+
+
 
 

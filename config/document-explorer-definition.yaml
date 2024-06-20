@@ -71,6 +71,8 @@
               link: docs/specification/merchant/merchant.md
             - title: Merchant Business Information
               link: docs/specification/merchant/merchantBusinessInformation.md
+            - title: Merchant Attributes
+              link: docs/specification/merchant/merchantAttributes.md
 
 - sections:
   - title: Release notes
