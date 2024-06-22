@@ -36,7 +36,7 @@ header:
     altText: UMM™
 benefits:
   - title: Unified Data Model
-    description: Data lake hosting merchant, equipment, fees & product data across Fiserv platforms in unified format
+    description: Snowflake database hosting merchant, equipment, fees & product data across Fiserv platforms in unified format
   - title: Simplified Integration
     description: Unified API layer to retrieve, on-board or update merchant across Fiserv platforms.
   - title: Analystics & Reporting
