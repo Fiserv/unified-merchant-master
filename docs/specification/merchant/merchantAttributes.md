@@ -183,6 +183,9 @@ titles: UMM
 
 ##  List of Domains
 ### chargebackConfig
+---
+tags: [chargebackConfig]
+---
 - Description: Chargeback Configuration
 - List of Attributes:
 
