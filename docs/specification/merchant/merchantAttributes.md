@@ -1,5 +1,9 @@
 # Merchant Attributes
-* **Description**: List of fields grouped under logical `Domains` and stored as key-value(s) pair as attribute name and values. 
+* **Description**: List of fields grouped under logical **Domains** and stored as key-value(s) pair as attribute name and values. Example of a **Domain**:
+  - [chargebackConfig](#-chargebackconfig) is a **domain** that groups all fields called as **Attributes** those configures chargeback related processing for a merchant. Example of some attributes are:
+    - Chargeback Address code indicating where chargeback related information sent
+    - Chargeback Pre-note Days
+  - See all available [list of Domains](#list-of-domains)
 * **API section**: merchantAttributes
 * **Table Name**: UMM.MERCHANT_ATTRIBUTES 
 * **How to Retrieve attributes from Snowflake Data tables?**:
