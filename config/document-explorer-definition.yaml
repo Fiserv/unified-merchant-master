@@ -39,23 +39,6 @@
         link: docs/getting-access/api-access.md
       - title: Snowflake Access
         link: docs/getting-access/database-access.md
-# - sections:
-#   - title: UMM Specifications
-#     sections:
-#       - title: Merchant
-#         sections:
-#         - title: North
-#           link: docs/specification/merchant/north.md
-#         - title: Omnipay26
-#           link: docs/specification/merchant/omnipay26.md
-#       - title: Attributes
-#         sections:
-#         - title: Merchant
-#           sections:
-#           - title: North
-#             link: docs/attribute/merchant/north.md
-#           - title: Omnipay
-#             link: docs/attribute/merchant/omnipay26.md
 - sections:
     - title: UMM Merchant Data Specification
       sections:
