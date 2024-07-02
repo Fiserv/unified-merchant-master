@@ -4,8 +4,8 @@
 * **Table Name**: UMM.MERCHANT 
 ## List of Fields:
 ### MERCHANT_ID
-* Description: Backend unique identifier for a merchant.
-* API field: merchantId
+* Description: Unique identifier of the merchant. It is required to add merchant-specific information to the database.
+* API field: `merchantId`
 * Field Specification:
 
 <!-- type: tab 
@@ -15,7 +15,7 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |  Update  |
 |--------|:--------------:|:----------:|:--------:|:--------:|:--------:|
-| String |  BE specific   |     50     | Required | Required | Required |
+| String |  BE specific   |     -      |          |          |          |
 
 <!-- type: tab-->
 
