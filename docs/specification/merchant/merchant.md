@@ -1,5 +1,5 @@
 # Merchant
-* **Description**: Stores basic but critical information about the merchant. Any merchant in UMM will always have this entity.
+* **Description**: Stores essential information about merchants, including contact details, business type, and contractual data, ensuring efficient transaction processing and management. Every merchant has an entry in this critical repository.
 * **API section**: root 
 * **Table Name**: UMM.MERCHANT 
 ## List of Fields:
@@ -13,39 +13,39 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |  Update  |
-|--------|:--------------:|:----------:|:--------:|:--------:|:--------:|
-| String |  BE specific   |     -      |          |          |          |
+| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
+|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
+| String |  Back-end specific |     50     |          |          |          |       NA     |
 
 <!-- type: tab-->
 
 ##### North Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |  Update  |
-|--------|:--------------:|:----------:|:--------:|:--------:|:--------:|
-| String |       12       |     12     | Required | Required | Required |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       12       |     50     | Required | Required | Not Required |       NA     |
 
 <!-- type: tab--> 
 
 ##### South Specification
 
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |  Update  |
-|--------|:--------------:|:----------:|:--------:|:--------:|:--------:|
-| String |       11       |     11     | Required | Required | Required |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-->
 
 ##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |  Update  |
-|--------|:--------------:|:----------:|:--------:|:--------:|:--------:|
-| String |       11       |     11     | Required | Required | Required |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       8        |     50     | Required | Required |   Required   |       NA     |
 
 <!-- type: tab-end -->
 
 ---
 
 ### PLATFORM_CODE 
-* Description: Backend platform identifier e.g. North, South etc.
-* API field: platformCode
+* Description: Code to identify the specific backend platform. It adds the required information for the merchant.
+* API field: `platformCode`
 * Field Specification:
 
 <!-- type: tab 
@@ -53,9 +53,9 @@ titles: UMM
 -->
 
 ##### UMM Specification
-| Type | Minimum Length | Max Length | Inquiry  |  Create  |  Update  |
-|------|:--------------:|:----------:|:--------:|:--------:|:--------:|
-| ENUM |      N/A       |     40     | Returned | Required | Required |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| ENUM |      N/A       |     40     | Returned | Required | Required |       NA     |
 
 See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
 
@@ -72,9 +72,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type | Minimum Length | Max Length | Inquiry  |  Create  | Update |
-|------|:--------------:|:----------:|:--------:|:--------:|:------:|
-| Enum |      N/A       |     10     | Response | Required |  N/A   |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| Enum |      N/A       |     10     | Response | Required |  N/A   |       NA     |
 
 - **Valid Values**:
 
@@ -97,9 +97,9 @@ titles: UMM, North, South, GMA
 <!-- type: tab-->
 
 ##### North Specification
-| Type | Minimum Length | Max Length | Inquiry  |  Create  | Update |
-|------|:--------------:|:----------:|:--------:|:--------:|:------:|
-| Enum |      N/A       |     10     | Response | Required |  N/A   |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| Enum |      N/A       |     10     | Response | Required |  N/A   |       NA     |
 
 - **Valid Values**:
     
@@ -118,9 +118,9 @@ titles: UMM, North, South, GMA
 <!-- type: tab--> 
 
 ##### South Specification
-| Type | Minimum Length | Max Length | Inquiry  |  Create  | Update |
-|------|:--------------:|:----------:|:--------:|:--------:|:------:|
-| Enum |      N/A       |     10     | Response | Required |  N/A   |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| Enum |      N/A       |     10     | Response | Required |  N/A   |       NA     |
 
 - **Valid Values**:
 
@@ -133,9 +133,9 @@ titles: UMM, North, South, GMA
 <!-- type: tab-->
 
 ##### GMA Specification
-| Type | Minimum Length | Max Length | Inquiry  |  Create  | Update |
-|------|:--------------:|:----------:|:--------:|:--------:|:------:|
-| Enum |      N/A       |     10     | Response | Required |  N/A   |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| Enum |      N/A       |     10     | Response | Required |  N/A   |       NA     |
 
 - **Valid Values**:
 
@@ -152,10 +152,10 @@ titles: UMM, North, South, GMA
 * API field: statusCode
 * Field Specification:
 
-|Platform| Type | Minimum Length | Max Length | Inquiry  |  Create  | Update |
-|--------:|------|:--------------:|:----------:|:--------:|:--------:|:------:|
-|North| Enum |      6       |     18     | Response | Required |  N/A   |
-|GMA| Enum |      3       |     3     | Response | Required |  N/A   |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+|North| Enum |      6       |     18     | Response | Required |  N/A   |       NA     |
+|GMA| Enum |      3       |     3     | Response | Required |  N/A   |       NA     |
 
 - **Valid Values**:
 
