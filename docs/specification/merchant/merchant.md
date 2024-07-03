@@ -329,7 +329,7 @@ titles: UMM, North, South, GMA
 ---
 ### BUSINESS_URL
 * Description: Official website address (URL) associated with the merchant.
-  Note: The URL should be complete and accurate and it should start with the protocol (http:// or https://).
+  <br>Note: The URL should be complete and accurate and it should start with the protocol (http:// or https://).
 * API field: `websiteUrlText`
 * Field Specification:
 
@@ -369,9 +369,9 @@ titles: UMM, North, South, GMA
 
 ### BUSINESS_TYP_CODE
 * Description: Code that indicates whether merchant can process payment in store or online.
-  Note: The following values indicate:
-  - - MOTO_ECOMM: Online payment method
-  - - RETAIL: In store payment method
+  <br>Note: The following values indicate:
+  - MOTO_ECOMM: Online payment method
+  - RETAIL: In store payment method
 * API field: `motoEcommerceCode`
 * Field Specification:
 
