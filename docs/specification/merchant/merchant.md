@@ -55,12 +55,73 @@ titles: UMM
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| ENUM |      N/A       |     40     | Returned | Required | Required |       NA     |
+|        |       -        |     -      |     -    |          |              |       NA     |
 
 See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
 
+<!-- type: tab-->
+
+##### North Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+|        |       -        |     -      | Required | Required | Not Required |       NA     |
+
+<!-- type: tab--> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       8        |     50     | Required | Required |   Required   |       NA     |
+
 <!-- type: tab-end -->
 
+### EFFECTIVE_START_DATE 
+* Description: Effective date from when the user can start fetching the snapshot data for a particular merchant and platform using UMM DB
+* API field: `effectiveStartDate`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+|        |       -        |     -      |     -    |          |              |       NA     |
+
+See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
+
+<!-- type: tab-->
+
+##### North Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create     |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:-------------:|:------------:|:------------:|
+|        |       -        |     -      | Required | Not Required  | Not Required |       NA     |
+
+<!-- type: tab--> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
 ---
 ### HIERARCHY_LEVEL_CODE 
 * Description: Indicates the hierarchy level of the merchant.
