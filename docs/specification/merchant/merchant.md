@@ -224,7 +224,7 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
 |--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     50     |          |          |          |       NA     |
+| String |  Back-end specific |     -      |          |          |          |       NA     |
 
 <!-- type: tab -->
 
@@ -366,6 +366,47 @@ titles: UMM, North, South, GMA
 <!-- type: tab-end -->
 ---
 
+### BUSINESS_TYP_CODE
+* Description: Code that indicates whether merchant can process payment in store or online.
+Note: The following values indicate:
+- MOTO_ECOMM: Online payment method
+- RETAIL: In store payment method
+* API field: `businessTypCode`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
+|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
+| String |  Back-end specific |     -      |          |          |          |       NA     |
+
+<!-- type: tab -->
+
+##### North Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       6        |     10     | Required | Required | Not Required |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      | Required | Required |   Required   |       NA     |
+
+<!-- type: tab-end -->
+---
 ### STATUS_CODE 
 * Description: Indicates the status of the merchant.
 * API field: statusCode
