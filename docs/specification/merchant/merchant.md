@@ -59,18 +59,14 @@ titles: UMM, North, South, GMA
 
 See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
 
-<!-- type: tab
-titles: North
--->
+<!-- type: tab-->
 
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 |        |       -        |     -      | Required | Required | Not Required |       NA     |
 
-<!-- type: tab
-titles: South
---> 
+<!-- type: tab--> 
 
 ##### South Specification
 
