@@ -17,14 +17,14 @@ titles: UMM, North, South, GMA
 |--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
 | String |  Back-end specific |     50     |          |          |          |       NA     |
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       12       |     50     | Required | Required | Not Required |       NA     |
 
-<!-- type: tab--> 
+<!-- type: tab --> 
 
 ##### South Specification
 
@@ -32,7 +32,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
