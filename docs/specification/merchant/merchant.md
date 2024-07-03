@@ -211,10 +211,11 @@ See supported platform and values of the enum [here](?path=docs/specification/su
 
 <!-- type: tab-end -->
 ---
+
 ### DBA_NAME
-* Description: <Field description>
+* Description: Official merchant name that the customer or authorities commonly recognizes.
 * API field: `merchantName`
-* Field Specification: Official merchant name that the customer or authorities commonly recognizes.
+* Field Specification: 
 
 <!-- type: tab 
 titles: UMM, North, South, GMA 
@@ -288,6 +289,7 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab-end -->
 ---
+
 ### STATUS_CODE 
 * Description: Indicates the status of the merchant.
 * API field: statusCode
