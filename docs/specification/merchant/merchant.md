@@ -446,6 +446,45 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab-end -->
 ---
+### STANDARD_INDUSTRY_CLASS_CODE
+* Description: Code that indicates the classification of MC/VISA standard industry.
+<br>Note: The code list is available upon request only.
+* API field: `sicCode`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
+|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
+| String |  Back-end specific |     -      |          |          |          |       NA     |
+
+<!-- type: tab -->
+
+##### North Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       4        |     4      | Required | Required | Not Required |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      | Required | Required |   Required   |       NA     |
+
+<!-- type: tab-end -->
+---
 ### STATUS_CODE 
 * Description: Indicates the status of the merchant.
 * API field: statusCode
