@@ -287,45 +287,7 @@ titles: UMM, North, South, GMA
 | String |       8        |     50     | Required | Required |   Required   |       NA     |
 
 <!-- type: tab-end -->
----
-### TAX_FILING_NAME
-* Description: Name that the merchant uses to file the taxes with the relevant tax authorities. 
-* API field: `taxFilingName`
-* Field Specification:
 
-<!-- type: tab 
-titles: UMM, North, South, GMA 
--->
-
-##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     50     |          |          |          |       NA     |
-
-<!-- type: tab -->
-
-##### North Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       20       |    100     | Required | Required |   Required   |       NA     |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
-
-<!-- type: tab -->
-
-##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       8        |     50     | Required | Required |   Required   |       NA     |
-
-<!-- type: tab-end -->
----
 ### STATUS_CODE 
 * Description: Indicates the status of the merchant.
 * API field: statusCode
