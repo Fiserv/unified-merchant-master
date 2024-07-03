@@ -373,7 +373,7 @@ titles: UMM, North, South, GMA
   - MOTO_ECOMM: Online payment method
   - RETAIL: In store payment method
 * API field: `motoEcommerceCode`
-* Field Specification:
+* Field Specification: 
 
 <!-- type: tab 
 titles: UMM, North, South, GMA 
