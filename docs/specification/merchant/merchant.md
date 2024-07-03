@@ -87,7 +87,7 @@ See supported platform and values of the enum [here](?path=docs/specification/su
 
 ### HIERARCHY_LEVEL_CODE 
 * Description: Unique identifier assigned to an outlet or a specific level within a hierarchical structure of a merchant's business. 
-* API field: `hierarchyLevelCode`
+* API field: `hierarchyId`
 * Field Specification:
 
 <!-- type: tab 
@@ -252,7 +252,7 @@ titles: UMM, North, South, GMA
 ---
 ### LEGAL_NAME
 * Description: <Field description>
-* API field: `legalName`
+* API field: `legalBusinessName`
 * Field Specification: Legal or official name of a merchant that is registered with government tax authorities. 
 <br>Note: It must be entered exactly same as it appears in the legal tax documents for the merchant.
 
@@ -328,8 +328,9 @@ titles: UMM, North, South, GMA
 <!-- type: tab-end -->
 ---
 ### BUSINESS_URL
-* Description: Official website address (URL) associated with the merchant. Note: The URL should be complete and accurate and it should start with the protocol (http:// or https://).
-* API field: `businessUrl`
+* Description: Official website address (URL) associated with the merchant.
+  Note: The URL should be complete and accurate and it should start with the protocol (http:// or https://).
+* API field: `websiteUrlText`
 * Field Specification:
 
 <!-- type: tab 
@@ -368,10 +369,10 @@ titles: UMM, North, South, GMA
 
 ### BUSINESS_TYP_CODE
 * Description: Code that indicates whether merchant can process payment in store or online.
-Note: The following values indicate:
-- MOTO_ECOMM: Online payment method
-- RETAIL: In store payment method
-* API field: `businessTypCode`
+  Note: The following values indicate:
+  - - MOTO_ECOMM: Online payment method
+  - - RETAIL: In store payment method
+* API field: `motoEcommerceCode`
 * Field Specification:
 
 <!-- type: tab 
@@ -389,6 +390,44 @@ titles: UMM, North, South, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       6        |     10     | Required | Required | Not Required |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      | Required | Required |   Required   |       NA     |
+
+<!-- type: tab-end -->
+---
+### MERCHANT_CATEGORY_CODE
+* Description: Code that indicates the type of business.
+* API field: `primaryMccCode`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
+|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
+| String |  Back-end specific |     -      |          |          |          |       NA     |
+
+<!-- type: tab -->
+
+##### North Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       4        |     4      | Required | Required | Not Required |       NA     |
 
 <!-- type: tab --> 
 
