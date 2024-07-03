@@ -211,6 +211,45 @@ See supported platform and values of the enum [here](?path=docs/specification/su
 
 <!-- type: tab-end -->
 ---
+
+### DBA_NAME
+* Description: Official merchant name that the customer or authorities commonly recognizes.
+* API field: `merchantName`
+* Field Specification: 
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
+|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
+| String |  Back-end specific |     50     |          |          |          |       NA     |
+
+<!-- type: tab -->
+
+##### North Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       10       |     40     | Required | Required |   Required   |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       8        |     50     | Required | Required |   Required   |       NA     |
+
+<!-- type: tab-end -->
+---
 ### LEGAL_NAME
 * Description: <Field description>
 * API field: `legalName`
@@ -250,43 +289,6 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab-end -->
 ---
-### DBA_NAME
-* Description: Official merchant name that the customer or authorities commonly recognizes.
-* API field: `merchantName`
-* Field Specification: 
-
-<!-- type: tab 
-titles: UMM, North, South, GMA 
--->
-
-##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     50     |          |          |          |       NA     |
-
-<!-- type: tab -->
-
-##### North Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       10       |     40     | Required | Required |   Required   |       NA     |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
-
-<!-- type: tab -->
-
-##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       8        |     50     | Required | Required |   Required   |       NA     |
-
-<!-- type: tab-end -->
 
 ### STATUS_CODE 
 * Description: Indicates the status of the merchant.
