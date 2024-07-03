@@ -340,7 +340,6 @@ titles: UMM, North, South, GMA
 
 - **Valid Values**:
 
-
 | Platform  |  Options   | Description     | 
 |:---------:|:----------:|:----------------|
 |NORTH|PENDING|PENDING|
