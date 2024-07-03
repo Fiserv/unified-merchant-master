@@ -49,7 +49,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM
+titles: UMM, North, South, GMA 
 -->
 
 ##### UMM Specification
@@ -89,7 +89,7 @@ See supported platform and values of the enum [here](?path=docs/specification/su
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM
+titles: UMM, North, South, GMA 
 -->
 
 ##### UMM Specification
