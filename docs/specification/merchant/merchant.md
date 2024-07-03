@@ -84,86 +84,6 @@ See supported platform and values of the enum [here](?path=docs/specification/su
 <!-- type: tab-end -->
 ---
 
-### EFFECTIVE_START_DATE 
-* Description: Effective date from when the user can start fetching the snapshot data for a particular merchant and platform using UMM DB
-* API field: `effectiveStartDate`
-* Field Specification:
-
-<!-- type: tab 
-titles: UMM, North, South, GMA 
--->
-
-##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-|        |       -        |     -      |     -    |          |              |       NA     |
-
-See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
-
-<!-- type: tab-->
-
-##### North Specification
-| Type   | Minimum Length | Max Length | Inquiry  |    Create     |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:-------------:|:------------:|:------------:|
-|        |       -        |     -      | Required | Not Required  | Not Required |       NA     |
-
-<!-- type: tab--> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
-
-<!-- type: tab-->
-
-##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
-
-<!-- type: tab-end -->
----
-### EFFECTIVE_END_DATE
-* Description: Effective date from when the user can stop fetching the snapshot data for a particular merchant and platform using UMM database.
-* API field: `effectiveEndDate`
-* Field Specification:
-
-<!-- type: tab 
-titles: UMM, North, South, GMA 
--->
-
-##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-|        |       -        |     -      |     -    |          |              |       NA     |
-
-See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
-
-<!-- type: tab-->
-
-##### North Specification
-| Type   | Minimum Length | Max Length | Inquiry  |    Create     |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:-------------:|:------------:|:------------:|
-|        |       -        |     -      | Required | Not Required  | Not Required |       NA     |
-
-<!-- type: tab--> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
-
-<!-- type: tab-->
-
-##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
-
-<!-- type: tab-end -->
----
 ### HIERARCHY_LEVEL_CODE 
 * Description: Unique identifier assigned to an outlet or a specific level within a hierarchical structure of a merchant's business. 
 * API field: `hierarchyLevelCode`
@@ -248,6 +168,7 @@ titles: UMM, North, South, GMA
 |   MEMBER   | Member level    |
 
 <!-- type: tab-end -->
+---
 
 ### STORE_ID
 * Description: Unique identifier of the merchant's store.
@@ -289,7 +210,44 @@ See supported platform and values of the enum [here](?path=docs/specification/su
 
 <!-- type: tab-end -->
 ---
+### DBA_NAME
+* Description: <Field description>
+* API field: `merchantName`
+* Field Specification: Official merchant name that the customer or authorities commonly recognizes.
 
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
+|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
+| String |  Back-end specific |     50     |          |          |          |       NA     |
+
+<!-- type: tab -->
+
+##### North Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       10       |     40     | Required | Required |   Required   |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       8        |     50     | Required | Required |   Required   |       NA     |
+
+<!-- type: tab-end -->
+---
 ### STATUS_CODE 
 * Description: Indicates the status of the merchant.
 * API field: statusCode
