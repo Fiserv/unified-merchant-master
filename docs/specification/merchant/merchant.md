@@ -895,3 +895,41 @@ titles: UMM, North, South, GMA
 <!-- type: tab-end -->
 ---
 
+### RELATIONSHIP_MGR_CODE
+* Description: Code that indicates a relationship manager who is responsible for managing the merchant's account.
+* API field: `relationshipManagerCode`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       3        |     3      | Required |   Required   |   Required   |       NA     |
+
+  <!--   type: tab -->
+
+##### North SpecificationNot 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       3        |     3      | Required |   Required   |   Required   |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
