@@ -382,14 +382,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
 |--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     -      |          |          |          |       NA     |
+| String |          6         |     10     |          |          |          |       NA     |
 
 <!-- type: tab -->
 
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       6        |     10     | Required | Required | Not Required |       NA     |
+| String |       1        |     1      | Required | Required | Not Required |       NA     |
 
 <!-- type: tab --> 
 
@@ -493,7 +493,7 @@ titles: UMM, North, South, GMA
   - ACTIVE : Active - Monthly Stmt
   - CANCELLED_CREDIT : Cancelled By Credit
   - CANCELLED_MERCHANT : Cancelled By Merchant
-* API field: statusCode
+* API field: `statusCode`
 * Field Specification:
 
 <!-- type: tab 
@@ -510,7 +510,7 @@ titles: UMM, North, South, GMA
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       1        |     2     | Required | Required | Not Required |       NA     |
+| String |       1        |     2     | Required | Required  |   Required   |       NA     |
 
 <!-- type: tab --> 
 
@@ -528,3 +528,47 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      | Required | Required |   Required   |       NA     |
 
 <!-- type: tab-end -->
+---
+### ACCT_OPEN_DATE
+* Description: Date on which the merchant account was opened.
+  <br>Format: CCYY-MM-DD
+  <br>Example: 2024-05-15
+  <br>Note: It can include a time component if required. 
+* API field: `openDate`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
+|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
+| String |         10         |     10     |          |          |          |       NA     |
+
+<!-- type: tab -->
+
+##### North Specification
+| Type   | Minimum Length | Max Length | Inquiry  |      Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       10       |     10     | Required | Not Required |    Required  |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      | Required | Required |   Required   |       NA     |
+
+<!-- type: tab-end -->
+---
+
+
