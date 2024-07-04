@@ -407,6 +407,7 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      | Required | Required |   Required   |       NA     |
 
 <!-- type: tab-end -->
+* Valid Value: MOTO_ECOMM,RETAIL
 ---
 ### MERCHANT_CATEGORY_CODE
 * Description: Code that indicates the type of business.
