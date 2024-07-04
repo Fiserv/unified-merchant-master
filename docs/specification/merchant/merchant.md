@@ -1243,7 +1243,6 @@ titles: UMM, North, South, GMA
 |             SSN              |   <description>       |
 |            OTHER             |   <description>       |
 
-EIN,REFUSED,SSN,OTHER
 <!-- type: tab --> 
 
 ##### South Specification
@@ -1332,8 +1331,6 @@ titles: UMM, North, South, GMA
 |        GLOBAL_EPRICING       |   <description>       |
 |         NO_CURR_CONV         |   <description>       |
 |             TAI              |   <description>       |
-
-CURR_CONV,DCC_GMA,FOREIGN_PROCESSING,INDIA,GLOBAL_EPRICING,NO_CURR_CONV,TAI
 
 <!-- type: tab --> 
 
