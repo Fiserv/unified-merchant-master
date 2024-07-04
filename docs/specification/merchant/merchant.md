@@ -346,7 +346,7 @@ titles: UMM, North, South, GMA
 
 **Valid Values**:
 |    Value     |     Description       |
-|--------------|:----------------------:|
+|--------------|:---------------------:|
 | MOTO_ECOMM   |   <description>       |
 |  RETAIL      |   <description>       |
 
@@ -993,6 +993,89 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       3        |     1      | Required |    Required  |   Required   |       NA     |
 
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+### BUSINESS_START_DATE
+* Description: Date on which the business was started.
+* API field: `businessStartDate`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       -        |      -     | Required | Not Required | Not Required |       NA     |
+
+  <!--   type: tab -->
+
+##### North SpecificationNot 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       -        |     -      | Required |    Required  |   Required   |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+### PRICING_TYPE_CODE
+* Description: Code that indicates the pricing type for interchange calculations.
+* API field: `pricingTypeCode`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       30       |    100     | Required |    Required  |   Required   |       NA     |
+
+  <!--   type: tab -->
+
+##### North SpecificationNot 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       30       |    100     | Required |    Required  |   Required   |       NA     |
+
+**Valid Values**:
+|    Value                     |     Description       |
+|------------------------------|:----------------------:|
+| DC_COURT_FINE_GOVT_SERVICE   |   <description>       |
+|        CHARITY               |   <description>       |
+
+DC_COURT_FINE_GOVT_SERVICE, CHARITY, RG_EMERGING_MARKET, RG_SMT, RETAIL_OR_SMT, RECR_BILL_PAY, RG_DC_RETAIL_OR_SMT, DC_SUPERMARKET, RG_DC_CONV_STORE, MOTO_NO_AVS, HC_MOTO, DC_RETAIL_OR_SMT, EPS_QPS_NO_AUTH, BAR_CATERER_RETAIL, DC_EMERGIN_MKT, HC_MOTO, HOTEL, RETAIL_KEY_ENTRY1, T&E_MOTO, DC_HOTEL, RG_MOTO_NON_AVS, RG_DC_CAR, PR_EMERGING_MKT, DC_INS, EDUCATIONAL_MOTO, PR_T&E_CP, EDU_RETAIL, DC_RESTAURANT, DC_EMERGING_MARKET_GOVT_EDU, RG_CONV_STORE, RG_CAR, PR_PETRO_AFD, RG_DC_EMERGING_MARKET, T&E_MOTO, DC_RETAIL, DC_ECOMM_PREF, RG_DC_SERVICE_STATIONS, B2B_PUR_CARD_LEVEL3, ECOMM_BASIC, EDU_MOTO, DC_SERVICE_STATION, T&E_RETAIL, PR_T&E_CNP, COMM_B2B_TAX_EXMP, PR_MOTO, INSURANCE, GU_RETAIL, RG_REATIL_OR_SMT, RG_DC_SMT, GU_ECOMM, DC_FILL_UCAF, RG_DC_COURT_FINE_GOVT_SERV, COMM_RETAL_TAX_EXMP, RETAIL, HC_MOTO, RG_RETAIL, RG_DC_HOTEL, FUEL_DISP, RG_AUTOMATED_FUEL_DISP, MERIT_1_DAYCARE, RG_DC_QSR_THTR_TAXI_LIMO, AUTOMATED_FULEL_DISP, HC_RETAIL, EDUCATIONAL_MOTO, FULL_UCAF, RG_REST_OR_FAST_FOOD, SMALL_TICKET, SUPERMARKET, T&E_RETAIL, DC_AOTOMATED_FUEL_DISP, BAR_CATERER_MOTO, RG_DC_AUTO_FUEL_DISP, EMERGING_MARKET, RETAIL_KEY_ENTRY2, RH_COMM_RETAIL_TAX_EXMP, T&E_MOTO, RG_DC_MOTO, COMM_CNP_TAX_EXMP, RG_INS, RG_DC_PUBLIC_SECTOR, T&E_RETAIL, GU_MOTO, RG_COMM_B2B_TAX_EXMP, EDUCATIONAL_RETAIL, DC_UTILITY, DC_RETAIL_2, RG_ECOMM_BASIC, RG_DC_ECOMM_BASIC, UTILITY, T&E_RETAIL, EDUCATIONAL_RETAIL, RG_DC_RETAIL_2, RETAIL_2, HC_RETAIL, RG_DC_FULL_UCAF, VI_RETAIL, QSR_THEATER_TAXI_LIMO, RG_B2B_PRCH_CARD, RG_DC_ACCT_FUNDING, EMERGING_MKT_GOVT_EDU, EDUCATION_MOTO, RG_MOTO, RG_CHARITY, HOTEL_CARRENTAL, SERVICE_STATION, DC_CAR, HC_RETAIL, CAR_RENTAL_CNP, RG_COMM_CNP_TAX_EXMP, VI_ECOMM, RG_ACCT_FUNDING, DC_ECOMM_BASIC, DEC_RETAIL_KE, RG_ECOMM_PREF, RG_DC_MOTO_NON_AVS, RG_DC_INS, HC_RETAIL, RG_SERVICE_STATIONS, PR_SUPERMARKET, CASH_ADV, RG_B2B_PRCH_CARD_LEVEL3, RG_DC_RETAIL, DC_MOTO, DC_SMT, B2B_PURC_CARD, RG_DC_SUPERMARKET, DC_CHARITY, DC_PUBLIC_SECTOR, RG_PAPER, DEFAULT, RG_UTILITY, RG_QSR_THTR_TAXI_LIMO, DC_ACCT_FUNDING, QSR_THEATER_SMT, RECR_BILL_PAY, RG_DC_RETAIL_OR_SMT, RG_HOTEL, RG_RETAIL_KEY_ENTRY, RG_COURT_FINE_GOVT_SERV, INTERNET, DC_MOTO_NON_AVS, RG_CASH_ADV, RG_PUBLIC_SECTOR, PAPER, DC_CONV_STORES, PR_PETRO_SVC_STATION, DC_QSR_THTR_TAXI_LIMO, EDUCATIONAL_RETAIL, RG_RETAIL_2, RESTAURANT, RG_DC_ECOMM_PREF, RG_FULL_UCAF, RG_SUPERMARKET, ECOMM_PREF, PR_RETAIL, HC_MOTO, CAR, T&E_MOTO, RG_DC_REST_OR_FAST_FOOD, RG_DC_UTILITY, COURT_FINES_GOVT_SERV, ACCT_FUNDING, PUBLIC_SECTOR, VI_MOTO, MOTO, RG_DC_RETAIL_KEY_ENTRY, CONV_STORES
 <!-- type: tab --> 
 
 ##### South Specification
