@@ -3,7 +3,8 @@
 * **API section**: root 
 * **Table Name**: UMM.MERCHANT 
 
-## List of Fields:
+## List of Fields:![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/67465b96-3d09-4261-8cff-ddddad09f236)
+
 ### MERCHANT_ID
 * Description: Unique identifier of the merchant. It is required to add merchant-specific information to the database.
 * API field: `merchantId`
@@ -16,7 +17,7 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
 |--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     50     |          |          |          |       NA     |
+| String |          12        |     50     |          |          |          |       NA     |
 
 <!-- type: tab -->
 
@@ -58,7 +59,8 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 |        |       -        |     -      |     -    |          |              |       NA     |
 
-See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
+See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/09c49a33-b866-4b9f-8719-7c3195276b66)![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/626b7940-ea9d-4d72-b46a-61e4322a1799)
+)
 
 <!-- type: tab-->
 
@@ -138,11 +140,10 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-|        |       -        |     -      |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create     |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:-------------:|:------------:|:------------:|
+|        |       1        |    10      | Required |    Required   |    Required  |       NA     |
 
-See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
 
 <!-- type: tab-->
 
@@ -179,9 +180,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     -      |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       10       |     40     | Required | Required |   Required   |       NA     |
 
 <!-- type: tab -->
 
@@ -218,9 +219,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     50     |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       6        |     18     | Required | Required | Not Required |       NA     |
 
 <!-- type: tab -->
 
@@ -256,9 +257,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     50     |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       20       |    100     | Required | Required |   Required   |       NA     |
 
 <!-- type: tab -->
 
@@ -295,9 +296,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     50     |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       34       |    240     | Required | Required | Not Required |       NA     |
 
 <!-- type: tab -->
 
@@ -339,16 +340,20 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
 |--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |          6         |     10     |          |          |          |       NA     |
+| String |          6         |     10     | Required | Required | Required |       NA     |
 
 <!-- type: tab -->
 
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       1        |     1      | Required | Required | Not Required |       NA     |
+| String |       1        |     1      | Required | Required |   Required   |       NA     |
 
-- **Valid Values**: MOTO_ECOMM, RETAIL
+**Valid Values**:
+|    Value     |     Description       |
+|--------------|:----------------------:|
+| MOTO_ECOMM   |   <description>       :|
+|  RETAIL      |   <description>       :|
 
 <!-- type: tab --> 
 
@@ -378,9 +383,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     -      |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       4        |     4      | Required | Required | Not Required |       NA     |
 
 <!-- type: tab -->
 
@@ -823,6 +828,44 @@ titles: UMM, North, South, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       4        |     7      | Required |    Required  |    Required  |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+### RELATIONSHIP_MGR_CODE
+* Description: Code that indicates a relationship manager who is responsible for managing the merchant's account.
+* API field: `relationshipMgrCode`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
+|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
+| String |          3         |     3      |          |          |          |       NA     |
+
+ <!--   type: tab -->
+
+##### North SpecificationNot 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       3        |     3      | Required |    Required  |    Required  |       NA     |
 
 <!-- type: tab --> 
 
