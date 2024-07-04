@@ -3,7 +3,7 @@
 * **API section**: root 
 * **Table Name**: UMM.MERCHANT 
 
-## List of Fields:![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/67465b96-3d09-4261-8cff-ddddad09f236)
+## List of Fields:
 
 ### MERCHANT_ID
 * Description: Unique identifier of the merchant. It is required to add merchant-specific information to the database.
@@ -59,8 +59,6 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 |        |       -        |     -      |     -    |          |              |       NA     |
 
-See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/09c49a33-b866-4b9f-8719-7c3195276b66)![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/626b7940-ea9d-4d72-b46a-61e4322a1799)
-)
 
 <!-- type: tab-->
 
@@ -108,9 +106,6 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:-------------:|:------------:|:------------:|
 |        |       -        |     -      | Required | Not Required  | Not Required |       NA     |
 
-
-###### North Hierarchy Explained
- ![North Hierarchy!](/assets/images/NorthHierarchy.png "North Hierarchy")
 
 <!-- type: tab--> 
 
@@ -352,8 +347,8 @@ titles: UMM, North, South, GMA
 **Valid Values**:
 |    Value     |     Description       |
 |--------------|:----------------------:|
-| MOTO_ECOMM   |   <description>       :|
-|  RETAIL      |   <description>       :|
+| MOTO_ECOMM   |   <description>       |
+|  RETAIL      |   <description>       |
 
 <!-- type: tab --> 
 
@@ -385,14 +380,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       4        |     4      | Required | Required | Not Required |       NA     |
+| String |       4        |     4      | Required | Required |    Required  |       NA     |
 
 <!-- type: tab -->
 
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       4        |     4      | Required | Required | Not Required |       NA     |
+| String |       4        |     4      | Required | Required |    Required  |       NA     |
 
 <!-- type: tab --> 
 
@@ -422,16 +417,16 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     -      |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       4        |     4      | Required | Required |   Required   |       NA     |
 
 <!-- type: tab -->
 
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       4        |     4      | Required | Required | Not Required |       NA     |
+| String |       4        |     4      | Required | Required |   Required   |       NA     |
 
 <!-- type: tab --> 
 
@@ -466,9 +461,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     18     |    6     |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       6        |     18     | Required | Required  |   Required   |       NA     |
 
 <!-- type: tab -->
 
@@ -507,9 +502,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |         10         |     10     |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |      Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       10       |     10     | Required | Not Required |    Required  |       NA     |
 
 <!-- type: tab -->
 
@@ -545,9 +540,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     -      |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |        -       |      -     | Required | Not Required | Not Required |       NA     |
 
 <!-- type: tab -->
 
@@ -583,16 +578,16 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     -      |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       -        |     -      | Required | Not Required | Not Required |       NA     |
 
 <!-- type: tab -->
 
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       12       |     50     | Required | Not Required | Not Required |       NA     |
+| String |       -        |     -      | Required |    Required  |    Required  |       NA     |
 
 <!-- type: tab --> 
 
@@ -621,16 +616,16 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |          16        |     18      |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       6        |     18     | Required |    Required  |    Required  |       NA     |
 
   <!--   type: tab -->
 ----
 ##### North SpecificationNot 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       16       |     18     | Required |   Required   |   Required   |       NA     |
+| String |       6        |     18     | Required |    Required  |    Required  |       NA     |
 
 <!-- type: tab --> 
 
@@ -659,9 +654,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |         10         |    10      |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       10       |     10     | Required | Not Required |   Required   |       NA     |
 
   <!--   type: tab -->
 ----
@@ -697,18 +692,24 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |          10        |     30     |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       3        |     30     | Required |    Required  |    Required  |       NA     |
 
   <!--   type: tab -->
 ----
 ##### North SpecificationNot 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10       |     10     | Required |    Required  |    Required  |       NA     |
+| String |       1        |     3      | Required |    Required  |    Required  |       NA     |
 
-- **Valid Values**: LP_SALES_REP_FRAUD, IR_IN_BS_SLD_BS_NEW, IR_PND_INFO_SLS_SUPT, LP_HI_RISK_CONTRACT_VIOLATION, CD_IN_BS_COLLECT_PR, IR_SEASONAL_MERCHANT, SYS_RECORD, PCI_DSS_NON_COMPLIANT, CLOSED_COLL_NO_REOPEN, IR_CSI_SVC_DSC_RM_RP, LP_HI_RISK_NO_ACTIVITY, TEST_ACCT, TERMINAL_COMPANY_SVC, SERVICE_PROB_STM_FUN, SERVICE_PROB_INV_REF, LP_HI_RISK_MER_INTRNE, CD_OUT_BS_AC_INACT_O, LP_HI_RISK_INACURATE_ME3, LP_HI_RISK_SECURITY_RISK, IR_CSI_SVC_EQUIPMENT_TEC, IR_CSI_POOR_SERVICE, IR_AGENT_SERVICE_DEFAULTED_ON, IR_IN_BS_FEES_NT_CMP, DDA_ACCT_CLOSED, CLOSED_CREDIT_NO_REOPEN, CD_IN_BS_IN_LITIGATION, IR_AGENT_SVC_MISREP_APP, IR_DEATH, LP_HI_RISK_MC_8_PCT_VIOLATION, DORMANCY, IR2005_PRICE_INCREASE, CD_AG_SVC_SEASONAL_LOW, DATA_CLEANUP, IR_CSI_LOST_OR_STOLEN_TERMINAL, LP_HI_RISK_TMF_MATCH, IR_OUT_BUSINESS_CLOSE, DISSATISFIED_WITH_FEES, DONT_REOPEN_CONVERTED, CD_IN_BS_RFS_TO_PY_C, TERMINAL_COMPANY_PRDCT, END_OF_TERM, IR_AGENT_SVC_NON_INSTL, IR_CSI_CHK_GUAR_DECLINE, CD_IN_BS_CHECKING, REI, MAPPED_AS_OPEN, CD_IN_BS_XCS_STATEMENT_FEE, MIGRATED_AGENT_BANK, IR_AGT_SERVICE_AGENT_FRAUD, LP_HI_RISK_EXCESS_CHARGEBACK, IR_AGENT_SVC_MISREP_FEE, 2009_PRICE_INCREASE, CD_OUT_BS_CHECKING_ACCT, IR_CSI_SS_NUM_MISMATCH, NOT_ACCEPT_MCVI, LP_HI_RISK_AGENT_MISRPR, FRAUD_OR_BAD_DEBIT, LP_HI_RISK_ID_THEFT, LP_HI_RISK_CLOSED_PR_WA, LP_HI_RISK_CASH_ADV, LP_HI_RISK_STL_CD_FRAUD, DOESNOT_MEET_SETTLEMENT_REQ, PARTNERSHIP_SPLIT, RATE_INCREASE_20XX, IR_AGENT_INSTALL_DAILY, IR_AGENT_STY_W_CUR_PRC, IR_AGENT_SVC_TMP_CLOSR, IR_IN_BS_FRN_CHSE_DI, IR_SALES_REP_FRAUD, IR_IN_BS_R_INC_CS_F, MEDICAL_RELATED, NEVER_WANTED_ACCT, PER_MERCHANT_LETTER, SERVICE_PROB_TER_SYS, LP_HI_RISK_FACTOR_PEND, OWNERSHIP_CHANGE, LP_HI_RISK_INACURATE_ME2, NO_REASON, DUPLICATE_ACCT, LP_HI_RISK_CLS_BANK, USE_DIFF_PROCESSOR, CD_HI_RISK_BANKRUPTCY, CUST_SERVICE, PAYMENT_NETWORK_UPDATED, CEASED_TRADING, IR_CSI_SVC_DSC_CD_RP, COMPETITR_PROPSITION, SOLD_BUSINESS, CD_OUT_BUSINESS_CLOSE, IR_AGENT_SVC_LEAS_DESC, SALES_REP_PROBLEM, NONE, LP_HI_RISK_PENDING_INVESTMENT, BUSINESS_CLOSED, IR_IN_BS_RT_INC_LOW, CLOSED_CREDIT_NO_REOPEN, IR_CSI_SVC_DSC_CS_RP, IR_AVG_SV_REFUS_INST, COMPETITOR_SERVICE, COMPETITOR_FEES, NO_ACTIVITY_ON_ACCT, CD_IN_BS_AC_INACT_O, IR_CSI_UBL_TO_CT_MER, CHANGE_LEGAL_ENTITY_OR_OWNER, LP_HI_RISK_CNTRFT_PN, IR_AGENT_CONVERSATION_DAILY, RA_DBA_CONTRACT_VIOLATION, IR_AGENT_EQUIPMENT_NT_COMPAT, IR_CSI_BANKRUPTCY, CD_OUT_BS_CANT_CONTACT, DEROGATORY, CD_IN_BS_NEW_OWNERSHIP, RA_DBA_TEMP_CLOSED, COMPETITOR_NEW_PRDCT, CD_IN_BS_NO_PY_OF_R, REASON_UNKNOWN, LP_HI_RISK_INACURATE_ME1, SHOULB_BE_CLOSED, IR_CSI_SVC_DSC_LP_RP, MIGRATED_OVER_6_MON
+**Valid Values**: 
+|          Value             |                    Description                 |
+|----------------------------|:----------------------------------------------:|
+|      LP_SALES_REP_FRAUD    |  <i>description to some here</i>               |
+
+(To be updated after updates from Amit)
+LP_SALES_REP_FRAUD, IR_IN_BS_SLD_BS_NEW, IR_PND_INFO_SLS_SUPT, LP_HI_RISK_CONTRACT_VIOLATION, CD_IN_BS_COLLECT_PR, IR_SEASONAL_MERCHANT, SYS_RECORD, PCI_DSS_NON_COMPLIANT, CLOSED_COLL_NO_REOPEN, IR_CSI_SVC_DSC_RM_RP, LP_HI_RISK_NO_ACTIVITY, TEST_ACCT, TERMINAL_COMPANY_SVC, SERVICE_PROB_STM_FUN, SERVICE_PROB_INV_REF, LP_HI_RISK_MER_INTRNE, CD_OUT_BS_AC_INACT_O, LP_HI_RISK_INACURATE_ME3, LP_HI_RISK_SECURITY_RISK, IR_CSI_SVC_EQUIPMENT_TEC, IR_CSI_POOR_SERVICE, IR_AGENT_SERVICE_DEFAULTED_ON, IR_IN_BS_FEES_NT_CMP, DDA_ACCT_CLOSED, CLOSED_CREDIT_NO_REOPEN, CD_IN_BS_IN_LITIGATION, IR_AGENT_SVC_MISREP_APP, IR_DEATH, LP_HI_RISK_MC_8_PCT_VIOLATION, DORMANCY, IR2005_PRICE_INCREASE, CD_AG_SVC_SEASONAL_LOW, DATA_CLEANUP, IR_CSI_LOST_OR_STOLEN_TERMINAL, LP_HI_RISK_TMF_MATCH, IR_OUT_BUSINESS_CLOSE, DISSATISFIED_WITH_FEES, DONT_REOPEN_CONVERTED, CD_IN_BS_RFS_TO_PY_C, TERMINAL_COMPANY_PRDCT, END_OF_TERM, IR_AGENT_SVC_NON_INSTL, IR_CSI_CHK_GUAR_DECLINE, CD_IN_BS_CHECKING, REI, MAPPED_AS_OPEN, CD_IN_BS_XCS_STATEMENT_FEE, MIGRATED_AGENT_BANK, IR_AGT_SERVICE_AGENT_FRAUD, LP_HI_RISK_EXCESS_CHARGEBACK, IR_AGENT_SVC_MISREP_FEE, 2009_PRICE_INCREASE, CD_OUT_BS_CHECKING_ACCT, IR_CSI_SS_NUM_MISMATCH, NOT_ACCEPT_MCVI, LP_HI_RISK_AGENT_MISRPR, FRAUD_OR_BAD_DEBIT, LP_HI_RISK_ID_THEFT, LP_HI_RISK_CLOSED_PR_WA, LP_HI_RISK_CASH_ADV, LP_HI_RISK_STL_CD_FRAUD, DOESNOT_MEET_SETTLEMENT_REQ, PARTNERSHIP_SPLIT, RATE_INCREASE_20XX, IR_AGENT_INSTALL_DAILY, IR_AGENT_STY_W_CUR_PRC, IR_AGENT_SVC_TMP_CLOSR, IR_IN_BS_FRN_CHSE_DI, IR_SALES_REP_FRAUD, IR_IN_BS_R_INC_CS_F, MEDICAL_RELATED, NEVER_WANTED_ACCT, PER_MERCHANT_LETTER, SERVICE_PROB_TER_SYS, LP_HI_RISK_FACTOR_PEND, OWNERSHIP_CHANGE, LP_HI_RISK_INACURATE_ME2, NO_REASON, DUPLICATE_ACCT, LP_HI_RISK_CLS_BANK, USE_DIFF_PROCESSOR, CD_HI_RISK_BANKRUPTCY, CUST_SERVICE, PAYMENT_NETWORK_UPDATED, CEASED_TRADING, IR_CSI_SVC_DSC_CD_RP, COMPETITR_PROPSITION, SOLD_BUSINESS, CD_OUT_BUSINESS_CLOSE, IR_AGENT_SVC_LEAS_DESC, SALES_REP_PROBLEM, NONE, LP_HI_RISK_PENDING_INVESTMENT, BUSINESS_CLOSED, IR_IN_BS_RT_INC_LOW, CLOSED_CREDIT_NO_REOPEN, IR_CSI_SVC_DSC_CS_RP, IR_AVG_SV_REFUS_INST, COMPETITOR_SERVICE, COMPETITOR_FEES, NO_ACTIVITY_ON_ACCT, CD_IN_BS_AC_INACT_O, IR_CSI_UBL_TO_CT_MER, CHANGE_LEGAL_ENTITY_OR_OWNER, LP_HI_RISK_CNTRFT_PN, IR_AGENT_CONVERSATION_DAILY, RA_DBA_CONTRACT_VIOLATION, IR_AGENT_EQUIPMENT_NT_COMPAT, IR_CSI_BANKRUPTCY, CD_OUT_BS_CANT_CONTACT, DEROGATORY, CD_IN_BS_NEW_OWNERSHIP, RA_DBA_TEMP_CLOSED, COMPETITOR_NEW_PRDCT, CD_IN_BS_NO_PY_OF_R, REASON_UNKNOWN, LP_HI_RISK_INACURATE_ME1, SHOULB_BE_CLOSED, IR_CSI_SVC_DSC_LP_RP, MIGRATED_OVER_6_MON
 
 <!-- type: tab --> 
 
@@ -737,9 +738,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |         3          |     3      |          |          |          |       NA     |
+| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:------------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |         3          |     3      | Required | Required | Not Required |       NA     |
 
   <!--   type: tab -->
 
@@ -748,7 +749,11 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       1        |     1      | Required |    Required  | Not Required |       NA     |
 
-* Valid Values: YES, NO
+**Valid Values**: 
+|          Value             |                    Description                 |
+|----------------------------|:----------------------------------------------:|
+|            YES             |  <i>description to some here</i>               |
+|            NO              |  <i>description to some here</i>               |
 
 <!-- type: tab --> 
 
@@ -777,9 +782,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |         3          |     3      |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       3        |     3      | Required |    Required  | Not Required |       NA     |
 
   <!--   type: tab -->
 
@@ -788,7 +793,12 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       1        |     1      | Required |    Required  | Not Required |       NA     |
 
-* Valid Values: YES, NO
+**Valid Values**: 
+|          Value             |                    Description                 |
+|----------------------------|:----------------------------------------------:|
+|            YES             |  <i>description to some here</i>               |
+|            NO              |  <i>description to some here</i>               |
+
 
 <!-- type: tab --> 
 
@@ -818,9 +828,9 @@ titles: UMM, North, South, GMA
 -->
 
 ##### UMM Specification
-| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
-|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |          4         |     7      |          |          |          |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       4        |     7      | Required |    Required  |    Required  |       NA     |
 
   <!--   type: tab -->
 
