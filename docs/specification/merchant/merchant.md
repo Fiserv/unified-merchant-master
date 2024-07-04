@@ -526,7 +526,7 @@ titles: UMM, North, South, GMA
 ##### GMA Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      | Required | Required |   Required   |       NA     |
+| String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -564,9 +564,45 @@ titles: UMM, North, South, GMA
 ##### GMA Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      | Required | Required |   Required   |       NA     |
+| String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+### LAST_STATUS_CHANGED_DATE
+* Description: Date on which the last status of the merchant account was changed.
+* API field: `lastStatusChangedDate`
+* Field Specification:
 
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
 
+##### UMM Specification
+| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
+|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
+| String |  Back-end specific |     -      |          |          |          |       NA     |
+
+<!-- type: tab -->
+
+##### North Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       12       |     50     | Required | Not Required | Not Required |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
