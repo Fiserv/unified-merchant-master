@@ -391,7 +391,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       1        |     1      | Required | Required | Not Required |       NA     |
 
-- **Valid Values**: MOTO_ECOMM,RETAIL
+- **Valid Values**: MOTO_ECOMM, RETAIL
 
 <!-- type: tab --> 
 
