@@ -1,4 +1,4 @@
-# Merchant
+![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/dfb54140-c650-4211-bb7e-72ee74ad6eb8)# Merchant
 * **Description**: Stores essential information about merchants, including contact details, business type, and contractual data, ensuring efficient transaction processing and management. Every merchant has an entry in this critical repository.
 * **API section**: root 
 * **Table Name**: UMM.MERCHANT 
@@ -1196,6 +1196,245 @@ titles: UMM, North, South, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       3        |     10     | Required |    Required  |   Required   |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+### TAX_ID_TYPE_CODE
+* Description: Code that indicates the type of tax identifier.
+* API field: `taxIdTypeCode`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       3        |      7     | Required |    Required  |   Required   |       NA     |
+
+  <!--   type: tab -->
+
+##### North SpecificationNot 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       1        |      1     | Required |    Required  |   Required   |       NA     |
+
+**Valid Values**:
+|    Value                     |     Description       |
+|------------------------------|:----------------------:|
+|             EIN              |   <description>       |
+|           REFUSED            |   <description>       |
+|             SSN              |   <description>       |
+|            OTHER             |   <description>       |
+
+EIN,REFUSED,SSN,OTHER
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+
+### TAX_ID_TYPE_CODE
+* Description: Unique identifier of the merchat tax.
+* API field: `taxId`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       20       |     50     | Required |    Required  |   Required   |       NA     |
+
+  <!--   type: tab -->
+
+##### North SpecificationNot 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       20       |     50     | Required |    Required  |   Required   |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+
+### MULTI_CURRENCY_INDICATOR
+* Description: Value that indicates whether a merchant conducts currency conversion at the point of sale.
+* API field: `multiCurrencyIndicator`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       3        |     18     | Required |    Required  |   Required   |       NA     |
+
+  <!--   type: tab -->
+
+##### North SpecificationNot 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       1        |     1      | Required |    Required  |   Required   |       NA     |
+
+**Valid Values**:
+|    Value                     |     Description       |
+|------------------------------|:----------------------:|
+|           CURR_CONV          |   <description>       |
+|            DCC_GMA           |   <description>       |
+|       FOREIGN_PROCESSING     |   <description>       |
+|            INDIA             |   <description>       |
+|        GLOBAL_EPRICING       |   <description>       |
+|         NO_CURR_CONV         |   <description>       |
+|             TAI              |   <description>       |
+
+CURR_CONV,DCC_GMA,FOREIGN_PROCESSING,INDIA,GLOBAL_EPRICING,NO_CURR_CONV,TAI
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+
+### SUB_PLATFORM
+* Description: Code that indicates the alliance pratform.
+* API field: `alliancePlatformCode`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       3        |     22     | Required |    Required  |   Required   |       NA     |
+
+  <!--   type: tab -->
+
+##### North SpecificationNot 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       1        |     1      | Required |    Required  |   Required   |       NA     |
+
+**Valid Values**:
+|            Value                     |     Description       |
+|--------------------------------------|:---------------------:|
+|           MSIP                       |   <description>       |
+|           SUNTRUST_THREE             |   <description>       |
+|           NOVUS                      |   <description>       |
+|           IPAYMENT                   |   <description>       |
+|           FISERV_BAMS                |   <description>       |
+|           BANK_OF_HAWAII             |   <description>       |
+|           WELLS_WEST                 |   <description>       |
+|           SANTANDER                  |   <description>       |
+|           SUNTRUST_ONE               |   <description>       |
+|           PNC                        |   <description>       |
+|           WALMART                    |   <description>       |
+|           CORE_BUSINESS_RULES        |   <description>       |
+|           FISERV_CHASE               |   <description>       |
+|           RSA_PLATFORM_S             |   <description>       |
+|           SUNTRUST_TWO               |   <description>       |
+|           RSA_PLATFORM_T             |   <description>       |
+|           HUNTINGTON                 |   <description>       |
+|           WELLS_EAST                 |   <description>       |
+|           FISERV_BANK_OF_AMERICA     |   <description>       |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+
+### CORPORATE_NAME
+* Description: Official name of the merchant as it appears in legal and corporate documents.
+* API field: `corporateName`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       10       |     24     | Required |    Required  |   Required   |       NA     |
+
+  <!--   type: tab -->
+
+##### North SpecificationNot 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       10       |     24     | Required |    Required  |   Required   |       NA     |
 
 <!-- type: tab --> 
 
