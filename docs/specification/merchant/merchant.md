@@ -486,56 +486,45 @@ titles: UMM, North, South, GMA
 <!-- type: tab-end -->
 ---
 ### STATUS_CODE 
-* Description: Indicates the status of the merchant.
+* Description: Code that indicates the status of a merchant.
+  <br>Example:
+  - PENDING : Pending Credit Approval
+  - CANCELLED_FRAUD : Cancelled Due to Fraud
+  - ACTIVE : Active - Monthly Stmt
+  - CANCELLED_CREDIT : Cancelled By Credit
+  - CANCELLED_MERCHANT : Cancelled By Merchant
 * API field: statusCode
 * Field Specification:
 
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
+|--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
+| String |  Back-end specific |     18     |    6     |          |          |       NA     |
+
+<!-- type: tab -->
+
+##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-|North| Enum |      6       |     18     | Response | Required |  N/A   |       NA     |
-|GMA| Enum |      3       |     3     | Response | Required |  N/A   |       NA     |
+| String |       1        |     2     | Required | Required | Not Required |       NA     |
 
-- **Valid Values**:
+<!-- type: tab --> 
 
-| Platform  |  Options   | Description     | 
-|:---------:|:----------:|:----------------|
-|NORTH|PENDING|PENDING|
-|NORTH|CANCELLED_FRAUD|CANCELLED_FRAUD|
-|NORTH|CANCELLED_CREDIT|CANCELLED_CREDIT|
-|NORTH|CANCELLED_MERCHANT|CANCELLED_MERCHANT|
-|NORTH|ACTIVE|ACTIVE|
-|GMA|CANCELLED_CREDIT|CANCELLED_CREDIT|
-|GMA|ACTIVE_BANKRUPT|ACTIVE_BANKRUPT|
-|GMA|CANCELLED_MNGMTREQ|CANCELLED_MNGMTREQ|
-|GMA|CANCELLED_NO_LONGER_ACC|CANCELLED_NO_LONGER_ACC|
-|GMA|CANCELLED_DUPLICATE_ACCOUNT|CANCELLED_DUPLICATE_ACCOUNT|
-|GMA|CANCELLED_NEW_OWN|CANCELLED_NEW_OWN|
-|GMA|CANCELLED_BANKRUPT|CANCELLED_BANKRUPT|
-|GMA|CANCELLED_BY_MERCHANT|CANCELLED_BY_MERCHANT|
-|GMA|CANCELLED_APPLY_FEE|CANCELLED_APPLY_FEE|
-|GMA|CANCELLED_TERMRTND|CANCELLED_TERMRTND|
-|GMA|CANCELLED_SOLDBUSNS|CANCELLED_SOLDBUSNS|
-|GMA|ACTIVE_HOLD_PAY|ACTIVE_HOLD_PAY|
-|GMA|CANCELLED_MERCHANT_NO_REASON|CANCELLED_MERCHANT_NO_REASON|
-|GMA|CANCELLED_MRCHCHBS|CANCELLED_MRCHCHBS|
-|GMA|DORMANT|DORMANT|
-|GMA|CANCELLED_FRAUD|CANCELLED_FRAUD|
-|GMA|CANCELLED_DIS_SATISFACTION|CANCELLED_DIS_SATISFACTION|
-|GMA|CANCELLED_RISK|CANCELLED_RISK|
-|GMA|CANCELLED_EMERGENCY|CANCELLED_EMERGENCY|
-|GMA|CANCELLED_PRTNRSPLT|CANCELLED_PRTNRSPLT|
-|GMA|CANCELLED_BUSINESS_CLOSED|CANCELLED_BUSINESS_CLOSED|
-|GMA|CANCELLED_POSTECISS|CANCELLED_POSTECISS|
-|GMA|CANCELLED_NOACTONAC|CANCELLED_NOACTONAC|
-|GMA|CANCELLED_BANKRPT|CANCELLED_BANKRPT|
-|GMA|CANCELLED_DECEASED|CANCELLED_DECEASED|
-|GMA|CANCELLED_REASON_UNKNOWN|CANCELLED_REASON_UNKNOWN|
-|GMA|CANCELLED_LTRCLOSMR|CANCELLED_LTRCLOSMR|
-|GMA|CANCELLED_POORSERV|CANCELLED_POORSERV|
-|GMA|CANCELLED_ATREQEMS|CANCELLED_ATREQEMS|
-|GMA|ACTIVE|ACTIVE|
-|GMA|CANCELLED_PROBWSREP|CANCELLED_PROBWSREP|
-|GMA|CANCELLED_CHANGE_OWNER|CANCELLED_CHANGE_OWNER|
-|GMA|CANCELLED_ACNTNEVRQ|CANCELLED_ACNTNEVRQ|
-|GMA|CANCELLED|CANCELLED|
-|GMA|SUSPENDED|SUSPENDED|
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      | Required | Required |   Required   |       NA     |
+
+<!-- type: tab-end -->
