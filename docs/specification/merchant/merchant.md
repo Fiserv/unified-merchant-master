@@ -99,24 +99,6 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | Enum |      N/A       |     10     | Response | Required |  N/A   |       NA     |
 
-- **Valid Values**:
-
-  | Platform  |  Options   | Description     | 
-  |:---------:|:----------:|:----------------|
-  |   NORTH   |   OUTLET   | Outlet level    |
-  |   NORTH   |   CHAIN    | Chain level     |
-  |   NORTH   |    CORP    | Corporate level |
-  |   NORTH   |   AGENT    | Agent level     |
-  |   NORTH   |    BANK    | Bank level      |
-  |   NORTH   |  BUSINESS  | Business level  |
-  | OMNIPAY26 |   GROUP    | Group level     |
-  | OMNIPAY26 |  SUBGROUP  | Sub-Group level |
-  | OMNIPAY26 |   MEMBER   | Member level    |
-  |   SOUTH   |    ROOT    | Root level      |
-  |   SOUTH   |    CORP    | Corporate level |
-  |   SOUTH   |   OUTLET   | Location level  |
-
-
 <!-- type: tab-->
 
 ##### North Specification
@@ -124,16 +106,6 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:-------------:|:------------:|:------------:|
 |        |       -        |     -      | Required | Not Required  | Not Required |       NA     |
 
-- **Valid Values**:
-    
-    | Options  | Description     | 
-    |----------|:----------------|
-    | OUTLET   | Outlet level    |
-    | CHAIN    | Chain level     |
-    | CORP     | Corporate level |
-    | AGENT    | Agent level     |
-    | BANK     | Bank level      |
-    | BUSINESS | Business level  |
 
 ###### North Hierarchy Explained
  ![North Hierarchy!](/assets/images/NorthHierarchy.png "North Hierarchy")
@@ -145,13 +117,6 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | Enum |      N/A       |     10     | Response | Required |  N/A   |       NA     |
 
-- **Valid Values**:
-
-|  Options   | Description     | 
-|:----------:|:----------------|
-|    ROOT    | Root level      |
-|    CORP    | Corporate level |
-|   OUTLET   | Location level  |
 
 <!-- type: tab-->
 
@@ -159,14 +124,6 @@ titles: UMM, North, South, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | Enum |      N/A       |     10     | Response | Required |  N/A   |       NA     |
-
-- **Valid Values**:
-
-|  Options   | Description     | 
-|:----------:|:----------------|
-|   GROUP    | Group level     |
-|  SUBGROUP  | Sub-Group level |
-|   MEMBER   | Member level    |
 
 <!-- type: tab-end -->
 ---
