@@ -913,8 +913,8 @@ titles: UMM, North, South, GMA
 **Valid Values**: 
 |          Value             |                    Description                 |
 |----------------------------|:----------------------------------------------:|
-|            YES             |  <i>description to some here</i>               |
-|            NO              |  <i>description to some here</i>               |
+|            YES             |  Seasonal Indicator                            |
+|            NO              |  Seasonal Indicator                            |
 
 
 <!-- type: tab --> 
@@ -1189,102 +1189,102 @@ titles: UMM, North, South, GMA
 **Valid Values**:
 |    Value                     |     Description       |
 |------------------------------|:----------------------:|
-SUPERMARKET                       | Supermarket|
-|PAPER                       | Paper|
+SUPERMARKET                    | Supermarket|
+|PAPER                         | Paper|
 |DEFAULT                       | Pricing Type Code|
-|RETAIL_KEY_ENTRY1                       | Retail (Key Entry)|
-|CAR                       | Car|
-|HOTEL                       | Hotel|
-|MOTO_NO_AVS                       | MO/TO (No AVS)|
-|MOTO                       | MAIL ORDER TELEPHONE ORDER|
-|RESTAURANT                       | Restaurant/Fast Food|
-|RETAIL                       | Retail|
-|PR_PETRO_AFD                       | PR Petroleum AFD|
+|RETAIL_KEY_ENTRY1             | Retail (Key Entry)|
+|CAR                           | Car|
+|HOTEL                         | Hotel|
+|MOTO_NO_AVS                   | MO/TO (No AVS)|
+|MOTO                          | MAIL ORDER TELEPHONE ORDER|
+|RESTAURANT                    | Restaurant/Fast Food|
+|RETAIL                        | Retail|
+|PR_PETRO_AFD                  | PR Petroleum AFD|
 |PR_MOTO                       | PR MO/TO|
-|PR_PETRO_SVC_STATION                       | PR Petroleum Srv Stn|
-|PR_SUPERMARKET                       | PR Supermarket|
-|PR_EMERGING_MKT                       | PR Emerging Market|
-|VI_RETAIL                       | VI Retail|
+|PR_PETRO_SVC_STATION          | PR Petroleum Srv Stn|
+|PR_SUPERMARKET                | PR Supermarket|
+|PR_EMERGING_MKT               | PR Emerging Market|
+|VI_RETAIL                     | VI Retail|
 |VI_MOTO                       | VI MO/TO|
-|VI_ECOMM                       | VI Ecommerce|
-|GU_RETAIL                       | GU Retail|
+|VI_ECOMM                      | VI Ecommerce|
+|GU_RETAIL                     | GU Retail|
 |GU_MOTO                       | GU MO/TO|
-|GU_ECOMM                       | GU Ecommerce|
-|PR_T&E_CNP                       | PR T&E Card Not Present|
-|T&E_RETAIL                       | T&E Retail#2|
-|T&E_RETAIL                       | T&E Retail#3|
-|T&E_RETAIL                       | T&E Retail#4|
-|T&E_MOTO                       | T&E MOTO#1|
-|T&E_MOTO                       | T&E MOTO#2|
-|T&E_MOTO                       | T&E MOTO#3|
-|T&E_MOTO                       | T&E MOTO#4|
-|PR_T&E_CP                       | PR T&E Card Present|
-|RH_COMM_RETAIL_TAX_EXMP                       | RG Comm RTL Tax Exempt|
-|RG_ECOMM_PREF                       | RG Elec Comm Pref|
-|RG_QSR_THTR_TAXI_LIMO                       | RG QSR/Thtr/Taxi/Limo|
-|RG_UTILITY                       | RG Utility|
-|RG_SERVICE_STATIONS                       | RG Service Stations|
-|RG_FULL_UCAF                       | RG Full UCAF|
-|RG_SMT                       | RG Small Ticket|
-|RG_COMM_B2B_TAX_EXMP                       | RG Comm B2B Tax Exempt|
-|RG_COMM_CNP_TAX_EXMP                       | RG Comm CNP Tax Exempt|
-|RG_ECOMM_BASIC                       | RG Elec Comm Basic|
-|RG_B2B_PRCH_CARD_LEVEL3                       | RG B2B Purch Card LVL3|
-|RG_RETAIL_2                       | RG Retail 2|
-|RG_PUBLIC_SECTOR                       | RG Public Sector|
-|RG_COURT_FINE_GOVT_SERV                       | RG Court/Fine/Govser|
-|RG_INS                       | RG Insurance|
-|RG_REATIL_OR_SMT                       | RG Retail/Small Ticket|
-|RG_CHARITY                       | RG Charity|
-|HC_RETAIL                       | Healthcare Retail|
-|RG_SUPERMARKET                       | RG Supermarket|
-|EDUCATION_MOTO                       | Education MOTO|
-|RG_RETAIL                       | RG Retail|
-|RG_REST_OR_FAST_FOOD                       | RG Restaurant/Fast Food|
+|GU_ECOMM                      | GU Ecommerce|
+|PR_T&E_CNP                    | PR T&E Card Not Present|
+|T&E_RETAIL                    | T&E Retail#2|
+|T&E_RETAIL                    | T&E Retail#3|
+|T&E_RETAIL                    | T&E Retail#4|
+|T&E_MOTO                      | T&E MOTO#1|
+|T&E_MOTO                      | T&E MOTO#2|
+|T&E_MOTO                      | T&E MOTO#3|
+|T&E_MOTO                      | T&E MOTO#4|
+|PR_T&E_CP                     | PR T&E Card Present|
+|RH_COMM_RETAIL_TAX_EXMP       | RG Comm RTL Tax Exempt|
+|RG_ECOMM_PREF                 | RG Elec Comm Pref|
+|RG_QSR_THTR_TAXI_LIMO         | RG QSR/Thtr/Taxi/Limo|
+|RG_UTILITY                    | RG Utility|
+|RG_SERVICE_STATIONS           | RG Service Stations|
+|RG_FULL_UCAF                  | RG Full UCAF|
+|RG_SMT                        | RG Small Ticket|
+|RG_COMM_B2B_TAX_EXMP          | RG Comm B2B Tax Exempt|
+|RG_COMM_CNP_TAX_EXMP          | RG Comm CNP Tax Exempt|
+|RG_ECOMM_BASIC                | RG Elec Comm Basic|
+|RG_B2B_PRCH_CARD_LEVEL3       | RG B2B Purch Card LVL3|
+|RG_RETAIL_2                   | RG Retail 2|
+|RG_PUBLIC_SECTOR              | RG Public Sector|
+|RG_COURT_FINE_GOVT_SERV       | RG Court/Fine/Govser|
+|RG_INS                        | RG Insurance|
+|RG_REATIL_OR_SMT              | RG Retail/Small Ticket|
+|RG_CHARITY                    | RG Charity|
+|HC_RETAIL                     | Healthcare Retail|
+|RG_SUPERMARKET                | RG Supermarket|
+|EDUCATION_MOTO                | Education MOTO|
+|RG_RETAIL                     | RG Retail|
+|RG_REST_OR_FAST_FOOD          | RG Restaurant/Fast Food|
 |RG_MOTO                       | RG MOTO|
-|RG_MOTO_NON_AVS                       | RG MOTO (No AVS)|
-|RG_HOTEL                       | RG Hotel|
-|RG_CAR                       | RG Car|
-|RG_RETAIL_KEY_ENTRY                       | RG Retail Key Entry|
+|RG_MOTO_NON_AVS               | RG MOTO (No AVS)|
+|RG_HOTEL                      | RG Hotel|
+|RG_CAR                        | RG Car|
+|RG_RETAIL_KEY_ENTRY           | RG Retail Key Entry|
 |HC_MOTO                       | Healthcare MOTO|
-|RG_B2B_PRCH_CARD                       | RG B2B Purchase Card|
-|RG_AUTOMATED_FUEL_DISP                       | RG Automated Fuel Disp|
-|RG_CONV_STORE                       | RG Convenience Store|
-|RG_EMERGING_MARKET                       | RG Emerging Market|
-|RG_CASH_ADV                       | RG Cash Advance|
-|RG_PAPER                       | RG Paper|
-|RG_ACCT_FUNDING                       | RG Acct Funding|
-|RG_DC_INS                       | RG DC Insurance|
-|RG_DC_QSR_THTR_TAXI_LIMO                       | RG DC QSR/Thtr/Taxi/Limo|
-|RG_DC_UTILITY                       | RG DC Utility|
-|RG_DC_SERVICE_STATIONS                       | RG DC Service Stations|
-|RG_DC_FULL_UCAF                       | RG DC Full UCAF|
-|RG_DC_SMT                       | RG DC Small Ticket|
-|RG_DC_RETAIL_2                       | RG DC Retail 2|
-|RG_DC_PUBLIC_SECTOR                       | RG DC Public Sector|
-|RG_DC_COURT_FINE_GOVT_SERV                       | RG DC Court/Fine/Govser|
-|RG_DC_ECOMM_PREF                       | RG DC Elec Comm Pref|
-|RG_DC_RETAIL_OR_SMT                       | RG DC Retail/Small Ticket|
-|RG_DC_RETAIL_OR_SMT                       | RG DC Retail/Small Ticket|
-|HC_RETAIL                       | Healthcare Retail|
+|RG_B2B_PRCH_CARD              | RG B2B Purchase Card|
+|RG_AUTOMATED_FUEL_DISP        | RG Automated Fuel Disp|
+|RG_CONV_STORE                 | RG Convenience Store|
+|RG_EMERGING_MARKET            | RG Emerging Market|
+|RG_CASH_ADV                   | RG Cash Advance|
+|RG_PAPER                      | RG Paper|
+|RG_ACCT_FUNDING               | RG Acct Funding|
+|RG_DC_INS                     | RG DC Insurance|
+|RG_DC_QSR_THTR_TAXI_LIMO      | RG DC QSR/Thtr/Taxi/Limo|
+|RG_DC_UTILITY                 | RG DC Utility|
+|RG_DC_SERVICE_STATIONS        | RG DC Service Stations|
+|RG_DC_FULL_UCAF               | RG DC Full UCAF|
+|RG_DC_SMT                     | RG DC Small Ticket|
+|RG_DC_RETAIL_2                | RG DC Retail 2|
+|RG_DC_PUBLIC_SECTOR           | RG DC Public Sector|
+|RG_DC_COURT_FINE_GOVT_SERV    | RG DC Court/Fine/Govser|
+|RG_DC_ECOMM_PREF              | RG DC Elec Comm Pref|
+|RG_DC_RETAIL_OR_SMT           | RG DC Retail/Small Ticket|
+|RG_DC_RETAIL_OR_SMT           | RG DC Retail/Small Ticket|
+|HC_RETAIL                     | Healthcare Retail|
 |HC_MOTO                       | Healthcare MOTO|
-|RECR_BILL_PAY                       | Recurring Bill Pay|
-|EDUCATIONAL_RETAIL                       | Education Retail|
-|EDUCATIONAL_MOTO                       | Education MOTO|
-|PR_RETAIL                       | PR Retail|
-|RG_DC_CAR                       | RG DC Car|
-|RECR_BILL_PAY                       | Recurring Bill Pay|
-|EDUCATIONAL_RETAIL                       | Education Retail|
-|EDUCATIONAL_MOTO                       | Education MOTO|
-|RG_DC_RETAIL                       | RG DC Retail|
-|RG_DC_REST_OR_FAST_FOOD                       | RG DC Restrnt/Fast Food|
-|RG_DC_MOTO                       | RG DC MOTO|
-|RG_DC_MOTO_NON_AVS                       | RG DC MOTO (No AVS)|
-|RG_DC_HOTEL                       | RG DC Hotel|
-|EDUCATIONAL_RETAIL                       | Education Retail|
-|RG_DC_RETAIL_KEY_ENTRY                       | RG DC Retail Key Entry|
-|RG_DC_SUPERMARKET                       | RG DC Supermarket|
-|RG_DC_AUTO_FUEL_DISP                       | RG DC Auto Fuel Disp|
+|RECR_BILL_PAY                 | Recurring Bill Pay|
+|EDUCATIONAL_RETAIL            | Education Retail|
+|EDUCATIONAL_MOTO              | Education MOTO|
+|PR_RETAIL                     | PR Retail|
+|RG_DC_CAR                     | RG DC Car|
+|RECR_BILL_PAY                 | Recurring Bill Pay|
+|EDUCATIONAL_RETAIL            | Education Retail|
+|EDUCATIONAL_MOTO              | Education MOTO|
+|RG_DC_RETAIL                  | RG DC Retail|
+|RG_DC_REST_OR_FAST_FOOD       | RG DC Restrnt/Fast Food|
+|RG_DC_MOTO                    | RG DC MOTO|
+|RG_DC_MOTO_NON_AVS            | RG DC MOTO (No AVS)|
+|RG_DC_HOTEL                   | RG DC Hotel|
+|EDUCATIONAL_RETAIL            | Education Retail|
+|RG_DC_RETAIL_KEY_ENTRY        | RG DC Retail Key Entry|
+|RG_DC_SUPERMARKET             | RG DC Supermarket|
+|RG_DC_AUTO_FUEL_DISP          | RG DC Auto Fuel Disp|
 |RG_DC_CONV_STORE                       | RG DC Convenience Store|
 |RG_DC_EMERGING_MARKET                       | RG DC Emerging Market|
 |RG_DC_ACCT_FUNDING                       | RG DC Acct Funding|
@@ -1398,10 +1398,10 @@ titles: UMM, North, South, GMA
 | String |        1       |     1     | Required |    Required  |   Required   |       NA     |
 
 **Valid Values**:
-|    Value                     |     Description       |
-|------------------------------|:----------------------:|
-|             YES              |   <description>       |
-|             NO               |   <description>       |
+|    Value                     |               Description            |
+|------------------------------|:------------------------------------:|
+|             YES              |  International Tax Exempt Indicator  |
+|             NO               |  International Tax Exempt Indicator  |
 <!-- type: tab --> 
 
 ##### South Specification
@@ -1520,10 +1520,10 @@ titles: UMM, North, South, GMA
 **Valid Values**:
 |    Value                     |     Description       |
 |------------------------------|:----------------------:|
-|             EIN              |   <description>       |
-|           REFUSED            |   <description>       |
-|             SSN              |   <description>       |
-|            OTHER             |   <description>       |
+|             EIN              |   EIN Fed Tax          |
+|           REFUSED            |   Refused              |
+|             SSN              |   SSN                  |
+|            OTHER             |   Other Federal Tax ID |
 
 <!-- type: tab --> 
 
@@ -1604,15 +1604,15 @@ titles: UMM, North, South, GMA
 | String |       1        |     1      | Required |    Required  |   Required   |       NA     |
 
 **Valid Values**:
-|    Value                     |     Description       |
-|------------------------------|:----------------------:|
-|           CURR_CONV          |   <description>       |
-|            DCC_GMA           |   <description>       |
-|       FOREIGN_PROCESSING     |   <description>       |
-|            INDIA             |   <description>       |
-|        GLOBAL_EPRICING       |   <description>       |
-|         NO_CURR_CONV         |   <description>       |
-|             TAI              |   <description>       |
+|    Value                     |     Description        |
+|------------------------------|:-----------------------:|
+| CURR_CONV                    |   Currency conversion   |
+| TAI                          |   Tai                   |
+| NO_CURR_CONV                 |   No currency conversion|
+| INDIA                        |   India                 |
+| FOREIGN_PROCESSING           |   Foreign Processing    |
+| DCC_GMA                      |   DCC on GMA            |
+| GLOBAL_EPRICING              |   Global ePricing       |
 
 <!-- type: tab --> 
 
@@ -1634,7 +1634,8 @@ titles: UMM, North, South, GMA
 
 ### SUB_PLATFORM
 * Description: Code that indicates the alliance pratform.
-* API field: `alliancePlatformCode`
+* API field: `![Uploading image.png…]()![Uploading image.png…]()
+`
 * Field Specification:
 
 <!-- type: tab 
@@ -1656,25 +1657,25 @@ titles: UMM, North, South, GMA
 **Valid Values**:
 |            Value                     |     Description       |
 |--------------------------------------|:---------------------:|
-|           MSIP                       |   <description>       |
-|           SUNTRUST_THREE             |   <description>       |
-|           NOVUS                      |   <description>       |
-|           IPAYMENT                   |   <description>       |
-|           FISERV_BAMS                |   <description>       |
-|           BANK_OF_HAWAII             |   <description>       |
-|           WELLS_WEST                 |   <description>       |
-|           SANTANDER                  |   <description>       |
-|           SUNTRUST_ONE               |   <description>       |
-|           PNC                        |   <description>       |
-|           WALMART                    |   <description>       |
-|           CORE_BUSINESS_RULES        |   <description>       |
-|           FISERV_CHASE               |   <description>       |
-|           RSA_PLATFORM_S             |   <description>       |
-|           SUNTRUST_TWO               |   <description>       |
-|           RSA_PLATFORM_T             |   <description>       |
-|           HUNTINGTON                 |   <description>       |
-|           WELLS_EAST                 |   <description>       |
-|           FISERV_BANK_OF_AMERICA     |   <description>       |
+| FISERV_CHASE                         |     Fiserv/Chase |
+| SUNTRUST_ONE                         |     Sun Trust |
+| NOVUS                                |     Novus |
+| FISERV_BAMS                          |     Fiserv/BAMS |
+| WELLS_WEST                           |     Wells West |
+| IPAYMENT                             |     iPayment |
+| RSA_PLATFORM_T                       |     RSA Platform T |
+| RSA_PLATFORM_S                       |     RSA Platform S |
+| PNC                                  |     PNC |
+| WALMART                              |     Walmart |
+| WELLS_EAST                           |     Wells East |
+| SUNTRUST_THREE                       |     3SunTrust |
+| SANTANDER                            |     Santander |
+| MSIP                                 |     MSIP |
+| CORE_BUSINESS_RULES                  |     Core Business Rules |
+| BANK_OF_HAWAII                       |     Bank of Hawaii |
+| HUNTINGTON                           |     Huntington |
+| FISERV_BANK_OF_AMERICA               |     Fiserv/Bank of America |
+| SUNTRUST_TWO                         |     2SunTrust |
 
 <!-- type: tab --> 
 
