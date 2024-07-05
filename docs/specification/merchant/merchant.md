@@ -348,8 +348,8 @@ titles: UMM, North, South, GMA
  Values**:
 |    Value     |     Description       |
 |--------------|:---------------------:|
-| MOTO_ECOMM   |   <description>       |
-|  RETAIL      |   <description>       |
+| MOTO_ECOMM   |   MOTO/Ecommerce      |
+|  RETAIL      |   Merchant supporting sale of products in stores, person-to-person, or through direct mail       |
 
 <!-- type: tab --> 
 
@@ -1400,8 +1400,8 @@ titles: UMM, North, South, GMA
 **Valid Values**:
 |    Value                     |               Description            |
 |------------------------------|:------------------------------------:|
-|             YES              |  International Tax Exempt Indicator  |
-|             NO               |  International Tax Exempt Indicator  |
+|             YES              |  International Tax Exempt is applicable  |
+|             NO               |  International Tax Exempt is not applicable.  |
 <!-- type: tab --> 
 
 ##### South Specification
