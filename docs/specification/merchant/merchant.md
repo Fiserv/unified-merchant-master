@@ -24,7 +24,7 @@ titles: UMM, North, South, GMA
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       12       |     50     | Required | Required | Not Required |       NA     |
+| String |       12       |     12     | Required | Required | Not Required |       NA     |
 
 <!-- type: tab --> 
 
@@ -145,7 +145,7 @@ titles: UMM, North, South, GMA
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create     |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:-------------:|:------------:|:------------:|
-|        |       1        |    10      | Required |    Required   |    Required  |       NA     |
+|        |       1        |    8       | Required |    Required   |    Required  |       NA     |
 
 <!-- type: tab--> 
 
@@ -184,7 +184,7 @@ titles: UMM, North, South, GMA
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       10       |     40     | Required | Required |   Required   |       NA     |
+| String |       3        |     24     | Required | Required |   Required   |       NA     |
 
 <!-- type: tab --> 
 
@@ -223,7 +223,7 @@ titles: UMM, North, South, GMA
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       6        |     18     | Required | Required | Not Required |       NA     |
+| String |       1        |     24     | Required | Required | Not Required |       NA     |
 
 <!-- type: tab --> 
 
@@ -261,7 +261,7 @@ titles: UMM, North, South, GMA
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       20       |    100     | Required | Required |   Required   |       NA     |
+| String |       10       |     40     | Required | Required |   Required   |       NA     |
 
 <!-- type: tab --> 
 
@@ -627,7 +627,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       6        |     18     | Required |    Required  |    Required  |       NA     |
+| String |       1        |     2      | Required |    Required  |    Required  |       NA     |
 
 <!-- type: tab --> 
 
@@ -855,7 +855,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       4        |     7      | Required |    Required  |    Required  |       NA     |
+| String |       4        |     4      | Required |    Required  |    Required  |       NA     |
 
 <!-- type: tab --> 
 
@@ -970,7 +970,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       3        |     10     | Required |   Required   |    Required  |       NA     |
+| String |       3        |     3     | Required |   Required   |    Required  |       NA     |
 
 <!-- type: tab --> 
 
@@ -1009,7 +1009,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       3        |     1      | Required |    Required  |   Required   |       NA     |
+| String |       3        |     3      | Required |    Required  |   Required   |       NA     |
 
 <!-- type: tab --> 
 
@@ -1085,7 +1085,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       30       |    100     | Required |    Required  |   Required   |       NA     |
+| String |       3        |      3     | Required |    Required  |   Required   |       NA     |
 
 **Valid Values**:
 |    Value                     |     Description       |
@@ -1131,7 +1131,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |        2       |     3     | Required |    Required  |   Required   |       NA     |
+| String |        1       |     1     | Required |    Required  |   Required   |       NA     |
 
 **Valid Values**:
 |    Value                     |     Description       |
@@ -1213,7 +1213,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       3        |     10     | Required |    Required  |   Required   |       NA     |
+| String |       0        |      0     | Required |    Required  |   Required   |       NA     |
 
 <!-- type: tab --> 
 
@@ -1279,7 +1279,7 @@ titles: UMM, North, South, GMA
 <!-- type: tab-end -->
 ---
 
-### TAX_ID_TYPE_CODE
+### TAX_ID
 * Description: Unique identifier of the merchat tax.
 * API field: `taxId`
 * Field Specification:
@@ -1298,7 +1298,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       20       |     50     | Required |    Required  |   Required   |       NA     |
+| String |        9       |     20     | Required |    Required  |   Required   |       NA     |
 
 <!-- type: tab --> 
 
