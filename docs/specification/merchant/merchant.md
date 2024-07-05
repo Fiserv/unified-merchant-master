@@ -1634,8 +1634,7 @@ titles: UMM, North, South, GMA
 
 ### SUB_PLATFORM
 * Description: Code that indicates the alliance pratform.
-* API field: `![Uploading image.png…]()![Uploading image.png…]()
-`
+* API field: `alliancePlatformCode`
 * Field Specification:
 
 <!-- type: tab 
