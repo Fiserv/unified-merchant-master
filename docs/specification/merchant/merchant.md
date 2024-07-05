@@ -1,3 +1,4 @@
+![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/3a00f6ea-4c4a-4333-a61b-7f8a536fb824)
 # Merchant
 * **Description**: Stores essential information about merchants, including contact details, business type, and contractual data, ensuring efficient transaction processing and management. Every merchant has an entry in this critical repository.
 * **API section**: root 
@@ -344,8 +345,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       1        |     1      | Required | Required |   Required   |       NA     |
 
-**![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/c6bb5a5b-9a6c-4bfd-a886-65a7e92e2993)![Uploading image.png…]()
-![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/58f39d6f-35e8-44e9-ac17-4df9c33c0d86)
+
  Values**:
 |    Value     |     Description       |
 |--------------|:---------------------:|
@@ -708,26 +708,126 @@ titles: UMM, North, South, GMA
 **Valid Values**: 
 |              Value                     |                    Description                 |
 |----------------------------------------|:----------------------------------------------:|
-|      LP_SALES_REP_FRAUD                |  <i>description to some here</i>               |
-|      IR_IN_BS_SLD_BS_NEW               |  <i>description to some here</i>               |
-|      IR_PND_INFO_SLS_SUPT              |                 |
-|      LP_HI_RISK_CONTRACT_VIOLATION     |                 |
-|      CD_IN_BS_COLLECT_PR               |                 |
-|      IR_SEASONAL_MERCHANT              |                 |
-|      SYS_RECORD                        |                 |
-|      PCI_DSS_NON_COMPLIANT             |                 |
-|      CLOSED_COLL_NO_REOPEN             |                 |
-|      IR_CSI_SVC_DSC_RM_RP              |                 |
-|      LP_HI_RISK_NO_ACTIVITY            |                 |
-|      TEST_ACCT    |                    |
-|      TERMINAL_COMPANY_SVC              |                 |
-|      SERVICE_PROB_STM_FUN              |                 |
-|      SERVICE_PROB_INV_REF              |                 |
-|      LP_HI_RISK_MER_INTRNE             |                 |
-|          |                 |
-
-(To be updated after discussion with  Amit)
-CD_OUT_BS_AC_INACT_O, LP_HI_RISK_INACURATE_ME3, LP_HI_RISK_SECURITY_RISK, IR_CSI_SVC_EQUIPMENT_TEC, IR_CSI_POOR_SERVICE, IR_AGENT_SERVICE_DEFAULTED_ON, IR_IN_BS_FEES_NT_CMP, DDA_ACCT_CLOSED, CLOSED_CREDIT_NO_REOPEN, CD_IN_BS_IN_LITIGATION, IR_AGENT_SVC_MISREP_APP, IR_DEATH, LP_HI_RISK_MC_8_PCT_VIOLATION, DORMANCY, IR2005_PRICE_INCREASE, CD_AG_SVC_SEASONAL_LOW, DATA_CLEANUP, IR_CSI_LOST_OR_STOLEN_TERMINAL, LP_HI_RISK_TMF_MATCH, IR_OUT_BUSINESS_CLOSE, DISSATISFIED_WITH_FEES, DONT_REOPEN_CONVERTED, CD_IN_BS_RFS_TO_PY_C, TERMINAL_COMPANY_PRDCT, END_OF_TERM, IR_AGENT_SVC_NON_INSTL, IR_CSI_CHK_GUAR_DECLINE, CD_IN_BS_CHECKING, REI, MAPPED_AS_OPEN, CD_IN_BS_XCS_STATEMENT_FEE, MIGRATED_AGENT_BANK, IR_AGT_SERVICE_AGENT_FRAUD, LP_HI_RISK_EXCESS_CHARGEBACK, IR_AGENT_SVC_MISREP_FEE, 2009_PRICE_INCREASE, CD_OUT_BS_CHECKING_ACCT, IR_CSI_SS_NUM_MISMATCH, NOT_ACCEPT_MCVI, LP_HI_RISK_AGENT_MISRPR, FRAUD_OR_BAD_DEBIT, LP_HI_RISK_ID_THEFT, LP_HI_RISK_CLOSED_PR_WA, LP_HI_RISK_CASH_ADV, LP_HI_RISK_STL_CD_FRAUD, DOESNOT_MEET_SETTLEMENT_REQ, PARTNERSHIP_SPLIT, RATE_INCREASE_20XX, IR_AGENT_INSTALL_DAILY, IR_AGENT_STY_W_CUR_PRC, IR_AGENT_SVC_TMP_CLOSR, IR_IN_BS_FRN_CHSE_DI, IR_SALES_REP_FRAUD, IR_IN_BS_R_INC_CS_F, MEDICAL_RELATED, NEVER_WANTED_ACCT, PER_MERCHANT_LETTER, SERVICE_PROB_TER_SYS, LP_HI_RISK_FACTOR_PEND, OWNERSHIP_CHANGE, LP_HI_RISK_INACURATE_ME2, NO_REASON, DUPLICATE_ACCT, LP_HI_RISK_CLS_BANK, USE_DIFF_PROCESSOR, CD_HI_RISK_BANKRUPTCY, CUST_SERVICE, PAYMENT_NETWORK_UPDATED, CEASED_TRADING, IR_CSI_SVC_DSC_CD_RP, COMPETITR_PROPSITION, SOLD_BUSINESS, CD_OUT_BUSINESS_CLOSE, IR_AGENT_SVC_LEAS_DESC, SALES_REP_PROBLEM, NONE, LP_HI_RISK_PENDING_INVESTMENT, BUSINESS_CLOSED, IR_IN_BS_RT_INC_LOW, CLOSED_CREDIT_NO_REOPEN, IR_CSI_SVC_DSC_CS_RP, IR_AVG_SV_REFUS_INST, COMPETITOR_SERVICE, COMPETITOR_FEES, NO_ACTIVITY_ON_ACCT, CD_IN_BS_AC_INACT_O, IR_CSI_UBL_TO_CT_MER, CHANGE_LEGAL_ENTITY_OR_OWNER, LP_HI_RISK_CNTRFT_PN, IR_AGENT_CONVERSATION_DAILY, RA_DBA_CONTRACT_VIOLATION, IR_AGENT_EQUIPMENT_NT_COMPAT, IR_CSI_BANKRUPTCY, CD_OUT_BS_CANT_CONTACT, DEROGATORY, CD_IN_BS_NEW_OWNERSHIP, RA_DBA_TEMP_CLOSED, COMPETITOR_NEW_PRDCT, CD_IN_BS_NO_PY_OF_R, REASON_UNKNOWN, LP_HI_RISK_INACURATE_ME1, SHOULB_BE_CLOSED, IR_CSI_SVC_DSC_LP_RP, MIGRATED_OVER_6_MON
+|CD_OUT_BS_AC_INACT_O                    | CD-OUT BS-AC INACT-O|
+|LP_HI_RISK_CLS_BANK                     | LP Hi Rsk cls at bnk|
+|CUST_SERVICE                            | CUSTOMER SERVICE|
+|DATA_CLEANUP                            | DATA CLEAN UP|
+|CHANGE_LEGAL_ENTITY_OR_OWNER            | CHG LEGL ENTITY/OWNR|
+|PCI_DSS_NON_COMPLIANT                   | PCI DSS NON-COMPLIAN|
+|CD_IN_BS_AC_INACT_O                     | CD-IN BS-AC INACT-O|
+|CD_IN_BS_NEW_OWNERSHIP                  | CD-IN BS-NEW OWNRSHP|
+|LP_HI_RISK_CASH_ADV                     | LP-HI RSK-CASH ADV|
+|LP_HI_RISK_ID_THEFT                     | LP-HI RISK-I.D.THEFT|
+|LP_HI_RISK_AGENT_MISRPR                 | LP-HI RSK-AGT MISRPR|
+|CLOSED_COLL_NO_REOPEN                   | Clsd Coll No Reopen|
+|CD_IN_BS_COLLECT_PR                     | CD IN BS Collect PR|
+|CD_AG_SVC_SEASONAL_LOW                  | CD-AG SVC-SEASNL/LOW|
+|CD_IN_BS_RFS_TO_PY_C                    | CD-IN BS-RFS TO PY C|
+|CD_IN_BS_NO_PY_OF_R                     | CD IN BS No Py of R|
+|CEASED_TRADING                          | CEASED TRADING|
+|CD_IN_BS_IN_LITIGATION                  | CD-IN BS-IN LTIGTION|
+|CD_IN_BS_XCS_STATEMENT_FEE              | CD-IN BS-XCS STMT FE|
+|CD_OUT_BS_CHECKING_ACCT                 | CD-OUT BS-CHKNG ACCT|
+|CD_IN_BS_CHECKING                       | CD IN BS Checking                    |
+|CD_OUT_BS_CANT_CONTACT                  | CD-OUT BS-CANT CNTCT|
+|CD_OUT_BUSINESS_CLOSE                   | CD-OUT BUS-BSNS CLOS|
+|CD_HI_RISK_BANKRUPTCY                   | CD-HI RISK-BNKRUPTCY|
+|MAPPED_AS_OPEN                          | Mapped over as open|
+|SHOULB_BE_CLOSED                        | Should have been closed|
+|SALES_REP_PROBLEM                       | Problem with sales rep|
+|PER_MERCHANT_LETTER                     | Per merchant letter|
+|PARTNERSHIP_SPLIT                       | Partnership split|
+|NO_ACTIVITY_ON_ACCT                     | No activity on account|
+|NEVER_WANTED_ACCT                       | Never wanted account|
+|USE_DIFF_PROCESSOR                      | Use different processor|
+|NO_REASON                               | No reason given|
+|SERVICE_PROB_INV_REF                    | Service problem (Inv/Ref)|
+|NOT_ACCEPT_MCVI                         | No longer acceptes MC/VI|
+|MIGRATED_AGENT_BANK                     | Migrated with agent bank|
+|MIGRATED_OVER_6_MON                     | Migrated over 6 months|
+|DUPLICATE_ACCT                          | Duplicate Account|
+|DISSATISFIED_WITH_FEES                  | Dissatisfied with Fees|
+|BUSINESS_CLOSED                         | Business Closed|
+|REASON_UNKNOWN                          | Reason Unkown|
+|NONE                                    | None|
+|2009_PRICE_INCREASE                     | Pricing increase 2009|
+|TERMINAL_COMPANY_SVC                    | TERMINL COMPNY-SVC|
+|REI                                     | REI|
+|FRAUD_OR_BAD_DEBIT                      | FRAUD / BAD DEBT|
+|DORMANCY                                | DORMANCY|
+|COMPETITOR_NEW_PRDCT                    | COMPETITOR/NEW PRDC|
+|COMPETITR_PROPSITION                    | COMPETITR/PROPSITION|
+|COMPETITOR_SERVICE                      | COMPETITOR / SERVICE|
+|COMPETITOR_FEES                         | COMPETITOR / FEES|
+|TERMINAL_COMPANY_PRDCT                  | TERMINL COMPNY-PRDCT|
+|RATE_INCREASE_20XX                      | Rate increase 20XX|
+|OWNERSHIP_CHANGE                        | Change of ownership|
+|IR2005_PRICE_INCREASE                   | IR 2005 Pricing increase|
+|TEST_ACCT                               | Test Account|
+|SYS_RECORD                              | System Record|
+|SOLD_BUSINESS                           | Sold business|
+|SERVICE_PROB_TER_SYS                    | Service problem (Ter/Sys)|
+|SERVICE_PROB_STM_FUN                    | Service problem(Stm/Fun)|
+|RA_DBA_TEMP_CLOSED                      | RA DBA Temp Closure|
+|IR_AGENT_STY_W_CUR_PRC                  | IR AGT Sty W Cur Prc|
+|IR_CSI_POOR_SERVICE                     | IR CSI Poor Service|
+|IR_CSI_SS_NUM_MISMATCH                  | IR CSI SS Num Mismatch|
+|IR_CSI_LOST_OR_STOLEN_TERMINAL          | IR CSI Lost/Stolen Terml|
+|IR_CSI_BANKRUPTCY                       | IR CSI Bankruptcy|
+|IR_CSI_UBL_TO_CT_MER                    | IR CSI Ubl To Ct Mer|
+|IR_AGENT_EQUIPMENT_NT_COMPAT            | IR AGT Eqp Nt Compat|
+|IR_SALES_REP_FRAUD                      | IR SALES REP FRAUD|
+|END_OF_TERM                             | END OF TERM|
+|MEDICAL_RELATED                         | MEDICAL RELATED|
+|IR_CSI_CHK_GUAR_DECLINE                 | IR CSI Chk Guar Decline|
+|RA_DBA_CONTRACT_VIOLATION               | RA DBA Contrct Viloation|
+|DEROGATORY                              | Derogatory|
+|DOESNOT_MEET_SETTLEMENT_REQ             | Doesnt meet settl reqmts|
+|IR_PND_INFO_SLS_SUPT                    | IR-PND INFO SLS SUPT|
+|CLOSED_CREDIT_NO_REOPEN                 | Closed credit no reopen|
+|CLOSED_CREDIT_NO_REOPEN                 | CLSD CRED NO REOPEN|
+|PAYMENT_NETWORK_UPDATED                 | PAYMENT NETWORK UPD|
+|DDA_ACCT_CLOSED                         | DDA Acct Closed|
+|DONT_REOPEN_CONVERTED                   | Dont reopen converted|
+|IR_AGENT_SVC_LEAS_DESC                  | IR-AGT SVC-LEAS DECL|
+|IR_DEATH                                | IR-DEATH|
+|IR_IN_BS_R_INC_CS_F                     | IR-IN  BS-R INC CS F|
+|IR_AGENT_SVC_NON_INSTL                  | IR-AGT SVC-NON-INSTL|
+|IR_IN_BS_RT_INC_LOW                     | IR-IN  BS-RT INC LOW|
+|IR_AVG_SV_REFUS_INST                    | IR-AGT SV-REFUS INST|
+|IR_SEASONAL_MERCHANT                    | IR- SEASONAL MERCHNT|
+|IR_IN_BS_SLD_BS_NEW                     | IR-IN  BS-SLD BS/NEW|
+|IR_AGENT_SVC_MISREP_FEE                 | IR AGT Svc Misrep Fee|
+|IR_AGENT_SVC_MISREP_APP                 | IR AGT Svc Misrep App|
+|LP_HI_RISK_CNTRFT_PN                    | LP-HI RSK-CNTRFT PN|
+|IR_IN_BS_FRN_CHSE_DI                    | IR-IN BS-FRN CHSE DI|
+|IR_IN_BS_FEES_NT_CMP                    | IR-IN BS-FEES NT CMP|
+|IR_CSI_SVC_EQUIPMENT_TEC                | IR-CSI SVC-EQPMT/TEC|
+|IR_CSI_SVC_DSC_RM_RP                    | IR CSI Svc Dsc Rm Rp|
+|IR_CSI_SVC_DSC_LP_RP                    | IR CSI Svc Dsc Lp Rp|
+|IR_AGENT_SVC_TMP_CLOSR                  | IR-AGT SVC-TMP CLOSR|
+|IR_AGENT_CONVERSATION_DAILY             | IR AGT Conversion Daily|
+|IR_AGENT_INSTALL_DAILY                  | IR AGT Install Daily|
+|LP_HI_RISK_CLOSED_PR_WA                 | LP-HI RSK-CLSD PR WA|
+|LP_HI_RISK_MC_8_PCT_VIOLATION           | LP-HI RSK-M/C 8% VIO|
+|LP_HI_RISK_INACURATE_ME2                | LP-HI RSK-INACRTE ME|
+|LP_HI_RISK_PENDING_INVESTMENT           | LP-HI RSK-PND INVST|
+|LP_HI_RISK_SECURITY_RISK                | LP Hi Rsk secty rsk|
+|LP_HI_RISK_STL_CD_FRAUD                 | LP-HI RSK-STL CD FRD|
+|LP_HI_RISK_TMF_MATCH                    | LP-HI RSK-TMF MATCH|
+|LP_HI_RISK_EXCESS_CHARGEBACK            | LP-HI RSK-XCES CHGBK|
+|LP_HI_RISK_INACURATE_ME3                | LP-HI RSK-INACRTE ME|
+|LP_SALES_REP_FRAUD                      | LP SALES REP FRAUD|
+|LP_HI_RISK_NO_ACTIVITY                  | LP-HI RSK-NO ACTVTY|
+|LP_HI_RISK_MER_INTRNE                   | LP-HI RSK-MER INTRNE|
+|LP_HI_RISK_INACURATE_ME1                | LP-HI RSK-INACRTE ME|
+|LP_HI_RISK_FACTOR_PEND                  | LP-HI RSK-FACTR PEND|
+|LP_HI_RISK_CONTRACT_VIOLATION           | LP-HI RK-CNTRCT VIOL|
+|IR_CSI_SVC_DSC_CS_RP                    | IR CSI Svc Dsc Cs Rp|
+|IR_CSI_SVC_DSC_CD_RP                    | IR CSI Svc Dsc Cd Rp|
+|IR_AGENT_SERVICE_DEFAULTED_ON           | IR-AGT SVC-DFLTED ON|
+|IR_OUT_BUSINESS_CLOSE                   | IR-OUT BUS-BSNS CLOS|
+|IR_AGT_SERVICE_AGENT_FRAUD              | IR-AGT SVC-AGENT FRD|
 
 <!-- type: tab --> 
 
