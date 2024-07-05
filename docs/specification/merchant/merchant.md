@@ -344,7 +344,9 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       1        |     1      | Required | Required |   Required   |       NA     |
 
-**Valid Values**:
+**![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/c6bb5a5b-9a6c-4bfd-a886-65a7e92e2993)![Uploading image.png…]()
+![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/58f39d6f-35e8-44e9-ac17-4df9c33c0d86)
+ Values**:
 |    Value     |     Description       |
 |--------------|:---------------------:|
 | MOTO_ECOMM   |   <description>       |
@@ -752,8 +754,8 @@ titles: UMM, North, South, GMA
 **Valid Values**: 
 |          Value             |                    Description                 |
 |----------------------------|:----------------------------------------------:|
-|            YES             |  <i>description to some here</i>               |
-|            NO              |  <i>description to some here</i>               |
+|            YES             |  Merchant is a franchise.                      |
+|            NO              |  Merchant is not a franchise.                  |
 
 <!-- type: tab --> 
 
