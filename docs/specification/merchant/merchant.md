@@ -1,4 +1,3 @@
-![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/3a00f6ea-4c4a-4333-a61b-7f8a536fb824)
 # Merchant
 * **Description**: Stores essential information about merchants, including contact details, business type, and contractual data, ensuring efficient transaction processing and management. Every merchant has an entry in this critical repository.
 * **API section**: root 
@@ -1190,10 +1189,175 @@ titles: UMM, North, South, GMA
 **Valid Values**:
 |    Value                     |     Description       |
 |------------------------------|:----------------------:|
-| DC_COURT_FINE_GOVT_SERVICE   |   <description>       |
-|        CHARITY               |   <description>       |
+SUPERMARKET                       | Supermarket|
+|PAPER                       | Paper|
+|DEFAULT                       | Pricing Type Code|
+|RETAIL_KEY_ENTRY1                       | Retail (Key Entry)|
+|CAR                       | Car|
+|HOTEL                       | Hotel|
+|MOTO_NO_AVS                       | MO/TO (No AVS)|
+|MOTO                       | MAIL ORDER TELEPHONE ORDER|
+|RESTAURANT                       | Restaurant/Fast Food|
+|RETAIL                       | Retail|
+|PR_PETRO_AFD                       | PR Petroleum AFD|
+|PR_MOTO                       | PR MO/TO|
+|PR_PETRO_SVC_STATION                       | PR Petroleum Srv Stn|
+|PR_SUPERMARKET                       | PR Supermarket|
+|PR_EMERGING_MKT                       | PR Emerging Market|
+|VI_RETAIL                       | VI Retail|
+|VI_MOTO                       | VI MO/TO|
+|VI_ECOMM                       | VI Ecommerce|
+|GU_RETAIL                       | GU Retail|
+|GU_MOTO                       | GU MO/TO|
+|GU_ECOMM                       | GU Ecommerce|
+|PR_T&E_CNP                       | PR T&E Card Not Present|
+|T&E_RETAIL                       | T&E Retail#2|
+|T&E_RETAIL                       | T&E Retail#3|
+|T&E_RETAIL                       | T&E Retail#4|
+|T&E_MOTO                       | T&E MOTO#1|
+|T&E_MOTO                       | T&E MOTO#2|
+|T&E_MOTO                       | T&E MOTO#3|
+|T&E_MOTO                       | T&E MOTO#4|
+|PR_T&E_CP                       | PR T&E Card Present|
+|RH_COMM_RETAIL_TAX_EXMP                       | RG Comm RTL Tax Exempt|
+|RG_ECOMM_PREF                       | RG Elec Comm Pref|
+|RG_QSR_THTR_TAXI_LIMO                       | RG QSR/Thtr/Taxi/Limo|
+|RG_UTILITY                       | RG Utility|
+|RG_SERVICE_STATIONS                       | RG Service Stations|
+|RG_FULL_UCAF                       | RG Full UCAF|
+|RG_SMT                       | RG Small Ticket|
+|RG_COMM_B2B_TAX_EXMP                       | RG Comm B2B Tax Exempt|
+|RG_COMM_CNP_TAX_EXMP                       | RG Comm CNP Tax Exempt|
+|RG_ECOMM_BASIC                       | RG Elec Comm Basic|
+|RG_B2B_PRCH_CARD_LEVEL3                       | RG B2B Purch Card LVL3|
+|RG_RETAIL_2                       | RG Retail 2|
+|RG_PUBLIC_SECTOR                       | RG Public Sector|
+|RG_COURT_FINE_GOVT_SERV                       | RG Court/Fine/Govser|
+|RG_INS                       | RG Insurance|
+|RG_REATIL_OR_SMT                       | RG Retail/Small Ticket|
+|RG_CHARITY                       | RG Charity|
+|HC_RETAIL                       | Healthcare Retail|
+|RG_SUPERMARKET                       | RG Supermarket|
+|EDUCATION_MOTO                       | Education MOTO|
+|RG_RETAIL                       | RG Retail|
+|RG_REST_OR_FAST_FOOD                       | RG Restaurant/Fast Food|
+|RG_MOTO                       | RG MOTO|
+|RG_MOTO_NON_AVS                       | RG MOTO (No AVS)|
+|RG_HOTEL                       | RG Hotel|
+|RG_CAR                       | RG Car|
+|RG_RETAIL_KEY_ENTRY                       | RG Retail Key Entry|
+|HC_MOTO                       | Healthcare MOTO|
+|RG_B2B_PRCH_CARD                       | RG B2B Purchase Card|
+|RG_AUTOMATED_FUEL_DISP                       | RG Automated Fuel Disp|
+|RG_CONV_STORE                       | RG Convenience Store|
+|RG_EMERGING_MARKET                       | RG Emerging Market|
+|RG_CASH_ADV                       | RG Cash Advance|
+|RG_PAPER                       | RG Paper|
+|RG_ACCT_FUNDING                       | RG Acct Funding|
+|RG_DC_INS                       | RG DC Insurance|
+|RG_DC_QSR_THTR_TAXI_LIMO                       | RG DC QSR/Thtr/Taxi/Limo|
+|RG_DC_UTILITY                       | RG DC Utility|
+|RG_DC_SERVICE_STATIONS                       | RG DC Service Stations|
+|RG_DC_FULL_UCAF                       | RG DC Full UCAF|
+|RG_DC_SMT                       | RG DC Small Ticket|
+|RG_DC_RETAIL_2                       | RG DC Retail 2|
+|RG_DC_PUBLIC_SECTOR                       | RG DC Public Sector|
+|RG_DC_COURT_FINE_GOVT_SERV                       | RG DC Court/Fine/Govser|
+|RG_DC_ECOMM_PREF                       | RG DC Elec Comm Pref|
+|RG_DC_RETAIL_OR_SMT                       | RG DC Retail/Small Ticket|
+|RG_DC_RETAIL_OR_SMT                       | RG DC Retail/Small Ticket|
+|HC_RETAIL                       | Healthcare Retail|
+|HC_MOTO                       | Healthcare MOTO|
+|RECR_BILL_PAY                       | Recurring Bill Pay|
+|EDUCATIONAL_RETAIL                       | Education Retail|
+|EDUCATIONAL_MOTO                       | Education MOTO|
+|PR_RETAIL                       | PR Retail|
+|RG_DC_CAR                       | RG DC Car|
+|RECR_BILL_PAY                       | Recurring Bill Pay|
+|EDUCATIONAL_RETAIL                       | Education Retail|
+|EDUCATIONAL_MOTO                       | Education MOTO|
+|RG_DC_RETAIL                       | RG DC Retail|
+|RG_DC_REST_OR_FAST_FOOD                       | RG DC Restrnt/Fast Food|
+|RG_DC_MOTO                       | RG DC MOTO|
+|RG_DC_MOTO_NON_AVS                       | RG DC MOTO (No AVS)|
+|RG_DC_HOTEL                       | RG DC Hotel|
+|EDUCATIONAL_RETAIL                       | Education Retail|
+|RG_DC_RETAIL_KEY_ENTRY                       | RG DC Retail Key Entry|
+|RG_DC_SUPERMARKET                       | RG DC Supermarket|
+|RG_DC_AUTO_FUEL_DISP                       | RG DC Auto Fuel Disp|
+|RG_DC_CONV_STORE                       | RG DC Convenience Store|
+|RG_DC_EMERGING_MARKET                       | RG DC Emerging Market|
+|RG_DC_ACCT_FUNDING                       | RG DC Acct Funding|
+|RG_DC_ECOMM_BASIC                       | RG DC Elec Comm Basic|
+|INSURANCE                       | Insurance|
+|SMALL_TICKET                       | Small Ticket|
+|COMM_B2B_TAX_EXMP                       | Comm B2B Tax Exempt|
+|COMM_CNP_TAX_EXMP                       | Comm CNP Tax Exempt|
+|COMM_RETAL_TAX_EXMP                       | Comm RTL Tax Exempt|
+|B2B_PUR_CARD_LEVEL3                       | B2B Purchase Card LVL3|
+|RETAIL_2                       | Retail 2|
+|PUBLIC_SECTOR                       | Public Sector|
+|COURT_FINES_GOVT_SERV                       | Court/Fines/Govt Service|
+|FULL_UCAF                       | Full UCAF|
+|RETAIL_OR_SMT                       | Retail/Small Ticket|
+|QSR_THEATER_SMT                       | QSR/Theater/Small Ticket|
+|CHARITY                       | Charity|
+|BAR_CATERER_RETAIL                       | Bar/Caterer Retail|
+|HC_RETAIL                       | Healthcare Retail|
+|BAR_CATERER_MOTO                       | Bar/Caterer MOTO|
+|HC_MOTO                       | Healthcare MOTO|
+|RECR_BILL_PAY                       | Recurring Bill Pay|
+|ACCT_FUNDING                       | Acct Funding|
+|B2B_PURC_CARD                       | B2B Purchase Card|
+|AUTOMATED_FULEL_DISP                       | Automated Fuel Dispenser|
+|CONV_STORES                       | Convenience Stores|
+|EMERGING_MARKET                       | Emerging Market|
+|CASH_ADV                       | Cash Advance|
+|HOTEL_CARRENTAL                       | Hotel/Car Rental/Retail|
+|CAR_RENTAL_CNP                       | Car Rent/Card Not Presnt|
+|EMERGING_MKT_GOVT_EDU                       | Emerging Mkt Govt/EDU|
+|ECOMM_BASIC                       | Elec Commerce Basic|
+|ECOMM_PREF                       | Elec Commerce Pref|
+|EPS_QPS_NO_AUTH                       | EPS/QPS (No Auth)|
+|QSR_THEATER_TAXI_LIMO                       | QSR/Theater/Taxi/Limo|
+|RETAIL_KEY_ENTRY2                       | Retail (Key Entry)|
+|UTILITY                       | Utility|
+|SERVICE_STATION                       | Service Stations|
+|DC_INS                       | DC Insurance|
+|DC_QSR_THTR_TAXI_LIMO                       | DC QSR/Thtr/Taxi/Limo|
+|DC_UTILITY                       | DC Utility|
+|DC_SERVICE_STATION                       | DC Service Stations|
+|DC_FILL_UCAF                       | DC Full UCAF|
+|DC_SMT                       | DC Small Ticket|
+|DC_RETAIL_2                       | DC Retail 2|
+|DC_PUBLIC_SECTOR                       | DC Public Sector|
+|DC_COURT_FINE_GOVT_SERVICE                       | DC Court/Fine/Govser|
+|DC_ECOMM_PREF                       | DC Elec Comm Pref|
+|DC_RETAIL_OR_SMT                       | DC Retail/Small Ticket|
+|DC_CHARITY                       | DC Charity|
+|HC_RETAIL                       | Healthcare Retail|
+|HC_MOTO                       | Healthcare MOTO|
+|FUEL_DISP                       | Fuel Dispenser|
+|RECR_BILL_PAY                       | Recurring Bill Pay|
+|DC_EMERGING_MARKET_GOVT_EDU                       | DC Emrg Mkt Gov/EDU|
+|DC_CAR                       | DC Car|
+|EDU_RETAIL                       | Education Retail|
+|EDU_MOTO                       | Education MOTO|
+|MERIT_1_DAYCARE                       | Merit 1 Daycare|
+|DC_RETAIL                       | DC Retail|
+|DC_RESTAURANT                       | DC Restaurant/Fast Food|
+|DC_MOTO                       | DC MOTO|
+|DC_MOTO_NON_AVS                       | DC MOTO (No AVS)|
+|DC_HOTEL                       | DC Hotel|
+|INTERNET                       | Internet|
+|DEC_RETAIL_KE                       | DC Retail Key Entry|
+|DC_SUPERMARKET                       | DC Supermarket|
+|DC_AOTOMATED_FUEL_DISP                       | DC Automated Fuel Disp|
+|DC_CONV_STORES                       | DC Convenience Store|
+|DC_EMERGIN_MKT                       | DC Emerging Market|
+|DC_ACCT_FUNDING                       | DC Acct Funding|
+|DC_ECOMM_BASIC                       | DC Elec Comm Basic|
 
-DC_COURT_FINE_GOVT_SERVICE, CHARITY, RG_EMERGING_MARKET, RG_SMT, RETAIL_OR_SMT, RECR_BILL_PAY, RG_DC_RETAIL_OR_SMT, DC_SUPERMARKET, RG_DC_CONV_STORE, MOTO_NO_AVS, HC_MOTO, DC_RETAIL_OR_SMT, EPS_QPS_NO_AUTH, BAR_CATERER_RETAIL, DC_EMERGIN_MKT, HC_MOTO, HOTEL, RETAIL_KEY_ENTRY1, T&E_MOTO, DC_HOTEL, RG_MOTO_NON_AVS, RG_DC_CAR, PR_EMERGING_MKT, DC_INS, EDUCATIONAL_MOTO, PR_T&E_CP, EDU_RETAIL, DC_RESTAURANT, DC_EMERGING_MARKET_GOVT_EDU, RG_CONV_STORE, RG_CAR, PR_PETRO_AFD, RG_DC_EMERGING_MARKET, T&E_MOTO, DC_RETAIL, DC_ECOMM_PREF, RG_DC_SERVICE_STATIONS, B2B_PUR_CARD_LEVEL3, ECOMM_BASIC, EDU_MOTO, DC_SERVICE_STATION, T&E_RETAIL, PR_T&E_CNP, COMM_B2B_TAX_EXMP, PR_MOTO, INSURANCE, GU_RETAIL, RG_REATIL_OR_SMT, RG_DC_SMT, GU_ECOMM, DC_FILL_UCAF, RG_DC_COURT_FINE_GOVT_SERV, COMM_RETAL_TAX_EXMP, RETAIL, HC_MOTO, RG_RETAIL, RG_DC_HOTEL, FUEL_DISP, RG_AUTOMATED_FUEL_DISP, MERIT_1_DAYCARE, RG_DC_QSR_THTR_TAXI_LIMO, AUTOMATED_FULEL_DISP, HC_RETAIL, EDUCATIONAL_MOTO, FULL_UCAF, RG_REST_OR_FAST_FOOD, SMALL_TICKET, SUPERMARKET, T&E_RETAIL, DC_AOTOMATED_FUEL_DISP, BAR_CATERER_MOTO, RG_DC_AUTO_FUEL_DISP, EMERGING_MARKET, RETAIL_KEY_ENTRY2, RH_COMM_RETAIL_TAX_EXMP, T&E_MOTO, RG_DC_MOTO, COMM_CNP_TAX_EXMP, RG_INS, RG_DC_PUBLIC_SECTOR, T&E_RETAIL, GU_MOTO, RG_COMM_B2B_TAX_EXMP, EDUCATIONAL_RETAIL, DC_UTILITY, DC_RETAIL_2, RG_ECOMM_BASIC, RG_DC_ECOMM_BASIC, UTILITY, T&E_RETAIL, EDUCATIONAL_RETAIL, RG_DC_RETAIL_2, RETAIL_2, HC_RETAIL, RG_DC_FULL_UCAF, VI_RETAIL, QSR_THEATER_TAXI_LIMO, RG_B2B_PRCH_CARD, RG_DC_ACCT_FUNDING, EMERGING_MKT_GOVT_EDU, EDUCATION_MOTO, RG_MOTO, RG_CHARITY, HOTEL_CARRENTAL, SERVICE_STATION, DC_CAR, HC_RETAIL, CAR_RENTAL_CNP, RG_COMM_CNP_TAX_EXMP, VI_ECOMM, RG_ACCT_FUNDING, DC_ECOMM_BASIC, DEC_RETAIL_KE, RG_ECOMM_PREF, RG_DC_MOTO_NON_AVS, RG_DC_INS, HC_RETAIL, RG_SERVICE_STATIONS, PR_SUPERMARKET, CASH_ADV, RG_B2B_PRCH_CARD_LEVEL3, RG_DC_RETAIL, DC_MOTO, DC_SMT, B2B_PURC_CARD, RG_DC_SUPERMARKET, DC_CHARITY, DC_PUBLIC_SECTOR, RG_PAPER, DEFAULT, RG_UTILITY, RG_QSR_THTR_TAXI_LIMO, DC_ACCT_FUNDING, QSR_THEATER_SMT, RECR_BILL_PAY, RG_DC_RETAIL_OR_SMT, RG_HOTEL, RG_RETAIL_KEY_ENTRY, RG_COURT_FINE_GOVT_SERV, INTERNET, DC_MOTO_NON_AVS, RG_CASH_ADV, RG_PUBLIC_SECTOR, PAPER, DC_CONV_STORES, PR_PETRO_SVC_STATION, DC_QSR_THTR_TAXI_LIMO, EDUCATIONAL_RETAIL, RG_RETAIL_2, RESTAURANT, RG_DC_ECOMM_PREF, RG_FULL_UCAF, RG_SUPERMARKET, ECOMM_PREF, PR_RETAIL, HC_MOTO, CAR, T&E_MOTO, RG_DC_REST_OR_FAST_FOOD, RG_DC_UTILITY, COURT_FINES_GOVT_SERV, ACCT_FUNDING, PUBLIC_SECTOR, VI_MOTO, MOTO, RG_DC_RETAIL_KEY_ENTRY, CONV_STORES
 <!-- type: tab --> 
 
 ##### South Specification
