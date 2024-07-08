@@ -52,6 +52,8 @@
           sections:
             - title: Merchant
               link: docs/specification/merchant/merchant.md
+            - title: Merchant Owner
+              link: docs/specification/merchant/MerchantOwner.md
             - title: Merchant Business Information
               link: docs/specification/merchant/merchantBusinessInformation.md
             - title: Merchant Attributes
