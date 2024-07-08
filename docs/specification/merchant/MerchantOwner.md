@@ -1,8 +1,9 @@
 # Merchant Owner
-* **Description**: Essential information about merchant owner, including contact details, business type, and contractual data, ensuring efficient transaction processing and management. Every merchant has an entry in this critical repository.
+* **Description**: Essential information about merchant owner, including demographic details, and contact information. This is a critical information for every principal owner of a merchant.
 * **API section**: root 
 * **Table Name**: UMM.MERCHANT 
 ## List of Fields:
+
 ### MERCHANT_ID
 * Description: Unique identifier of the merchant. It is required to add merchant-specific information to the database.
 * API field: `merchantId`
@@ -15,14 +16,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
 |--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |  Back-end specific |     50     |          |          |          |       NA     |
+| String |                    |     -      |          |          |          |       NA     |
 
 <!-- type: tab -->
 
 ##### North Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       12       |     50     | Required | Required | Not Required |       NA     |
+| Type   | Minimum Length | Max Length |   Inquiry    |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:------------:|:--------:|:------------:|:------------:|
+| String |        -       |     -      | Not Required |   NA     |       NA     |       NA     |
 
 <!-- type: tab --> 
 
@@ -32,4 +33,9 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
+##### GMA Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
 <!-- type: tab -->
