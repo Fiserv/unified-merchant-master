@@ -196,4 +196,42 @@ titles: UMM, North, South, GMA
 <!-- type: tab-end -->
 ---
 
+### MIDDLE_NAME
+* Description: Middle name of the principal owner.
+* API field: `ownerMiddleName`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |        3       |    100     | Required |    Required  |   Required   |       NA     |
+
+  <!--   type: tab -->
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       3        |     1      | Required |    Required  |   Required   |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
 
