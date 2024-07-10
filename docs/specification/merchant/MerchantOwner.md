@@ -39,7 +39,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 <!-- type: tab -->
-
+----
 ### PLATFORM_CODE
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
@@ -78,46 +78,6 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab-end -->
 ---
-
-### 
-* Description: 
-* API field: ``
-* Field Specification:
-
-<!-- type: tab 
-titles: UMM, North, South, GMA 
--->
-
-##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       12       |     50     | Required |    Required  |   Required   |       NA     |
-
-  <!--   type: tab -->
-
-##### North Specification 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       3        |     1      | Required |    Required  |   Required   |       NA     |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
-
-<!-- type: tab -->
-
-##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
-
-<!-- type: tab-end -->
----
-
 ### OWNER_SEQ_CODE
 * Description: Sequesnce number of the principal owner associated with the business.
 * API field: `ownerSequenceNumber`
@@ -156,7 +116,6 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab-end -->
 ---
-
 ### FIRST_NAME
 * Description: First name of the principal owner.
 * API field: `ownerFirstName`
