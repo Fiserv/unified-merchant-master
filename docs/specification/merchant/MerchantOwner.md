@@ -16,14 +16,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   |   Minimum Length   | Max Length | Inquiry  |  Create  |  Update  |    Delete    |
 |--------|:------------------:|:----------:|:--------:|:--------:|:--------:|:------------:|
-| String |                    |     -      |          |          |          |       NA     |
+| String |         12         |    50      |          |          |          |       NA     |
 
 <!-- type: tab -->
 
 ##### North Specification
 | Type   | Minimum Length | Max Length |   Inquiry    |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:------------:|:--------:|:------------:|:------------:|
-| String |        -       |     -      | Not Required |   NA     |       NA     |       NA     |
+| String |       12       |     12     | Not Required |   NA     |       NA     |       NA     |
 
 <!-- type: tab --> 
 
@@ -99,7 +99,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       3        |     1      | Required |    Required  |   Required   |       NA     |
+| String |       1        |     3      | Required |    Required  |   Required   |       NA     |
 
 <!-- type: tab --> 
 
@@ -137,46 +137,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       3        |     1      | Required |    Required  |   Required   |       NA     |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
-
-<!-- type: tab -->
-
-##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
-
-<!-- type: tab-end -->
----
-
-### MIDDLE_NAME
-* Description: Middle name of the principal owner.
-* API field: `ownerMiddleName`
-* Field Specification:
-
-<!-- type: tab 
-titles: UMM, North, South, GMA 
--->
-
-##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |        3       |    100     | Required |    Required  |   Required   |       NA     |
-
-  <!--   type: tab -->
-
-##### North Specification 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       3        |     1      | Required |    Required  |   Required   |       NA     |
+| String |       3        |     7      | Required |    Required  |   Required   |       NA     |
 
 <!-- type: tab --> 
 
@@ -207,14 +168,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |        3       |    100     | Required |    Required  |   Required   |       NA     |
+| String |        1       |    100     | Required |    Required  |   Required   |       NA     |
 
   <!--   type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       3        |     1      | Required |    Required  |   Required   |       NA     |
+| String |       1        |     2      | Required |    Required  |   Required   |       NA     |
 
 <!-- type: tab --> 
 
@@ -290,7 +251,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| String |       3        |    15      |     -    |          |              |       NA     |
 
 <!-- type: tab --> 
 
@@ -309,4 +270,117 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab-end -->
 ---
+### ADDRESS_1_TEXT
+* Description: Address line 1.
+* API field: `address1Text`
+* Field Specification:
 
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |        3       |    150     | Required |    Required  |   Required   |       NA     |
+
+  <!--   type: tab -->
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |      10        |    24      | Required |    Required  |   Required   |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+### ADDRESS_2_TEXT
+* Description: Address line 2.
+* API field: `address2Text`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |        3       |    50      | Required |    Required  |   Required   |       NA     |
+
+  <!--   type: tab -->
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       0        |     0      | Required |    Required  |   Required   |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+### ADDRESS_3_TEXT
+* Description: Address line 3.
+* API field: `address3Text`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |        -       |    -       | Required |       NA     |       NA     |       NA     |
+
+  <!--   type: tab -->
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       0        |     0      | Required |       NA     |       NA     |       NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
