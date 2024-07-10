@@ -38,7 +38,9 @@ titles: UMM, North, South, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
-<!-- type: tab -->
+
+<!-- type: tab-end -->
+
 ----
 ### PLATFORM_CODE
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
