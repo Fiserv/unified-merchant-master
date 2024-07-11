@@ -23,7 +23,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |         | NA   |    |    |      |
+| String |      12         |      12   | NA   |    |    |      |
 
 <!-- type: tab --> 
 
@@ -137,7 +137,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |         | Y   | Y   | Y   | NA     |
+| String |      7         |      9   | Y   | Y   | Y   | NA     |
 
 <!-- type: tab --> 
 
@@ -175,7 +175,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |         | Y   | Y   | Y   | NA     |
+| String |      10         |      10   | Y   | Y   | Y   | NA     |
 
 <!-- type: tab --> 
 
@@ -213,7 +213,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |         | Y   | Y   | Y   | NA     |
+| String |      12         |      17   | Y   | Y   | Y   | NA     |
 
 <!-- type: tab --> 
 
@@ -251,7 +251,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |         | Y   |    |    |      |
+| String |      12         |      17   | Y   |    |    |      |
 
 <!-- type: tab --> 
 
@@ -327,7 +327,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |         | Y   | NA   | NA   | NA     |
+| String |      10         |      15   | Y   | NA   | NA   | NA     |
 
 <!-- type: tab --> 
 
