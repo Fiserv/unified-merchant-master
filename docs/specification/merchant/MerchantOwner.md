@@ -1,4 +1,4 @@
-# Merchant Owner
+![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/33b306d6-f74d-48bb-ae5d-f226157b1065)# Merchant Owner
 * **Description**: Essential information about merchant owner, including demographic details, and contact information. This is a critical information for every principal owner of a merchant.
 * **API section**: root 
 * **Table Name**: UMM.MERCHANT 
@@ -808,6 +808,44 @@ titles: UMM, North, South, GMA
 <!-- type: tab-end -->
 ---
 
+### GUARANTOR_INDICATOR
+* Description: Value that indicates the principal guarantor exist or not.
+* API field: `ownerGuaranteeIndicator`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       1        |    1     | Required |    Required  |   Required   |       NA     |
+
+  <!--   type: tab -->
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |               |         |  Required    |  Required    |  Required    | NA     |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
 ### BIRTH_DATE
 * Description: Date on which the principal owner was born (birth date).
 
