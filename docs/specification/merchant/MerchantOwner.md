@@ -768,7 +768,7 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab-end -->
 ---
-#N/A
+
 ### SIGNER_INDICATOR
 * Description: Value that indicates the principal owner is an authorized signer or not. 
 * API field: `ownerSignerIndicator`
@@ -807,7 +807,7 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab-end -->
 ---
-#N/A
+
 ### BIRTH_DATE
 * Description: Date on which the principal owner was born (birth date).
 
@@ -1080,9 +1080,6 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab-end -->
 ---
-#N/A
-#N/A
-#N/A
 ### IDENTITY_DOC_TYPE_CODE
 * Description: Code that indicates the type of tax identification document that the merchant provides for verification purpose.
 * API field: `ownerTaxId`
@@ -1158,4 +1155,3 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----
