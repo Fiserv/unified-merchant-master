@@ -616,7 +616,7 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab-end -->
 ---
-"### COUNTY_CODE
+### COUNTY_CODE
 * Description: Code that indicates the county.
 * API field: `countyCode`
 * Field Specification:
@@ -653,8 +653,8 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
-"### COUNTY_NAME
+---
+### COUNTY_NAME
 * Description: Name of the county.
 * API field: `countyName`
 * Field Specification:
@@ -691,8 +691,8 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
-"### BUSINESS_PHONE
+---
+### BUSINESS_PHONE
 * Description: Phone number of the principal owner.
 * API field: `ownerPhoneNumber`
 * Field Specification:
@@ -729,8 +729,8 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
-"### MOBILE
+---
+### MOBILE
 * Description: Mobile number of the principal owner.
 * API field: `ownerMobileNumber`
 * Field Specification:
@@ -767,9 +767,9 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
+---
 #N/A
-"### SIGNER_INDICATOR
+### SIGNER_INDICATOR
 * Description: Value that indicates the principal owner is an authorized signer or not. 
 * API field: `ownerSignerIndicator`
 * Field Specification:
@@ -806,9 +806,9 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
+---
 #N/A
-"### BIRTH_DATE
+### BIRTH_DATE
 * Description: Date on which the principal owner was born (birth date).
 
 Format: CCYY-MM-DD 
@@ -848,8 +848,8 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
-"### YEARS_AT_ADDRESS
+---
+### YEARS_AT_ADDRESS
 * Description: The principal owner resides at the current address for a certain number of years.
 * API field: `ownerYearsAtAddress`
 * Field Specification:
@@ -886,8 +886,8 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
-"### EMAIL_ADDRESS
+---
+### EMAIL_ADDRESS
 * Description: E-mail address of the principal owner.
 * API field: `emailText`
 * Field Specification:
@@ -924,8 +924,8 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
-"### OWNERSHIP_PERCENT
+---
+### OWNERSHIP_PERCENT
 * Description: Percentage of ownershipthat a particular individual or entity holds in the business.
 * API field: `ownerPercent`
 * Field Specification:
@@ -962,8 +962,8 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
-"### MOBILE_VALIDATION_STATUS
+---
+### MOBILE_VALIDATION_STATUS
 * Description: Code that indicates the vatiodation status of the principal owner's mobile number.
 * API field: `ownerMobileValidateStatusCode`
 * Field Specification:
@@ -1000,8 +1000,8 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
-"### MOBILE_VALIDATION_SOURCE_CODE
+---
+### MOBILE_VALIDATION_SOURCE_CODE
 * Description: Code that indicates the vatiodation status of the principal owner's mobile number source.
 * API field: `ownerMobileValidateSourceCode`
 * Field Specification:
@@ -1038,8 +1038,8 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
-"### MOBILE_VALIDATION_DATE
+---
+### MOBILE_VALIDATION_DATE
 * Description: Date on which the principal owner's mobile number was validated.
 
 Format: CCYY-MM-DD 
@@ -1079,11 +1079,11 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
+---
 #N/A
 #N/A
 #N/A
-"### IDENTITY_DOC_TYPE_CODE
+### IDENTITY_DOC_TYPE_CODE
 * Description: Code that indicates the type of tax identification document that the merchant provides for verification purpose.
 * API field: `ownerTaxId`
 * Field Specification:
@@ -1120,8 +1120,8 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
-"### IDENTITY_DOC_NUMBER
+---
+### IDENTITY_DOC_NUMBER
 * Description: Taxpayer identification number of the principal owner.
 * API field: `ownerTaxId`
 * Field Specification:
