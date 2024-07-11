@@ -56,7 +56,7 @@
               link: docs/specification/merchant/MerchantOwner.md
             - title: Merchant Bank Account
               link: docs/specification/merchant/MerchantBankAccount.md
-            - title: Merchant Address
+            - title: Merchant Address 
               link: docs/specification/merchant/MerchantAddress.md
             - title: Merchant Business Information
               link: docs/specification/merchant/merchantBusinessInformation.md
