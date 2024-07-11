@@ -1,4 +1,4 @@
-![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/e7039819-28c6-41a8-83f3-ad8ee5c81db6)# Merchant
+# Merchant
 * **Description**: Stores essential information about merchants, including contact details, business type, and contractual data, ensuring efficient transaction processing and management. Every merchant has an entry in this critical repository.
 * **API section**: root 
 * **Table Name**: UMM.MERCHANT 
