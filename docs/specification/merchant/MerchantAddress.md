@@ -1,4 +1,4 @@
-# Merchant Bank Account
+# Merchant Address
 * **Description**: description to come here.....
 * **API section**: root 
 * **Table Name**: UMM.MERCHANT 
