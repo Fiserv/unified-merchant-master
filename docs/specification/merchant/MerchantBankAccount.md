@@ -61,7 +61,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      N_min         |      N_max   | NA   |    |    |    |      |
+| String |               |         | NA   |    |    |    |      |
 
 <!-- type: tab --> 
 
