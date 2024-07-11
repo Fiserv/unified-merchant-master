@@ -1,4 +1,4 @@
-![image](https://github.com/Fiserv/unified-merchant-master/assets/173451067/33b306d6-f74d-48bb-ae5d-f226157b1065)# Merchant Owner
+# Merchant Owner
 * **Description**: Essential information about merchant owner, including demographic details, and contact information. This is a critical information for every principal owner of a merchant.
 * **API section**: root 
 * **Table Name**: UMM.MERCHANT 
