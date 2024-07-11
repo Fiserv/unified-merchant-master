@@ -848,9 +848,8 @@ titles: UMM, North, South, GMA
 ---
 ### BIRTH_DATE
 * Description: Date on which the principal owner was born (birth date).
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `ownerBirthDate`
 * Field Specification:
 
