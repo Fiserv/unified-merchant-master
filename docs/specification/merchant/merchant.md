@@ -345,11 +345,11 @@ titles: UMM, North, South, GMA
 | String |       1        |     1      | Required | Required |   Required   |       NA     |
 
 
- Values**:
-|    Value     |     Description       |
-|--------------|:---------------------:|
-| MOTO_ECOMM   |   MOTO/Ecommerce      |
-|  RETAIL      |   Merchant supporting sale of products in stores, person-to-person, or through direct mail       |
+**Valid Values**: 
+|              Value   |                    Description                 |
+|----------------------|:----------------------------------------------:|
+| MOTO_ECOMM           |   MOTO/Ecommerce                                |
+|  RETAIL              |   Merchant supporting sale of products in stores, person-to-person, or through direct mail       |
 
 <!-- type: tab --> 
 
@@ -1731,4 +1731,3 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----
