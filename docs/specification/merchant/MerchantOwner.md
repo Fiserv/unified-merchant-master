@@ -498,7 +498,6 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab-end -->
 ---
----
 ### STATE_CODE
 * Description: State province name as per ISO 3166-2:US codes or ISO 3166-2:CA codes.
 * API field: `stateCode`
@@ -616,7 +615,7 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----"
+---
 "### COUNTY_CODE
 * Description: Code that indicates the county.
 * API field: `countyCode`
