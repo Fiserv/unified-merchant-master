@@ -58,6 +58,8 @@
               link: docs/specification/merchant/MerchantBankAccount.md
             - title: Merchant Address
               link: docs/specification/merchant/MerchantAddress.md
+            - title: Merchant Address NEW
+              link: docs/specification/merchant/merchantAddress.md
             - title: Merchant Xref
               link: docs/specification/merchant/Merchant_Xref.md
             - title: Merchant Business Information
