@@ -28,6 +28,7 @@ paths:
           - OMAHA
           - SOUTH
           - OMNIPAY26
+          - OMNIPAY21
         example: NORTH
       - name: productCategory
         in: query
@@ -74,7 +75,9 @@ paths:
           type: string
       - name: Authorization
         in: header
-        description: Bearer token
+        description: |
+          Bearer access token. For token generation refer to
+          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
         required: true
         schema:
           type: string
@@ -86,10 +89,10 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ProductMasterResponse'
-      x-proxy-name: v1/products
-      x-group-name: Inquiry
+      x-proxy-name: Inquiry
+      x-group-name: Products
       x-core: UMM
-      x-child-product-name: Products
+      x-child-product-name: v1/products
 components:
   schemas:
     ProductMasterExternalCrossRefResponse:
@@ -142,3 +145,9 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/ProductMasterExternalCrossRefResponse'
+        attributes:
+          type: object
+          additionalProperties:
+            type: object
+            additionalProperties:
+              type: object
