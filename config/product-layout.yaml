@@ -45,8 +45,8 @@ getStarted: /docs/getting-started.md
 featuredFeatures:
   - title: Merchant Inquiry
     description: Unified GraphQL Merchant Inquiry API
-    tags: ["UMM", "Merchant", "GraphQL", "Inquiry"]
-    bullets: ["UMM", "Merchant", "GraphQL", "Inquiry"]
+    tags: ["UMM", "Merchant", "GraphQL", "Inquiry", "Search"]
+    bullets: ["UMM", "Merchant", "GraphQL", "Inquiry", "Search"]
     relatedDocs:
       - relatedDoc: 
         title: Merchant
@@ -62,7 +62,7 @@ featuredFeatures:
         title: Merchant Search
         description: Unified GraphQL Merchant Search API
         type: "post"
-        path: "graphql⁣"
+        path: "/graphql⁣⁣"
   - title: Merchant Mutation
     description: Unified GraphQL Merchant Update API
     tags: ["UMM", "Merchant", "GraphQL", "Update", "Delete"]
@@ -76,13 +76,13 @@ featuredFeatures:
       - relatedAPI: 
         title: Merchant Update
         description: Unified GraphQL Merchant Update API
-        type: "patch"
-        path: "/graphql"
+        type: "post"
+        path: "/graphql⁣⁣"
       - relatedAPI: 
         title: Merchant Delete
         description: Unified GraphQL Merchant Delete API
-        type: "delete"
-        path: "/graphql"
+        type: "post"
+        path: "/graphql⁣⁣⁣"
   - title: Product Inquiry
     description:  Unified Product Inquiry API
     tags: ["UMM", "Product", "Inquiry"]
@@ -92,27 +92,9 @@ featuredFeatures:
         title: Products
         description: Products
         link: ./docs/getting-started.md
-      # - relatedDoc: 
-      #   title: REPLACEME
-      #   description: REPLACEME
-      #   link: ./docs/REPLACE-ME2.md
-      # - relatedDoc: 
-      #   title: REPLACEME
-      #   description: REPLACEME
-      #   link: ./docs/REPLACE-ME3.md
     relatedAPIs:
       - relatedAPI: 
         title: Product Inquiry
         description: Unified Product Inquiry API
         type: "get"
         path: "/internal/v1/products"
-      # - relatedAPI: 
-      #   title: REPLACEME
-      #   description: REPLACEME
-      #   type: "post"        
-      #   path: "/v1/REPLACEME2"
-      # - relatedAPI: 
-      #   title: REPLACEME
-      #   description: REPLACEME
-      #   type: "get"        
-      #   path: "/v1/REPLACEME3"
