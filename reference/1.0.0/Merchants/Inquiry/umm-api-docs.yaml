@@ -6,6 +6,66 @@ info:
 servers:
 - url: https://connect.fiservapis.com/unifiedmerchantmaster
 paths:
+  /graphql⁣:
+    post:
+      tags:
+      - Merchant Search
+      summary: GraphQL API to retrieve Merchant's information by search criteria
+      description: ⚠ HTTP verb is always POST
+      operationId: search
+      parameters:
+      - name: platformCode
+        in: query
+        required: true
+        schema:
+          type: string
+          description: Code to identify the specific backend platform. It adds the
+            required information for the merchant
+          enum:
+          - NORTH
+          - OMAHA
+          - SOUTH
+          - OMNIPAY26
+          - OMNIPAY21
+      - name: pageNumber
+        in: query
+        required: true
+        schema:
+          type: integer
+          format: int32
+      - name: Authorization
+        in: header
+        description: |
+          Bearer access token. For token generation refer to
+          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
+        required: true
+        schema:
+          type: string
+        example: "Bearer {token}"
+      - name: x-encrypted-data
+        in: header
+        description: Use to signify if data is encrypted
+        required: false
+        schema:
+          type: string
+        example: false
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SearchRequest'
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResponseSearchResponse'
+      x-proxy-name: search
+      x-group-name: Inquiry
+      x-core: UMM
+      x-child-product-name: Merchant
   /graphql:
     post:
       tags:
@@ -86,7 +146,7 @@ paths:
       x-proxy-name: getMerchant
       x-group-name: Inquiry
       x-core: UMM
-      x-child-product-name: Merchants
+      x-child-product-name: Merchant
     delete:
       tags:
       - Merchant Delete
@@ -126,7 +186,7 @@ paths:
       x-proxy-name: deleteMerchant
       x-group-name: Mutation
       x-core: UMM
-      x-child-product-name: Merchants
+      x-child-product-name: Merchant
     patch:
       tags:
       - Merchant Update
@@ -166,70 +226,27 @@ paths:
       x-proxy-name: updateMerchant
       x-group-name: Mutation
       x-core: UMM
-      x-child-product-name: Merchants
-  '/graphql ':
-    post:
-      tags:
-      - Merchant Search
-      summary: GraphQL API to retrieve Merchant's information by search criteria
-      description: ⚠ HTTP verb is always POST
-      operationId: search
-      parameters:
-      - name: platformCode
-        in: query
-        required: true
-        schema:
-          type: string
-          description: Code to identify the specific backend platform. It adds the
-            required information for the merchant
-          enum:
-          - NORTH
-          - OMAHA
-          - SOUTH
-          - OMNIPAY26
-          - OMNIPAY21
-      - name: pageNumber
-        in: query
-        required: true
-        schema:
-          type: integer
-          format: int32
-      - name: Authorization
-        in: header
-        description: |
-          Bearer access token. For token generation refer to
-          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
-        required: true
-        schema:
-          type: string
-        example: "Bearer {token}"
-      - name: x-encrypted-data
-        in: header
-        description: Use to signify if data is encrypted
-        required: false
-        schema:
-          type: string
-        example: false
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/SearchRequest'
-        required: true
-      responses:
-        "200":
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ResponseSearchResponse'
-      x-proxy-name: search
-      x-group-name: Inquiry
-      x-core: UMM
-      x-child-product-name: Merchants
+      x-child-product-name: Merchant
 components:
   schemas:
-    InquiryRequest:
+    SearchCriteriaInput:
+      type: object
+      properties:
+        criteriaName:
+          type: string
+          enum:
+          - taxId
+          - dbaName
+          - legalName
+          - hierarchyLevelMid
+          - taxIdEncrypted
+        criteriaValue:
+          type: string
+      description: "> 🚫 This is for reference, **not** required in request body;\
+        \ this will be part of the graphql inquiry query"
+      nullable: true
+      default: {}
+    SearchRequest:
       required:
       - query
       type: object
@@ -237,30 +254,33 @@ components:
         query:
           type: string
           description: |
-            Sample merchant inquiry query
+            Sample merchant search query
             ```
             query inquiry {
-              getMerchant(
-                merchantId: "12345678901",
+              search(
+                pageNumber: 1
                 platformCode: NORTH
+                searchCriteria: {
+                  criteriaName: legalName,
+                  criteriaValue: "TEST"
+                }
               ) {
-                __typename ... on Merchant {
-                  merchantId
-                  platformCode
-                  dbaName
-                  addresses {
-                    addressTypeCode (
-                      filterByAddressType:[LOCATION]
-                    )
-                    contactName
-                    contactTitle
-                    address1Text
+                __typename ... on SearchResponse {
+                  pageNumber
+                  pageSize
+                  totalCount
+                  searchResponses {
+                    merchantId
+                    dbaName
+                    legalName
                   }
                 }
               }
             }
             ```
-      description: Merchant Inquiry Request
+        schema:
+          $ref: '#/components/schemas/SearchCriteriaInput'
+      description: Merchant Search Request
     Address:
       type: object
       properties:
@@ -2123,67 +2143,6 @@ components:
           type: string
         frontEndMid:
           type: string
-    ResponseMerchant:
-      type: object
-      properties:
-        data:
-          $ref: '#/components/schemas/Merchant'
-        errors:
-          type: array
-          items:
-            $ref: '#/components/schemas/Error'
-    SearchCriteriaInput:
-      type: object
-      properties:
-        criteriaName:
-          type: string
-          enum:
-          - taxId
-          - dbaName
-          - legalName
-          - hierarchyLevelMid
-          - taxIdEncrypted
-        criteriaValue:
-          type: string
-      description: "> 🚫 This is for reference, **not** required in request body;\
-        \ this will be part of the graphql inquiry query"
-      nullable: true
-      default: {}
-    SearchRequest:
-      required:
-      - query
-      type: object
-      properties:
-        query:
-          type: string
-          description: |
-            Sample merchant search query
-            ```
-            query inquiry {
-              search(
-                pageNumber: 1
-                platformCode: NORTH
-                searchCriteria: {
-                  criteriaName: legalName,
-                  criteriaValue: "TEST"
-                }
-              ) {
-                __typename ... on SearchResponse {
-                  pageNumber
-                  pageSize
-                  totalCount
-                  searchResponses {
-                    merchantId
-                    dbaName
-                    legalName
-                  }
-                }
-              }
-            }
-            ```
-        schema:
-          $ref: '#/components/schemas/SearchCriteriaInput'
-      description: Merchant Search Request
     ResponseSearchResponse:
       type: object
       properties:
@@ -2209,6 +2168,47 @@ components:
         totalCount:
           type: integer
           format: int64
+    InquiryRequest:
+      required:
+      - query
+      type: object
+      properties:
+        query:
+          type: string
+          description: |
+            Sample merchant inquiry query
+            ```
+            query inquiry {
+              getMerchant(
+                merchantId: "12345678901",
+                platformCode: NORTH
+              ) {
+                __typename ... on Merchant {
+                  merchantId
+                  platformCode
+                  dbaName
+                  addresses {
+                    addressTypeCode (
+                      filterByAddressType:[LOCATION]
+                    )
+                    contactName
+                    contactTitle
+                    address1Text
+                  }
+                }
+              }
+            }
+            ```
+      description: Merchant Inquiry Request
+    ResponseMerchant:
+      type: object
+      properties:
+        data:
+          $ref: '#/components/schemas/Merchant'
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/Error'
     MerchantUpdateSchema:
       required:
       - merchantId
