@@ -6,21 +6,114 @@ info:
 servers:
 - url: https://connect.fiservapis.com/unifiedmerchantmaster
 paths:
+  /graphql⁣⁣⁣:
+    post:
+      tags:
+      - Merchant Delete
+      summary: GraphQL API to delete Merchant's information
+      operationId: deleteMerchant
+      parameters:
+      - name: Authorization
+        in: header
+        description: |
+          Bearer access token. For token generation refer to
+          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
+        required: true
+        schema:
+          type: string
+        example: "Bearer {token}"
+      - name: x-encrypted-data
+        in: header
+        description: Use to signify if data is encrypted
+        required: false
+        schema:
+          type: string
+        example: false
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DeleteMerchant'
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResponseBoolean'
+      x-proxy-name: deleteMerchant
+      x-group-name: Mutation
+      x-core: UMM
+      x-child-product-name: Merchant
+  /graphql⁣⁣:
+    post:
+      tags:
+      - Merchant Update
+      summary: GraphQL API to update Merchant's information
+      operationId: updateMerchant
+      parameters:
+      - name: Authorization
+        in: header
+        description: |
+          Bearer access token. For token generation refer to
+          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
+        required: true
+        schema:
+          type: string
+        example: "Bearer {token}"
+      - name: x-encrypted-data
+        in: header
+        description: Use to signify if data is encrypted
+        required: false
+        schema:
+          type: string
+        example: false
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateMerchant'
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResponseMerchant'
+      x-proxy-name: updateMerchant
+      x-group-name: Mutation
+      x-core: UMM
+      x-child-product-name: Merchant
   /graphql⁣:
     post:
       tags:
       - Merchant Search
       summary: GraphQL API to retrieve Merchant's information by search criteria
-      description: ⚠ HTTP verb is always POST
       operationId: search
       parameters:
       - name: platformCode
         in: query
+        description: |
+          Code to identify the specific backend platform. It adds the required information for the merchant
+          > For more details refer to
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm-1">`UMM`</a> /
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north-1">`NORTH`</a> /
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south-1">`SOUTH`</a> /
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma-1">`GMA`</a>
+          definition
         required: true
         schema:
           type: string
-          description: Code to identify the specific backend platform. It adds the
-            required information for the merchant
+          description: |
+            Code to identify the specific backend platform. It adds the required information for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm-1">`UMM`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north-1">`NORTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south-1">`SOUTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma-1">`GMA`</a>
+            definition
           enum:
           - NORTH
           - OMAHA
@@ -31,8 +124,9 @@ paths:
         in: query
         required: true
         schema:
-          type: integer
-          format: int32
+          type: string
+          example: 1
+        example: 1
       - name: Authorization
         in: header
         description: |
@@ -73,29 +167,50 @@ paths:
       summary: GraphQL API to retrieve Merchant's information. Additional filtering
         can be perfomed based on certain parameter as shown in the provided request
         sample
-      description: ⚠ HTTP verb is always POST
       operationId: getMerchant
       parameters:
       - name: merchantId
         in: query
+        description: |
+          Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
+          > For more details refer to
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm">`UMM`</a> /
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north">`NORTH`</a> /
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south">`SOUTH`</a> /
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma">`GMA`</a>
+          definition
         required: true
         schema:
-          maxLength: 50
-          minLength: 7
           type: string
           description: |
             Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
             > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#base-properties">`NORTH`</a> /
-            <a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#base-properties">`OMNIPAY26`</a>
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm">`UMM`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north">`NORTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south">`SOUTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma">`GMA`</a>
             definition
       - name: platformCode
         in: query
+        description: |
+          Code to identify the specific backend platform. It adds the required information for the merchant
+          > For more details refer to
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm-1">`UMM`</a> /
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north-1">`NORTH`</a> /
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south-1">`SOUTH`</a> /
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma-1">`GMA`</a>
+          definition
         required: true
         schema:
           type: string
-          description: Code to identify the specific backend platform. It adds the
-            required information for the merchant
+          description: |
+            Code to identify the specific backend platform. It adds the required information for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm-1">`UMM`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north-1">`NORTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south-1">`SOUTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma-1">`GMA`</a>
+            definition
           enum:
           - NORTH
           - OMAHA
@@ -147,106 +262,9 @@ paths:
       x-group-name: Inquiry
       x-core: UMM
       x-child-product-name: Merchant
-    delete:
-      tags:
-      - Merchant Delete
-      summary: GraphQL API to delete Merchant's information
-      description: ⚠ HTTP verb is always POST
-      operationId: deleteMerchant
-      parameters:
-      - name: Authorization
-        in: header
-        description: |
-          Bearer access token. For token generation refer to
-          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
-        required: true
-        schema:
-          type: string
-        example: "Bearer {token}"
-      - name: x-encrypted-data
-        in: header
-        description: Use to signify if data is encrypted
-        required: false
-        schema:
-          type: string
-        example: false
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/DeleteMerchant'
-        required: true
-      responses:
-        "200":
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ResponseBoolean'
-      x-proxy-name: deleteMerchant
-      x-group-name: Mutation
-      x-core: UMM
-      x-child-product-name: Merchant
-    patch:
-      tags:
-      - Merchant Update
-      summary: GraphQL API to update Merchant's information
-      description: ⚠ HTTP verb is always POST
-      operationId: updateMerchant
-      parameters:
-      - name: Authorization
-        in: header
-        description: |
-          Bearer access token. For token generation refer to
-          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
-        required: true
-        schema:
-          type: string
-        example: "Bearer {token}"
-      - name: x-encrypted-data
-        in: header
-        description: Use to signify if data is encrypted
-        required: false
-        schema:
-          type: string
-        example: false
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/UpdateMerchant'
-        required: true
-      responses:
-        "200":
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ResponseMerchant'
-      x-proxy-name: updateMerchant
-      x-group-name: Mutation
-      x-core: UMM
-      x-child-product-name: Merchant
 components:
   schemas:
-    SearchCriteriaInput:
-      type: object
-      properties:
-        criteriaName:
-          type: string
-          enum:
-          - taxId
-          - dbaName
-          - legalName
-          - hierarchyLevelMid
-          - taxIdEncrypted
-        criteriaValue:
-          type: string
-      description: "> 🚫 This is for reference, **not** required in request body;\
-        \ this will be part of the graphql inquiry query"
-      nullable: true
-      default: {}
-    SearchRequest:
+    DeleteMerchant:
       required:
       - query
       type: object
@@ -254,33 +272,362 @@ components:
         query:
           type: string
           description: |
-            Sample merchant search query
+            This API can be used to delete specific Merchant information like
+            Owner, Xref etc. and is not meant to delete the actual merchant information.
+            Refer to the attached schema to identify the deletable information
+
+            Sample merchant delete mutation query
             ```
-            query inquiry {
-              search(
-                pageNumber: 1
-                platformCode: NORTH
-                searchCriteria: {
-                  criteriaName: legalName,
-                  criteriaValue: "TEST"
-                }
-              ) {
-                __typename ... on SearchResponse {
-                  pageNumber
-                  pageSize
-                  totalCount
-                  searchResponses {
-                    merchantId
-                    dbaName
-                    legalName
-                  }
-                }
-              }
-            }
             ```
-        schema:
-          $ref: '#/components/schemas/SearchCriteriaInput'
-      description: Merchant Search Request
+        merchant:
+          $ref: '#/components/schemas/MerchantDeleteSchema'
+    MerchantAccountDelete:
+      type: object
+      properties:
+        accountUsageCode:
+          type: string
+          description: Unique identifier assigned to a checking or current account.
+            It distinguishs one account from another within a financial institution
+          enum:
+          - FUNDING
+          - LEASING
+          - VISA_PAR_PAYABLE
+          - VISA_PAR_RECEIVABLE
+          - MC_PAR_PAYABLE
+          - MC_PAR_RECEIVABLE
+          - AMEX_ADJUSTMENTS_PAYABLE
+          - AMEX_ADJUSTMENTS_RECEIVABLE
+          - VISA_ADJUSTMENTS_PAYABLE
+          - VISA_ADJUSTMENTS_RECEIVABLE
+          - FEE_COLLECT_PAYABLE
+          - FEE_COLLECT_RECEIVABLE
+          - SP_PAYMENT_PAYABLE
+          - SP_PAYMENT_RECEIVABLE
+          - FEE_HOLD_PAYABLE
+          - FEE_HOLD_RECEIVABLE
+          - AMEX_MERCH_PAYABLE
+          - AMEX_MERCH_RECEIVABLE
+          - MC_ADJUSTMENTS_PAYABLE
+          - MC_ADJUSTMENTS_RECEIVABLE
+          - APM_PAR_PAYABLE
+          - APM_PAR_RECEIVABLE
+          - WRITEOFF_ACQ_PAYABLE
+          - WRITEOFF_ACQ_RECEIVABLE
+          - WRITEOFF_SP_PAYABLE
+          - WRITEOFF_SP_RECEIVABLE
+          - FX_PI_CHARGEBACK_PAYABLE
+          - FX_PI_CHARGEBACK_RECEIVABLE
+          - INTERBANK_SUSP_VISA_PAYABLE
+          - INTERBANK_SUSP_VISA_RECEIVABLE
+          - REJECTS_ECCF_PAYABLE
+          - REJECTS_ECCF_RECEIVABLE
+          - REJECTS_VISA_PAYABLE
+          - REJECTS_VISA_RECEIVABLE
+          - REJECTS_INET_PAYABLE
+          - REJECTS_INET_RECEIVABLE
+          - FEE_COLL_ECCF_PAYABLE
+          - FEE_COLL_ECCF_RECEIVABLE
+          - FEE_COLL_VISA_PAYABLE
+          - FEE_COLL_VISA_RECEIVABLE
+          - FEE_COLL_INET_PAYABLE
+          - FEE_COLL_INET_RECEIVABLE
+          - REJECTS_IPM_PAYABLE
+          - REJECTS_IPM_RECEIVABLE
+          - FEE_COLL_IPM_PAYABLE
+          - FEE_COLL_IPM_RECEIVABLE
+          - MANUAL_ADJUSTMENTS_PAYABLE
+          - MANUAL_ADJUSTMENTS_RECEIVABLE
+          - FX_PL_CHARGEBACK_2_PAYABLE
+          - FX_PL_CHARGEBACK_2_RECEIVABLE
+          - MERCH_PYMT_REJECTS_PAYABLE
+          - MERCH_PYMT_REJECTS_RECEIVABLE
+          - ACQ_DISPUTE_TRANS_PAYABLE
+          - ACQ_DISPUTE_TRANS_RECEIVABLE
+          - INTERBANL_SUSPENSE_PAYABLE
+          - INTERBANL_SUSPENSE_RECEIVABLE
+          - REJECTED_DESC_PAYABLE
+          - REJECTED_DESC_RECEIVABLE
+          - INTEREST_RECEIVABLE_PAYABLE
+          - INTEREST_RECEIVABLE_RECEIVABLE
+          - REJECTED_SOURCE_PAYABLE
+          - REJECTED_SOURCE_RECEIVABLE
+          - MERCH_COMM_REVENUE_PAYABLE
+          - MERCH_COMM_REVENUE_RECEIVABLE
+          - ACQ_COMM_REVENUE_PAYABLE
+          - ACQ_COMM_REVENUE_RECEIVABLE
+          - TREASURY_PYMT_VISA_PAYABLE
+          - TREASURY_PYMT_VISA_RECEIVABLE
+          - TREASURY_PYMT_MC_PAYABLE
+          - TREASURY_PYMT_MC_RECEIVABLE
+          - TREASURY_PYMT_ALL_PAYABLE
+          - TREASURY_PYMT_ALL_RECEIVABLE
+          - TREASURY_PYMT_WELLS_PAYABLE
+          - TREASURY_PYMT_WELLS_RECEIVABLE
+          - TREASURY_PYMT_FDELGBP_PAYABLE
+          - TREASURY_PYMT_FDELGBP_RECEIVABLE
+          - TREASURY_PYMT_BASECAD_PAYABLE
+          - TREASURY_PYMT_BASECAD_RECEIVABLE
+          - TREASURY_PYMT_EUR_PAYABLE
+          - TREASURY_PYMT_EUR_RECEIVABLE
+          - TREASURY_PYMT_BAMS_PAYABLE
+          - TREASURY_PYMT_BAMS_RECEIVABLE
+          - PAR_PAYABLE
+          - PAR_RECEIVABLE
+          - PAYMENT_SUSPENSE_PAYABLE
+          - PAYMENT_SUSPENSE_RECEIVABLE
+          - FX_ROUNDING_DIFF_PAYABLE
+          - FX_ROUNDING_DIFF_RECEIVABLE
+          - MERCHANT_HOLD_PAYABLE
+          - MERCHANT_HOLD_RECEIVABLE
+          - VAT_HOLD_PAYABLE
+          - VAT_HOLD_RECEIVABLE
+          - MERCH_RESERVE_PAYABLE
+          - MERCH_RESERVE_RECEIVABLE
+          - FEXCO_COMM_REVENUE_PAYABLE
+          - FEXCO_COMM_REVENUE_RECEIVABLE
+          - JCB_MERCHANT_PAYABLE
+          - JCB_MERCHANT_RECEIVABLE
+          - MERCHANT_BILLBACK_PAYABLE
+          - MERCHANT_BILLBACK_RECEIVABLE
+          - INTERCHANGE_REJ_SUSP_PAYABLE
+          - INTERCHANGE_REJ_SUSP_RECEIVABLE
+          - GST_COLLECT_PAYABLE
+          - GST_COLLECT_RECEIVABLE
+          - TREASURY_PYMT_U_PAYABLE
+          - TREASURY_PYMT_U_RECEIVABLE
+          - DINERS_MERCHANT_PAYABLE
+          - DINERS_MERCHANT_RECEIVABLE
+          - PAGOBANCOMAT_PAYABLE
+          - PAGOBANCOMAT_RECEIVABLE
+          - MERC_ROLLIN_RESERVE_PAYABLE
+          - MERC_ROLLIN_RESERVE_RECEIVABLE
+          - ALTERNATIVE_PAYMENTS_PAYABLE
+          - ALTERNATIVE_PAYMENTS_RECEIVABLE
+          - PAR_HOLDING_PAYABLE
+          - PAR_HOLDING_RECEIVABLE
+          - PAR_DR_PAYABLE
+          - PAR_DR_RECEIVABLE
+          - FEDERAL_TAX_PAYABLE
+          - FEDERAL_TAX_RECEIVABLE
+          - STATE_TAX_PAYABLE
+          - STATE_TAX_RECEIVABLE
+          - MERCH_FACTOR_PAYABLE
+          - MERCH_FACTOR_RECEIVABLE
+          - VEASE_FUND_CLEAR_PAYABLE
+          - VEASE_FUND_CLEAR_RECEIVABLE
+          - PAR_BCMC_PAYABLE
+          - PAR_BCMC_RECEIVABLE
+          - FEE_HOLD_BCMC_PAYABLE
+          - FEE_HOLD_BCMC_RECEIVABLE
+          - FEE_COLL_BCMC_PAYABLE
+          - FEE_COLL_BCMC_RECEIVABLE
+          - CUP_MERCHANT_PAYABLE
+          - CUP_MERCHANT_RECEIVABLE
+          - IDEAL_PAR_PAYABLE
+          - IDEAL_PAR_RECEIVABLE
+          - SM_PAR_PAYABLE
+          - SM_PAR_RECEIVABLE
+          - CHBK_HOLD_PAYABLE
+          - CHBK_HOLD_RECEIVABLE
+        sequenceNumber:
+          type: integer
+          format: int64
+    MerchantDeleteSchema:
+      required:
+      - merchantId
+      type: object
+      properties:
+        merchantId:
+          type: string
+          description: |
+            Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm">`UMM`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north">`NORTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south">`SOUTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma">`GMA`</a>
+            definition
+        platformCode:
+          type: string
+          description: |
+            Code to identify the specific backend platform. It adds the required information for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm-1">`UMM`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north-1">`NORTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south-1">`SOUTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma-1">`GMA`</a>
+            definition
+          enum:
+          - NORTH
+          - OMAHA
+          - SOUTH
+          - OMNIPAY26
+          - OMNIPAY21
+          - NORTH
+        owners:
+          type: array
+          items:
+            $ref: '#/components/schemas/OwnerDelete'
+        products:
+          $ref: '#/components/schemas/MerchantProductDelete'
+        merchantXrefs:
+          type: array
+          items:
+            $ref: '#/components/schemas/MerchantXrefDelete'
+        merchantAccounts:
+          type: array
+          items:
+            $ref: '#/components/schemas/MerchantAccountDelete'
+        subPlatformCode:
+          type: string
+      description: "> 🚫 This is for reference, **not** required in request body;\
+        \ this will be part of the graphql mutation query"
+      nullable: true
+      default: {}
+    MerchantProductDelete:
+      type: object
+      properties:
+        entitlements:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductDelete'
+        valueAddedServices:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductDelete'
+        fees:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductDelete'
+        equipments:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductDelete'
+    MerchantXrefDelete:
+      type: object
+      properties:
+        xrefPlatformMid:
+          type: string
+        xrefPlatformCode:
+          type: string
+    OwnerDelete:
+      type: object
+      properties:
+        ownerSeqCode:
+          type: string
+        ownerIdentificationDetails:
+          type: array
+          items:
+            $ref: '#/components/schemas/OwnerIdentificationDelete'
+    OwnerIdentificationDelete:
+      type: object
+      properties:
+        identityDocTypeCode:
+          type: string
+        identityDocNumber:
+          type: string
+    ProductDelete:
+      type: object
+      properties:
+        productCode:
+          type: string
+        attributes:
+          type: object
+          additionalProperties:
+            type: object
+    Error:
+      type: object
+      properties:
+        errorCode:
+          type: integer
+          format: int32
+        errorMessage:
+          type: string
+        httpStatusCode:
+          type: string
+          enum:
+          - 100 CONTINUE
+          - 101 SWITCHING_PROTOCOLS
+          - 102 PROCESSING
+          - 103 EARLY_HINTS
+          - 103 CHECKPOINT
+          - 200 OK
+          - 201 CREATED
+          - 202 ACCEPTED
+          - 203 NON_AUTHORITATIVE_INFORMATION
+          - 204 NO_CONTENT
+          - 205 RESET_CONTENT
+          - 206 PARTIAL_CONTENT
+          - 207 MULTI_STATUS
+          - 208 ALREADY_REPORTED
+          - 226 IM_USED
+          - 300 MULTIPLE_CHOICES
+          - 301 MOVED_PERMANENTLY
+          - 302 FOUND
+          - 302 MOVED_TEMPORARILY
+          - 303 SEE_OTHER
+          - 304 NOT_MODIFIED
+          - 305 USE_PROXY
+          - 307 TEMPORARY_REDIRECT
+          - 308 PERMANENT_REDIRECT
+          - 400 BAD_REQUEST
+          - 401 UNAUTHORIZED
+          - 402 PAYMENT_REQUIRED
+          - 403 FORBIDDEN
+          - 404 NOT_FOUND
+          - 405 METHOD_NOT_ALLOWED
+          - 406 NOT_ACCEPTABLE
+          - 407 PROXY_AUTHENTICATION_REQUIRED
+          - 408 REQUEST_TIMEOUT
+          - 409 CONFLICT
+          - 410 GONE
+          - 411 LENGTH_REQUIRED
+          - 412 PRECONDITION_FAILED
+          - 413 PAYLOAD_TOO_LARGE
+          - 413 REQUEST_ENTITY_TOO_LARGE
+          - 414 URI_TOO_LONG
+          - 414 REQUEST_URI_TOO_LONG
+          - 415 UNSUPPORTED_MEDIA_TYPE
+          - 416 REQUESTED_RANGE_NOT_SATISFIABLE
+          - 417 EXPECTATION_FAILED
+          - 418 I_AM_A_TEAPOT
+          - 419 INSUFFICIENT_SPACE_ON_RESOURCE
+          - 420 METHOD_FAILURE
+          - 421 DESTINATION_LOCKED
+          - 422 UNPROCESSABLE_ENTITY
+          - 423 LOCKED
+          - 424 FAILED_DEPENDENCY
+          - 425 TOO_EARLY
+          - 426 UPGRADE_REQUIRED
+          - 428 PRECONDITION_REQUIRED
+          - 429 TOO_MANY_REQUESTS
+          - 431 REQUEST_HEADER_FIELDS_TOO_LARGE
+          - 451 UNAVAILABLE_FOR_LEGAL_REASONS
+          - 500 INTERNAL_SERVER_ERROR
+          - 501 NOT_IMPLEMENTED
+          - 502 BAD_GATEWAY
+          - 503 SERVICE_UNAVAILABLE
+          - 504 GATEWAY_TIMEOUT
+          - 505 HTTP_VERSION_NOT_SUPPORTED
+          - 506 VARIANT_ALSO_NEGOTIATES
+          - 507 INSUFFICIENT_STORAGE
+          - 508 LOOP_DETECTED
+          - 509 BANDWIDTH_LIMIT_EXCEEDED
+          - 510 NOT_EXTENDED
+          - 511 NETWORK_AUTHENTICATION_REQUIRED
+        rawExceptionMessage:
+          type: string
+        errorSource:
+          type: string
+    ResponseBoolean:
+      type: object
+      properties:
+        data:
+          type: boolean
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/Error'
     Address:
       type: object
       properties:
@@ -390,719 +737,6 @@ components:
           x-not-for-north: "true"
         attentionTo:
           type: string
-    Error:
-      type: object
-      properties:
-        errorCode:
-          type: integer
-          format: int32
-        errorMessage:
-          type: string
-        httpStatusCode:
-          type: string
-          enum:
-          - 100 CONTINUE
-          - 101 SWITCHING_PROTOCOLS
-          - 102 PROCESSING
-          - 103 EARLY_HINTS
-          - 103 CHECKPOINT
-          - 200 OK
-          - 201 CREATED
-          - 202 ACCEPTED
-          - 203 NON_AUTHORITATIVE_INFORMATION
-          - 204 NO_CONTENT
-          - 205 RESET_CONTENT
-          - 206 PARTIAL_CONTENT
-          - 207 MULTI_STATUS
-          - 208 ALREADY_REPORTED
-          - 226 IM_USED
-          - 300 MULTIPLE_CHOICES
-          - 301 MOVED_PERMANENTLY
-          - 302 FOUND
-          - 302 MOVED_TEMPORARILY
-          - 303 SEE_OTHER
-          - 304 NOT_MODIFIED
-          - 305 USE_PROXY
-          - 307 TEMPORARY_REDIRECT
-          - 308 PERMANENT_REDIRECT
-          - 400 BAD_REQUEST
-          - 401 UNAUTHORIZED
-          - 402 PAYMENT_REQUIRED
-          - 403 FORBIDDEN
-          - 404 NOT_FOUND
-          - 405 METHOD_NOT_ALLOWED
-          - 406 NOT_ACCEPTABLE
-          - 407 PROXY_AUTHENTICATION_REQUIRED
-          - 408 REQUEST_TIMEOUT
-          - 409 CONFLICT
-          - 410 GONE
-          - 411 LENGTH_REQUIRED
-          - 412 PRECONDITION_FAILED
-          - 413 PAYLOAD_TOO_LARGE
-          - 413 REQUEST_ENTITY_TOO_LARGE
-          - 414 URI_TOO_LONG
-          - 414 REQUEST_URI_TOO_LONG
-          - 415 UNSUPPORTED_MEDIA_TYPE
-          - 416 REQUESTED_RANGE_NOT_SATISFIABLE
-          - 417 EXPECTATION_FAILED
-          - 418 I_AM_A_TEAPOT
-          - 419 INSUFFICIENT_SPACE_ON_RESOURCE
-          - 420 METHOD_FAILURE
-          - 421 DESTINATION_LOCKED
-          - 422 UNPROCESSABLE_ENTITY
-          - 423 LOCKED
-          - 424 FAILED_DEPENDENCY
-          - 425 TOO_EARLY
-          - 426 UPGRADE_REQUIRED
-          - 428 PRECONDITION_REQUIRED
-          - 429 TOO_MANY_REQUESTS
-          - 431 REQUEST_HEADER_FIELDS_TOO_LARGE
-          - 451 UNAVAILABLE_FOR_LEGAL_REASONS
-          - 500 INTERNAL_SERVER_ERROR
-          - 501 NOT_IMPLEMENTED
-          - 502 BAD_GATEWAY
-          - 503 SERVICE_UNAVAILABLE
-          - 504 GATEWAY_TIMEOUT
-          - 505 HTTP_VERSION_NOT_SUPPORTED
-          - 506 VARIANT_ALSO_NEGOTIATES
-          - 507 INSUFFICIENT_STORAGE
-          - 508 LOOP_DETECTED
-          - 509 BANDWIDTH_LIMIT_EXCEEDED
-          - 510 NOT_EXTENDED
-          - 511 NETWORK_AUTHENTICATION_REQUIRED
-        rawExceptionMessage:
-          type: string
-        errorSource:
-          type: string
-    Merchant:
-      required:
-      - merchantId
-      - platformCode
-      type: object
-      properties:
-        merchantId:
-          maxLength: 50
-          minLength: 7
-          type: string
-          description: |
-            Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#base-properties">`NORTH`</a> /
-            <a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#base-properties">`OMNIPAY26`</a>
-            definition
-        platformCode:
-          type: string
-          description: Code to identify the specific backend platform. It adds the
-            required information for the merchant
-          enum:
-          - NORTH
-          - OMAHA
-          - SOUTH
-          - OMNIPAY26
-          - OMNIPAY21
-        setupIndicator:
-          type: string
-        dbaName:
-          maxLength: 40
-          minLength: 10
-          type: string
-          description: Official merchant name that the customer or authorities commonly
-            recognizes
-        legalName:
-          maxLength: 18
-          minLength: 6
-          type: string
-          description: |-
-            Legal or official name of a merchant that is registered with government tax authorities.
-            > Note: It must be entered exactly same as it apears in the legal tax documents for the merchant
-        businessUrl:
-          maxLength: 240
-          minLength: 34
-          type: string
-          description: |-
-            Official website address (URL) associated with the merchant.
-            > Note: The URL should be complete and accurate and it should start with the protocol (http:// or https://)
-        hierarchyLevelCode:
-          type: string
-          description: Unique identifier assigned to an outlet or a specific level
-            within a hierarchical structure of a merchant's business
-          readOnly: true
-        storeId:
-          maxLength: 10
-          minLength: 1
-          type: string
-          description: Unique identifier of the merchant's store
-        taxFilingName:
-          maxLength: 100
-          minLength: 20
-          type: string
-          description: Name that the merchant uses to file the taxes with the relevant
-            tax authorities
-        businessTypCode:
-          maxLength: 10
-          minLength: 6
-          type: string
-          description: |-
-            Code to/that indicate whether merchant can process payment in store or online
-            > Note: The following values indicate:
-            > - __MOTO_ECOMM__: Online payment method
-            > - __RETAIL__: In store payment method
-          enum:
-          - MOTO_ECOMM
-          - RETAIL
-        merchantCategoryCode:
-          maxLength: 4
-          minLength: 4
-          type: string
-          description: Code to/that indicate the type of business
-        standardIndustryClassCode:
-          maxLength: 4
-          minLength: 4
-          type: string
-          description: |-
-            Code to/that indicate the classification of MC/VISA standard industry
-            > Note: The code list is available upon request only
-        productsSold:
-          type: string
-          readOnly: true
-        statusCode:
-          maxLength: 18
-          minLength: 6
-          type: string
-          description: |-
-            Code that indicate the status of a merchant
-            > Example:
-            > - __PENDING__ : Pending Credit Approval
-            > - __CANCELLED_FRAUD__ : Cancelled Due to Fraud
-            > - __ACTIVE__ : Active - Monthly Stmt
-            > - __CANCELLED_CREDIT__ : Cancelled By Credit
-            > - __CANCELLED_MERCHANT__ : Cancelled By Merchant
-          enum:
-          - ACTIVE
-          - CANCELLED_CREDIT
-          - CANCELLED_FRAUD
-          - CANCELLED_MERCHANT
-          - PENDING
-        acctOpenDate:
-          type: string
-          description: |-
-            Date on which the merchant account was opened
-            > Note: It can include a time component if required
-          format: date
-        acctSubmitDate:
-          type: string
-          description: Date on which the account was submitted
-          format: date
-          readOnly: true
-        lastStatusChangedDate:
-          type: string
-          description: Date on which the last status of the merchant account was changed
-          format: date
-          readOnly: true
-        lastStatusCode:
-          maxLength: 18
-          minLength: 6
-          type: string
-          description: Code to indicate the last status of the merchant account before
-            a recent update
-        acctCloseDate:
-          type: string
-          description: Date on which the account was closed
-          format: date
-        closeReasonCode:
-          maxLength: 30
-          minLength: 3
-          type: string
-          description: Code to/that indicate the reason of merchant account closure
-          enum:
-          - 2009_PRICE_INCREASE
-          - BUSINESS_CLOSED
-          - CD_AG_SVC_SEASONAL_LOW
-          - CD_HI_RISK_BANKRUPTCY
-          - CD_IN_BS_AC_INACT_O
-          - CD_IN_BS_CHECKING
-          - CD_IN_BS_COLLECT_PR
-          - CD_IN_BS_IN_LITIGATION
-          - CD_IN_BS_NEW_OWNERSHIP
-          - CD_IN_BS_NO_PY_OF_R
-          - CD_IN_BS_RFS_TO_PY_C
-          - CD_IN_BS_XCS_STATEMENT_FEE
-          - CD_OUT_BS_AC_INACT_O
-          - CD_OUT_BS_CANT_CONTACT
-          - CD_OUT_BS_CHECKING_ACCT
-          - CD_OUT_BUSINESS_CLOSE
-          - CEASED_TRADING
-          - CHANGE_LEGAL_ENTITY_OR_OWNER
-          - CLOSED_COLL_NO_REOPEN
-          - CLOSED_CREDIT_NO_REOPEN
-          - COMPETITOR_FEES
-          - COMPETITOR_NEW_PRDCT
-          - COMPETITOR_SERVICE
-          - COMPETITR_PROPSITION
-          - CUST_SERVICE
-          - DATA_CLEANUP
-          - DDA_ACCT_CLOSED
-          - DEROGATORY
-          - DISSATISFIED_WITH_FEES
-          - DOESNOT_MEET_SETTLEMENT_REQ
-          - DONT_REOPEN_CONVERTED
-          - DORMANCY
-          - DUPLICATE_ACCT
-          - END_OF_TERM
-          - FRAUD_OR_BAD_DEBIT
-          - IR2005_PRICE_INCREASE
-          - IR_AGENT_CONVERSATION_DAILY
-          - IR_AGENT_EQUIPMENT_NT_COMPAT
-          - IR_AGENT_INSTALL_DAILY
-          - IR_AGENT_SERVICE_DEFAULTED_ON
-          - IR_AGENT_STY_W_CUR_PRC
-          - IR_AGENT_SVC_LEAS_DESC
-          - IR_AGENT_SVC_MISREP_APP
-          - IR_AGENT_SVC_MISREP_FEE
-          - IR_AGENT_SVC_NON_INSTL
-          - IR_AGENT_SVC_TMP_CLOSR
-          - IR_AGT_SERVICE_AGENT_FRAUD
-          - IR_AVG_SV_REFUS_INST
-          - IR_CSI_BANKRUPTCY
-          - IR_CSI_CHK_GUAR_DECLINE
-          - IR_CSI_LOST_OR_STOLEN_TERMINAL
-          - IR_CSI_POOR_SERVICE
-          - IR_CSI_SS_NUM_MISMATCH
-          - IR_CSI_SVC_DSC_CD_RP
-          - IR_CSI_SVC_DSC_CS_RP
-          - IR_CSI_SVC_DSC_LP_RP
-          - IR_CSI_SVC_DSC_RM_RP
-          - IR_CSI_SVC_EQUIPMENT_TEC
-          - IR_CSI_UBL_TO_CT_MER
-          - IR_DEATH
-          - IR_IN_BS_FEES_NT_CMP
-          - IR_IN_BS_FRN_CHSE_DI
-          - IR_IN_BS_RT_INC_LOW
-          - IR_IN_BS_R_INC_CS_F
-          - IR_IN_BS_SLD_BS_NEW
-          - IR_OUT_BUSINESS_CLOSE
-          - IR_PND_INFO_SLS_SUPT
-          - IR_SALES_REP_FRAUD
-          - IR_SEASONAL_MERCHANT
-          - LP_HI_RISK_AGENT_MISRPR
-          - LP_HI_RISK_CASH_ADV
-          - LP_HI_RISK_CLOSED_PR_WA
-          - LP_HI_RISK_CLS_BANK
-          - LP_HI_RISK_CNTRFT_PN
-          - LP_HI_RISK_CONTRACT_VIOLATION
-          - LP_HI_RISK_EXCESS_CHARGEBACK
-          - LP_HI_RISK_FACTOR_PEND
-          - LP_HI_RISK_ID_THEFT
-          - LP_HI_RISK_INACURATE_ME1
-          - LP_HI_RISK_INACURATE_ME2
-          - LP_HI_RISK_INACURATE_ME3
-          - LP_HI_RISK_MC_8_PCT_VIOLATION
-          - LP_HI_RISK_MER_INTRNE
-          - LP_HI_RISK_NO_ACTIVITY
-          - LP_HI_RISK_PENDING_INVESTMENT
-          - LP_HI_RISK_SECURITY_RISK
-          - LP_HI_RISK_STL_CD_FRAUD
-          - LP_HI_RISK_TMF_MATCH
-          - LP_SALES_REP_FRAUD
-          - MAPPED_AS_OPEN
-          - MEDICAL_RELATED
-          - MIGRATED_AGENT_BANK
-          - MIGRATED_OVER_6_MON
-          - NEVER_WANTED_ACCT
-          - NONE
-          - NOT_ACCEPT_MCVI
-          - NO_ACTIVITY_ON_ACCT
-          - NO_REASON
-          - OWNERSHIP_CHANGE
-          - PARTNERSHIP_SPLIT
-          - PAYMENT_NETWORK_UPDATED
-          - PCI_DSS_NON_COMPLIANT
-          - PER_MERCHANT_LETTER
-          - RATE_INCREASE_20XX
-          - RA_DBA_CONTRACT_VIOLATION
-          - RA_DBA_TEMP_CLOSED
-          - REASON_UNKNOWN
-          - REI
-          - SALES_REP_PROBLEM
-          - SERVICE_PROB_INV_REF
-          - SERVICE_PROB_STM_FUN
-          - SERVICE_PROB_TER_SYS
-          - SHOULB_BE_CLOSED
-          - SOLD_BUSINESS
-          - SYS_RECORD
-          - TERMINAL_COMPANY_PRDCT
-          - TERMINAL_COMPANY_SVC
-          - TEST_ACCT
-          - USE_DIFF_PROCESSOR
-        franchiseIndicator:
-          maxLength: 3
-          minLength: 3
-          type: string
-          description: Value that indicate the merchant is a franchise or not
-          enum:
-          - "YES"
-          - "NO"
-        seasonalIndicator:
-          maxLength: 3
-          minLength: 3
-          type: string
-          description: Value that indicate the merchat is a seasonal or not
-          enum:
-          - "YES"
-          - "NO"
-        salesmanCode:
-          maxLength: 7
-          minLength: 4
-          type: string
-          description: |-
-            Code that indicate the salesman associated with a merchant
-            > Note: The code list is available upon request only
-        relationshipMgrCode:
-          maxLength: 3
-          minLength: 3
-          type: string
-          description: Code that indicate a relationship manager who is responsible
-            for managing the merchant's account
-        markerBankCode:
-          maxLength: 10
-          minLength: 3
-          type: string
-          description: Code that indicate the bank associated with a maker or client
-        clearingBankCode:
-          maxLength: 3
-          minLength: 1
-          type: string
-          description: |-
-            Code to/that indicate the clearing bank associated with a merchant
-            > Note: The valid list is available on request only
-        businessStartDate:
-          type: string
-          description: Date on which the business was started
-          format: date
-          readOnly: true
-        pricingTypeCode:
-          maxLength: 100
-          minLength: 30
-          type: string
-          description: Code that indicate the pricing type for interchange calculations
-          enum:
-          - ACCT_FUNDING
-          - AUTOMATED_FULEL_DISP
-          - B2B_PURC_CARD
-          - B2B_PUR_CARD_LEVEL3
-          - BAR_CATERER_MOTO
-          - BAR_CATERER_RETAIL
-          - CAR
-          - CAR_RENTAL_CNP
-          - CASH_ADV
-          - CHARITY
-          - COMM_B2B_TAX_EXMP
-          - COMM_CNP_TAX_EXMP
-          - COMM_RETAL_TAX_EXMP
-          - CONV_STORES
-          - COURT_FINES_GOVT_SERV
-          - DC_ACCT_FUNDING
-          - DC_AOTOMATED_FUEL_DISP
-          - DC_CAR
-          - DC_CHARITY
-          - DC_CONV_STORES
-          - DC_COURT_FINE_GOVT_SERVICE
-          - DC_ECOMM_BASIC
-          - DC_ECOMM_PREF
-          - DC_EMERGING_MARKET_GOVT_EDU
-          - DC_EMERGIN_MKT
-          - DC_FILL_UCAF
-          - DC_HOTEL
-          - DC_INS
-          - DC_MOTO
-          - DC_MOTO_NON_AVS
-          - DC_PUBLIC_SECTOR
-          - DC_QSR_THTR_TAXI_LIMO
-          - DC_RESTAURANT
-          - DC_RETAIL
-          - DC_RETAIL_2
-          - DC_RETAIL_OR_SMT
-          - DC_SERVICE_STATION
-          - DC_SMT
-          - DC_SUPERMARKET
-          - DC_UTILITY
-          - DEC_RETAIL_KE
-          - DEFAULT
-          - ECOMM_BASIC
-          - ECOMM_PREF
-          - EDUCATIONAL_MOTO
-          - EDUCATIONAL_RETAIL
-          - EDUCATION_MOTO
-          - EDU_MOTO
-          - EDU_RETAIL
-          - EMERGING_MARKET
-          - EMERGING_MKT_GOVT_EDU
-          - EPS_QPS_NO_AUTH
-          - FUEL_DISP
-          - FULL_UCAF
-          - GU_ECOMM
-          - GU_MOTO
-          - GU_RETAIL
-          - HC_MOTO
-          - HC_RETAIL
-          - HOTEL
-          - HOTEL_CARRENTAL
-          - INSURANCE
-          - INTERNET
-          - MERIT_1_DAYCARE
-          - MOTO
-          - MOTO_NO_AVS
-          - PAPER
-          - PR_EMERGING_MKT
-          - PR_MOTO
-          - PR_PETRO_AFD
-          - PR_PETRO_SVC_STATION
-          - PR_RETAIL
-          - PR_SUPERMARKET
-          - PR_T&E_CNP
-          - PR_T&E_CP
-          - PUBLIC_SECTOR
-          - QSR_THEATER_SMT
-          - QSR_THEATER_TAXI_LIMO
-          - RECR_BILL_PAY
-          - RESTAURANT
-          - RETAIL
-          - RETAIL_2
-          - RETAIL_KEY_ENTRY1
-          - RETAIL_KEY_ENTRY2
-          - RETAIL_OR_SMT
-          - RG_ACCT_FUNDING
-          - RG_AUTOMATED_FUEL_DISP
-          - RG_B2B_PRCH_CARD
-          - RG_B2B_PRCH_CARD_LEVEL3
-          - RG_CAR
-          - RG_CASH_ADV
-          - RG_CHARITY
-          - RG_COMM_B2B_TAX_EXMP
-          - RG_COMM_CNP_TAX_EXMP
-          - RG_CONV_STORE
-          - RG_COURT_FINE_GOVT_SERV
-          - RG_DC_ACCT_FUNDING
-          - RG_DC_AUTO_FUEL_DISP
-          - RG_DC_CAR
-          - RG_DC_CONV_STORE
-          - RG_DC_COURT_FINE_GOVT_SERV
-          - RG_DC_ECOMM_BASIC
-          - RG_DC_ECOMM_PREF
-          - RG_DC_EMERGING_MARKET
-          - RG_DC_FULL_UCAF
-          - RG_DC_HOTEL
-          - RG_DC_INS
-          - RG_DC_MOTO
-          - RG_DC_MOTO_NON_AVS
-          - RG_DC_PUBLIC_SECTOR
-          - RG_DC_QSR_THTR_TAXI_LIMO
-          - RG_DC_REST_OR_FAST_FOOD
-          - RG_DC_RETAIL
-          - RG_DC_RETAIL_2
-          - RG_DC_RETAIL_KEY_ENTRY
-          - RG_DC_RETAIL_OR_SMT
-          - RG_DC_SERVICE_STATIONS
-          - RG_DC_SMT
-          - RG_DC_SUPERMARKET
-          - RG_DC_UTILITY
-          - RG_ECOMM_BASIC
-          - RG_ECOMM_PREF
-          - RG_EMERGING_MARKET
-          - RG_FULL_UCAF
-          - RG_HOTEL
-          - RG_INS
-          - RG_MOTO
-          - RG_MOTO_NON_AVS
-          - RG_PAPER
-          - RG_PUBLIC_SECTOR
-          - RG_QSR_THTR_TAXI_LIMO
-          - RG_REATIL_OR_SMT
-          - RG_REST_OR_FAST_FOOD
-          - RG_RETAIL
-          - RG_RETAIL_2
-          - RG_RETAIL_KEY_ENTRY
-          - RG_SERVICE_STATIONS
-          - RG_SMT
-          - RG_SUPERMARKET
-          - RG_UTILITY
-          - RH_COMM_RETAIL_TAX_EXMP
-          - SERVICE_STATION
-          - SMALL_TICKET
-          - SUPERMARKET
-          - T&E_MOTO
-          - T&E_RETAIL
-          - UTILITY
-          - VI_ECOMM
-          - VI_MOTO
-          - VI_RETAIL
-        taxIdTypeCode:
-          maxLength: 7
-          minLength: 3
-          type: string
-          description: Code that indicate the type of tax identifier
-          enum:
-          - EIN
-          - REFUSED
-          - SSN
-          - OTHER
-        taxId:
-          maxLength: 9
-          type: string
-          description: Unique identifier of the merchant tax
-        intlTaxExemptIndicator:
-          maxLength: 3
-          minLength: 2
-          type: string
-          description: Value that indicate the international tax exempt is applicable
-            to North MSIP
-          enum:
-          - "YES"
-          - "NO"
-        annualCardAmount:
-          type: number
-          description: Amount of the annual card in decimal format
-          readOnly: true
-        businessTimeZone:
-          type: string
-          readOnly: true
-        languageCode:
-          maxLength: 10
-          minLength: 3
-          type: string
-          description: Code that indicate the language for communication with the
-            merchant
-        multiCurrencyIndicator:
-          maxLength: 18
-          minLength: 3
-          type: string
-          description: Value that indicate whether a merchant conducts currency conversion
-            at the point of sale
-          enum:
-          - CURR_CONV
-          - DCC_GMA
-          - FOREIGN_PROCESSING
-          - INDIA
-          - GLOBAL_EPRICING
-          - NO_CURR_CONV
-          - TAI
-        owners:
-          type: array
-          items:
-            $ref: '#/components/schemas/Owner'
-        addresses:
-          type: array
-          items:
-            $ref: '#/components/schemas/Address'
-        products:
-          $ref: '#/components/schemas/MerchantProduct'
-        merchantAttributes:
-          type: object
-          additionalProperties:
-            type: object
-            description: |2
-                Will contain one or more attributes in the format shown below
-                > For additional information refer to
-                <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a> /
-                <a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a>
-                attributes definition
-                ```
-                {
-                  "domain#1": {
-                    "domainDescription": "domain #1 description",
-                    "attribute#1": {
-                      "attributeDescription": "attribute description",
-                      "values": [ "some value" ]
-                    },
-                    "attribute#2": {
-                      "attributeDescription": "attribute description",
-                      "values": [ "some value" ]
-                    }
-                  },
-                  "domain#2": {
-                    "domainDescription": "domain #2 description",
-                    "attribute#1": {
-                      "attributeDescription": "attribute description",
-                      "values": [ "some value" ]
-                    }
-                  }
-                }
-                ```
-          description: |2
-              Will contain one or more attributes in the format shown below
-              > For additional information refer to
-              <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a> /
-              <a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a>
-              attributes definition
-              ```
-              {
-                "domain#1": {
-                  "domainDescription": "domain #1 description",
-                  "attribute#1": {
-                    "attributeDescription": "attribute description",
-                    "values": [ "some value" ]
-                  },
-                  "attribute#2": {
-                    "attributeDescription": "attribute description",
-                    "values": [ "some value" ]
-                  }
-                },
-                "domain#2": {
-                  "domainDescription": "domain #2 description",
-                  "attribute#1": {
-                    "attributeDescription": "attribute description",
-                    "values": [ "some value" ]
-                  }
-                }
-              }
-              ```
-        merchantBusinessInformation:
-          $ref: '#/components/schemas/MerchantBusinessInformation'
-        merchantHierarchies:
-          type: array
-          items:
-            $ref: '#/components/schemas/MerchantHierarchies'
-        merchantXrefs:
-          type: array
-          items:
-            $ref: '#/components/schemas/MerchantXref'
-        merchantAccounts:
-          type: array
-          items:
-            $ref: '#/components/schemas/MerchantAccount'
-        merchantIrsDetails:
-          $ref: '#/components/schemas/MerchantIrsTax'
-        subPlatformCode:
-          maxLength: 22
-          minLength: 3
-          type: string
-          description: Code that indicate the alliance pratform
-          enum:
-          - BANK_OF_HAWAII
-          - CORE_BUSINESS_RULES
-          - FISERV_BAMS
-          - FISERV_BANK_OF_AMERICA
-          - FISERV_CHASE
-          - HUNTINGTON
-          - IPAYMENT
-          - MSIP
-          - NOVUS
-          - PNC
-          - RSA_PLATFORM_S
-          - RSA_PLATFORM_T
-          - SANTANDER
-          - SUNTRUST_ONE
-          - SUNTRUST_THREE
-          - SUNTRUST_TWO
-          - WALMART
-          - WELLS_EAST
-          - WELLS_WEST
-        corporateName:
-          maxLength: 24
-          minLength: 10
-          type: string
-          description: Official name of the merchant as it appears in legal and corporate
-            documents
     MerchantAccount:
       type: object
       properties:
@@ -1844,390 +1478,31 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Product'
-    MerchantXref:
-      type: object
-      properties:
-        xrefPlatformMid:
-          maxLength: 50
-          minLength: 12
-          type: string
-          description: Unique identifier assigned to a merchant
-        xrefPlatformCode:
-          type: string
-          description: Indicates the usage status or validity of a cross-reference
-            record associated with the merchant
-        primarySecurityCode:
-          type: string
-          description: Primary security code assigned to a valid front end network
-        alliancePlatformCode:
-          type: string
-          description: Code that indicates the alliance pratform
-        xrefCorrespondenceIndicator:
-          maxLength: 50
-          minLength: 2
-          type: string
-          description: Indicates whether the merchants and communications utilize
-            the associated cross-reference number
-    Owner:
-      type: object
-      properties:
-        ownerSeqCode:
-          type: string
-          description: Sequesnce number of the principal owner associated with the
-            business
-        firstName:
-          maxLength: 100
-          minLength: 3
-          type: string
-          description: Legal first name of the principal owner of the business
-        middleName:
-          maxLength: 100
-          minLength: 1
-          type: string
-          description: Legal middle name of the principal owner of the business
-        lastName:
-          maxLength: 100
-          minLength: 3
-          type: string
-          description: Legal last name of the principal owner of the business
-        title:
-          maxLength: 80
-          minLength: 3
-          type: string
-          description: Professional or honorary title of the principal owner of the
-            business
-        address1Text:
-          maxLength: 150
-          minLength: 3
-          type: string
-          description: "First line of the merchant's physical address. Typically building\
-            \ number, street name and any additional relevant address details"
-        address2Text:
-          maxLength: 150
-          minLength: 3
-          type: string
-          description: Second line of the merchant's physical address. Captures additional
-            details that complement the first line
-        address3Text:
-          type: string
-          description: Third line of the merchant's physical address for additional
-            address details
-        address4Text:
-          type: string
-          description: Fourth line of the merchant's physical address for additional
-            address details
-        address5Text:
-          type: string
-          description: Fifth line of the merchant's physical address for additional
-            address details
-        city:
-          maxLength: 100
-          minLength: 2
-          type: string
-          description: Name of the city where the merchant is located
-        stateCode:
-          maxLength: 10
-          minLength: 3
-          type: string
-          description: State code for US or Canada where the merchant is located
-        countryCode:
-          maxLength: 10
-          minLength: 3
-          type: string
-          description: Country code for where the merchant is located
-        postalCode:
-          maxLength: 20
-          minLength: 5
-          type: string
-          description: Postal code where the merchant is located
-        countyCode:
-          type: string
-          description: County code where the merchant is located
-          readOnly: true
-        countyName:
-          type: string
-          description: County Name where the merchant is located
-          readOnly: true
-        mobile:
-          maxLength: 15
-          minLength: 10
-          type: string
-          description: Mobile number of the principal owner of the business
-        fax:
-          type: string
-        signerIndicator:
-          maxLength: 1
-          minLength: 1
-          type: string
-          description: Indicates if the principal owner of the business is the authorized
-            signer for financial and legal agreements or not
-          enum:
-          - "YES"
-          - "NO"
-        guarantorIndicator:
-          maxLength: 1
-          minLength: 1
-          type: string
-          description: Indicates whether there is a designated guarantor associated
-            for financial obligations of a merchant
-          enum:
-          - "YES"
-          - "NO"
-        birthDate:
-          maxLength: 10
-          minLength: 10
-          type: string
-          description: Indicates the birth date of the principal owner of the business
-          format: date
-        yearsAtAddress:
-          maxLength: 3
-          minLength: 1
-          type: integer
-          description: Number of years the principal owner has been residing at their
-            current address
-          format: int64
-        emailAddress:
-          type: string
-          description: E-mail address of the merchant
-          readOnly: true
-        ownershipPercent:
-          maxLength: 3
-          minLength: 1
-          type: integer
-          description: Indicates the percentage of ownership held by a particular
-            individual or entity in the business
-          format: int32
-        mobileValidationStatus:
-          maxLength: 15
-          minLength: 15
-          type: string
-          description: Displays the status of mobile number for the principal owner
-        mobileValidationSourceCode:
-          maxLength: 50
-          minLength: 15
-          type: string
-          description: Code to identify the status of the mobile number for the principal
-            owner
-        mobileValidationDate:
-          maxLength: 10
-          minLength: 10
-          type: string
-          description: Indicates the date when the mobile number for the principal
-            owner was last validated
-          format: date
-        ownerIdentificationDetails:
-          type: array
-          items:
-            $ref: '#/components/schemas/OwnerIdentification'
-        phoneNumber:
-          maxLength: 15
-          minLength: 10
-          type: string
-          description: Phone number of the principal owner of the business
-    OwnerIdentification:
-      type: object
-      properties:
-        identityDocTypeCode:
-          type: string
-          description: Type of tax identification document provided by the merchant
-            for verification purposes
-          readOnly: true
-        identityDocNumber:
-          maxLength: 50
-          minLength: 50
-          type: string
-          description: Unique number associated with an official identity document
-            provided by the merchant
-    Product:
-      type: object
-      properties:
-        productCode:
-          type: string
-          description: Code that indicate the brand entitlement of the product
-        subCategory:
-          type: string
-        productShortDesc:
-          type: string
-        productLongDesc:
-          type: string
-        lineNumber:
-          type: integer
-          format: int64
-        parentLineNumber:
-          type: integer
-          format: int64
-        quantity:
-          type: integer
-          format: int64
-        feeTableId:
-          maxLength: 10
-          minLength: 10
-          type: string
-          description: Unique identifier of pricing grid assigned to a merchant
-        isActive:
-          type: string
-          description: Applicable for `OMNIPAY26`
-          x-not-for-north: "true"
-        uniqueIdentifier:
-          type: string
-        uniqueId:
-          type: string
-        equipmentId:
-          type: string
-        purchaseType:
-          type: string
-        wholesaleCharge:
-          type: number
-        retailCharge:
-          type: number
-        terminalFrontEnds:
-          type: array
-          items:
-            $ref: '#/components/schemas/ProductEquipmentTerminalFrontEndsRes'
-        attributes:
-          type: object
-          additionalProperties:
-            type: object
-        productAssociation:
-          $ref: '#/components/schemas/ProductAssociation'
-        wholesaleAmountOrPercent:
-          maxLength: 11
-          minLength: 11
-          type: number
-          description: Applicable for `OMNIPAY26`
-          x-not-for-north: "true"
-        retailAmountOrPercent:
-          maxLength: 11
-          minLength: 11
-          type: number
-          description: Applicable for `OMNIPAY26`
-          x-not-for-north: "true"
-        feeTypeCode:
-          type: string
-        equipmentCategory:
-          type: string
-        parentEquipmentId:
-          type: string
-        serialNumber:
-          type: string
-        frontend:
-          type: string
-        terminalId:
-          type: string
-        frontendMid:
-          type: string
-        partNumber:
-          type: string
-        maintenanceCharge:
-          type: number
-        leaseTerm:
-          type: integer
-          format: int64
-        totalCost:
-          type: number
-    ProductAssociation:
-      type: object
-      properties:
-        category:
-          type: string
-        productCode:
-          type: string
-        description:
-          type: string
-    ProductEquipmentTerminalFrontEndsRes:
-      type: object
-      properties:
-        frontEnd:
-          type: string
-        terminalId:
-          type: string
-        frontEndMid:
-          type: string
-    ResponseSearchResponse:
-      type: object
-      properties:
-        data:
-          $ref: '#/components/schemas/SearchResponse'
-        errors:
-          type: array
-          items:
-            $ref: '#/components/schemas/Error'
-    SearchResponse:
-      type: object
-      properties:
-        searchResponses:
-          type: array
-          items:
-            $ref: '#/components/schemas/Merchant'
-        pageNumber:
-          type: integer
-          format: int32
-        pageSize:
-          type: integer
-          format: int64
-        totalCount:
-          type: integer
-          format: int64
-    InquiryRequest:
-      required:
-      - query
-      type: object
-      properties:
-        query:
-          type: string
-          description: |
-            Sample merchant inquiry query
-            ```
-            query inquiry {
-              getMerchant(
-                merchantId: "12345678901",
-                platformCode: NORTH
-              ) {
-                __typename ... on Merchant {
-                  merchantId
-                  platformCode
-                  dbaName
-                  addresses {
-                    addressTypeCode (
-                      filterByAddressType:[LOCATION]
-                    )
-                    contactName
-                    contactTitle
-                    address1Text
-                  }
-                }
-              }
-            }
-            ```
-      description: Merchant Inquiry Request
-    ResponseMerchant:
-      type: object
-      properties:
-        data:
-          $ref: '#/components/schemas/Merchant'
-        errors:
-          type: array
-          items:
-            $ref: '#/components/schemas/Error'
     MerchantUpdateSchema:
       required:
       - merchantId
       type: object
       properties:
         merchantId:
-          maxLength: 50
-          minLength: 7
           type: string
           description: |
             Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
             > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#base-properties">`NORTH`</a> /
-            <a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#base-properties">`OMNIPAY26`</a>
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm">`UMM`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north">`NORTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south">`SOUTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma">`GMA`</a>
             definition
         platformCode:
           type: string
-          description: Code to identify the specific backend platform. It adds the
-            required information for the merchant
+          description: |
+            Code to identify the specific backend platform. It adds the required information for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm-1">`UMM`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north-1">`NORTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south-1">`SOUTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma-1">`GMA`</a>
+            definition
           enum:
           - NORTH
           - OMAHA
@@ -2843,6 +2118,305 @@ components:
         \ this will be part of the graphql mutation query"
       nullable: true
       default: {}
+    MerchantXref:
+      type: object
+      properties:
+        xrefPlatformMid:
+          maxLength: 50
+          minLength: 12
+          type: string
+          description: Unique identifier assigned to a merchant
+        xrefPlatformCode:
+          type: string
+          description: Indicates the usage status or validity of a cross-reference
+            record associated with the merchant
+        primarySecurityCode:
+          type: string
+          description: Primary security code assigned to a valid front end network
+        alliancePlatformCode:
+          type: string
+          description: Code that indicates the alliance pratform
+        xrefCorrespondenceIndicator:
+          maxLength: 50
+          minLength: 2
+          type: string
+          description: Indicates whether the merchants and communications utilize
+            the associated cross-reference number
+    Owner:
+      type: object
+      properties:
+        ownerSeqCode:
+          type: string
+          description: Sequesnce number of the principal owner associated with the
+            business
+        firstName:
+          maxLength: 100
+          minLength: 3
+          type: string
+          description: Legal first name of the principal owner of the business
+        middleName:
+          maxLength: 100
+          minLength: 1
+          type: string
+          description: Legal middle name of the principal owner of the business
+        lastName:
+          maxLength: 100
+          minLength: 3
+          type: string
+          description: Legal last name of the principal owner of the business
+        title:
+          maxLength: 80
+          minLength: 3
+          type: string
+          description: Professional or honorary title of the principal owner of the
+            business
+        address1Text:
+          maxLength: 150
+          minLength: 3
+          type: string
+          description: "First line of the merchant's physical address. Typically building\
+            \ number, street name and any additional relevant address details"
+        address2Text:
+          maxLength: 150
+          minLength: 3
+          type: string
+          description: Second line of the merchant's physical address. Captures additional
+            details that complement the first line
+        address3Text:
+          type: string
+          description: Third line of the merchant's physical address for additional
+            address details
+        address4Text:
+          type: string
+          description: Fourth line of the merchant's physical address for additional
+            address details
+        address5Text:
+          type: string
+          description: Fifth line of the merchant's physical address for additional
+            address details
+        city:
+          maxLength: 100
+          minLength: 2
+          type: string
+          description: Name of the city where the merchant is located
+        stateCode:
+          maxLength: 10
+          minLength: 3
+          type: string
+          description: State code for US or Canada where the merchant is located
+        countryCode:
+          maxLength: 10
+          minLength: 3
+          type: string
+          description: Country code for where the merchant is located
+        postalCode:
+          maxLength: 20
+          minLength: 5
+          type: string
+          description: Postal code where the merchant is located
+        countyCode:
+          type: string
+          description: County code where the merchant is located
+          readOnly: true
+        countyName:
+          type: string
+          description: County Name where the merchant is located
+          readOnly: true
+        mobile:
+          maxLength: 15
+          minLength: 10
+          type: string
+          description: Mobile number of the principal owner of the business
+        fax:
+          type: string
+        signerIndicator:
+          maxLength: 1
+          minLength: 1
+          type: string
+          description: Indicates if the principal owner of the business is the authorized
+            signer for financial and legal agreements or not
+          enum:
+          - "YES"
+          - "NO"
+        guarantorIndicator:
+          maxLength: 1
+          minLength: 1
+          type: string
+          description: Indicates whether there is a designated guarantor associated
+            for financial obligations of a merchant
+          enum:
+          - "YES"
+          - "NO"
+        birthDate:
+          maxLength: 10
+          minLength: 10
+          type: string
+          description: Indicates the birth date of the principal owner of the business
+          format: date
+        yearsAtAddress:
+          maxLength: 3
+          minLength: 1
+          type: integer
+          description: Number of years the principal owner has been residing at their
+            current address
+          format: int64
+        emailAddress:
+          type: string
+          description: E-mail address of the merchant
+          readOnly: true
+        ownershipPercent:
+          maxLength: 3
+          minLength: 1
+          type: integer
+          description: Indicates the percentage of ownership held by a particular
+            individual or entity in the business
+          format: int32
+        mobileValidationStatus:
+          maxLength: 15
+          minLength: 15
+          type: string
+          description: Displays the status of mobile number for the principal owner
+        mobileValidationSourceCode:
+          maxLength: 50
+          minLength: 15
+          type: string
+          description: Code to identify the status of the mobile number for the principal
+            owner
+        mobileValidationDate:
+          maxLength: 10
+          minLength: 10
+          type: string
+          description: Indicates the date when the mobile number for the principal
+            owner was last validated
+          format: date
+        ownerIdentificationDetails:
+          type: array
+          items:
+            $ref: '#/components/schemas/OwnerIdentification'
+        phoneNumber:
+          maxLength: 15
+          minLength: 10
+          type: string
+          description: Phone number of the principal owner of the business
+    OwnerIdentification:
+      type: object
+      properties:
+        identityDocTypeCode:
+          type: string
+          description: Type of tax identification document provided by the merchant
+            for verification purposes
+          readOnly: true
+        identityDocNumber:
+          maxLength: 50
+          minLength: 50
+          type: string
+          description: Unique number associated with an official identity document
+            provided by the merchant
+    Product:
+      type: object
+      properties:
+        productCode:
+          type: string
+          description: Code that indicate the brand entitlement of the product
+        subCategory:
+          type: string
+        productShortDesc:
+          type: string
+        productLongDesc:
+          type: string
+        lineNumber:
+          type: integer
+          format: int64
+        parentLineNumber:
+          type: integer
+          format: int64
+        quantity:
+          type: integer
+          format: int64
+        feeTableId:
+          maxLength: 10
+          minLength: 10
+          type: string
+          description: Unique identifier of pricing grid assigned to a merchant
+        isActive:
+          type: string
+          description: Applicable for `OMNIPAY26`
+          x-not-for-north: "true"
+        uniqueIdentifier:
+          type: string
+        uniqueId:
+          type: string
+        equipmentId:
+          type: string
+        purchaseType:
+          type: string
+        wholesaleCharge:
+          type: number
+        retailCharge:
+          type: number
+        terminalFrontEnds:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductEquipmentTerminalFrontEndsRes'
+        attributes:
+          type: object
+          additionalProperties:
+            type: object
+        productAssociation:
+          $ref: '#/components/schemas/ProductAssociation'
+        wholesaleAmountOrPercent:
+          maxLength: 11
+          minLength: 11
+          type: number
+          description: Applicable for `OMNIPAY26`
+          x-not-for-north: "true"
+        retailAmountOrPercent:
+          maxLength: 11
+          minLength: 11
+          type: number
+          description: Applicable for `OMNIPAY26`
+          x-not-for-north: "true"
+        feeTypeCode:
+          type: string
+        equipmentCategory:
+          type: string
+        parentEquipmentId:
+          type: string
+        serialNumber:
+          type: string
+        frontend:
+          type: string
+        terminalId:
+          type: string
+        frontendMid:
+          type: string
+        partNumber:
+          type: string
+        maintenanceCharge:
+          type: number
+        leaseTerm:
+          type: integer
+          format: int64
+        totalCost:
+          type: number
+    ProductAssociation:
+      type: object
+      properties:
+        category:
+          type: string
+        productCode:
+          type: string
+        description:
+          type: string
+    ProductEquipmentTerminalFrontEndsRes:
+      type: object
+      properties:
+        frontEnd:
+          type: string
+        terminalId:
+          type: string
+        frontEndMid:
+          type: string
     UpdateMerchant:
       required:
       - query
@@ -2873,9 +2447,670 @@ components:
               }
             }
             ```
-        schema:
+        merchant:
           $ref: '#/components/schemas/MerchantUpdateSchema'
-    DeleteMerchant:
+    Merchant:
+      required:
+      - merchantId
+      - platformCode
+      type: object
+      properties:
+        merchantId:
+          type: string
+          description: |
+            Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm">`UMM`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north">`NORTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south">`SOUTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma">`GMA`</a>
+            definition
+        platformCode:
+          type: string
+          description: |
+            Code to identify the specific backend platform. It adds the required information for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm-1">`UMM`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north-1">`NORTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south-1">`SOUTH`</a> /
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma-1">`GMA`</a>
+            definition
+          enum:
+          - NORTH
+          - OMAHA
+          - SOUTH
+          - OMNIPAY26
+          - OMNIPAY21
+        setupIndicator:
+          type: string
+        dbaName:
+          maxLength: 40
+          minLength: 10
+          type: string
+          description: Official merchant name that the customer or authorities commonly
+            recognizes
+        legalName:
+          maxLength: 18
+          minLength: 6
+          type: string
+          description: |-
+            Legal or official name of a merchant that is registered with government tax authorities.
+            > Note: It must be entered exactly same as it apears in the legal tax documents for the merchant
+        businessUrl:
+          maxLength: 240
+          minLength: 34
+          type: string
+          description: |-
+            Official website address (URL) associated with the merchant.
+            > Note: The URL should be complete and accurate and it should start with the protocol (http:// or https://)
+        hierarchyLevelCode:
+          type: string
+          description: Unique identifier assigned to an outlet or a specific level
+            within a hierarchical structure of a merchant's business
+          readOnly: true
+        storeId:
+          maxLength: 10
+          minLength: 1
+          type: string
+          description: Unique identifier of the merchant's store
+        taxFilingName:
+          maxLength: 100
+          minLength: 20
+          type: string
+          description: Name that the merchant uses to file the taxes with the relevant
+            tax authorities
+        businessTypCode:
+          maxLength: 10
+          minLength: 6
+          type: string
+          description: |-
+            Code to/that indicate whether merchant can process payment in store or online
+            > Note: The following values indicate:
+            > - __MOTO_ECOMM__: Online payment method
+            > - __RETAIL__: In store payment method
+          enum:
+          - MOTO_ECOMM
+          - RETAIL
+        merchantCategoryCode:
+          maxLength: 4
+          minLength: 4
+          type: string
+          description: Code to/that indicate the type of business
+        standardIndustryClassCode:
+          maxLength: 4
+          minLength: 4
+          type: string
+          description: |-
+            Code to/that indicate the classification of MC/VISA standard industry
+            > Note: The code list is available upon request only
+        productsSold:
+          type: string
+          readOnly: true
+        statusCode:
+          maxLength: 18
+          minLength: 6
+          type: string
+          description: |-
+            Code that indicate the status of a merchant
+            > Example:
+            > - __PENDING__ : Pending Credit Approval
+            > - __CANCELLED_FRAUD__ : Cancelled Due to Fraud
+            > - __ACTIVE__ : Active - Monthly Stmt
+            > - __CANCELLED_CREDIT__ : Cancelled By Credit
+            > - __CANCELLED_MERCHANT__ : Cancelled By Merchant
+          enum:
+          - ACTIVE
+          - CANCELLED_CREDIT
+          - CANCELLED_FRAUD
+          - CANCELLED_MERCHANT
+          - PENDING
+        acctOpenDate:
+          type: string
+          description: |-
+            Date on which the merchant account was opened
+            > Note: It can include a time component if required
+          format: date
+        acctSubmitDate:
+          type: string
+          description: Date on which the account was submitted
+          format: date
+          readOnly: true
+        lastStatusChangedDate:
+          type: string
+          description: Date on which the last status of the merchant account was changed
+          format: date
+          readOnly: true
+        lastStatusCode:
+          maxLength: 18
+          minLength: 6
+          type: string
+          description: Code to indicate the last status of the merchant account before
+            a recent update
+        acctCloseDate:
+          type: string
+          description: Date on which the account was closed
+          format: date
+        closeReasonCode:
+          maxLength: 30
+          minLength: 3
+          type: string
+          description: Code to/that indicate the reason of merchant account closure
+          enum:
+          - 2009_PRICE_INCREASE
+          - BUSINESS_CLOSED
+          - CD_AG_SVC_SEASONAL_LOW
+          - CD_HI_RISK_BANKRUPTCY
+          - CD_IN_BS_AC_INACT_O
+          - CD_IN_BS_CHECKING
+          - CD_IN_BS_COLLECT_PR
+          - CD_IN_BS_IN_LITIGATION
+          - CD_IN_BS_NEW_OWNERSHIP
+          - CD_IN_BS_NO_PY_OF_R
+          - CD_IN_BS_RFS_TO_PY_C
+          - CD_IN_BS_XCS_STATEMENT_FEE
+          - CD_OUT_BS_AC_INACT_O
+          - CD_OUT_BS_CANT_CONTACT
+          - CD_OUT_BS_CHECKING_ACCT
+          - CD_OUT_BUSINESS_CLOSE
+          - CEASED_TRADING
+          - CHANGE_LEGAL_ENTITY_OR_OWNER
+          - CLOSED_COLL_NO_REOPEN
+          - CLOSED_CREDIT_NO_REOPEN
+          - COMPETITOR_FEES
+          - COMPETITOR_NEW_PRDCT
+          - COMPETITOR_SERVICE
+          - COMPETITR_PROPSITION
+          - CUST_SERVICE
+          - DATA_CLEANUP
+          - DDA_ACCT_CLOSED
+          - DEROGATORY
+          - DISSATISFIED_WITH_FEES
+          - DOESNOT_MEET_SETTLEMENT_REQ
+          - DONT_REOPEN_CONVERTED
+          - DORMANCY
+          - DUPLICATE_ACCT
+          - END_OF_TERM
+          - FRAUD_OR_BAD_DEBIT
+          - IR2005_PRICE_INCREASE
+          - IR_AGENT_CONVERSATION_DAILY
+          - IR_AGENT_EQUIPMENT_NT_COMPAT
+          - IR_AGENT_INSTALL_DAILY
+          - IR_AGENT_SERVICE_DEFAULTED_ON
+          - IR_AGENT_STY_W_CUR_PRC
+          - IR_AGENT_SVC_LEAS_DESC
+          - IR_AGENT_SVC_MISREP_APP
+          - IR_AGENT_SVC_MISREP_FEE
+          - IR_AGENT_SVC_NON_INSTL
+          - IR_AGENT_SVC_TMP_CLOSR
+          - IR_AGT_SERVICE_AGENT_FRAUD
+          - IR_AVG_SV_REFUS_INST
+          - IR_CSI_BANKRUPTCY
+          - IR_CSI_CHK_GUAR_DECLINE
+          - IR_CSI_LOST_OR_STOLEN_TERMINAL
+          - IR_CSI_POOR_SERVICE
+          - IR_CSI_SS_NUM_MISMATCH
+          - IR_CSI_SVC_DSC_CD_RP
+          - IR_CSI_SVC_DSC_CS_RP
+          - IR_CSI_SVC_DSC_LP_RP
+          - IR_CSI_SVC_DSC_RM_RP
+          - IR_CSI_SVC_EQUIPMENT_TEC
+          - IR_CSI_UBL_TO_CT_MER
+          - IR_DEATH
+          - IR_IN_BS_FEES_NT_CMP
+          - IR_IN_BS_FRN_CHSE_DI
+          - IR_IN_BS_RT_INC_LOW
+          - IR_IN_BS_R_INC_CS_F
+          - IR_IN_BS_SLD_BS_NEW
+          - IR_OUT_BUSINESS_CLOSE
+          - IR_PND_INFO_SLS_SUPT
+          - IR_SALES_REP_FRAUD
+          - IR_SEASONAL_MERCHANT
+          - LP_HI_RISK_AGENT_MISRPR
+          - LP_HI_RISK_CASH_ADV
+          - LP_HI_RISK_CLOSED_PR_WA
+          - LP_HI_RISK_CLS_BANK
+          - LP_HI_RISK_CNTRFT_PN
+          - LP_HI_RISK_CONTRACT_VIOLATION
+          - LP_HI_RISK_EXCESS_CHARGEBACK
+          - LP_HI_RISK_FACTOR_PEND
+          - LP_HI_RISK_ID_THEFT
+          - LP_HI_RISK_INACURATE_ME1
+          - LP_HI_RISK_INACURATE_ME2
+          - LP_HI_RISK_INACURATE_ME3
+          - LP_HI_RISK_MC_8_PCT_VIOLATION
+          - LP_HI_RISK_MER_INTRNE
+          - LP_HI_RISK_NO_ACTIVITY
+          - LP_HI_RISK_PENDING_INVESTMENT
+          - LP_HI_RISK_SECURITY_RISK
+          - LP_HI_RISK_STL_CD_FRAUD
+          - LP_HI_RISK_TMF_MATCH
+          - LP_SALES_REP_FRAUD
+          - MAPPED_AS_OPEN
+          - MEDICAL_RELATED
+          - MIGRATED_AGENT_BANK
+          - MIGRATED_OVER_6_MON
+          - NEVER_WANTED_ACCT
+          - NONE
+          - NOT_ACCEPT_MCVI
+          - NO_ACTIVITY_ON_ACCT
+          - NO_REASON
+          - OWNERSHIP_CHANGE
+          - PARTNERSHIP_SPLIT
+          - PAYMENT_NETWORK_UPDATED
+          - PCI_DSS_NON_COMPLIANT
+          - PER_MERCHANT_LETTER
+          - RATE_INCREASE_20XX
+          - RA_DBA_CONTRACT_VIOLATION
+          - RA_DBA_TEMP_CLOSED
+          - REASON_UNKNOWN
+          - REI
+          - SALES_REP_PROBLEM
+          - SERVICE_PROB_INV_REF
+          - SERVICE_PROB_STM_FUN
+          - SERVICE_PROB_TER_SYS
+          - SHOULB_BE_CLOSED
+          - SOLD_BUSINESS
+          - SYS_RECORD
+          - TERMINAL_COMPANY_PRDCT
+          - TERMINAL_COMPANY_SVC
+          - TEST_ACCT
+          - USE_DIFF_PROCESSOR
+        franchiseIndicator:
+          maxLength: 3
+          minLength: 3
+          type: string
+          description: Value that indicate the merchant is a franchise or not
+          enum:
+          - "YES"
+          - "NO"
+        seasonalIndicator:
+          maxLength: 3
+          minLength: 3
+          type: string
+          description: Value that indicate the merchat is a seasonal or not
+          enum:
+          - "YES"
+          - "NO"
+        salesmanCode:
+          maxLength: 7
+          minLength: 4
+          type: string
+          description: |-
+            Code that indicate the salesman associated with a merchant
+            > Note: The code list is available upon request only
+        relationshipMgrCode:
+          maxLength: 3
+          minLength: 3
+          type: string
+          description: Code that indicate a relationship manager who is responsible
+            for managing the merchant's account
+        markerBankCode:
+          maxLength: 10
+          minLength: 3
+          type: string
+          description: Code that indicate the bank associated with a maker or client
+        clearingBankCode:
+          maxLength: 3
+          minLength: 1
+          type: string
+          description: |-
+            Code to/that indicate the clearing bank associated with a merchant
+            > Note: The valid list is available on request only
+        businessStartDate:
+          type: string
+          description: Date on which the business was started
+          format: date
+          readOnly: true
+        pricingTypeCode:
+          maxLength: 100
+          minLength: 30
+          type: string
+          description: Code that indicate the pricing type for interchange calculations
+          enum:
+          - ACCT_FUNDING
+          - AUTOMATED_FULEL_DISP
+          - B2B_PURC_CARD
+          - B2B_PUR_CARD_LEVEL3
+          - BAR_CATERER_MOTO
+          - BAR_CATERER_RETAIL
+          - CAR
+          - CAR_RENTAL_CNP
+          - CASH_ADV
+          - CHARITY
+          - COMM_B2B_TAX_EXMP
+          - COMM_CNP_TAX_EXMP
+          - COMM_RETAL_TAX_EXMP
+          - CONV_STORES
+          - COURT_FINES_GOVT_SERV
+          - DC_ACCT_FUNDING
+          - DC_AOTOMATED_FUEL_DISP
+          - DC_CAR
+          - DC_CHARITY
+          - DC_CONV_STORES
+          - DC_COURT_FINE_GOVT_SERVICE
+          - DC_ECOMM_BASIC
+          - DC_ECOMM_PREF
+          - DC_EMERGING_MARKET_GOVT_EDU
+          - DC_EMERGIN_MKT
+          - DC_FILL_UCAF
+          - DC_HOTEL
+          - DC_INS
+          - DC_MOTO
+          - DC_MOTO_NON_AVS
+          - DC_PUBLIC_SECTOR
+          - DC_QSR_THTR_TAXI_LIMO
+          - DC_RESTAURANT
+          - DC_RETAIL
+          - DC_RETAIL_2
+          - DC_RETAIL_OR_SMT
+          - DC_SERVICE_STATION
+          - DC_SMT
+          - DC_SUPERMARKET
+          - DC_UTILITY
+          - DEC_RETAIL_KE
+          - DEFAULT
+          - ECOMM_BASIC
+          - ECOMM_PREF
+          - EDUCATIONAL_MOTO
+          - EDUCATIONAL_RETAIL
+          - EDUCATION_MOTO
+          - EDU_MOTO
+          - EDU_RETAIL
+          - EMERGING_MARKET
+          - EMERGING_MKT_GOVT_EDU
+          - EPS_QPS_NO_AUTH
+          - FUEL_DISP
+          - FULL_UCAF
+          - GU_ECOMM
+          - GU_MOTO
+          - GU_RETAIL
+          - HC_MOTO
+          - HC_RETAIL
+          - HOTEL
+          - HOTEL_CARRENTAL
+          - INSURANCE
+          - INTERNET
+          - MERIT_1_DAYCARE
+          - MOTO
+          - MOTO_NO_AVS
+          - PAPER
+          - PR_EMERGING_MKT
+          - PR_MOTO
+          - PR_PETRO_AFD
+          - PR_PETRO_SVC_STATION
+          - PR_RETAIL
+          - PR_SUPERMARKET
+          - PR_T&E_CNP
+          - PR_T&E_CP
+          - PUBLIC_SECTOR
+          - QSR_THEATER_SMT
+          - QSR_THEATER_TAXI_LIMO
+          - RECR_BILL_PAY
+          - RESTAURANT
+          - RETAIL
+          - RETAIL_2
+          - RETAIL_KEY_ENTRY1
+          - RETAIL_KEY_ENTRY2
+          - RETAIL_OR_SMT
+          - RG_ACCT_FUNDING
+          - RG_AUTOMATED_FUEL_DISP
+          - RG_B2B_PRCH_CARD
+          - RG_B2B_PRCH_CARD_LEVEL3
+          - RG_CAR
+          - RG_CASH_ADV
+          - RG_CHARITY
+          - RG_COMM_B2B_TAX_EXMP
+          - RG_COMM_CNP_TAX_EXMP
+          - RG_CONV_STORE
+          - RG_COURT_FINE_GOVT_SERV
+          - RG_DC_ACCT_FUNDING
+          - RG_DC_AUTO_FUEL_DISP
+          - RG_DC_CAR
+          - RG_DC_CONV_STORE
+          - RG_DC_COURT_FINE_GOVT_SERV
+          - RG_DC_ECOMM_BASIC
+          - RG_DC_ECOMM_PREF
+          - RG_DC_EMERGING_MARKET
+          - RG_DC_FULL_UCAF
+          - RG_DC_HOTEL
+          - RG_DC_INS
+          - RG_DC_MOTO
+          - RG_DC_MOTO_NON_AVS
+          - RG_DC_PUBLIC_SECTOR
+          - RG_DC_QSR_THTR_TAXI_LIMO
+          - RG_DC_REST_OR_FAST_FOOD
+          - RG_DC_RETAIL
+          - RG_DC_RETAIL_2
+          - RG_DC_RETAIL_KEY_ENTRY
+          - RG_DC_RETAIL_OR_SMT
+          - RG_DC_SERVICE_STATIONS
+          - RG_DC_SMT
+          - RG_DC_SUPERMARKET
+          - RG_DC_UTILITY
+          - RG_ECOMM_BASIC
+          - RG_ECOMM_PREF
+          - RG_EMERGING_MARKET
+          - RG_FULL_UCAF
+          - RG_HOTEL
+          - RG_INS
+          - RG_MOTO
+          - RG_MOTO_NON_AVS
+          - RG_PAPER
+          - RG_PUBLIC_SECTOR
+          - RG_QSR_THTR_TAXI_LIMO
+          - RG_REATIL_OR_SMT
+          - RG_REST_OR_FAST_FOOD
+          - RG_RETAIL
+          - RG_RETAIL_2
+          - RG_RETAIL_KEY_ENTRY
+          - RG_SERVICE_STATIONS
+          - RG_SMT
+          - RG_SUPERMARKET
+          - RG_UTILITY
+          - RH_COMM_RETAIL_TAX_EXMP
+          - SERVICE_STATION
+          - SMALL_TICKET
+          - SUPERMARKET
+          - T&E_MOTO
+          - T&E_RETAIL
+          - UTILITY
+          - VI_ECOMM
+          - VI_MOTO
+          - VI_RETAIL
+        taxIdTypeCode:
+          maxLength: 7
+          minLength: 3
+          type: string
+          description: Code that indicate the type of tax identifier
+          enum:
+          - EIN
+          - REFUSED
+          - SSN
+          - OTHER
+        taxId:
+          maxLength: 9
+          type: string
+          description: Unique identifier of the merchant tax
+        intlTaxExemptIndicator:
+          maxLength: 3
+          minLength: 2
+          type: string
+          description: Value that indicate the international tax exempt is applicable
+            to North MSIP
+          enum:
+          - "YES"
+          - "NO"
+        annualCardAmount:
+          type: number
+          description: Amount of the annual card in decimal format
+          readOnly: true
+        businessTimeZone:
+          type: string
+          readOnly: true
+        languageCode:
+          maxLength: 10
+          minLength: 3
+          type: string
+          description: Code that indicate the language for communication with the
+            merchant
+        multiCurrencyIndicator:
+          maxLength: 18
+          minLength: 3
+          type: string
+          description: Value that indicate whether a merchant conducts currency conversion
+            at the point of sale
+          enum:
+          - CURR_CONV
+          - DCC_GMA
+          - FOREIGN_PROCESSING
+          - INDIA
+          - GLOBAL_EPRICING
+          - NO_CURR_CONV
+          - TAI
+        owners:
+          type: array
+          items:
+            $ref: '#/components/schemas/Owner'
+        addresses:
+          type: array
+          items:
+            $ref: '#/components/schemas/Address'
+        products:
+          $ref: '#/components/schemas/MerchantProduct'
+        merchantAttributes:
+          type: object
+          additionalProperties:
+            type: object
+            description: |2
+                Will contain one or more attributes in the format shown below
+                > For additional information refer to
+                <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a> /
+                <a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a>
+                attributes definition
+                ```
+                {
+                  "domain#1": {
+                    "domainDescription": "domain #1 description",
+                    "attribute#1": {
+                      "attributeDescription": "attribute description",
+                      "values": [ "some value" ]
+                    },
+                    "attribute#2": {
+                      "attributeDescription": "attribute description",
+                      "values": [ "some value" ]
+                    }
+                  },
+                  "domain#2": {
+                    "domainDescription": "domain #2 description",
+                    "attribute#1": {
+                      "attributeDescription": "attribute description",
+                      "values": [ "some value" ]
+                    }
+                  }
+                }
+                ```
+          description: |2
+              Will contain one or more attributes in the format shown below
+              > For additional information refer to
+              <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a> /
+              <a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a>
+              attributes definition
+              ```
+              {
+                "domain#1": {
+                  "domainDescription": "domain #1 description",
+                  "attribute#1": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  }
+                },
+                "domain#2": {
+                  "domainDescription": "domain #2 description",
+                  "attribute#1": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+        merchantBusinessInformation:
+          $ref: '#/components/schemas/MerchantBusinessInformation'
+        merchantHierarchies:
+          type: array
+          items:
+            $ref: '#/components/schemas/MerchantHierarchies'
+        merchantXrefs:
+          type: array
+          items:
+            $ref: '#/components/schemas/MerchantXref'
+        merchantAccounts:
+          type: array
+          items:
+            $ref: '#/components/schemas/MerchantAccount'
+        merchantIrsDetails:
+          $ref: '#/components/schemas/MerchantIrsTax'
+        subPlatformCode:
+          maxLength: 22
+          minLength: 3
+          type: string
+          description: Code that indicate the alliance pratform
+          enum:
+          - BANK_OF_HAWAII
+          - CORE_BUSINESS_RULES
+          - FISERV_BAMS
+          - FISERV_BANK_OF_AMERICA
+          - FISERV_CHASE
+          - HUNTINGTON
+          - IPAYMENT
+          - MSIP
+          - NOVUS
+          - PNC
+          - RSA_PLATFORM_S
+          - RSA_PLATFORM_T
+          - SANTANDER
+          - SUNTRUST_ONE
+          - SUNTRUST_THREE
+          - SUNTRUST_TWO
+          - WALMART
+          - WELLS_EAST
+          - WELLS_WEST
+        corporateName:
+          maxLength: 24
+          minLength: 10
+          type: string
+          description: Official name of the merchant as it appears in legal and corporate
+            documents
+    ResponseMerchant:
+      type: object
+      properties:
+        data:
+          $ref: '#/components/schemas/Merchant'
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/Error'
+    SearchCriteriaInput:
+      type: object
+      properties:
+        criteriaName:
+          type: string
+          enum:
+          - taxId
+          - dbaName
+          - legalName
+          - hierarchyLevelMid
+          - taxIdEncrypted
+        criteriaValue:
+          type: string
+      description: "> 🚫 This is for reference, **not** required in request body;\
+        \ this will be part of the graphql inquiry query"
+      nullable: true
+      default: {}
+    SearchRequest:
       required:
       - query
       type: object
@@ -2883,269 +3118,87 @@ components:
         query:
           type: string
           description: |
-            This API can be used to delete specific Merchant information like
-            Owner, Xref etc. and is not meant to delete the actual merchant information.
-            Refer to the attached schema to identify the deletable information
-
-            Sample merchant delete mutation query
+            Sample merchant search query
             ```
+            query inquiry {
+              search(
+                pageNumber: 1
+                platformCode: NORTH
+                searchCriteria: {
+                  criteriaName: legalName,
+                  criteriaValue: "TEST"
+                }
+              ) {
+                __typename ... on SearchResponse {
+                  pageNumber
+                  pageSize
+                  totalCount
+                  searchResponses {
+                    merchantId
+                    dbaName
+                    legalName
+                  }
+                }
+              }
+            }
             ```
-        schema:
-          $ref: '#/components/schemas/MerchantDeleteSchema'
-    MerchantAccountDelete:
-      type: object
-      properties:
-        accountUsageCode:
-          type: string
-          description: Unique identifier assigned to a checking or current account.
-            It distinguishs one account from another within a financial institution
-          enum:
-          - FUNDING
-          - LEASING
-          - VISA_PAR_PAYABLE
-          - VISA_PAR_RECEIVABLE
-          - MC_PAR_PAYABLE
-          - MC_PAR_RECEIVABLE
-          - AMEX_ADJUSTMENTS_PAYABLE
-          - AMEX_ADJUSTMENTS_RECEIVABLE
-          - VISA_ADJUSTMENTS_PAYABLE
-          - VISA_ADJUSTMENTS_RECEIVABLE
-          - FEE_COLLECT_PAYABLE
-          - FEE_COLLECT_RECEIVABLE
-          - SP_PAYMENT_PAYABLE
-          - SP_PAYMENT_RECEIVABLE
-          - FEE_HOLD_PAYABLE
-          - FEE_HOLD_RECEIVABLE
-          - AMEX_MERCH_PAYABLE
-          - AMEX_MERCH_RECEIVABLE
-          - MC_ADJUSTMENTS_PAYABLE
-          - MC_ADJUSTMENTS_RECEIVABLE
-          - APM_PAR_PAYABLE
-          - APM_PAR_RECEIVABLE
-          - WRITEOFF_ACQ_PAYABLE
-          - WRITEOFF_ACQ_RECEIVABLE
-          - WRITEOFF_SP_PAYABLE
-          - WRITEOFF_SP_RECEIVABLE
-          - FX_PI_CHARGEBACK_PAYABLE
-          - FX_PI_CHARGEBACK_RECEIVABLE
-          - INTERBANK_SUSP_VISA_PAYABLE
-          - INTERBANK_SUSP_VISA_RECEIVABLE
-          - REJECTS_ECCF_PAYABLE
-          - REJECTS_ECCF_RECEIVABLE
-          - REJECTS_VISA_PAYABLE
-          - REJECTS_VISA_RECEIVABLE
-          - REJECTS_INET_PAYABLE
-          - REJECTS_INET_RECEIVABLE
-          - FEE_COLL_ECCF_PAYABLE
-          - FEE_COLL_ECCF_RECEIVABLE
-          - FEE_COLL_VISA_PAYABLE
-          - FEE_COLL_VISA_RECEIVABLE
-          - FEE_COLL_INET_PAYABLE
-          - FEE_COLL_INET_RECEIVABLE
-          - REJECTS_IPM_PAYABLE
-          - REJECTS_IPM_RECEIVABLE
-          - FEE_COLL_IPM_PAYABLE
-          - FEE_COLL_IPM_RECEIVABLE
-          - MANUAL_ADJUSTMENTS_PAYABLE
-          - MANUAL_ADJUSTMENTS_RECEIVABLE
-          - FX_PL_CHARGEBACK_2_PAYABLE
-          - FX_PL_CHARGEBACK_2_RECEIVABLE
-          - MERCH_PYMT_REJECTS_PAYABLE
-          - MERCH_PYMT_REJECTS_RECEIVABLE
-          - ACQ_DISPUTE_TRANS_PAYABLE
-          - ACQ_DISPUTE_TRANS_RECEIVABLE
-          - INTERBANL_SUSPENSE_PAYABLE
-          - INTERBANL_SUSPENSE_RECEIVABLE
-          - REJECTED_DESC_PAYABLE
-          - REJECTED_DESC_RECEIVABLE
-          - INTEREST_RECEIVABLE_PAYABLE
-          - INTEREST_RECEIVABLE_RECEIVABLE
-          - REJECTED_SOURCE_PAYABLE
-          - REJECTED_SOURCE_RECEIVABLE
-          - MERCH_COMM_REVENUE_PAYABLE
-          - MERCH_COMM_REVENUE_RECEIVABLE
-          - ACQ_COMM_REVENUE_PAYABLE
-          - ACQ_COMM_REVENUE_RECEIVABLE
-          - TREASURY_PYMT_VISA_PAYABLE
-          - TREASURY_PYMT_VISA_RECEIVABLE
-          - TREASURY_PYMT_MC_PAYABLE
-          - TREASURY_PYMT_MC_RECEIVABLE
-          - TREASURY_PYMT_ALL_PAYABLE
-          - TREASURY_PYMT_ALL_RECEIVABLE
-          - TREASURY_PYMT_WELLS_PAYABLE
-          - TREASURY_PYMT_WELLS_RECEIVABLE
-          - TREASURY_PYMT_FDELGBP_PAYABLE
-          - TREASURY_PYMT_FDELGBP_RECEIVABLE
-          - TREASURY_PYMT_BASECAD_PAYABLE
-          - TREASURY_PYMT_BASECAD_RECEIVABLE
-          - TREASURY_PYMT_EUR_PAYABLE
-          - TREASURY_PYMT_EUR_RECEIVABLE
-          - TREASURY_PYMT_BAMS_PAYABLE
-          - TREASURY_PYMT_BAMS_RECEIVABLE
-          - PAR_PAYABLE
-          - PAR_RECEIVABLE
-          - PAYMENT_SUSPENSE_PAYABLE
-          - PAYMENT_SUSPENSE_RECEIVABLE
-          - FX_ROUNDING_DIFF_PAYABLE
-          - FX_ROUNDING_DIFF_RECEIVABLE
-          - MERCHANT_HOLD_PAYABLE
-          - MERCHANT_HOLD_RECEIVABLE
-          - VAT_HOLD_PAYABLE
-          - VAT_HOLD_RECEIVABLE
-          - MERCH_RESERVE_PAYABLE
-          - MERCH_RESERVE_RECEIVABLE
-          - FEXCO_COMM_REVENUE_PAYABLE
-          - FEXCO_COMM_REVENUE_RECEIVABLE
-          - JCB_MERCHANT_PAYABLE
-          - JCB_MERCHANT_RECEIVABLE
-          - MERCHANT_BILLBACK_PAYABLE
-          - MERCHANT_BILLBACK_RECEIVABLE
-          - INTERCHANGE_REJ_SUSP_PAYABLE
-          - INTERCHANGE_REJ_SUSP_RECEIVABLE
-          - GST_COLLECT_PAYABLE
-          - GST_COLLECT_RECEIVABLE
-          - TREASURY_PYMT_U_PAYABLE
-          - TREASURY_PYMT_U_RECEIVABLE
-          - DINERS_MERCHANT_PAYABLE
-          - DINERS_MERCHANT_RECEIVABLE
-          - PAGOBANCOMAT_PAYABLE
-          - PAGOBANCOMAT_RECEIVABLE
-          - MERC_ROLLIN_RESERVE_PAYABLE
-          - MERC_ROLLIN_RESERVE_RECEIVABLE
-          - ALTERNATIVE_PAYMENTS_PAYABLE
-          - ALTERNATIVE_PAYMENTS_RECEIVABLE
-          - PAR_HOLDING_PAYABLE
-          - PAR_HOLDING_RECEIVABLE
-          - PAR_DR_PAYABLE
-          - PAR_DR_RECEIVABLE
-          - FEDERAL_TAX_PAYABLE
-          - FEDERAL_TAX_RECEIVABLE
-          - STATE_TAX_PAYABLE
-          - STATE_TAX_RECEIVABLE
-          - MERCH_FACTOR_PAYABLE
-          - MERCH_FACTOR_RECEIVABLE
-          - VEASE_FUND_CLEAR_PAYABLE
-          - VEASE_FUND_CLEAR_RECEIVABLE
-          - PAR_BCMC_PAYABLE
-          - PAR_BCMC_RECEIVABLE
-          - FEE_HOLD_BCMC_PAYABLE
-          - FEE_HOLD_BCMC_RECEIVABLE
-          - FEE_COLL_BCMC_PAYABLE
-          - FEE_COLL_BCMC_RECEIVABLE
-          - CUP_MERCHANT_PAYABLE
-          - CUP_MERCHANT_RECEIVABLE
-          - IDEAL_PAR_PAYABLE
-          - IDEAL_PAR_RECEIVABLE
-          - SM_PAR_PAYABLE
-          - SM_PAR_RECEIVABLE
-          - CHBK_HOLD_PAYABLE
-          - CHBK_HOLD_RECEIVABLE
-        sequenceNumber:
-          type: integer
-          format: int64
-    MerchantDeleteSchema:
-      required:
-      - merchantId
-      type: object
-      properties:
-        merchantId:
-          maxLength: 50
-          minLength: 7
-          type: string
-          description: |
-            Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/north.md&branch=develop#base-properties">`NORTH`</a> /
-            <a href="../docs?path=docs/specification/merchant/omnipay26.md&branch=develop#base-properties">`OMNIPAY26`</a>
-            definition
-        platformCode:
-          type: string
-          description: Code to identify the specific backend platform. It adds the
-            required information for the merchant
-          enum:
-          - NORTH
-          - OMAHA
-          - SOUTH
-          - OMNIPAY26
-          - OMNIPAY21
-          - NORTH
-        owners:
-          type: array
-          items:
-            $ref: '#/components/schemas/OwnerDelete'
-        products:
-          $ref: '#/components/schemas/MerchantProductDelete'
-        merchantXrefs:
-          type: array
-          items:
-            $ref: '#/components/schemas/MerchantXrefDelete'
-        merchantAccounts:
-          type: array
-          items:
-            $ref: '#/components/schemas/MerchantAccountDelete'
-        subPlatformCode:
-          type: string
-      description: "> 🚫 This is for reference, **not** required in request body;\
-        \ this will be part of the graphql mutation query"
-      nullable: true
-      default: {}
-    MerchantProductDelete:
-      type: object
-      properties:
-        entitlements:
-          type: array
-          items:
-            $ref: '#/components/schemas/ProductDelete'
-        valueAddedServices:
-          type: array
-          items:
-            $ref: '#/components/schemas/ProductDelete'
-        fees:
-          type: array
-          items:
-            $ref: '#/components/schemas/ProductDelete'
-        equipments:
-          type: array
-          items:
-            $ref: '#/components/schemas/ProductDelete'
-    MerchantXrefDelete:
-      type: object
-      properties:
-        xrefPlatformMid:
-          type: string
-        xrefPlatformCode:
-          type: string
-    OwnerDelete:
-      type: object
-      properties:
-        ownerSeqCode:
-          type: string
-        ownerIdentificationDetails:
-          type: array
-          items:
-            $ref: '#/components/schemas/OwnerIdentificationDelete'
-    OwnerIdentificationDelete:
-      type: object
-      properties:
-        identityDocTypeCode:
-          type: string
-        identityDocNumber:
-          type: string
-    ProductDelete:
-      type: object
-      properties:
-        productCode:
-          type: string
-        attributes:
-          type: object
-          additionalProperties:
-            type: object
-    ResponseBoolean:
+        searchCriteria:
+          $ref: '#/components/schemas/SearchCriteriaInput'
+      description: Merchant Search Request
+    ResponseSearchResponse:
       type: object
       properties:
         data:
-          type: boolean
+          $ref: '#/components/schemas/SearchResponse'
         errors:
           type: array
           items:
             $ref: '#/components/schemas/Error'
+    SearchResponse:
+      type: object
+      properties:
+        searchResponses:
+          type: array
+          items:
+            $ref: '#/components/schemas/Merchant'
+        pageNumber:
+          type: integer
+          format: int32
+        pageSize:
+          type: integer
+          format: int64
+        totalCount:
+          type: integer
+          format: int64
+    InquiryRequest:
+      required:
+      - query
+      type: object
+      properties:
+        query:
+          type: string
+          description: |
+            Sample merchant inquiry query
+            ```
+            query inquiry {
+              getMerchant(
+                merchantId: "12345678901",
+                platformCode: NORTH
+              ) {
+                __typename ... on Merchant {
+                  merchantId
+                  platformCode
+                  dbaName
+                  addresses {
+                    addressTypeCode (
+                      filterByAddressType:[LOCATION]
+                    )
+                    contactName
+                    contactTitle
+                    address1Text
+                  }
+                }
+              }
+            }
+            ```
+      description: Merchant Inquiry Request
