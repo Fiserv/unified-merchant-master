@@ -89,10 +89,10 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ProductMasterResponse'
-      x-proxy-name: Inquiry
-      x-group-name: Products
+      x-proxy-name: v1/products
+      x-group-name: Inquiry
       x-core: UMM
-      x-child-product-name: v1/products
+      x-child-product-name: Product
 components:
   schemas:
     ProductMasterExternalCrossRefResponse:

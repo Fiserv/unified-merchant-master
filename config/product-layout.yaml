@@ -62,7 +62,7 @@ featuredFeatures:
         title: Merchant Search
         description: Unified GraphQL Merchant Search API
         type: "post"
-        path: "/graphql "
+        path: "graphql⁣"
   - title: Merchant Mutation
     description: Unified GraphQL Merchant Update API
     tags: ["UMM", "Merchant", "GraphQL", "Update", "Delete"]
