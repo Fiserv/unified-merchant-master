@@ -18,7 +18,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |             |     NA     | NA     | NA |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -56,7 +56,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |            |    NA     | NA     | NA |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -94,7 +94,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |            |    Y     | N     | N |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -132,7 +132,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    150        |    Y     | Y     | Y |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -170,7 +170,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    150        |    Y     | Y     | Y |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -208,7 +208,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    150        |    Y     | Y     | Y |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -246,7 +246,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    150        |    Y     | Y     | Y |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -284,7 +284,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |            |    NA     | NA     | NA |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -322,7 +322,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    100        |    Y     | Y     | Y |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -360,7 +360,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       3        |    10        |    Y     | Y     | Y |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -398,7 +398,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |            |    NA     | NA     | NA |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -436,7 +436,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       2        |    3        |    Y     | Y     | Y |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -474,7 +474,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       5        |    20        |    Y     | Y     | Y |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -512,7 +512,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       0        |    50        |    Y     | Y     | Y |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -550,7 +550,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       0        |    100        |    Y     | Y     | Y |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -588,7 +588,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    15        |    Y     | Y     | Y |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -626,7 +626,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    15        |    Y     | Y     | Y |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -664,7 +664,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       70        |    320        |    Y     | Y     | Y |    NA     |
 
-<!--   type: tab -->
+<!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
