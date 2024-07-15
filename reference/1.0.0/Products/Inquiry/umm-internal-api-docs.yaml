@@ -18,22 +18,14 @@ paths:
         description: |
           Code to identify the specific backend platform. It adds the required information for the merchant
           > For more details refer to
-          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm-1">`UMM`</a> /
-          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north-1">`NORTH`</a> /
-          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south-1">`SOUTH`</a> /
-          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma-1">`GMA`</a>
-          definition
+          <a href="../docs?path=docs/specification/merchant/merchant.md#platform_code">specification</a>
         required: true
         schema:
           type: string
           description: |
             Code to identify the specific backend platform. It adds the required information for the merchant
             > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-umm-1">`UMM`</a> /
-            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-north-1">`NORTH`</a> /
-            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-south-1">`SOUTH`</a> /
-            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tab-gma-1">`GMA`</a>
-            definition
+            <a href="../docs?path=docs/specification/merchant/merchant.md#platform_code">specification</a>
           example: NORTH
           enum:
           - NORTH
