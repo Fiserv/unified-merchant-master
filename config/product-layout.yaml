@@ -78,11 +78,11 @@ featuredFeatures:
         description: Unified GraphQL Merchant Update API
         type: "post"
         path: "/graphql⁣⁣"
-      - relatedAPI: 
-        title: Merchant Delete
-        description: Unified GraphQL Merchant Delete API
-        type: "post"
-        path: "/graphql⁣⁣⁣"
+      # - relatedAPI: 
+      #   title: Merchant Delete
+      #   description: Unified GraphQL Merchant Delete API
+      #   type: "post"
+      #   path: "/graphql⁣⁣⁣"
   - title: Product Inquiry
     description:  Unified Product Inquiry API
     tags: ["UMM", "Product", "Inquiry"]
