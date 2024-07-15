@@ -16,7 +16,7 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       min        |    max        |    NA     | NA     | NA |    NA     |
+| String |               |            |    NA     | NA     | NA |    NA     |
 
 <!-- type: tab -->
 
@@ -92,14 +92,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       12        |    35        |    Y     | Y     | NA |    NA     |
+| String |       12        |    35        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      1         |      1   | Y   | Y   | NA   | NA   |      |
+| String |      1         |      1   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -130,14 +130,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    24        |    Y     | Y     | NA |    NA     |
+| String |       10        |    24        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      2         |      2   | Y   | Y   | NA   | NA   |      |
+| String |      2         |      2   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -168,14 +168,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    10        |    Y     | Y     | NA |    NA     |
+| String |       10        |    10        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      10         |      10   | Y   | Y   | NA   | NA   |      |
+| String |      10         |      10   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -206,14 +206,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       11        |    24        |    Y     | Y     | NA |    NA     |
+| String |       11        |    24        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      1         |      1   | Y   | Y   | NA   | NA   |      |
+| String |      1         |      1   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -234,9 +234,8 @@ titles: UMM, North, South, GMA
 ---
 ### CP2100_NOTICE_RECEIVED_DATE
 * Description: Date on which the merchant received a IRS CP2100 notice.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsCP2100NoticeReceivedDate`
 * Field Specification:
 
@@ -247,14 +246,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    10        |    Y     | Y     | NA |    NA     |
+| String |       10        |    10        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      10         |      10   | Y   | Y   | NA   | NA   |      |
+| String |      10         |      10   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -275,9 +274,8 @@ titles: UMM, North, South, GMA
 ---
 ### CP2100_NOTICE_EFFECTIVE_DATE
 * Description: Date on which the IRS CP2100 notice  becomes effective.
- 
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsCP2100NoticeEffectiveDate`
 * Field Specification:
 
@@ -288,14 +286,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    10        |    Y     | Y     | NA |    NA     |
+| String |       10        |    10        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      10         |      10   | Y   | Y   | NA   | NA   |      |
+| String |      10         |      10   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -326,14 +324,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       8        |    12        |    Y     | Y     | NA |    NA     |
+| String |       8        |    12        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      1         |      1   | Y   | Y   | NA   | NA   |      |
+| String |      1         |      1   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -364,14 +362,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       6        |    22        |    Y     | Y     | NA |    NA     |
+| String |       6        |    22        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      1         |      1   | Y   | Y   | NA   | NA   |      |
+| String |      1         |      1   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -392,9 +390,8 @@ titles: UMM, North, South, GMA
 ---
 ### WITHHOLDING_NOTIFICATION_DATE
 * Description: Date on which the taxpayer received a notification related to income withholding.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsWithholdingNotificationDate`
 * Field Specification:
 
@@ -405,14 +402,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    10        |    Y     | Y     | NA |    NA     |
+| String |       10        |    10        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      10         |      10   | Y   | Y   | NA   | NA   |      |
+| String |      10         |      10   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -443,14 +440,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       11        |    24        |    Y     | Y     | NA |    NA     |
+| String |       11        |    24        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      1         |      1   | Y   | Y   | NA   | NA   |      |
+| String |      1         |      1   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -471,9 +468,8 @@ titles: UMM, North, South, GMA
 ---
 ### WITHHOLDING_EFFECTIVE_DATE
 * Description: Date on which the IRS back up withholding becomes effective.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsWithholdingEffectiveDate`
 * Field Specification:
 
@@ -484,14 +480,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    10        |    Y     | Y     | NA |    NA     |
+| String |       10        |    10        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      10         |      10   | Y   | Y   | NA   | NA   |      |
+| String |      10         |      10   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -512,9 +508,8 @@ titles: UMM, North, South, GMA
 ---
 ### WITHHOLDING_END_DATE
 * Description: Date from which the IRS back up withholding is not effective.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsWithholdingEndDate`
 * Field Specification:
 
@@ -525,14 +520,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    10        |    Y     | Y     | NA |    NA     |
+| String |       10        |    10        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      10         |      10   | Y   | Y   | NA   | NA   |      |
+| String |      10         |      10   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -563,14 +558,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       1        |    7        |    Y     | Y     | NA |    NA     |
+| String |       1        |    7        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      3         |      3   | Y   | Y   | NA   | NA   |      |
+| String |      3         |      3   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -601,14 +596,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       1        |    3        |    Y     | Y     | NA |    NA     |
+| String |       1        |    3        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      3         |      3   | Y   | Y   | NA   | NA   |      |
+| String |      3         |      3   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -639,14 +634,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    24        |    Y     | Y     | NA |    NA     |
+| String |       10        |    24        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      1         |      1   | Y   | Y   | NA   | NA   |      |
+| String |      1         |      1   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -667,9 +662,8 @@ titles: UMM, North, South, GMA
 ---
 ### FORM_CERT_STATUS_RECEIVED_DATE
 * Description: Date on which the certification status of an IRS form was received.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsFormCertStatusReceivedDate`
 * Field Specification:
 
@@ -680,14 +674,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    10        |    Y     | Y     | NA |    NA     |
+| String |       10        |    10        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      10         |      10   | Y   | Y   | NA   | NA   |      |
+| String |      10         |      10   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -708,9 +702,8 @@ titles: UMM, North, South, GMA
 ---
 ### TURF_EFFECTIVE_DATE
 * Description: Effective date from when the Taxpayer's United Reporting Federation (TURF) makes an agreement with the IRS.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsTurfEffectiveDate`
 * Field Specification:
 
@@ -721,14 +714,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    10        |    Y     | Y     | NA |    NA     |
+| String |       10        |    10        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      10         |      10   | Y   | Y   | NA   | NA   |      |
+| String |      10         |      10   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -759,14 +752,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       17        |    23        |    Y     | Y     | NA |    NA     |
+| String |       17        |    23        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      1         |      1   | Y   | Y   | NA   | NA   |      |
+| String |      1         |      1   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -787,9 +780,8 @@ titles: UMM, North, South, GMA
 ---
 ### TURF_UPDATE_DATE
 * Description: Date on which the Taxpayer's United Reporting Federation (TURF) agreement with the IRS was last updated.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsTurfUpdateDate`
 * Field Specification:
 
@@ -800,14 +792,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    10        |    Y     | Y     | NA |    NA     |
+| String |       10        |    10        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      10         |      10   | Y   | Y   | NA   | NA   |      |
+| String |      10         |      10   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -838,14 +830,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       4        |    4        |    Y     | Y     | NA |    NA     |
+| String |       4        |    4        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      4         |      4   | Y   | Y   | NA   | NA   |      |
+| String |      4         |      4   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -876,14 +868,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       20        |    50        |    Y     | Y     | NA |    NA     |
+| String |       20        |    50        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      1         |      20   | Y   | Y   | NA   | NA   |      |
+| String |      1         |      20   | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -914,14 +906,14 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       3        |    2        |    Y     | Y     | NA |    NA     |
+| String |       3        |    2        |    Required     | Required     | NA |    NA     |
 
 <!-- type: tab -->
 
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |         | Y   | Y   | NA   | NA   |      |
+| String |               |         | Required   | Required   | NA   | NA   |      |
 
 <!-- type: tab --> 
 
@@ -939,3 +931,4 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
+---
