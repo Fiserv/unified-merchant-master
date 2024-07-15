@@ -60,10 +60,8 @@
               link: docs/specification/merchant/MerchantAddress.md
             - title: Merchant Xref
               link: docs/specification/merchant/Merchant_Xref.md
-            - title: Merchant Tax Additional Data - US
+            - title: Merchant Tax Additional Data (US)
               link: docs/specification/merchant/Tax_Adtnl_Data_US.md
-            - title: Merchant Business Information
-              link: docs/specification/merchant/merchantBusinessInformation.md
             - title: Merchant Attributes
               link: docs/specification/merchant/merchantAttributes.md
 - sections:
