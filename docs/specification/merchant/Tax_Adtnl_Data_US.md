@@ -16,7 +16,7 @@ titles: UMM, North, South, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       min        |    max        |    NA     | NA     | NA |    NA     |
+| String |                |            |    NA     | NA     | NA |    NA     |
 
 <!-- type: tab -->
 
