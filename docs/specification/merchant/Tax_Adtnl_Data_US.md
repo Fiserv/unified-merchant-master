@@ -234,9 +234,8 @@ titles: UMM, North, South, GMA
 ---
 ### CP2100_NOTICE_RECEIVED_DATE
 * Description: Date on which the merchant received a IRS CP2100 notice.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsCP2100NoticeReceivedDate`
 * Field Specification:
 
@@ -275,9 +274,8 @@ titles: UMM, North, South, GMA
 ---
 ### CP2100_NOTICE_EFFECTIVE_DATE
 * Description: Date on which the IRS CP2100 notice  becomes effective.
- 
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsCP2100NoticeEffectiveDate`
 * Field Specification:
 
@@ -392,9 +390,8 @@ titles: UMM, North, South, GMA
 ---
 ### WITHHOLDING_NOTIFICATION_DATE
 * Description: Date on which the taxpayer received a notification related to income withholding.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsWithholdingNotificationDate`
 * Field Specification:
 
@@ -471,9 +468,8 @@ titles: UMM, North, South, GMA
 ---
 ### WITHHOLDING_EFFECTIVE_DATE
 * Description: Date on which the IRS back up withholding becomes effective.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsWithholdingEffectiveDate`
 * Field Specification:
 
