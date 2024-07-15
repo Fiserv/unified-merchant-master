@@ -508,9 +508,8 @@ titles: UMM, North, South, GMA
 ---
 ### WITHHOLDING_END_DATE
 * Description: Date from which the IRS back up withholding is not effective.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsWithholdingEndDate`
 * Field Specification:
 
@@ -663,9 +662,8 @@ titles: UMM, North, South, GMA
 ---
 ### FORM_CERT_STATUS_RECEIVED_DATE
 * Description: Date on which the certification status of an IRS form was received.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsFormCertStatusReceivedDate`
 * Field Specification:
 
