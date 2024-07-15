@@ -702,9 +702,8 @@ titles: UMM, North, South, GMA
 ---
 ### TURF_EFFECTIVE_DATE
 * Description: Effective date from when the Taxpayer's United Reporting Federation (TURF) makes an agreement with the IRS.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsTurfEffectiveDate`
 * Field Specification:
 
@@ -781,9 +780,8 @@ titles: UMM, North, South, GMA
 ---
 ### TURF_UPDATE_DATE
 * Description: Date on which the Taxpayer's United Reporting Federation (TURF) agreement with the IRS was last updated.
-
-Format: CCYY-MM-DD 
-Example: 2024-05-15
+<br>Format: CCYY-MM-DD 
+<br>Example: 2024-05-15
 * API field: `irsTurfUpdateDate`
 * Field Specification:
 
