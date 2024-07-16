@@ -65,14 +65,19 @@ featuredFeatures:
         path: "/graphql⁣⁣"
   - title: Merchant Mutation
     description: Unified GraphQL Merchant Update API
-    tags: ["UMM", "Merchant", "GraphQL", "Update", "Delete"]
-    bullets: ["UMM", "Merchant", "GraphQL", "Update", "Delete"]
+    tags: ["UMM", "Merchant", "GraphQL", "Create", "Update"]
+    bullets: ["UMM", "Merchant", "GraphQL", "Create", "Update"]
     relatedDocs:
       - relatedDoc: 
         title: Merchant
         description: Merchant
         link: ./docs/getting-started.md
     relatedAPIs:
+      - relatedAPI: 
+        title: Merchant Create
+        description: Unified GraphQL Merchant Create API
+        type: "post"
+        path: "/graphql⁣⁣⁣⁣"
       - relatedAPI: 
         title: Merchant Update
         description: Unified GraphQL Merchant Update API

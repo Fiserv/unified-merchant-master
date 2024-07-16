@@ -6,6 +6,46 @@ info:
 servers:
 - url: https://connect.fiservapis.com/unifiedmerchantmaster
 paths:
+  /graphql⁣⁣⁣⁣:
+    post:
+      tags:
+      - Merchant Create
+      summary: GraphQL API to create Merchant
+      operationId: createMerchant
+      parameters:
+      - name: Authorization
+        in: header
+        description: |
+          Bearer access token. For token generation refer to
+          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
+        required: true
+        schema:
+          type: string
+        example: "Bearer {token}"
+      - name: x-encrypted-data
+        in: header
+        description: Use to signify if data is encrypted
+        required: false
+        schema:
+          type: string
+        example: false
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateMerchant'
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResponseMerchant'
+      x-proxy-name: createMerchant
+      x-group-name: Mutation
+      x-core: UMM
+      x-child-product-name: Merchant
   /graphql⁣⁣:
     post:
       tags:
@@ -309,6 +349,19 @@ components:
           x-not-for-north: "true"
         attentionTo:
           type: string
+    CreateMerchant:
+      required:
+      - query
+      type: object
+      properties:
+        query:
+          type: string
+          description: |
+            Sample merchant boarding mutation query
+            ```
+            ```
+        boardingSchema:
+          $ref: '#/components/schemas/MerchantBoardingSchema'
     MerchantAccount:
       type: object
       properties:
@@ -561,6 +614,263 @@ components:
           type: string
         currentBalance:
           type: number
+    MerchantBoardingSchema:
+      required:
+      - platformCode
+      type: object
+      properties:
+        merchantId:
+          type: string
+          description: |
+            Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#merchant_id">specification</a>
+        platformCode:
+          type: string
+          description: |
+            Code to identify the specific backend platform. It adds the required information for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">definition</a>
+          enum:
+          - NORTH
+          - SOUTH
+          - OMNIPAY26
+        setupIndicator:
+          type: string
+        dbaName:
+          type: string
+          description: |
+            Official merchant name that the customer or authorities commonly recognizes
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#dba_name">specification</a>
+        legalName:
+          type: string
+          description: |
+            Legal or official name of a merchant that is registered with government tax authorities.
+            > Note: It must be entered exactly same as it apears in the legal tax documents for the merchant. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#legal_name">specification</a>
+        businessUrl:
+          type: string
+          description: |
+            Official website address (URL) associated with the merchant.
+            > Note: The URL should be complete and accurate and it should start with the protocol (http:// or https://). For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#business_url">specification</a>
+        storeId:
+          type: string
+          description: |
+            Unique identifier of the merchant's store
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#store_id">specification</a>
+        taxFilingName:
+          type: string
+          description: |
+            Name that the merchant uses to file the taxes with the relevant tax authorities
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#tax_filing_name">specification</a>
+        businessTypCode:
+          type: string
+          description: |
+            Code to/that indicate whether merchant can process payment in store or online
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#business_typ_code">specification</a>
+        merchantCategoryCode:
+          type: string
+          description: |
+            Code to/that indicate the type of business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#merchant_category_code">specification</a>
+        standardIndustryClassCode:
+          type: string
+          description: |
+            Code to/that indicate the classification of MC/VISA standard industry
+            > Note: The code list is available upon request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#standard_industry_class_code">specification</a>
+        productsSold:
+          type: string
+          readOnly: true
+        statusCode:
+          type: string
+          description: |
+            Code that indicate the status of a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#status_code">specification</a>
+        acctOpenDate:
+          type: string
+          description: |
+            Date on which the merchant account was opened
+            > Note: It can include a time component if required. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#acct_open_date">specification</a>
+          format: date
+        franchiseIndicator:
+          type: string
+          description: |
+            Value that indicate the merchant is a franchise or
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#franchise_indicator">specification</a>
+        seasonalIndicator:
+          type: string
+          description: |
+            Value that indicate the merchat is a seasonal or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#seasonal_indicator">specification</a>
+        salesmanCode:
+          type: string
+          description: |
+            Code that indicate the salesman associated with a merchant
+            > Note: The code list is available upon request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#salesman_code">specification</a>
+        relationshipMgrCode:
+          type: string
+          description: |
+            Code that indicate a relationship manager who is responsible for managing the merchant's account
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#relationship_mgr_code">specification</a>
+        markerBankCode:
+          type: string
+          description: |
+            Code that indicate the bank associated with a maker or client
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#marker_bank_code">specification</a>
+        clearingBankCode:
+          type: string
+          description: |
+            Code to/that indicate the clearing bank associated with a merchant
+            > Note: The valid list is available on request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#clearing_bank_code">specification</a>
+        pricingTypeCode:
+          type: string
+          description: |
+            Code that indicate the pricing type for interchange calculations
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#pricing_type_code">specification</a>
+        taxIdTypeCode:
+          type: string
+          description: |
+            Code that indicate the type of tax identifier
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#tax_id_type_code">specification</a>
+        taxId:
+          type: string
+          description: |
+            Unique identifier of the merchant tax
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#tax_id">specification</a>
+        languageCode:
+          type: string
+          description: |
+            Code that indicate the language for communication with the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#language_code">specification</a>
+        multiCurrencyIndicator:
+          type: string
+          description: |
+            Value that indicate whether a merchant conducts currency conversion at the point of sale
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#multi_currency_indicator">specification</a>
+        owners:
+          type: array
+          items:
+            $ref: '#/components/schemas/Owner'
+        addresses:
+          type: array
+          items:
+            $ref: '#/components/schemas/Address'
+        products:
+          $ref: '#/components/schemas/MerchantProduct'
+        merchantAttributes:
+          type: object
+          additionalProperties:
+            type: object
+            description: |
+              Will contain one or more attributes in the format shown below
+              > For additional information refer to
+              <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a> /
+              <a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a>
+              attributes definition
+              ```
+              {
+                "domain#1": {
+                  "domainDescription": "domain #1 description",
+                  "attribute#1": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  }
+                },
+                "domain#2": {
+                  "domainDescription": "domain #2 description",
+                  "attribute#1": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+          description: |
+            Will contain one or more attributes in the format shown below
+            > For additional information refer to
+            <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a> /
+            <a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a>
+            attributes definition
+            ```
+            {
+              "domain#1": {
+                "domainDescription": "domain #1 description",
+                "attribute#1": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                }
+              },
+              "domain#2": {
+                "domainDescription": "domain #2 description",
+                "attribute#1": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
+        merchantBusinessInformation:
+          $ref: '#/components/schemas/MerchantBusinessInformation'
+        merchantHierarchies:
+          type: array
+          items:
+            $ref: '#/components/schemas/MerchantHierarchies'
+        merchantXrefs:
+          type: array
+          items:
+            $ref: '#/components/schemas/MerchantXref'
+        merchantAccounts:
+          type: array
+          items:
+            $ref: '#/components/schemas/MerchantAccount'
+        subPlatformCode:
+          type: string
+          description: |
+            Code that indicate the alliance pratform
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#sub_platform">specification</a>
+        corporateName:
+          type: string
+          description: |
+            Official name of the merchant as it appears in legal and corporate documents
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#corporate_name">specification</a>
+        boardingTypeCode:
+          type: string
+        boardingSourceCode:
+          type: string
+      description: "> 🚫 This is for reference, **not** required in request body;\
+        \ this will be part of the graphql mutation query"
+      nullable: true
+      default: {}
     MerchantBusinessInformation:
       type: object
       properties:
@@ -813,224 +1123,6 @@ components:
           type: string
           description: Applicable for `OMNIPAY26`
           x-not-for-north: "true"
-    MerchantIrsTax:
-      type: object
-      properties:
-        exclusionCode:
-          maxLength: 35
-          minLength: 12
-          type: string
-          description: Indicates weather the merchant is excluded from the IRS processing
-          enum:
-          - FINANCIAL_INSTITUTION
-          - FOREIGN_ENTITY_PENDING_VERIFICATION
-          - FOREIGN_ENTITY_PRIOR_1/1/11
-          - FOREIGN_ENTITY_VERIFIED
-          - GOVERNMENT_ENTITY
-          - NONPROFIT_NOT_VERIFIED
-          - NONPROFIT_VERIFIED
-          - NOT_EXCLUDED
-        irsTinValidationCode:
-          maxLength: 24
-          minLength: 10
-          type: string
-          description: Code to validate the taxpayer identification number (TIN) of
-            a merchant
-          enum:
-          - DUPLICATE_TIN
-          - FAILED_PRESCREEN
-          - INVALID_NOT TFN
-          - INVALID_TIN
-          - INVALID_TIN_MULTI_TFN
-          - IN_PROCESS
-          - IN_PROCESS_NO_UPDATE_MMF
-          - TEST_ACCOUNT
-          - TIN_MATCHED
-          - TIN_MATCHED_EIN
-          - TIN_MATCHED_SSN
-          - TIN_MATCHED_SSN_EIN
-          - TIN_MISSING
-          - TIN_NOTMATCHED
-          - TIN_UNISSUED
-        tinValidationDate:
-          maxLength: 10
-          minLength: 10
-          type: string
-          description: Date when the IRS taxpayer identification number (TIN) validation
-            was last performed for a merchant
-          format: date
-        payeeId:
-          type: string
-          description: Applicable for `OMNIPAY26`
-          x-not-for-north: "true"
-        payeeCode:
-          maxLength: 24
-          minLength: 11
-          type: string
-          description: Unique code assigned to a payee or recipient for tax reporting
-            purposes by the Internal Revenue Service (IRS)
-          enum:
-          - CHAIN_NON_PAYEE
-          - CHAIN_OUTLET_NO_1099K
-          - CHAIN_PAYEE
-          - CHAIN_PAYEE_AGREGATOR
-          - OUTLET_NONPAYEE_UNRELATD
-          - OUTLET_NON_PAYEE_RELATED
-          - OUTLET_PAYEE_RELATED
-          - OUTLET_PAYEE_UNRELATED
-          - SINGLETON_PAYEE
-        cp2100NoticeReceivedDate:
-          maxLength: 10
-          minLength: 10
-          type: string
-          description: Displays the date when a merchant received a CP2100 notice
-          format: date
-        cp2100NoticeEffectiveDate:
-          maxLength: 10
-          minLength: 10
-          type: string
-          description: Displays the specific date when the CP2100 notice becomes effective
-          format: date
-        withHoldingCode:
-          maxLength: 12
-          minLength: 8
-          type: string
-          description: Indicates if the IRS holding code is required or not
-          enum:
-          - REQUIRED
-          - NOT_REQUIRED
-        withholdingNotificationCode:
-          maxLength: 22
-          minLength: 6
-          type: string
-          description: IRS code associated with a notification related to income withholding
-            for tax purposes
-          enum:
-          - 1099K_REPORT
-          - 1099K_REPORT_AND_STATE
-          - 1ST_BUW_NOTICE
-          - 2ND_BUW_NOTICE
-          - BUW_MISSING_TIN
-          - BUW_WARN_LETTER
-          - NONE
-          - TIMS_MANL_BUW
-          - W8_EXP
-        withholdingNotificationDate:
-          maxLength: 10
-          minLength: 10
-          type: string
-          description: Date when a taxpayer or payer received a notification related
-            to income withholding
-          format: date
-        withHoldingReasonCode:
-          maxLength: 24
-          minLength: 11
-          type: string
-          description: Code associated with the reason for income withholding
-          enum:
-          - NO_RESPONSE_2ND_NOTICE
-          - MANUAL_OVERRIDE
-          - MISSING_TIN
-          - NO_RESPONSE_1ST_NOTICE
-          - PROPOSED_PENALTY_RECEIVD
-        withHoldingEffectiveDate:
-          maxLength: 10
-          minLength: 10
-          type: string
-          description: Effective date of income withholding as prescribed by the IRS
-          format: date
-        withHoldingEndDate:
-          maxLength: 10
-          minLength: 10
-          type: string
-          description: End date of income withholding as specified by the IRS
-          format: date
-        fedWithHoldingPercent:
-          maxLength: 7
-          minLength: 1
-          type: number
-          description: Percentage of backup withholding that is required to be withheld
-            by the the IRS
-        stateWithHoldingPercent:
-          maxLength: 3
-          minLength: 1
-          type: number
-          description: Indicates the percentage that applies to the withholding of
-            state income tax
-        formCertStatusCode:
-          maxLength: 24
-          minLength: 10
-          type: string
-          description: Indicates the certification status code of an IRS form
-          enum:
-          - FORM_CERTIFY_PENDING
-          - INCOMPLETE_PAPERWORK
-          - SS_CARDCOPY_OR_LTR147C
-          - TIMS_MANUAL_BUW_OFF
-          - W8_EXPIRATION_PENDING
-          - W8_FOREIGN_COMPLETE
-          - W8_FOREIGN_PNDING_REVIEW
-          - W8_NO_EXPIRATIONS
-          - W9_ON_FILE
-          - W9_RECEIVED_EXEMPTION
-        formCertStatusReceivedDate:
-          maxLength: 10
-          minLength: 10
-          type: string
-          description: Date when the certification status of an IRS form was received
-            or updated
-          format: date
-        turfEffectiveDate:
-          maxLength: 10
-          minLength: 10
-          type: string
-          description: Effective date of a Taxpayer's United Reporting Federation
-            (TURF) agreement with the IRS
-          format: date
-        turfReasonCode:
-          maxLength: 23
-          minLength: 17
-          type: string
-          description: Code to indicate the reason or purpose of the United Reporting
-            Federation (TURF) agreement with the IRS
-          enum:
-          - NO_TIN/TFN_CHANGE
-          - ADD_MISSING_TIN/TFN
-          - CHANGE_IN_FILING_STATUS
-          - CHANGE_IN_OWNERSHIP
-          - CORRECT_WRONG_TIN/TFN
-        turfUpdateDate:
-          maxLength: 10
-          minLength: 10
-          type: string
-          description: Date when a Taxpayer's United Reporting Federation (TURF) agreement
-            with the IRS was last updated
-          format: date
-        taxEffectiveYear:
-          maxLength: 4
-          minLength: 4
-          type: string
-          description: "Tax year for which the IRS tax regulations, rules, and rates\
-            \ come into effect"
-        timsAccountNumber:
-          maxLength: 50
-          minLength: 20
-          type: string
-          description: Account number associated with the Taxpayer Information Management
-            System (TIMS)
-        payeeDefaultIndicator:
-          type: string
-          description: Applicable for `OMNIPAY26`
-          x-not-for-north: "true"
-        taxPayIndicator:
-          maxLength: 3
-          minLength: 2
-          type: string
-          description: Indicates whether a taxpayer has made the required tax payments
-            for a specific period or tax year
-          enum:
-          - "YES"
-          - "NO"
     MerchantProduct:
       type: object
       properties:
@@ -1050,326 +1142,6 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Product'
-    MerchantUpdateSchema:
-      required:
-      - merchantId
-      - platformCode
-      type: object
-      properties:
-        merchantId:
-          type: string
-          description: |
-            Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#merchant_id">specification</a>
-        platformCode:
-          type: string
-          description: |
-            Code to identify the specific backend platform. It adds the required information for the merchant
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">definition</a>
-          enum:
-          - NORTH
-          - OMNIPAY26
-        setupIndicator:
-          type: string
-        dbaName:
-          type: string
-          description: |
-            Official merchant name that the customer or authorities commonly recognizes
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#dba_name">specification</a>
-        legalName:
-          type: string
-          description: |
-            Legal or official name of a merchant that is registered with government tax authorities.
-            > Note: It must be entered exactly same as it apears in the legal tax documents for the merchant. For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#legal_name">specification</a>
-        businessUrl:
-          type: string
-          description: |
-            Official website address (URL) associated with the merchant.
-            > Note: The URL should be complete and accurate and it should start with the protocol (http:// or https://). For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#business_url">specification</a>
-        hierarchyLevelCode:
-          type: string
-          description: |
-            Unique identifier assigned to an outlet or a specific level within a hierarchical structure of a merchant's business
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#hierarchy_level_code">specification</a>
-          readOnly: true
-        storeId:
-          type: string
-          description: |
-            Unique identifier of the merchant's store
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#store_id">specification</a>
-        taxFilingName:
-          type: string
-          description: |
-            Name that the merchant uses to file the taxes with the relevant tax authorities
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#tax_filing_name">specification</a>
-        businessTypCode:
-          type: string
-          description: |
-            Code to/that indicate whether merchant can process payment in store or online
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#business_typ_code">specification</a>
-        merchantCategoryCode:
-          type: string
-          description: |
-            Code to/that indicate the type of business
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#merchant_category_code">specification</a>
-        standardIndustryClassCode:
-          type: string
-          description: |
-            Code to/that indicate the classification of MC/VISA standard industry
-            > Note: The code list is available upon request only. For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#standard_industry_class_code">specification</a>
-        productsSold:
-          type: string
-          readOnly: true
-        statusCode:
-          type: string
-          description: |
-            Code that indicate the status of a merchant
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#status_code">specification</a>
-        acctOpenDate:
-          type: string
-          description: |
-            Date on which the merchant account was opened
-            > Note: It can include a time component if required. For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#acct_open_date">specification</a>
-          format: date
-        acctSubmitDate:
-          type: string
-          description: |
-            Date on which the account was submitted
-            > Note: It can include a time component if required. For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#acct_submit_date">specification</a>
-          format: date
-          readOnly: true
-        lastStatusChangedDate:
-          type: string
-          description: |
-            Date on which the last status of the merchant account was changed
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#last_status_changed_date">specification</a>
-          format: date
-          readOnly: true
-        lastStatusCode:
-          type: string
-          description: |
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#last_status_code">specification</a>
-        acctCloseDate:
-          type: string
-          description: |
-            Date on which the account was closed
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#acct_close_date">specification</a>
-          format: date
-        closeReasonCode:
-          type: string
-          description: |
-            Code to/that indicate the reason of merchant account closure
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#close_reason_code">specification</a>
-        franchiseIndicator:
-          type: string
-          description: |
-            Value that indicate the merchant is a franchise or
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#franchise_indicator">specification</a>
-        seasonalIndicator:
-          type: string
-          description: |
-            Value that indicate the merchat is a seasonal or not
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#seasonal_indicator">specification</a>
-        salesmanCode:
-          type: string
-          description: |
-            Code that indicate the salesman associated with a merchant
-            > Note: The code list is available upon request only. For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#salesman_code">specification</a>
-        relationshipMgrCode:
-          type: string
-          description: |
-            Code that indicate a relationship manager who is responsible for managing the merchant's account
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#relationship_mgr_code">specification</a>
-        markerBankCode:
-          type: string
-          description: |
-            Code that indicate the bank associated with a maker or client
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#marker_bank_code">specification</a>
-        clearingBankCode:
-          type: string
-          description: |
-            Code to/that indicate the clearing bank associated with a merchant
-            > Note: The valid list is available on request only. For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#clearing_bank_code">specification</a>
-        businessStartDate:
-          type: string
-          description: |
-            Date on which the business was started
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#business_start_date">specification</a>
-          format: date
-          readOnly: true
-        pricingTypeCode:
-          type: string
-          description: |
-            Code that indicate the pricing type for interchange calculations
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#pricing_type_code">specification</a>
-        taxIdTypeCode:
-          type: string
-          description: |
-            Code that indicate the type of tax identifier
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#tax_id_type_code">specification</a>
-        taxId:
-          type: string
-          description: |
-            Unique identifier of the merchant tax
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#tax_id">specification</a>
-        intlTaxExemptIndicator:
-          type: string
-          description: |
-            Value that indicate the international tax exempt is applicable to North MSIP
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#intl_tax_exempt_indicator">specification</a>
-        annualCardAmount:
-          type: number
-          description: |
-            Amount of the annual card in decimal format
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#annual_card_amount">specification</a>
-          readOnly: true
-        businessTimeZone:
-          type: string
-          readOnly: true
-        languageCode:
-          type: string
-          description: |
-            Code that indicate the language for communication with the merchant
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#language_code">specification</a>
-        multiCurrencyIndicator:
-          type: string
-          description: |
-            Value that indicate whether a merchant conducts currency conversion at the point of sale
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#multi_currency_indicator">specification</a>
-        owners:
-          type: array
-          items:
-            $ref: '#/components/schemas/Owner'
-        addresses:
-          type: array
-          items:
-            $ref: '#/components/schemas/Address'
-        products:
-          $ref: '#/components/schemas/MerchantProduct'
-        merchantAttributes:
-          type: object
-          additionalProperties:
-            type: object
-            description: |
-              Will contain one or more attributes in the format shown below
-              > For additional information refer to
-              <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a> /
-              <a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a>
-              attributes definition
-              ```
-              {
-                "domain#1": {
-                  "domainDescription": "domain #1 description",
-                  "attribute#1": {
-                    "attributeDescription": "attribute description",
-                    "values": [ "some value" ]
-                  },
-                  "attribute#2": {
-                    "attributeDescription": "attribute description",
-                    "values": [ "some value" ]
-                  }
-                },
-                "domain#2": {
-                  "domainDescription": "domain #2 description",
-                  "attribute#1": {
-                    "attributeDescription": "attribute description",
-                    "values": [ "some value" ]
-                  }
-                }
-              }
-              ```
-          description: |
-            Will contain one or more attributes in the format shown below
-            > For additional information refer to
-            <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a> /
-            <a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a>
-            attributes definition
-            ```
-            {
-              "domain#1": {
-                "domainDescription": "domain #1 description",
-                "attribute#1": {
-                  "attributeDescription": "attribute description",
-                  "values": [ "some value" ]
-                },
-                "attribute#2": {
-                  "attributeDescription": "attribute description",
-                  "values": [ "some value" ]
-                }
-              },
-              "domain#2": {
-                "domainDescription": "domain #2 description",
-                "attribute#1": {
-                  "attributeDescription": "attribute description",
-                  "values": [ "some value" ]
-                }
-              }
-            }
-            ```
-        merchantBusinessInformation:
-          $ref: '#/components/schemas/MerchantBusinessInformation'
-        merchantHierarchies:
-          type: array
-          items:
-            $ref: '#/components/schemas/MerchantHierarchies'
-        merchantXrefs:
-          type: array
-          items:
-            $ref: '#/components/schemas/MerchantXref'
-        merchantAccounts:
-          type: array
-          items:
-            $ref: '#/components/schemas/MerchantAccount'
-        merchantIrsDetails:
-          $ref: '#/components/schemas/MerchantIrsTax'
-        subPlatformCode:
-          type: string
-          description: |
-            Code that indicate the alliance pratform
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#sub_platform">specification</a>
-        corporateName:
-          type: string
-          description: |
-            Official name of the merchant as it appears in legal and corporate documents
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md#corporate_name">specification</a>
-      description: "> 🚫 This is for reference, **not** required in request body;\
-        \ this will be part of the graphql mutation query"
-      nullable: true
-      default: {}
     MerchantXref:
       type: object
       properties:
@@ -1669,38 +1441,6 @@ components:
           type: string
         frontEndMid:
           type: string
-    UpdateMerchant:
-      required:
-      - query
-      type: object
-      properties:
-        query:
-          type: string
-          description: |
-            Sample merchant update mutation query
-            ```
-            mutation merchant {
-              updateMerchant(
-                merchant: {
-                  merchantId: "1234567890"
-                  platformCode: NORTH
-                  addresses: [
-                    {
-                      addressTypeCode: CORPORATE,
-                      address1Text: "123 Nowhere Lane"
-                    }
-                  ]
-                }
-              ) {
-                __typename ... on Merchant {
-                  merchantId
-                  platformCode
-                }
-              }
-            }
-            ```
-        updateSchema:
-          $ref: '#/components/schemas/MerchantUpdateSchema'
     Error:
       type: object
       properties:
@@ -2104,6 +1844,224 @@ components:
             Official name of the merchant as it appears in legal and corporate documents
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchant.md#corporate_name">specification</a>
+    MerchantIrsTax:
+      type: object
+      properties:
+        exclusionCode:
+          maxLength: 35
+          minLength: 12
+          type: string
+          description: Indicates weather the merchant is excluded from the IRS processing
+          enum:
+          - FINANCIAL_INSTITUTION
+          - FOREIGN_ENTITY_PENDING_VERIFICATION
+          - FOREIGN_ENTITY_PRIOR_1/1/11
+          - FOREIGN_ENTITY_VERIFIED
+          - GOVERNMENT_ENTITY
+          - NONPROFIT_NOT_VERIFIED
+          - NONPROFIT_VERIFIED
+          - NOT_EXCLUDED
+        irsTinValidationCode:
+          maxLength: 24
+          minLength: 10
+          type: string
+          description: Code to validate the taxpayer identification number (TIN) of
+            a merchant
+          enum:
+          - DUPLICATE_TIN
+          - FAILED_PRESCREEN
+          - INVALID_NOT TFN
+          - INVALID_TIN
+          - INVALID_TIN_MULTI_TFN
+          - IN_PROCESS
+          - IN_PROCESS_NO_UPDATE_MMF
+          - TEST_ACCOUNT
+          - TIN_MATCHED
+          - TIN_MATCHED_EIN
+          - TIN_MATCHED_SSN
+          - TIN_MATCHED_SSN_EIN
+          - TIN_MISSING
+          - TIN_NOTMATCHED
+          - TIN_UNISSUED
+        tinValidationDate:
+          maxLength: 10
+          minLength: 10
+          type: string
+          description: Date when the IRS taxpayer identification number (TIN) validation
+            was last performed for a merchant
+          format: date
+        payeeId:
+          type: string
+          description: Applicable for `OMNIPAY26`
+          x-not-for-north: "true"
+        payeeCode:
+          maxLength: 24
+          minLength: 11
+          type: string
+          description: Unique code assigned to a payee or recipient for tax reporting
+            purposes by the Internal Revenue Service (IRS)
+          enum:
+          - CHAIN_NON_PAYEE
+          - CHAIN_OUTLET_NO_1099K
+          - CHAIN_PAYEE
+          - CHAIN_PAYEE_AGREGATOR
+          - OUTLET_NONPAYEE_UNRELATD
+          - OUTLET_NON_PAYEE_RELATED
+          - OUTLET_PAYEE_RELATED
+          - OUTLET_PAYEE_UNRELATED
+          - SINGLETON_PAYEE
+        cp2100NoticeReceivedDate:
+          maxLength: 10
+          minLength: 10
+          type: string
+          description: Displays the date when a merchant received a CP2100 notice
+          format: date
+        cp2100NoticeEffectiveDate:
+          maxLength: 10
+          minLength: 10
+          type: string
+          description: Displays the specific date when the CP2100 notice becomes effective
+          format: date
+        withHoldingCode:
+          maxLength: 12
+          minLength: 8
+          type: string
+          description: Indicates if the IRS holding code is required or not
+          enum:
+          - REQUIRED
+          - NOT_REQUIRED
+        withholdingNotificationCode:
+          maxLength: 22
+          minLength: 6
+          type: string
+          description: IRS code associated with a notification related to income withholding
+            for tax purposes
+          enum:
+          - 1099K_REPORT
+          - 1099K_REPORT_AND_STATE
+          - 1ST_BUW_NOTICE
+          - 2ND_BUW_NOTICE
+          - BUW_MISSING_TIN
+          - BUW_WARN_LETTER
+          - NONE
+          - TIMS_MANL_BUW
+          - W8_EXP
+        withholdingNotificationDate:
+          maxLength: 10
+          minLength: 10
+          type: string
+          description: Date when a taxpayer or payer received a notification related
+            to income withholding
+          format: date
+        withHoldingReasonCode:
+          maxLength: 24
+          minLength: 11
+          type: string
+          description: Code associated with the reason for income withholding
+          enum:
+          - NO_RESPONSE_2ND_NOTICE
+          - MANUAL_OVERRIDE
+          - MISSING_TIN
+          - NO_RESPONSE_1ST_NOTICE
+          - PROPOSED_PENALTY_RECEIVD
+        withHoldingEffectiveDate:
+          maxLength: 10
+          minLength: 10
+          type: string
+          description: Effective date of income withholding as prescribed by the IRS
+          format: date
+        withHoldingEndDate:
+          maxLength: 10
+          minLength: 10
+          type: string
+          description: End date of income withholding as specified by the IRS
+          format: date
+        fedWithHoldingPercent:
+          maxLength: 7
+          minLength: 1
+          type: number
+          description: Percentage of backup withholding that is required to be withheld
+            by the the IRS
+        stateWithHoldingPercent:
+          maxLength: 3
+          minLength: 1
+          type: number
+          description: Indicates the percentage that applies to the withholding of
+            state income tax
+        formCertStatusCode:
+          maxLength: 24
+          minLength: 10
+          type: string
+          description: Indicates the certification status code of an IRS form
+          enum:
+          - FORM_CERTIFY_PENDING
+          - INCOMPLETE_PAPERWORK
+          - SS_CARDCOPY_OR_LTR147C
+          - TIMS_MANUAL_BUW_OFF
+          - W8_EXPIRATION_PENDING
+          - W8_FOREIGN_COMPLETE
+          - W8_FOREIGN_PNDING_REVIEW
+          - W8_NO_EXPIRATIONS
+          - W9_ON_FILE
+          - W9_RECEIVED_EXEMPTION
+        formCertStatusReceivedDate:
+          maxLength: 10
+          minLength: 10
+          type: string
+          description: Date when the certification status of an IRS form was received
+            or updated
+          format: date
+        turfEffectiveDate:
+          maxLength: 10
+          minLength: 10
+          type: string
+          description: Effective date of a Taxpayer's United Reporting Federation
+            (TURF) agreement with the IRS
+          format: date
+        turfReasonCode:
+          maxLength: 23
+          minLength: 17
+          type: string
+          description: Code to indicate the reason or purpose of the United Reporting
+            Federation (TURF) agreement with the IRS
+          enum:
+          - NO_TIN/TFN_CHANGE
+          - ADD_MISSING_TIN/TFN
+          - CHANGE_IN_FILING_STATUS
+          - CHANGE_IN_OWNERSHIP
+          - CORRECT_WRONG_TIN/TFN
+        turfUpdateDate:
+          maxLength: 10
+          minLength: 10
+          type: string
+          description: Date when a Taxpayer's United Reporting Federation (TURF) agreement
+            with the IRS was last updated
+          format: date
+        taxEffectiveYear:
+          maxLength: 4
+          minLength: 4
+          type: string
+          description: "Tax year for which the IRS tax regulations, rules, and rates\
+            \ come into effect"
+        timsAccountNumber:
+          maxLength: 50
+          minLength: 20
+          type: string
+          description: Account number associated with the Taxpayer Information Management
+            System (TIMS)
+        payeeDefaultIndicator:
+          type: string
+          description: Applicable for `OMNIPAY26`
+          x-not-for-north: "true"
+        taxPayIndicator:
+          maxLength: 3
+          minLength: 2
+          type: string
+          description: Indicates whether a taxpayer has made the required tax payments
+            for a specific period or tax year
+          enum:
+          - "YES"
+          - "NO"
     ResponseMerchant:
       type: object
       properties:
@@ -2113,6 +2071,358 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Error'
+    MerchantUpdateSchema:
+      required:
+      - merchantId
+      - platformCode
+      type: object
+      properties:
+        merchantId:
+          type: string
+          description: |
+            Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#merchant_id">specification</a>
+        platformCode:
+          type: string
+          description: |
+            Code to identify the specific backend platform. It adds the required information for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">definition</a>
+          enum:
+          - NORTH
+          - OMNIPAY26
+        setupIndicator:
+          type: string
+        dbaName:
+          type: string
+          description: |
+            Official merchant name that the customer or authorities commonly recognizes
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#dba_name">specification</a>
+        legalName:
+          type: string
+          description: |
+            Legal or official name of a merchant that is registered with government tax authorities.
+            > Note: It must be entered exactly same as it apears in the legal tax documents for the merchant. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#legal_name">specification</a>
+        businessUrl:
+          type: string
+          description: |
+            Official website address (URL) associated with the merchant.
+            > Note: The URL should be complete and accurate and it should start with the protocol (http:// or https://). For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#business_url">specification</a>
+        hierarchyLevelCode:
+          type: string
+          description: |
+            Unique identifier assigned to an outlet or a specific level within a hierarchical structure of a merchant's business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#hierarchy_level_code">specification</a>
+          readOnly: true
+        storeId:
+          type: string
+          description: |
+            Unique identifier of the merchant's store
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#store_id">specification</a>
+        taxFilingName:
+          type: string
+          description: |
+            Name that the merchant uses to file the taxes with the relevant tax authorities
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#tax_filing_name">specification</a>
+        businessTypCode:
+          type: string
+          description: |
+            Code to/that indicate whether merchant can process payment in store or online
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#business_typ_code">specification</a>
+        merchantCategoryCode:
+          type: string
+          description: |
+            Code to/that indicate the type of business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#merchant_category_code">specification</a>
+        standardIndustryClassCode:
+          type: string
+          description: |
+            Code to/that indicate the classification of MC/VISA standard industry
+            > Note: The code list is available upon request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#standard_industry_class_code">specification</a>
+        productsSold:
+          type: string
+          readOnly: true
+        statusCode:
+          type: string
+          description: |
+            Code that indicate the status of a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#status_code">specification</a>
+        acctOpenDate:
+          type: string
+          description: |
+            Date on which the merchant account was opened
+            > Note: It can include a time component if required. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#acct_open_date">specification</a>
+          format: date
+        acctSubmitDate:
+          type: string
+          description: |
+            Date on which the account was submitted
+            > Note: It can include a time component if required. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#acct_submit_date">specification</a>
+          format: date
+          readOnly: true
+        lastStatusChangedDate:
+          type: string
+          description: |
+            Date on which the last status of the merchant account was changed
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#last_status_changed_date">specification</a>
+          format: date
+          readOnly: true
+        lastStatusCode:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#last_status_code">specification</a>
+        acctCloseDate:
+          type: string
+          description: |
+            Date on which the account was closed
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#acct_close_date">specification</a>
+          format: date
+        closeReasonCode:
+          type: string
+          description: |
+            Code to/that indicate the reason of merchant account closure
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#close_reason_code">specification</a>
+        franchiseIndicator:
+          type: string
+          description: |
+            Value that indicate the merchant is a franchise or
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#franchise_indicator">specification</a>
+        seasonalIndicator:
+          type: string
+          description: |
+            Value that indicate the merchat is a seasonal or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#seasonal_indicator">specification</a>
+        salesmanCode:
+          type: string
+          description: |
+            Code that indicate the salesman associated with a merchant
+            > Note: The code list is available upon request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#salesman_code">specification</a>
+        relationshipMgrCode:
+          type: string
+          description: |
+            Code that indicate a relationship manager who is responsible for managing the merchant's account
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#relationship_mgr_code">specification</a>
+        markerBankCode:
+          type: string
+          description: |
+            Code that indicate the bank associated with a maker or client
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#marker_bank_code">specification</a>
+        clearingBankCode:
+          type: string
+          description: |
+            Code to/that indicate the clearing bank associated with a merchant
+            > Note: The valid list is available on request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#clearing_bank_code">specification</a>
+        businessStartDate:
+          type: string
+          description: |
+            Date on which the business was started
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#business_start_date">specification</a>
+          format: date
+          readOnly: true
+        pricingTypeCode:
+          type: string
+          description: |
+            Code that indicate the pricing type for interchange calculations
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#pricing_type_code">specification</a>
+        taxIdTypeCode:
+          type: string
+          description: |
+            Code that indicate the type of tax identifier
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#tax_id_type_code">specification</a>
+        taxId:
+          type: string
+          description: |
+            Unique identifier of the merchant tax
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#tax_id">specification</a>
+        intlTaxExemptIndicator:
+          type: string
+          description: |
+            Value that indicate the international tax exempt is applicable to North MSIP
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#intl_tax_exempt_indicator">specification</a>
+        annualCardAmount:
+          type: number
+          description: |
+            Amount of the annual card in decimal format
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#annual_card_amount">specification</a>
+          readOnly: true
+        businessTimeZone:
+          type: string
+          readOnly: true
+        languageCode:
+          type: string
+          description: |
+            Code that indicate the language for communication with the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#language_code">specification</a>
+        multiCurrencyIndicator:
+          type: string
+          description: |
+            Value that indicate whether a merchant conducts currency conversion at the point of sale
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#multi_currency_indicator">specification</a>
+        owners:
+          type: array
+          items:
+            $ref: '#/components/schemas/Owner'
+        addresses:
+          type: array
+          items:
+            $ref: '#/components/schemas/Address'
+        products:
+          $ref: '#/components/schemas/MerchantProduct'
+        merchantAttributes:
+          type: object
+          additionalProperties:
+            type: object
+            description: |
+              Will contain one or more attributes in the format shown below
+              > For additional information refer to
+              <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a> /
+              <a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a>
+              attributes definition
+              ```
+              {
+                "domain#1": {
+                  "domainDescription": "domain #1 description",
+                  "attribute#1": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  }
+                },
+                "domain#2": {
+                  "domainDescription": "domain #2 description",
+                  "attribute#1": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+          description: |
+            Will contain one or more attributes in the format shown below
+            > For additional information refer to
+            <a href="../docs?path=docs/attribute/merchant/north.md">NORTH</a> /
+            <a href="../docs?path=docs/attribute/merchant/omnipay26.md">OMNIPAY26</a>
+            attributes definition
+            ```
+            {
+              "domain#1": {
+                "domainDescription": "domain #1 description",
+                "attribute#1": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                }
+              },
+              "domain#2": {
+                "domainDescription": "domain #2 description",
+                "attribute#1": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
+        merchantBusinessInformation:
+          $ref: '#/components/schemas/MerchantBusinessInformation'
+        merchantHierarchies:
+          type: array
+          items:
+            $ref: '#/components/schemas/MerchantHierarchies'
+        merchantXrefs:
+          type: array
+          items:
+            $ref: '#/components/schemas/MerchantXref'
+        merchantAccounts:
+          type: array
+          items:
+            $ref: '#/components/schemas/MerchantAccount'
+        merchantIrsDetails:
+          $ref: '#/components/schemas/MerchantIrsTax'
+        subPlatformCode:
+          type: string
+          description: |
+            Code that indicate the alliance pratform
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#sub_platform">specification</a>
+        corporateName:
+          type: string
+          description: |
+            Official name of the merchant as it appears in legal and corporate documents
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#corporate_name">specification</a>
+      description: "> 🚫 This is for reference, **not** required in request body;\
+        \ this will be part of the graphql mutation query"
+      nullable: true
+      default: {}
+    UpdateMerchant:
+      required:
+      - query
+      type: object
+      properties:
+        query:
+          type: string
+          description: |
+            Sample merchant update mutation query
+            ```
+            mutation merchant {
+              updateMerchant(
+                merchant: {
+                  merchantId: "1234567890"
+                  platformCode: NORTH
+                  addresses: [
+                    {
+                      addressTypeCode: CORPORATE,
+                      address1Text: "123 Nowhere Lane"
+                    }
+                  ]
+                }
+              ) {
+                __typename ... on Merchant {
+                  merchantId
+                  platformCode
+                }
+              }
+            }
+            ```
+        updateSchema:
+          $ref: '#/components/schemas/MerchantUpdateSchema'
     SearchCriteriaInput:
       type: object
       properties:
