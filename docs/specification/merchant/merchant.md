@@ -405,6 +405,14 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 6        |    10        |    Required     | Required     | Required |    NA     |
 
+**Valid Values**: 
+|              Value   |                    Description                 |
+|----------------------|:----------------------------------------------:|
+|  RETAIL  |  Merchant supporting sale of products in stores, person-to-person, or through direct mail  |  
+|  ECOMM  |  Merchant supporting sale of products solely through the Internet  |  
+|  BOTH  |  Merchant supporting both retail and ecomm sales  |  
+|  MOTO_ECOMM  |  MOTO/Ecommerce  |  
+
 <!-- type: tab -->
 
 ##### North Specification 
@@ -416,7 +424,7 @@ titles: UMM, North, South, GMA
 |              Value   |                    Description                 |
 |----------------------|:----------------------------------------------:|
 | MOTO_ECOMM|    |
-|RETAIL
+| RETAIL |  |
 
 <!-- type: tab --> 
 
