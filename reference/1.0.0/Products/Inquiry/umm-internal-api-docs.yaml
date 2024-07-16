@@ -155,3 +155,45 @@ components:
             type: object
             additionalProperties:
               type: object
+              description: |
+                Will contain one or more attributes in the format shown below
+                ```
+                {
+                  "attributeType#1": {
+                    "attribute#1": {
+                      "values": [ "some value" ]
+                    },
+                    "attribute#2": {
+                      "values": [ "some value" ]
+                    }
+                  }
+                }
+                ```
+            description: |
+              Will contain one or more attributes in the format shown below
+              ```
+              {
+                "attributeType#1": {
+                  "attribute#1": {
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+          description: |
+            Will contain one or more attributes in the format shown below
+            ```
+            {
+              "attributeType#1": {
+                "attribute#1": {
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
