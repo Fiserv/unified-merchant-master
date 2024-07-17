@@ -61,7 +61,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 50         |      5   | Required   | Required   | Not Required   | NA     |
+| String  | 5         |      50   | Required   | Required   | Not Required   | NA     |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -145,7 +145,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 8         |      1   | Required   | Required   | Required   | NA
+| String  | 1         |      8   | Required   | Required   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -183,7 +183,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 24         |      3   | Required   | Required   | Required   | NA
+| String  | 3         |      24   | Required   | Required   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -222,7 +222,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 24         |      1   | Required   | Required   | Required   | NA
+| String  | 1         |      24   | Required   | Required   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -260,7 +260,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 40         |      10   | Required   | Required   | Required   | NA
+| String  | 10         |      40   | Required   | Required   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -300,7 +300,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 240         |      34   | Required   | Required   | Required   | NA
+| String  | 34         |      240   | Required   | Required   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -721,7 +721,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3         |      1   | Required   | Required   | Required   | NA     |
+| String  | 1         |      3   | Required   | Required   | Required   | NA     |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -1501,7 +1501,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 20         |      9   | Required   | Required   | Required   | NA
+| String  | 9         |      20   | Required   | Required   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -1649,7 +1649,7 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 24         |      3   | Required   | Required   | Required   | NA
+| String  | 3         |      24   | Required   | Required   | Required   | NA
 
 <!-- type: tab --> 
 
