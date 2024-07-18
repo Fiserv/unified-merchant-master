@@ -57,6 +57,14 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 5        |    50        |    Required     | Required     | Not Required |    NA     |
 
+**Valid Values**: 
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| NORTH     |    North    | 
+| OMNIPAY26     |        | 
+| SOUTH     |     South   | 
+| OMNIPAY21     |        |     |
+
 <!-- type: tab -->
 
 ##### North Specification 
@@ -67,10 +75,7 @@ titles: UMM, North, South, GMA
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NORTH     |        | 
-| OMNIPAY26     |        | 
-| SOUTH     |     South   | 
-| OMNIPAY21     |        |
+| NORTH     |     North   |
 
 <!-- type: tab --> 
 
@@ -91,7 +96,7 @@ titles: UMM, North, South, GMA
 ---
 ### HIERARCHY_LEVEL_CODE
 * Description: Unique identifier assigned to an outlet or a specific level within a hierarchical structure of a merchant's business. 
-* API field: `hierarchyId`
+* API field: `hierarchyLevelCode`
 * Field Specification:
 
 <!-- type: tab 
@@ -121,7 +126,18 @@ titles: UMM, North, South, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3         |      3   | Required   | Not Required   | Not Required   | NA
+| String  | 3         |      3   | Required   | Not Required   | Not Required   | NA     |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+|  AGENT   |   North backend's 040-AGENT hierarchy level     |
+|  CHAIN   |   North backend's 020-CHAIN hierarchy level     |
+|  BANK   |        |
+|  BILL_TO_ADDR   |   North backend's 019-BILL_TO_ADDR hierarchy level     |
+|  CORP   |   Corporation     |
+|  BUSINESS   |  Business      |
+|  OUTLET   |   Outlet     |
 
 <!-- type: tab --> 
 
@@ -180,7 +196,7 @@ titles: UMM, North, South, GMA
 ---
 ### DBA_NAME
 * Description: Official merchant name that the customer or authorities commonly recognizes.
-* API field: `merchantName`
+* API field: `dbaName`
 * Field Specification:
 
 <!-- type: tab 
@@ -217,9 +233,8 @@ titles: UMM, North, South, GMA
 <!-- type: tab-end -->
 ---
 ### LEGAL_NAME
-* Description: Legal or official name of a merchant that is registered with government tax authorities. 
-Note: It must be entered exactly same as it appears in the legal tax documents for the merchant.
-* API field: `legalBusinessName`
+* Description: Legal or official name of a merchant that is registered with government tax authorities.
+* API field: `legalName`
 * Field Specification:
 
 <!-- type: tab 
@@ -294,10 +309,8 @@ titles: UMM, North, South, GMA
 <!-- type: tab-end -->
 ---
 ### BUSINESS_URL
-* Description: Official website address (URL) associated with the merchant. 
-
-Note: The URL should be complete and accurate and it should start with the protocol (http:// or https://).
-* API field: `websiteUrlText`
+* Description: Official website address (URL) associated with the merchant.
+* API field: `businessUrl`
 * Field Specification:
 
 <!-- type: tab 
@@ -335,11 +348,7 @@ titles: UMM, North, South, GMA
 ---
 ### BUSINESS_TYP_CODE
 * Description: Code that indicates whether merchant can process payment in store or online.
-
-Note: The following values indicate:
-- MOTO_ECOMM: Online payment method
-- RETAIL: In store payment method
-* API field: `motoEcommerceCode`
+* API field: `businessTypCode`
 * Field Specification:
 
 <!-- type: tab 
@@ -391,7 +400,7 @@ titles: UMM, North, South, GMA
 ---
 ### MERCHANT_CATEGORY_CODE
 * Description: Code that indicates the type of business.
-* API field: `primaryMccCode`
+* API field: `merchantCategoryCode`
 * Field Specification:
 
 <!-- type: tab 
@@ -429,9 +438,7 @@ titles: UMM, North, South, GMA
 ---
 ### STANDARD_INDUSTRY_CLASS_CODE
 * Description: Code that indicates the classification of MC/VISA standard industry.
-
-Note: The code list is available upon request only.
-* API field: `sicCode`
+* API field: `standardIndustryClassCode`
 * Field Specification:
 
 <!-- type: tab 
@@ -469,13 +476,6 @@ titles: UMM, North, South, GMA
 ---
 ### STATUS_CODE
 * Description: Code that indicates the status of a merchant.
-
-Example:
-PENDING : Pending Credit Approval
-CANCELLED_FRAUD : Cancelled Due to Fraud
-ACTIVE : Active - Monthly Stmt
-CANCELLED_CREDIT : Cancelled By Credit
-CANCELLED_MERCHANT : Cancelled By Merchant
 * API field: `statusCode`
 * Field Specification:
 
@@ -532,11 +532,7 @@ titles: UMM, North, South, GMA
 ---
 ### ACCT_OPEN_DATE
 * Description: Date on which the merchant account was opened.
- 
-Format: CCYY-MM-DD 
-Example: 2024-05-15
-Note: It can include a time component if required. 
-* API field: `openDate`
+* API field: `acctOpenDate`
 * Field Specification:
 
 <!-- type: tab 
@@ -650,7 +646,7 @@ titles: UMM, North, South, GMA
 ---
 ### LAST_STATUS_CODE
 * Description: Code to indicate the last status of the merchant account before a recent update.
-* API field: `previousStatusCode`
+* API field: `lastStatusCode`
 * Field Specification:
 
 <!-- type: tab 
@@ -1129,8 +1125,6 @@ titles: UMM, North, South, GMA
 ---
 ### SALESMAN_CODE
 * Description: Code that indicates the salesman associated with a merchant.
-
-Note: The code list is available upon request only.
 * API field: `salesmanCode`
 * Field Specification:
 
@@ -1169,7 +1163,7 @@ titles: UMM, North, South, GMA
 ---
 ### RELATIONSHIP_MGR_CODE
 * Description: Code that indicates a relationship manager who is responsible for managing the merchant's account.
-* API field: `relationshipManagerCode`
+* API field: `relationshipMgrCode`
 * Field Specification:
 
 <!-- type: tab 
@@ -1244,9 +1238,7 @@ titles: UMM, North, South, GMA
 <!-- type: tab-end -->
 ---
 ### CLEARING_BANK_CODE
-* Description: Code that indicates the clearing bank associated with a merchant. 
-
-Note: The valid list is available on request only.
+* Description: Code that indicates the clearing bank associated with a merchant.
 * API field: `clearingBankCode`
 * Field Specification:
 
@@ -1745,7 +1737,7 @@ titles: UMM, North, South, GMA
 ---
 ### INTL_TAX_EXEMPT_INDICATOR
 * Description: Value that indicates the international tax exempt is applicable to North MSIP.
-* API field: `internationalTaxExemptIndicator`
+* API field: `intlTaxExemptIndicator`
 * Field Specification:
 
 <!-- type: tab 
@@ -2007,7 +1999,7 @@ titles: UMM, North, South, GMA
 ---
 ### SUB_PLATFORM
 * Description: Code that indicates the alliance pratform.
-* API field: `alliancePlatformCode`
+* API field: `subPlatformCode`
 * Field Specification:
 
 <!-- type: tab 
