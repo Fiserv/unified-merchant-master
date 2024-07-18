@@ -134,7 +134,7 @@ titles: UMM, North, South, GMA
 |  AGENT   |   North backend's 040-AGENT hierarchy level     |
 |  CHAIN   |   North backend's 020-CHAIN hierarchy level     |
 |  BANK   |        |
-|  BILL_TO_ADDR   |   North backend's 019-BILL_TO_ADDR hierarchy level     |
+|  BILL_TO   |        |
 |  CORP   |   Corporation     |
 |  BUSINESS   |  Business      |
 |  OUTLET   |   Outlet     |
