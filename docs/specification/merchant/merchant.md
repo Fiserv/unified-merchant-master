@@ -20,6 +20,7 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab -->
 
+
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -101,6 +102,19 @@ titles: UMM, North, South, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 20        |    100        |    Required     | Not Required     | Not Required |    NA     |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|----------------------|:----------------------------------------------:|
+|    GROUP          |    Highest level in Omnipay Hierarchy    |
+|    SUB_GROUP          |    This represents the next level in Omnipay Hierarchy below Group level    |
+|    OUTLET          |    North backend's 010-OUTLET hierarchy level    |
+|    BILL_TO_ADDR          |    North backend's 019-BILL_TO_ADDR hierarchy level    |
+|    CHAIN          |    North backend's 020-CHAIN hierarchy level    |
+|    AGENT          |    North backend's 040-AGENT hierarchy level    |
+|    PRIN          |    North backend's 050-PRIN hierarchy level    |
+|    MEMBER          |    This identifies the actual processing Merchant assigned to a location    |
+|    SYSTEM          |    North backend's 060-SYSTEM hierarchy level    |     |
 
 <!-- type: tab -->
 
