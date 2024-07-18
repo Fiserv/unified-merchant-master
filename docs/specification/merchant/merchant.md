@@ -66,7 +66,7 @@ titles: UMM, North, South, GMA
 
 **Valid Values**: 
 |              Value   |                    Description                 |
-|----------------------|:----------------------------------------------:|
+|----------------------|------------------------------------------------|
 | NORTH     |        | 
 | OMNIPAY26     |        | 
 | SOUTH     |     South   | 
@@ -104,15 +104,17 @@ titles: UMM, North, South, GMA
 | String  | 20        |    100        |    Required     | Not Required     | Not Required |    NA     |
 
 **Valid Values**: 
-|    GROUP          |:    Highest level in Omnipay Hierarchy    |
+|              Value   |                    Description                 |
+|----------------------|------------------------------------------------|
+|    GROUP          |    Highest level in Omnipay Hierarchy    |
 |    SUB_GROUP          |    This represents the next level in Omnipay Hierarchy below Group level    |
-|    OUTLET          |:    North backend's 010-OUTLET hierarchy level    |
-|    BILL_TO_ADDR          |:    North backend's 019-BILL_TO_ADDR hierarchy level    |
-|    CHAIN          |:    North backend's 020-CHAIN hierarchy level    |
-|    AGENT          |:    North backend's 040-AGENT hierarchy level    |
-|    PRIN          |:    North backend's 050-PRIN hierarchy level    |
-|    MEMBER          |:    This identifies the actual processing Merchant assigned to a location    |
-|    SYSTEM          |:    North backend's 060-SYSTEM hierarchy level    |
+|    OUTLET          |    North backend's 010-OUTLET hierarchy level    |
+|    BILL_TO_ADDR          |    North backend's 019-BILL_TO_ADDR hierarchy level    |
+|    CHAIN          |    North backend's 020-CHAIN hierarchy level    |
+|    AGENT          |    North backend's 040-AGENT hierarchy level    |
+|    PRIN          |    North backend's 050-PRIN hierarchy level    |
+|    MEMBER          |    This identifies the actual processing Merchant assigned to a location    |
+|    SYSTEM          |    North backend's 060-SYSTEM hierarchy level    |     |
 
 <!-- type: tab -->
 
@@ -358,7 +360,7 @@ titles: UMM, North, South, GMA
 
 **Valid Values**: 
 |              Value   |                    Description                 |
-|----------------------|:----------------------------------------------:|
+|----------------------|------------------------------------------------|
 | MOTO_ECOMM     |MOTO/Ecommerce   | 
 | RETAIL     |Merchant supporting sale of products in stores, person-to-person, or through direct mail   | 
 
@@ -487,7 +489,7 @@ titles: UMM, North, South, GMA
 
 **Valid Values**: 
 |              Value   |                    Description                 |
-|----------------------|:----------------------------------------------:|
+|----------------------|------------------------------------------------|
 | PENDING     |Pending Credit Approval   | 
 | CANCELLED_FRAUD     |Cancelled Due to Fraud   | 
 | CANCELLED_CREDIT     |Cancelled By Credit   | 
@@ -652,7 +654,7 @@ titles: UMM, North, South, GMA
 
 **Valid Values**: 
 |              Value   |                    Description                 |
-|----------------------|:----------------------------------------------:|
+|----------------------|------------------------------------------------|
 | PENDING     |Pending Credit Approval   | 
 | CANCELLED_FRAUD     |Cancelled Due to Fraud   | 
 | CANCELLED_CREDIT     |Cancelled By Credit   | 
@@ -737,7 +739,7 @@ titles: UMM, North, South, GMA
 
 **Valid Values**: 
 |              Value   |                    Description                 |
-|----------------------|:----------------------------------------------:|
+|----------------------|------------------------------------------------|
 | LP_SALES_REP_FRAUD     |LP SALES REP FRAUD   | 
 | IR_IN_BS_SLD_BS_NEW     |IR-IN  BS-SLD BS/NEW   | 
 | IR_PND_INFO_SLS_SUPT     |IR-PND INFO SLS SUPT   | 
@@ -898,7 +900,7 @@ titles: UMM, North, South, GMA
 
 **Valid Values**: 
 |              Value   |                    Description                 |
-|----------------------|:----------------------------------------------:|
+|----------------------|------------------------------------------------|
 | Yes     |Franchise Indicator   |
 | No     |Franchise Indicator   |
 
@@ -942,7 +944,7 @@ titles: UMM, North, South, GMA
 
 **Valid Values**: 
 |              Value   |                    Description                 |
-|----------------------|:----------------------------------------------:|
+|----------------------|------------------------------------------------|
 | Yes     |Seasonal Indicator   | 
 | No     |Seasonal Indicator   |
 
@@ -1180,7 +1182,7 @@ titles: UMM, North, South, GMA
 
 **Valid Values**: 
 |              Value   |                    Description                 |
-|----------------------|:----------------------------------------------:|
+|----------------------|------------------------------------------------|
 | DC_COURT_FINE_GOVT_SERVICE     |DC Court/Fine/Govser   | 
 | CHARITY     |Charity   | 
 | RG_EMERGING_MARKET     |RG Emerging Market   | 
@@ -1389,7 +1391,7 @@ titles: UMM, North, South, GMA
 
 **Valid Values**: 
 |              Value   |                    Description                 |
-|----------------------|:----------------------------------------------:|
+|----------------------|------------------------------------------------|
 | Yes     |International Tax Exempt Indicator   | 
 | No     |International Tax Exempt Indicator   |
 
@@ -1471,7 +1473,7 @@ titles: UMM, North, South, GMA
 
 **Valid Values**: 
 |              Value   |                    Description                 |
-|----------------------|:----------------------------------------------:|
+|----------------------|------------------------------------------------|
 | EIN     |EIN Fed Tax   | 
 | REFUSED     |Refused   | 
 | SSN     |SSN   | 
@@ -1555,7 +1557,7 @@ titles: UMM, North, South, GMA
 
 **Valid Values**: 
 |              Value   |                    Description                 |
-|----------------------|:----------------------------------------------:|
+|----------------------|------------------------------------------------|
 | CURR_CONV     |Currency conversion   | 
 | DCC_GMA     |DCC on GMA   | 
 | FOREIGN_PROCESSING     |Foreign Processing   | 
@@ -1604,7 +1606,7 @@ titles: UMM, North, South, GMA
 
 **Valid Values**: 
 |              Value   |                    Description                 |
-|----------------------|:----------------------------------------------:|
+|----------------------|------------------------------------------------|
 | MSIP     |MSIP   | 
 | SUNTRUST_THREE     |3SunTrust   | 
 | NOVUS     |Novus   | 
