@@ -2124,10 +2124,10 @@ TEST comments
 <!--##### South Specification -->
 
 <!--| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |-->
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+<!--|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |       -        |     -      |     -    |          |              |       NA     |-->
 
-<!-- type: tab --> -->
+<!-- type: tab --> 
 
 ##### GMA Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
