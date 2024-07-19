@@ -2118,21 +2118,3 @@ titles: UMM, North, South, GMA
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
-TEST comments
-<!-- type: tab --> 
-
-<!--##### South Specification -->
-
-<!--| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |       -        |     -      |     -    |          |              |       NA     |-->
-
-<!-- type: tab --> 
-
-##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
-
-<!-- type: tab-end -->
----
