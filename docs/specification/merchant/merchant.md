@@ -2119,16 +2119,16 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab-end -->
 TEST comments
-/*
+<!---
 <!-- type: tab --> 
 
-//##### South Specification
-//
-//| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-//|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-//| String |       -        |     -      |     -    |          |              |       NA     |
+##### South Specification
 
-<!-- type: tab -->*/
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab --> -->
 
 ##### GMA Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
