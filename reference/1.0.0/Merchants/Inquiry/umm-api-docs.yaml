@@ -96,22 +96,14 @@ paths:
       - name: platformCode
         in: query
         description: |
-          Code to identify the specific backend platform. It adds the required information for the merchant
-          > For more details refer to
+          Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
           <a href="../docs?path=docs/specification/merchant/merchant.md#platform_code">specification</a>
         required: true
         schema:
           type: string
           description: |
-            Code to identify the specific backend platform. It adds the required information for the merchant
-            > For more details refer to
+            Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchant.md#platform_code">specification</a>
-          enum:
-          - NORTH
-          - OMAHA
-          - SOUTH
-          - OMNIPAY26
-          - OMNIPAY21
       - name: pageNumber
         in: query
         required: true
@@ -164,35 +156,25 @@ paths:
       - name: merchantId
         in: query
         description: |
-          Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
-          > For more details refer to
+          Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database. For more details refer to
           <a href="../docs?path=docs/specification/merchant/merchant.md#merchant_id">specification</a>
         required: true
         schema:
           type: string
           description: |
-            Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database
-            > For more details refer to
+            Unique identifier of the merchant. It is required to query/add merchant-specific information from/to the database. For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchant.md#merchant_id">specification</a>
       - name: platformCode
         in: query
         description: |
-          Code to identify the specific backend platform. It adds the required information for the merchant
-          > For more details refer to
+          Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
           <a href="../docs?path=docs/specification/merchant/merchant.md#platform_code">specification</a>
         required: true
         schema:
           type: string
           description: |
-            Code to identify the specific backend platform. It adds the required information for the merchant
-            > For more details refer to
+            Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchant.md#platform_code">specification</a>
-          enum:
-          - NORTH
-          - OMAHA
-          - SOUTH
-          - OMNIPAY26
-          - OMNIPAY21
       - name: effectiveDate
         in: query
         description: Effective date from when the user can start fetching the snapshot
@@ -258,93 +240,120 @@ components:
           - BUSINESS_MANAGER
           - ALTERNATE_ADDRESS
         contactName:
-          maxLength: 80
-          minLength: 30
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#contact_name">specification</a>
         contactTitle:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#contact_title">specification</a>
         address1Text:
-          maxLength: 150
-          minLength: 10
           type: string
-          description: "First line of the merchant's physical address. Typically building\
-            \ number, street name and any additional relevant address details"
+          description: |
+            First line of the merchant's physical address. Typically building number, street name and any additional relevant address details
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#address_1_text">specification</a>
         address2Text:
-          maxLength: 150
-          minLength: 10
           type: string
-          description: Second line of the merchant's physical address. Captures additional
-            details that complement the first line
+          description: |
+            Second line of the merchant's physical address. Captures additional details that complement the first line
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#address_2_text">specification</a>
         address3Text:
-          maxLength: 150
-          minLength: 10
           type: string
-          description: Third line of the merchant's physical address for additional
-            address details
+          description: |
+            Third line of the merchant's physical address for additional address details
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#address_3_text">specification</a>
         address4Text:
-          maxLength: 150
-          minLength: 10
           type: string
-          description: Fourth line of the merchant's physical address for additional
-            address details
+          description: |
+            Fourth line of the merchant's physical address for additional address details
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#address_4_text">specification</a>
         address5Text:
-          maxLength: 150
-          minLength: 10
           type: string
-          description: Fifth line of the merchant's physical address for additional
-            address details
+          description: |
+            Fifth line of the merchant's physical address for additional address details
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#address_5_text">specification</a>
         city:
-          maxLength: 100
-          minLength: 10
           type: string
-          description: Name of the city where the merchant is located
+          description: |
+            Name of the city where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#city">specification</a>
         stateCode:
-          maxLength: 10
-          minLength: 3
           type: string
-          description: State code for US or Canada where the merchant is located
+          description: |
+            State code for US or Canada where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#state_code">specification</a>
         stateName:
           type: string
-          description: State name for US or Canada where the merchant is located
+          description: |
+            State name for US or Canada where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#state_name">specification</a>
         countryCode:
-          maxLength: 3
-          minLength: 2
           type: string
-          description: Country code for where the merchant is located
+          description: |
+            Country code for where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#country_code">specification</a>
         postalCode:
-          maxLength: 20
-          minLength: 5
           type: string
-          description: Postal code where the merchant is located
+          description: |
+            Postal code where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#postal_code">specification</a>
         countyCode:
-          maxLength: 50
           type: string
-          description: County code where the merchant is located
+          description: |
+            County code where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#county_code">specification</a>
         countyName:
-          maxLength: 100
           type: string
-          description: County name where the merchant is located
+          description: |
+            County name where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#county_name">specification</a>
         businessPhone:
-          maxLength: 15
-          minLength: 10
           type: string
-          description: Phone number of the principal owner of the business
+          description: |
+            Phone number of the principal owner of the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#business_phone">specification</a>
         mobile:
-          maxLength: 15
-          minLength: 10
           type: string
-          description: Mobile number of the principal owner of the business
+          description: |
+            Mobile number of the principal owner of the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#mobile">specification</a>
         fax:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#fax">specification</a>
         emailAddress:
-          maxLength: 320
-          minLength: 70
           type: string
-          description: E-mail address of the merchant
+          description: |
+            E-mail address of the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#email_address">specification</a>
         deliveryMethod:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#delivery_method">specification</a>
         attentionTo:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#attention_to">specification</a>
     CreateMerchant:
       required:
       - query
@@ -363,8 +372,10 @@ components:
       properties:
         accountUsageCode:
           type: string
-          description: Unique identifier assigned to a checking or current account.
-            It distinguishs one account from another within a financial institution
+          description: |
+            Unique identifier assigned to a checking or current account. It distinguishs one account from another within a financial institution
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#acct_usage_code">specification</a>
           enum:
           - FUNDING
           - LEASING
@@ -508,75 +519,154 @@ components:
           - CHBK_HOLD_RECEIVABLE
         sequenceNumber:
           type: integer
-          description: "ABA/DDA occurrence is a sequential number which allows financial\
-            \ institutions to maintain accurate records and reconcile ACH transactions,\
-            \ ensuring proper accounting and auditing procedures"
+          description: |
+            ABA/DDA occurrence is a sequential number which allows financial institutions to maintain accurate records and reconcile ACH transactions, ensuring proper accounting and auditing procedures
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#sequence_number">specification</a>
           format: int64
         recordType:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#record_type">specification</a>
         billingLevel:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#billing_level">specification</a>
         routingNumber:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#routing_number">specification</a>
         accountNumber:
           type: string
-          description: Unique numerical identifier assigned to the merchant's bank
-            account
+          description: |
+            Unique numerical identifier assigned to the merchant's bank account
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#acct_number">specification</a>
         nameOnAccount:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#name_on_account">specification</a>
         bankName:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#bank_name">specification</a>
         accountEffectiveDate:
           type: string
-          description: Date when the bank account became active or effective
+          description: |
+            Date when the bank account became active or effective
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#account_effective_dt">specification</a>
           format: date
         receiverCountry:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#receiver_country">specification</a>
         phoneNumber:
           type: string
-          description: Phone number of the principal owner of the business
+          description: |
+            Phone number of the principal owner of the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#phone_number">specification</a>
         contactName:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#contact_name">specification</a>
         paymentReference:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#payment_reference">specification</a>
         iban:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#iban">specification</a>
         correspondentBankNo:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#correspondent_bank_no">specification</a>
         paymentFormatId:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#payment_format_id">specification</a>
         clearingEntity:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#clearing_entity">specification</a>
         paymentDelayDays:
           type: integer
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#payment_delay_days">specification</a>
           format: int32
         currencyCode:
           type: string
-          description: ISO 4217 currency of the account selected
+          description: |
+            ISO 4217 currency of the account selected
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#currency_code">specification</a>
         bankReference:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#bank_reference">specification</a>
         correspondentBankAccount:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#corredpondent_bank_account">specification</a>
         bankFundingFileCode:
           type: string
-          description: Indicate the funding file process associated with ABA/DDA transactions
+          description: |
+            Indicate the funding file process associated with ABA/DDA transactions
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#bank_funding_file_code">specification</a>
         bankCity:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#bank_city">specification</a>
         bankAccountType:
           type: string
           description: |
             Indicates the account of a merchant
-            > Example: Checking/Savings/GL purposes
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#bank_account_type">specification</a>
         statementGeneration:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#statement_generation">specification</a>
         statementType:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#statement_type">specification</a>
         status:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#status">specification</a>
         settlementNumber:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#settlement_number">specification</a>
         currentBalance:
           type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md#current_balance">specification</a>
     MerchantBoardingSchema:
       required:
       - platformCode
@@ -593,7 +683,7 @@ components:
           description: |
             Code to identify the specific backend platform. It adds the required information for the merchant
             > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+            <a href="../docs?path=docs/specification/merchant/merchant.md#platform_code">specification</a>
           enum:
           - NORTH
           - SOUTH
@@ -835,19 +925,28 @@ components:
       properties:
         legalContactName:
           type: string
-          description: Individual designated as the legal contact for a business or
-            organization
+          description: |
+            Individual designated as the legal contact for a business or organization
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#legal_contact_name">specification</a>
         legalEntityTypeCode:
           type: string
-          description: Identifier used to denote the legal entity type of a business
-            or organization
+          description: |
+            Identifier used to denote the legal entity type of a business or organization
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#legal_entity_type_code">specification</a>
         legalContactTitle:
           type: string
-          description: Professional title or designation of the legal contact for
-            a business or organization
+          description: |
+            Professional title or designation of the legal contact for a business or organization
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#legal_contact_title">specification</a>
         customerServicePhoneNumber:
           type: string
-          description: Customer service contact number provided by the merchant
+          description: |
+            Customer service contact number provided by the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#customer_service_phone_number">specification</a>
         locationStartDate:
           type: string
           format: date
@@ -868,65 +967,133 @@ components:
           format: date
         electronicSigIndicator:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#electronic_sig_indicator">specification</a>
         residentStatusCode:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#resident_status_code">specification</a>
         registrationNumber:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#registration_number">specification</a>
         salesTaxExemptIndicator:
           type: string
-          description: Indicates whether the merchant is exempt from paying tax
+          description: |
+            Indicates whether the merchant is exempt from paying tax
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#sales_tax_exempt_indicator">specification</a>
         thirdPartyProcessorCode:
           type: string
-          description: Unique identifier associated with a third-party payment processor
-            used by a merchant
+          description: |
+            Unique identifier associated with a third-party payment processor used by a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#third_party_processor_code">specification</a>
         periodicReviewIndicator:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#periodic_review_indicator">specification</a>
         annualSalesAmount:
           type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#annual_sales_amount">specification</a>
         averageTicketAmount:
           type: number
-          description: Average amount of each individual transaction made by customers
-            at a merchant's establishment
+          description: |
+            Average amount of each individual transaction made by customers at a merchant's establishment
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#average_ticket_amount">specification</a>
         highestTicketAmount:
           type: number
-          description: Average amount of each individual transaction made by customers
-            at a merchant's establishment
+          description: |
+            Highest amount of transaction made by customers at a merchant's establishment
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#highest_ticket_amount">specification</a>
         largeTicketPurchaseIndicator:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#higheslarge_ticket_purchase_indicator">specification</a>
         mailOrderPercent:
           type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#mail_order_percent">specification</a>
         phoneOrderPercent:
           type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#phone_order_percent">specification</a>
         posOrderPercent:
           type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#pos_order_percent">specification</a>
         swipedPercent:
           type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#swiped_percent">specification</a>
         keyedPercent:
           type: number
-          description: Percentage entered manually rather than being automatically
-            calculated or derived from a system
+          description: |
+            Percentage entered manually rather than being automatically calculated or derived from a system
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#keyed_percent">specification</a>
         salesChannelId:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#sales_channel_id">specification</a>
         salesLeadTrackingNo:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#sales_lead_tracking_no">specification</a>
         accountSignedDate:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#account_signed_date">specification</a>
           format: date
         accountApprovalDate:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#account_approval_date">specification</a>
           format: date
         quasiCashIndicator:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#quasi_cash_indicator">specification</a>
         internetOrderPercent:
           type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#internet_order_percent">specification</a>
         firstActivityDate:
           type: string
-          description: First recorded activity
+          description: |
+            First recorded activity
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#first_activity_date">specification</a>
           format: date
         thirdPartyProcessorName:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#third_party_processor_name">specification</a>
         estimatedAnnualBankCardSalesAmount:
           type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#estimated_annual_bank_card_sales_amount">specification</a>
         del0To7DayPercent:
           type: number
         del8To14DayPercent:
@@ -991,171 +1158,194 @@ components:
       properties:
         ownerSeqCode:
           type: string
-          description: Sequesnce number of the principal owner associated with the
-            business
+          description: |
+            Sequence number of the principal owner associated with the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#owner_seq_code">specification</a>
         firstName:
-          maxLength: 100
-          minLength: 3
           type: string
-          description: Legal first name of the principal owner of the business
+          description: |
+            Legal first name of the principal owner of the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#first_name">specification</a>
         middleName:
-          maxLength: 100
-          minLength: 1
           type: string
-          description: Legal middle name of the principal owner of the business
+          description: |
+            Legal middle name of the principal owner of the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#middle_name">specification</a>
         lastName:
-          maxLength: 100
-          minLength: 3
           type: string
-          description: Legal last name of the principal owner of the business
+          description: |
+            Legal last name of the principal owner of the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#last_name">specification</a>
         title:
-          maxLength: 80
-          minLength: 3
           type: string
-          description: Professional or honorary title of the principal owner of the
-            business
+          description: |
+            Professional or honorary title of the principal owner of the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#title">specification</a>
         address1Text:
-          maxLength: 150
-          minLength: 3
           type: string
-          description: "First line of the merchant's physical address. Typically building\
-            \ number, street name and any additional relevant address details"
+          description: |
+            First line of the merchant's physical address. Typically building number, street name and any additional relevant address details
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#address_1_text">specification</a>
         address2Text:
-          maxLength: 150
-          minLength: 3
           type: string
-          description: Second line of the merchant's physical address. Captures additional
-            details that complement the first line
+          description: |
+            Second line of the merchant's physical address. Captures additional details that complement the first line
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#address_2_text">specification</a>
         address3Text:
           type: string
-          description: Third line of the merchant's physical address for additional
-            address details
+          description: |
+            Third line of the merchant's physical address for additional address details
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#address_3_text">specification</a>
         address4Text:
           type: string
-          description: Fourth line of the merchant's physical address for additional
-            address details
+          description: |
+            Fourth line of the merchant's physical address for additional address details
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#address_4_text">specification</a>
         address5Text:
           type: string
-          description: Fifth line of the merchant's physical address for additional
-            address details
+          description: |
+            Fifth line of the merchant's physical address for additional address details
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#address_5_text">specification</a>
         city:
-          maxLength: 100
-          minLength: 2
           type: string
-          description: Name of the city where the merchant is located
+          description: |
+            Name of the city where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#city">specification</a>
         stateCode:
-          maxLength: 10
-          minLength: 3
           type: string
-          description: State code for US or Canada where the merchant is located
+          description: |
+            State code for US or Canada where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#state_code">specification</a>
         countryCode:
-          maxLength: 10
-          minLength: 3
           type: string
-          description: Country code for where the merchant is located
+          description: |
+            Country code for where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#country_code">specification</a>
         postalCode:
-          maxLength: 20
-          minLength: 5
           type: string
-          description: Postal code where the merchant is located
+          description: |
+            Postal code where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#postal_code">specification</a>
         countyCode:
           type: string
-          description: County code where the merchant is located
-          readOnly: true
+          description: |
+            County code where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#county_code">specification</a>
         countyName:
           type: string
-          description: County Name where the merchant is located
-          readOnly: true
+          description: |
+            County Name where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#county_name">specification</a>
         mobile:
-          maxLength: 15
-          minLength: 10
           type: string
-          description: Mobile number of the principal owner of the business
+          description: |
+            Mobile number of the principal owner of the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#mobile">specification</a>
         fax:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#fax">specification</a>
         signerIndicator:
-          maxLength: 1
-          minLength: 1
           type: string
-          description: Indicates if the principal owner of the business is the authorized
-            signer for financial and legal agreements or not
-          enum:
-          - "YES"
-          - "NO"
+          description: |
+            Indicates if the principal owner of the business is the authorized signer for financial and legal agreements or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#signer_indicator">specification</a>
         guarantorIndicator:
-          maxLength: 1
-          minLength: 1
           type: string
-          description: Indicates whether there is a designated guarantor associated
-            for financial obligations of a merchant
-          enum:
-          - "YES"
-          - "NO"
+          description: |
+            Indicates whether there is a designated guarantor associated for financial obligations of a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#guarantor_indicator">specification</a>
         birthDate:
-          maxLength: 10
-          minLength: 10
           type: string
-          description: Indicates the birth date of the principal owner of the business
+          description: |
+            Indicates the birth date of the principal owner of the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#birth_date">specification</a>
           format: date
         yearsAtAddress:
-          maxLength: 3
-          minLength: 1
           type: integer
-          description: Number of years the principal owner has been residing at their
-            current address
+          description: |
+            Number of years the principal owner has been residing at their current address
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#years_at_address">specification</a>
           format: int64
         emailAddress:
           type: string
-          description: E-mail address of the merchant
-          readOnly: true
+          description: |
+            E-mail address of the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#email_address">specification</a>
         ownershipPercent:
-          maxLength: 3
-          minLength: 1
           type: integer
-          description: Indicates the percentage of ownership held by a particular
-            individual or entity in the business
+          description: |
+            Indicates the percentage of ownership held by a particular individual or entity in the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#ownership_percent">specification</a>
           format: int32
         mobileValidationStatus:
-          maxLength: 15
-          minLength: 15
           type: string
-          description: Displays the status of mobile number for the principal owner
+          description: |
+            Displays the status of mobile number for the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#mobile_validation_status">specification</a>
         mobileValidationSourceCode:
-          maxLength: 50
-          minLength: 15
           type: string
-          description: Code to identify the status of the mobile number for the principal
-            owner
+          description: |
+            Code to identify the status of the mobile number for the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#mobile_validation_source_code">specification</a>
         mobileValidationDate:
-          maxLength: 10
-          minLength: 10
           type: string
-          description: Indicates the date when the mobile number for the principal
-            owner was last validated
+          description: |
+            Indicates the date when the mobile number for the principal owner was last validated
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#mobile_validation_date">specification</a>
           format: date
         ownerIdentificationDetails:
           type: array
           items:
             $ref: '#/components/schemas/OwnerIdentification'
         phoneNumber:
-          maxLength: 15
-          minLength: 10
           type: string
-          description: Phone number of the principal owner of the business
+          description: |
+            Phone number of the principal owner of the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#business_phone">specification</a>
     OwnerIdentification:
       type: object
       properties:
         identityDocTypeCode:
           type: string
-          description: Type of tax identification document provided by the merchant
-            for verification purposes
-          readOnly: true
+          description: |
+            Type of tax identification document provided by the merchant for verification purposes
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#identity_doc_type_code">specification</a>
         identityDocNumber:
-          maxLength: 50
-          minLength: 50
           type: string
-          description: Unique number associated with an official identity document
-            provided by the merchant
+          description: |
+            Unique number associated with an official identity document provided by the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md#identity_doc_number">specification</a>
     Product:
       type: object
       properties:
@@ -1683,97 +1873,155 @@ components:
       properties:
         exclusionCode:
           type: string
-          description: Indicates weather the merchant is excluded from the IRS processing
+          description: |
+            Indicates weather the merchant is excluded from the IRS processing
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#exclusion_code">specification</a>
         irsTinValidationCode:
           type: string
-          description: Code to validate the taxpayer identification number (TIN) of
-            a merchant
+          description: |
+            Code to validate the taxpayer identification number (TIN) of a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#irs_tin_validation_code">specification</a>
         tinValidationDate:
           type: string
-          description: Date when the IRS taxpayer identification number (TIN) validation
-            was last performed for a merchant
+          description: |
+            Date when the IRS taxpayer identification number (TIN) validation was last performed for a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#tin_validation_date">specification</a>
           format: date
         payeeId:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#payee_id">specification</a>
         payeeCode:
           type: string
-          description: Unique code assigned to a payee or recipient for tax reporting
-            purposes by the Internal Revenue Service (IRS)
+          description: |
+            Unique code assigned to a payee or recipient for tax reporting purposes by the Internal Revenue Service (IRS)
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#payee_code">specification</a>
         cp2100NoticeReceivedDate:
           type: string
-          description: Displays the date when a merchant received a CP2100 notice
+          description: |
+            Displays the date when a merchant received a CP2100 notice
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#cp2100_notice_received_date">specification</a>
           format: date
         cp2100NoticeEffectiveDate:
           type: string
-          description: Displays the specific date when the CP2100 notice becomes effective
+          description: |
+            Displays the specific date when the CP2100 notice becomes effective
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#cp2100_notice_effective_date">specification</a>
           format: date
         withHoldingCode:
           type: string
-          description: Indicates if the IRS holding code is required or not
+          description: |
+            Indicates if the IRS holding code is required or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#withholding_code">specification</a>
         withholdingNotificationCode:
           type: string
-          description: IRS code associated with a notification related to income withholding
-            for tax purposes
+          description: |
+            IRS code associated with a notification related to income withholding for tax purposes
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#withholding_notification_code">specification</a>
         withholdingNotificationDate:
           type: string
-          description: Date when a taxpayer or payer received a notification related
-            to income withholding
+          description: |
+            Date when a taxpayer or payer received a notification related to income withholding
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#withholding_notification_date">specification</a>
           format: date
         withHoldingReasonCode:
           type: string
-          description: Code associated with the reason for income withholding
+          description: |
+            Code associated with the reason for income withholding
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#withholding_reason_code">specification</a>
         withHoldingEffectiveDate:
           type: string
-          description: Effective date of income withholding as prescribed by the IRS
+          description: |
+            Effective date of income withholding as prescribed by the IRS
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#withholding_effective_date">specification</a>
           format: date
         withHoldingEndDate:
           type: string
-          description: End date of income withholding as specified by the IRS
+          description: |
+            End date of income withholding as specified by the IRS
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#withholding_end_date">specification</a>
           format: date
         fedWithHoldingPercent:
           type: number
-          description: Percentage of backup withholding that is required to be withheld
-            by the the IRS
+          description: |
+            Percentage of backup withholding that is required to be withheld by the the IRS
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#fed_withholding_percent">specification</a>
         stateWithHoldingPercent:
           type: number
-          description: Indicates the percentage that applies to the withholding of
-            state income tax
+          description: |
+            Indicates the percentage that applies to the withholding of state income tax
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#state_withholding_percent">specification</a>
         formCertStatusCode:
           type: string
-          description: Indicates the certification status code of an IRS form
+          description: |
+            Indicates the certification status code of an IRS form
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#form_cert_status_code">specification</a>
         formCertStatusReceivedDate:
           type: string
-          description: Date when the certification status of an IRS form was received
-            or updated
+          description: |
+            Date when the certification status of an IRS form was received or updated
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#form_cert_status_received_date">specification</a>
           format: date
         turfEffectiveDate:
           type: string
-          description: Effective date of a Taxpayer's United Reporting Federation
-            (TURF) agreement with the IRS
+          description: |
+            Effective date of a Taxpayer's United Reporting Federation (TURF) agreement with the IRS
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#turf_effective_date">specification</a>
           format: date
         turfReasonCode:
           type: string
-          description: Code to indicate the reason or purpose of the United Reporting
-            Federation (TURF) agreement with the IRS
+          description: |
+            Code to indicate the reason or purpose of the United Reporting Federation (TURF) agreement with the IRS
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#turf_reason_code">specification</a>
         turfUpdateDate:
           type: string
-          description: Date when a Taxpayer's United Reporting Federation (TURF) agreement
-            with the IRS was last updated
+          description: |
+            Date when a Taxpayer's United Reporting Federation (TURF) agreement with the IRS was last updated
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#turf_update_date">specification</a>
           format: date
         taxEffectiveYear:
           type: string
-          description: "Tax year for which the IRS tax regulations, rules, and rates\
-            \ come into effect"
+          description: |
+            Tax year for which the IRS tax regulations, rules, and rates come into effect
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#tax_effective_year">specification</a>
         timsAccountNumber:
           type: string
-          description: Account number associated with the Taxpayer Information Management
-            System (TIMS)
+          description: |
+            Account number associated with the Taxpayer Information Management System (TIMS)
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#tims_account_number">specification</a>
         payeeDefaultIndicator:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#payee_default_indicator">specification</a>
         taxPayIndicator:
           type: string
-          description: Indicates whether a taxpayer has made the required tax payments
-            for a specific period or tax year
+          description: |
+            Indicates whether a taxpayer has made the required tax payments for a specific period or tax year
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md#tax_pay_indicator">specification</a>
     ResponseMerchant:
       type: object
       properties:
@@ -1800,7 +2048,7 @@ components:
           description: |
             Code to identify the specific backend platform. It adds the required information for the merchant
             > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+            <a href="../docs?path=docs/specification/merchant/merchant.md#platform_code">specification</a>
           enum:
           - NORTH
           - OMNIPAY26
