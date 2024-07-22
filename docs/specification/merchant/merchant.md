@@ -34,7 +34,6 @@ titles: UMM, North, GMA
 <!--|--------|:--------:|:--------:|:------------:|:------------:|-->
 <!--| String |     -    |          |              |       NA     |-->
 
-<!-- type: tab --> 
 
 ##### GMA Specification
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
