@@ -16,14 +16,15 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 34        |    50        |    Available     | NA     | NA |    NA     |
+| String  | 8        |    50        |    Available     | Required     | Required |    Required     |
 
 <!-- type: tab -->
+
 
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | NA   | NA   | NA  |
+| String   | Available   | Required   | Required   | Required  |
 
 <!-- type: tab --> 
 
@@ -36,6 +37,6 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| String |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
