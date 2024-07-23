@@ -4,6 +4,44 @@
 * **Table Name**: UMM.MERCHANT 
 ## List of Fields:
 
+### MERCHANT_ID
+* Description: Unique identifier of the merchant. It is required to add merchant-specific information to the database.
+* API field: `merchantId`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 34        |    50        |    Available     | NA     | NA |    NA     |
+
+<!-- type: tab -->
+
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| String   | Available   | NA   | NA   | NA  |
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+
 ### PLATFORM_CODE
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
@@ -24,7 +62,7 @@ titles: UMM, North, GMA
 | NORTH     |        | 
 | OMNIPAY26     |        | 
 | SOUTH     |     South   | 
-| OMNIPAY21     |        | 
+| OMNIPAY21     |        |      |
 
 <!-- type: tab -->
 
@@ -67,7 +105,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    3        |    Available     | Allowed (optional)     | Required |    NA
+| String  | 1        |    3        |    Available     | Allowed (optional)     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -105,7 +143,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    100        |    Available     | Allowed     | Required |    NA
+| String  | 3        |    100        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -143,7 +181,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    100        |    Available     | Allowed     | Required |    NA
+| String  | 1        |    100        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -181,7 +219,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    100        |    Available     | Allowed     | Required |    NA
+| String  | 3        |    100        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -219,7 +257,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    80        |    Available     | Allowed     | Required |    NA
+| String  | 3        |    80        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -257,7 +295,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    150        |    Available     | Allowed     | Required |    NA
+| String  | 3        |    150        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -295,7 +333,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    150        |    Available     | Allowed     | Required |    NA
+| String  | 3        |    150        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -333,7 +371,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 2        |    100        |    Available     | Allowed     | Required |    NA
+| String  | 2        |    100        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -388,7 +426,7 @@ titles: UMM, North, GMA
 | NB     |     State Code   | 
 | NL     |     State Code   | 
 | NT     |     State Code   | 
-| NS     |     State Code   | 
+| NS     |     State Code   |      |
 
 <!-- type: tab -->
 
@@ -499,7 +537,7 @@ titles: UMM, North, GMA
 | AUT     |     Austria   | 
 | HUN     |     Hungary   | 
 | SWE     |     Sweden   | 
-| GIB     |     Gibraltar   |
+| GIB     |     Gibraltar   |     |
 
 <!-- type: tab -->
 
@@ -593,7 +631,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 5        |    20        |    Available     | Allowed     | Required |    NA
+| String  | 5        |    20        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -631,7 +669,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 10        |    15        |    Available     | Allowed     | Required |    NA
+| String  | 10        |    15        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -669,7 +707,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 10        |    15        |    Available     | Allowed     | Required |    NA
+| String  | 10        |    15        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -713,7 +751,7 @@ titles: UMM, North, GMA
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | NO     |     Signer Indicator   | 
-| YES     |     Signer Indicator   | 
+| YES     |     Signer Indicator   |      |
 
 <!-- type: tab -->
 
@@ -763,7 +801,7 @@ titles: UMM, North, GMA
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | NO     |     Guarantor Indicator   | 
-| YES     |     Guarantor Indicator   | 
+| YES     |     Guarantor Indicator   |      |
 
 <!-- type: tab -->
 
@@ -810,7 +848,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Date  | 10        |    10        |    Available     | Allowed     | Required |    NA
+| Date  | 10        |    10        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -848,7 +886,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Integer  | 1        |    3        |    Available     | Allowed     | Required |    NA
+| Integer  | 1        |    3        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -886,7 +924,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Integer  | 1        |    3        |    Available     | Allowed     | Required |    NA
+| Integer  | 1        |    3        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -933,7 +971,7 @@ titles: UMM, North, GMA
 | LANDLINE_FAILED     |     Failed Landline Number   | 
 | WIRELESS_FAILED     |     Failed Wireless Number   | 
 | LANDLINE_VALIDATED     |     Passed Landline Number   | 
-| WIRELESS_VALIDATED     |     Passed Wireless Number   | 
+| WIRELESS_VALIDATED     |     Passed Wireless Number   |      |
 
 <!-- type: tab -->
 
@@ -985,7 +1023,7 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| VIGILENCE     |     VIGILENCE   | 
+| VIGILENCE     |     VIGILENCE   |      |
 
 <!-- type: tab -->
 
@@ -1031,7 +1069,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Date  | 10        |    10        |    Available     | Allowed     | Required |    NA
+| Date  | 10        |    10        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -1069,7 +1107,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    10        |    Available     | Allowed     | Required |    NA
+| String  | 3        |    10        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
@@ -1107,7 +1145,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 20        |    50        |    Available     | Allowed     | Required |    NA
+| String  | 20        |    50        |    Available     | Allowed     | Required |    NA     |
 
 <!-- type: tab -->
 
