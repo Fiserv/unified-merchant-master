@@ -3,7 +3,6 @@
 * **API section**: root 
 * **Table Name**: UMM.MERCHANT 
 ## List of Fields:
-
 ### MERCHANT_ID
 * Description: Unique identifier of the merchant. It is required to add merchant-specific information to the database.
 * API field: `merchantId`
