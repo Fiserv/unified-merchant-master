@@ -18,6 +18,7 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 34        |    50        |    Available     | NA     | NA |    NA |    
 
+
 <!-- type: tab -->
 
 
@@ -62,7 +63,7 @@ titles: UMM, North, GMA
 | NORTH     |        | 
 | OMNIPAY26     |        | 
 | SOUTH     |     South   | 
-| OMNIPAY21     |        | 
+| OMNIPAY21     |        |      |
 
 <!-- type: tab -->
 
@@ -107,6 +108,7 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    3        |    Available     | Allowed (optional)     | Required |    NA |    
 
+
 <!-- type: tab -->
 
 
@@ -144,6 +146,7 @@ titles: UMM, North, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    100        |    Available     | Allowed     | Required |    NA |    
+
 
 <!-- type: tab -->
 
@@ -183,6 +186,7 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    100        |    Available     | Allowed     | Required |    NA |    
 
+
 <!-- type: tab -->
 
 
@@ -220,6 +224,7 @@ titles: UMM, North, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    100        |    Available     | Allowed     | Required |    NA |    
+
 
 <!-- type: tab -->
 
@@ -259,6 +264,7 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    80        |    Available     | Allowed     | Required |    NA |    
 
+
 <!-- type: tab -->
 
 
@@ -296,6 +302,7 @@ titles: UMM, North, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    150        |    Available     | Allowed     | Required |    NA |    
+
 
 <!-- type: tab -->
 
@@ -335,6 +342,7 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    150        |    Available     | Allowed     | Required |    NA |    
 
+
 <!-- type: tab -->
 
 
@@ -372,6 +380,7 @@ titles: UMM, North, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 2        |    100        |    Available     | Allowed     | Required |    NA |    
+
 
 <!-- type: tab -->
 
@@ -426,7 +435,7 @@ titles: UMM, North, GMA
 | NB     |     State Code   | 
 | NL     |     State Code   | 
 | NT     |     State Code   | 
-| NS     |     State Code   | 
+| NS     |     State Code   |      |
 
 <!-- type: tab -->
 
@@ -537,7 +546,7 @@ titles: UMM, North, GMA
 | AUT     |     Austria   | 
 | HUN     |     Hungary   | 
 | SWE     |     Sweden   | 
-| GIB     |     Gibraltar   |
+| GIB     |     Gibraltar   |     |
 
 <!-- type: tab -->
 
@@ -633,6 +642,7 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 5        |    20        |    Available     | Allowed     | Required |    NA |    
 
+
 <!-- type: tab -->
 
 
@@ -709,6 +719,7 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 10        |    15        |    Available     | Allowed     | Required |    NA |    
 
+
 <!-- type: tab -->
 
 
@@ -751,7 +762,7 @@ titles: UMM, North, GMA
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | NO     |     Signer Indicator   | 
-| YES     |     Signer Indicator   | 
+| YES     |     Signer Indicator   |      |
 
 <!-- type: tab -->
 
@@ -801,7 +812,7 @@ titles: UMM, North, GMA
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | NO     |     Guarantor Indicator   | 
-| YES     |     Guarantor Indicator   | 
+| YES     |     Guarantor Indicator   |      |
 
 <!-- type: tab -->
 
@@ -850,6 +861,7 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Date  | 10        |    10        |    Available     | Allowed     | Required |    NA |    
 
+
 <!-- type: tab -->
 
 
@@ -888,6 +900,7 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Integer  | 1        |    3        |    Available     | Allowed     | Required |    NA |    
 
+
 <!-- type: tab -->
 
 
@@ -925,6 +938,7 @@ titles: UMM, North, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Integer  | 1        |    3        |    Available     | Allowed     | Required |    NA |    
+
 
 <!-- type: tab -->
 
@@ -971,7 +985,7 @@ titles: UMM, North, GMA
 | LANDLINE_FAILED     |     Failed Landline Number   | 
 | WIRELESS_FAILED     |     Failed Wireless Number   | 
 | LANDLINE_VALIDATED     |     Passed Landline Number   | 
-| WIRELESS_VALIDATED     |     Passed Wireless Number   | 
+| WIRELESS_VALIDATED     |     Passed Wireless Number   |      |
 
 <!-- type: tab -->
 
@@ -1023,7 +1037,7 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| VIGILENCE     |     VIGILENCE   | 
+| VIGILENCE     |     VIGILENCE   |      |
 
 <!-- type: tab -->
 
@@ -1071,6 +1085,7 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Date  | 10        |    10        |    Available     | Allowed     | Required |    NA |    
 
+
 <!-- type: tab -->
 
 
@@ -1109,6 +1124,7 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    10        |    Available     | Allowed     | Required |    NA |    
 
+
 <!-- type: tab -->
 
 
@@ -1146,6 +1162,7 @@ titles: UMM, North, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 20        |    50        |    Available     | Allowed     | Required |    NA |    
+
 
 <!-- type: tab -->
 
