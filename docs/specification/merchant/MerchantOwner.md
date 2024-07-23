@@ -407,7 +407,7 @@ titles: UMM, North, GMA
 ---
 
 ### STATE_CODE
-* Description: State province name as per <a href=https://en.wikipedia.org/wiki/ISO_3166-2:US title=Click to open target=_blank >ISO 3166-2:US codes</a> or <a href=https://en.wikipedia.org/wiki/ISO_3166-2:CA title=Click to open target=_blank >ISO 3166-2:CA codes</a>
+* Description: State province name as per ISO 3166-2:CA codes</a>
 * API field: `stateCode`
 * Field Specification:
 
