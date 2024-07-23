@@ -27,3 +27,17 @@ titles: UMM, North, GMA
 | String   | Available   | NA   | NA   | NA  |
 
 <!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
