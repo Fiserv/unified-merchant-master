@@ -71,7 +71,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Required   | NA   | NA |         |
+| String   | Available   | Required   | NA   | NA |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -435,7 +435,7 @@ titles: UMM, North, GMA
 | NB     |     State Code   | 
 | NL     |     State Code   | 
 | NT     |     State Code   | 
-| NS     |     State Code   |      |
+| NS     |     State Code   | 
 
 <!-- type: tab -->
 
@@ -443,7 +443,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |         |
+| String   | Available   | Allowed   | Required   | NA |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -554,7 +554,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |         |
+| String   | Available   | Allowed   | Required   | NA |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -762,7 +762,7 @@ titles: UMM, North, GMA
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | NO     |     Signer Indicator   | 
-| YES     |     Signer Indicator   |      |
+| YES     |     Signer Indicator   |
 
 <!-- type: tab -->
 
@@ -770,7 +770,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |         |
+| String   | Available   | Allowed   | Required   | NA | 
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -812,7 +812,7 @@ titles: UMM, North, GMA
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | NO     |     Guarantor Indicator   | 
-| YES     |     Guarantor Indicator   |      |
+| YES     |     Guarantor Indicator   |
 
 <!-- type: tab -->
 
@@ -820,7 +820,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |         |
+| String   | Available   | Allowed   | Required   | NA |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -985,7 +985,7 @@ titles: UMM, North, GMA
 | LANDLINE_FAILED     |     Failed Landline Number   | 
 | WIRELESS_FAILED     |     Failed Wireless Number   | 
 | LANDLINE_VALIDATED     |     Passed Landline Number   | 
-| WIRELESS_VALIDATED     |     Passed Wireless Number   |      |
+| WIRELESS_VALIDATED     |     Passed Wireless Number   | 
 
 <!-- type: tab -->
 
@@ -993,7 +993,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|  String  | Available   | Allowed   | Required   | NA |         |
+|  String  | Available   | Allowed   | Required   | NA |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -1037,7 +1037,7 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| VIGILENCE     |     VIGILENCE   |      |
+| VIGILENCE     |     VIGILENCE   | 
 
 <!-- type: tab -->
 
@@ -1045,7 +1045,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |         |
+| String   | Available   | Allowed   | Required   | NA |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
