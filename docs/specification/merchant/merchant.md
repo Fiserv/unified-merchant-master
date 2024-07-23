@@ -1,5 +1,5 @@
 # Merchant
-* **Description**: Stores essential information about merchants, including contact details, business type, and contractual data, ensuring efficient transaction processing and management. Every merchant has an entry in this critical repository.
+* **Description**: Stores essential information about merchant -   demographic information,merchant status , business type, and contractual data, ensuring efficient transaction processing and management. Every merchant has an entry in this critical repository.
 * **API section**: root 
 * **Table Name**: UMM.MERCHANT 
 
@@ -16,7 +16,9 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 8        |    50        |    Available     | Required     | Required |    Required     |
+| String  | 8        |    50        |    Required     | Required     | Required |    Required     |
+
+* Merchant Id is required for carrying out any operation on a specific merchant. 
 
 <!-- type: tab -->
 
@@ -24,7 +26,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Required   | Required   | Required  |
+| String   | Required   | Required   | Required   | Required  |
 
 <!-- type: tab --> 
 
@@ -53,15 +55,15 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 5        |    50        |    Available     | Required     | Required |    NA     |
+| String  | 5        |    9        |    Required     | Required     | Required |    Required     |
 
 **Valid Values**: 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NORTH     |        | 
-| OMNIPAY26     |        | 
-| SOUTH     |     South   | 
-| OMNIPAY21     |        |      |
+| NORTH     |   North Backend     | 
+| OMNIPAY26     |  Omnipay Backend ( GMA)      | 
+| SOUTH     |     South  Backend | 
+| OMNIPAY21     |    Omnipay ( Australia)    |      |
 
 <!-- type: tab -->
 
@@ -69,7 +71,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Required   | Required   | NA     |
+| String   | Required   | Required   | Required   | Required     |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -92,7 +94,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 ### EFFECTIVE_START_DATE
-* Description: TBD
+* Description:  Date on which record got added. 
 * API field: `effectiveStartDate`
 * Field Specification:
 
@@ -103,7 +105,9 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Date  | 10        |    10        |    Available     | Required     | NA |    NA     |
+| Date  | 10        |    10        |    Optional     | NA     | NA |    NA     |
+
+* Effective start date is required to perform snapshot query on a specific merchant 
 
 <!-- type: tab -->
 
@@ -111,7 +115,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| Date   | Available   | Required   | NA   | NA  |
+| Date   | Optional    | NA   | NA   | NA  |
 
 <!-- type: tab --> 
 
@@ -129,7 +133,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 ### EFFECTIVE_END_DATE
-* Description: TBD
+* Description: This date specifies validity of the record. 
 * API field: `effectiveEndDate`
 * Field Specification:
 
@@ -140,7 +144,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Date  | 10        |    10        |    Available     | NA     | NA |    NA     |
+| Date  | 10        |    10        |    NA     | NA     | NA |    NA     |
 
 <!-- type: tab -->
 
@@ -148,7 +152,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| Date   | Available   | NA   | NA   | NA  |
+| Date   | NA   | NA   | NA   | NA  |
 
 <!-- type: tab --> 
 
@@ -177,7 +181,19 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 20        |    100        |    Available     | Required     | NA |    NA     |
+| String  | 4        |    12        |    Available     | Required     | NA |    NA     |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+|  AGENT   |   AGENT hierarchy level     |
+|  CHAIN   |   CHAIN hierarchy level     |
+|  BANK   |    Bank  hierarchy level     |
+|  BILL_TO_ADDR   |   BILL_TO_ADDR hierarchy level     |
+|  CORP   |   Corporation  hierarchy level     |
+|  BUSINESS   |  Business hierarchy level       |
+|  OUTLET   |   Outlet  hierarchy level     |  |
+
 
 <!-- type: tab -->
 
@@ -190,13 +206,13 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-|  AGENT   |   North backend's 040-AGENT hierarchy level     |
-|  CHAIN   |   North backend's 020-CHAIN hierarchy level     |
-|  BANK   |        |
-|  BILL_TO   |   North backend's 019-BILL_TO_ADDR hierarchy level     |
-|  CORP   |   Corporation     |
-|  BUSINESS   |  Business      |
-|  OUTLET   |   Outlet     |  |
+|  AGENT   |   AGENT hierarchy level (040)     |
+|  CHAIN   |   CHAIN hierarchy level (020)    |
+|  BANK   |    Bank  hierarchy level  (050)   |
+|  BILL_TO_ADDR   | BILL_TO_ADDR hierarchy level (019)    |
+|  CORP   |   Corporation  hierarchy level (030)     |
+|  BUSINESS   |  Business hierarchy level (060)      |
+|  OUTLET   |    Outlet  hierarchy level (010)    |  |
 
 <!-- type: tab --> 
 
@@ -262,7 +278,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    40        |    Available     | Required     | Allowed |    NA     |
+| String  | 1        |    40        |    Available     | Required     | Allowed |    NA     |
 
 <!-- type: tab -->
 
@@ -299,7 +315,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    18        |    Available     | Required     | Allowed |    NA     |
+| String  | 1        |    50        |    Available     | Required     | Allowed |    NA     |
 
 <!-- type: tab -->
 
@@ -336,7 +352,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 10        |    100        |    Available     | Required     | Allowed |    NA     |
+| String  | 1        |    40        |    Available     | Required     | Allowed |    NA     |
 
 <!-- type: tab -->
 
@@ -373,7 +389,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 34        |    240        |    Available     | Required     | Allowed |    NA     |
+| String  | 10        |    240        |    Available     | Required     | Allowed |    NA     |
 
 <!-- type: tab -->
 
@@ -382,6 +398,8 @@ titles: UMM, North, GMA
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | String   | Available   | Required   | Allowed   | NA  |
+
+* Max 70 chars for North 
 
 <!-- type: tab --> 
 
@@ -415,8 +433,8 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| MOTO_ECOMM     |MOTO/Ecommerce   | 
-| RETAIL     |Merchant supporting sale of products in stores, person-to-person, or through direct mail   |      |
+| MOTO_ECOMM     |Merchant cannot process in store payment  | 
+| RETAIL     |Merchant can process in store payment  |      |
 
 <!-- type: tab -->
 
@@ -429,8 +447,8 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| MOTO_ECOMM     |MOTO/Ecommerce   | 
-| RETAIL     |Merchant supporting sale of products in stores, person-to-person, or through direct mail   |   |
+| MOTO_ECOMM     |Merchant cannot process in store payment   | 
+| RETAIL     |Merchant can process in store payment   |   |
 
 <!-- type: tab --> 
 
@@ -448,7 +466,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 ### MERCHANT_CATEGORY_CODE
-* Description: Code that indicates the type of business.
+* Description: Code that indicates the type of business  in which a merchant is engaged.
 * API field: `merchantCategoryCode`
 * Field Specification:
 
@@ -555,11 +573,11 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| PENDING     |Pending Credit Approval   | 
-| CANCELLED_FRAUD     |Cancelled Due to Fraud   | 
-| CANCELLED_CREDIT     |Cancelled By Credit   | 
-| CANCELLED_MERCHANT     |Cancelled By Merchant   | 
-| ACTIVE     |Active - Monthly Stmt   |  |
+| PENDING     |Pending Credit Approval  ( 01)  | 
+| CANCELLED_FRAUD     |Cancelled Due to Fraud  ( 02)  | 
+| CANCELLED_CREDIT     |Cancelled By Credit  (03)  | 
+| CANCELLED_MERCHANT     |Cancelled By Merchant (13)  | 
+| ACTIVE     |Active with Monthly Stmt (16)   |  |
 
 <!-- type: tab --> 
 
@@ -577,7 +595,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 ### PRODUCTS_SOLD
-* Description: NA for North
+* Description: NA for North ( TBD)
 * API field: `productsSold`
 * Field Specification:
 
@@ -596,7 +614,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Required   | NA   | NA  |
+|    | NA   | NA   | NA   | NA  |
 
 <!-- type: tab --> 
 
@@ -625,7 +643,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Date  | 10        |    10        |    Available     | Required     | Allowed |    NA     |
+| Date  | 10        |    10        |    Available     | NA     | NA |    NA     |
 
 <!-- type: tab -->
 
@@ -633,7 +651,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Required   | Allowed   | NA  |
+| String   | Available   | NA   | NA   | NA  |
 
 <!-- type: tab --> 
 
@@ -670,7 +688,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| Date   | Available   | NA   | NA   | NA  |
+| String   | Available   | NA   | NA   | NA  |
 
 <!-- type: tab --> 
 
@@ -707,7 +725,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| Date   | Available   | NA   | NA   | NA  |
+| String   | Available   | NA   | NA   | NA  |
 
 <!-- type: tab --> 
 
@@ -736,16 +754,9 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 6        |    18        |    Available     | Required     | Allowed |    NA     |
+| String  | 6        |    18        |    Available     | NA     | NA |    NA     |
 
-**Valid Values**: 
-|         Value        |                    Description                 |
-|:----------------------|:------------------------------------------------|
-| PENDING     |Pending Credit Approval   | 
-| CANCELLED_FRAUD     |Cancelled Due to Fraud   | 
-| CANCELLED_CREDIT     |Cancelled By Credit   | 
-| CANCELLED_MERCHANT     |Cancelled By Merchant   | 
-| ACTIVE     |Active - Monthly Stmt   |      |
+
 
 <!-- type: tab -->
 
@@ -753,16 +764,9 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Required   | Allowed   | NA     |
+| String   | Available   | NA   | NA   | NA     |
 
-**Valid Values**: 
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-| PENDING     |Pending Credit Approval   | 
-| CANCELLED_FRAUD     |Cancelled Due to Fraud   | 
-| CANCELLED_CREDIT     |Cancelled By Credit   | 
-| CANCELLED_MERCHANT     |Cancelled By Merchant   | 
-| ACTIVE     |Active - Monthly Stmt   |   |
+
 
 <!-- type: tab --> 
 
@@ -791,7 +795,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Date  | 10        |    10        |    Available     | Required     | Allowed |    NA     |
+| Date  | 10        |    10        |    Available     | NA     | Allowed |    NA     |
 
 <!-- type: tab -->
 
@@ -799,7 +803,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Required   | Allowed   | NA  |
+| String   | Available   | NA   | Allowed   | NA  |
 
 <!-- type: tab --> 
 
@@ -828,7 +832,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    30        |    Available     | Required     | Allowed |    NA     |
+| String  | 3        |    30        |    Available     | NA     | Allowed |    NA     |
 
 **Valid Values**: 
 |         Value        |                    Description                 |
@@ -1116,8 +1120,8 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| Yes     |Franchise Indicator   |
-| No     |Franchise Indicator   |     |
+| Yes     |Franchise   |
+| No     |Non Franchise   |     |
 
 <!-- type: tab -->
 
@@ -1130,8 +1134,8 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| Yes     |Franchise Indicator   |
-| No     |Franchise Indicator   |  |
+| Yes     |Franchise   |
+| No     |Non Franchise    |  |
 
 <!-- type: tab --> 
 
@@ -1165,8 +1169,8 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| Yes     |Seasonal Indicator   | 
-| No     |Seasonal Indicator   |     |
+| Yes     |  Seasonal Merchant   | 
+| No     |Non Seasonal Merchant   |     |
 
 <!-- type: tab -->
 
@@ -1179,8 +1183,8 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| Yes     |Seasonal Indicator   | 
-| No     |Seasonal Indicator   |  |
+| Yes     |Seasonal Merchant    | 
+| No     |Non Seasonal Merchant   |  |
 
 <!-- type: tab --> 
 
@@ -1246,7 +1250,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 20        |    50        |    Available     | Required     | Allowed |    NA     |
+| String  | 3        |    50        |    Available     | Required     | Allowed |    NA     |
 
 <!-- type: tab -->
 
@@ -1255,6 +1259,8 @@ titles: UMM, North, GMA
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | String   | Available   | Required   | Allowed   | NA  |
+
+*  It will be 3 byte long 
 
 <!-- type: tab --> 
 
@@ -1365,7 +1371,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| Date   | Available   | NA   | NA   | NA  |
+| String    | Available   | NA   | NA   | NA  |
 
 <!-- type: tab --> 
 
@@ -1762,7 +1768,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 ### INTL_TAX_EXEMPT_INDICATOR
-* Description: Value that indicates the international tax exempt is applicable to North MSIP.
+* Description: Value that indicates whether international tax exempt rule is applicable to Merchant ( Only for North).
 * API field: `intlTaxExemptIndicator`
 * Field Specification:
 
@@ -1833,43 +1839,6 @@ titles: UMM, North, GMA
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 |    | Available   | NA   | NA   | NA  |
-
-<!-- type: tab --> 
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-| String |     -    |          |              |       NA     |
-
-<!-- type: tab-end -->
----
-### BUSINESS_TIMEZONE
-* Description: TBD
-* API field: `businessTimeZone`
-* Field Specification:
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| STRING  | 20        |    100        |    Available     | Required     | Allowed |    NA     |
-
-<!-- type: tab -->
-
-
-##### North Specification 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Required   | Allowed   | NA  |
 
 <!-- type: tab --> 
 
@@ -2120,25 +2089,25 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| MSIP     |MSIP   | 
-| SUNTRUST_THREE     |3SunTrust   | 
-| NOVUS     |Novus   | 
-| IPAYMENT     |iPayment   | 
-| FISERV_BAMS     |Fiserv/BAMS   | 
-| BANK_OF_HAWAII     |Bank of Hawaii   | 
-| WELLS_WEST     |Wells West   | 
-| SANTANDER     |Santander   | 
-| SUNTRUST_ONE     |Sun Trust   | 
-| PNC     |PNC   | 
-| WALMART     |Walmart   | 
-| CORE_BUSINESS_RULES     |Core Business Rules   | 
-| FISERV_CHASE     |Fiserv/Chase   | 
-| RSA_PLATFORM_S     |RSA Platform S   | 
-| SUNTRUST_TWO     |2SunTrust   | 
-| RSA_PLATFORM_T     |RSA Platform T   | 
-| HUNTINGTON     |Huntington   | 
-| WELLS_EAST     |Wells East   | 
-| FISERV_BANK_OF_AMERICA     |Fiserv/Bank of America   |  |
+| MSIP     |MSIP (L)  | 
+| SUNTRUST_THREE     |SunTrust Three ( N)  | 
+| NOVUS     |Novus (Y)  | 
+| IPAYMENT     |iPayment  (V) | 
+| FISERV_BAMS     |Fiserv/BAMS  (C) | 
+| BANK_OF_HAWAII     |Bank of Hawaii  (J) | 
+| WELLS_WEST     |Wells West  (W) | 
+| SANTANDER     |Santander (M)   | 
+| SUNTRUST_ONE     |Sun Trust One (X) | 
+| PNC     |PNC (R)  | 
+| WALMART     |Walmart (D)  | 
+| CORE_BUSINESS_RULES     |Core Business Rules (K)  | 
+| FISERV_CHASE     |Fiserv/Chase (Q)  | 
+| RSA_PLATFORM_S     |RSA Platform (S)   | 
+| SUNTRUST_TWO     |SunTrust TWo(E)  | 
+| RSA_PLATFORM_T     |RSA Platform (T)   | 
+| HUNTINGTON     |Huntington (H)  | 
+| WELLS_EAST     |Wells East (O)  | 
+| FISERV_BANK_OF_AMERICA     |Fiserv/Bank of America  (F) |  |
 
 <!-- type: tab --> 
 
@@ -2167,7 +2136,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    24        |    Available     | Required     | Allowed |    NA     |
+| String  | 1       |    50        |    Available     | Required     | Allowed |    NA     |
 
 <!-- type: tab -->
 
