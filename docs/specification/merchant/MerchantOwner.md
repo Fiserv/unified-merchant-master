@@ -47,13 +47,21 @@ titles: UMM, North, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 5        |    50        |    Available     | Required     | NA |    NA     |
+
+**Valid Values**: 
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| NORTH     |        | 
+| OMNIPAY26     |        | 
+| SOUTH     |     South   | 
+| OMNIPAY21     |        |      |
 
 <!-- type: tab -->
 
@@ -89,7 +97,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -126,7 +134,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -163,7 +171,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -200,7 +208,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -237,7 +245,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -274,7 +282,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -311,7 +319,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -348,7 +356,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -385,7 +393,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -456,7 +464,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -605,7 +613,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -642,7 +650,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -679,7 +687,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -716,7 +724,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -765,7 +773,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -817,7 +825,7 @@ Example: 2024-05-15
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -854,7 +862,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -891,7 +899,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -928,7 +936,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -983,7 +991,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -1033,7 +1041,7 @@ Example: 2024-05-15
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -1070,7 +1078,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -1107,7 +1115,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
