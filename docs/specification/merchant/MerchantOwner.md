@@ -63,7 +63,7 @@ titles: UMM, North, GMA
 | NORTH     |        | 
 | OMNIPAY26     |        | 
 | SOUTH     |     South   | 
-| OMNIPAY21     |        |      |
+| OMNIPAY21     |        | 
 
 <!-- type: tab -->
 
@@ -407,7 +407,7 @@ titles: UMM, North, GMA
 ---
 
 ### STATE_CODE
-* Description: State province name as per ISO 3166-2:CA codes</a>
+* Description: State province name as per ISO 3166-2:CA codes
 * API field: `stateCode`
 * Field Specification:
 
