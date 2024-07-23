@@ -75,7 +75,7 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NORTH     |     North   |  |
+| NORTH     |     North   |
 
 <!-- type: tab --> 
 
@@ -113,7 +113,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed (optional)   | Required   | NA  |
+|    | Available   | Allowed (optional)   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -151,7 +151,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   | Required   | NA  |
+|    | Available   | Allowed   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -189,7 +189,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   | Required   | NA  |
+|    | Available   | Allowed   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -227,7 +227,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   | Required   | NA  |
+|    | Available   | Allowed   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -265,7 +265,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   | Required   | NA  |
+|    | Available   | Allowed   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -303,7 +303,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   | Required   | NA  |
+|    | Available   | Allowed   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -341,7 +341,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   | Required   | NA  |
+|    | Available   | Allowed   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -379,7 +379,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   | Required   | NA  |
+|    | Available   | Allowed   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -451,7 +451,7 @@ titles: UMM, North, GMA
 | NB     |     State Code   | 
 | NL     |     State Code   | 
 | NT     |     State Code   | 
-| NS     |     State Code   |   |
+| NS     |     State Code   | 
 
 <!-- type: tab --> 
 
@@ -601,7 +601,7 @@ titles: UMM, North, GMA
 | AUT     |     Austria   | 
 | HUN     |     Hungary   | 
 | SWE     |     Sweden   | 
-| GIB     |     Gibraltar   |  |
+| GIB     |     Gibraltar   |
 
 <!-- type: tab --> 
 
@@ -639,7 +639,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   | Required   | NA  |
+|    | Available   | Allowed   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -677,7 +677,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   | Required   | NA  |
+|    | Available   | Allowed   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -715,7 +715,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   | Required   | NA  |
+|    | Available   | Allowed   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -765,7 +765,7 @@ titles: UMM, North, GMA
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | NO     |     Signer Indicator   | 
-| YES     |     Signer Indicator   |   |
+| YES     |     Signer Indicator   | 
 
 <!-- type: tab --> 
 
@@ -815,7 +815,7 @@ titles: UMM, North, GMA
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | NO     |     Guarantor Indicator   | 
-| YES     |     Guarantor Indicator   |   |
+| YES     |     Guarantor Indicator   | 
 
 <!-- type: tab --> 
 
@@ -856,7 +856,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   | Required   | NA  |
+|    | Available   | Allowed   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -894,7 +894,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   | Required   | NA  |
+|    | Available   | Allowed   | Required   | NA
 
 <!-- type: tab --> 
 
@@ -932,7 +932,228 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   | Required   | NA  |
+|    | Available   | Allowed   | Required   | NA
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+
+### MOBILE_VALIDATION_STATUS
+* Description: Code that indicates the vatiodation status of the principal owner's mobile number.
+* API field: `mobileValidationStatus`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 15        |    18        |    Available     | Allowed     | Required |    NA     |
+
+**Valid Values**: 
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| NO_INFORMATION     |     Confirmed No Information   | 
+| LANDLINE_FAILED     |     Failed Landline Number   | 
+| WIRELESS_FAILED     |     Failed Wireless Number   | 
+| LANDLINE_VALIDATED     |     Passed Landline Number   | 
+| WIRELESS_VALIDATED     |     Passed Wireless Number   |      |
+
+<!-- type: tab -->
+
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    | Available   | Allowed   | Required   | NA     |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| NO_INFORMATION     |     Confirmed No Information   | 
+| LANDLINE_FAILED     |     Failed Landline Number   | 
+| WIRELESS_FAILED     |     Failed Wireless Number   | 
+| LANDLINE_VALIDATED     |     Passed Landline Number   | 
+| WIRELESS_VALIDATED     |     Passed Wireless Number   | 
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+
+### MOBILE_VALIDATION_SOURCE_CODE
+* Description: Code that indicates the vatiodation status of the principal owner's mobile number source.
+* API field: `mobileValidationSourceCode`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 9        |    50        |    Available     | Allowed     | Required |    NA     |
+
+**Valid Values**: 
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| VIGILENCE     |     VIGILENCE   |      |
+
+<!-- type: tab -->
+
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    | Available   | Allowed   | Required   | NA     |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| VIGILENCE     |     VIGILENCE   | 
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+
+### MOBILE_VALIDATION_DATE
+* Description: Date on which the principal owner's mobile number was validated.
+
+Format: CCYY-MM-DD 
+Example: 2024-05-15
+* API field: `mobileValidationDate`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date  | 10        |    10        |    Available     | Allowed     | Required |    NA     |
+
+<!-- type: tab -->
+
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    | Available   | Allowed   | Required   | NA
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+
+### IDENTITY_DOC_TYPE_CODE
+* Description: Code that indicates the type of tax identification document that the merchant provides for verification purpose.
+* API field: `identityDocTypeCode`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 3        |    10        |    Available     | Allowed     | Required |    NA     |
+
+<!-- type: tab -->
+
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    | Available   | Allowed   | Required   | NA
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+
+### IDENTITY_DOC_NUMBER
+* Description: Taxpayer identification number of the principal owner.
+* API field: `identityDocNumber`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 20        |    50        |    Available     | Allowed     | Required |    NA     |
+
+<!-- type: tab -->
+
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    | Available   | Allowed   | Required   | NA
 
 <!-- type: tab --> 
 
