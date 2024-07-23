@@ -1784,8 +1784,8 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| Yes     |International Tax Exempt Indicator   | 
-| No     |International Tax Exempt Indicator   |     |
+| Yes     |Yes   | 
+| No     |No   |     
 
 <!-- type: tab -->
 
@@ -1798,8 +1798,8 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| Yes     |International Tax Exempt Indicator   | 
-| No     |International Tax Exempt Indicator   |  |
+| Yes     |yes   | 
+| No     |No  |  
 
 <!-- type: tab --> 
 
