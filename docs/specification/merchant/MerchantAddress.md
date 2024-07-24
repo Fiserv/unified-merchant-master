@@ -107,7 +107,9 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 5        |    17        |    Available     | Required     | Allowed (optional) |    NA |         |
+| String  | 5        |    17        |    Available     | Required     | Allowed |    NA |         |
+
+* ADDRESS_TYPE_CODE will be required to update corresponding merchant address  
 
 **Valid Values**: 
 |         Value        |                    Description                 |
@@ -129,13 +131,15 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| STRING   | Available   | Required   | Allowed (optional)   | NA |         |
+| STRING   | Available   | Required   | Allowed    | NA |         |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | LOCATION     |     Location Address   | 
 | CORPORATE     |     Corporate Address   |
+| MSIP_LOCATION|	MSIP Location Address|
+| MSIP_CORPORATE|	MSIP Corporate Address|
 
 <!-- type: tab --> 
 
@@ -230,7 +234,7 @@ titles: UMM, North, GMA
 ---
 
 ### STATE_CODE
-* Description: State province name as per ISO 3166-2:US codes or ISO 3166-2:CA codes
+* Description: State Code 
 * API field: `stateCode`
 * Field Specification:
 
@@ -243,47 +247,13 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 2        |    3        |    Available     | Required     | Allowed |    NA |         |
 
-**Valid Values**: 
-|         Value        |                    Description                 |
-|:----------------------|:------------------------------------------------|
-| BC     |     State Code   | 
-| YT     |     State Code   | 
-| SK     |     State Code   | 
-| QC     |     State Code   | 
-| PE     |     State Code   | 
-| ON     |     State Code   | 
-| NU     |     State Code   | 
-| AB     |     State Code   | 
-| MB     |     State Code   | 
-| NB     |     State Code   | 
-| NL     |     State Code   | 
-| NT     |     State Code   | 
-| NS     |     State Code   |
 
 <!-- type: tab -->
-
 
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | STRING   | Available   | Required   | Allowed   | NA |         |
-
-**Valid Values**: 
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-| BC     |     State Code   | 
-| YT     |     State Code   | 
-| SK     |     State Code   | 
-| QC     |     State Code   | 
-| PE     |     State Code   | 
-| ON     |     State Code   | 
-| NU     |     State Code   | 
-| AB     |     State Code   | 
-| MB     |     State Code   | 
-| NB     |     State Code   | 
-| NL     |     State Code   | 
-| NT     |     State Code   | 
-| NS     |     State Code   |
 
 <!-- type: tab --> 
 
@@ -302,7 +272,7 @@ titles: UMM, North, GMA
 ---
 
 ### STATE_NAME
-* Description: NA for North
+* Description: State Name 
 * API field: `stateName`
 * Field Specification:
 
@@ -313,7 +283,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  |         |            |    NA     | NA     | NA |    NA |    
+| String  |   1      |      50      |    Available     | NA     | NA |    NA |    
 
 <!-- type: tab -->
 
@@ -321,7 +291,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| STRING   | NA   | NA   | NA   | NA |    
+| String   | Available   | NA   | NA   | NA |    
 
 <!-- type: tab --> 
 
@@ -409,6 +379,8 @@ titles: UMM, North, GMA
 | SWE     |     Sweden   | 
 | GIB     |     Gibraltar   | 
 
+Apart from above values, it can accept any valid Country code. 
+
 <!-- type: tab -->
 
 
@@ -416,62 +388,6 @@ titles: UMM, North, GMA
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | STRING   | Available   | Required   | Allowed   | NA |         |
-
-**Valid Values**: 
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-| BRA     |     Brazil   | 
-| TWN     |     Taiwan   | 
-| JPN     |     Japan   | 
-| SVK     |     Slovakia   | 
-| IND     |     India   | 
-| MYS     |     Malaysia   | 
-| NZL     |     New Zealand   | 
-| PRI     |     Puerto Rico   | 
-| SMR     |     San Marino   | 
-| BMU     |     Bermuda   | 
-| AND     |     Andorra   | 
-| SGP     |     Singapore   | 
-| FRA     |     France   | 
-| DNK     |     Denmark   | 
-| CHE     |     Switzerland   | 
-| IRL     |     Ireland   | 
-| NLD     |     Netherlands   | 
-| POL     |     Poland   | 
-| ESP     |     Spain   | 
-| ISL     |     Iceland   | 
-| HKG     |     Hong Kong   | 
-| EST     |     Estonia   | 
-| BEL     |     Belgium   | 
-| ISR     |     Israel   | 
-| LIE     |     Liechtenstein   | 
-| FIN     |     Finland   | 
-| BGR     |     Bulgaria   | 
-| USA     |     United States   | 
-| LUX     |     Luxembourg   | 
-| CZE     |     Czech Republic   | 
-| NOR     |     Norway   | 
-| TUR     |     Turkey   | 
-| DEU     |     Germany   | 
-| CAN     |     Canada   | 
-| ROM     |     Romania   | 
-| NA     |     Not Applicable   | 
-| MLT     |     Malta   | 
-| GRC     |     Greece   | 
-| MCO     |     Monaco   | 
-| ITA     |     Italy   | 
-| LVA     |     Latvia   | 
-| SVN     |     Slovenia   | 
-| LTU     |     Lithuania   | 
-| HRV     |     Croatia   | 
-| PRT     |     Portugal   | 
-| GBR     |     United Kingdom   | 
-| CYP     |     Cyprus   | 
-| AUS     |     Australia   | 
-| AUT     |     Austria   | 
-| HUN     |     Hungary   | 
-| SWE     |     Sweden   | 
-| GIB     |     Gibraltar   | 
 
 <!-- type: tab --> 
 
@@ -539,7 +455,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 2        |    30        |    NA     | Required     | Allowed |    NA |    
+| String  | 2        |    30        |    Available     | Optional     | Allowed |    NA |    
 
 <!-- type: tab -->
 
@@ -547,7 +463,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|    | NA   | Required   | Allowed   | NA |    
+| String   | Available   | Required   | Allowed   | NA |    
 
 <!-- type: tab --> 
 
@@ -577,7 +493,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 10        |    15        |    NA     | Required     | Allowed |    NA |    
+| String  | 10        |    15        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab -->
 
@@ -585,7 +501,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| STRING   | NA   | Required   | Allowed   | NA |    
+| STRING   | Available   | Required   | Allowed   | NA |    
 
 <!-- type: tab --> 
 
@@ -653,7 +569,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 40        |    240        |    Available     | Required     | Allowed |    NA |    
+| String  | 7        |    240        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab -->
 

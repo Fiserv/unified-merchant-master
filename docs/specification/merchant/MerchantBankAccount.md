@@ -190,7 +190,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   |    |    |  |         |
+| String   | Available   | Required   |  NA  | NA |       
 
 **Valid Values**: 
 |              Value   |                    Description                 |
