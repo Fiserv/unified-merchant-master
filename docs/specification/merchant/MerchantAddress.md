@@ -1,382 +1,656 @@
+# Merchant Owner
+* **Description**: Essential information about merchant owner, including demographic details, and contact information. This is a critical information for every principal owner of a merchant.
+* **API section**: root 
+* **Table Name**: MERCHANT_ADDRESS 
+
+## List of Fields:
 ### MERCHANT_ID
 * Description: Unique identifier of the merchant. It is required to add merchant-specific information to the database.
 * API field: `merchantId`
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       12        |    50        |    NA     |      |  |         |
-
-  <!--   type: tab -->
-
-##### North Specification 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      12         |      12   | NA   |    |    |    |      |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| String  | 8        |    50        |    NA     | Required     | Required |    NA |    
 
 <!-- type: tab -->
 
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+|    | NA   | Required   | Required   | NA |    
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
 ##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### PLATFORM_CODE
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |            |    NA     |      |  |         |
-
-  <!--   type: tab -->
-
-##### North Specification 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |         | NA   |    |    |    |      |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| String  | 5        |    9        |    NA     | NA     | NA |    NA |    
 
 <!-- type: tab -->
 
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+|    | NA   | NA   | NA   | NA |    
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
 ##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
-### SEQUENCE_NUMBER
-* Description: ABA/DDA occurrence sequence number of a bank.
-* API field: `bankSequenceNumber`
+
+### ADDRESS_TYPE_CODE
+* Description: This field represents which level of merchant hierarchy that the request pertains to (there are different uses by platform and application).
+* API field: `addressTypeCode`
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |            |     Required      |  Not Required      |  Required  |    NA     |
+| String  | 5        |    17        |    Required     | Allowed (optional)     | Required |    NA |         |
 
-  <!--   type: tab -->
-
-##### North Specification 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      1         |      2   |  Required    |  Not Required    |  Required    | NA   |      |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+**Valid Values**: 
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| LOCATION     |     Location Address   | 
+| CORPORATE     |     Corporate Address   |
 
 <!-- type: tab -->
 
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| STRING   | Required   | Allowed (optional)   | Required   | NA |         |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| LOCATION     |     Location Address   | 
+| CORPORATE     |     Corporate Address   |
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
 ##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
-### ROUTING_NUMBER
-* Description: Routing number of a bank.
-* API field: `bankRoutingNumber`
+
+### ADDRESS_1_TEXT
+* Description: Address line 1.
+* API field: `address1Text`
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |            |     Required      |  Required      |  Required  |    NA     |
-
-  <!--   type: tab -->
-
-##### North Specification 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      7         |      9   |  Required    |  Required    |  Required    | NA   |      |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| String  | 1        |    50        |    Required     | Allowed     | Required |    NA |    
 
 <!-- type: tab -->
 
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| STRING   | Required   | Allowed   | Required   | NA |    
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
 ##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
-### ACCOUNT_EFFECTIVE_DT
-* Description: Date on which the account was activated.
-* API field: `bankAccountEffectiveDate`
+
+### CITY
+* Description: Name of the city.
+* API field: `city`
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |            |     Required      |  Required      |  Required  |    NA     |
-
-  <!--   type: tab -->
-
-##### North Specification 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      10         |      10   |  Required    |  Required    |  Required    | NA   |      |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| String  | 1        |    50        |    Required     | Allowed     | Required |    NA |    
 
 <!-- type: tab -->
 
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| STRING   | Required   | Allowed   | Required   | NA |    
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
 ##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
-### ACCT_NUMBER
-* Description: Account number assigned to the merchant's bank account.
-* API field: `bankAccountNumber`
+
+### STATE_CODE
+* Description: State province name as per ISO 3166-2:US codes or ISO 3166-2:CA codes
+* API field: `stateCode`
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |            |     Required      |  Required      |  Required  |    NA     |
+| String  | 2        |    3        |    Required     | Allowed     | Required |    NA |         |
 
-  <!--   type: tab -->
-
-##### North Specification 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      12         |      17   |  Required    |  Required    |  Required    | NA   |      |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+**Valid Values**: 
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| BC     |     State Code   | 
+| YT     |     State Code   | 
+| SK     |     State Code   | 
+| QC     |     State Code   | 
+| PE     |     State Code   | 
+| ON     |     State Code   | 
+| NU     |     State Code   | 
+| AB     |     State Code   | 
+| MB     |     State Code   | 
+| NB     |     State Code   | 
+| NL     |     State Code   | 
+| NT     |     State Code   | 
+| NS     |     State Code   |
 
 <!-- type: tab -->
 
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| STRING   | Required   | Allowed   | Required   | NA |         |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| BC     |     State Code   | 
+| YT     |     State Code   | 
+| SK     |     State Code   | 
+| QC     |     State Code   | 
+| PE     |     State Code   | 
+| ON     |     State Code   | 
+| NU     |     State Code   | 
+| AB     |     State Code   | 
+| MB     |     State Code   | 
+| NB     |     State Code   | 
+| NL     |     State Code   | 
+| NT     |     State Code   | 
+| NS     |     State Code   |
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
 ##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
-### ACCT_USAGE_CODE
-* Description: Code that indicate the usage of an account.
-* API field: `bankAccountNumber`
+
+### STATE_NAME
+* Description: NA for North
+* API field: `stateName`
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |            |     Required      |      |  |         |
-
-  <!--   type: tab -->
-
-##### North Specification 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      12         |      17   |  Required    |    |    |    |      |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| String  |         |            |    NA     | NA     | NA |    NA |    
 
 <!-- type: tab -->
 
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| STRING   | NA   | NA   | NA   | NA |    
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
 ##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
-### BANK_FUNDING_FILE_CODE
-* Description: Code that indicate the funding file process associated with ABA/DDA.
-* API field: `bankFundingFileCode`
+
+### COUNTRY_CODE
+* Description: Code that indicates the country.
+* API field: `countryCode`
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |            |     Required      |  Required      |  Required  |    NA     |
+| String  | 2        |    3        |    Required     | Allowed     | Required |    NA |         |
 
-  <!--   type: tab -->
-
-##### North Specification 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      1         |      1   |  Required    |  Required    |  Required    | NA   |      |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+**Valid Values**: 
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| BRA     |     Brazil   | 
+| TWN     |     Taiwan   | 
+| JPN     |     Japan   | 
+| SVK     |     Slovakia   | 
+| IND     |     India   | 
+| MYS     |     Malaysia   | 
+| NZL     |     New Zealand   | 
+| PRI     |     Puerto Rico   | 
+| SMR     |     San Marino   | 
+| BMU     |     Bermuda   | 
+| AND     |     Andorra   | 
+| SGP     |     Singapore   | 
+| FRA     |     France   | 
+| DNK     |     Denmark   | 
+| CHE     |     Switzerland   | 
+| IRL     |     Ireland   | 
+| NLD     |     Netherlands   | 
+| POL     |     Poland   | 
+| ESP     |     Spain   | 
+| ISL     |     Iceland   | 
+| HKG     |     Hong Kong   | 
+| EST     |     Estonia   | 
+| BEL     |     Belgium   | 
+| ISR     |     Israel   | 
+| LIE     |     Liechtenstein   | 
+| FIN     |     Finland   | 
+| BGR     |     Bulgaria   | 
+| USA     |     United States   | 
+| LUX     |     Luxembourg   | 
+| CZE     |     Czech Republic   | 
+| NOR     |     Norway   | 
+| TUR     |     Turkey   | 
+| DEU     |     Germany   | 
+| CAN     |     Canada   | 
+| ROM     |     Romania   | 
+| NA     |     Not Applicable   | 
+| MLT     |     Malta   | 
+| GRC     |     Greece   | 
+| MCO     |     Monaco   | 
+| ITA     |     Italy   | 
+| LVA     |     Latvia   | 
+| SVN     |     Slovenia   | 
+| LTU     |     Lithuania   | 
+| HRV     |     Croatia   | 
+| PRT     |     Portugal   | 
+| GBR     |     United Kingdom   | 
+| CYP     |     Cyprus   | 
+| AUS     |     Australia   | 
+| AUT     |     Austria   | 
+| HUN     |     Hungary   | 
+| SWE     |     Sweden   | 
+| GIB     |     Gibraltar   | 
 
 <!-- type: tab -->
 
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| STRING   | Required   | Allowed   | Required   | NA |         |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| BRA     |     Brazil   | 
+| TWN     |     Taiwan   | 
+| JPN     |     Japan   | 
+| SVK     |     Slovakia   | 
+| IND     |     India   | 
+| MYS     |     Malaysia   | 
+| NZL     |     New Zealand   | 
+| PRI     |     Puerto Rico   | 
+| SMR     |     San Marino   | 
+| BMU     |     Bermuda   | 
+| AND     |     Andorra   | 
+| SGP     |     Singapore   | 
+| FRA     |     France   | 
+| DNK     |     Denmark   | 
+| CHE     |     Switzerland   | 
+| IRL     |     Ireland   | 
+| NLD     |     Netherlands   | 
+| POL     |     Poland   | 
+| ESP     |     Spain   | 
+| ISL     |     Iceland   | 
+| HKG     |     Hong Kong   | 
+| EST     |     Estonia   | 
+| BEL     |     Belgium   | 
+| ISR     |     Israel   | 
+| LIE     |     Liechtenstein   | 
+| FIN     |     Finland   | 
+| BGR     |     Bulgaria   | 
+| USA     |     United States   | 
+| LUX     |     Luxembourg   | 
+| CZE     |     Czech Republic   | 
+| NOR     |     Norway   | 
+| TUR     |     Turkey   | 
+| DEU     |     Germany   | 
+| CAN     |     Canada   | 
+| ROM     |     Romania   | 
+| NA     |     Not Applicable   | 
+| MLT     |     Malta   | 
+| GRC     |     Greece   | 
+| MCO     |     Monaco   | 
+| ITA     |     Italy   | 
+| LVA     |     Latvia   | 
+| SVN     |     Slovenia   | 
+| LTU     |     Lithuania   | 
+| HRV     |     Croatia   | 
+| PRT     |     Portugal   | 
+| GBR     |     United Kingdom   | 
+| CYP     |     Cyprus   | 
+| AUS     |     Australia   | 
+| AUT     |     Austria   | 
+| HUN     |     Hungary   | 
+| SWE     |     Sweden   | 
+| GIB     |     Gibraltar   | 
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
 ##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
-### PHONE_NUMBER
+
+### POSTAL_CODE
+* Description: Postal code or zip code.
+* API field: `postalCode`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 5        |    20        |    Required     | Allowed     | Required |    NA |    
+
+<!-- type: tab -->
+
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| STRING   | Required   | Allowed   | Required   | NA |    
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+
+### COUNTY_NAME
+* Description: Name of the county.
+* API field: `countyName`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 2        |    30        |    NA     | Allowed     | Required |    NA |    
+
+<!-- type: tab -->
+
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+|    | NA   | Allowed   | Required   | NA |    
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+
+### BUSINESS_PHONE
 * Description: Phone number of the principal owner.
-* API field: `ownerPhoneNumber`
+* API field: `businessPhone`
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |            |     Required      | NA     | NA |    NA     |
-
-  <!--   type: tab -->
-
-##### North Specification 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      10         |      15   |  Required    | NA   | NA   | NA   |      |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| String  | 10        |    15        |    NA     | Allowed     | Required |    NA |    
 
 <!-- type: tab -->
 
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| STRING   | NA   | Allowed   | Required   | NA |    
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
 ##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
-### BANK_ACCOUNT_TYPE
-* Description: Type of an account.
 
-Example: Checking/Savings/GL purposes
-* API field: `bankAccountTypeCode`
+### MOBILE
+* Description: Mobile number of the principal owner.
+* API field: `mobile`
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |            |     Required      |  Required      |  Required  |    NA     |
-
-  <!--   type: tab -->
-
-##### North Specification 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      1         |      1   |  Required    |  Required    |  Required    | NA   |      |
-
-<!-- type: tab --> 
-
-##### South Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| String  | 10        |    15        |    Required     | Allowed     | Required |    NA |    
 
 <!-- type: tab -->
 
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| STRING   | Required   | Allowed   | Required   | NA |    
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
 ##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
+### EMAIL_ADDRESS
+* Description: E-mail address of the principal owner.
+* API field: `emailAddress`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 40        |    240        |    Required     | Allowed     | Required |    NA |    
+
+<!-- type: tab -->
+
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| STRING   | Required   | Allowed   | Required   | NA |    
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
