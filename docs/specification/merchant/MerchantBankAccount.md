@@ -110,7 +110,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | NA   |  Required    | NA |         |
+| Integer| Available   | NA   |  Required    | NA |         |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
