@@ -1,5 +1,5 @@
-# Merchant Owner
-* **Description**: Essential information about merchant owner, including demographic details, and contact information. This is a critical information for every principal owner of a merchant.
+# Merchant Address
+* **Description**: Essential information about physical business address of a merchant for official purposes and communication.
 * **API section**: root 
 * **Table Name**: MERCHANT_ADDRESS 
 
