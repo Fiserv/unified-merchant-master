@@ -1,5 +1,5 @@
 # Merchant Address
-* **Description**: Essential information about physical business address of a merchant for official purposes and communication.
+* **Description**: Essential information about  business address of a merchant for official purposes and communication.
 * **API section**: root 
 * **Table Name**: MERCHANT_ADDRESS 
 
@@ -16,7 +16,9 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 8        |    50        |    NA     | Required     | Required |    NA |    
+| String  | 8        |    50        |    Required     | Required     | Required |    Required     |
+
+* Merchant Id is required for carrying out any operation on a specific merchant. 
 
 <!-- type: tab -->
 
@@ -24,7 +26,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|    | NA   | Required   | Required   | NA |    
+| String   | Required   | Required   | Required   | Required  |
 
 <!-- type: tab --> 
 
@@ -37,11 +39,10 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| String |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
-
 ### PLATFORM_CODE
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
@@ -54,7 +55,15 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 5        |    9        |    NA     | NA     | NA |    NA |    
+| String  | 5        |    9        |    Required     | Required     | Required |    Required     |
+
+**Valid Values**: 
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| NORTH     |   North Backend     | 
+| OMNIPAY26     |  Omnipay Backend ( GMA)      | 
+| SOUTH     |     South  Backend | 
+| OMNIPAY21     |    Omnipay ( Australia)    |      |
 
 <!-- type: tab -->
 
@@ -62,7 +71,12 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|    | NA   | NA   | NA   | NA |    
+| String   | Required   | Required   | Required   | Required     |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| NORTH     |     North   |  |
 
 <!-- type: tab --> 
 
@@ -75,9 +89,10 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| String |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
+
 ---
 
 ### ADDRESS_TYPE_CODE
@@ -97,8 +112,16 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| LOCATION     |     Location Address   | 
-| CORPORATE     |     Corporate Address   |
+|LOCATION|	Location address|
+|CORPORATE|	Corporate Address|
+|MSIP_LOCATION|	MSIP Location Address|
+|MSIP_CORPORATE|	MSIP Corporate Address|
+|DISPUTE_ADDRESS|	Dispute communication Address|
+|HEAD_OFFICE|	Head office Address|
+|LEGAL|	Legal entity Address|
+|BENEFICIARY|	Beneficiary Address|
+|BUSINESS_MANAGER|	Business Manager Address|
+|ALTERNATE_ADDRESS|	Merchant Alternate Address|
 
 <!-- type: tab -->
 
