@@ -17,7 +17,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|   | 12        |    50        |    NA     | Required     | NA |    NA |    
+| String | 12        |    50        |    NA     | Required     | NA |    NA |    
 
 <!-- type: tab -->
 
@@ -55,7 +55,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|   |         |            |    NA     | Required     | Required |    NA |    
+| String |         |            |    NA     | Required     | Required |    NA |    
 
 <!-- type: tab -->
 
@@ -93,7 +93,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| INTEGER  | 1        |    3        |    Available     | NA     |  Required  |    NA |         |
+| Integer  | 1        |    3        |    Available     | NA     |  Required  |    NA |         |
 
 **Valid Values**: 
 |         Value        |                    Description                 |
@@ -187,7 +187,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| DATE  | 10        |    10        |    Available     | Allowed     |  Required  |    NA |    
+| Date  | 10        |    10        |    Available     | Allowed     |  Required  |    NA |    
 
 <!-- type: tab -->
 
@@ -395,7 +395,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|   | 10        |    15        |    Available     | NA     | NA |    NA |    
+| String | 10        |    15        |    Available     | NA     | NA |    NA |    
 
 <!-- type: tab -->
 
@@ -403,7 +403,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | NA   | NA   | NA |    
+| String | Available   | NA   | NA   | NA |    
 
 <!-- type: tab --> 
 
@@ -449,7 +449,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|    | Available   | Allowed   |  Required    | NA |         |
+| String | Available   | Allowed   |  Required    | NA |         |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
