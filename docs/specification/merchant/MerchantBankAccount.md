@@ -2,8 +2,8 @@
 * **Description**: description to come here .....
 * **API section**: root 
 * **Table Name**: UMM.MERCHANT 
-## List of Fields:
 
+## List of Fields:
 ### SEQUENCE_NUMBER
 * Description: ABA/DDA occurrence sequence number of a bank.
 * API field: `sequenceNumber`
@@ -58,3 +58,4 @@ titles: UMM, North, GMA
 |       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
+---
