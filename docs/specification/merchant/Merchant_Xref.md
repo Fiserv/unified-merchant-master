@@ -1,5 +1,5 @@
 # MERCHANT_XREF
-* **Description**: Stores essential information about merchants, including contact details, business type, and contractual data, ensuring efficient transaction processing and management. Every merchant has an entry in this critical repository.
+* **Description**: Stores essential information about the cross reference codes and related information.
 * **API section**: root 
 * **Table Name**: MERCHANT_XREF
 
