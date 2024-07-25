@@ -58,6 +58,8 @@
               link: docs/specification/merchant/MerchantBankAccount.md
             - title: Merchant Address
               link: docs/specification/merchant/MerchantAddress.md
+            - title: Merchant Hierarchy
+              link: docs/specification/merchant/MerchantHierarchy.md
             - title: Merchant Xref
               link: docs/specification/merchant/Merchant_Xref.md
             - title: Merchant Tax Additional Data (US)
