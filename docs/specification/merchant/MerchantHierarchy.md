@@ -1,7 +1,7 @@
 # Merchant Hierarchy
 * **Description**: Stores essential information of management hierarchy for the merchant.
 * **API section**: root 
-* **Table Name**: UMM.MERCHANT 
+* **Table Name**: UMM.merchant_hierarchy 
 
 ## List of Fields:
 
@@ -17,7 +17,9 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 34        |    50        |    NA     | Required     | Required |    NA |    
+| String  | 8        |    50        |    Required     | Required     | Required |    Required     |
+
+* Merchant Id is required for carrying out any operation on a specific merchant. 
 
 <!-- type: tab -->
 
@@ -25,7 +27,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | NA   | Required   | Required   | NA |    
+| String   | Required   | Required   | Required   | Required  |
 
 <!-- type: tab --> 
 
@@ -38,11 +40,10 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| String |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
-
 ### PLATFORM_CODE
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
@@ -55,7 +56,15 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 5        |    50        |    NA     | NA     | Required |    NA |    
+| String  | 5        |    9        |    Required     | Required     | Required |    Required     |
+
+**Valid Values**: 
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| NORTH     |   North Backend     | 
+| OMNIPAY26     |  Omnipay Backend ( GMA)      | 
+| SOUTH     |     South  Backend | 
+| OMNIPAY21     |    Omnipay ( Australia)    |      |
 
 <!-- type: tab -->
 
@@ -63,7 +72,12 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | NA   | NA   | Required   | NA |    
+| String   | Required   | Required   | Required   | Required     |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| NORTH     |     North   |  |
 
 <!-- type: tab --> 
 
@@ -76,10 +90,10 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| String |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
----
+
 
 ### HIERARCHY_LEVEL_CODE
 * Description: Unique identifier of the merchant to represent the management hierarchy.
@@ -100,13 +114,15 @@ titles: UMM, North, GMA
 |:----------------------|:------------------------------------------------|
 | GROUP     |     Highest level in Omnipay Hierarchy   | 
 | SUB_GROUP     |     This represents the next level in Omnipay Hierarchy below Group level   | 
-| OUTLET     |     North backend's 010-OUTLET hierarchy level   | 
-| BILL_TO_ADDR     |     North backend's 019-BILL_TO_ADDR hierarchy level   | 
-| CHAIN     |     North backend's 020-CHAIN hierarchy level   | 
-| AGENT     |     North backend's 040-AGENT hierarchy level   | 
-| PRIN     |     North backend's 050-PRIN hierarchy level   | 
-| MEMBER     |     This identifies the actual processing Merchant assigned to a location   | 
-| SYSTEM     |     North backend's 060-SYSTEM hierarchy level   | 
+| MEMBER     |     This identifies the actual processing Merchant assigned to a location in Omnipay  
+
+|  AGENT   |   AGENT hierarchy level (040)  in North   |
+|  CHAIN   |   CHAIN hierarchy level (020)  in North   |
+|  BANK   |    Bank  hierarchy level  (050) in North   |
+|  BILL_TO_ADDR   | BILL_TO_ADDR hierarchy level (019)  in North   |
+|  CORP   |   Corporation  hierarchy level (030)  in North    |
+|  BUSINESS   |  Business hierarchy level (060)  in North     |
+|  OUTLET   |    Outlet  hierarchy level (010)   in North  |  
 
 <!-- type: tab -->
 
@@ -119,15 +135,13 @@ titles: UMM, North, GMA
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| GROUP     |     Highest level in Omnipay Hierarchy   | 
-| SUB_GROUP     |     This represents the next level in Omnipay Hierarchy below Group level   | 
-| OUTLET     |     North backend's 010-OUTLET hierarchy level   | 
-| BILL_TO_ADDR     |     North backend's 019-BILL_TO_ADDR hierarchy level   | 
-| CHAIN     |     North backend's 020-CHAIN hierarchy level   | 
-| AGENT     |     North backend's 040-AGENT hierarchy level   | 
-| PRIN     |     North backend's 050-PRIN hierarchy level   | 
-| MEMBER     |     This identifies the actual processing Merchant assigned to a location   | 
-| SYSTEM     |     North backend's 060-SYSTEM hierarchy level   | 
+|  AGENT   |   AGENT hierarchy level (040)  in North   |
+|  CHAIN   |   CHAIN hierarchy level (020)  in North   |
+|  BANK   |    Bank  hierarchy level  (050) in North   |
+|  BILL_TO_ADDR   | BILL_TO_ADDR hierarchy level (019)  in North   |
+|  CORP   |   Corporation  hierarchy level (030)  in North    |
+|  BUSINESS   |  Business hierarchy level (060)  in North     |
+|  OUTLET   |    Outlet  hierarchy level (010)   in North  |  
 
 <!-- type: tab --> 
 
@@ -145,8 +159,48 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
+### HIERARCHY_SEQ
+* Description: Dynamic sequence depending  on hierarchy level for a merchant 
+* API field: `hierarchySeq`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Integer  | 1        |    5        |    Available     | NA     | NA |    NA |         |
+
+
+<!-- type: tab -->
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| String   | Available   | NA   | NA   | NA |         |
+
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+
+
 ### HIERARCHY_MERCHANT_ID
-* Description: Unique identifier assigned to a merchant within a hierarchical system.
+* Description: Unique identifier assigned to a merchant within a hierarchical system - e.g. Business number associated with a specific merchant 
 * API field: `hierarchyMerchantId`
 * Field Specification:
 
@@ -157,7 +211,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 8        |    100        |    Available     | Required     | NA |    NA |    
+| String  | 8        |    50        |    Available     | Required     | NA |    NA |    
 
 <!-- type: tab -->
 
@@ -184,7 +238,7 @@ titles: UMM, North, GMA
 ---
 
 ### HIERARCHY_NAME
-* Description: Designated name of a specific level or position within a merchant organizational.
+* Description: Designated name of a specific level or position within a merchant organization.
 * API field: `hierarchyName`
 * Field Specification:
 
