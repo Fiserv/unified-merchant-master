@@ -115,7 +115,6 @@ titles: UMM, North, GMA
 | GROUP     |     Highest level in Omnipay Hierarchy   | 
 | SUB_GROUP     |     This represents the next level in Omnipay Hierarchy below Group level   | 
 | MEMBER     |     This identifies the actual processing Merchant assigned to a location in Omnipay  
-
 |  AGENT   |   AGENT hierarchy level (040)  in North   |
 |  CHAIN   |   CHAIN hierarchy level (020)  in North   |
 |  BANK   |    Bank  hierarchy level  (050) in North   |
