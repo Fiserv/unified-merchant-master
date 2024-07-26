@@ -263,7 +263,6 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create | Update |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:------:|:------:|
 | excessiveChargebackIndicator | Indicates if the chargeback are excessive or not.  |   NO    |  Excessive Chargeback Indicator   |    Avalaible |  N/A   |  Allowed   |
-
 |                              |                                                   | YES   |  Excessive Chargeback Indicator   |
 | disputeDispositionCode | Indicates the type of a dispute.                        |  DOC_DEBIT_REP     |     Doc with Debit and Rep      |    Avalaible |  N/A   |  Allowed   |
 |                              |                                                   |  DEBIT_NO_DOC_WITH_REP     |     Debit No Doc with Rep      |
