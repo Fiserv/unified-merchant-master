@@ -246,3 +246,32 @@ titles: UMM, North, South, GMA
 <!-- type: tab-end -->
 
 ---
+
+
+### TEST....chargebackConfig
+---
+tags: [disputeDispositionCode]
+---
+- Description: Indicates the type of a dispute.
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create | Update |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:------:|:------:|
+| excessiveChargebackIndicator | Indicates if the chargeback are excessive or not.  |   NO    |  Excessive Chargeback Indicator   |    Avalaible |  N/A   |  Allowed   |
+
+|                              |                                                   |   YES   |  Excessive Chargeback Indicator   |
+
+
+| disputeDispositionCode | Indicates the type of a dispute.                        |  DOC_DEBIT_REP     |     Doc with Debit and Rep      |    Avalaible |  N/A   |  Allowed   |
+|                              |                                                   |  DEBIT_NO_DOC_WITH_REP     |     Debit No Doc with Rep      |
+|                              |                                                   |  DOC_FOLLOWS_DEBIT_WITH_REP     |     Doc Follows Debit w/Rep      |
+|                              |                                                   |  DOC_FOLLOW_DEBIT     |     Doc To Follow Debit      |
+|                              |                                                   |  CORE_BUSSINESS_RULES     |     Core Business Rules      |
+|                              |                                                   |  DOC_WITH_DEBIT     |     Doc with Debit      |
+|                              |                                                   |  DEBIT_NO_DOC     |     Debit No Doc      |
+|                              |                                                   |  DROP_TO_QUEUE     |     Drop to Queue      |
