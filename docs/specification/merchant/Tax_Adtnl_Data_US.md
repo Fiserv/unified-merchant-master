@@ -99,7 +99,7 @@ titles: UMM, North, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
@@ -109,6 +109,7 @@ titles: UMM, North, South, GMA
 
 
 **Valid Values**: 
+
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |FOREIGN_ENTITY_PENDING_VERIFICATION | Fgn Entity Pend Verify|
@@ -128,7 +129,8 @@ titles: UMM, North, South, GMA
 | String |     Available   | NA   | Allowed   | NA   |      
 
 
-**Valid Values**: 
+**Valid Values**
+
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |FOREIGN_ENTITY_PENDING_VERIFICATION | Fgn Entity Pend Verify|
@@ -147,7 +149,6 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |      
 
-
 <!-- type: tab-end -->
 
 ---
@@ -157,7 +158,7 @@ titles: UMM, North, South, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
