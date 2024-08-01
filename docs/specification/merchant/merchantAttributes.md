@@ -273,7 +273,7 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | adrpCumulativeLimitAmount| Cumulative refund amount on the same card in the past 30 or 60 days         |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
-| adrpCumulativeLimitCount| ADRP cumulative limit count         |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
+|                          | ADRP cumulative limit count         |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 | adrpLimitAmount| A dollar limit defined for credits with no offsets         |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 
 
@@ -292,7 +292,7 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | southAuthMatchExclusion| South Auth Match Exclusion        |    ROOT_LEVEL_MATCHING   |   Root Level Matching        |    Available     | Required     | Allowed |    NA |    
-| southAuthMatchExclusion| South Auth Match Exclusion        |    FULL_MID_MATCHING   |   Full Mid Matching        |    Available     | Required     | Allowed |    NA |    
+|                        | South Auth Match Exclusion        |    FULL_MID_MATCHING   |   Full Mid Matching        |    Available     | Required     | Allowed |    NA |    
 
 
 
@@ -311,8 +311,8 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | authTypeCode| Auth Type Code        |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
-| authTypeCode| Auth Type Code        |    PRE_AUTHORIZATION   |   Pre Authorization        |    Available     | Required     | Allowed |    NA |    
-| authTypeCode| Auth Type Code        |    FINAL_AUTHORIZATION   |   Final Authorization        |    Available     | Required     | Allowed |    NA |    
+|             | Auth Type Code        |    PRE_AUTHORIZATION   |   Pre Authorization        |    Available     | Required     | Allowed |    NA |    
+|             | Auth Type Code        |    FINAL_AUTHORIZATION   |   Final Authorization        |    Available     | Required     | Allowed |    NA |    
 | transactionCurrency| Transaction Currency         |       |           |    Available     | Required     | Allowed |    NA |    
 
 ### avsControl
@@ -330,23 +330,23 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | avsAddressIndicator| Address verification service address indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| avsAddressIndicator| Address verification service address indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                    | Address verification service address indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 | avsExactIndicator| Address verification service exact indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| avsExactIndicator| Address verification service exact indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                  | Address verification service exact indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 | avsNoIndicator| Address verification service no indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
-| avsNoIndicator| Address verification service no indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|               | Address verification service no indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 | avsRetryIndicator| Address verification service retry indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
-| avsRetryIndicator| Address verification service retry indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                  | Address verification service retry indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 | avsServiceIndicator| Address verification service indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| avsServiceIndicator| Address verification service indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                     | Address verification service indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 | avsUnavailableIndicator| Address verification service unavailable indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| avsUnavailableIndicator| Address verification service unavailable indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                      | Address verification service unavailable indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 | avsWholeZipIndicator| Address verification service whole zip indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
-| avsWholeZipIndicator| Address verification service whole zip indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                  | Address verification service whole zip indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 | avsYesIndicator| Address verification service Yes indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| avsYesIndicator| Address verification service Yes indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
-| avsZipIndicator| Address verification service zip indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
-| avsZipIndicator| Address verification service zip indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                | Address verification service Yes indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                | Address verification service zip indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                | Address verification service zip indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 
 
 
@@ -365,11 +365,11 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | offeringType| Offering Type        |    FISERV   |   Fiserv        |    Available     | Required     | Allowed |    NA |    
-| offeringType| Offering Type        |    OTHER_ASSIGNED   |   Other Assigned        |    Available     | Required     | Allowed |    NA |    
-| offeringType| Offering Type        |    BANK_OF_AMERICA   |   Bank Of America        |    Available     | Required     | Allowed |    NA |    
+|             | Offering Type        |    OTHER_ASSIGNED   |   Other Assigned        |    Available     | Required     | Allowed |    NA |    
+|             | Offering Type        |    BANK_OF_AMERICA   |   Bank Of America        |    Available     | Required     | Allowed |    NA |    
 | status| Program Status        |    ALLOCATED   |   Allocated        |    Available     | Required     | Allowed |    NA |    
-| status| Program Status        |    DORMANT_CANCELLED   |   Dormant Cancelled        |    Available     | Required     | Allowed |    NA |    
-| status| Program Status        |    RESERVED_ATTACHED   |   Reserved Attached        |    Available     | Required     | Allowed |    NA |    
+|       | Program Status        |    DORMANT_CANCELLED   |   Dormant Cancelled        |    Available     | Required     | Allowed |    NA |    
+|       | Program Status        |    RESERVED_ATTACHED   |   Reserved Attached        |    Available     | Required     | Allowed |    NA |    
 
 
 
@@ -388,15 +388,15 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | billSuppliesIndicator| Bill Supplies Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
-| billSuppliesIndicator| Bill Supplies Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                    | Bill Supplies Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 | billSuppliesShippingIndicator| Bill supplies shipping and handling indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
-| billSuppliesShippingIndicator| Bill supplies shipping and handling indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                             | Bill supplies shipping and handling indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 | delayedBillingEffectiveDate| Delayed billing effective date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
 | managementFeeDate| Date that management fee will be charged        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
-| membershipFeeDate| Date that membership fees will be charged         |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+|                 | Date that membership fees will be charged         |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
 | retailerRateCode| Retailer rate code specific client usage        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | zeroInterchangeIndicator| Zero interchange indicator reserved for international banks only        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| zeroInterchangeIndicator| Zero interchange indicator reserved for international banks only        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                        | Zero interchange indicator reserved for international banks only        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
 
 
@@ -415,7 +415,7 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | status| Program Status        |    NOT_ACCEPTED   |   Not Accepted        |    Available     | Required     | Allowed |    NA |    
-| status| Program Status        |    ACCEPTED   |   Accepted        |    Available     | Required     | Allowed |    NA |    
+|        | Program Status        |    ACCEPTED   |   Accepted        |    Available     | Required     | Allowed |    NA |    
 
 
 
@@ -435,7 +435,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | descriptionOfGoods| Description of goods and services sold by the merchant        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | homeBasedBusiness| Defines if the merchants business location is the same as his home location        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
-| homeBasedBusiness| Defines if the merchants business location is the same as his home location        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                 | Defines if the merchants business location is the same as his home location        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 | wisoSalesRepId| Sales rep id of the wholesale iso employee        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
 
@@ -471,7 +471,7 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | status| Program Status        |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
-| status| Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+|       | Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
 
 
@@ -492,21 +492,19 @@ titles: UMM, North, GMA
 | cashAdvanceLimitAmount| Cash advance Limit Amount        |    REJECT_IF_GTE_100000 - Reject if greater than or equal to 100000  |   Reject If Gte 100000 - Reject If Greater Than Or Equal To 100000        |    Available     | Required     | Allowed |    NA |    
 | splitFundingAdvanceAmount| Split Funding Advance Amount        |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 | splitFundingParticipationCode| Split Funding Participation Code        |    ADV_REPAID   |   Adv Repaid        |    Available     | Required     | Allowed |    NA |    
-| splitFundingParticipationCode| Split Funding Participation Code        |    NOT_USED   |   Not Used        |    Available     | Required     | Allowed |    NA |    
-| splitFundingParticipationCode| Split Funding Participation Code        |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
-| splitFundingParticipationCode| Split Funding Participation Code        |    SPLIT_FUNDING   |   Split Funding        |    Available     | Required     | Allowed |    NA |    
+|                              |                                         |    NOT_USED   |   Not Used        |    Available     | Required     | Allowed |    NA |    
+|                              |                                           ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+|                              |                                           SPLIT_FUNDING   |   Split Funding        |    Available     | Required     | Allowed |    NA |    
 | splitFundingPayToMerchantId| Split funding pay to merchant number        |    STRING - Digits only - MERCHANT ID   |   String - Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
 | splitFundingPercent| Split Funding Percentage        |    STRING - Digits only - no decimal (max length - 3, min - 1)   |   String - Digits Only - No Decimal (Max Length: 3, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 | splitFundingVendorCode| Split funding cash advance vendor code        |    MER_ADV_FUNDING   |   Mer Adv Funding        |    Available     | Required     | Allowed |    NA |    
-| splitFundingVendorCode| Split funding cash advance vendor code        |    FDMCA   |   Fdmca        |    Available     | Required     | Allowed |    NA |    
-| splitFundingVendorCode| Split funding cash advance vendor code        |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
-| splitFundingVendorCode| Split funding cash advance vendor code        |    RAPID_ADV   |   Rapid Adv        |    Available     | Required     | Allowed |    NA |    
-| splitFundingVendorCode| Split funding cash advance vendor code        |    FUND_TREE   |   Fund Tree        |    Available     | Required     | Allowed |    NA |    
-| splitFundingVendorCode| Split funding cash advance vendor code        |    ADV_ME   |   Adv Me        |    Available     | Required     | Allowed |    NA |    
-| splitFundingVendorCode| Split funding cash advance vendor code        |    ADV_ME_INC   |   Adv Me Inc        |    Available     | Required     | Allowed |    NA |    
-| splitFundingVendorCode| Split funding cash advance vendor code        |    BIZ2_CREDIT   |   Biz2 Credit        |    Available     | Required     | Allowed |    NA |    
-
-
+|                              |                                         |    FDMCA   |   Fdmca        |    Available     | Required     | Allowed |    NA |    
+|                              |                                         |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|                              |                                         |    RAPID_ADV   |   Rapid Adv        |    Available     | Required     | Allowed |    NA |    
+|                              |                                         |    FUND_TREE   |   Fund Tree        |    Available     | Required     | Allowed |    NA |    
+|                              |                                         |    ADV_ME   |   Adv Me        |    Available     | Required     | Allowed |    NA |    
+|                              |                                         |    ADV_ME_INC   |   Adv Me Inc        |    Available     | Required     | Allowed |    NA |    
+|                              |                                         |    BIZ2_CREDIT   |   Biz2 Credit        |    Available     | Required     | Allowed |    NA |    
 
 ### cashAdvanceProgram
 ---
@@ -524,4 +522,4 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | offeringType| Offering Type        |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
 | status| Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
-| status| Program Status        |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+|       |                      |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
