@@ -202,6 +202,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | ackFilePreference            | Acknowledgement File Preference                   | NORMAL        | Normal                                                    |Available | Required | Allowed  |    NA    |
 |                              |                                                   | MASK          | Mask                                                      |Available | Required | Allowed  |    NA    |
+
 <!-- type: tab-->
 
 ##### North Specification
@@ -240,6 +241,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab-->
 
+##### North Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-->
+
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
@@ -248,6 +256,7 @@ titles: UMM, North, GMA
 | vatTaxCode| VAT Tax Code        |       |           |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab-end -->
+---
 
 ### adrp
 ---
