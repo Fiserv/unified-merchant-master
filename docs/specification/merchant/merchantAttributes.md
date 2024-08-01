@@ -186,73 +186,11 @@ titles: UMM
 ---
 
 ##  List of Domains
-### chargebackConfig
+### acknowledgementFilePreference
 ---
-tags: [chargebackConfig]
+tags: [acknowledgementFilePreference]
 ---
-- Description: Chargeback Configuration
-- List of Attributes:
-
-<!-- type: tab 
-titles: UMM, North, South, GMA 
--->
-
-##### UMM Specification
-| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create | Update |
-|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:------:|:------:|
-| excessiveChargebackIndicator | Excessive Chargeback Indicator                    | YES           | Merchant has excessive Chargeback                         | Returned |  N/A   |  Yes   |
-|                              |                                                   | NO            | Merchant does not have excessive Chargeback               | Returned |  N/A   |  Yes   |
-| chargebackPrenoteDays        | Chargeback Prenote Days                           | Numeric Value | Chargeback Prenote Days                                   | Returned |  N/A   |  Yes   |
-| email                        | email                                             | String        | Email address on file to send CHGBK related Communication | Returned |  N/A   |  Yes   |
-| chargebackAddressCode        | Indicates where the chargeback advice is directed | DBA_ADDR_ONLY | chargeback advice is directed to DBA Address on file      | Returned |  N/A   |  Yes   |
-
-
-<!-- type: tab-->
-
-##### North Specification
-| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create | Update |
-|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:------:|:------:|
-| excessiveChargebackIndicator | Excessive Chargeback Indicator                    | YES           | Merchant has excessive Chargeback                         | Returned |  N/A   |  Yes   |
-|                              |                                                   | NO            | Merchant does not have excessive Chargeback               | Returned |  N/A   |  Yes   |
-| chargebackPrenoteDays        | Chargeback Prenote Days                           | Numeric Value | Chargeback Prenote Days                                   | Returned |  N/A   |  Yes   |
-| email                        | email                                             | String        | Email address on file to send CHGBK related Communication | Returned |  N/A   |  Yes   |
-| chargebackAddressCode        | Indicates where the chargeback advice is directed | DBA_ADDR_ONLY | chargeback advice is directed to DBA Address on file      | Returned |  N/A   |  Yes   |
-
-
-<!-- type: tab--> 
-
-##### South Specification
-| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create | Update |
-|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:------:|:------:|
-| excessiveChargebackIndicator | Excessive Chargeback Indicator                    | YES           | Merchant has excessive Chargeback                         | Returned |  N/A   |  Yes   |
-|                              |                                                   | NO            | Merchant does not have excessive Chargeback               | Returned |  N/A   |  Yes   |
-| chargebackPrenoteDays        | Chargeback Prenote Days                           | Numeric Value | Chargeback Prenote Days                                   | Returned |  N/A   |  Yes   |
-| email                        | email                                             | String        | Email address on file to send CHGBK related Communication | Returned |  N/A   |  Yes   |
-| chargebackAddressCode        | Indicates where the chargeback advice is directed | DBA_ADDR_ONLY | chargeback advice is directed to DBA Address on file      | Returned |  N/A   |  Yes   |
-
-
-<!-- type: tab-->
-
-##### GMA Specification
-| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create | Update |
-|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:------:|:------:|
-| excessiveChargebackIndicator | Excessive Chargeback Indicator                    | YES           | Merchant has excessive Chargeback                         | Returned |  N/A   |  Yes   |
-|                              |                                                   | NO            | Merchant does not have excessive Chargeback               | Returned |  N/A   |  Yes   |
-| chargebackPrenoteDays        | Chargeback Prenote Days                           | Numeric Value | Chargeback Prenote Days                                   | Returned |  N/A   |  Yes   |
-| email                        | email                                             | String        | Email address on file to send CHGBK related Communication | Returned |  N/A   |  Yes   |
-| chargebackAddressCode        | Indicates where the chargeback advice is directed | DBA_ADDR_ONLY | chargeback advice is directed to DBA Address on file      | Returned |  N/A   |  Yes   |
-
-
-<!-- type: tab-end -->
-
----
-
-
-### TEST....chargebackConfig
----
-tags: [disputeDispositionCode]
----
-- Description: Indicates the type of a dispute.
+- Description: Acknowledgement File Preference
 - List of Attributes:
 
 <!-- type: tab 
@@ -260,15 +198,23 @@ titles: UMM, North, GMA
 -->
 
 ##### UMM Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| ackFilePreference            | Acknowledgement File Preference                   | NORMAL        | Normal                                                    |Available | Required | Allowed  |    NA    |
+|                              |                                                   | MASK          | Mask                                                      |Available | Required | Allowed  |    NA    |
+<!-- type: tab-->
+
+##### North Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| ackFilePreference            | Acknowledgement File Preference                   | NORMAL        | Normal                                                    |Available | Required | Allowed  |    NA    |
+|                              |                                                   | MASK          | Mask                                                      |Available | Required | Allowed  |    NA    |
+
+<!-- type: tab-->
+
+##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create | Update |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:------:|:------:|
-| excessiveChargebackIndicator | Indicates if the chargeback are excessive or not.  |   NO    |  Excessive Chargeback Indicator   |    Avalaible |  N/A   |  Allowed   |
-|                              |                                                   | YES   |  Excessive Chargeback Indicator   |
-| disputeDispositionCode | Indicates the type of a dispute.                        |  DOC_DEBIT_REP     |     Doc with Debit and Rep      |    Avalaible |  N/A   |  Allowed   |
-|                              |                                                   |  DEBIT_NO_DOC_WITH_REP     |     Debit No Doc with Rep      |
-|                              |                                                   |  DOC_FOLLOWS_DEBIT_WITH_REP     |     Doc Follows Debit w/Rep      |
-|                              |                                                   |  DOC_FOLLOW_DEBIT     |     Doc To Follow Debit      |
-|                              |                                                   |  CORE_BUSSINESS_RULES     |     Core Business Rules      |
-|                              |                                                   |  DOC_WITH_DEBIT     |     Doc with Debit      |
-|                              |                                                   |  DEBIT_NO_DOC     |     Debit No Doc      |
-|                              |                                                   |  DROP_TO_QUEUE     |     Drop to Queue      |
+|                              |                                                   |               |                                                           |          |        |        |
+
+<!-- type: tab-end -->
