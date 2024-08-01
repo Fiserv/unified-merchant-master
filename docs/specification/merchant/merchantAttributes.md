@@ -224,12 +224,28 @@ titles: UMM, North, GMA
 tags: [additionalTaxInfo]
 ---
 - Description: Additional Tax Information
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+<!-- type: tab-->
+##### UMM Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  || incomeTaxCode| Income Tax Code        |       |           |    Available     | Required     | Allowed |    NA |    
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| secondaryTaxId| Secondary Tax ID        |       |           |    Available     | Required     | Allowed |    NA |    
+| vatTaxCode| VAT Tax Code        |       |           |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  || incomeTaxCode| Income Tax Code        |       |           |    Available     | Required     | Allowed |    NA |    
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | secondaryTaxId| Secondary Tax ID        |       |           |    Available     | Required     | Allowed |    NA |    
 | vatTaxCode| VAT Tax Code        |       |           |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-end -->
 
 ### adrp
 ---
