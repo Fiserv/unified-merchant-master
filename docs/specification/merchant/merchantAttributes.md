@@ -255,7 +255,6 @@ titles: UMM, North, GMA
 
 <!-- type: tab-end -->
 
----
 ### adrp
 ---
 tags: [adrp]
@@ -274,7 +273,6 @@ titles: UMM, North, GMA
 |                          | ADRP cumulative limit count         |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 | adrpLimitAmount| A dollar limit defined for credits with no offsets         |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 
-
 <!-- type: tab-->
 
 ##### North Specification
@@ -292,7 +290,6 @@ titles: UMM, North, GMA
 |          -                   |                 -                                 |               |                                                           |          |          |          |          |    
 
 <!-- type: tab-end -->
-
 
 ### authMatchExclusion
 ---
