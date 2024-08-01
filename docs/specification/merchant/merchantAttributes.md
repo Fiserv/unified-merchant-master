@@ -230,8 +230,6 @@ tags: [additionalTaxInfo]
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-
-<!-- type: tab-->
 ##### UMM Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
