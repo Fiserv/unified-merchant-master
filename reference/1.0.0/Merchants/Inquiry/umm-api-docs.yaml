@@ -33,7 +33,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/CreateMerchant'
+              $ref: "#/components/schemas/CreateMerchant"
         required: true
       responses:
         "200":
@@ -41,7 +41,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ResponseMerchant'
+                $ref: "#/components/schemas/ResponseMerchant"
       x-proxy-name: createMerchant
       x-group-name: Mutation
       x-core: UMM
@@ -73,7 +73,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/UpdateMerchant'
+              $ref: "#/components/schemas/UpdateMerchant"
         required: true
       responses:
         "200":
@@ -81,7 +81,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ResponseMerchant'
+                $ref: "#/components/schemas/ResponseMerchant"
       x-proxy-name: updateMerchant
       x-group-name: Mutation
       x-core: UMM
@@ -131,7 +131,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/SearchRequest'
+              $ref: "#/components/schemas/SearchRequest"
         required: true
       responses:
         "200":
@@ -139,7 +139,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ResponseSearchResponse'
+                $ref: "#/components/schemas/ResponseSearchResponse"
       x-proxy-name: search
       x-group-name: Inquiry
       x-core: UMM
@@ -207,7 +207,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/InquiryRequest'
+              $ref: "#/components/schemas/InquiryRequest"
         required: true
       responses:
         "200":
@@ -215,7 +215,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ResponseMerchant'
+                $ref: "#/components/schemas/ResponseMerchant"
       x-proxy-name: getMerchant
       x-group-name: Inquiry
       x-core: UMM
@@ -227,6 +227,9 @@ components:
       properties:
         addressTypeCode:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md#address_type_code">specification</a>
           readOnly: true
           enum:
           - LOCATION
@@ -366,7 +369,7 @@ components:
             ```
             ```
         boardingSchema:
-          $ref: '#/components/schemas/MerchantBoardingSchema'
+          $ref: "#/components/schemas/MerchantBoardingSchema"
     MerchantAccount:
       type: object
       properties:
@@ -740,6 +743,9 @@ components:
             <a href="../docs?path=docs/specification/merchant/merchant.md#standard_industry_class_code">specification</a>
         productsSold:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#products_sold">specification</a>
           readOnly: true
         statusCode:
           type: string
@@ -823,13 +829,13 @@ components:
         owners:
           type: array
           items:
-            $ref: '#/components/schemas/Owner'
+            $ref: "#/components/schemas/Owner"
         addresses:
           type: array
           items:
-            $ref: '#/components/schemas/Address'
+            $ref: "#/components/schemas/Address"
         products:
-          $ref: '#/components/schemas/MerchantProduct'
+          $ref: "#/components/schemas/MerchantProduct"
         merchantAttributes:
           type: object
           additionalProperties:
@@ -887,19 +893,19 @@ components:
             > For additional information refer to
             <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
         merchantBusinessInformation:
-          $ref: '#/components/schemas/MerchantBusinessInformation'
+          $ref: "#/components/schemas/MerchantBusinessInformation"
         merchantHierarchies:
           type: array
           items:
-            $ref: '#/components/schemas/MerchantHierarchies'
+            $ref: "#/components/schemas/MerchantHierarchies"
         merchantXrefs:
           type: array
           items:
-            $ref: '#/components/schemas/MerchantXref'
+            $ref: "#/components/schemas/MerchantXref"
         merchantAccounts:
           type: array
           items:
-            $ref: '#/components/schemas/MerchantAccount'
+            $ref: "#/components/schemas/MerchantAccount"
         subPlatformCode:
           type: string
           description: |
@@ -949,21 +955,39 @@ components:
             <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#customer_service_phone_number">specification</a>
         locationStartDate:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#localtion_start_date">specification</a>
           format: date
         activationDate:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#activation_date">specification</a>
           format: date
         estimatedFirstProcessDate:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#estimated_first_process_date">specification</a>
           format: date
         firstCancelDate:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#first_cancel_date">specification</a>
           format: date
         lastCancelDate:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#last_cancel_date">specification</a>
           format: date
         lastSettleDate:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md#last_settle_date">specification</a>
           format: date
         electronicSigIndicator:
           type: string
@@ -1107,52 +1131,77 @@ components:
       properties:
         hierarchyLevelCode:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantHierarchy.md#hierarchy_level_code">specification</a>
         hierarchySeq:
           type: integer
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantHierarchy.md#hierarchy_seq">specification</a>
           format: int64
         hierarchyName:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantHierarchy.md#hierarchy_name">specification</a>
         hierarchyMerchantId:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantHierarchy.md#hierarchy_merchant_id">specification</a>
     MerchantProduct:
       type: object
       properties:
         entitlements:
           type: array
           items:
-            $ref: '#/components/schemas/Product'
+            $ref: "#/components/schemas/Product"
         valueAddedServices:
           type: array
           items:
-            $ref: '#/components/schemas/Product'
+            $ref: "#/components/schemas/Product"
         fees:
           type: array
           items:
-            $ref: '#/components/schemas/Product'
+            $ref: "#/components/schemas/Product"
         equipments:
           type: array
           items:
-            $ref: '#/components/schemas/Product'
+            $ref: "#/components/schemas/Product"
     MerchantXref:
       type: object
       properties:
         xrefPlatformMid:
           type: string
-          description: Unique identifier assigned to a merchant
+          description: |
+            Unique identifier assigned to a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md#xref_platform_mid">specification</a>
         xrefPlatformCode:
           type: string
-          description: Indicates the usage status or validity of a cross-reference
-            record associated with the merchant
+          description: |
+            Indicates the usage status or validity of a cross-reference record associated with the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md#xref_platform_code">specification</a>
         primarySecurityCode:
           type: string
-          description: Primary security code assigned to a valid front end network
+          description: |
+            Primary security code assigned to a valid front end network
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md#primary_secutiry_code">specification</a>
         alliancePlatformCode:
           type: string
-          description: Code that indicates the alliance pratform
+          description: |
+            Code that indicates the alliance pratform
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md#alliance_platform_code">specification</a>
         xrefCorrespondenceIndicator:
           type: string
-          description: Indicates whether the merchants and communications utilize
-            the associated cross-reference number
+          description: |
+            Indicates whether the merchants and communications utilize the associated cross-reference number
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md#xref_correspondence_indicator">specification</a>
     Owner:
       type: object
       properties:
@@ -1324,7 +1373,7 @@ components:
         ownerIdentificationDetails:
           type: array
           items:
-            $ref: '#/components/schemas/OwnerIdentification'
+            $ref: "#/components/schemas/OwnerIdentification"
         phoneNumber:
           type: string
           description: |
@@ -1389,7 +1438,7 @@ components:
         terminalFrontEnds:
           type: array
           items:
-            $ref: '#/components/schemas/ProductEquipmentTerminalFrontEndsRes'
+            $ref: "#/components/schemas/ProductEquipmentTerminalFrontEndsRes"
         attributes:
           type: object
           additionalProperties:
@@ -1423,7 +1472,7 @@ components:
             }
             ```
         productAssociation:
-          $ref: '#/components/schemas/ProductAssociation'
+          $ref: "#/components/schemas/ProductAssociation"
         wholesaleAmountOrPercent:
           type: number
         retailAmountOrPercent:
@@ -1636,6 +1685,9 @@ components:
             <a href="../docs?path=docs/specification/merchant/merchant.md#standard_industry_class_code">specification</a>
         productsSold:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#products_sold">specification</a>
           readOnly: true
         statusCode:
           type: string
@@ -1777,13 +1829,13 @@ components:
         owners:
           type: array
           items:
-            $ref: '#/components/schemas/Owner'
+            $ref: "#/components/schemas/Owner"
         addresses:
           type: array
           items:
-            $ref: '#/components/schemas/Address'
+            $ref: "#/components/schemas/Address"
         products:
-          $ref: '#/components/schemas/MerchantProduct'
+          $ref: "#/components/schemas/MerchantProduct"
         merchantAttributes:
           type: object
           additionalProperties:
@@ -1841,21 +1893,21 @@ components:
             > For additional information refer to
             <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
         merchantBusinessInformation:
-          $ref: '#/components/schemas/MerchantBusinessInformation'
+          $ref: "#/components/schemas/MerchantBusinessInformation"
         merchantHierarchies:
           type: array
           items:
-            $ref: '#/components/schemas/MerchantHierarchies'
+            $ref: "#/components/schemas/MerchantHierarchies"
         merchantXrefs:
           type: array
           items:
-            $ref: '#/components/schemas/MerchantXref'
+            $ref: "#/components/schemas/MerchantXref"
         merchantAccounts:
           type: array
           items:
-            $ref: '#/components/schemas/MerchantAccount'
+            $ref: "#/components/schemas/MerchantAccount"
         merchantIrsDetails:
-          $ref: '#/components/schemas/MerchantIrsTax'
+          $ref: "#/components/schemas/MerchantIrsTax"
         subPlatformCode:
           type: string
           description: |
@@ -2026,11 +2078,11 @@ components:
       type: object
       properties:
         data:
-          $ref: '#/components/schemas/Merchant'
+          $ref: "#/components/schemas/Merchant"
         errors:
           type: array
           items:
-            $ref: '#/components/schemas/Error'
+            $ref: "#/components/schemas/Error"
     MerchantUpdateSchema:
       required:
       - merchantId
@@ -2111,6 +2163,9 @@ components:
             <a href="../docs?path=docs/specification/merchant/merchant.md#standard_industry_class_code">specification</a>
         productsSold:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#products_sold">specification</a>
           readOnly: true
         statusCode:
           type: string
@@ -2252,13 +2307,13 @@ components:
         owners:
           type: array
           items:
-            $ref: '#/components/schemas/Owner'
+            $ref: "#/components/schemas/Owner"
         addresses:
           type: array
           items:
-            $ref: '#/components/schemas/Address'
+            $ref: "#/components/schemas/Address"
         products:
-          $ref: '#/components/schemas/MerchantProduct'
+          $ref: "#/components/schemas/MerchantProduct"
         merchantAttributes:
           type: object
           additionalProperties:
@@ -2316,21 +2371,21 @@ components:
             > For additional information refer to
             <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
         merchantBusinessInformation:
-          $ref: '#/components/schemas/MerchantBusinessInformation'
+          $ref: "#/components/schemas/MerchantBusinessInformation"
         merchantHierarchies:
           type: array
           items:
-            $ref: '#/components/schemas/MerchantHierarchies'
+            $ref: "#/components/schemas/MerchantHierarchies"
         merchantXrefs:
           type: array
           items:
-            $ref: '#/components/schemas/MerchantXref'
+            $ref: "#/components/schemas/MerchantXref"
         merchantAccounts:
           type: array
           items:
-            $ref: '#/components/schemas/MerchantAccount'
+            $ref: "#/components/schemas/MerchantAccount"
         merchantIrsDetails:
-          $ref: '#/components/schemas/MerchantIrsTax'
+          $ref: "#/components/schemas/MerchantIrsTax"
         subPlatformCode:
           type: string
           description: |
@@ -2378,7 +2433,7 @@ components:
             }
             ```
         updateSchema:
-          $ref: '#/components/schemas/MerchantUpdateSchema'
+          $ref: "#/components/schemas/MerchantUpdateSchema"
     SearchCriteriaInput:
       type: object
       properties:
@@ -2429,24 +2484,24 @@ components:
             }
             ```
         searchCriteria:
-          $ref: '#/components/schemas/SearchCriteriaInput'
+          $ref: "#/components/schemas/SearchCriteriaInput"
       description: Merchant Search Request
     ResponseSearchResponse:
       type: object
       properties:
         data:
-          $ref: '#/components/schemas/SearchResponse'
+          $ref: "#/components/schemas/SearchResponse"
         errors:
           type: array
           items:
-            $ref: '#/components/schemas/Error'
+            $ref: "#/components/schemas/Error"
     SearchResponse:
       type: object
       properties:
         searchResponses:
           type: array
           items:
-            $ref: '#/components/schemas/Merchant'
+            $ref: "#/components/schemas/Merchant"
         pageNumber:
           type: integer
           format: int32

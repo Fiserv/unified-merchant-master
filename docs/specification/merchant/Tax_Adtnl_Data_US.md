@@ -1,9 +1,10 @@
 # Merchant Additional Data - US
 * **Description**: Stores Tax related information for merchants
-* **API section**: root 
-* **Table Name**: UMM.MERCHANT_TAX_ADTNL_DATA_US 
+* **API schema**: `MerchantIrsTax` 
+* **Table Name**: `UMM.MERCHANT_TAX_ADTNL_DATA_US` 
 
 ## List of Fields:
+
 ### MERCHANT_ID
 * Description: Unique identifier of the merchant. It is required to add merchant-specific information to the database.
 * API field: `merchantId`
