@@ -747,7 +747,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | offeringType| Offering Type        |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
 | status| Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
-|       |                      |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+|       |                      |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |
 
 <!-- type: tab-->
 
@@ -760,7 +760,7 @@ titles: UMM, North, GMA
 
 ### channelLevelDiscoverPromotionalPvi
 ---
-tags: [channelLevelDiscoverPromotionalPvi
+tags: [channelLevelDiscoverPromotionalPvi]
 ---
 - Description: Discover Promotional Program Verification Identifier - Channel Level
 - List of Attributes:
