@@ -754,11 +754,11 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |   
 
 <!-- type: tab-end -->
 
-###  channelLevelDiscoverPromotionalPvi
+### channelLevelDiscoverPromotionalPvi
 ---
 tags: [channelLevelDiscoverPromotionalPvi
 ---
