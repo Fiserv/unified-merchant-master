@@ -1063,12 +1063,9 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |          -                   |                 -                                 |               |                                                           |          |          |          |          |    
-
 <!-- type: tab-end -->
 
-
-
-###  contract
+### contract
 ---
 tags: [contract]
 ---
@@ -1275,5 +1272,840 @@ titles: UMM, North, GMA
 | salesLead| Secondary Tax ID        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | serviceContractIndex| Service contract defines the processing rules for a merchant        |    SERVICE_CONTRACT_1   |   Service Contract 1        |    Available     | Required     | Allowed |    NA |    
 
+<!-- type: tab-end -->
 
+### contractExpirationDate
+
+---
+tags: [contractExpirationDate]
+---
+- Description: Contract Expiration Date Notifications/Flag
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| contractExpirationDate| Contract Expiration Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| gcid| Global Client Id        |       |           |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| contractExpirationDate| Contract Expiration Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| gcid| Global Client Id        |       |           |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+
+
+### conversionInformation
+
+---
+tags: [conversionInformation]
+---
+- Description: Conversion  Account Source System Data
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| contractDate| Contract Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| salesmanCode| Salesman Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| status| Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+|       |                       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| contractDate| Contract Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| salesmanCode| Salesman Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| status| Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+|       |                       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### creditSettings
+
+---
+tags: [creditSettings]
+---
+- Description: Credit Settings
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| creditBinInclusionIndicator| Credit BIN Inclusion Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| creditLimitAmount| Credit Limit Amount        |    REJECT_IF_GTE_30000   |   Reject If Gte 30000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_70000   |   Reject If Gte 70000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_7500   |   Reject If Gte 7500        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_60000   |   Reject If Gte 60000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_15000   |   Reject If Gte 15000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_100000   |   Reject If Gte 100000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_50   |   Reject If Gte 50        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_3000   |   Reject If Gte 3000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_40000   |   Reject If Gte 40000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_200000   |   Reject If Gte 200000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_600000   |   Reject If Gte 600000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_300000   |   Reject If Gte 300000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_50000   |   Reject If Gte 50000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_150000   |   Reject If Gte 150000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    UNLIMITED   |   Unlimited        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_500000   |   Reject If Gte 500000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_400000   |   Reject If Gte 400000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_10000   |   Reject If Gte 10000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_130000   |   Reject If Gte 130000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_2   |   Reject If Gte 2        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_25000   |   Reject If Gte 25000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_2000   |   Reject If Gte 2000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_5000   |   Reject If Gte 5000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_250   |   Reject If Gte 250        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_20000   |   Reject If Gte 20000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_120000   |   Reject If Gte 120000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_100   |   Reject If Gte 100        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_500   |   Reject If Gte 500        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_110000   |   Reject If Gte 110000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_1000   |   Reject If Gte 1000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_1   |   Reject If Gte 1        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_800000   |   Reject If Gte 800000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_80000   |   Reject If Gte 80000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_140000   |   Reject If Gte 140000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_700000   |   Reject If Gte 700000        |    Available     | Required     | Allowed |    NA |    
+| cumulativeCreditLimitAmount| Cumulative Credit Limit Amount        |    REJECT_IF_GTE_300000   |   Reject If Gte 300000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_700000   |   Reject If Gte 700000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_400000   |   Reject If Gte 400000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_60000   |   Reject If Gte 60000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_140000   |   Reject If Gte 140000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_2   |   Reject If Gte 2        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_25000   |   Reject If Gte 25000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_150000   |   Reject If Gte 150000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_50   |   Reject If Gte 50        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_1000   |   Reject If Gte 1000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_2000   |   Reject If Gte 2000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_110000   |   Reject If Gte 110000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_7500   |   Reject If Gte 7500        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_20000   |   Reject If Gte 20000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_130000   |   Reject If Gte 130000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_1   |   Reject If Gte 1        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_500000   |   Reject If Gte 500000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_15000   |   Reject If Gte 15000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_800000   |   Reject If Gte 800000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_120000   |   Reject If Gte 120000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_5000   |   Reject If Gte 5000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_600000   |   Reject If Gte 600000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_80000   |   Reject If Gte 80000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_40000   |   Reject If Gte 40000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_200000   |   Reject If Gte 200000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_500   |   Reject If Gte 500        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_30000   |   Reject If Gte 30000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_250   |   Reject If Gte 250        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    UNLIMITED   |   Unlimited        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_3000   |   Reject If Gte 3000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_10000   |   Reject If Gte 10000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_70000   |   Reject If Gte 70000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_100000   |   Reject If Gte 100000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_100   |   Reject If Gte 100        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_50000   |   Reject If Gte 50000        |    Available     | Required     | Allowed |    NA |    
+| cumulativeSalesLimitAmount| Cumulative Sales Limit Amount        |    REJECT_IF_GTE_1000   |   Reject If Gte 1000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_120000   |   Reject If Gte 120000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_400000   |   Reject If Gte 400000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_200000   |   Reject If Gte 200000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_300000   |   Reject If Gte 300000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_100000   |   Reject If Gte 100000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_800000   |   Reject If Gte 800000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_50000   |   Reject If Gte 50000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    UNLIMITED   |   Unlimited        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_20000   |   Reject If Gte 20000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_70000   |   Reject If Gte 70000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_110000   |   Reject If Gte 110000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_30000   |   Reject If Gte 30000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_500   |   Reject If Gte 500        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_80000   |   Reject If Gte 80000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_60000   |   Reject If Gte 60000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_40000   |   Reject If Gte 40000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_1   |   Reject If Gte 1        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_25000   |   Reject If Gte 25000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_100   |   Reject If Gte 100        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_3000   |   Reject If Gte 3000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_2000   |   Reject If Gte 2000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_7500   |   Reject If Gte 7500        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_5000   |   Reject If Gte 5000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_2   |   Reject If Gte 2        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_500000   |   Reject If Gte 500000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_50   |   Reject If Gte 50        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_600000   |   Reject If Gte 600000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_250   |   Reject If Gte 250        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_10000   |   Reject If Gte 10000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_700000   |   Reject If Gte 700000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_130000   |   Reject If Gte 130000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_15000   |   Reject If Gte 15000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_140000   |   Reject If Gte 140000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_150000   |   Reject If Gte 150000        |    Available     | Required     | Allowed |    NA |    
+
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| creditBinInclusionIndicator| Credit BIN Inclusion Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| creditLimitAmount| Credit Limit Amount        |    REJECT_IF_GTE_30000   |   Reject If Gte 30000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_70000   |   Reject If Gte 70000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_7500   |   Reject If Gte 7500        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_60000   |   Reject If Gte 60000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_15000   |   Reject If Gte 15000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_100000   |   Reject If Gte 100000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_50   |   Reject If Gte 50        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_3000   |   Reject If Gte 3000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_40000   |   Reject If Gte 40000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_200000   |   Reject If Gte 200000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_600000   |   Reject If Gte 600000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_300000   |   Reject If Gte 300000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_50000   |   Reject If Gte 50000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_150000   |   Reject If Gte 150000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    UNLIMITED   |   Unlimited        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_500000   |   Reject If Gte 500000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_400000   |   Reject If Gte 400000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_10000   |   Reject If Gte 10000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_130000   |   Reject If Gte 130000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_2   |   Reject If Gte 2        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_25000   |   Reject If Gte 25000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_2000   |   Reject If Gte 2000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_5000   |   Reject If Gte 5000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_250   |   Reject If Gte 250        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_20000   |   Reject If Gte 20000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_120000   |   Reject If Gte 120000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_100   |   Reject If Gte 100        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_500   |   Reject If Gte 500        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_110000   |   Reject If Gte 110000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_1000   |   Reject If Gte 1000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_1   |   Reject If Gte 1        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_800000   |   Reject If Gte 800000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_80000   |   Reject If Gte 80000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_140000   |   Reject If Gte 140000        |    Available     | Required     | Allowed |    NA |    
+|                  |                            |    REJECT_IF_GTE_700000   |   Reject If Gte 700000        |    Available     | Required     | Allowed |    NA |    
+| cumulativeCreditLimitAmount| Cumulative Credit Limit Amount        |    REJECT_IF_GTE_300000   |   Reject If Gte 300000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_700000   |   Reject If Gte 700000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_400000   |   Reject If Gte 400000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_60000   |   Reject If Gte 60000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_140000   |   Reject If Gte 140000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_2   |   Reject If Gte 2        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_25000   |   Reject If Gte 25000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_150000   |   Reject If Gte 150000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_50   |   Reject If Gte 50        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_1000   |   Reject If Gte 1000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_2000   |   Reject If Gte 2000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_110000   |   Reject If Gte 110000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_7500   |   Reject If Gte 7500        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_20000   |   Reject If Gte 20000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_130000   |   Reject If Gte 130000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_1   |   Reject If Gte 1        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_500000   |   Reject If Gte 500000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_15000   |   Reject If Gte 15000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_800000   |   Reject If Gte 800000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_120000   |   Reject If Gte 120000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_5000   |   Reject If Gte 5000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_600000   |   Reject If Gte 600000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_80000   |   Reject If Gte 80000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_40000   |   Reject If Gte 40000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_200000   |   Reject If Gte 200000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_500   |   Reject If Gte 500        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_30000   |   Reject If Gte 30000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_250   |   Reject If Gte 250        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    UNLIMITED   |   Unlimited        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_3000   |   Reject If Gte 3000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_10000   |   Reject If Gte 10000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_70000   |   Reject If Gte 70000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_100000   |   Reject If Gte 100000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_100   |   Reject If Gte 100        |    Available     | Required     | Allowed |    NA |    
+|                            |                                       |    REJECT_IF_GTE_50000   |   Reject If Gte 50000        |    Available     | Required     | Allowed |    NA |    
+| cumulativeSalesLimitAmount| Cumulative Sales Limit Amount        |    REJECT_IF_GTE_1000   |   Reject If Gte 1000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_120000   |   Reject If Gte 120000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_400000   |   Reject If Gte 400000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_200000   |   Reject If Gte 200000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_300000   |   Reject If Gte 300000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_100000   |   Reject If Gte 100000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_800000   |   Reject If Gte 800000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_50000   |   Reject If Gte 50000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    UNLIMITED   |   Unlimited        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_20000   |   Reject If Gte 20000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_70000   |   Reject If Gte 70000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_110000   |   Reject If Gte 110000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_30000   |   Reject If Gte 30000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_500   |   Reject If Gte 500        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_80000   |   Reject If Gte 80000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_60000   |   Reject If Gte 60000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_40000   |   Reject If Gte 40000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_1   |   Reject If Gte 1        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_25000   |   Reject If Gte 25000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_100   |   Reject If Gte 100        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_3000   |   Reject If Gte 3000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_2000   |   Reject If Gte 2000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_7500   |   Reject If Gte 7500        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_5000   |   Reject If Gte 5000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_2   |   Reject If Gte 2        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_500000   |   Reject If Gte 500000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_50   |   Reject If Gte 50        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_600000   |   Reject If Gte 600000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_250   |   Reject If Gte 250        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_10000   |   Reject If Gte 10000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_700000   |   Reject If Gte 700000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_130000   |   Reject If Gte 130000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_15000   |   Reject If Gte 15000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_140000   |   Reject If Gte 140000        |    Available     | Required     | Allowed |    NA |    
+|                            |                                     |    REJECT_IF_GTE_150000   |   Reject If Gte 150000        |    Available     | Required     | Allowed |    NA |    
+
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+
+
+### crossBorderAcquiring
+
+---
+tags: [crossBorderAcquiring]
+---
+- Description: Cross Border Acquiring
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| viSingleMerchantId| Visa Single Merchant Id        |    Digits only - MERCHANT ID   |   Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
+| viSmiActivationInd| Visa Smi Activation Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                   |                                      |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| viSingleMerchantId| Visa Single Merchant Id        |    Digits only - MERCHANT ID   |   Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
+| viSmiActivationInd| Visa Smi Activation Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                   |                                      |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+
+
+### dccForIab
+
+---
+tags: [dccForIab]
+---
+- Description: Dynamic Currency Conversion For International Agent Bank
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    DCC   |   Dcc        |    Available     | Required     | Allowed |    NA |    
+|             |                      |    DYNAMIC_PRICING   |   Dynamic Pricing        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    DCC   |   Dcc        |    Available     | Required     | Allowed |    NA |    
+|             |                      |    DYNAMIC_PRICING   |   Dynamic Pricing        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+
+
+### depositRequirement
+
+---
+tags: [depositRequirement]
+---
+- Description: Deposit Requirement
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|             |                      |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| programGuideVersion| Program Guide Version        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|             |                      |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| programGuideVersion| Program Guide Version        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+
+### disregardedEntity
+
+---
+tags: [disregardedEntity]
+---
+- Description: Disregarded Entity
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| status| Program Status        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|       |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| status| Program Status        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|       |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+
+
+### earlyTerminationFee
+
+---
+tags: [earlyTerminationFee]
+---
+- Description: Early Termination Fee
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| earlyTermDate| Early termination date applicable to charging an associated fee        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| earlyTermFeeAmount| Early termination fee amount        |    STRING - Digits only - no decimal (max length - 4, min - 1)   |   String - Digits Only - No Decimal (Max Length: 4, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
+| earlyTermFeeIndicator| Early termination fee indicator        |    NO_TERMINATION_FEE   |   No Termination Fee        |    Available     | Required     | Allowed |    NA |    
+|                      |                                        |    CARS_DFAULT_FEE   |   Cars Dfault Fee        |    Available     | Required     | Allowed |    NA |    
+|                      |                                        |    USER_DEFINED_FEE   |   User Defined Fee        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| earlyTermDate| Early termination date applicable to charging an associated fee        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| earlyTermFeeAmount| Early termination fee amount        |    STRING - Digits only - no decimal (max length - 4, min - 1)   |   String - Digits Only - No Decimal (Max Length: 4, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
+| earlyTermFeeIndicator| Early termination fee indicator        |    NO_TERMINATION_FEE   |   No Termination Fee        |    Available     | Required     | Allowed |    NA |    
+|                      |                                        |    CARS_DFAULT_FEE   |   Cars Dfault Fee        |    Available     | Required     | Allowed |    NA |    
+|                      |                                        |    USER_DEFINED_FEE   |   User Defined Fee        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+
+
+### electronicTicketCapture
+
+---
+tags: [electronicTicketCapture]
+---
+- Description: Electronic Ticket Capture
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| etcBypassEditsIndicator| TellS the edit programs if the Merchant wishes to let all his ETC transactions process        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                        |                                                                                               |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| etcCutoffTimeCode| Code indicating what time electronic ticket capture processing is terminated for the day        |    6PM_CST   |   6Pm Cst        |    Available     | Required     | Allowed |    NA |    
+|                  |                                                                                                 |    10PM_EST   |   10Pm Est        |    Available     | Required     | Allowed |    NA |    
+|                  |                                                                                                 |    12AM_CST   |   12Am Cst        |    Available     | Required     | Allowed |    NA |    
+|                  |                                                                                                 |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+| etcOptionCode| Code identifying the type of electronic ticket capture processing used        |    None   |   None        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    ETC_VOICE_BKP   |   Etc Voice Bkp        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    NON_ETC   |   Non Etc        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    ETC_VOICE_BK_W_CLS_BAT   |   Etc Voice Bk W Cls Bat        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    ETC_ELECTRONIC_ONLY   |   Etc Electronic Only        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    HOST_OUT_OF_BALANCE   |   Host Out Of Balance        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    ETC_PLUS   |   Etc Plus        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    ETC_PLUS_DEBIT   |   Etc Plus Debit        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    HOST_MUST_BALANCE   |   Host Must Balance        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    ETC_ELC_W_CLS_BAT   |   Etc Elc W Cls Bat        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| etcBypassEditsIndicator| TellS the edit programs if the Merchant wishes to let all his ETC transactions process        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                        |                                                                                               |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| etcCutoffTimeCode| Code indicating what time electronic ticket capture processing is terminated for the day        |    6PM_CST   |   6Pm Cst        |    Available     | Required     | Allowed |    NA |    
+|                  |                                                                                                 |    10PM_EST   |   10Pm Est        |    Available     | Required     | Allowed |    NA |    
+|                  |                                                                                                 |    12AM_CST   |   12Am Cst        |    Available     | Required     | Allowed |    NA |    
+|                  |                                                                                                 |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+| etcOptionCode| Code identifying the type of electronic ticket capture processing used        |    None   |   None        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    ETC_VOICE_BKP   |   Etc Voice Bkp        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    NON_ETC   |   Non Etc        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    ETC_VOICE_BK_W_CLS_BAT   |   Etc Voice Bk W Cls Bat        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    ETC_ELECTRONIC_ONLY   |   Etc Electronic Only        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    HOST_OUT_OF_BALANCE   |   Host Out Of Balance        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    ETC_PLUS   |   Etc Plus        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    ETC_PLUS_DEBIT   |   Etc Plus Debit        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    HOST_MUST_BALANCE   |   Host Must Balance        |    Available     | Required     | Allowed |    NA |    
+|              |                                                                               |    ETC_ELC_W_CLS_BAT   |   Etc Elc W Cls Bat        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+
+### enhanceDebitCompletionFlow
+
+---
+tags: [enhanceDebitCompletionFlow]
+---
+- Description: Enhance Debit Completion Flow For Pts Direct Send Merchants
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| status| Program Status        |    ENHANCED_DB_FLOW_OFF   |   Enhanced Db Flow Off        |    Available     | Required     | Allowed |    NA |    
+|       |                       |    ENHANCED_DB_FLOW_ON   |   Enhanced Db Flow On        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| status| Program Status        |    ENHANCED_DB_FLOW_OFF   |   Enhanced Db Flow Off        |    Available     | Required     | Allowed |    NA |    
+|       |                       |    ENHANCED_DB_FLOW_ON   |   Enhanced Db Flow On        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+### fdggMigration
+
+---
+tags: [fdggMigration]
+---
+- Description: First Data Global Gateway Migration
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
+| status| Program Status        |    NOT_MIGRATED   |   Not Migrated        |    Available     | Required     | Allowed |    NA |    
+|       |                       |    MIGRATED   |   Migrated        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
+| status| Program Status        |    NOT_MIGRATED   |   Not Migrated        |    Available     | Required     | Allowed |    NA |    
+|       |                       |    MIGRATED   |   Migrated        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+
+### financialBuAssignmentValues
+
+---
+tags: [financialBuAssignmentValues]
+---
+- Description: Financial Bu Assignment Values
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| companyCode| Company Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| financeAlliance| Finance Alliance        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| financeEntity| Finance Entity        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| financeParent| Finance Parent        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| financePortfolio| Finance Portfolio        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| fmgGroupCode| Fmg Group Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| fmgMarkerBank| Fmg Marker Bank        |    STRING - Alphanumeric   |   String - Alphanumeric        |    Available     | Required     | Allowed |    NA |    
+| futureUse1| Future Use 1        |       |           |    Available     | Required     | Allowed |    NA |    
+| futureUse2| Future Use 2        |       |           |    Available     | Required     | Allowed |    NA |    
+| globalClientDescription| Global Client Description        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| globalClientId| Global Client Id        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| profitCenterDescription| Profit Center Description        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| profitCenterId| Profit Center Id        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| status| Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+|       |                       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| companyCode| Company Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| financeAlliance| Finance Alliance        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| financeEntity| Finance Entity        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| financeParent| Finance Parent        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| financePortfolio| Finance Portfolio        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| fmgGroupCode| Fmg Group Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| fmgMarkerBank| Fmg Marker Bank        |    STRING - Alphanumeric   |   String - Alphanumeric        |    Available     | Required     | Allowed |    NA |    
+| futureUse1| Future Use 1        |       |           |    Available     | Required     | Allowed |    NA |    
+| futureUse2| Future Use 2        |       |           |    Available     | Required     | Allowed |    NA |    
+| globalClientDescription| Global Client Description        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| globalClientId| Global Client Id        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| profitCenterDescription| Profit Center Description        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| profitCenterId| Profit Center Id        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| status| Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+|       |                       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+
+
+### firstHawaiianBank
+
+---
+tags: [firstHawaiianBank]
+---
+- Description: First Hawaiian Bank
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| fhbNaicsNumber| Fhb Naics Number N        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| fhbNaicsNumber| Fhb Naics Number N        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+### foreignLanguageSupport
+
+---
+tags: [foreignLanguageSupport]
+---
+- Description: Foreign Language Support
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| foreignLanguageSupport| Foreign Language Support        |    JAPANESE   |   Japanese        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    SOMALI   |   Somali        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    HINDI   |   Hindi        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    FRENCH   |   French        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    FARSI   |   Farsi        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    BURMESE   |   Burmese        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    CAMBODIAN   |   Cambodian        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    CANTONESE   |   Cantonese        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    HAITIANCREOLE   |   Haitiancreole        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    ARABIC   |   Arabic        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    KAREN   |   Karen        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    KOREAN   |   Korean        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| foreignLanguageSupport| Foreign Language Support        |    JAPANESE   |   Japanese        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    SOMALI   |   Somali        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    HINDI   |   Hindi        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    FRENCH   |   French        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    FARSI   |   Farsi        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    BURMESE   |   Burmese        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    CAMBODIAN   |   Cambodian        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    CANTONESE   |   Cantonese        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    HAITIANCREOLE   |   Haitiancreole        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    ARABIC   |   Arabic        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    KAREN   |   Karen        |    Available     | Required     | Allowed |    NA |    
+|                       |                                 |    KOREAN   |   Korean        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
 <!-- type: tab-end -->
