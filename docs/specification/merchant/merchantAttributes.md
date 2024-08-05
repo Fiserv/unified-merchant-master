@@ -2557,20 +2557,16 @@ titles: UMM, North, GMA
 | fundingRppMinimumReserveAmount| Revolving payment plan minimum reserve amount        |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 | fundingRppPercent| Revolving payment plan percent        |    STRING - Digits only - no decimal (max length - 3, min - 1)   |   String - Digits Only - No Decimal (Max Length: 3, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 | fundingRunCode| Merchant Funding Run        |    FUNDING_RUN6   |   Funding Run6        |    Available     | Required     | Allowed |    NA |    
-|                     |                                            |   Funding Runs        |    Available     | Required     | Allowed |    NA |    
-|                     |                                            |   Funding Run4        |    Available     | Required     | Allowed |    NA |    
-|                     |                                            |   Funding Run1        |    Available     | Required     | Allowed |    NA |    
-|                     |                                            |   Funding Run2        |    Available     | Required     | Allowed |    NA |    
-|                     |                                            |   Funding Run3        |    Available     | Required     | Allowed |    NA |    
+|                     |                       |    FUNDING_RUNS   |   Funding Runs        |    Available     | Required     | Allowed |    NA |    
+|                     |                       |    FUNDING_RUN1   |   Funding Run1        |    Available     | Required     | Allowed |    NA |    
+|                     |                       |   FUNDING_RUN2    |   Funding Run2        |    Available     | Required     | Allowed |    NA |    
+|                     |                       |   FUNDING_RUN3    |   Funding Run3        |    Available     | Required     | Allowed |    NA |    
+|                     |                       |    FUNDING_RUN4   |   Funding Run4        |    Available     | Required     | Allowed |    NA |    
 | interchangeAssessmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1
-2 - Bank Sequence Number#2
-3 - Bank Sequence Number#3
-4 - Bank Sequence Number#4
-5 - Bank Sequence Number#5
-2 - Bank Sequence Number#2
-3 - Bank Sequence Number#3
-4 - Bank Sequence Number#4
-5 - Bank Sequence Number#5
+|                     |                                            |   2 - Bank Sequence Number#2     |   2 - Bank Sequence Number#2        |    Available     | Required     | Allowed |    NA |  
+|                     |                                            |   3 - Bank Sequence Number#3     |   3 - Bank Sequence Number#3        |    Available     | Required     | Allowed |    NA |  
+|                     |                                            |   4 - Bank Sequence Number#4     |   4 - Bank Sequence Number#4        |    Available     | Required     | Allowed |    NA |  
+|                     |                                            |   5 - Bank Sequence Number#5     |   5 - Bank Sequence Number#5        |    Available     | Required     | Allowed |    NA |  
 | interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Required     | Allowed |    NA |    
 | interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    DEPOSITS   |   Deposits        |    Available     | Required     | Allowed |    NA |    
 | interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Required     | Allowed |    NA |    
