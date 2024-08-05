@@ -2238,15 +2238,11 @@ titles: UMM, North, GMA
 |                             |                                                                         |    ABA_DDA_2   |   Aba Dda 2        |    Available     | Required     | Allowed |    NA |    
 |                             |                                                                         |    ABA_DDA_1   |   Aba Dda 1        |    Available     | Required     | Allowed |    NA |    
 |                             |                                                                         |    ABA_DDA_4   |   Aba Dda 4        |    Available     | Required     | Allowed |    NA |    
-| depositAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1
-2 - Bank Sequence Number#2
-3 - Bank Sequence Number#3
-4 - Bank Sequence Number#4
-5 - Bank Sequence Number#5   |   1 - Bank Sequence Number#1
-|                              |                              |    2 - Bank Sequence Number#2
-|                              |                              |    3 - Bank Sequence Number#3
-|                              |                              |    4 - Bank Sequence Number#4
-|                              |                              |    5 - Bank Sequence Number#5        |    Available     | Required     | Allowed |    NA |    
+| depositAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Required     | Allowed |    NA |    
+|                             |                                      |    2 - Bank Sequence Number#2  |    2 - Bank Sequence Number#2        |    Available     | Required     | Allowed |    NA |    
+|                             |                                      |    3 - Bank Sequence Number#3  |    3 - Bank Sequence Number#3        |    Available     | Required     | Allowed |    NA |    
+|                             |                                      |    4 - Bank Sequence Number#4  |    4 - Bank Sequence Number#4        |    Available     | Required     | Allowed |    NA |    
+|                             |                                      |    5 - Bank Sequence Number#5   |    5 - Bank Sequence Number#5        |    Available     | Required     | Allowed |    NA |    
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Required     | Allowed |    NA |    
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    REVERSALS   |   Reversals        |    Available     | Required     | Allowed |    NA |    
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Required     | Allowed |    NA |    
