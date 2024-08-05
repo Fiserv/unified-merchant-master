@@ -1977,11 +1977,11 @@ titles: UMM, North, GMA
 | financeEntity| Finance Entity        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | financeParent| Finance Parent        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | financePortfolio| Finance Portfolio        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
-| fmgGroupCode| Fmg Group Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
-| fmgMarkerBank| Fmg Marker Bank        |    STRING - Alphanumeric   |   String - Alphanumeric        |    Available     | Required     | Allowed |    NA |    
-| futureUse1| Future Use 1        |       |           |    Available     | Required     | Allowed |    NA |    
-| futureUse2| Future Use 2        |       |           |    Available     | Required     | Allowed |    NA |    
-| globalClientDescription| Global Client Description        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| fmgGroupCode | Fmg Group Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| fmgMarkerBank | Fmg Marker Bank        |    STRING - Alphanumeric   |   String - Alphanumeric        |    Available     | Required     | Allowed |    NA |    
+| futureUse1 | Future Use 1        |    Available     | Required     | Allowed |    NA |    
+| futureUse2 | Future Use 2        |       |           |    Available     | Required     | Allowed |    NA |    
+| globalClientDescription | Global Client Description        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | globalClientId| Global Client Id        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
 | profitCenterDescription| Profit Center Description        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | profitCenterId| Profit Center Id        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
