@@ -1977,11 +1977,11 @@ titles: UMM, North, GMA
 | financeEntity| Finance Entity        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | financeParent| Finance Parent        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | financePortfolio| Finance Portfolio        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
-| fmgGroupCode| Fmg Group Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
-| fmgMarkerBank| Fmg Marker Bank        |    STRING - Alphanumeric   |   String - Alphanumeric        |    Available     | Required     | Allowed |    NA |    
-| futureUse1| Future Use 1        |       |           |    Available     | Required     | Allowed |    NA |    
-| futureUse2| Future Use 2        |       |           |    Available     | Required     | Allowed |    NA |    
-| globalClientDescription| Global Client Description        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| fmgGroupCode | Fmg Group Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| fmgMarkerBank | Fmg Marker Bank        |    STRING - Alphanumeric   |   String - Alphanumeric        |    Available     | Required     | Allowed |    NA |    
+| futureUse1 | Future Use 1        |    Available     | Required     | Allowed |    NA |    
+| futureUse2 | Future Use 2        |       |           |    Available     | Required     | Allowed |    NA |    
+| globalClientDescription | Global Client Description        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | globalClientId| Global Client Id        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
 | profitCenterDescription| Profit Center Description        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | profitCenterId| Profit Center Id        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
@@ -2200,6 +2200,41 @@ titles: UMM, North, GMA
 | status| Program Status        |    COMPLETED   |   Completed        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| status| Program Status        |    COMPLETED   |   Completed        |    Available     | Required     | Allowed |    NA |    
+|       |                       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+|       |                       |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+### fundingConfig
+---
+tags: [fundingConfig]
+---
+- Description: Free Processing
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | achSuspenseHoldIndicator| ACH suspense hold indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 | achSuspenseReleaseIndicator| ACH suspense release indicator        |    DIVERT_TO_CARS   |   Divert To Cars        |    Available     | Required     | Allowed |    NA |    
@@ -2238,15 +2273,11 @@ titles: UMM, North, GMA
 |                             |                                                                         |    ABA_DDA_2   |   Aba Dda 2        |    Available     | Required     | Allowed |    NA |    
 |                             |                                                                         |    ABA_DDA_1   |   Aba Dda 1        |    Available     | Required     | Allowed |    NA |    
 |                             |                                                                         |    ABA_DDA_4   |   Aba Dda 4        |    Available     | Required     | Allowed |    NA |    
-| depositAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1
-2 - Bank Sequence Number#2
-3 - Bank Sequence Number#3
-4 - Bank Sequence Number#4
-5 - Bank Sequence Number#5   |   1 - Bank Sequence Number#1
-|                              |                              |    2 - Bank Sequence Number#2
-|                              |                              |    3 - Bank Sequence Number#3
-|                              |                              |    4 - Bank Sequence Number#4
-|                              |                              |    5 - Bank Sequence Number#5        |    Available     | Required     | Allowed |    NA |    
+| depositAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Required     | Allowed |    NA |    
+|                                     |                              |    2 - Bank Sequence Number#2   |    2 - Bank Sequence Number#2        |    Available     | Required     | Allowed |    NA |  
+|                                     |                              |    3 - Bank Sequence Number#3   |    3 - Bank Sequence Number#3        |    Available     | Required     | Allowed |    NA |    
+|                                     |                              |    4 - Bank Sequence Number#4   |    4 - Bank Sequence Number#4        |    Available     | Required     | Allowed |    NA |    
+|                                     |                              |    5 - Bank Sequence Number#5   |    5 - Bank Sequence Number#5        |    Available     | Required     | Allowed |    NA |    
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Required     | Allowed |    NA |    
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    REVERSALS   |   Reversals        |    Available     | Required     | Allowed |    NA |    
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Required     | Allowed |    NA |    
@@ -2264,7 +2295,7 @@ titles: UMM, North, GMA
 | depositAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_ROLLUP   |   Net Rollup        |    Available     | Required     | Allowed |    NA |    
 | depositAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Required     | Allowed |    NA |    
 | depositAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    VIA_CATEGORY   |   Via Category        |    Available     | Required     | Allowed |    NA |    
-| depositsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1
+| depositsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Required     | Allowed |    NA |   
 |                           |                              |    2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Required     | Allowed |    NA |    
 |                           |                              |    3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Required     | Allowed |    NA |    
 |                           |                              |    4 - Bank Sequence Number#4   |   4 - Bank Sequence Number#4        |    Available     | Required     | Allowed |    NA |    
@@ -2562,60 +2593,52 @@ titles: UMM, North, GMA
 |                     |                                            |   Funding Run1        |    Available     | Required     | Allowed |    NA |    
 |                     |                                            |   Funding Run2        |    Available     | Required     | Allowed |    NA |    
 |                     |                                            |   Funding Run3        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1
-2 - Bank Sequence Number#2
-3 - Bank Sequence Number#3
-4 - Bank Sequence Number#4
-5 - Bank Sequence Number#5
-2 - Bank Sequence Number#2
-3 - Bank Sequence Number#3
-4 - Bank Sequence Number#4
-5 - Bank Sequence Number#5
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    DEPOSITS   |   Deposits        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    DISCOUNTS   |   Discounts        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    FEES   |   Fees        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    CHARGEBACKS   |   Chargebacks        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    REVERSALS   |   Reversals        |    Available     | Required     | Allowed |    NA |    
+| interchangeAssessmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Required     | Allowed |    NA |   
+|                                         |                              |    2 - Bank Sequence Number#2    |    2 - Bank Sequence Number#2        |    Available     | Required     | Allowed |    NA |   
+|                                         |                              |    3 - Bank Sequence Number#3    |    3 - Bank Sequence Number#3        |    Available     | Required     | Allowed |    NA |   
+|                                         |                              |    4 - Bank Sequence Number#4    |    4 - Bank Sequence Number#4        |    Available     | Required     | Allowed |    NA |   
+|                                         |                              |    5 - Bank Sequence Number#5    |    5 - Bank Sequence Number#5        |    Available     | Required     | Allowed |    NA |  
+|                                           |                       |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEPOSITS   |   Deposits        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DISCOUNTS   |   Discounts        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    FEES   |   Fees        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CHARGEBACKS   |   Chargebacks        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    REVERSALS   |   Reversals        |    Available     | Required     | Allowed |    NA |    
 | interchangeAssessmentsFundingDivertCode| Funding Divert Code        |    CARS   |   Cars        |    Available     | Required     | Allowed |    NA |    
 | interchangeAssessmentsFundingDivertCode| Funding Divert Code        |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_ROLLUP   |   Net Rollup        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    DEPOSIT_BATCH   |   Deposit Batch        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    VIA_CATEGORY   |   Via Category        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    EACH_TRANSFER   |   Each Transfer        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1
-2 - Bank Sequence Number#2
-3 - Bank Sequence Number#3
-4 - Bank Sequence Number#4
-5 - Bank Sequence Number#5   |   1 - Bank Sequence Number#1
-2 - Bank Sequence Number#2
-3 - Bank Sequence Number#3
-4 - Bank Sequence Number#4
-5 - Bank Sequence Number#5        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    REVERSALS   |   Reversals        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    FEES   |   Fees        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    DEPOSITS   |   Deposits        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    DISCOUNTS   |   Discounts        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    CHARGEBACKS   |   Chargebacks        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingDivertCode| Funding Divert Code        |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingDivertCode| Funding Divert Code        |    CARS   |   Cars        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    VIA_CATEGORY   |   Via Category        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    EACH_TRANSFER   |   Each Transfer        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    DEPOSIT_BATCH   |   Deposit Batch        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_ROLLUP   |   Net Rollup        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Required     | Allowed |    NA |    
-| ptsLimitsIndicator| PTS Limits Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| ptsLimitsIndicator| PTS Limits Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NET_ROLLUP   |   Net Rollup        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEPOSIT_BATCH   |   Deposit Batch        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    VIA_CATEGORY   |   Via Category        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    EACH_TRANSFER   |   Each Transfer        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Required     | Allowed |    NA |    
+| nonBankcardAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1
+|                                           |                       |  2 - Bank Sequence Number#2|   2 - Bank Sequence Number#2        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |  3 - Bank Sequence Number#3|   3 - Bank Sequence Number#3        |    Available     | Required     | Allowed |    NA |  
+|                                           |                       |  4 - Bank Sequence Number#4|   4 - Bank Sequence Number#4        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |  5 - Bank Sequence Number#5|   5 - Bank Sequence Number#5        |    Available     | Required     | Allowed |    NA |    
+| nonBankcardAdjustmentsFundingCategoryCode | Funding Category Code |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    REVERSALS   |   Reversals        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    FEES   |   Fees        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEPOSITS   |   Deposits        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DISCOUNTS   |   Discounts        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CHARGEBACKS   |   Chargebacks        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CARS   |   Cars        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    VIA_CATEGORY   |   Via Category        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    EACH_TRANSFER   |   Each Transfer        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEPOSIT_BATCH   |   Deposit Batch        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NET_ROLLUP   |   Net Rollup        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Required     | Allowed |    NA |    
+| ptsLimitsIndicator                        | PTS Limits Indicator  |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 | reversalsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Required     | Allowed |    NA |    
 |                            |                              |    2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Required     | Allowed |    NA |    
 |                            |                              |    3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Required     | Allowed |    NA |
@@ -2655,9 +2678,6 @@ titles: UMM, North, GMA
 
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-| status| Program Status        |    COMPLETED   |   Completed        |    Available     | Required     | Allowed |    NA |    
-|       |                       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
-|       |                       |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 | achSuspenseHoldIndicator| ACH suspense hold indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 | achSuspenseReleaseIndicator| ACH suspense release indicator        |    DIVERT_TO_CARS   |   Divert To Cars        |    Available     | Required     | Allowed |    NA |    
@@ -2696,15 +2716,11 @@ titles: UMM, North, GMA
 |                             |                                                                         |    ABA_DDA_2   |   Aba Dda 2        |    Available     | Required     | Allowed |    NA |    
 |                             |                                                                         |    ABA_DDA_1   |   Aba Dda 1        |    Available     | Required     | Allowed |    NA |    
 |                             |                                                                         |    ABA_DDA_4   |   Aba Dda 4        |    Available     | Required     | Allowed |    NA |    
-| depositAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1
-2 - Bank Sequence Number#2
-3 - Bank Sequence Number#3
-4 - Bank Sequence Number#4
-5 - Bank Sequence Number#5   |   1 - Bank Sequence Number#1
-|                              |                              |    2 - Bank Sequence Number#2
-|                              |                              |    3 - Bank Sequence Number#3
-|                              |                              |    4 - Bank Sequence Number#4
-|                              |                              |    5 - Bank Sequence Number#5        |    Available     | Required     | Allowed |    NA |    
+| depositAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Required     | Allowed |    NA |    
+|                                     |                              |    2 - Bank Sequence Number#2   |    2 - Bank Sequence Number#2        |    Available     | Required     | Allowed |    NA |  
+|                                     |                              |    3 - Bank Sequence Number#3   |    3 - Bank Sequence Number#3        |    Available     | Required     | Allowed |    NA |    
+|                                     |                              |    4 - Bank Sequence Number#4   |    4 - Bank Sequence Number#4        |    Available     | Required     | Allowed |    NA |    
+|                                     |                              |    5 - Bank Sequence Number#5   |    5 - Bank Sequence Number#5        |    Available     | Required     | Allowed |    NA |    
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Required     | Allowed |    NA |    
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    REVERSALS   |   Reversals        |    Available     | Required     | Allowed |    NA |    
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Required     | Allowed |    NA |    
@@ -2722,7 +2738,7 @@ titles: UMM, North, GMA
 | depositAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_ROLLUP   |   Net Rollup        |    Available     | Required     | Allowed |    NA |    
 | depositAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Required     | Allowed |    NA |    
 | depositAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    VIA_CATEGORY   |   Via Category        |    Available     | Required     | Allowed |    NA |    
-| depositsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1
+| depositsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Required     | Allowed |    NA |   
 |                           |                              |    2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Required     | Allowed |    NA |    
 |                           |                              |    3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Required     | Allowed |    NA |    
 |                           |                              |    4 - Bank Sequence Number#4   |   4 - Bank Sequence Number#4        |    Available     | Required     | Allowed |    NA |    
@@ -3020,60 +3036,52 @@ titles: UMM, North, GMA
 |                     |                                            |   Funding Run1        |    Available     | Required     | Allowed |    NA |    
 |                     |                                            |   Funding Run2        |    Available     | Required     | Allowed |    NA |    
 |                     |                                            |   Funding Run3        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1
-2 - Bank Sequence Number#2
-3 - Bank Sequence Number#3
-4 - Bank Sequence Number#4
-5 - Bank Sequence Number#5
-2 - Bank Sequence Number#2
-3 - Bank Sequence Number#3
-4 - Bank Sequence Number#4
-5 - Bank Sequence Number#5
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    DEPOSITS   |   Deposits        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    DISCOUNTS   |   Discounts        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    FEES   |   Fees        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    CHARGEBACKS   |   Chargebacks        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingCategoryCode| Funding Category Code        |    REVERSALS   |   Reversals        |    Available     | Required     | Allowed |    NA |    
+| interchangeAssessmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Required     | Allowed |    NA |   
+|                                         |                              |    2 - Bank Sequence Number#2    |    2 - Bank Sequence Number#2        |    Available     | Required     | Allowed |    NA |   
+|                                         |                              |    3 - Bank Sequence Number#3    |    3 - Bank Sequence Number#3        |    Available     | Required     | Allowed |    NA |   
+|                                         |                              |    4 - Bank Sequence Number#4    |    4 - Bank Sequence Number#4        |    Available     | Required     | Allowed |    NA |   
+|                                         |                              |    5 - Bank Sequence Number#5    |    5 - Bank Sequence Number#5        |    Available     | Required     | Allowed |    NA |  
+|                                           |                       |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEPOSITS   |   Deposits        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DISCOUNTS   |   Discounts        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    FEES   |   Fees        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CHARGEBACKS   |   Chargebacks        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    REVERSALS   |   Reversals        |    Available     | Required     | Allowed |    NA |    
 | interchangeAssessmentsFundingDivertCode| Funding Divert Code        |    CARS   |   Cars        |    Available     | Required     | Allowed |    NA |    
 | interchangeAssessmentsFundingDivertCode| Funding Divert Code        |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_ROLLUP   |   Net Rollup        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    DEPOSIT_BATCH   |   Deposit Batch        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    VIA_CATEGORY   |   Via Category        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    EACH_TRANSFER   |   Each Transfer        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Required     | Allowed |    NA |    
-| interchangeAssessmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1
-2 - Bank Sequence Number#2
-3 - Bank Sequence Number#3
-4 - Bank Sequence Number#4
-5 - Bank Sequence Number#5   |   1 - Bank Sequence Number#1
-2 - Bank Sequence Number#2
-3 - Bank Sequence Number#3
-4 - Bank Sequence Number#4
-5 - Bank Sequence Number#5        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    REVERSALS   |   Reversals        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    FEES   |   Fees        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    DEPOSITS   |   Deposits        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    DISCOUNTS   |   Discounts        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingCategoryCode| Funding Category Code        |    CHARGEBACKS   |   Chargebacks        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingDivertCode| Funding Divert Code        |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingDivertCode| Funding Divert Code        |    CARS   |   Cars        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    VIA_CATEGORY   |   Via Category        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    EACH_TRANSFER   |   Each Transfer        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    DEPOSIT_BATCH   |   Deposit Batch        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_ROLLUP   |   Net Rollup        |    Available     | Required     | Allowed |    NA |    
-| nonBankcardAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Required     | Allowed |    NA |    
-| ptsLimitsIndicator| PTS Limits Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| ptsLimitsIndicator| PTS Limits Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NET_ROLLUP   |   Net Rollup        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEPOSIT_BATCH   |   Deposit Batch        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    VIA_CATEGORY   |   Via Category        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    EACH_TRANSFER   |   Each Transfer        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Required     | Allowed |    NA |    
+| nonBankcardAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1
+|                                           |                       |  2 - Bank Sequence Number#2|   2 - Bank Sequence Number#2        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |  3 - Bank Sequence Number#3|   3 - Bank Sequence Number#3        |    Available     | Required     | Allowed |    NA |  
+|                                           |                       |  4 - Bank Sequence Number#4|   4 - Bank Sequence Number#4        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |  5 - Bank Sequence Number#5|   5 - Bank Sequence Number#5        |    Available     | Required     | Allowed |    NA |    
+| nonBankcardAdjustmentsFundingCategoryCode | Funding Category Code |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    REVERSALS   |   Reversals        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    FEES   |   Fees        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEPOSITS   |   Deposits        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DISCOUNTS   |   Discounts        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CHARGEBACKS   |   Chargebacks        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CARS   |   Cars        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    VIA_CATEGORY   |   Via Category        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    EACH_TRANSFER   |   Each Transfer        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEPOSIT_BATCH   |   Deposit Batch        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NET_ROLLUP   |   Net Rollup        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Required     | Allowed |    NA |    
+| ptsLimitsIndicator                        | PTS Limits Indicator  |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 | reversalsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Required     | Allowed |    NA |    
 |                            |                              |    2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Required     | Allowed |    NA |    
 |                            |                              |    3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Required     | Allowed |    NA |
@@ -3106,6 +3114,476 @@ titles: UMM, North, GMA
 | temporaryDailyLimitAmount| Temporary Daily Limit Amount        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
 | temporaryFromDate| Temporary From Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
 | temporaryToDate| Temporary To Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+### globalCurrencySolutions
+---
+tags: [globalCurrencySolutions]
+---
+- Description: Global Currency Solutions
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringSubType1| Offering Sub Type        |    NORTH_RATES_PLUS_DCCLUS_DCC   |   North Rates Plus Dcclus Dcc        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    EXCEPTION_RATE_MCPE_MCP   |   Exception Rate Mcpe Mcp        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    VI/MC_RATE_MCPP   |   Vi/Mc Rate Mcpp        |    Available     | Required     | Allowed |    NA |    
+| offeringSubType2| Globally Used For All North Backend Sales Channels        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| offeringType| Offering Type        |    PRISMATIC   |   Prismatic        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringSubType1| Offering Sub Type        |    NORTH_RATES_PLUS_DCCLUS_DCC   |   North Rates Plus Dcclus Dcc        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    EXCEPTION_RATE_MCPE_MCP   |   Exception Rate Mcpe Mcp        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    VI/MC_RATE_MCPP   |   Vi/Mc Rate Mcpp        |    Available     | Required     | Allowed |    NA |    
+| offeringSubType2| Globally Used For All North Backend Sales Channels        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| offeringType| Offering Type        |    PRISMATIC   |   Prismatic        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+    
+<!-- type: tab-end -->
+
+### highRiskMonitoring
+---
+tags: [highRiskMonitoring]
+---
+- Description: High Risk Monitoring
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| contractDate| Contract Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| offeringType| Offering Type        |    MSB   |   Msb        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CNP_PHARMACY   |   Cnp Pharmacy        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CNP_TOBACCO_VAPE   |   Cnp Tobacco Vape        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    SOCIAL_GAMING   |   Social Gaming        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ONLINE_FIREARMS   |   Online Firearms        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    SKILLED_GAMES   |   Skilled Games        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    BINGO   |   Bingo        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NFT   |   Nft        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CRYPTOCURRENCY   |   Cryptocurrency        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    HIGH_RISK   |   High Risk        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NUTRACEUTICALS   |   Nutraceuticals        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    LOTTERY   |   Lottery        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    GAMBLING   |   Gambling        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CBD_CANNABIS   |   Cbd Cannabis        |    Available     | Required     | Allowed |    NA |    
+| status| Program Status        |    NOT_REQUIRED   |   Not Required        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEREGISTERED   |   Deregistered        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    COMPLETE_REGISTER   |   Complete Register        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    PENDING_REGISTER   |   Pending Register        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    OTHER   |   Other        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| contractDate| Contract Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| offeringType| Offering Type        |    MSB   |   Msb        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CNP_PHARMACY   |   Cnp Pharmacy        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CNP_TOBACCO_VAPE   |   Cnp Tobacco Vape        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    SOCIAL_GAMING   |   Social Gaming        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ONLINE_FIREARMS   |   Online Firearms        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    SKILLED_GAMES   |   Skilled Games        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    BINGO   |   Bingo        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NFT   |   Nft        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CRYPTOCURRENCY   |   Cryptocurrency        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    HIGH_RISK   |   High Risk        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NUTRACEUTICALS   |   Nutraceuticals        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    LOTTERY   |   Lottery        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    GAMBLING   |   Gambling        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CBD_CANNABIS   |   Cbd Cannabis        |    Available     | Required     | Allowed |    NA |    
+| status| Program Status        |    NOT_REQUIRED   |   Not Required        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEREGISTERED   |   Deregistered        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    COMPLETE_REGISTER   |   Complete Register        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    PENDING_REGISTER   |   Pending Register        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    OTHER   |   Other        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### inHouseAuthConfig
+---
+tags: [inHouseAuthConfig]
+---
+- Description: InHouse Auth Configuration
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| inHouseAuthCaptureCode| InHouse Authorization Capture Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| inHouseBankCode| InHouse Bank Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| inHouseNonMerchantCode| InHouse NonMerchant Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+ 
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| inHouseAuthCaptureCode| InHouse Authorization Capture Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| inHouseBankCode| InHouse Bank Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| inHouseNonMerchantCode| InHouse NonMerchant Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+ 
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### indemnification
+---
+tags: [indemnification]
+---
+- Description: Indemnification
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| indemnificationDate| Indemnification Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| indemnificationIndicator| Indemnification Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| indemnificationPercent| Indemnification Risk Ratio Percentage        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| riskOwnerCode| Risk Owner Code        |    FISERV   |   Fiserv        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    BANK   |   Bank        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    AGENT   |   Agent        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ALLIANCE   |   Alliance        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| indemnificationDate| Indemnification Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| indemnificationIndicator| Indemnification Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| indemnificationPercent| Indemnification Risk Ratio Percentage        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| riskOwnerCode| Risk Owner Code        |    FISERV   |   Fiserv        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    BANK   |   Bank        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    AGENT   |   Agent        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ALLIANCE   |   Alliance        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### independentSoftwareVendor
+---
+tags: [independentSoftwareVendor]
+---
+- Description: Independent Software Vendor (Isv) Global Indicator
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    BYPASS_CLOVER_ISV   |   Bypass Clover Isv        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    BYPASS_CLOVER_ISV   |   Bypass Clover Isv        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+### internalItUse
+---
+tags: [internalItUse]
+---
+- Description: Internal It Use - Trigger Feeds And Save Data
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| discoverTrigger| Registration Merchant Feed To Discover        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| spomiTrigger| Sponsored Merchant Feed To Amex        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    REPROCESS   |   Reprocess        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| discoverTrigger| Registration Merchant Feed To Discover        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| spomiTrigger| Sponsored Merchant Feed To Amex        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    REPROCESS   |   Reprocess        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### iolCanadianVatRegNumber
+---
+tags: [iolCanadianVatRegNumber]
+---
+- Description: Iol Canadian Vat Reg Number
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| canadianVatRegNumber| Canadian Vat Registration Number        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| canadianVatRegNumber| Canadian Vat Registration Number        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+
+### irsSupplementalInformation
+---
+tags: [irsSupplementalInformation]
+---
+- Description: Irs Supplemental Information
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| econsentDate| Econsent Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| econsentIndicator| Econsent Indicator        |    OWNERSHIP_CHANGE   |   Ownership Change        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ECONSENT_GIVEN   |   Econsent Given        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ECONSENT_REVOKED   |   Econsent Revoked        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    PENDING_STATUS   |   Pending Status        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    EMAIL_DELIVERY_FAILED   |   Email Delivery Failed        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    STATUS_CHANGE   |   Status Change        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ONLY_EMAIL_ACTIVATED   |   Only Email Activated        |    Available     | Required     | Allowed |    NA |    
+| primaryEmailIndicator| Primary Email Indicator        |    USE_ALTERNATE_EMAIL   |   Use Alternate Email        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    USE_PRIMARY_EMAIL   |   Use Primary Email        |    Available     | Required     | Allowed |    NA |    
+| requestGuid| Request Guid        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| userProvidedEconsentEmail| User Provided Econsent Email        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| econsentDate| Econsent Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| econsentIndicator| Econsent Indicator        |    OWNERSHIP_CHANGE   |   Ownership Change        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ECONSENT_GIVEN   |   Econsent Given        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ECONSENT_REVOKED   |   Econsent Revoked        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    PENDING_STATUS   |   Pending Status        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    EMAIL_DELIVERY_FAILED   |   Email Delivery Failed        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    STATUS_CHANGE   |   Status Change        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ONLY_EMAIL_ACTIVATED   |   Only Email Activated        |    Available     | Required     | Allowed |    NA |    
+| primaryEmailIndicator| Primary Email Indicator        |    USE_ALTERNATE_EMAIL   |   Use Alternate Email        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    USE_PRIMARY_EMAIL   |   Use Primary Email        |    Available     | Required     | Allowed |    NA |    
+| requestGuid| Request Guid        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| userProvidedEconsentEmail| User Provided Econsent Email        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### isoServices
+---
+tags: [isoServices
+---
+- Description: Iso Services
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| isoIdAmex| Iso Id Amex        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| isoIdDscv| Iso Id Discover        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| isoIdMc| Iso Id Mc        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| isoIdVi| Iso Id Vi        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| serviceProvider| Service Provider        |    APERIA   |   Aperia        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    WELLS   |   Wells        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    MARKETPLACE   |   Marketplace        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    FD_DIRECT   |   Fd Direct        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| isoIdAmex| Iso Id Amex        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| isoIdDscv| Iso Id Discover        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| isoIdMc| Iso Id Mc        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| isoIdVi| Iso Id Vi        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| serviceProvider| Service Provider        |    APERIA   |   Aperia        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    WELLS   |   Wells        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    MARKETPLACE   |   Marketplace        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    FD_DIRECT   |   Fd Direct        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### keyReferenceNumber
+---
+tags: [keyReferenceNumber]
+---
+- Description: Key Reference Number
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| keyReferenceNumber| Credit Only Key Reference Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| tbd| Tbd        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| keyReferenceNumber| Credit Only Key Reference Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| tbd| Tbd        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab-->
 
