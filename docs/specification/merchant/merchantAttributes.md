@@ -3122,3 +3122,474 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |          -                   |                 -                                 |               |                                                           |          |          |          |          |    
 <!-- type: tab-end -->
+
+### globalCurrencySolutions
+---
+tags: [globalCurrencySolutions]
+---
+- Description: Global Currency Solutions
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringSubType1| Offering Sub Type        |    NORTH_RATES_PLUS_DCCLUS_DCC   |   North Rates Plus Dcclus Dcc        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    EXCEPTION_RATE_MCPE_MCP   |   Exception Rate Mcpe Mcp        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    VI/MC_RATE_MCPP   |   Vi/Mc Rate Mcpp        |    Available     | Required     | Allowed |    NA |    
+| offeringSubType2| Globally Used For All North Backend Sales Channels        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| offeringType| Offering Type        |    PRISMATIC   |   Prismatic        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringSubType1| Offering Sub Type        |    NORTH_RATES_PLUS_DCCLUS_DCC   |   North Rates Plus Dcclus Dcc        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    EXCEPTION_RATE_MCPE_MCP   |   Exception Rate Mcpe Mcp        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    VI/MC_RATE_MCPP   |   Vi/Mc Rate Mcpp        |    Available     | Required     | Allowed |    NA |    
+| offeringSubType2| Globally Used For All North Backend Sales Channels        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| offeringType| Offering Type        |    PRISMATIC   |   Prismatic        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+    
+<!-- type: tab-end -->
+
+### highRiskMonitoring
+---
+tags: [highRiskMonitoring]
+---
+- Description: High Risk Monitoring
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| contractDate| Contract Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| offeringType| Offering Type        |    MSB   |   Msb        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CNP_PHARMACY   |   Cnp Pharmacy        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CNP_TOBACCO_VAPE   |   Cnp Tobacco Vape        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    SOCIAL_GAMING   |   Social Gaming        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ONLINE_FIREARMS   |   Online Firearms        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    SKILLED_GAMES   |   Skilled Games        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    BINGO   |   Bingo        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NFT   |   Nft        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CRYPTOCURRENCY   |   Cryptocurrency        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    HIGH_RISK   |   High Risk        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NUTRACEUTICALS   |   Nutraceuticals        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    LOTTERY   |   Lottery        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    GAMBLING   |   Gambling        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CBD_CANNABIS   |   Cbd Cannabis        |    Available     | Required     | Allowed |    NA |    
+| status| Program Status        |    NOT_REQUIRED   |   Not Required        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEREGISTERED   |   Deregistered        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    COMPLETE_REGISTER   |   Complete Register        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    PENDING_REGISTER   |   Pending Register        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    OTHER   |   Other        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| contractDate| Contract Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| offeringType| Offering Type        |    MSB   |   Msb        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CNP_PHARMACY   |   Cnp Pharmacy        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CNP_TOBACCO_VAPE   |   Cnp Tobacco Vape        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    SOCIAL_GAMING   |   Social Gaming        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ONLINE_FIREARMS   |   Online Firearms        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    SKILLED_GAMES   |   Skilled Games        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    BINGO   |   Bingo        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NFT   |   Nft        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CRYPTOCURRENCY   |   Cryptocurrency        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    HIGH_RISK   |   High Risk        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NUTRACEUTICALS   |   Nutraceuticals        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    LOTTERY   |   Lottery        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    GAMBLING   |   Gambling        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    CBD_CANNABIS   |   Cbd Cannabis        |    Available     | Required     | Allowed |    NA |    
+| status| Program Status        |    NOT_REQUIRED   |   Not Required        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    DEREGISTERED   |   Deregistered        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    COMPLETE_REGISTER   |   Complete Register        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    PENDING_REGISTER   |   Pending Register        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    OTHER   |   Other        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### inHouseAuthConfig
+---
+tags: [inHouseAuthConfig]
+---
+- Description: InHouse Auth Configuration
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| inHouseAuthCaptureCode| InHouse Authorization Capture Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| inHouseBankCode| InHouse Bank Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| inHouseNonMerchantCode| InHouse NonMerchant Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+ 
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| inHouseAuthCaptureCode| InHouse Authorization Capture Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| inHouseBankCode| InHouse Bank Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| inHouseNonMerchantCode| InHouse NonMerchant Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+ 
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### indemnification
+---
+tags: [indemnification]
+---
+- Description: Indemnification
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| indemnificationDate| Indemnification Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| indemnificationIndicator| Indemnification Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| indemnificationPercent| Indemnification Risk Ratio Percentage        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| riskOwnerCode| Risk Owner Code        |    FISERV   |   Fiserv        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    BANK   |   Bank        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    AGENT   |   Agent        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ALLIANCE   |   Alliance        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| indemnificationDate| Indemnification Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| indemnificationIndicator| Indemnification Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| indemnificationPercent| Indemnification Risk Ratio Percentage        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| riskOwnerCode| Risk Owner Code        |    FISERV   |   Fiserv        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    BANK   |   Bank        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    AGENT   |   Agent        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ALLIANCE   |   Alliance        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### independentSoftwareVendor
+---
+tags: [independentSoftwareVendor]
+---
+- Description: Independent Software Vendor (Isv) Global Indicator
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    BYPASS_CLOVER_ISV   |   Bypass Clover Isv        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    BYPASS_CLOVER_ISV   |   Bypass Clover Isv        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+### internalItUse
+---
+tags: [internalItUse]
+---
+- Description: Internal It Use - Trigger Feeds And Save Data
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| discoverTrigger| Registration Merchant Feed To Discover        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| spomiTrigger| Sponsored Merchant Feed To Amex        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    REPROCESS   |   Reprocess        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| discoverTrigger| Registration Merchant Feed To Discover        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| spomiTrigger| Sponsored Merchant Feed To Amex        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    REPROCESS   |   Reprocess        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### iolCanadianVatRegNumber
+---
+tags: [iolCanadianVatRegNumber]
+---
+- Description: Iol Canadian Vat Reg Number
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| canadianVatRegNumber| Canadian Vat Registration Number        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| canadianVatRegNumber| Canadian Vat Registration Number        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+
+### irsSupplementalInformation
+---
+tags: [irsSupplementalInformation]
+---
+- Description: Irs Supplemental Information
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| econsentDate| Econsent Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| econsentIndicator| Econsent Indicator        |    OWNERSHIP_CHANGE   |   Ownership Change        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ECONSENT_GIVEN   |   Econsent Given        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ECONSENT_REVOKED   |   Econsent Revoked        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    PENDING_STATUS   |   Pending Status        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    EMAIL_DELIVERY_FAILED   |   Email Delivery Failed        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    STATUS_CHANGE   |   Status Change        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ONLY_EMAIL_ACTIVATED   |   Only Email Activated        |    Available     | Required     | Allowed |    NA |    
+| primaryEmailIndicator| Primary Email Indicator        |    USE_ALTERNATE_EMAIL   |   Use Alternate Email        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    USE_PRIMARY_EMAIL   |   Use Primary Email        |    Available     | Required     | Allowed |    NA |    
+| requestGuid| Request Guid        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| userProvidedEconsentEmail| User Provided Econsent Email        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| econsentDate| Econsent Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| econsentIndicator| Econsent Indicator        |    OWNERSHIP_CHANGE   |   Ownership Change        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ECONSENT_GIVEN   |   Econsent Given        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ECONSENT_REVOKED   |   Econsent Revoked        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    PENDING_STATUS   |   Pending Status        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    EMAIL_DELIVERY_FAILED   |   Email Delivery Failed        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    STATUS_CHANGE   |   Status Change        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    ONLY_EMAIL_ACTIVATED   |   Only Email Activated        |    Available     | Required     | Allowed |    NA |    
+| primaryEmailIndicator| Primary Email Indicator        |    USE_ALTERNATE_EMAIL   |   Use Alternate Email        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    USE_PRIMARY_EMAIL   |   Use Primary Email        |    Available     | Required     | Allowed |    NA |    
+| requestGuid| Request Guid        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| userProvidedEconsentEmail| User Provided Econsent Email        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### isoServices
+---
+tags: [isoServices
+---
+- Description: Iso Services
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| isoIdAmex| Iso Id Amex        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| isoIdDscv| Iso Id Discover        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| isoIdMc| Iso Id Mc        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| isoIdVi| Iso Id Vi        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| serviceProvider| Service Provider        |    APERIA   |   Aperia        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    WELLS   |   Wells        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    MARKETPLACE   |   Marketplace        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    FD_DIRECT   |   Fd Direct        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| isoIdAmex| Iso Id Amex        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| isoIdDscv| Iso Id Discover        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| isoIdMc| Iso Id Mc        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| isoIdVi| Iso Id Vi        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| serviceProvider| Service Provider        |    APERIA   |   Aperia        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    WELLS   |   Wells        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    MARKETPLACE   |   Marketplace        |    Available     | Required     | Allowed |    NA |    
+|                                           |                       |    FD_DIRECT   |   Fd Direct        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### keyReferenceNumber
+---
+tags: [keyReferenceNumber]
+---
+- Description: Key Reference Number
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| keyReferenceNumber| Credit Only Key Reference Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| tbd| Tbd        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| keyReferenceNumber| Credit Only Key Reference Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| tbd| Tbd        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
