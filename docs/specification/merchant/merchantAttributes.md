@@ -4659,7 +4659,7 @@ titles: UMM, North, GMA
 ---
 tags: [miscellaneous]
 ---
-- Description: Pricing Method Disclosures
+- Description: miscellaneous
 - List of Attributes:
 
 <!-- type: tab 
