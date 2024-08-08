@@ -1,4 +1,4 @@
-# Merchant Attributes
+### Merchant Attributes
 * **Description**: List of fields grouped under logical **Domains** and stored as key-value(s) pair as attributes. 
   - Example of a **Domain**: [chargebackConfig](#-chargebackconfig) is a **domain** that groups all fields called as **Attributes** those configures chargeback related processing for a merchant. Example of some attributes are:
     - Chargeback Address code indicating where chargeback related information sent 
@@ -1184,91 +1184,91 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | clientRegionIndex| Client Region Index for Omnipay        |    BIN_OVERRIDE_123018   |   Bin Override 123018        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    CANADA   |   Canada        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    UNITEDKINGDOM   |   Unitedkingdom        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123008   |   Bin Override 123008        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    SINGAPORE   |   Singapore        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    AUSTRALIA   |   Australia        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123013   |   Bin Override 123013        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123019   |   Bin Override 123019        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123009   |   Bin Override 123009        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123007   |   Bin Override 123007        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123014   |   Bin Override 123014        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    HONG_KONG   |   Hong Kong        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123016   |   Bin Override 123016        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123005   |   Bin Override 123005        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123015   |   Bin Override 123015        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BY_TRANSACTION   |   By Transaction        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123006   |   Bin Override 123006        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123012   |   Bin Override 123012        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BY_TRAN_REJECTS   |   By Tran Rejects        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BY_COUNTRY   |   By Country        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123011   |   Bin Override 123011        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123010   |   Bin Override 123010        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123017   |   Bin Override 123017        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123004   |   Bin Override 123004        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123002   |   Bin Override 123002        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123020   |   Bin Override 123020        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123001   |   Bin Override 123001        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    EUROPEAN_UNION   |   European Union        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    BIN_OVERRIDE_123003   |   Bin Override 123003        |    Available     | Required     | Allowed |    NA |    
-|                  |                                        |    JAPAN   |   Japan        |    Available     | Required     | Allowed |    NA |    
-| clientTariff     | This the merchant tariff assigned to the merchant        |       |           |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CANADA   |   Canada        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNITEDKINGDOM   |   Unitedkingdom        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123008   |   Bin Override 123008        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SINGAPORE   |   Singapore        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUSTRALIA   |   Australia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123013   |   Bin Override 123013        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123019   |   Bin Override 123019        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123009   |   Bin Override 123009        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123007   |   Bin Override 123007        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123014   |   Bin Override 123014        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HONG_KONG   |   Hong Kong        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123016   |   Bin Override 123016        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123005   |   Bin Override 123005        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123015   |   Bin Override 123015        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BY_TRANSACTION   |   By Transaction        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123006   |   Bin Override 123006        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123012   |   Bin Override 123012        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BY_TRAN_REJECTS   |   By Tran Rejects        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BY_COUNTRY   |   By Country        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123011   |   Bin Override 123011        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123010   |   Bin Override 123010        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123017   |   Bin Override 123017        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123004   |   Bin Override 123004        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123002   |   Bin Override 123002        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123020   |   Bin Override 123020        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123001   |   Bin Override 123001        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EUROPEAN_UNION   |   European Union        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BIN_OVERRIDE_123003   |   Bin Override 123003        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JAPAN   |   Japan        |    Available     | Required     | Allowed |    NA |    
+| clientTariff| This the merchant tariff assigned to the merchant        |       |           |    Available     | Required     | Allowed |    NA |    
 | postingMethod| The posting method assigned to the merchant        |    GRS_999_USD   |   Grs 999 Usd        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GMA_ZAR_999   |   Gma Zar 999        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    NA_HK_999   |   Na Hk 999        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    ALL_TO_HUF   |   All To Huf        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GRS_999_GBP   |   Grs 999 Gbp        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    REG5_EU_999   |   Reg5 Eu 999        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GMA_NOK_999   |   Gma Nok 999        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_USD_MSC   |   Pf Usd Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    REG1_SG_999   |   Reg1 Sg 999        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_CHF_MSC   |   Pf Chf Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_NZD_MSC   |   Pf Nzd Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GRS_999_EUR   |   Grs 999 Eur        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GRS_999_AUD   |   Grs 999 Aud        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GMA_SEK_999   |   Gma Sek 999        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GRS_999_SEK   |   Grs 999 Sek        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_SGD_MSC   |   Pf Sgd Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_GBP_MSC   |   Pf Gbp Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_SEK_MSC   |   Pf Sek Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GRS_999_JPY   |   Grs 999 Jpy        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GRS_999_CAD   |   Grs 999 Cad        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    REGULAR_2   |   Regular 2        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_EUR_MSC   |   Pf Eur Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GRS_999_NOK   |   Grs 999 Nok        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    NA_EU_999   |   Na Eu 999        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    REGULAR_6   |   Regular 6        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GRS_999_DKK   |   Grs 999 Dkk        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_HKD_MSC   |   Pf Hkd Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GRS_999_CHF   |   Grs 999 Chf        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GMA_CHF_999   |   Gma Chf 999        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    REGULAR_4   |   Regular 4        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_CAD_MSC   |   Pf Cad Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_NOK_MSC   |   Pf Nok Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    NA   |   Na        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GMA_DKK_999   |   Gma Dkk 999        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    ALL_TO_1EUR   |   All To 1Eur        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_JPY_MSC   |   Pf Jpy Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GRS_999_NZD   |   Grs 999 Nzd        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    ALL_TO_CZK   |   All To Czk        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    REGULAR_1   |   Regular 1        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    TARIFF_15   |   Tariff 15        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    ALL_TO_SGD   |   All To Sgd        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    REG6_SG_999   |   Reg6 Sg 999        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    REG3_EU_999   |   Reg3 Eu 999        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_ZAR_MSC   |   Pf Zar Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_DKK_MSC   |   Pf Dkk Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GRS_999_HKD   |   Grs 999 Hkd        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GRS_999_ZAR   |   Grs 999 Zar        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    TR15_JP_999   |   Tr15 Jp 999        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GMA_NZD_999   |   Gma Nzd 999        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    GRS_999_SGD   |   Grs 999 Sgd        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    REGULAR_3   |   Regular 3        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    PF_AUD_MSC   |   Pf Aud Msc        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    ALL_TO_GBP   |   All To Gbp        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    REGULAR_8   |   Regular 8        |    Available     | Required     | Allowed |    NA |    
-|              |                                                    |    ALL_TO_PLN   |   All To Pln        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GMA_ZAR_999   |   Gma Zar 999        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NA_HK_999   |   Na Hk 999        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALL_TO_HUF   |   All To Huf        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRS_999_GBP   |   Grs 999 Gbp        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REG5_EU_999   |   Reg5 Eu 999        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GMA_NOK_999   |   Gma Nok 999        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_USD_MSC   |   Pf Usd Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REG1_SG_999   |   Reg1 Sg 999        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_CHF_MSC   |   Pf Chf Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_NZD_MSC   |   Pf Nzd Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRS_999_EUR   |   Grs 999 Eur        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRS_999_AUD   |   Grs 999 Aud        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GMA_SEK_999   |   Gma Sek 999        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRS_999_SEK   |   Grs 999 Sek        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_SGD_MSC   |   Pf Sgd Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_GBP_MSC   |   Pf Gbp Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_SEK_MSC   |   Pf Sek Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRS_999_JPY   |   Grs 999 Jpy        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRS_999_CAD   |   Grs 999 Cad        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REGULAR_2   |   Regular 2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_EUR_MSC   |   Pf Eur Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRS_999_NOK   |   Grs 999 Nok        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NA_EU_999   |   Na Eu 999        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REGULAR_6   |   Regular 6        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRS_999_DKK   |   Grs 999 Dkk        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_HKD_MSC   |   Pf Hkd Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRS_999_CHF   |   Grs 999 Chf        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GMA_CHF_999   |   Gma Chf 999        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REGULAR_4   |   Regular 4        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_CAD_MSC   |   Pf Cad Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_NOK_MSC   |   Pf Nok Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NA   |   Na        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GMA_DKK_999   |   Gma Dkk 999        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALL_TO_1EUR   |   All To 1Eur        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_JPY_MSC   |   Pf Jpy Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRS_999_NZD   |   Grs 999 Nzd        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALL_TO_CZK   |   All To Czk        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REGULAR_1   |   Regular 1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TARIFF_15   |   Tariff 15        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALL_TO_SGD   |   All To Sgd        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REG6_SG_999   |   Reg6 Sg 999        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REG3_EU_999   |   Reg3 Eu 999        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_ZAR_MSC   |   Pf Zar Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_DKK_MSC   |   Pf Dkk Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRS_999_HKD   |   Grs 999 Hkd        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRS_999_ZAR   |   Grs 999 Zar        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TR15_JP_999   |   Tr15 Jp 999        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GMA_NZD_999   |   Gma Nzd 999        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRS_999_SGD   |   Grs 999 Sgd        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REGULAR_3   |   Regular 3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PF_AUD_MSC   |   Pf Aud Msc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALL_TO_GBP   |   All To Gbp        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REGULAR_8   |   Regular 8        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALL_TO_PLN   |   All To Pln        |    Available     | Required     | Allowed |    NA |    
 | protectAgainstFXChange| Indicate if the Merchant is protected against currency fluctuations on the event the transaction is disputed        |    FALSE   |   False        |    Available     | Required     | Allowed |    NA |    
 | salesLead| Secondary Tax ID        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | serviceContractIndex| Service contract defines the processing rules for a merchant        |    SERVICE_CONTRACT_1   |   Service Contract 1        |    Available     | Required     | Allowed |    NA |    
@@ -4304,11 +4304,7 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |          -                   |                 -                                 |               |                                                           |          |          |          |          |    
-
-
 <!-- type: tab-end -->
-
-
 
 
 ### merchantMunicipality
@@ -4758,106 +4754,8 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | doNotChargeVee| Do Not Charge Vee for Omnipay        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
-| domesticForeignIndicator| DomesticForeignIndicator        |    DOM_MASTER_DESCRIPTION   |   Dom Master Description        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DOM_FGN_INTERCHANGE_DESC   |   Dom Fgn Interchange Desc        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    FGN_MASTER_DESCRIPTION   |   Fgn Master Description        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    AAFES_NAVY_MASTER_DESC   |   Aafes Navy Master Desc        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    AAFES_NAVY_USENEW_DESC   |   Aafes Navy Usenew Desc        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DOM_FGN_USENEW_DESC   |   Dom Fgn Usenew Desc        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    FGN_USENEW_DESCRIPTION   |   Fgn Usenew Description        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DOM_USENEW_DESCRIPTION   |   Dom Usenew Description        |    Available     | Required     | Allowed |    NA |    
-| emailtypecode| Type of Email Address        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
-| emvIndicator| EMV Chip Enabled Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| faxIndicator| Fax Indicator        |    EIDS_EMAIL   |   Eids Email        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    INFO_FAX   |   Info Fax        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    FAX   |   Fax        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    CM_ALERT   |   Cm Alert        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    EIDS   |   Eids        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    PC_TO_PC   |   Pc To Pc        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    MAIL   |   Mail        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    EIDS_AUTOFAX   |   Eids Autofax        |    Available     | Required     | Allowed |    NA |    
-| fireSafetyActIndicator| Fire Safety Act Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| imprintersCount| Imprinter Quantity Bill Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
-| internetCode| Internet Code        |    INTERNET_MERCHANT   |   Internet Merchant        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    FISERV_GATEWAY   |   Fiserv Gateway        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DIAL_SOLUTION   |   Dial Solution        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    LEASED_LINE   |   Leased Line        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    CERT_GATEWAY   |   Cert Gateway        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    NON_PARTICIPANT   |   Non Participant        |    Available     | Required     | Allowed |    NA |    
-| leaseCompanyCode| Lease Company Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
-| loyaltyProcessingCode| Loyalty Processing Code        |    N   |   N        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    Y   |   Y        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
-| ncptAmount| Anticipated Mc/Visa® net contribution per transaction        |       |           |    Available     | Required     | Allowed |    NA |    
-| nrptAmount| Anticipated Mc/Visa® net revenue percentage        |       |           |    Available     | Required     | Allowed |    NA |    
-| oilTradeClassCode| Class of Trade code for specific client usage        |    YES, NO   |   Yes, No        |    Available     | Required     | Allowed |    NA |    
 | online| Online Indicator for Omnipay Merchant        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| paymentEssentialsCode| Payment essentials bundle code        |    BUNDLE8   |   Bundle8        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    WELLS_BUNDLE_1   |   Wells Bundle 1        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE9   |   Bundle9        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE6   |   Bundle6        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE1   |   Bundle1        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE14   |   Bundle14        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE3   |   Bundle3        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    WELLS_BUNDLE_4   |   Wells Bundle 4        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE18   |   Bundle18        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    WELLS_BUNDLE_5   |   Wells Bundle 5        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE11   |   Bundle11        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE16   |   Bundle16        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE12   |   Bundle12        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    WELLS_BUNDLE_2   |   Wells Bundle 2        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE7   |   Bundle7        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE19   |   Bundle19        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE13   |   Bundle13        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE10   |   Bundle10        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE2   |   Bundle2        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    WELLS_BUNDLE_6   |   Wells Bundle 6        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE20   |   Bundle20        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    WELLS_BUNDLE_3   |   Wells Bundle 3        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE5   |   Bundle5        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE17   |   Bundle17        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE15   |   Bundle15        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    BUNDLE4   |   Bundle4        |    Available     | Required     | Allowed |    NA |    
-| rawDataAddendumIndicator| Raw Data Addendum Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| rejectNotifyCode| Reject Notification Code        |    OUTLET_DBA_ADDR   |   Outlet Dba Addr        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    OUTLET_BILLTO_ADDR   |   Outlet Billto Addr        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    CHAIN_BILLTO_ADDR   |   Chain Billto Addr        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    CHAIN_DBA_ADDR   |   Chain Dba Addr        |    Available     | Required     | Allowed |    NA |    
-| restaurantGroupCode| Restaurant Group Code        |    NOT_MEMBER   |   Not Member        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    SIG_REQUIRED   |   Sig Required        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    GOLDEN_RETRIEVER   |   Golden Retriever        |    Available     | Required     | Allowed |    NA |    
-| revenueBookedDate| Revenue Booked Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
-| specialNationalAccountIndicator| Special National Account Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| techEmail| Tech Email        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
-| volumeTierIndicator| Volume Tier Indicator        |    STRING - Alphanumeric   |   String - Alphanumeric        |    Available     | Required     | Allowed |    NA |    
-| volumeTierInterchangeFeeIndicator| Volume Tier Interchange Fee Indicator        |    TIER_10   |   Tier 10        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_17   |   Tier 17        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_04   |   Tier 04        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_41   |   Tier 41        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    MP   |   Mp        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_09   |   Tier 09        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    NOT_PARTICIPATING   |   Not Participating        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_18   |   Tier 18        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_22   |   Tier 22        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_33   |   Tier 33        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_20   |   Tier 20        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_11   |   Tier 11        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_30   |   Tier 30        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_19   |   Tier 19        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_08   |   Tier 08        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_01   |   Tier 01        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_39   |   Tier 39        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_21   |   Tier 21        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_13   |   Tier 13        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TIER_23   |   Tier 23        |    Available     | Required     | Allowed |    NA |    
-| xrefIndicator| Xref Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab-end -->
 
@@ -5532,18 +5430,9 @@ titles: UMM, North, GMA
 
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-| pfIdMc| Payment Facilitator Id Mc        |       |           |    Available     | Required     | Allowed |    NA |    
-| pfIdUpi| Payment Facilitator Id Upi        |       |           |    Available     | Required     | Allowed |    NA |    
-| pfIdVi| Payment Facilitator Id-Marketplace Id Vi        |       |           |    Available     | Required     | Allowed |    NA |    
-| pfIdVi| Payment Facilitator Id-Marketplace Id Vi        |       |           |    Available     | Required     | Allowed |    NA |    
-| pspIndicator| Payment Service Provider Indicator        |    SELF_SERVICE   |   Self Service        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    FUND_PF   |   Fund Pf        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    HYBRID_SERVICE   |   Hybrid Service        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    FUND_SUB   |   Fund Sub        |    Available     | Required     | Allowed |    NA |    
 | serviceType| Service Type for Omnipay        |    HYBRID   |   Hybrid        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    FULL_SERVICE   |   Full Service        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    SELF_SERVICE   |   Self Service        |    Available     | Required     | Allowed |    NA |    
-| subMerchantId| Sub Merchant ID for Omnipay        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab-end -->
 
@@ -5672,6 +5561,6 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
 <!-- type: tab-end -->
 
