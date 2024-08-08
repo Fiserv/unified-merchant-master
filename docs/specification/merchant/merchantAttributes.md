@@ -5349,10 +5349,9 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |   
 
 <!-- type: tab-end -->
-
 
 
 ### panMasking
@@ -5386,7 +5385,7 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |   
 
 <!-- type: tab-end -->
 
@@ -5421,9 +5420,7 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |          -                   |                 -                                 |               |                                                           |          |          |          |          |    
-
 <!-- type: tab-end -->
-
 
 
 ### pathwardEmergingMarkets
@@ -5464,10 +5461,9 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |   
 
 <!-- type: tab-end -->
-
 
 
 ### paymentFacilitator
@@ -5552,7 +5548,6 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 
 
-
 ### platformSwitch3CrossReference
 
 ---
@@ -5586,10 +5581,7 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |          -                   |                 -                                 |               |                                                           |          |          |          |          |    
-
 <!-- type: tab-end -->
-
-
 
 ### pricingMthdDisclosures
 
@@ -5681,6 +5673,5 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |          -                   |                 -                                 |               |                                                           |          |          |          |          |    
-
 <!-- type: tab-end -->
 
