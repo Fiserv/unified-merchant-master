@@ -4478,8 +4478,6 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 
 
-
-
 ### miscReporting
 
 ---
@@ -4491,7 +4489,6 @@ tags: [miscReporting]
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-
 
 ##### UMM Specification
 
@@ -4655,6 +4652,1026 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
 
+
+### miscellaneous
+---
+tags: [miscellaneous]
+---
+- Description: miscellaneous
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| SECURITY_EMAIL| Security contact email        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| accountingUnitCode| Accounting Unit Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| aggregatorMerchantIndicator| Aggregator Merchant Indicator        |    NOT_AN_AGGREGATOR   |   Not An Aggregator        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PSP_CHARITABLE_MERCHANT   |   Psp Charitable Merchant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PSP_SELECTIVE_ACCEPTANCE   |   Psp Selective Acceptance        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHARITABLE_MERCHANT   |   Charitable Merchant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SELECTIVE_ACCEPTANCE   |   Selective Acceptance        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PSP_MERCHANT   |   Psp Merchant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GOVT_AND_EDU_PAYMENT_PROGRAM   |   Govt And Edu Payment Program        |    Available     | Required     | Allowed |    NA |    
+| arpCode| ARP Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| bankingCategoryCode| Banking Category Code        |    OTHER_SILVER   |   Other Silver        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    OTHER   |   Other        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BBG_SILVER   |   Bbg Silver        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WHOLESALE_BRONZE   |   Wholesale Bronze        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RETAIL_SILVER   |   Retail Silver        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    OTHER_BRONZE   |   Other Bronze        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BBG   |   Bbg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    OTHER_GOLD   |   Other Gold        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WHOLESALE_GOLD   |   Wholesale Gold        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RETAIL_GOLD   |   Retail Gold        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RETAIL   |   Retail        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WHOLESALE   |   Wholesale        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WHOLESALE_SILVER   |   Wholesale Silver        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BBG_BRONZE   |   Bbg Bronze        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BBG_GOLD   |   Bbg Gold        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RETAIL_BRONZE   |   Retail Bronze        |    Available     | Required     | Allowed |    NA |    
+| branchDepositorIndicator| Branch Depositor Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| branchLongNumber| Branch Long Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| branchShortNumber| Branch Short Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| caseManagementIndicator| Case Management Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| cashManagementIndicator| Cash Management Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| cmsServiceCodes| CMS Service Codes        |       |           |    Available     | Required     | Allowed |    NA |    
+| descriptorEntitledIndicator| Descriptor Entitled Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| SECURITY_EMAIL| Security contact email        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| accountingUnitCode| Accounting Unit Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| aggregatorMerchantIndicator| Aggregator Merchant Indicator        |    NOT_AN_AGGREGATOR   |   Not An Aggregator        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PSP_CHARITABLE_MERCHANT   |   Psp Charitable Merchant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PSP_SELECTIVE_ACCEPTANCE   |   Psp Selective Acceptance        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHARITABLE_MERCHANT   |   Charitable Merchant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SELECTIVE_ACCEPTANCE   |   Selective Acceptance        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PSP_MERCHANT   |   Psp Merchant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GOVT_AND_EDU_PAYMENT_PROGRAM   |   Govt And Edu Payment Program        |    Available     | Required     | Allowed |    NA |    
+| arpCode| ARP Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| bankingCategoryCode| Banking Category Code        |    OTHER_SILVER   |   Other Silver        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    OTHER   |   Other        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BBG_SILVER   |   Bbg Silver        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WHOLESALE_BRONZE   |   Wholesale Bronze        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RETAIL_SILVER   |   Retail Silver        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    OTHER_BRONZE   |   Other Bronze        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BBG   |   Bbg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    OTHER_GOLD   |   Other Gold        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WHOLESALE_GOLD   |   Wholesale Gold        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RETAIL_GOLD   |   Retail Gold        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RETAIL   |   Retail        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WHOLESALE   |   Wholesale        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WHOLESALE_SILVER   |   Wholesale Silver        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BBG_BRONZE   |   Bbg Bronze        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BBG_GOLD   |   Bbg Gold        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RETAIL_BRONZE   |   Retail Bronze        |    Available     | Required     | Allowed |    NA |    
+| branchDepositorIndicator| Branch Depositor Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| branchLongNumber| Branch Long Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| branchShortNumber| Branch Short Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| caseManagementIndicator| Case Management Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| cashManagementIndicator| Cash Management Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| cmsServiceCodes| CMS Service Codes        |       |           |    Available     | Required     | Allowed |    NA |    
+| descriptorEntitledIndicator| Descriptor Entitled Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| doNotChargeVee| Do Not Charge Vee for Omnipay        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| domesticForeignIndicator| DomesticForeignIndicator        |    DOM_MASTER_DESCRIPTION   |   Dom Master Description        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DOM_FGN_INTERCHANGE_DESC   |   Dom Fgn Interchange Desc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FGN_MASTER_DESCRIPTION   |   Fgn Master Description        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AAFES_NAVY_MASTER_DESC   |   Aafes Navy Master Desc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AAFES_NAVY_USENEW_DESC   |   Aafes Navy Usenew Desc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DOM_FGN_USENEW_DESC   |   Dom Fgn Usenew Desc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FGN_USENEW_DESCRIPTION   |   Fgn Usenew Description        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DOM_USENEW_DESCRIPTION   |   Dom Usenew Description        |    Available     | Required     | Allowed |    NA |    
+| emailtypecode| Type of Email Address        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| emvIndicator| EMV Chip Enabled Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| faxIndicator| Fax Indicator        |    EIDS_EMAIL   |   Eids Email        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    INFO_FAX   |   Info Fax        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FAX   |   Fax        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CM_ALERT   |   Cm Alert        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EIDS   |   Eids        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PC_TO_PC   |   Pc To Pc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAIL   |   Mail        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EIDS_AUTOFAX   |   Eids Autofax        |    Available     | Required     | Allowed |    NA |    
+| fireSafetyActIndicator| Fire Safety Act Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| imprintersCount| Imprinter Quantity Bill Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| internetCode| Internet Code        |    INTERNET_MERCHANT   |   Internet Merchant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FISERV_GATEWAY   |   Fiserv Gateway        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DIAL_SOLUTION   |   Dial Solution        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LEASED_LINE   |   Leased Line        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CERT_GATEWAY   |   Cert Gateway        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NON_PARTICIPANT   |   Non Participant        |    Available     | Required     | Allowed |    NA |    
+| leaseCompanyCode| Lease Company Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| loyaltyProcessingCode| Loyalty Processing Code        |    N   |   N        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    Y   |   Y        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+| ncptAmount| Anticipated Mc/Visa® net contribution per transaction        |       |           |    Available     | Required     | Allowed |    NA |    
+| nrptAmount| Anticipated Mc/Visa® net revenue percentage        |       |           |    Available     | Required     | Allowed |    NA |    
+| oilTradeClassCode| Class of Trade code for specific client usage        |    YES, NO   |   Yes, No        |    Available     | Required     | Allowed |    NA |    
+| online| Online Indicator for Omnipay Merchant        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| paymentEssentialsCode| Payment essentials bundle code        |    BUNDLE8   |   Bundle8        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WELLS_BUNDLE_1   |   Wells Bundle 1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE9   |   Bundle9        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE6   |   Bundle6        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE1   |   Bundle1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE14   |   Bundle14        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE3   |   Bundle3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WELLS_BUNDLE_4   |   Wells Bundle 4        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE18   |   Bundle18        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WELLS_BUNDLE_5   |   Wells Bundle 5        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE11   |   Bundle11        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE16   |   Bundle16        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE12   |   Bundle12        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WELLS_BUNDLE_2   |   Wells Bundle 2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE7   |   Bundle7        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE19   |   Bundle19        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE13   |   Bundle13        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE10   |   Bundle10        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE2   |   Bundle2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WELLS_BUNDLE_6   |   Wells Bundle 6        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE20   |   Bundle20        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WELLS_BUNDLE_3   |   Wells Bundle 3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE5   |   Bundle5        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE17   |   Bundle17        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE15   |   Bundle15        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BUNDLE4   |   Bundle4        |    Available     | Required     | Allowed |    NA |    
+| rawDataAddendumIndicator| Raw Data Addendum Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| rejectNotifyCode| Reject Notification Code        |    OUTLET_DBA_ADDR   |   Outlet Dba Addr        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    OUTLET_BILLTO_ADDR   |   Outlet Billto Addr        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHAIN_BILLTO_ADDR   |   Chain Billto Addr        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHAIN_DBA_ADDR   |   Chain Dba Addr        |    Available     | Required     | Allowed |    NA |    
+| restaurantGroupCode| Restaurant Group Code        |    NOT_MEMBER   |   Not Member        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SIG_REQUIRED   |   Sig Required        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GOLDEN_RETRIEVER   |   Golden Retriever        |    Available     | Required     | Allowed |    NA |    
+| revenueBookedDate| Revenue Booked Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| specialNationalAccountIndicator| Special National Account Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| techEmail| Tech Email        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| volumeTierIndicator| Volume Tier Indicator        |    STRING - Alphanumeric   |   String - Alphanumeric        |    Available     | Required     | Allowed |    NA |    
+| volumeTierInterchangeFeeIndicator| Volume Tier Interchange Fee Indicator        |    TIER_10   |   Tier 10        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_17   |   Tier 17        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_04   |   Tier 04        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_41   |   Tier 41        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MP   |   Mp        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_09   |   Tier 09        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_PARTICIPATING   |   Not Participating        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_18   |   Tier 18        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_22   |   Tier 22        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_33   |   Tier 33        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_20   |   Tier 20        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_11   |   Tier 11        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_30   |   Tier 30        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_19   |   Tier 19        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_08   |   Tier 08        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_01   |   Tier 01        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_39   |   Tier 39        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_21   |   Tier 21        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_13   |   Tier 13        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIER_23   |   Tier 23        |    Available     | Required     | Allowed |    NA |    
+| xrefIndicator| Xref Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab-end -->
+
+
+
+### modelAfterMerchant
+
+---
+tags: [modelAfterMerchant]
+---
+- Description: Model After Merchant For Boarding Usage
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
+
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
+
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+
+### msipDetails
+
+---
+tags: [msipDetails]
+---
+- Description: MSIP Details
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| msipAlternateCityName| MSIP Alternate City Name        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipAlternateMerchantName| MSIP Alternate Merchant Name        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipBacsIndicator| MSIP Bacs Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    0   |   0        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| msipBacsMerchantName| MSIP Bacs Merchant Name        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipCategoryLevelCode| MSIP Category Level Code        |    VAU_MERCHANT   |   Vau Merchant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LIMITED_AMOUNT_TERMINAL   |   Limited Amount Terminal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MRCH_PERFPGM_NOT_ME2ME   |   Mrch Perfpgm Not Me2Me        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_A_CAT_MERCHANT   |   Not A Cat Merchant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ORIGINAL_CREDIT_TRANS   |   Original Credit Trans        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MRCH_PERFPGM_AND_ME2ME   |   Mrch Perfpgm And Me2Me        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNATTEND_WITH_AUTH_CAPA   |   Unattend With Auth Capa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ME_TO_ME   |   Me To Me        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    0   |   0        |    Available     | Required     | Allowed |    NA |    
+| msipChainRollupDate| MSIP Chain Rollup Date        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipChainRollupIndicator| MSIP Chain Rollup Indicator        |    3   |   3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    C   |   C        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| msipContactName| MSIP Contact Name        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipFax1Number| MSIP Fax1 Number        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipFax2Number| MSIP Fax2 Number        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipHotCardIndicator| MSIP Hot Card Indicator        |    2   |   2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    3   |   3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    4   |   4        |    Available     | Required     | Allowed |    NA |    
+| msipInternationalDialNumber| MSIP International Dial Number        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    2   |   2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    3   |   3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    N   |   N        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    C   |   C        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    5   |   5        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| msipMaestroCeilingAmount| MSIP Maestro Ceiling Amount        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipMaestroFloorAmount| MSIP Maestro Floor Amount        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipMaestroFraudProneIndicator| MSIP Maestro Fraud Prone Indicator        |    NORMAL_RISK   |   Normal Risk        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HIGHLY_FRAUD_PRONE   |   Highly Fraud Prone        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FRAUD_PRONE   |   Fraud Prone        |    Available     | Required     | Allowed |    NA |    
+| msipMaestroId| MSIP Maestro Id        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipMaestroMccCode| MSIP Maestro Mcc Code        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipMailToAgentIndicator| MSIP Mail To Agent Indicator        |    USE_BILL_TO_ADDRESS   |   Use Bill To Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_GENERATED   |   No Statement Generated        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_DBA_ADDRESS   |   Use Dba Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_SENT   |   No Statement Sent        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    0   |   0        |    Available     | Required     | Allowed |    NA |    
+| msipMailToBankIndicator| MSIP Mail To Bank Indicator        |    USE_BILL_TO_ADDRESS   |   Use Bill To Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_DBA_ADDRESS   |   Use Dba Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    1   |   1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_GENERATED   |   No Statement Generated        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_SENT   |   No Statement Sent        |    Available     | Required     | Allowed |    NA |    
+| msipMailToBusinessIndicator| MSIP Mail To Business Indicator        |    0   |   0        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_GENERATED   |   No Statement Generated        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_BILL_TO_ADDRESS   |   Use Bill To Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_DBA_ADDRESS   |   Use Dba Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_SENT   |   No Statement Sent        |    Available     | Required     | Allowed |    NA |    
+| msipMailToChainIndicator| MSIP Mail To Chain Indicator        |    NO_STATEMENT_GENERATED   |   No Statement Generated        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_DBA_ADDRESS   |   Use Dba Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    0   |   0        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_SENT   |   No Statement Sent        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_BILL_TO_ADDRESS   |   Use Bill To Address        |    Available     | Required     | Allowed |    NA |    
+| msipMailToCorporationIndicator| MSIP Mail To Corporation Indicator        |    USE_DBA_ADDRESS   |   Use Dba Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_GENERATED   |   No Statement Generated        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    1   |   1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_BILL_TO_ADDRESS   |   Use Bill To Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_SENT   |   No Statement Sent        |    Available     | Required     | Allowed |    NA |    
+| msipMailToOutletIndicator| MSIP Mail To Outlet Indicator        |    USE_DBA_ADDRESS   |   Use Dba Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    O   |   O        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    1   |   1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_SENT   |   No Statement Sent        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_BILL_TO_ADDRESS   |   Use Bill To Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_GENERATED   |   No Statement Generated        |    Available     | Required     | Allowed |    NA |    
+| msipMastercardCurrencyCode| MSIP Mastercard Currency Code        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipNewAccountIndicator| MSIP New Account Indicator        |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    3   |   3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| msipPlasticFormatCode| MSIP Plastic Format Code        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipPlasticRegenerateIndicator| MSIP Plastic Regenerate Indicator        |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    0   |   0        |    Available     | Required     | Allowed |    NA |    
+| msipRecourseCode| MSIP Recourse Code        |    MAIL_ORDER_FULL_RECOURSE   |   Mail Order Full Recourse        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MISSING_IMPRINT_FULL_REC   |   Missing Imprint Full Rec        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BOTH_MAIL_MISSING   |   Both Mail Missing        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    1   |   1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+| msipTerminalCount| MSIP Terminal Count        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipVisaCashbackIndicator| MSIP Visa Cashback Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    5   |   5        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    2   |   2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    N   |   N        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    3   |   3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    C   |   C        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+| msipVisaCeilingAmount| MSIP Visa Ceiling Amount        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipVisaCurrencyCode| MSIP Visa Currency Code        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipVisaFloorAmount| MSIP Visa Floor Amount        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| msipAlternateCityName| MSIP Alternate City Name        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipAlternateMerchantName| MSIP Alternate Merchant Name        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipBacsIndicator| MSIP Bacs Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    0   |   0        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| msipBacsMerchantName| MSIP Bacs Merchant Name        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipCategoryLevelCode| MSIP Category Level Code        |    VAU_MERCHANT   |   Vau Merchant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LIMITED_AMOUNT_TERMINAL   |   Limited Amount Terminal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MRCH_PERFPGM_NOT_ME2ME   |   Mrch Perfpgm Not Me2Me        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_A_CAT_MERCHANT   |   Not A Cat Merchant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ORIGINAL_CREDIT_TRANS   |   Original Credit Trans        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MRCH_PERFPGM_AND_ME2ME   |   Mrch Perfpgm And Me2Me        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNATTEND_WITH_AUTH_CAPA   |   Unattend With Auth Capa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ME_TO_ME   |   Me To Me        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    0   |   0        |    Available     | Required     | Allowed |    NA |    
+| msipChainRollupDate| MSIP Chain Rollup Date        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipChainRollupIndicator| MSIP Chain Rollup Indicator        |    3   |   3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    C   |   C        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| msipContactName| MSIP Contact Name        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipFax1Number| MSIP Fax1 Number        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipFax2Number| MSIP Fax2 Number        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipHotCardIndicator| MSIP Hot Card Indicator        |    2   |   2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    3   |   3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    4   |   4        |    Available     | Required     | Allowed |    NA |    
+| msipInternationalDialNumber| MSIP International Dial Number        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    2   |   2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    3   |   3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    N   |   N        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    C   |   C        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    5   |   5        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| msipMaestroCeilingAmount| MSIP Maestro Ceiling Amount        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipMaestroFloorAmount| MSIP Maestro Floor Amount        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipMaestroFraudProneIndicator| MSIP Maestro Fraud Prone Indicator        |    NORMAL_RISK   |   Normal Risk        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HIGHLY_FRAUD_PRONE   |   Highly Fraud Prone        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FRAUD_PRONE   |   Fraud Prone        |    Available     | Required     | Allowed |    NA |    
+| msipMaestroId| MSIP Maestro Id        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipMaestroMccCode| MSIP Maestro Mcc Code        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipMailToAgentIndicator| MSIP Mail To Agent Indicator        |    USE_BILL_TO_ADDRESS   |   Use Bill To Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_GENERATED   |   No Statement Generated        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_DBA_ADDRESS   |   Use Dba Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_SENT   |   No Statement Sent        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    0   |   0        |    Available     | Required     | Allowed |    NA |    
+| msipMailToBankIndicator| MSIP Mail To Bank Indicator        |    USE_BILL_TO_ADDRESS   |   Use Bill To Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_DBA_ADDRESS   |   Use Dba Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    1   |   1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_GENERATED   |   No Statement Generated        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_SENT   |   No Statement Sent        |    Available     | Required     | Allowed |    NA |    
+| msipMailToBusinessIndicator| MSIP Mail To Business Indicator        |    0   |   0        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_GENERATED   |   No Statement Generated        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_BILL_TO_ADDRESS   |   Use Bill To Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_DBA_ADDRESS   |   Use Dba Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_SENT   |   No Statement Sent        |    Available     | Required     | Allowed |    NA |    
+| msipMailToChainIndicator| MSIP Mail To Chain Indicator        |    NO_STATEMENT_GENERATED   |   No Statement Generated        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_DBA_ADDRESS   |   Use Dba Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    0   |   0        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_SENT   |   No Statement Sent        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_BILL_TO_ADDRESS   |   Use Bill To Address        |    Available     | Required     | Allowed |    NA |    
+| msipMailToCorporationIndicator| MSIP Mail To Corporation Indicator        |    USE_DBA_ADDRESS   |   Use Dba Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_GENERATED   |   No Statement Generated        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    1   |   1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_BILL_TO_ADDRESS   |   Use Bill To Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_SENT   |   No Statement Sent        |    Available     | Required     | Allowed |    NA |    
+| msipMailToOutletIndicator| MSIP Mail To Outlet Indicator        |    USE_DBA_ADDRESS   |   Use Dba Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    O   |   O        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    1   |   1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_SENT   |   No Statement Sent        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_BILL_TO_ADDRESS   |   Use Bill To Address        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_STATEMENT_GENERATED   |   No Statement Generated        |    Available     | Required     | Allowed |    NA |    
+| msipMastercardCurrencyCode| MSIP Mastercard Currency Code        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipNewAccountIndicator| MSIP New Account Indicator        |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    3   |   3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| msipPlasticFormatCode| MSIP Plastic Format Code        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipPlasticRegenerateIndicator| MSIP Plastic Regenerate Indicator        |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    0   |   0        |    Available     | Required     | Allowed |    NA |    
+| msipRecourseCode| MSIP Recourse Code        |    MAIL_ORDER_FULL_RECOURSE   |   Mail Order Full Recourse        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MISSING_IMPRINT_FULL_REC   |   Missing Imprint Full Rec        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BOTH_MAIL_MISSING   |   Both Mail Missing        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    1   |   1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+| msipTerminalCount| MSIP Terminal Count        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipVisaCashbackIndicator| MSIP Visa Cashback Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    5   |   5        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    2   |   2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    N   |   N        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    3   |   3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    C   |   C        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+| msipVisaCeilingAmount| MSIP Visa Ceiling Amount        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipVisaCurrencyCode| MSIP Visa Currency Code        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+| msipVisaFloorAmount| MSIP Visa Floor Amount        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
+
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### mvbEmergingMarkets
+
+---
+tags: [mvbEmergingMarkets]
+---
+- Description: Mvb Emerging Markets
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    VISA_MC_HBR   |   Visa Mc Hbr        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CBD_CANNABIS   |   Cbd Cannabis        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LEGAL_GAMBLING   |   Legal Gambling        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DFS   |   Dfs        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MSB   |   Msb        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SINGLE_MID_PFAC   |   Single Mid Pfac        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    VISA_MC_HBR   |   Visa Mc Hbr        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CBD_CANNABIS   |   Cbd Cannabis        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LEGAL_GAMBLING   |   Legal Gambling        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DFS   |   Dfs        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MSB   |   Msb        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SINGLE_MID_PFAC   |   Single Mid Pfac        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+
+### nationalAccountId
+
+---
+tags: [nationalAccountId]
+---
+- Description: National Account Underwriting Account Id
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| nationalAccountId| National account id        |       |           |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| nationalAccountId| National account id        |       |           |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+
+### omahaDebitSuspenseItemsRelease
+
+---
+tags: [omahaDebitSuspenseItemsRelease]
+---
+- Description: Omaha Dd-623 Debit  Suspense Items Release - Channel Level
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| status| Program Status        |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| status| Program Status        |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+
+<!-- type: tab-end -->
+
+
+### onBoardingDetails
+
+---
+tags: [onBoardingDetails]
+---
+- Description: OnBoarding Details
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| boardingOriginCode| Legacy field boarding origin code        |    MERCURY   |   Mercury        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BAM   |   Bam        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EMERALD   |   Emerald        |    Available     | Required     | Allowed |    NA |    
+| boardingSourceCode| Code which indicates what boarding tool or process was used        |    UAL   |   Ual        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CONVERTED_ACCT   |   Converted Acct        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AMA_CLICK_TO_AGREE   |   Ama Click To Agree        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MERCURY   |   Mercury        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AMA   |   Ama        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HIERARCHY_ADD   |   Hierarchy Add        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ACCESS_ONE   |   Access One        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AMA _WEB   |   Ama  Web        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FD_SNAP   |   Fd Snap        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COPILOT_N   |   Copilot N        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BAM   |   Bam        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COPILOT_O   |   Copilot O        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FD_MARKETPLACE   |   Fd Marketplace        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PARTNER_REFERAL   |   Partner Referal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SNAP_MER_LITE   |   Snap Mer Lite        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GSB_BOARDING   |   Gsb Boarding        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AMA DE   |   Ama De        |    Available     | Required     | Allowed |    NA |    
+| boardingTypeCode| Boarding Type Code        |    NEW_ACCOUNT   |   New Account        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ADDITIONAL_OUTLET   |   Additional Outlet        |    Available     | Required     | Allowed |    NA |    
+| convertedAccountDate| Converted Account Date        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| convertedAccountIndicator| Converted Account Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| linkBackwardMerchantId| Link Backward Merchant Id        |    STRING containing digits only - MERCHANT ID   |   String Containing Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
+| linkForwardMerchantId| Link Forward Merchant Id        |    STRING containing digits only - MERCHANT ID   |   String Containing Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| boardingOriginCode| Legacy field boarding origin code        |    MERCURY   |   Mercury        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BAM   |   Bam        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EMERALD   |   Emerald        |    Available     | Required     | Allowed |    NA |    
+| boardingSourceCode| Code which indicates what boarding tool or process was used        |    UAL   |   Ual        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CONVERTED_ACCT   |   Converted Acct        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AMA_CLICK_TO_AGREE   |   Ama Click To Agree        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MERCURY   |   Mercury        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AMA   |   Ama        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HIERARCHY_ADD   |   Hierarchy Add        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ACCESS_ONE   |   Access One        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AMA _WEB   |   Ama  Web        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FD_SNAP   |   Fd Snap        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COPILOT_N   |   Copilot N        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BAM   |   Bam        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COPILOT_O   |   Copilot O        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FD_MARKETPLACE   |   Fd Marketplace        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PARTNER_REFERAL   |   Partner Referal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SNAP_MER_LITE   |   Snap Mer Lite        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GSB_BOARDING   |   Gsb Boarding        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AMA DE   |   Ama De        |    Available     | Required     | Allowed |    NA |    
+| boardingTypeCode| Boarding Type Code        |    NEW_ACCOUNT   |   New Account        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ADDITIONAL_OUTLET   |   Additional Outlet        |    Available     | Required     | Allowed |    NA |    
+| convertedAccountDate| Converted Account Date        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| convertedAccountIndicator| Converted Account Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| linkBackwardMerchantId| Link Backward Merchant Id        |    STRING containing digits only - MERCHANT ID   |   String Containing Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
+| linkForwardMerchantId| Link Forward Merchant Id        |    STRING containing digits only - MERCHANT ID   |   String Containing Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |   
+
+<!-- type: tab-end -->
+
+
+### panMasking
+
+---
+tags: [panMasking]
+---
+- Description: Pan Masking
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|       offeringType       |              Offering Type          |    APPLY_PAN_MASKING   |   Apply Pan Masking        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|       offeringType       |              Offering Type          |    APPLY_PAN_MASKING   |   Apply Pan Masking        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |   
+
+<!-- type: tab-end -->
+
+
+### pathwardBankwire
+
+---
+tags: [pathwardBankwire]
+---
+- Description: Pathward Bankwire
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| beneficiaryCity| Beneficiary City        |       |           |    Available     | Required     | Allowed |    NA |    
+| beneficiaryStateCode| Beneficiary State Code        |       |           |    Available     | Required     | Allowed |    NA |    
+| beneficiaryStreetAddress| Beneficiary Street Address(No Po Box)        |       |           |    Available     | Required     | Allowed |    NA |    
+| beneficiaryZipCode| Beneficiary Zip Code        |       |           |    Available     | Required     | Allowed |    NA |    
+| futureUse1| Future Use 1        |       |           |    Available     | Required     | Allowed |    NA |    
+| futureUse2| Future Use 2        |       |           |    Available     | Required     | Allowed |    NA |    
+| seeBnfOnFndTab| See Bnf On Fnd Tab        |    SEE_BNF_ON_FND_TAB   |   See Bnf On Fnd Tab        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+
+### pathwardEmergingMarkets
+
+---
+tags: [pathwardEmergingMarkets]
+---
+- Description: Pathward Emerging Markets
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|     offeringType      |         Offering Type                |    NON_FI_LENDER   |   Non Fi Lender        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SINGLE_MID_MRKTPLACE   |   Single Mid Mrktplace        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MSB_CRYPTO_NFT   |   Msb Crypto Nft        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DFS   |   Dfs        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DCC   |   Dcc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ONLINE_FIREARMS   |   Online Firearms        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    STAGED_DIGITAL_WALLET   |   Staged Digital Wallet        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MULTIPLE   |   Multiple        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CRUISE_LINES   |   Cruise Lines        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TBD   |   Tbd        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LEGAL_GAMBLING   |   Legal Gambling        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SINGLE_MID_PFAC   |   Single Mid Pfac        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CBD_CAT_1   |   Cbd Cat 1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CBD_CAT_2   |   Cbd Cat 2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PAYPAL_EXCEPTION   |   Paypal Exception        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AIRLINES   |   Airlines        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |   
+
+<!-- type: tab-end -->
+
+
+### paymentFacilitator
+
+---
+tags: [paymentFacilitator]
+---
+- Description: Payment Service Provider/Payment Facilitator
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| directPfFlag| Direct Pf Flag        |    A_AMOB_1MM   |   A Amob 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    V_VI_1MM   |   V Vi 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    M_MC_1MM   |   M Mc 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    W_MC_VI_AMOB_1MM   |   W Mc Vi Amob 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    X_VI_AMOB_1MM   |   X Vi Amob 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    R_MC_VI_1MM   |   R Mc Vi 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    T_ MC_AMOB_1MM   |   T  Mc Amob 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LEGACY   |   Legacy        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GLOBAL   |   Global        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MARKETPLACE_CLIENT   |   Marketplace Client        |    Available     | Required     | Allowed |    NA |    
+| parentId| Parent ID        |       |           |    Available     | Required     | Allowed |    NA |    
+| participantType| Participant Type        |    C_PARTICIPANT   |   C Participant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |   A Participant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    B_PARTICIPANT   |   B Participant        |    Available     | Required     | Allowed |    NA |    
+| pfIdAmex| Payment Facilitator Id Amex        |       |           |    Available     | Required     | Allowed |    NA |    
+| pfIdDscv| Payment Facilitator Id Discover        |       |           |    Available     | Required     | Allowed |    NA |    
+| pfIdMc| Payment Facilitator Id Mc        |       |           |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| directPfFlag| Direct Pf Flag        |    A_AMOB_1MM   |   A Amob 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    V_VI_1MM   |   V Vi 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    M_MC_1MM   |   M Mc 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    W_MC_VI_AMOB_1MM   |   W Mc Vi Amob 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    X_VI_AMOB_1MM   |   X Vi Amob 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    R_MC_VI_1MM   |   R Mc Vi 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    T_ MC_AMOB_1MM   |   T  Mc Amob 1Mm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LEGACY   |   Legacy        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GLOBAL   |   Global        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MARKETPLACE_CLIENT   |   Marketplace Client        |    Available     | Required     | Allowed |    NA |    
+| parentId| Parent ID        |       |           |    Available     | Required     | Allowed |    NA |    
+| participantType| Participant Type        |    C_PARTICIPANT   |   C Participant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |   A Participant        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    B_PARTICIPANT   |   B Participant        |    Available     | Required     | Allowed |    NA |    
+| pfIdAmex| Payment Facilitator Id Amex        |       |           |    Available     | Required     | Allowed |    NA |    
+| pfIdDscv| Payment Facilitator Id Discover        |       |           |    Available     | Required     | Allowed |    NA |    
+| pfIdMc| Payment Facilitator Id Mc        |       |           |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| pfIdMc| Payment Facilitator Id Mc        |       |           |    Available     | Required     | Allowed |    NA |    
+| pfIdUpi| Payment Facilitator Id Upi        |       |           |    Available     | Required     | Allowed |    NA |    
+| pfIdVi| Payment Facilitator Id-Marketplace Id Vi        |       |           |    Available     | Required     | Allowed |    NA |    
+| pfIdVi| Payment Facilitator Id-Marketplace Id Vi        |       |           |    Available     | Required     | Allowed |    NA |    
+| pspIndicator| Payment Service Provider Indicator        |    SELF_SERVICE   |   Self Service        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FUND_PF   |   Fund Pf        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HYBRID_SERVICE   |   Hybrid Service        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FUND_SUB   |   Fund Sub        |    Available     | Required     | Allowed |    NA |    
+| serviceType| Service Type for Omnipay        |    HYBRID   |   Hybrid        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FULL_SERVICE   |   Full Service        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SELF_SERVICE   |   Self Service        |    Available     | Required     | Allowed |    NA |    
+| subMerchantId| Sub Merchant ID for Omnipay        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-end -->
+
+
+### platformSwitch3CrossReference
+
+---
+tags: [platformSwitch3CrossReference]
+---
+- Description: Platform Switch 3 Cross Reference
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| northChainBank| North Chain Bank        |       |           |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| northChainBank| North Chain Bank        |       |           |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
+### pricingMthdDisclosures
+
+---
+tags: [pricingMthdDisclosures]
+---
+- Description: Pricing Method Disclosures
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|     offeringType      |             Offering Type              |    UNKNOWN   |   Unknown        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALL_OTHER   |   All Other        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SIMPLIFIED   |   Simplified        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FLAT_RATE_NO_BB   |   Flat Rate No Bb        |    Available     | Required     | Allowed |    NA |    
+| pricingSchedule| Pricing Schedule        |    SCHEDULE_103   |   Schedule 103        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNKNOWN   |   Unknown        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_135   |   Schedule 135        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_IC   |   Schedule Ic        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_105   |   Schedule 105        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_112   |   Schedule 112        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_010   |   Schedule 010        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_3T   |   Schedule 3T        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_133   |   Schedule 133        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_127   |   Schedule 127        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_123   |   Schedule 123        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_120   |   Schedule 120        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_108   |   Schedule 108        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_113   |   Schedule 113        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_111   |   Schedule 111        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_102   |   Schedule 102        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_104   |   Schedule 104        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_136   |   Schedule 136        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_101   |   Schedule 101        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_028   |   Schedule 028        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_2T   |   Schedule 2T        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_150   |   Schedule 150        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_138   |   Schedule 138        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_125   |   Schedule 125        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_124   |   Schedule 124        |    Available     | Required     | Allowed |    NA |    
+
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|     offeringType      |             Offering Type              |    UNKNOWN   |   Unknown        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALL_OTHER   |   All Other        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SIMPLIFIED   |   Simplified        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FLAT_RATE_NO_BB   |   Flat Rate No Bb        |    Available     | Required     | Allowed |    NA |    
+| pricingSchedule| Pricing Schedule        |    SCHEDULE_103   |   Schedule 103        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNKNOWN   |   Unknown        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_135   |   Schedule 135        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_IC   |   Schedule Ic        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_105   |   Schedule 105        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_112   |   Schedule 112        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_010   |   Schedule 010        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_3T   |   Schedule 3T        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_133   |   Schedule 133        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_127   |   Schedule 127        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_123   |   Schedule 123        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_120   |   Schedule 120        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_108   |   Schedule 108        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_113   |   Schedule 113        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_111   |   Schedule 111        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_102   |   Schedule 102        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_104   |   Schedule 104        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_136   |   Schedule 136        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_101   |   Schedule 101        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_028   |   Schedule 028        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_2T   |   Schedule 2T        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_150   |   Schedule 150        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_138   |   Schedule 138        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_125   |   Schedule 125        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SCHEDULE_124   |   Schedule 124        |    Available     | Required     | Allowed |    NA |    
+
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+<!-- type: tab-end -->
+
