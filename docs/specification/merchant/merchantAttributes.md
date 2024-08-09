@@ -5586,7 +5586,7 @@ titles: UMM, North, GMA
 ### pricingMthdDisclosures
 
 ---
-tags: [pricingMthdDisclosures]
+  tags: [pricingMthdDisclosures]
 ---
 - Description: Pricing Method Disclosures
 - List of Attributes:
@@ -5675,3 +5675,1914 @@ titles: UMM, North, GMA
 |          -                   |                 -                                 |               |                                                           |          |          |          |          |    
 <!-- type: tab-end -->
 
+
+
+### promotion
+
+---
+tags: [promotion]
+---
+- Description: Promotion Tracking
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| promotionName1| Promotion Name One        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| promotionName2| Promotion Name Two        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| promotionName3| Promotion Name Three        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| promotionName4| Promotion Name Four        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| promotionName5| Promotion Name Five        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| promotionName1| Promotion Name One        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| promotionName2| Promotion Name Two        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| promotionName3| Promotion Name Three        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| promotionName4| Promotion Name Four        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| promotionName5| Promotion Name Five        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+ 
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+<!-- type: tab-end -->
+
+
+
+
+### prop51Conversion
+
+---
+tags: [prop51Conversion]
+---
+- Description: Prop 51 Conversion
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| northShellMid| Original North Shell Mid/N        |    Digits only - MERCHANT ID   |   Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
+| propMerchantId| Original Prop Merchant Id        |    Digits only - MERCHANT ID   |   Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| northShellMid| Original North Shell Mid/N        |    Digits only - MERCHANT ID   |   Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
+| propMerchantId| Original Prop Merchant Id        |    Digits only - MERCHANT ID   |   Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### purchaseReturnAuthAutomation
+
+---
+tags: [purchaseReturnAuthAutomation]
+---
+- Description: Purchase Return Authorization Automation
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| status| Program Status        |    NOT_ENABLED   |   Not Enabled        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ENABLED   |   Enabled        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| status| Program Status        |    NOT_ENABLED   |   Not Enabled        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ENABLED   |   Enabled        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### rapidDepositExceptionStatus
+
+---
+tags: [rapidDepositExceptionStatus]
+---
+- Description: Rapid Deposit Exception Status
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    NO_RAPID_DEP_OVERRIDE   |   No Rapid Dep Override        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RAPID_DEP_NOT_ALLOWED   |   Rapid Dep Not Allowed        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RAPID_DEP_IS_ALLOWED   |   Rapid Dep Is Allowed        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| offeringType| Offering Type        |    NO_RAPID_DEP_OVERRIDE   |   No Rapid Dep Override        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RAPID_DEP_NOT_ALLOWED   |   Rapid Dep Not Allowed        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RAPID_DEP_IS_ALLOWED   |   Rapid Dep Is Allowed        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### rateLock
+
+---
+tags: [rateLock]
+---
+- Description: Rate Lock
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| billingEffectiveDate| Billing Effective Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| billingExpirationDate| Billing Expiration Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| rateLockLength| Number Of Years The Rate Lock Is In Place        |    TWO_YEARS   |   Two Years        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    THREE_YEARS   |   Three Years        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ONE_YEAR   |   One Year        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| billingEffectiveDate| Billing Effective Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| billingExpirationDate| Billing Expiration Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| rateLockLength| Number Of Years The Rate Lock Is In Place        |    TWO_YEARS   |   Two Years        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    THREE_YEARS   |   Three Years        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ONE_YEAR   |   One Year        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### recurringPayment
+
+---
+tags: [recurringPayment]
+---
+- Description: Recurring Payment
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| recurringPaymentsIndicator| Hosted Recurring Payments Indicator        |    HPR_MC_VISA_CAU   |   Hpr Mc Visa Cau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_PARTICIPATING_HRP   |   Not Participating Hrp        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HRP_ALL_CAU   |   Hrp All Cau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HRP_DISCOVER_CAU   |   Hrp Discover Cau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HRP_VISA_CAU   |   Hrp Visa Cau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PARTICIPATING_HRP   |   Participating Hrp        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HRP_MC_DISCOVER_CAU   |   Hrp Mc Discover Cau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HRP_NC_CAU   |   Hrp Nc Cau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HRP_VISA_DISCOVER_CAU   |   Hrp Visa Discover Cau        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| recurringPaymentsIndicator| Hosted Recurring Payments Indicator        |    HPR_MC_VISA_CAU   |   Hpr Mc Visa Cau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_PARTICIPATING_HRP   |   Not Participating Hrp        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HRP_ALL_CAU   |   Hrp All Cau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HRP_DISCOVER_CAU   |   Hrp Discover Cau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HRP_VISA_CAU   |   Hrp Visa Cau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PARTICIPATING_HRP   |   Participating Hrp        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HRP_MC_DISCOVER_CAU   |   Hrp Mc Discover Cau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HRP_NC_CAU   |   Hrp Nc Cau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HRP_VISA_DISCOVER_CAU   |   Hrp Visa Discover Cau        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### referencedDeposit
+
+---
+tags: [referencedDeposit]
+---
+- Description: Referenced Deposit
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| depositReferenceNumber| Deposit Reference Number        |       |           |    Available     | Required     | Allowed |    NA |    
+| referenceNumberType| Reference Number Type        |    ALPHANUMERIC   |   Alphanumeric        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NUMERIC   |   Numeric        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| depositReferenceNumber| Deposit Reference Number        |       |           |    Available     | Required     | Allowed |    NA |    
+| referenceNumberType| Reference Number Type        |    ALPHANUMERIC   |   Alphanumeric        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NUMERIC   |   Numeric        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### restrictedUseTransmatchRewards
+
+---
+tags: [restrictedUseTransmatchRewards]
+---
+- Description: Restricted Use Transmatch Rewards Program
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### retrievalConfig
+
+---
+tags: [retrievalConfig]
+---
+- Description: Retrievals Config
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| email| email address        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| reversal24HourProcessIndicator| Reversal 24Hour Process Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| reversalDaylightSavingsIndicator| Reversal Daylight Savings Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| reversalTimeZoneCode| Reversal TimeZone Code        |    BAKER_ISLAND   |   Baker Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EAST_AFRICA   |   East Africa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NEPAL_TIME   |   Nepal Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EASTERN_GREENLAND   |   Eastern Greenland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAWSON_STANDARD   |   Mawson Standard        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HAWAII_ALEUTIAN   |   Hawaii Aleutian        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PACIFIC_TIME   |   Pacific Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHRISTMAS_ISLAND   |   Christmas Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CENTRAL_EUROPEAN   |   Central European        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GMT_0430   |   Gmt 0430        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MARQUESAS_TIME   |   Marquesas Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EASTERN_TIME   |   Eastern Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    INDIAN_STANDARD   |   Indian Standard        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IRAN_DAYLIGHT   |   Iran Daylight        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUS_CENTRAL_SUMMER   |   Aus Central Summer        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CENTRAL_AFRICA   |   Central Africa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MOUNTAIN_TIME   |   Mountain Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LINE_ISLAND   |   Line Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FIJI_TIME   |   Fiji Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JAPAN_TIME   |   Japan Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GMT_0330   |   Gmt 0330        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PHOENIX_ISLAND   |   Phoenix Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PAPAU_NEW_GUINEA   |   Papau New Guinea        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALASKAN_TIME   |   Alaskan Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CENTRAL_TIME   |   Central Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GREENWICH_MEAN   |   Greenwich Mean        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUSTRAILIAN_CST   |   Austrailian Cst        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GEORGIA_STANDARD   |   Georgia Standard        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NORFOLK_TIME   |   Norfolk Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHINA_TIME   |   China Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COCOS_ISLAND   |   Cocos Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ATLANTIC_TIME   |   Atlantic Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHATHAM_STANDARD   |   Chatham Standard        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GMT+1130   |   Gmt+1130        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BRASILIA_DAYLIGHT   |   Brasilia Daylight        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAMOA_STANDARD   |   Samoa Standard        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| email| email address        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| reversal24HourProcessIndicator| Reversal 24Hour Process Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| reversalDaylightSavingsIndicator| Reversal Daylight Savings Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| reversalTimeZoneCode| Reversal TimeZone Code        |    BAKER_ISLAND   |   Baker Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EAST_AFRICA   |   East Africa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NEPAL_TIME   |   Nepal Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EASTERN_GREENLAND   |   Eastern Greenland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAWSON_STANDARD   |   Mawson Standard        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HAWAII_ALEUTIAN   |   Hawaii Aleutian        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PACIFIC_TIME   |   Pacific Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHRISTMAS_ISLAND   |   Christmas Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CENTRAL_EUROPEAN   |   Central European        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GMT_0430   |   Gmt 0430        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MARQUESAS_TIME   |   Marquesas Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EASTERN_TIME   |   Eastern Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    INDIAN_STANDARD   |   Indian Standard        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IRAN_DAYLIGHT   |   Iran Daylight        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUS_CENTRAL_SUMMER   |   Aus Central Summer        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CENTRAL_AFRICA   |   Central Africa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MOUNTAIN_TIME   |   Mountain Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LINE_ISLAND   |   Line Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FIJI_TIME   |   Fiji Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JAPAN_TIME   |   Japan Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GMT_0330   |   Gmt 0330        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PHOENIX_ISLAND   |   Phoenix Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PAPAU_NEW_GUINEA   |   Papau New Guinea        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALASKAN_TIME   |   Alaskan Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CENTRAL_TIME   |   Central Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GREENWICH_MEAN   |   Greenwich Mean        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUSTRAILIAN_CST   |   Austrailian Cst        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GEORGIA_STANDARD   |   Georgia Standard        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NORFOLK_TIME   |   Norfolk Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHINA_TIME   |   China Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COCOS_ISLAND   |   Cocos Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ATLANTIC_TIME   |   Atlantic Time        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHATHAM_STANDARD   |   Chatham Standard        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GMT+1130   |   Gmt+1130        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BRASILIA_DAYLIGHT   |   Brasilia Daylight        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAMOA_STANDARD   |   Samoa Standard        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### rtp
+
+---
+tags: [rtp]
+---
+- Description: Rtp
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|         status               |          Program Status                           |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|         status               |          Program Status                           |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+<!-- type: tab-end -->
+
+
+### sameDaySettlement
+
+---
+tags: [sameDaySettlement]
+---
+- Description: Same Day Settlement
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| currencyCd| Currency Code        |    EURO   |   Euro        |    Available     | Required     | Allowed |    NA |    
+| currencyCd| Currency Code        |    CANADIAN_DOLLAR   |   Canadian Dollar        |    Available     | Required     | Allowed |    NA |    
+| currencyCd| Currency Code        |    GRT_BRITISH_POUND   |   Grt British Pound        |    Available     | Required     | Allowed |    NA |    
+| currencyCd| Currency Code        |    USA_DOLLAR   |   Usa Dollar        |    Available     | Required     | Allowed |    NA |    
+|         status               |          Program Status                           |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| currencyCd| Currency Code        |    EURO   |   Euro        |    Available     | Required     | Allowed |    NA |    
+| currencyCd| Currency Code        |    CANADIAN_DOLLAR   |   Canadian Dollar        |    Available     | Required     | Allowed |    NA |    
+| currencyCd| Currency Code        |    GRT_BRITISH_POUND   |   Grt British Pound        |    Available     | Required     | Allowed |    NA |    
+| currencyCd| Currency Code        |    USA_DOLLAR   |   Usa Dollar        |    Available     | Required     | Allowed |    NA |    
+|         status               |          Program Status                           |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### selectiveDivert
+
+---
+tags: [selectiveDivert]
+---
+- Description: Negative Bankwire Selective Divert
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|         status               |          Program Status                           |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|         status               |          Program Status                           |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### settlementConfig
+
+---
+tags: [settlementConfig]
+---
+- Description: Settlement Config
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| billbackCode| Billback Code        |    AUTO_BILLBK_OFF   |   Auto Billbk Off        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LEGACY   |   Legacy        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUTO_BILLBK_ON   |   Auto Billbk On        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUTO_BILLBK_WITH_REVERSAL   |   Auto Billbk With Reversal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_AUTO_BILLBK   |   Not Auto Billbk        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUTO_BILLBK_NO_REVERSAL   |   Auto Billbk No Reversal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FUEL_CARD   |   Fuel Card        |    Available     | Required     | Allowed |    NA |    
+| billbackHierarchyCode| Billback Hierarchy Code        |    OUTLET   |   Outlet        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHAIN   |   Chain        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BANK   |   Bank        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| billbackCode| Billback Code        |    AUTO_BILLBK_OFF   |   Auto Billbk Off        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LEGACY   |   Legacy        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUTO_BILLBK_ON   |   Auto Billbk On        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUTO_BILLBK_WITH_REVERSAL   |   Auto Billbk With Reversal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_AUTO_BILLBK   |   Not Auto Billbk        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUTO_BILLBK_NO_REVERSAL   |   Auto Billbk No Reversal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FUEL_CARD   |   Fuel Card        |    Available     | Required     | Allowed |    NA |    
+| billbackHierarchyCode| Billback Hierarchy Code        |    OUTLET   |   Outlet        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHAIN   |   Chain        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BANK   |   Bank        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### settlementConfig
+
+---
+tags: [settlementConfig]
+---
+- Description: Settlement Config
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| billbackIndicatorCode| Billback Indicator Code        |       |           |    Available     | Required     | Allowed |    NA |    
+| billbackRoundingIndicator| Bill Back Rounding Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| billbackSurchargeCode| Billback Surcharge Code        |    AUTO_BILL_SRCHRG_BSNS   |   Auto Bill Srchrg Bsns        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FUEL_CARD_PALN_CODE_VI   |   Fuel Card Paln Code Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EXCLUDE_AUTO_FUEL_VI   |   Exclude Auto Fuel Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GOVT_PLAN_CODE_VI   |   Govt Plan Code Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CORP_CARD_PLAN_CODE_MC_VI   |   Corp Card Plan Code Mc Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COMMERCIAL_CARD_PLAN_CODE_MC_VI   |   Commercial Card Plan Code Mc Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_AUTO_BILL_SRCHRG   |   No Auto Bill Srchrg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUTO_BILLSRCHRG_MER   |   Auto Billsrchrg Mer        |    Available     | Required     | Allowed |    NA |    
+| chargeBarer| Charge Barer for Omnipay        |    CRED - Creditor pays all charges        |    Available     | Required     | Allowed |    NA |    
+|            |                                 |    SLEV - Charges follow the service level; the only allowed alternative for Sepa payments  |    Slev - Charges Follow The Service Level; The Only Allowed Alternative For Sepa Payments        |    Available     | Required     | Allowed |    NA |    
+|            |                                 |    DEBT - Debtor pays all charges  |    Debt - Debtor Pays All Charges        |    Available     | Required     | Allowed |    NA |    
+|            |                                 |    SHAR - Debtor and Creditor pay their own charges   |   Cred - Creditor Pays All Charges  |    Shar - Debtor And Creditor Pay Their Own Charges        |    Available     | Required     | Allowed |    NA |    
+| dcc| DCC Merchant for Omnipay        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| processingTypeCode| Processing Type Code        |    PAPER_TERMINAL   |   Paper Terminal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EDC   |   Edc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CASH_ADV_OUTLET_ON_US   |   Cash Adv Outlet On Us        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DIRECT_SOLUTIONS   |   Direct Solutions        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FUNDING_ACCT   |   Funding Acct        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ECR   |   Ecr        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TAPE_DEPOSITOR   |   Tape Depositor        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PAPER_VOICE   |   Paper Voice        |    Available     | Required     | Allowed |    NA |    
+| settleFrequencyCode| Settle Frequency Code        |    AT_SETTLEMENT   |   At Settlement        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DAILY_DISC   |   Daily Disc        |    Available     | Required     | Allowed |    NA |    
+| settlementMethod| The settlement method assigned to for the merchant        |    IFS_MONTHLY_NEG   |   Ifs Monthly Neg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DE_DAILY_CUP   |   De Daily Cup        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DAILY   |   Daily        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_DAILY_CUP   |   Ifs Daily Cup        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DE_DAILY   |   De Daily        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_TREASURY   |   Ifs Treasury        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_DAILY   |   Ifs Daily        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_DAILY_NEG   |   Ifs Daily Neg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DAILY_CUP   |   Daily Cup        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_DAILY_NEG_CUP   |   Ifs Daily Neg Cup        |    Available     | Required     | Allowed |    NA |    
+| surchargeExceptionCode| Determine If A Billback Surcharge Should Be Applied        |    NO_SCHG_VISA_SIG_COMM   |   No Schg Visa Sig Comm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SCHG_VISA_INF_MC   |   No Schg Visa Inf Mc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SCHG_VISA_SIG_MC   |   No Schg Visa Sig Mc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SCHG_VISA_INF_COMM   |   No Schg Visa Inf Comm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALLOW_SCHG   |   Allow Schg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SCHG_VISA_INF_MC_F20A   |   No Schg Visa Inf Mc F20A        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| billbackIndicatorCode| Billback Indicator Code        |       |           |    Available     | Required     | Allowed |    NA |    
+| billbackRoundingIndicator| Bill Back Rounding Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| billbackSurchargeCode| Billback Surcharge Code        |    AUTO_BILL_SRCHRG_BSNS   |   Auto Bill Srchrg Bsns        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FUEL_CARD_PALN_CODE_VI   |   Fuel Card Paln Code Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EXCLUDE_AUTO_FUEL_VI   |   Exclude Auto Fuel Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GOVT_PLAN_CODE_VI   |   Govt Plan Code Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CORP_CARD_PLAN_CODE_MC_VI   |   Corp Card Plan Code Mc Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COMMERCIAL_CARD_PLAN_CODE_MC_VI   |   Commercial Card Plan Code Mc Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_AUTO_BILL_SRCHRG   |   No Auto Bill Srchrg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUTO_BILLSRCHRG_MER   |   Auto Billsrchrg Mer        |    Available     | Required     | Allowed |    NA |    
+| chargeBarer| Charge Barer for Omnipay        |    CRED - Creditor pays all charges        |    Available     | Required     | Allowed |    NA |    
+|            |                                 |    SLEV - Charges follow the service level; the only allowed alternative for Sepa payments  |    Slev - Charges Follow The Service Level; The Only Allowed Alternative For Sepa Payments        |    Available     | Required     | Allowed |    NA |    
+|            |                                 |    DEBT - Debtor pays all charges  |    Debt - Debtor Pays All Charges        |    Available     | Required     | Allowed |    NA |    
+|            |                                 |    SHAR - Debtor and Creditor pay their own charges   |   Cred - Creditor Pays All Charges  |    Shar - Debtor And Creditor Pay Their Own Charges        |    Available     | Required     | Allowed |    NA |    
+| dcc| DCC Merchant for Omnipay        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| processingTypeCode| Processing Type Code        |    PAPER_TERMINAL   |   Paper Terminal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EDC   |   Edc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CASH_ADV_OUTLET_ON_US   |   Cash Adv Outlet On Us        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DIRECT_SOLUTIONS   |   Direct Solutions        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FUNDING_ACCT   |   Funding Acct        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ECR   |   Ecr        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TAPE_DEPOSITOR   |   Tape Depositor        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PAPER_VOICE   |   Paper Voice        |    Available     | Required     | Allowed |    NA |    
+| settleFrequencyCode| Settle Frequency Code        |    AT_SETTLEMENT   |   At Settlement        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DAILY_DISC   |   Daily Disc        |    Available     | Required     | Allowed |    NA |    
+| settlementMethod| The settlement method assigned to for the merchant        |    IFS_MONTHLY_NEG   |   Ifs Monthly Neg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DE_DAILY_CUP   |   De Daily Cup        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DAILY   |   Daily        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_DAILY_CUP   |   Ifs Daily Cup        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DE_DAILY   |   De Daily        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_TREASURY   |   Ifs Treasury        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_DAILY   |   Ifs Daily        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_DAILY_NEG   |   Ifs Daily Neg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DAILY_CUP   |   Daily Cup        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_DAILY_NEG_CUP   |   Ifs Daily Neg Cup        |    Available     | Required     | Allowed |    NA |    
+| surchargeExceptionCode| Determine If A Billback Surcharge Should Be Applied        |    NO_SCHG_VISA_SIG_COMM   |   No Schg Visa Sig Comm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SCHG_VISA_INF_MC   |   No Schg Visa Inf Mc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SCHG_VISA_SIG_MC   |   No Schg Visa Sig Mc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SCHG_VISA_INF_COMM   |   No Schg Visa Inf Comm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALLOW_SCHG   |   Allow Schg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SCHG_VISA_INF_MC_F20A   |   No Schg Visa Inf Mc F20A        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### signatureCapture
+
+---
+tags: [signatureCapture]
+---
+- Description: Signature Capture
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| signatureCaptureIndicator| Signature Capture Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| signatureCaptureRejectsIndicator| Signature Capture Rejects Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| signatureCaptureIndicator| Signature Capture Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| signatureCaptureRejectsIndicator| Signature Capture Rejects Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### southFrontEndBridge
+
+---
+tags: [southFrontEndBridge]
+---
+- Description: Sfe Sunset Bridge Merchant Conversions
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          status         |           Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          status         |           Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### southHdcLateCutC
+
+---
+tags: [southHdcLateCutC]
+---
+- Description: South Platform Hdc Late Batch Cut C
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          status         |           Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          status         |           Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### statementConfig
+
+---
+tags: [statementConfig]
+---
+- Description: Statement Config
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| cardAlternateCity| Card Alternate City        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| cardAlternateName| Card Alternate Name        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| cardAlternateStateCode| Card Alternate State Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| email| Statement email address        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| icplusStatementFormatCode| Code determining the interchange fee information the System prints on the merchant statement        |    ICPLUS_LONG_STMT   |   Icplus Long Stmt        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+| statementDeliveryCode| Statement delivery method        |    BOTH   |   Both        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAIL   |   Mail        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HOLD   |   Hold        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PRINT   |   Print        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ONLINE   |   Online        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EMAIL   |   Email        |    Available     | Required     | Allowed |    NA |    
+| statementFaxIndicator| Statement Fax Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| statementFaxNumber| Statement fax number        |    STRING (max - 15/min length - 10)   |   String (Max - 15/Min Length - 10)        |    Available     | Required     | Allowed |    NA |    
+| statementMailToCode| Indicates where printed statement will be sent        |    RECAP_CORP_STMT_OUTLET   |   Recap Corp Stmt Outlet        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAIL_TO_CORP_NO_RECAP   |   Mail To Corp No Recap        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SUPP_STMT_RECAP   |   Supp Stmt Recap        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAIL_TO_CORP   |   Mail To Corp        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RECAP_NO_STMT   |   Recap No Stmt        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAIL_TO_OUTLET   |   Mail To Outlet        |    Available     | Required     | Allowed |    NA |    
+| statementTypeCode| Statement type summary or detail        |    FISERV_DETAIL   |   Fiserv Detail        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FISERV_SUMMUARY   |   Fiserv Summuary        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CONCORD_SUMMARY   |   Concord Summary        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CONCORD_DETAIL   |   Concord Detail        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| cardAlternateCity| Card Alternate City        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| cardAlternateName| Card Alternate Name        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| cardAlternateStateCode| Card Alternate State Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| email| Statement email address        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| icplusStatementFormatCode| Code determining the interchange fee information the System prints on the merchant statement        |    ICPLUS_LONG_STMT   |   Icplus Long Stmt        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+| statementDeliveryCode| Statement delivery method        |    BOTH   |   Both        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAIL   |   Mail        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HOLD   |   Hold        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PRINT   |   Print        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ONLINE   |   Online        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EMAIL   |   Email        |    Available     | Required     | Allowed |    NA |    
+| statementFaxIndicator| Statement Fax Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| statementFaxNumber| Statement fax number        |    STRING (max - 15/min length - 10)   |   String (Max - 15/Min Length - 10)        |    Available     | Required     | Allowed |    NA |    
+| statementMailToCode| Indicates where printed statement will be sent        |    RECAP_CORP_STMT_OUTLET   |   Recap Corp Stmt Outlet        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAIL_TO_CORP_NO_RECAP   |   Mail To Corp No Recap        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SUPP_STMT_RECAP   |   Supp Stmt Recap        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAIL_TO_CORP   |   Mail To Corp        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RECAP_NO_STMT   |   Recap No Stmt        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAIL_TO_OUTLET   |   Mail To Outlet        |    Available     | Required     | Allowed |    NA |    
+| statementTypeCode| Statement type summary or detail        |    FISERV_DETAIL   |   Fiserv Detail        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FISERV_SUMMUARY   |   Fiserv Summuary        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CONCORD_SUMMARY   |   Concord Summary        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CONCORD_DETAIL   |   Concord Detail        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### stockExchange
+
+---
+tags: [stockExchange]
+---
+- Description: Stock Exchange/Ctry Name
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| countryName| Country Name        |    GUADELOUPE   |   Guadeloupe        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GIBRALTAR   |   Gibraltar        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GHANA   |   Ghana        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GABON   |   Gabon        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FAROE_ISLANDS   |   Faroe Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FIJI   |   Fiji        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ANGOLA   |   Angola        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NAMIBIA   |   Namibia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LIECHTENSTEIN   |   Liechtenstein        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TUNISIA   |   Tunisia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MONTSERRAT   |   Montserrat        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LIBYA   |   Libya        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BULGARIA   |   Bulgaria        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAYOTTE   |   Mayotte        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAURITANIA   |   Mauritania        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MALDIVES   |   Maldives        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LITHUANIA   |   Lithuania        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LAOS   |   Laos        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VIRGIN_ISLANDS_BRITI   |   Virgin Islands Briti        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KOREA_SOUTH   |   Korea South        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KOREA_NORTH   |   Korea North        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JARVIS_ISLAND   |   Jarvis Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JAMAICA   |   Jamaica        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    INDONESIA   |   Indonesia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HUNGARY   |   Hungary        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GUINEA   |   Guinea        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WALLIS_AND_FUTUNA   |   Wallis And Futuna        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BOLIVIA   |   Bolivia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BHUTAN   |   Bhutan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CAMEROON   |   Cameroon        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SWEDEN   |   Sweden        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SYRIA   |   Syria        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TANZANIA   |   Tanzania        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VENEZUELA   |   Venezuela        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIMOR_LESTE   |   Timor Leste        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SINT_MAARTEN   |   Sint Maarten        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TUVALU   |   Tuvalu        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNITED_STATES   |   United States        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHILE   |   Chile        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CLIPPERTON_ISLAND   |   Clipperton Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CONGO_KINSHASA   |   Congo Kinshasa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EQUATORIAL_GUINEA   |   Equatorial Guinea        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    THAILAND   |   Thailand        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ANTIGUA_AND_BARBUDA   |   Antigua And Barbuda        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VIETNAM   |   Vietnam        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ZAMBIA   |   Zambia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    N/A   |   N/A        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DENMARK   |   Denmark        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DHEKELIA   |   Dhekelia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EL_SALVADOR   |   El Salvador        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAMOA   |   Samoa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ESTONIA   |   Estonia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ETHIOPIA   |   Ethiopia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VANUATU   |   Vanuatu        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BELARUS   |   Belarus        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ASHMORE_N_CARTIER_ISL   |   Ashmore N Cartier Isl        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ARMENIA   |   Armenia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ARGENTINA   |   Argentina        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SRI_LANKA   |   Sri Lanka        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WAKE_ISLAND   |   Wake Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VIRGIN_ISLANDS_US   |   Virgin Islands Us        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TURKEY   |   Turkey        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TOGO   |   Togo        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    URUGUAY   |   Uruguay        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNITED_KINGDOM   |   United Kingdom        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TURKS_AND_CAICOS_ISLA   |   Turks And Caicos Isla        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SOLOMON_ISLANDS   |   Solomon Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TRINIDAD_AND_TOBAGO   |   Trinidad And Tobago        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TOKELAU   |   Tokelau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SVALBARD   |   Svalbard        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ARUBA   |   Aruba        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SPRATLY_ISLANDS   |   Spratly Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SPAIN   |   Spain        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SOUTH_SUDAN   |   South Sudan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AZERBAIJAN   |   Azerbaijan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GREECE   |   Greece        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SLOVAKIA   |   Slovakia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SINGAPORE   |   Singapore        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SERBIA   |   Serbia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PANAMA   |   Panama        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_PIERRE_N_MIQUEL   |   Saint Pierre N Miquel        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JERSEY   |   Jersey        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KIRIBATI   |   Kiribati        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SOMALIA   |   Somalia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SURINAME   |   Suriname        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SEYCHELLES   |   Seychelles        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_KITTS_AND_NEVIS   |   Saint Kitts And Nevis        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    POLAND   |   Poland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TAJIKISTAN   |   Tajikistan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BARBADOS   |   Barbados        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BURUNDI   |   Burundi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FRENCH_POLYNESIA   |   French Polynesia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GAMBIA_THE   |   Gambia The        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GERMANY   |   Germany        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UKRAINE   |   Ukraine        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MALTA   |   Malta        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FRANCE   |   France        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAUDI_ARABIA   |   Saudi Arabia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UGANDA   |   Uganda        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SOUTH_AFRICA   |   South Africa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PALESTINIAN_TERRITORY   |   Palestinian Territory        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PARACEL_ISLANDS   |   Paracel Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PERU   |   Peru        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PORTUGAL   |   Portugal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ZIMBABWE   |   Zimbabwe        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_LUCIA   |   Saint Lucia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SIERRA_LEONE   |   Sierra Leone        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SWITZERLAND   |   Switzerland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PHILIPPINES   |   Philippines        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SOUTH_GEORGIA_N_S_SAN   |   South Georgia N S San        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UZBEKISTAN   |   Uzbekistan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNITED_ARAB_EMIRATES   |   United Arab Emirates        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TURKMENISTAN   |   Turkmenistan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TONGA   |   Tonga        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SUDAN   |   Sudan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TAIWAN   |   Taiwan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COOK_ISLANDS   |   Cook Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SLOVENIA   |   Slovenia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_VINCENT_N_THE_G   |   Saint Vincent N The G        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SENEGAL   |   Senegal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAO_TOME_AND_PRINCIPE   |   Sao Tome And Principe        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAN_MARINO   |   San Marino        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_MARTIN   |   Saint Martin        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PALAU   |   Palau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RUSSIA   |   Russia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ROMANIA   |   Romania        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REUNION   |   Reunion        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PAKISTAN   |   Pakistan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NORTH_MACEDONIA   |   North Macedonia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NIGERIA   |   Nigeria        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MARSHALL_ISLANDS   |   Marshall Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WESTERN_SAHARA   |   Western Sahara        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HAITI   |   Haiti        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MOLDOVA   |   Moldova        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KAZAKHSTAN   |   Kazakhstan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JAPAN   |   Japan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ISRAEL   |   Israel        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GUINEA_BISSAU   |   Guinea Bissau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GUATEMALA   |   Guatemala        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FRENCH_STHERN_ANTAR   |   French Sthern Antar        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MIDWAY_ISLANDS   |   Midway Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ANGUILLA   |   Anguilla        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MOROCCO   |   Morocco        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NAURU   |   Nauru        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NAVASSA_ISLAND   |   Navassa Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NEW_CALEDONIA   |   New Caledonia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MACAU   |   Macau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BURMA   |   Burma        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NIGER   |   Niger        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MALI   |   Mali        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KUWAIT   |   Kuwait        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KENYA   |   Kenya        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JOHNSTON_ATOLL   |   Johnston Atoll        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HONG_KONG   |   Hong Kong        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CZ_FALKLAND_ISLANDS   |   Cz Falkland Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ICELAND   |   Iceland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BENIN   |   Benin        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AMERICAN_SAMOA   |   American Samoa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MEXICO   |   Mexico        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MARTINIQUE   |   Martinique        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CZECHIA   |   Czechia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LUXEMBOURG   |   Luxembourg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LIBERIA   |   Liberia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LEBANON   |   Lebanon        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LATVIA   |   Latvia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BRUNEI   |   Brunei        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ISLE_OF_MAN   |   Isle Of Man        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IRAQ   |   Iraq        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUSTRALIA   |   Australia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CANADA   |   Canada        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CAMBODIA   |   Cambodia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CABO_VERDE   |   Cabo Verde        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BRITISH_INDIAN_OCEAN   |   British Indian Ocean        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AFGHANISTAN   |   Afghanistan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KYRGYZSTAN   |   Kyrgyzstan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CENTRAL_AFRICAN_REPUB   |   Central African Repub        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHINA   |   China        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CORAL_SEA_ISLANDS   |   Coral Sea Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COSTA_RICA   |   Costa Rica        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CROATIA   |   Croatia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CUBA   |   Cuba        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BOSNIA_AND_HERZEGOVIN   |   Bosnia And Herzegovin        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BRAZIL   |   Brazil        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NORFOLK_ISLAND   |   Norfolk Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NORTHERN_MARIANA_ISLE   |   Northern Mariana Isle        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PAPUA_NEW_GUINEA   |   Papua New Guinea        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PARAGUAY   |   Paraguay        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    QATAR   |   Qatar        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALGERIA   |   Algeria        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BOTSWANA   |   Botswana        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JORDAN   |   Jordan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NEW_ZEALAND   |   New Zealand        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BERMUDA   |   Bermuda        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BELIZE   |   Belize        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BELGIUM   |   Belgium        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BANGLADESH   |   Bangladesh        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BAKER_ISLAND   |   Baker Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BAHRAIN   |   Bahrain        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NEPAL   |   Nepal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BURKINA_FASO   |   Burkina Faso        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HOWLAND_ISLAND   |   Howland Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HONDURAS   |   Honduras        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HOLY_SEE   |   Holy See        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MONGOLIA   |   Mongolia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GUAM   |   Guam        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_BARTHELEMY   |   Saint Barthelemy        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MOZAMBIQUE   |   Mozambique        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YEMEN   |   Yemen        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MALAWI   |   Malawi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MALAYSIA   |   Malaysia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAURITIUS   |   Mauritius        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MICRONESIA_FEDERATED   |   Micronesia Federated        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MONACO   |   Monaco        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MONTENEGRO   |   Montenegro        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KINGMAN_REEF   |   Kingman Reef        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DOMINICA   |   Dominica        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LESOTHO   |   Lesotho        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRENADA   |   Grenada        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GEORGIA   |   Georgia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FINLAND   |   Finland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ERITREA   |   Eritrea        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ECUADOR   |   Ecuador        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BOUVET_ISLAND   |   Bouvet Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NIUE   |   Niue        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_HELENA_ASCENSI   |   Saint Helena Ascensi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RWANDA   |   Rwanda        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PUERTO_RICO   |   Puerto Rico        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PITCAIRN_ISLANDS   |   Pitcairn Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PALMYRA_ATOLL   |   Palmyra Atoll        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    OMAN   |   Oman        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NORWAY   |   Norway        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BAHAMAS_THE   |   Bahamas The        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NETHERLANDS   |   Netherlands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AKROTIRI   |   Akrotiri        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IRAN   |   Iran        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IRELAND   |   Ireland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ITALY   |   Italy        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JAN_MAYEN   |   Jan Mayen        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MADAGASCAR   |   Madagascar        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COMOROS   |   Comoros        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DJIBOUTI   |   Djibouti        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUSTRIA   |   Austria        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CAYMAN_ISLANDS   |   Cayman Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ANTARCTICA   |   Antarctica        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALBANIA   |   Albania        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    INDIA   |   India        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ANDORRA   |   Andorra        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GREENLAND   |   Greenland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NICARAGUA   |   Nicaragua        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EGYPT   |   Egypt        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CONGO_BRAZZAVILLE   |   Congo Brazzaville        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CURAÇAO   |   Curaçao        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DOMINICAN_REPUBLIC   |   Dominican Republic        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHAD   |   Chad        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHRISTMAS_ISLAND   |   Christmas Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COLOMBIA   |   Colombia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HEARD_ISLAND_AND_MCD   |   Heard Island And Mcd        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GUYANA   |   Guyana        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COCOS_KEELING_ISLAND   |   Cocos Keeling Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GUERNSEY   |   Guernsey        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KOSOVO   |   Kosovo        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FRENCH_GUIANA   |   French Guiana        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ESWATINI   |   Eswatini        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CYPRUS   |   Cyprus        |    Available     | Required     | Allowed |    NA |    
+| stockExchangeName| Stock Exchange Name        |    EDGA_EXCHANGE_INC   |   Edga Exchange Inc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EDGX_EXCHANGE_INC   |   Edgx Exchange Inc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NASDAQ_OMX_BX_INC   |   Nasdaq Omx Bx Inc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHICAGO_BOARD_OPTIONS   |   Chicago Board Options        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NATIONAL_STOCK_EXCHG   |   National Stock Exchg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    INTERNATIONAL_SECURITY   |   International Security        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    N/A   |   N/A        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NASDAQ_OMX_PHLX_INC   |   Nasdaq Omx Phlx Inc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHICAGO_STOCK_EXCHG   |   Chicago Stock Exchg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    C2_OPTIONS_EXCHG_INC   |   C2 Options Exchg Inc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    THE_NASDAQ_STOCK_MKT   |   The Nasdaq Stock Mkt        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NYSE_ARCA_INC   |   Nyse Arca Inc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NYSE_MKT_LLC   |   Nyse Mkt Llc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NEW_YORK_STOCK_EXCHG   |   New York Stock Exchg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BATS_EXCHANGE_INC_F2   |   Bats Exchange Inc F2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BATS_Y_EXCHANGE_INC   |   Bats Y Exchange Inc        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| countryName| Country Name        |    GUADELOUPE   |   Guadeloupe        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GIBRALTAR   |   Gibraltar        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GHANA   |   Ghana        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GABON   |   Gabon        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FAROE_ISLANDS   |   Faroe Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FIJI   |   Fiji        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ANGOLA   |   Angola        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NAMIBIA   |   Namibia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LIECHTENSTEIN   |   Liechtenstein        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TUNISIA   |   Tunisia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MONTSERRAT   |   Montserrat        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LIBYA   |   Libya        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BULGARIA   |   Bulgaria        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAYOTTE   |   Mayotte        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAURITANIA   |   Mauritania        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MALDIVES   |   Maldives        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LITHUANIA   |   Lithuania        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LAOS   |   Laos        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VIRGIN_ISLANDS_BRITI   |   Virgin Islands Briti        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KOREA_SOUTH   |   Korea South        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KOREA_NORTH   |   Korea North        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JARVIS_ISLAND   |   Jarvis Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JAMAICA   |   Jamaica        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    INDONESIA   |   Indonesia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HUNGARY   |   Hungary        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GUINEA   |   Guinea        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WALLIS_AND_FUTUNA   |   Wallis And Futuna        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BOLIVIA   |   Bolivia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BHUTAN   |   Bhutan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CAMEROON   |   Cameroon        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SWEDEN   |   Sweden        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SYRIA   |   Syria        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TANZANIA   |   Tanzania        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VENEZUELA   |   Venezuela        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIMOR_LESTE   |   Timor Leste        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SINT_MAARTEN   |   Sint Maarten        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TUVALU   |   Tuvalu        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNITED_STATES   |   United States        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHILE   |   Chile        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CLIPPERTON_ISLAND   |   Clipperton Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CONGO_KINSHASA   |   Congo Kinshasa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EQUATORIAL_GUINEA   |   Equatorial Guinea        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    THAILAND   |   Thailand        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ANTIGUA_AND_BARBUDA   |   Antigua And Barbuda        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VIETNAM   |   Vietnam        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ZAMBIA   |   Zambia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    N/A   |   N/A        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DENMARK   |   Denmark        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DHEKELIA   |   Dhekelia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EL_SALVADOR   |   El Salvador        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAMOA   |   Samoa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ESTONIA   |   Estonia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ETHIOPIA   |   Ethiopia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VANUATU   |   Vanuatu        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BELARUS   |   Belarus        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ASHMORE_N_CARTIER_ISL   |   Ashmore N Cartier Isl        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ARMENIA   |   Armenia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ARGENTINA   |   Argentina        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SRI_LANKA   |   Sri Lanka        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WAKE_ISLAND   |   Wake Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VIRGIN_ISLANDS_US   |   Virgin Islands Us        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TURKEY   |   Turkey        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TOGO   |   Togo        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    URUGUAY   |   Uruguay        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNITED_KINGDOM   |   United Kingdom        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TURKS_AND_CAICOS_ISLA   |   Turks And Caicos Isla        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SOLOMON_ISLANDS   |   Solomon Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TRINIDAD_AND_TOBAGO   |   Trinidad And Tobago        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TOKELAU   |   Tokelau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SVALBARD   |   Svalbard        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ARUBA   |   Aruba        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SPRATLY_ISLANDS   |   Spratly Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SPAIN   |   Spain        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SOUTH_SUDAN   |   South Sudan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AZERBAIJAN   |   Azerbaijan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GREECE   |   Greece        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SLOVAKIA   |   Slovakia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SINGAPORE   |   Singapore        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SERBIA   |   Serbia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PANAMA   |   Panama        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_PIERRE_N_MIQUEL   |   Saint Pierre N Miquel        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JERSEY   |   Jersey        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KIRIBATI   |   Kiribati        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SOMALIA   |   Somalia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SURINAME   |   Suriname        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SEYCHELLES   |   Seychelles        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_KITTS_AND_NEVIS   |   Saint Kitts And Nevis        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    POLAND   |   Poland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TAJIKISTAN   |   Tajikistan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BARBADOS   |   Barbados        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BURUNDI   |   Burundi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FRENCH_POLYNESIA   |   French Polynesia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GAMBIA_THE   |   Gambia The        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GERMANY   |   Germany        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UKRAINE   |   Ukraine        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MALTA   |   Malta        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FRANCE   |   France        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAUDI_ARABIA   |   Saudi Arabia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UGANDA   |   Uganda        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SOUTH_AFRICA   |   South Africa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PALESTINIAN_TERRITORY   |   Palestinian Territory        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PARACEL_ISLANDS   |   Paracel Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PERU   |   Peru        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PORTUGAL   |   Portugal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ZIMBABWE   |   Zimbabwe        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_LUCIA   |   Saint Lucia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SIERRA_LEONE   |   Sierra Leone        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SWITZERLAND   |   Switzerland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PHILIPPINES   |   Philippines        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SOUTH_GEORGIA_N_S_SAN   |   South Georgia N S San        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UZBEKISTAN   |   Uzbekistan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNITED_ARAB_EMIRATES   |   United Arab Emirates        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TURKMENISTAN   |   Turkmenistan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TONGA   |   Tonga        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SUDAN   |   Sudan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TAIWAN   |   Taiwan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COOK_ISLANDS   |   Cook Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SLOVENIA   |   Slovenia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_VINCENT_N_THE_G   |   Saint Vincent N The G        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SENEGAL   |   Senegal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAO_TOME_AND_PRINCIPE   |   Sao Tome And Principe        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAN_MARINO   |   San Marino        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_MARTIN   |   Saint Martin        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PALAU   |   Palau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RUSSIA   |   Russia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ROMANIA   |   Romania        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REUNION   |   Reunion        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PAKISTAN   |   Pakistan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NORTH_MACEDONIA   |   North Macedonia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NIGERIA   |   Nigeria        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MARSHALL_ISLANDS   |   Marshall Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WESTERN_SAHARA   |   Western Sahara        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HAITI   |   Haiti        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MOLDOVA   |   Moldova        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KAZAKHSTAN   |   Kazakhstan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JAPAN   |   Japan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ISRAEL   |   Israel        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GUINEA_BISSAU   |   Guinea Bissau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GUATEMALA   |   Guatemala        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FRENCH_STHERN_ANTAR   |   French Sthern Antar        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MIDWAY_ISLANDS   |   Midway Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ANGUILLA   |   Anguilla        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MOROCCO   |   Morocco        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NAURU   |   Nauru        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NAVASSA_ISLAND   |   Navassa Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NEW_CALEDONIA   |   New Caledonia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MACAU   |   Macau        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BURMA   |   Burma        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NIGER   |   Niger        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MALI   |   Mali        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KUWAIT   |   Kuwait        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KENYA   |   Kenya        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JOHNSTON_ATOLL   |   Johnston Atoll        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HONG_KONG   |   Hong Kong        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CZ_FALKLAND_ISLANDS   |   Cz Falkland Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ICELAND   |   Iceland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BENIN   |   Benin        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AMERICAN_SAMOA   |   American Samoa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MEXICO   |   Mexico        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MARTINIQUE   |   Martinique        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CZECHIA   |   Czechia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LUXEMBOURG   |   Luxembourg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LIBERIA   |   Liberia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LEBANON   |   Lebanon        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LATVIA   |   Latvia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BRUNEI   |   Brunei        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ISLE_OF_MAN   |   Isle Of Man        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IRAQ   |   Iraq        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUSTRALIA   |   Australia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CANADA   |   Canada        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CAMBODIA   |   Cambodia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CABO_VERDE   |   Cabo Verde        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BRITISH_INDIAN_OCEAN   |   British Indian Ocean        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AFGHANISTAN   |   Afghanistan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KYRGYZSTAN   |   Kyrgyzstan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CENTRAL_AFRICAN_REPUB   |   Central African Repub        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHINA   |   China        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CORAL_SEA_ISLANDS   |   Coral Sea Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COSTA_RICA   |   Costa Rica        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CROATIA   |   Croatia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CUBA   |   Cuba        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BOSNIA_AND_HERZEGOVIN   |   Bosnia And Herzegovin        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BRAZIL   |   Brazil        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NORFOLK_ISLAND   |   Norfolk Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NORTHERN_MARIANA_ISLE   |   Northern Mariana Isle        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PAPUA_NEW_GUINEA   |   Papua New Guinea        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PARAGUAY   |   Paraguay        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    QATAR   |   Qatar        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALGERIA   |   Algeria        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BOTSWANA   |   Botswana        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JORDAN   |   Jordan        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NEW_ZEALAND   |   New Zealand        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BERMUDA   |   Bermuda        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BELIZE   |   Belize        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BELGIUM   |   Belgium        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BANGLADESH   |   Bangladesh        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BAKER_ISLAND   |   Baker Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BAHRAIN   |   Bahrain        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NEPAL   |   Nepal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BURKINA_FASO   |   Burkina Faso        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HOWLAND_ISLAND   |   Howland Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HONDURAS   |   Honduras        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HOLY_SEE   |   Holy See        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MONGOLIA   |   Mongolia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GUAM   |   Guam        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_BARTHELEMY   |   Saint Barthelemy        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MOZAMBIQUE   |   Mozambique        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YEMEN   |   Yemen        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MALAWI   |   Malawi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MALAYSIA   |   Malaysia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAURITIUS   |   Mauritius        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MICRONESIA_FEDERATED   |   Micronesia Federated        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MONACO   |   Monaco        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MONTENEGRO   |   Montenegro        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KINGMAN_REEF   |   Kingman Reef        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DOMINICA   |   Dominica        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    LESOTHO   |   Lesotho        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GRENADA   |   Grenada        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GEORGIA   |   Georgia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FINLAND   |   Finland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ERITREA   |   Eritrea        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ECUADOR   |   Ecuador        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BOUVET_ISLAND   |   Bouvet Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NIUE   |   Niue        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SAINT_HELENA_ASCENSI   |   Saint Helena Ascensi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    RWANDA   |   Rwanda        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PUERTO_RICO   |   Puerto Rico        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PITCAIRN_ISLANDS   |   Pitcairn Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PALMYRA_ATOLL   |   Palmyra Atoll        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    OMAN   |   Oman        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NORWAY   |   Norway        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BAHAMAS_THE   |   Bahamas The        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NETHERLANDS   |   Netherlands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AKROTIRI   |   Akrotiri        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IRAN   |   Iran        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IRELAND   |   Ireland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ITALY   |   Italy        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    JAN_MAYEN   |   Jan Mayen        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MADAGASCAR   |   Madagascar        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COMOROS   |   Comoros        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DJIBOUTI   |   Djibouti        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUSTRIA   |   Austria        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CAYMAN_ISLANDS   |   Cayman Islands        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ANTARCTICA   |   Antarctica        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALBANIA   |   Albania        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    INDIA   |   India        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ANDORRA   |   Andorra        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GREENLAND   |   Greenland        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NICARAGUA   |   Nicaragua        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EGYPT   |   Egypt        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CONGO_BRAZZAVILLE   |   Congo Brazzaville        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CURAÇAO   |   Curaçao        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DOMINICAN_REPUBLIC   |   Dominican Republic        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHAD   |   Chad        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHRISTMAS_ISLAND   |   Christmas Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COLOMBIA   |   Colombia        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    HEARD_ISLAND_AND_MCD   |   Heard Island And Mcd        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GUYANA   |   Guyana        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COCOS_KEELING_ISLAND   |   Cocos Keeling Island        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GUERNSEY   |   Guernsey        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KOSOVO   |   Kosovo        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FRENCH_GUIANA   |   French Guiana        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ESWATINI   |   Eswatini        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CYPRUS   |   Cyprus        |    Available     | Required     | Allowed |    NA |    
+| stockExchangeName| Stock Exchange Name        |    EDGA_EXCHANGE_INC   |   Edga Exchange Inc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EDGX_EXCHANGE_INC   |   Edgx Exchange Inc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NASDAQ_OMX_BX_INC   |   Nasdaq Omx Bx Inc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHICAGO_BOARD_OPTIONS   |   Chicago Board Options        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NATIONAL_STOCK_EXCHG   |   National Stock Exchg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    INTERNATIONAL_SECURITY   |   International Security        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    N/A   |   N/A        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NASDAQ_OMX_PHLX_INC   |   Nasdaq Omx Phlx Inc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CHICAGO_STOCK_EXCHG   |   Chicago Stock Exchg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    C2_OPTIONS_EXCHG_INC   |   C2 Options Exchg Inc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    THE_NASDAQ_STOCK_MKT   |   The Nasdaq Stock Mkt        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NYSE_ARCA_INC   |   Nyse Arca Inc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NYSE_MKT_LLC   |   Nyse Mkt Llc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NEW_YORK_STOCK_EXCHG   |   New York Stock Exchg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BATS_EXCHANGE_INC_F2   |   Bats Exchange Inc F2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BATS_Y_EXCHANGE_INC   |   Bats Y Exchange Inc        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### sunocoAutoboarding
+
+---
+tags: [sunocoAutoboarding]
+---
+- Description: Sunoco Autoboarding
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| posPartnerName| Pos Partner Name        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| rollback5CentIndicator| Rollback 5 Cent Indicator        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| posPartnerName| Pos Partner Name        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| rollback5CentIndicator| Rollback 5 Cent Indicator        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### transactionControl
+
+---
+tags: [transactionControl]
+---
+- Description: Transaction Control
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| cardActivatedTerminalCode| Merchant identified type of cardholders activated terminals that will be accepted         |    No   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    Yes   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| commercialCardInterchangeServiceCode| Indicates the level of participation in the mastercard or visa commercial card interchange service        |    DERIVE_TAX_MC   |   Derive Tax Mc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_PARTICIPATING   |   Not Participating        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DERIVE_TAX_VISA   |   Derive Tax Visa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DERIVE_TAX_MC_VISA   |   Derive Tax Mc Visa        |    Available     | Required     | Allowed |    NA |    
+| efraudServiceCode| EFraud Service level code        |    BASIC   |   Basic        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DEACTIVATE_SERVICE   |   Deactivate Service        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PREMIUM   |   Premium        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PREMIUM_PLUS   |   Premium Plus        |    Available     | Required     | Allowed |    NA |    
+| fraudFlexEffectiveDate| Fraud Flex Effective Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| fraudFlexIndicator| Fraud Flex Detect Indicator        |    FRAUD_SCORE_PROD   |   Fraud Score Prod        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_FRAUD_SCORE   |   No Fraud Score        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FRAUS_SCORE_CERT   |   Fraus Score Cert        |    Available     | Required     | Allowed |    NA |    
+| globalGatewayE4EffectiveDate| Payeezy gateway effective date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    STAGED   |   Staged        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| mastercardIramIndicator| Mastercard Incremental Reversal Auth Match indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| mastercardTieredMerchantId| Mastercard tiered merchant ID        |    STRING containing digits only - MERCHANT ID   |   String Containing Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
+| visaDebitAcceptIndicator| Describes level of Visa Debit Acceptance         |    VISA_DEBIT_POS   |   Visa Debit Pos        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VISA_DEBIT_CNP   |   Visa Debit Cnp        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_VISA_DEBIT   |   No Visa Debit        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VISA_DEBIT_ALL   |   Visa Debit All        |    Available     | Required     | Allowed |    NA |    
+| visaIramIndicator| Visa Incremental Reversal Auth Match indicator         |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| visaMerchantVerificationValue| Visa merchant verification value        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| visaMviReserveAmount| VISA MVI Reserve amount        |    STRING containing digits with decimal. Format: 00.00   |   String Containing Digits With Decimal. Format: 00.00        |    Available     | Required     | Allowed |    NA |    
+| visaRelationshipIndicator| Visa relationship particpant indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| visaTechnologyMigrationProgramAuthSourceCode| Visa Technology Migration Program  authorization source code        |    OFFLINE   |   Offline        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REFFERAL   |   Refferal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONTMP_NONAPPRVD_TRANS   |   Nontmp Nonapprvd Trans        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ISS_APPRVD   |   Iss Apprvd        |    Available     | Required     | Allowed |    NA |    
+| visaTechnologyMigrationProgramCardholderIdCode| Visa Technology Migration Program  cardholder ID code        |    UNATTENDED_NOPIN_4   |   Unattended Nopin 4        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNATTENDED_NOPIN_3   |   Unattended Nopin 3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PIN_ENTERED   |   Pin Entered        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SIG_VERIFIED   |   Sig Verified        |    Available     | Required     | Allowed |    NA |    
+| visaTechnologyMigrationProgramEntryMode| Visa Technology Migration Program terminal entry mode code        |    MAG_STRP_TRACK_READ_XMIT   |   Mag Strp Track Read Xmit        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TERM_NOT_USED   |   Term Not Used        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAG_STRP_TRACK2   |   Mag Strp Track2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAG_STRP_TRACK1   |   Mag Strp Track1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KEY_ENTERED   |   Key Entered        |    Available     | Required     | Allowed |    NA |    
+| visaTechnologyMigrationProgramPointofsaleCapabilityCode| Visa Technology Migration Program terminal capability code         |    CHIP_CARD   |   Chip Card        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNKNOWNOWN   |   Unknownown        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAG_STRP   |   Mag Strp        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CARD_DATA_NOT_READ   |   Card Data Not Read        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    OCR_READ   |   Ocr Read        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CONTACTLESS   |   Contactless        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BAR_CODE_READ   |   Bar Code Read        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TERM_NOT_USED   |   Term Not Used        |    Available     | Required     | Allowed |    NA |    
+| visaTechnologyMigrationProgramRequestCode| Visa Technology Migration Program request code        |    NOT_TMP_QUAL   |   Not Tmp Qual        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_MASTER_VALUES   |   Use Master Values        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TMP_QUAL   |   Tmp Qual        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| visaTechnologyMigrationProgramServiceLevelCode| Visa Technology Migration Program service level code        |    SERVICE   |   Service        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SERVICE   |   No Service        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIIF2_M3   |   Tiif2 M3        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| cardActivatedTerminalCode| Merchant identified type of cardholders activated terminals that will be accepted         |    No   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    Yes   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| commercialCardInterchangeServiceCode| Indicates the level of participation in the mastercard or visa commercial card interchange service        |    DERIVE_TAX_MC   |   Derive Tax Mc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_PARTICIPATING   |   Not Participating        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DERIVE_TAX_VISA   |   Derive Tax Visa        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DERIVE_TAX_MC_VISA   |   Derive Tax Mc Visa        |    Available     | Required     | Allowed |    NA |    
+| efraudServiceCode| EFraud Service level code        |    BASIC   |   Basic        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DEACTIVATE_SERVICE   |   Deactivate Service        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PREMIUM   |   Premium        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONE   |   None        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PREMIUM_PLUS   |   Premium Plus        |    Available     | Required     | Allowed |    NA |    
+| fraudFlexEffectiveDate| Fraud Flex Effective Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| fraudFlexIndicator| Fraud Flex Detect Indicator        |    FRAUD_SCORE_PROD   |   Fraud Score Prod        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_FRAUD_SCORE   |   No Fraud Score        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FRAUS_SCORE_CERT   |   Fraus Score Cert        |    Available     | Required     | Allowed |    NA |    
+| globalGatewayE4EffectiveDate| Payeezy gateway effective date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    STAGED   |   Staged        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| mastercardIramIndicator| Mastercard Incremental Reversal Auth Match indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| mastercardTieredMerchantId| Mastercard tiered merchant ID        |    STRING containing digits only - MERCHANT ID   |   String Containing Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
+| visaDebitAcceptIndicator| Describes level of Visa Debit Acceptance         |    VISA_DEBIT_POS   |   Visa Debit Pos        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VISA_DEBIT_CNP   |   Visa Debit Cnp        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_VISA_DEBIT   |   No Visa Debit        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    VISA_DEBIT_ALL   |   Visa Debit All        |    Available     | Required     | Allowed |    NA |    
+| visaIramIndicator| Visa Incremental Reversal Auth Match indicator         |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| visaMerchantVerificationValue| Visa merchant verification value        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
+| visaMviReserveAmount| VISA MVI Reserve amount        |    STRING containing digits with decimal. Format: 00.00   |   String Containing Digits With Decimal. Format: 00.00        |    Available     | Required     | Allowed |    NA |    
+| visaRelationshipIndicator| Visa relationship particpant indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+| visaTechnologyMigrationProgramAuthSourceCode| Visa Technology Migration Program  authorization source code        |    OFFLINE   |   Offline        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REFFERAL   |   Refferal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NONTMP_NONAPPRVD_TRANS   |   Nontmp Nonapprvd Trans        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ISS_APPRVD   |   Iss Apprvd        |    Available     | Required     | Allowed |    NA |    
+| visaTechnologyMigrationProgramCardholderIdCode| Visa Technology Migration Program  cardholder ID code        |    UNATTENDED_NOPIN_4   |   Unattended Nopin 4        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNATTENDED_NOPIN_3   |   Unattended Nopin 3        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PIN_ENTERED   |   Pin Entered        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SIG_VERIFIED   |   Sig Verified        |    Available     | Required     | Allowed |    NA |    
+| visaTechnologyMigrationProgramEntryMode| Visa Technology Migration Program terminal entry mode code        |    MAG_STRP_TRACK_READ_XMIT   |   Mag Strp Track Read Xmit        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TERM_NOT_USED   |   Term Not Used        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAG_STRP_TRACK2   |   Mag Strp Track2        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAG_STRP_TRACK1   |   Mag Strp Track1        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    KEY_ENTERED   |   Key Entered        |    Available     | Required     | Allowed |    NA |    
+| visaTechnologyMigrationProgramPointofsaleCapabilityCode| Visa Technology Migration Program terminal capability code         |    CHIP_CARD   |   Chip Card        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    UNKNOWNOWN   |   Unknownown        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    MAG_STRP   |   Mag Strp        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CARD_DATA_NOT_READ   |   Card Data Not Read        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    OCR_READ   |   Ocr Read        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CONTACTLESS   |   Contactless        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    BAR_CODE_READ   |   Bar Code Read        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TERM_NOT_USED   |   Term Not Used        |    Available     | Required     | Allowed |    NA |    
+| visaTechnologyMigrationProgramRequestCode| Visa Technology Migration Program request code        |    NOT_TMP_QUAL   |   Not Tmp Qual        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    USE_MASTER_VALUES   |   Use Master Values        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TMP_QUAL   |   Tmp Qual        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| visaTechnologyMigrationProgramServiceLevelCode| Visa Technology Migration Program service level code        |    SERVICE   |   Service        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SERVICE   |   No Service        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TIIF2_M3   |   Tiif2 M3        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### trustKeeper
+
+---
+tags: [trustKeeper]
+---
+- Description: Trust Keeper
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| trustkeeperDate| Trustkeeper Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| trustkeeperIndicator| Trustkeeper Indicator        |    ENROLLED   |   Enrolled        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EXPIRED   |   Expired        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_RESPONSE   |   No Response        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REFUSED   |   Refused        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_ENROLLED   |   Not Enrolled        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| trustkeeperDate| Trustkeeper Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
+| trustkeeperIndicator| Trustkeeper Indicator        |    ENROLLED   |   Enrolled        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EXPIRED   |   Expired        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_RESPONSE   |   No Response        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    REFUSED   |   Refused        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_ENROLLED   |   Not Enrolled        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### wfbCanadaEmergingMarkets
+
+---
+tags: [wfbCanadaEmergingMarkets]
+---
+- Description: Wfb Canada Emerging Markets
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|     offeringType             |       Offering Type           |    DAILY_FANTASY_SPORTS   |   Daily Fantasy Sports        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ONLINE_GAMBLING   |   Online Gambling        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|     offeringType             |       Offering Type           |    DAILY_FANTASY_SPORTS   |   Daily Fantasy Sports        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ONLINE_GAMBLING   |   Online Gambling        |    Available     | Required     | Allowed |    NA |    
+
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+
+<!-- type: tab-end -->
+
+
+### wfbSurcharge
+
+---
+tags: [wfbSurcharge]
+---
+- Description: Wfpg Surcharge Acct
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|     offeringType             |       Offering Type           |    EBILL_EXPRESS_SURCHARGE   |   Ebill Express Surcharge        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WFPG_SURCHARGE_ACCT   |   WFPG Surcharge Acct        |    Available     | Required     | Allowed |    NA |   
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|     offeringType             |       Offering Type           |    EBILL_EXPRESS_SURCHARGE   |   Ebill Express Surcharge        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    WFPG_SURCHARGE_ACCT   |   WFPG Surcharge Acct        |    Available     | Required     | Allowed |    NA |   
+<!-- type: tab-->
+
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+
+<!-- type: tab-end -->
