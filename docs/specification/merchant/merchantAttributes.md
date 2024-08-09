@@ -42,14 +42,14 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
 | String |  BE specific   |     50     |   N/A   | Required | Required |
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
 |--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
 | String |       12       |     12     |   N/A   | Required | Required |
 
-<!-- type: tab--> 
+<!-- type: tab --> 
 
 ##### South Specification
 
@@ -57,7 +57,7 @@ titles: UMM, North, South, GMA
 |--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
 | String |       11       |     11     |   N/A   | Required | Required |
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
@@ -203,7 +203,7 @@ titles: UMM, North, GMA
 | ackFilePreference            | Acknowledgement File Preference                   | NORMAL        | Normal                                                    |Available | Required | Allowed  |    NA    |
 |                              |                                                   | MASK          | Mask                                                      |Available | Required | Allowed  |    NA    |
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -211,7 +211,7 @@ titles: UMM, North, GMA
 | ackFilePreference            | Acknowledgement File Preference                   | NORMAL        | Normal                                                    |Available | Required | Allowed  |    NA    |
 |                              |                                                   | MASK          | Mask                                                      |Available | Required | Allowed  |    NA    |
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create | Update |  Delete  |
@@ -237,14 +237,14 @@ titles: UMM, North, GMA
 | secondaryTaxId               | Secondary Tax ID                                  |               |                                                           | Available| Required | Allowed  |    NA    |
 | vatTaxCode                   | VAT Tax Code                                      |               |                                                           | Available| Required | Allowed  |    NA    |
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |          -                   |                 -                                 |               |                                                           |          |          |          |          |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -273,7 +273,7 @@ titles: UMM, North, GMA
 |                          | ADRP cumulative limit count         |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 | adrpLimitAmount| A dollar limit defined for credits with no offsets         |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -282,7 +282,7 @@ titles: UMM, North, GMA
 |                          | ADRP cumulative limit count         |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 | adrpLimitAmount| A dollar limit defined for credits with no offsets         |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -308,7 +308,7 @@ titles: UMM, North, GMA
 | southAuthMatchExclusion| South Auth Match Exclusion        |    ROOT_LEVEL_MATCHING   |   Root Level Matching        |    Available     | Required     | Allowed |    NA |    
 |                        |                                   |    FULL_MID_MATCHING   |   Full Mid Matching        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -316,7 +316,7 @@ titles: UMM, North, GMA
 | southAuthMatchExclusion| South Auth Match Exclusion        |    ROOT_LEVEL_MATCHING   |   Root Level Matching        |    Available     | Required     | Allowed |    NA |    
 |                        |                                   |    FULL_MID_MATCHING   |   Full Mid Matching        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -344,7 +344,7 @@ titles: UMM, North, GMA
 |             |                       |    FINAL_AUTHORIZATION   |   Final Authorization        |    Available     | Required     | Allowed |    NA |    
 | transactionCurrency| Transaction Currency         |       |           |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -354,7 +354,7 @@ titles: UMM, North, GMA
 |             |                       |    FINAL_AUTHORIZATION   |   Final Authorization        |    Available     | Required     | Allowed |    NA |    
 | transactionCurrency| Transaction Currency         |       |           |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -395,7 +395,7 @@ titles: UMM, North, GMA
 |                     |                                              |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 |                     |                                              |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -419,7 +419,7 @@ titles: UMM, North, GMA
 |                     |                                              |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 |                     |                                              |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -449,7 +449,7 @@ titles: UMM, North, GMA
 |             |                      |    DORMANT_CANCELLED   |   Dormant Cancelled        |    Available     | Required     | Allowed |    NA |    
 |             |                      |    RESERVED_ATTACHED   |   Reserved Attached        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -461,7 +461,7 @@ titles: UMM, North, GMA
 |             |                      |    DORMANT_CANCELLED   |   Dormant Cancelled        |    Available     | Required     | Allowed |    NA |    
 |             |                      |    RESERVED_ATTACHED   |   Reserved Attached        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -496,7 +496,7 @@ titles: UMM, North, GMA
 | zeroInterchangeIndicator| Zero interchange indicator reserved for international banks only        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |             |                      |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -512,7 +512,7 @@ titles: UMM, North, GMA
 | zeroInterchangeIndicator| Zero interchange indicator reserved for international banks only        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |             |                      |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -537,7 +537,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    NOT_ACCEPTED   |   Not Accepted        |    Available     | Required     | Allowed |    NA |    
 |        | Program Status        |    ACCEPTED   |   Accepted        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -546,7 +546,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    NOT_ACCEPTED   |   Not Accepted        |    Available     | Required     | Allowed |    NA |    
 |        | Program Status        |    ACCEPTED   |   Accepted        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -574,7 +574,7 @@ titles: UMM, North, GMA
 |             |                      |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 | wisoSalesRepId| Sales rep id of the wholesale iso employee        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -584,7 +584,7 @@ titles: UMM, North, GMA
 |             |                      |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 | wisoSalesRepId| Sales rep id of the wholesale iso employee        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -609,14 +609,14 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | offeringType| Offering Type        |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | offeringType| Offering Type        |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -642,7 +642,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -650,7 +650,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -690,7 +690,7 @@ titles: UMM, North, GMA
 |                              |                                         |    ADV_ME_INC   |   Adv Me Inc        |    Available     | Required     | Allowed |    NA |    
 |                              |                                         |    BIZ2_CREDIT   |   Biz2 Credit        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### North Specification
@@ -713,7 +713,7 @@ titles: UMM, North, GMA
 |                              |                                         |    ADV_ME_INC   |   Adv Me Inc        |    Available     | Required     | Allowed |    NA |    
 |                              |                                         |    BIZ2_CREDIT   |   Biz2 Credit        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -741,7 +741,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 |       |                      |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -750,7 +750,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 |       |                      |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -778,7 +778,7 @@ titles: UMM, North, GMA
 | status      | Program Status       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |             |                      |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -788,7 +788,7 @@ titles: UMM, North, GMA
 | status      | Program Status       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |             |                      |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -844,7 +844,7 @@ titles: UMM, North, GMA
 | mediaFaxNumber| Media Fax Number        |    STRING having digits only   |   String Having Digits Only        |    Available     | Required     | Allowed |    NA |    
 | mediaRetrievalCode| Code determining how the bank retrieval and chargeback retrieval advice or requests are processed        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -881,7 +881,7 @@ titles: UMM, North, GMA
 | mediaFaxNumber| Media Fax Number        |    STRING having digits only   |   String Having Digits Only        |    Available     | Required     | Allowed |    NA |    
 | mediaRetrievalCode| Code determining how the bank retrieval and chargeback retrieval advice or requests are processed        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -907,14 +907,14 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | ccisMerchantIncome| Commercial Card Interchange Service Merchant Income        |       |           |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | ccisMerchantIncome| Commercial Card Interchange Service Merchant Income        |       |           |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -950,7 +950,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    ACTIVE_COMPASS_ON_NORTH   |   Active Compass On North        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    CANCEL_COMPASS_ON_NORTH   |   Cancel Compass On North        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -965,7 +965,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    ACTIVE_COMPASS_ON_NORTH   |   Active Compass On North        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    CANCEL_COMPASS_ON_NORTH   |   Cancel Compass On North        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -998,7 +998,7 @@ titles: UMM, North, GMA
 | visaToleranceCheckInd| Visa Tolerance Check Ind        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |                 |                           |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1010,7 +1010,7 @@ titles: UMM, North, GMA
 | visaToleranceCheckInd| Visa Tolerance Check Ind        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |                 |                           |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1044,7 +1044,7 @@ titles: UMM, North, GMA
 |             |                      |    CRED_RISK_REV_MPA   |   Cred Risk Rev Mpa        |    Available     | Required     | Allowed |    NA |    
 |             |                      |    INACTIVE   |   Inactive        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1058,7 +1058,7 @@ titles: UMM, North, GMA
 |             |                      |    CRED_RISK_REV_MPA   |   Cred Risk Rev Mpa        |    Available     | Required     | Allowed |    NA |    
 |             |                      |    INACTIVE   |   Inactive        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1171,14 +1171,14 @@ titles: UMM, North, GMA
 | serviceContractIndex| Service contract defines the processing rules for a merchant        |    SERVICE_CONTRACT_1   |   Service Contract 1        |    Available     | Required     | Allowed |    NA |    
 
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |          -                   |                 -                                 |               |                                                           |          |          |          |          |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1294,7 +1294,7 @@ titles: UMM, North, GMA
 | contractExpirationDate| Contract Expiration Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
 | gcid| Global Client Id        |       |           |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -1303,7 +1303,7 @@ titles: UMM, North, GMA
 | contractExpirationDate| Contract Expiration Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
 | gcid| Global Client Id        |       |           |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1334,7 +1334,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -1345,7 +1345,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1486,7 +1486,7 @@ titles: UMM, North, GMA
 |                            |                                     |    REJECT_IF_GTE_150000   |   Reject If Gte 150000        |    Available     | Required     | Allowed |    NA |    
 
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -1607,7 +1607,7 @@ titles: UMM, North, GMA
 |                            |                                     |    REJECT_IF_GTE_150000   |   Reject If Gte 150000        |    Available     | Required     | Allowed |    NA |    
 
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1637,7 +1637,7 @@ titles: UMM, North, GMA
 | viSmiActivationInd| Visa Smi Activation Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 |                   |                                      |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -1647,7 +1647,7 @@ titles: UMM, North, GMA
 | viSmiActivationInd| Visa Smi Activation Indicator        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 |                   |                                      |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1676,7 +1676,7 @@ titles: UMM, North, GMA
 | offeringType| Offering Type        |    DCC   |   Dcc        |    Available     | Required     | Allowed |    NA |    
 |             |                      |    DYNAMIC_PRICING   |   Dynamic Pricing        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -1685,7 +1685,7 @@ titles: UMM, North, GMA
 | offeringType| Offering Type        |    DCC   |   Dcc        |    Available     | Required     | Allowed |    NA |    
 |             |                      |    DYNAMIC_PRICING   |   Dynamic Pricing        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1715,7 +1715,7 @@ titles: UMM, North, GMA
 |             |                      |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 | programGuideVersion| Program Guide Version        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -1725,7 +1725,7 @@ titles: UMM, North, GMA
 |             |                      |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 | programGuideVersion| Program Guide Version        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1753,7 +1753,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -1762,7 +1762,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1794,7 +1794,7 @@ titles: UMM, North, GMA
 |                      |                                        |    CARS_DFAULT_FEE   |   Cars Dfault Fee        |    Available     | Required     | Allowed |    NA |    
 |                      |                                        |    USER_DEFINED_FEE   |   User Defined Fee        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -1806,7 +1806,7 @@ titles: UMM, North, GMA
 |                      |                                        |    CARS_DFAULT_FEE   |   Cars Dfault Fee        |    Available     | Required     | Allowed |    NA |    
 |                      |                                        |    USER_DEFINED_FEE   |   User Defined Fee        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1849,7 +1849,7 @@ titles: UMM, North, GMA
 |              |                                                                               |    HOST_MUST_BALANCE   |   Host Must Balance        |    Available     | Required     | Allowed |    NA |    
 |              |                                                                               |    ETC_ELC_W_CLS_BAT   |   Etc Elc W Cls Bat        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### North Specification
@@ -1873,7 +1873,7 @@ titles: UMM, North, GMA
 |              |                                                                               |    HOST_MUST_BALANCE   |   Host Must Balance        |    Available     | Required     | Allowed |    NA |    
 |              |                                                                               |    ETC_ELC_W_CLS_BAT   |   Etc Elc W Cls Bat        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1901,7 +1901,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    ENHANCED_DB_FLOW_OFF   |   Enhanced Db Flow Off        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    ENHANCED_DB_FLOW_ON   |   Enhanced Db Flow On        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -1910,7 +1910,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    ENHANCED_DB_FLOW_OFF   |   Enhanced Db Flow Off        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    ENHANCED_DB_FLOW_ON   |   Enhanced Db Flow On        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1938,7 +1938,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    NOT_MIGRATED   |   Not Migrated        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    MIGRATED   |   Migrated        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -1948,7 +1948,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    NOT_MIGRATED   |   Not Migrated        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    MIGRATED   |   Migrated        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -1989,7 +1989,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -2011,7 +2011,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -2039,7 +2039,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | fhbNaicsNumber| Fhb Naics Number N        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -2047,7 +2047,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | fhbNaicsNumber| Fhb Naics Number N        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -2084,7 +2084,7 @@ titles: UMM, North, GMA
 |                       |                                 |    KAREN   |   Karen        |    Available     | Required     | Allowed |    NA |    
 |                       |                                 |    KOREAN   |   Korean        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -2103,7 +2103,7 @@ titles: UMM, North, GMA
 |                       |                                 |    KAREN   |   Karen        |    Available     | Required     | Allowed |    NA |    
 |                       |                                 |    KOREAN   |   Korean        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -2129,7 +2129,7 @@ titles: UMM, North, GMA
 | offeringType| Offering Type  |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |             |                |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -2138,7 +2138,7 @@ titles: UMM, North, GMA
 | offeringType| Offering Type  |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |             |                |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -2165,7 +2165,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    CAUTION_PREVIOUS_FRAUD   |   Caution Previous Fraud        |    Available     | Required     | Allowed |    NA |    
 |             |                |    URGENT_MERCH_AT_RISK   |   Urgent Merch At Risk        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -2174,7 +2174,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    CAUTION_PREVIOUS_FRAUD   |   Caution Previous Fraud        |    Available     | Required     | Allowed |    NA |    
 |             |                |    URGENT_MERCH_AT_RISK   |   Urgent Merch At Risk        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -2202,7 +2202,7 @@ titles: UMM, North, GMA
 |       |                       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -2212,7 +2212,7 @@ titles: UMM, North, GMA
 |       |                       |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |       |                       |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -2673,7 +2673,7 @@ titles: UMM, North, GMA
 | temporaryFromDate| Temporary From Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
 | temporaryToDate| Temporary To Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -3116,7 +3116,7 @@ titles: UMM, North, GMA
 | temporaryFromDate| Temporary From Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
 | temporaryToDate| Temporary To Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -3146,7 +3146,7 @@ titles: UMM, North, GMA
 | offeringSubType2| Globally Used For All North Backend Sales Channels        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | offeringType| Offering Type        |    PRISMATIC   |   Prismatic        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -3158,7 +3158,7 @@ titles: UMM, North, GMA
 | offeringSubType2| Globally Used For All North Backend Sales Channels        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | offeringType| Offering Type        |    PRISMATIC   |   Prismatic        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -3203,7 +3203,7 @@ titles: UMM, North, GMA
 |                                           |                       |    PENDING_REGISTER   |   Pending Register        |    Available     | Required     | Allowed |    NA |    
 |                                           |                       |    OTHER   |   Other        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -3230,7 +3230,7 @@ titles: UMM, North, GMA
 |                                           |                       |    PENDING_REGISTER   |   Pending Register        |    Available     | Required     | Allowed |    NA |    
 |                                           |                       |    OTHER   |   Other        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -3259,7 +3259,7 @@ titles: UMM, North, GMA
 | inHouseBankCode| InHouse Bank Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | inHouseNonMerchantCode| InHouse NonMerchant Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
  
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -3269,7 +3269,7 @@ titles: UMM, North, GMA
 | inHouseBankCode| InHouse Bank Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | inHouseNonMerchantCode| InHouse NonMerchant Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
  
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -3304,7 +3304,7 @@ titles: UMM, North, GMA
 |                                           |                       |    AGENT   |   Agent        |    Available     | Required     | Allowed |    NA |    
 |                                           |                       |    ALLIANCE   |   Alliance        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -3319,7 +3319,7 @@ titles: UMM, North, GMA
 |                                           |                       |    AGENT   |   Agent        |    Available     | Required     | Allowed |    NA |    
 |                                           |                       |    ALLIANCE   |   Alliance        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -3346,7 +3346,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | offeringType| Offering Type        |    BYPASS_CLOVER_ISV   |   Bypass Clover Isv        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### North Specification
@@ -3355,7 +3355,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | offeringType| Offering Type        |    BYPASS_CLOVER_ISV   |   Bypass Clover Isv        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -3386,7 +3386,7 @@ titles: UMM, North, GMA
 |                                           |                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |                                           |                       |    REPROCESS   |   Reprocess        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -3398,7 +3398,7 @@ titles: UMM, North, GMA
 |                                           |                       |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |                                           |                       |    REPROCESS   |   Reprocess        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -3425,7 +3425,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | canadianVatRegNumber| Canadian Vat Registration Number        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### North Specification
@@ -3434,7 +3434,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | canadianVatRegNumber| Canadian Vat Registration Number        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -3475,7 +3475,7 @@ titles: UMM, North, GMA
 | requestGuid| Request Guid        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | userProvidedEconsentEmail| User Provided Econsent Email        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -3496,7 +3496,7 @@ titles: UMM, North, GMA
 | requestGuid| Request Guid        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | userProvidedEconsentEmail| User Provided Econsent Email        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -3531,7 +3531,7 @@ titles: UMM, North, GMA
 |                                           |                       |    MARKETPLACE   |   Marketplace        |    Available     | Required     | Allowed |    NA |    
 |                                           |                       |    FD_DIRECT   |   Fd Direct        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### North Specification
@@ -3547,7 +3547,7 @@ titles: UMM, North, GMA
 |                                           |                       |    MARKETPLACE   |   Marketplace        |    Available     | Required     | Allowed |    NA |    
 |                                           |                       |    FD_DIRECT   |   Fd Direct        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -3576,7 +3576,7 @@ titles: UMM, North, GMA
 | keyReferenceNumber| Credit Only Key Reference Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
 | tbd| Tbd        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### North Specification
@@ -3586,7 +3586,7 @@ titles: UMM, North, GMA
 | keyReferenceNumber| Credit Only Key Reference Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
 | tbd| Tbd        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -3858,7 +3858,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    BVT   |   Bvt        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    VGB   |   Vgb        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    BRN   |   Brn        |    Available     | Required     | Allowed |    NA |    
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -4111,7 +4111,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    BVT   |   Bvt        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    VGB   |   Vgb        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    BRN   |   Brn        |    Available     | Required     | Allowed |    NA |    
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -4142,7 +4142,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | afdsMerchantAuthBlockStatus| Afds Merchant Auth Block Status        |    AFDS_AUTH_BLOCK   |   Afds Auth Block        |    Available     | Required     | Allowed |    NA |    
 |          -                 |                 -                      |    AFDS_AUTH_UNBLOCK   |   Afds Auth Unblock        |    Available     | Required     | Allowed |    NA |    
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -4150,7 +4150,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | afdsMerchantAuthBlockStatus| Afds Merchant Auth Block Status        |    AFDS_AUTH_BLOCK   |   Afds Auth Block        |    Available     | Required     | Allowed |    NA |    
 |          -                 |                 -                      |    AFDS_AUTH_UNBLOCK   |   Afds Auth Unblock        |    Available     | Required     | Allowed |    NA |    
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -4214,7 +4214,7 @@ titles: UMM, North, GMA
 | authNetworkSecurityCode1| Code Which Can Be Used To Determine The Front End Network        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
 | authNetworkSecurityCode2| Code which is being used to determine the front end network         |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -4255,7 +4255,7 @@ titles: UMM, North, GMA
 | authNetworkSecurityCode1| Code Which Can Be Used To Determine The Front End Network        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
 | authNetworkSecurityCode2| Code which is being used to determine the front end network         |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -4288,7 +4288,7 @@ titles: UMM, North, GMA
 | merchantLiteCreditLimitAmount| Merchant Lite Credit Limit Amount                 |    STRING - Digits only - no decimal (max length - 5, min - 1)   |   String - Digits Only - No Decimal (Max Length: 5, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 | merchantLiteSalesLimitAmount | Merchant Lite Sales Limit Amount                  |    STRING - Digits only - no decimal (max length - 5, min - 1)   |   String - Digits Only - No Decimal (Max Length: 5, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -4298,7 +4298,7 @@ titles: UMM, North, GMA
 | merchantLiteCreditLimitAmount| Merchant Lite Credit Limit Amount                 |    STRING - Digits only - no decimal (max length - 5, min - 1)   |   String - Digits Only - No Decimal (Max Length: 5, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 | merchantLiteSalesLimitAmount | Merchant Lite Sales Limit Amount                  |    STRING - Digits only - no decimal (max length - 5, min - 1)   |   String - Digits Only - No Decimal (Max Length: 5, Min Length: 1)        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -4325,13 +4325,13 @@ titles: UMM, North, GMA
 | municipalityTaxInd| Municipality Tax Indicator        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | municipilatityCode| Municipality Code        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |          -                   |                 -                                 |               |                                                           |          |          |          |          |    
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 
@@ -4370,7 +4370,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    SMB   |   Smb        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    MIDMARKET   |   Midmarket        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -4383,7 +4383,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    SMB   |   Smb        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    MIDMARKET   |   Midmarket        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -4414,7 +4414,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |          -            |                 -                    |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -4422,7 +4422,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |          -            |                 -                    |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -4454,7 +4454,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | contractDate| Contract Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### North Specification
@@ -4463,7 +4463,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | contractDate| Contract Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -4563,7 +4563,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    MNTH_LAST_FRI   |   Mnth Last Fri        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    WKLY_FRI   |   Wkly Fri        |    Available     | Required     | Allowed |    NA |  
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -4642,7 +4642,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    MNTH_LAST_FRI   |   Mnth Last Fri        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    WKLY_FRI   |   Wkly Fri        |    Available     | Required     | Allowed |    NA |  
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -4703,7 +4703,7 @@ titles: UMM, North, GMA
 | descriptorEntitledIndicator| Descriptor Entitled Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -4747,7 +4747,7 @@ titles: UMM, North, GMA
 | descriptorEntitledIndicator| Descriptor Entitled Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 
@@ -4780,7 +4780,7 @@ titles: UMM, North, GMA
 | offeringType| Offering Type        |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
 
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -4789,7 +4789,7 @@ titles: UMM, North, GMA
 | offeringType| Offering Type        |    STANDARD_OFFERING   |   Standard Offering        |    Available     | Required     | Allowed |    NA |    
 
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -4921,7 +4921,7 @@ titles: UMM, North, GMA
 | msipVisaFloorAmount| MSIP Visa Floor Amount        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
 
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5032,7 +5032,7 @@ titles: UMM, North, GMA
 | msipVisaFloorAmount| MSIP Visa Floor Amount        |    Not available in API mappings   |   Not Available In Api Mappings        |    Available     | Required     | Allowed |    NA |    
 
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -5065,7 +5065,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    MSB   |   Msb        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    SINGLE_MID_PFAC   |   Single Mid Pfac        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5078,7 +5078,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    MSB   |   Msb        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    SINGLE_MID_PFAC   |   Single Mid Pfac        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -5107,7 +5107,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | nationalAccountId| National account id        |       |           |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5115,7 +5115,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | nationalAccountId| National account id        |       |           |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -5145,7 +5145,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5154,7 +5154,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -5208,7 +5208,7 @@ titles: UMM, North, GMA
 | linkBackwardMerchantId| Link Backward Merchant Id        |    STRING containing digits only - MERCHANT ID   |   String Containing Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
 | linkForwardMerchantId| Link Forward Merchant Id        |    STRING containing digits only - MERCHANT ID   |   String Containing Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5242,7 +5242,7 @@ titles: UMM, North, GMA
 | linkBackwardMerchantId| Link Backward Merchant Id        |    STRING containing digits only - MERCHANT ID   |   String Containing Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
 | linkForwardMerchantId| Link Forward Merchant Id        |    STRING containing digits only - MERCHANT ID   |   String Containing Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -5270,7 +5270,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |       offeringType       |              Offering Type          |    APPLY_PAN_MASKING   |   Apply Pan Masking        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5278,7 +5278,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |       offeringType       |              Offering Type          |    APPLY_PAN_MASKING   |   Apply Pan Masking        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -5312,7 +5312,7 @@ titles: UMM, North, GMA
 | futureUse2| Future Use 2        |       |           |    Available     | Required     | Allowed |    NA |    
 | seeBnfOnFndTab| See Bnf On Fnd Tab        |    SEE_BNF_ON_FND_TAB   |   See Bnf On Fnd Tab        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -5354,7 +5354,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    PAYPAL_EXCEPTION   |   Paypal Exception        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    AIRLINES   |   Airlines        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -5399,7 +5399,7 @@ titles: UMM, North, GMA
 | pfIdDscv| Payment Facilitator Id Discover        |       |           |    Available     | Required     | Allowed |    NA |    
 | pfIdMc| Payment Facilitator Id Mc        |       |           |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5424,7 +5424,7 @@ titles: UMM, North, GMA
 | pfIdDscv| Payment Facilitator Id Discover        |       |           |    Available     | Required     | Allowed |    NA |    
 | pfIdMc| Payment Facilitator Id Mc        |       |           |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 
@@ -5455,7 +5455,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | northChainBank| North Chain Bank        |       |           |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### North Specification
@@ -5464,7 +5464,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | northChainBank| North Chain Bank        |       |           |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -5519,7 +5519,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    SCHEDULE_124   |   Schedule 124        |    Available     | Required     | Allowed |    NA |    
 
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5556,7 +5556,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    SCHEDULE_124   |   Schedule 124        |    Available     | Required     | Allowed |    NA |    
 
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -5588,7 +5588,7 @@ titles: UMM, North, GMA
 | promotionName4| Promotion Name Four        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | promotionName5| Promotion Name Five        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### North Specification
@@ -5602,7 +5602,7 @@ titles: UMM, North, GMA
 | promotionName5| Promotion Name Five        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
  
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
@@ -5633,7 +5633,7 @@ titles: UMM, North, GMA
 | northShellMid| Original North Shell Mid/N        |    Digits only - MERCHANT ID   |   Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
 | propMerchantId| Original Prop Merchant Id        |    Digits only - MERCHANT ID   |   Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5642,7 +5642,7 @@ titles: UMM, North, GMA
 | northShellMid| Original North Shell Mid/N        |    Digits only - MERCHANT ID   |   Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
 | propMerchantId| Original Prop Merchant Id        |    Digits only - MERCHANT ID   |   Digits Only - Merchant Id        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -5673,7 +5673,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    NOT_ENABLED   |   Not Enabled        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    ENABLED   |   Enabled        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5682,7 +5682,7 @@ titles: UMM, North, GMA
 | status| Program Status        |    NOT_ENABLED   |   Not Enabled        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    ENABLED   |   Enabled        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -5714,7 +5714,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    RAPID_DEP_NOT_ALLOWED   |   Rapid Dep Not Allowed        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    RAPID_DEP_IS_ALLOWED   |   Rapid Dep Is Allowed        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5724,7 +5724,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    RAPID_DEP_NOT_ALLOWED   |   Rapid Dep Not Allowed        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    RAPID_DEP_IS_ALLOWED   |   Rapid Dep Is Allowed        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -5758,7 +5758,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    THREE_YEARS   |   Three Years        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    ONE_YEAR   |   One Year        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5770,7 +5770,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    THREE_YEARS   |   Three Years        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    ONE_YEAR   |   One Year        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -5808,7 +5808,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    HRP_NC_CAU   |   Hrp Nc Cau        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    HRP_VISA_DISCOVER_CAU   |   Hrp Visa Discover Cau        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5824,7 +5824,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    HRP_NC_CAU   |   Hrp Nc Cau        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    HRP_VISA_DISCOVER_CAU   |   Hrp Visa Discover Cau        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -5856,7 +5856,7 @@ titles: UMM, North, GMA
 | referenceNumberType| Reference Number Type        |    ALPHANUMERIC   |   Alphanumeric        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NUMERIC   |   Numeric        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5866,7 +5866,7 @@ titles: UMM, North, GMA
 | referenceNumberType| Reference Number Type        |    ALPHANUMERIC   |   Alphanumeric        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NUMERIC   |   Numeric        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -5897,7 +5897,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -5906,7 +5906,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -5976,7 +5976,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    BRASILIA_DAYLIGHT   |   Brasilia Daylight        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    SAMOA_STANDARD   |   Samoa Standard        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -6024,7 +6024,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    BRASILIA_DAYLIGHT   |   Brasilia Daylight        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    SAMOA_STANDARD   |   Samoa Standard        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -6055,7 +6055,7 @@ titles: UMM, North, GMA
 |         status               |          Program Status                           |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -6064,7 +6064,7 @@ titles: UMM, North, GMA
 |         status               |          Program Status                           |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -6098,7 +6098,7 @@ titles: UMM, North, GMA
 |         status               |          Program Status                           |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -6111,7 +6111,7 @@ titles: UMM, North, GMA
 |         status               |          Program Status                           |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -6142,7 +6142,7 @@ titles: UMM, North, GMA
 |         status               |          Program Status                           |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -6151,7 +6151,7 @@ titles: UMM, North, GMA
 |         status               |          Program Status                           |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -6217,7 +6217,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    ALLOW_SCHG   |   Allow Schg        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NO_SCHG_VISA_INF_MC_F20A   |   No Schg Visa Inf Mc F20A        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### North Specification
@@ -6262,7 +6262,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    ALLOW_SCHG   |   Allow Schg        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NO_SCHG_VISA_INF_MC_F20A   |   No Schg Visa Inf Mc F20A        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -6310,7 +6310,7 @@ titles: UMM, North, GMA
 | signatureCaptureRejectsIndicator| Signature Capture Rejects Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -6321,7 +6321,7 @@ titles: UMM, North, GMA
 | signatureCaptureRejectsIndicator| Signature Capture Rejects Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -6352,7 +6352,7 @@ titles: UMM, North, GMA
 |          status         |           Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -6361,7 +6361,7 @@ titles: UMM, North, GMA
 |          status         |           Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -6392,7 +6392,7 @@ titles: UMM, North, GMA
 |          status         |           Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -6401,7 +6401,7 @@ titles: UMM, North, GMA
 |          status         |           Program Status        |    CANCEL   |   Cancel        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    ACTIVE   |   Active        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -6456,7 +6456,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    CONCORD_SUMMARY   |   Concord Summary        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    CONCORD_DETAIL   |   Concord Detail        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -6489,7 +6489,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    CONCORD_SUMMARY   |   Concord Summary        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    CONCORD_DETAIL   |   Concord Detail        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -6798,7 +6798,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    BATS_EXCHANGE_INC_F2   |   Bats Exchange Inc F2        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    BATS_Y_EXCHANGE_INC   |   Bats Y Exchange Inc        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### North Specification
@@ -7086,7 +7086,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    BATS_EXCHANGE_INC_F2   |   Bats Exchange Inc F2        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    BATS_Y_EXCHANGE_INC   |   Bats Y Exchange Inc        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -7117,7 +7117,7 @@ titles: UMM, North, GMA
 | posPartnerName| Pos Partner Name        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | rollback5CentIndicator| Rollback 5 Cent Indicator        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -7126,7 +7126,7 @@ titles: UMM, North, GMA
 | posPartnerName| Pos Partner Name        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | rollback5CentIndicator| Rollback 5 Cent Indicator        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -7217,7 +7217,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    NO_SERVICE   |   No Service        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    TIIF2_M3   |   Tiif2 M3        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -7286,7 +7286,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    NO_SERVICE   |   No Service        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    TIIF2_M3   |   Tiif2 M3        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -7321,7 +7321,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    REFUSED   |   Refused        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NOT_ENROLLED   |   Not Enrolled        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -7334,7 +7334,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    REFUSED   |   Refused        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NOT_ENROLLED   |   Not Enrolled        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -7365,7 +7365,7 @@ titles: UMM, North, GMA
 |     offeringType             |       Offering Type           |    DAILY_FANTASY_SPORTS   |   Daily Fantasy Sports        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    ONLINE_GAMBLING   |   Online Gambling        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -7374,7 +7374,7 @@ titles: UMM, North, GMA
 |     offeringType             |       Offering Type           |    DAILY_FANTASY_SPORTS   |   Daily Fantasy Sports        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    ONLINE_GAMBLING   |   Online Gambling        |    Available     | Required     | Allowed |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
@@ -7404,7 +7404,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |     offeringType             |       Offering Type           |    EBILL_EXPRESS_SURCHARGE   |   Ebill Express Surcharge        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    WFPG_SURCHARGE_ACCT   |   WFPG Surcharge Acct        |    Available     | Required     | Allowed |    NA |   
-<!-- type: tab-->
+<!-- type: tab -->
 
 ##### North Specification
 
@@ -7412,7 +7412,7 @@ titles: UMM, North, GMA
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |     offeringType             |       Offering Type           |    EBILL_EXPRESS_SURCHARGE   |   Ebill Express Surcharge        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    WFPG_SURCHARGE_ACCT   |   WFPG Surcharge Acct        |    Available     | Required     | Allowed |    NA |   
-<!-- type: tab-->
+<!-- type: tab -->
 
 
 ##### GMA Specification
