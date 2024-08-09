@@ -38,9 +38,9 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 ##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-| String | Required | Required | Required     |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 8        |    8        |    Required     | Required     | Required |    NA     |
 
 <!-- type: tab-end -->
 ---
@@ -88,15 +88,15 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 ##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-| String | Required | Required | Required   |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 9        |    9        |    Required     | Required     | Required |    NA     |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| OMNIPAY26     |     OMNIPAY26   |
-| OMNIPAY21     |     OMNIPAY21   |
+| OMNIPAY26     |  Omnipay Backend ( GMA)    |
+| OMNIPAY21     |    Omnipay ( Australia)    | 
 
 <!-- type: tab-end -->
 ---
@@ -230,9 +230,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 ##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-| String |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 5       |    9        |    Available     | Required     | NA |    NA     |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| GROUP     |     Highest level in Omnipay Hierarchy   | 
+| SUB_GROUP |     This represents the next level in Omnipay Hierarchy below Group level   | 
+| MEMBER    |     This identifies the actual processing Merchant assigned to a location in Omnipay |
 
 <!-- type: tab-end -->
 ---

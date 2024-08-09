@@ -38,9 +38,9 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 ##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-| String |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 8        |    8        |  Required  | Required | Required |    NA     |
 
 <!-- type: tab-end -->
 ---
@@ -88,9 +88,15 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 ##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-| String |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 9        |    9        |    Required     | NA     | NA |    NA     |
+
+**Valid Values**: 
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| OMNIPAY26     |  Omnipay Backend ( GMA)    |
+| OMNIPAY21     |    Omnipay ( Australia)    |      
 
 <!-- type: tab-end -->
 
@@ -114,7 +120,7 @@ titles: UMM, North, GMA
 |:----------------------|:------------------------------------------------|
 | GROUP     |     Highest level in Omnipay Hierarchy   | 
 | SUB_GROUP     |     This represents the next level in Omnipay Hierarchy below Group level   | 
-| MEMBER     |     This identifies the actual processing Merchant assigned to a location in Omnipay  
+| MEMBER     |     This identifies the actual processing Merchant assigned to a location in Omnipay  |
 |  AGENT   |   AGENT hierarchy level (040)  in North   |
 |  CHAIN   |   CHAIN hierarchy level (020)  in North   |
 |  BANK   |    Bank  hierarchy level  (050) in North   |
@@ -151,9 +157,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 ##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 5        |    9        |    Available     | Required     | NA |    NA |         |
+
+**Valid Values**: 
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| GROUP     |     Highest level in Omnipay Hierarchy   | 
+| SUB_GROUP     |     This represents the next level in Omnipay Hierarchy below Group level   | 
+| MEMBER     |     This identifies the actual processing Merchant assigned to a location in Omnipay |
 
 <!-- type: tab-end -->
 ---
@@ -190,9 +203,10 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 ##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Integer  | 1        |    3        |    Available     | NA     | NA |    NA |         |
+
 
 <!-- type: tab-end -->
 ---
@@ -229,9 +243,9 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 ##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 8        |    8        |    Available     | Required     | NA |    NA |   
 
 <!-- type: tab-end -->
 ---
@@ -267,8 +281,8 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 ##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+ Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 1        |    50        |    Available     | NA     | NA |    NA |    
 
 <!-- type: tab-end -->
