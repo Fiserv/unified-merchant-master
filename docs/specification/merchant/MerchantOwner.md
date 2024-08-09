@@ -1,7 +1,8 @@
 # Merchant Owner
 * **Description**: Essential information about merchant owner, including demographic details, and contact information. This is a critical information for every principal owner of a merchant.
-* **API section**: root 
-* **Table Name**: UMM.MERCHANT 
+* **API schema**: `Owner`
+* **Table Name**: `UMM.MERCHANT_OWNER` 
+
 ## List of Fields:
 
 ### MERCHANT_ID
@@ -16,8 +17,9 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 34        |    50        |    Available     | NA     | NA |    NA |    
+| String  | 8        |    50        |    Required     | Required     | Required |    Required     |
 
+* Merchant Id is required for carrying out any operation on a specific merchant. 
 
 <!-- type: tab -->
 
@@ -25,7 +27,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | NA   | NA   | NA |    
+| String   | Required   | Required   | Required   | Required  |
 
 <!-- type: tab --> 
 
@@ -38,11 +40,10 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| String |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
-
 ### PLATFORM_CODE
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
@@ -55,15 +56,15 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 5        |    50        |    Available     | Required     | NA |    NA |         |
+| String  | 5        |    9        |    Required     | Required     | Required |    Required     |
 
 **Valid Values**: 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NORTH     |        | 
-| OMNIPAY26     |        | 
-| SOUTH     |     South   | 
-| OMNIPAY21     |        | 
+| NORTH     |   North Backend     | 
+| OMNIPAY26     |  Omnipay Backend ( GMA)      | 
+| SOUTH     |     South  Backend | 
+| OMNIPAY21     |    Omnipay ( Australia)    |      |
 
 <!-- type: tab -->
 
@@ -71,12 +72,12 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Required   | NA   | NA |
+| String   | Required   | Required   | Required   | Required     |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NORTH     |     North   |
+| NORTH     |     North   |  |
 
 <!-- type: tab --> 
 
@@ -89,7 +90,7 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| String |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -106,8 +107,11 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    3        |    Available     | Allowed (optional)     | Required |    NA |    
+| String  | 1        |    3        |    Available     | Required     | Allowed  |    Allowed | 
 
+* ownerSeqCode is required to update or delete entire owner section. 
+* Delete will completely remove owner information associated with the specific sequence number. 
+* ownerSeqCode will be utilized to update owner information for a specific sequence number.
 
 <!-- type: tab -->
 
@@ -115,7 +119,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|  String  | Available   | Allowed (optional)   | Required   | NA |    
+|  String  | Available   | Required   | Allowed   | Allowed |    
 
 <!-- type: tab --> 
 
@@ -145,7 +149,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    100        |    Available     | Allowed     | Required |    NA |    
+| String  | 1        |    40        |    Available     | Required     | Allowed |    NA |    
 
 
 <!-- type: tab -->
@@ -154,7 +158,9 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|  String  | Available   | Allowed   | Required   | NA |    
+|  String  | Available   | Required   | Allowed   | NA |    
+
+* North can support max 7 characters
 
 <!-- type: tab --> 
 
@@ -184,16 +190,16 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    100        |    Available     | Allowed     | Required |    NA |    
-
+| String  | 1        |    30        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab -->
-
 
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|  String  | Available   | Allowed   | Required   | NA |    
+|  String  | Available   | Required   | Allowed   | NA |    
+
+* North can support max 2 characters
 
 <!-- type: tab --> 
 
@@ -223,16 +229,17 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    100        |    Available     | Allowed     | Required |    NA |    
+| String  | 1        |    25        |    Available     | Required     | Allowed |    NA |    
 
 
 <!-- type: tab -->
 
-
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String  | Available   | Allowed   | Required   | NA |    
+| String  | Available   | Required   | Allowed   | NA |    
+
+* North can support max 8 characters 
 
 <!-- type: tab --> 
 
@@ -262,7 +269,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    80        |    Available     | Allowed     | Required |    NA |    
+| String  | 1        |    24        |    Available     | Required     | Allowed |    NA |    
 
 
 <!-- type: tab -->
@@ -271,7 +278,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |    
+| String   | Available   | Required   | Allowed   | NA |    
 
 <!-- type: tab --> 
 
@@ -301,7 +308,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    150        |    Available     | Allowed     | Required |    NA |    
+| String  | 1        |    40        |    Available     | Required     | Allowed |    NA |    
 
 
 <!-- type: tab -->
@@ -310,7 +317,9 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |    
+| String   | Available   | Required   | Allowed   | NA |    
+
+* North can support max 24 characters
 
 <!-- type: tab --> 
 
@@ -340,16 +349,16 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    150        |    Available     | Allowed     | Required |    NA |    
-
+| String  | 1        |    40        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab -->
-
 
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|  String  | Available   | Allowed   | Required   | NA |    
+|  String  | Available   | Required   | Allowed   | NA |  
+
+* North can support max 24 characters
 
 <!-- type: tab --> 
 
@@ -379,16 +388,14 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 2        |    100        |    Available     | Allowed     | Required |    NA |    
-
+| String  | 1        |    40        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab -->
-
 
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |    
+| String   | Available   | Required   | Allowed   | NA |    
 
 <!-- type: tab --> 
 
@@ -418,9 +425,9 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    10        |    Available     | Allowed     | Required |    NA |         |
+| String  | 2        |    10        |    Available     | Required     | Allowed |    NA |         |
 
-**Valid Values**: 
+**Valid Values**: <need to put entire list >
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | BC     |     State Code   | 
@@ -443,7 +450,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |
+| String   | Available   | Required   | Allowed   | NA |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -490,7 +497,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    10        |    Available     | Allowed     | Required |    NA |         |
+| String  | 3        |    3        |    Available     | Required     | Allowed |    NA |         |
 
 **Valid Values**: 
 |         Value        |                    Description                 |
@@ -554,7 +561,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |
+| String   | Available   | Required   | Allowed   | NA |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -640,7 +647,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 5        |    20        |    Available     | Allowed     | Required |    NA |    
+| String  | 5        |    10        |    Available     | Required     | Allowed |    NA |    
 
 
 <!-- type: tab -->
@@ -649,7 +656,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |    
+| String   | Available   | Required   | Allowed   | NA |    
 
 <!-- type: tab --> 
 
@@ -679,7 +686,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 10        |    15        |    Available     | Allowed     | Required |    NA |    
+| String  | 10        |    15        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab -->
 
@@ -687,7 +694,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |    
+| String   | Available   | Required   | Allowed   | NA |    
 
 <!-- type: tab --> 
 
@@ -717,7 +724,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 10        |    15        |    Available     | Allowed     | Required |    NA |    
+| String  | 10        |    15        |    Available     | Required     | Allowed |    NA |    
 
 
 <!-- type: tab -->
@@ -726,7 +733,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |    
+| String   | Available   | Required   | Allowed   | NA |    
 
 <!-- type: tab --> 
 
@@ -745,7 +752,7 @@ titles: UMM, North, GMA
 ---
 
 ### SIGNER_INDICATOR
-* Description: Value that indicates the principal owner is an authorized signer or not. 
+* Description: Value that indicates whether the principal owner is an authorized signer or not. 
 * API field: `signerIndicator`
 * Field Specification:
 
@@ -756,13 +763,13 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 2        |    3        |    Available     | Allowed     | Required |    NA |         |
+| String  | 2        |    3        |    Available     | Required     | Allowed |    NA |         |
 
 **Valid Values**: 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NO     |     Signer Indicator   | 
-| YES     |     Signer Indicator   |
+| NO     |     Not Authorized   | 
+| YES     |     Authorized   |
 
 <!-- type: tab -->
 
@@ -770,13 +777,13 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA | 
+| String   | Available   | Required   | Allowed   | NA | 
 
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NO     |     Signer Indicator   | 
-| YES     |     Signer Indicator   | 
+| NO     |     Not Authorized   | 
+| YES     |     Authorized   | 
 
 <!-- type: tab --> 
 
@@ -795,7 +802,7 @@ titles: UMM, North, GMA
 ---
 
 ### GUARANTOR_INDICATOR
-* Description: Value that indicates the principal guarantor exist or not.
+* Description: Value that indicates whether the principal guarantor exist or not.
 * API field: `guarantorIndicator`
 * Field Specification:
 
@@ -806,13 +813,13 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 2        |    3        |    Available     | Allowed     | Required |    NA |         |
+| String  | 2        |    3        |    Available     | Required     | Allowed |    NA |         |
 
 **Valid Values**: 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NO     |     Guarantor Indicator   | 
-| YES     |     Guarantor Indicator   |
+| NO     |     No   | 
+| YES     |     Yes   |
 
 <!-- type: tab -->
 
@@ -820,13 +827,13 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |
+| String   | Available   | Required   | Allowed   | NA |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NO     |     Guarantor Indicator   | 
-| YES     |     Guarantor Indicator   | 
+| NO     |     No   | 
+| YES     |     Yes   | 
 
 <!-- type: tab --> 
 
@@ -859,7 +866,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Date  | 10        |    10        |    Available     | Allowed     | Required |    NA |    
+| Date  | 10        |    10        |    Available     | Required     | Allowed |    NA |    
 
 
 <!-- type: tab -->
@@ -868,7 +875,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |    
+| String   | Available   | Required   | Allowed   | NA |    
 
 <!-- type: tab --> 
 
@@ -898,7 +905,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Integer  | 1        |    3        |    Available     | Allowed     | Required |    NA |    
+| Integer  | 1        |    3        |    Available     | Required     | Allowed |    NA |    
 
 
 <!-- type: tab -->
@@ -907,7 +914,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|  String  | Available   | Allowed   | Required   | NA |    
+|  String  | Available   | Required   | Allowed   | NA |    
 
 <!-- type: tab --> 
 
@@ -926,7 +933,7 @@ titles: UMM, North, GMA
 ---
 
 ### OWNERSHIP_PERCENT
-* Description: Percentage of ownershipthat a particular individual or entity holds in the business.
+* Description: Percentage of ownershipthat a particular owner  holds in the business.
 * API field: `ownershipPercent`
 * Field Specification:
 
@@ -937,7 +944,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Integer  | 1        |    3        |    Available     | Allowed     | Required |    NA |    
+| Integer  | 1        |    3        |    Available     | Required     | Allowed |    NA |    
 
 
 <!-- type: tab -->
@@ -946,7 +953,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |    
+| String   | Available   | Required   | Allowed   | NA |    
 
 <!-- type: tab --> 
 
@@ -965,7 +972,7 @@ titles: UMM, North, GMA
 ---
 
 ### MOBILE_VALIDATION_STATUS
-* Description: Code that indicates the vatiodation status of the principal owner's mobile number.
+* Description: Code that indicates the validation status of the principal owner's mobile number.
 * API field: `mobileValidationStatus`
 * Field Specification:
 
@@ -976,7 +983,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 15        |    18        |    Available     | Allowed     | Required |    NA |         |
+| String  | 15        |    18        |    Available     | Required     | Allowed |    NA |         |
 
 **Valid Values**: 
 |         Value        |                    Description                 |
@@ -993,7 +1000,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|  String  | Available   | Allowed   | Required   | NA |
+|  String  | Available   | Required   | Allowed   | NA |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -1021,7 +1028,7 @@ titles: UMM, North, GMA
 ---
 
 ### MOBILE_VALIDATION_SOURCE_CODE
-* Description: Code that indicates the vatiodation status of the principal owner's mobile number source.
+* Description: Code that indicates the validation status of the principal owner's mobile number source.
 * API field: `mobileValidationSourceCode`
 * Field Specification:
 
@@ -1032,12 +1039,13 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 9        |    50        |    Available     | Allowed     | Required |    NA |         |
+| String  | 4        |    9        |    Available     | Required     | Allowed |    NA |         |
 
 **Valid Values**: 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | VIGILENCE     |     VIGILENCE   | 
+| None     |     Not known   | 
 
 <!-- type: tab -->
 
@@ -1045,7 +1053,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |
+| String   | Available   | Required   | Allowed   | NA |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -1083,7 +1091,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Date  | 10        |    10        |    Available     | Allowed     | Required |    NA |    
+| Date  | 10        |    10        |    Available     | Required     | Allowed |    NA |    
 
 
 <!-- type: tab -->
@@ -1092,7 +1100,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |    
+| String   | Available   | Required   | Allowed   | NA |    
 
 <!-- type: tab --> 
 
@@ -1110,79 +1118,3 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### IDENTITY_DOC_TYPE_CODE
-* Description: Code that indicates the type of tax identification document that the merchant provides for verification purpose.
-* API field: `identityDocTypeCode`
-* Field Specification:
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    10        |    Available     | Allowed     | Required |    NA |    
-
-
-<!-- type: tab -->
-
-
-##### North Specification 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |    
-
-<!-- type: tab --> 
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
-
-<!-- type: tab-end -->
----
-
-### IDENTITY_DOC_NUMBER
-* Description: Taxpayer identification number of the principal owner.
-* API field: `identityDocNumber`
-* Field Specification:
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 20        |    50        |    Available     | Allowed     | Required |    NA |    
-
-
-<!-- type: tab -->
-
-
-##### North Specification 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Allowed   | Required   | NA |    
-
-<!-- type: tab --> 
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
-
-<!-- type: tab-end -->
