@@ -40,7 +40,7 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
-| String |     -    |          |              |       NA     |
+| String | Required | Required | Required     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -90,7 +90,13 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
-| String |     -    |          |              |       NA     |
+| String | Required | Required | Required   |       NA     |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| OMNIPAY26     |     OMNIPAY26   |
+| OMNIPAY21     |     OMNIPAY21   |
 
 <!-- type: tab-end -->
 ---
@@ -129,7 +135,7 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
-| String |     -    |          |              |       NA     |
+| Date   | Optional    | NA   | NA   | NA  |
 
 <!-- type: tab-end -->
 ---
@@ -166,7 +172,7 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
-| String |     -    |          |              |       NA     |
+| Date   | NA   | NA   | NA   | NA  |
 
 <!-- type: tab-end -->
 ---
