@@ -90,7 +90,7 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 9        |    9        |    Required     | NA     | NA |    NA     |
+| String  | 9        |    9        |    Required     | Required     | Required |    NA     |
 
 **Valid Values**: 
 |         Value        |                    Description                 |
