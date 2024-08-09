@@ -6300,6 +6300,33 @@ titles: UMM, North, GMA
 | billbackHierarchyCode| Billback Hierarchy Code        |    OUTLET   |   Outlet        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    CHAIN   |   Chain        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    BANK   |   Bank        |    Available     | Required     | Allowed |    NA |    
+| billbackRoundingIndicator| Bill Back Rounding Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
+| billbackSurchargeCode| Billback Surcharge Code        |    AUTO_BILL_SRCHRG_BSNS   |   Auto Bill Srchrg Bsns        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FUEL_CARD_PALN_CODE_VI   |   Fuel Card Paln Code Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EXCLUDE_AUTO_FUEL_VI   |   Exclude Auto Fuel Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    GOVT_PLAN_CODE_VI   |   Govt Plan Code Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CORP_CARD_PLAN_CODE_MC_VI   |   Corp Card Plan Code Mc Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    COMMERCIAL_CARD_PLAN_CODE_MC_VI   |   Commercial Card Plan Code Mc Vi        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_AUTO_BILL_SRCHRG   |   No Auto Bill Srchrg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    AUTO_BILLSRCHRG_MER   |   Auto Billsrchrg Mer        |    Available     | Required     | Allowed |    NA |    
+| processingTypeCode| Processing Type Code        |    PAPER_TERMINAL   |   Paper Terminal        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    EDC   |   Edc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    CASH_ADV_OUTLET_ON_US   |   Cash Adv Outlet On Us        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DIRECT_SOLUTIONS   |   Direct Solutions        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    FUNDING_ACCT   |   Funding Acct        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ECR   |   Ecr        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    TAPE_DEPOSITOR   |   Tape Depositor        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    PAPER_VOICE   |   Paper Voice        |    Available     | Required     | Allowed |    NA |    
+| settleFrequencyCode| Settle Frequency Code        |    AT_SETTLEMENT   |   At Settlement        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DAILY_DISC   |   Daily Disc        |    Available     | Required     | Allowed |    NA |    
+| surchargeExceptionCode| Determine If A Billback Surcharge Should Be Applied        |    NO_SCHG_VISA_SIG_COMM   |   No Schg Visa Sig Comm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SCHG_VISA_INF_MC   |   No Schg Visa Inf Mc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SCHG_VISA_SIG_MC   |   No Schg Visa Sig Mc        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SCHG_VISA_INF_COMM   |   No Schg Visa Inf Comm        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    ALLOW_SCHG   |   Allow Schg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    NO_SCHG_VISA_INF_MC_F20A   |   No Schg Visa Inf Mc F20A        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab-->
 
@@ -6318,36 +6345,6 @@ titles: UMM, North, GMA
 | billbackHierarchyCode| Billback Hierarchy Code        |    OUTLET   |   Outlet        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    CHAIN   |   Chain        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    BANK   |   Bank        |    Available     | Required     | Allowed |    NA |    
-
-<!-- type: tab-->
-
-
-##### GMA Specification
-| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
-|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
-
-
-<!-- type: tab-end -->
-
-
-### settlementConfig
-
----
-tags: [settlementConfig]
----
-- Description: Settlement Config
-- List of Attributes:
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-##### UMM Specification
-
-| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
-|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-| billbackIndicatorCode| Billback Indicator Code        |       |           |    Available     | Required     | Allowed |    NA |    
 | billbackRoundingIndicator| Bill Back Rounding Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 | billbackSurchargeCode| Billback Surcharge Code        |    AUTO_BILL_SRCHRG_BSNS   |   Auto Bill Srchrg Bsns        |    Available     | Required     | Allowed |    NA |    
@@ -6359,11 +6356,6 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    COMMERCIAL_CARD_PLAN_CODE_MC_VI   |   Commercial Card Plan Code Mc Vi        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NO_AUTO_BILL_SRCHRG   |   No Auto Bill Srchrg        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    AUTO_BILLSRCHRG_MER   |   Auto Billsrchrg Mer        |    Available     | Required     | Allowed |    NA |    
-| chargeBarer| Charge Barer for Omnipay        |    CRED - Creditor pays all charges        |    Available     | Required     | Allowed |    NA |    
-|            |                                 |    SLEV - Charges follow the service level; the only allowed alternative for Sepa payments  |    Slev - Charges Follow The Service Level; The Only Allowed Alternative For Sepa Payments        |    Available     | Required     | Allowed |    NA |    
-|            |                                 |    DEBT - Debtor pays all charges  |    Debt - Debtor Pays All Charges        |    Available     | Required     | Allowed |    NA |    
-|            |                                 |    SHAR - Debtor and Creditor pay their own charges   |   Cred - Creditor Pays All Charges  |    Shar - Debtor And Creditor Pay Their Own Charges        |    Available     | Required     | Allowed |    NA |    
-| dcc| DCC Merchant for Omnipay        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | processingTypeCode| Processing Type Code        |    PAPER_TERMINAL   |   Paper Terminal        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    EDC   |   Edc        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    CASH_ADV_OUTLET_ON_US   |   Cash Adv Outlet On Us        |    Available     | Required     | Allowed |    NA |    
@@ -6374,67 +6366,6 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    PAPER_VOICE   |   Paper Voice        |    Available     | Required     | Allowed |    NA |    
 | settleFrequencyCode| Settle Frequency Code        |    AT_SETTLEMENT   |   At Settlement        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    DAILY_DISC   |   Daily Disc        |    Available     | Required     | Allowed |    NA |    
-| settlementMethod| The settlement method assigned to for the merchant        |    IFS_MONTHLY_NEG   |   Ifs Monthly Neg        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DE_DAILY_CUP   |   De Daily Cup        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DAILY   |   Daily        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    IFS_DAILY_CUP   |   Ifs Daily Cup        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DE_DAILY   |   De Daily        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    IFS_TREASURY   |   Ifs Treasury        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    IFS_DAILY   |   Ifs Daily        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    IFS_DAILY_NEG   |   Ifs Daily Neg        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DAILY_CUP   |   Daily Cup        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    IFS_DAILY_NEG_CUP   |   Ifs Daily Neg Cup        |    Available     | Required     | Allowed |    NA |    
-| surchargeExceptionCode| Determine If A Billback Surcharge Should Be Applied        |    NO_SCHG_VISA_SIG_COMM   |   No Schg Visa Sig Comm        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    NO_SCHG_VISA_INF_MC   |   No Schg Visa Inf Mc        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    NO_SCHG_VISA_SIG_MC   |   No Schg Visa Sig Mc        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    NO_SCHG_VISA_INF_COMM   |   No Schg Visa Inf Comm        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    ALLOW_SCHG   |   Allow Schg        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    NO_SCHG_VISA_INF_MC_F20A   |   No Schg Visa Inf Mc F20A        |    Available     | Required     | Allowed |    NA |    
-
-<!-- type: tab-->
-
-
-##### GMA Specification
-
-| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
-|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-| billbackIndicatorCode| Billback Indicator Code        |       |           |    Available     | Required     | Allowed |    NA |    
-| billbackRoundingIndicator| Bill Back Rounding Indicator        |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
-| billbackSurchargeCode| Billback Surcharge Code        |    AUTO_BILL_SRCHRG_BSNS   |   Auto Bill Srchrg Bsns        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    FUEL_CARD_PALN_CODE_VI   |   Fuel Card Paln Code Vi        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    EXCLUDE_AUTO_FUEL_VI   |   Exclude Auto Fuel Vi        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    GOVT_PLAN_CODE_VI   |   Govt Plan Code Vi        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    CORP_CARD_PLAN_CODE_MC_VI   |   Corp Card Plan Code Mc Vi        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    COMMERCIAL_CARD_PLAN_CODE_MC_VI   |   Commercial Card Plan Code Mc Vi        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    NO_AUTO_BILL_SRCHRG   |   No Auto Bill Srchrg        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    AUTO_BILLSRCHRG_MER   |   Auto Billsrchrg Mer        |    Available     | Required     | Allowed |    NA |    
-| chargeBarer| Charge Barer for Omnipay        |    CRED - Creditor pays all charges        |    Available     | Required     | Allowed |    NA |    
-|            |                                 |    SLEV - Charges follow the service level; the only allowed alternative for Sepa payments  |    Slev - Charges Follow The Service Level; The Only Allowed Alternative For Sepa Payments        |    Available     | Required     | Allowed |    NA |    
-|            |                                 |    DEBT - Debtor pays all charges  |    Debt - Debtor Pays All Charges        |    Available     | Required     | Allowed |    NA |    
-|            |                                 |    SHAR - Debtor and Creditor pay their own charges   |   Cred - Creditor Pays All Charges  |    Shar - Debtor And Creditor Pay Their Own Charges        |    Available     | Required     | Allowed |    NA |    
-| dcc| DCC Merchant for Omnipay        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
-| processingTypeCode| Processing Type Code        |    PAPER_TERMINAL   |   Paper Terminal        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    EDC   |   Edc        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    CASH_ADV_OUTLET_ON_US   |   Cash Adv Outlet On Us        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DIRECT_SOLUTIONS   |   Direct Solutions        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    FUNDING_ACCT   |   Funding Acct        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    ECR   |   Ecr        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    TAPE_DEPOSITOR   |   Tape Depositor        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    PAPER_VOICE   |   Paper Voice        |    Available     | Required     | Allowed |    NA |    
-| settleFrequencyCode| Settle Frequency Code        |    AT_SETTLEMENT   |   At Settlement        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DAILY_DISC   |   Daily Disc        |    Available     | Required     | Allowed |    NA |    
-| settlementMethod| The settlement method assigned to for the merchant        |    IFS_MONTHLY_NEG   |   Ifs Monthly Neg        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DE_DAILY_CUP   |   De Daily Cup        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DAILY   |   Daily        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    IFS_DAILY_CUP   |   Ifs Daily Cup        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DE_DAILY   |   De Daily        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    IFS_TREASURY   |   Ifs Treasury        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    IFS_DAILY   |   Ifs Daily        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    IFS_DAILY_NEG   |   Ifs Daily Neg        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    DAILY_CUP   |   Daily Cup        |    Available     | Required     | Allowed |    NA |    
-|          -            |                 -                    |    IFS_DAILY_NEG_CUP   |   Ifs Daily Neg Cup        |    Available     | Required     | Allowed |    NA |    
 | surchargeExceptionCode| Determine If A Billback Surcharge Should Be Applied        |    NO_SCHG_VISA_SIG_COMM   |   No Schg Visa Sig Comm        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NO_SCHG_VISA_INF_MC   |   No Schg Visa Inf Mc        |    Available     | Required     | Allowed |    NA |    
 |          -            |                 -                    |    NO_SCHG_VISA_SIG_MC   |   No Schg Visa Sig Mc        |    Available     | Required     | Allowed |    NA |    
@@ -6448,11 +6379,26 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-|          -                   |                 -                                 |               |                                                           |          |          |          |          | 
+| billbackIndicatorCode| Billback Indicator Code        |       |           |    Available     | Required     | Allowed |    NA |    
+| chargeBarer| Charge Barer for Omnipay        |    CRED - Creditor pays all charges        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    SLEV - Charges follow the service level; the only allowed alternative for Sepa payments      |    Slev - Charges Follow The Service Level; The Only Allowed Alternative For Sepa Payments        |    Available     | Required     | Allowed |    NA |  
+|          -            |                 -                    |    DEBT - Debtor pays all charges      |    Debt - Debtor Pays All Charges        |    Available     | Required     | Allowed |    NA |  
+|          -            |                 -                    |    SHAR - Debtor and Creditor pay their own charges   |   Cred - Creditor Pays All Charges      |    Shar - Debtor And Creditor Pay Their Own Charges        |    Available     | Required     | Allowed |    NA |  
+
+| dcc| DCC Merchant for Omnipay        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| settlementMethod| The settlement method assigned to for the merchant        |    IFS_MONTHLY_NEG   |   Ifs Monthly Neg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DE_DAILY_CUP   |   De Daily Cup        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DAILY   |   Daily        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_DAILY_CUP   |   Ifs Daily Cup        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DE_DAILY   |   De Daily        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_TREASURY   |   Ifs Treasury        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_DAILY   |   Ifs Daily        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_DAILY_NEG   |   Ifs Daily Neg        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    DAILY_CUP   |   Daily Cup        |    Available     | Required     | Allowed |    NA |    
+|          -            |                 -                    |    IFS_DAILY_NEG_CUP   |   Ifs Daily Neg Cup        |    Available     | Required     | Allowed |    NA |    
 
 
 <!-- type: tab-end -->
-
 
 ### signatureCapture
 
