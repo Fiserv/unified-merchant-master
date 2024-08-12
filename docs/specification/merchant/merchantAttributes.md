@@ -250,7 +250,7 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | incomeTaxCode                | Income Tax Code                                   |               |                                                           | Available| Required | Allowed  |    NA    |
-| secondaryTaxId               | Secondary Tax ID                                  |               |                                                           | Available| Required | Allowed  |    NA    |
+| secondaryTaxId  | Secondary Tax ID  |      |       | Available| Required | Allowed  |    NA    |
 | vatTaxCode                   | VAT Tax Code                                      |               |                                                           | Available| Required | Allowed  |    NA    |
 
 <!-- type: tab-end -->
@@ -572,7 +572,8 @@ titles: UMM, North, GMA
 | descriptionOfGoods| Description of goods and services sold by the merchant        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | homeBasedBusiness| Defines if the merchants business location is the same as his home location        |    NO   |   No        |    Available     | Required     | Allowed |    NA |    
 |             |                      |    YES   |   Yes        |    Available     | Required     | Allowed |    NA |    
-| wisoSalesRepId| Sales rep id of the wholesale iso employee        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| wisoSalesRepId| Sales rep id of the wholesale iso employee        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |
+| salesLead| Name or description of the sales lead. Free Text. | STRING | String | Available | Optional | Allowed |  NA |
 
 <!-- type: tab-->
 
@@ -589,7 +590,7 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+| salesLead| Name or description of the sales lead. Free Text. | STRING | String | Available | Optional | Allowed |  NA |
 
 <!-- type: tab-end -->
 
@@ -1080,7 +1081,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-| clientRegionIndex| Client Region Index for Omnipay        |    BIN_OVERRIDE_123018   |   Bin Override 123018        |    Available     | Required     | Allowed |    NA |    
+| clientRegion| Client Region Index for Omnipay        |    BIN_OVERRIDE_123018   |   Bin Override 123018        |    Available     | Required     | Allowed |    NA |    
 |                  |                                        |    CANADA   |   Canada        |    Available     | Required     | Allowed |    NA |    
 |                  |                                        |    UNITEDKINGDOM   |   Unitedkingdom        |    Available     | Required     | Allowed |    NA |    
 |                  |                                        |    BIN_OVERRIDE_123008   |   Bin Override 123008        |    Available     | Required     | Allowed |    NA |    
@@ -1111,7 +1112,7 @@ titles: UMM, North, GMA
 |                  |                                        |    BIN_OVERRIDE_123003   |   Bin Override 123003        |    Available     | Required     | Allowed |    NA |    
 |                  |                                        |    JAPAN   |   Japan        |    Available     | Required     | Allowed |    NA |    
 | clientTariff     | This the merchant tariff assigned to the merchant        |       |           |    Available     | Required     | Allowed |    NA |    
-| postingMethod| The posting method assigned to the merchant        |    GRS_999_USD   |   Grs 999 Usd        |    Available     | Required     | Allowed |    NA |    
+| postingTariff | The posting method assigned to the merchant        |    GRS_999_USD   |   Grs 999 Usd        |    Available     | Required     | Allowed |    NA |    
 |              |                                                    |    GMA_ZAR_999   |   Gma Zar 999        |    Available     | Required     | Allowed |    NA |    
 |              |                                                    |    NA_HK_999   |   Na Hk 999        |    Available     | Required     | Allowed |    NA |    
 |              |                                                    |    ALL_TO_HUF   |   All To Huf        |    Available     | Required     | Allowed |    NA |    
@@ -1166,8 +1167,7 @@ titles: UMM, North, GMA
 |              |                                                    |    ALL_TO_GBP   |   All To Gbp        |    Available     | Required     | Allowed |    NA |    
 |              |                                                    |    REGULAR_8   |   Regular 8        |    Available     | Required     | Allowed |    NA |    
 |              |                                                    |    ALL_TO_PLN   |   All To Pln        |    Available     | Required     | Allowed |    NA |    
-| protectAgainstFXChange| Indicate if the Merchant is protected against currency fluctuations on the event the transaction is disputed        |    FALSE   |   False        |    Available     | Required     | Allowed |    NA |    
-| salesLead| Secondary Tax ID        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
+| protectAgainstFXChange| Indicate if the Merchant is protected against currency fluctuations on the event the transaction is disputed        |    FALSE   |   False        |    Available     | Required     | Allowed |    NA |   
 | serviceContractIndex| Service contract defines the processing rules for a merchant        |    SERVICE_CONTRACT_1   |   Service Contract 1        |    Available     | Required     | Allowed |    NA |    
 
 
@@ -1183,7 +1183,7 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-| clientRegionIndex| Client Region Index for Omnipay        |    BIN_OVERRIDE_123018   |   Bin Override 123018        |    Available     | Required     | Allowed |    NA |    
+| clientRegion| Client Region Index for Omnipay        |    BIN_OVERRIDE_123018   |   Bin Override 123018        |    Available     | Required     | Allowed |    NA |    
 |                  |                                        |    CANADA   |   Canada        |    Available     | Required     | Allowed |    NA |    
 |                  |                                        |    UNITEDKINGDOM   |   Unitedkingdom        |    Available     | Required     | Allowed |    NA |    
 |                  |                                        |    BIN_OVERRIDE_123008   |   Bin Override 123008        |    Available     | Required     | Allowed |    NA |    
@@ -1214,7 +1214,7 @@ titles: UMM, North, GMA
 |                  |                                        |    BIN_OVERRIDE_123003   |   Bin Override 123003        |    Available     | Required     | Allowed |    NA |    
 |                  |                                        |    JAPAN   |   Japan        |    Available     | Required     | Allowed |    NA |    
 | clientTariff     | This the merchant tariff assigned to the merchant        |       |           |    Available     | Required     | Allowed |    NA |    
-| postingMethod| The posting method assigned to the merchant        |    GRS_999_USD   |   Grs 999 Usd        |    Available     | Required     | Allowed |    NA |    
+| postingTariff| The posting method assigned to the merchant        |    GRS_999_USD   |   Grs 999 Usd        |    Available     | Required     | Allowed |    NA |    
 |              |                                                    |    GMA_ZAR_999   |   Gma Zar 999        |    Available     | Required     | Allowed |    NA |    
 |              |                                                    |    NA_HK_999   |   Na Hk 999        |    Available     | Required     | Allowed |    NA |    
 |              |                                                    |    ALL_TO_HUF   |   All To Huf        |    Available     | Required     | Allowed |    NA |    
@@ -1270,7 +1270,6 @@ titles: UMM, North, GMA
 |              |                                                    |    REGULAR_8   |   Regular 8        |    Available     | Required     | Allowed |    NA |    
 |              |                                                    |    ALL_TO_PLN   |   All To Pln        |    Available     | Required     | Allowed |    NA |    
 | protectAgainstFXChange| Indicate if the Merchant is protected against currency fluctuations on the event the transaction is disputed        |    FALSE   |   False        |    Available     | Required     | Allowed |    NA |    
-| salesLead| Secondary Tax ID        |    STRING   |   String        |    Available     | Required     | Allowed |    NA |    
 | serviceContractIndex| Service contract defines the processing rules for a merchant        |    SERVICE_CONTRACT_1   |   Service Contract 1        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab-end -->
@@ -5675,3 +5674,67 @@ titles: UMM, North, GMA
 |          -                   |                 -                                 |               |                                                           |          |          |          |          |    
 <!-- type: tab-end -->
 
+### settlementConfig
+
+---
+tags: [settlementConfig]
+---
+- Description: Settlement Configuration
+- List of Attributes:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| chargeBarer |  chargeBarer  |    SLEV   | Charges follow the service level; the only allowed alternative for Sepa payments  |    Available     | Optional     | Allowed |    NA |
+| - |  -  |    CRED   | Creditor pays all charges  |    Available     | Optional     | Allowed |    NA |
+| - |  -  |    DEBT   | Debtor pays all charges  |    Available     | Optional     | Allowed |    NA |
+| - |  -  |    SHAR   | Debtor and Creditor pay their own charges  |    Available     | Optional     | Allowed |    NA |
+| dcc |  dcc  |    -   |  -  |    Available     | Optional     | Allowed |    NA    |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | DE_DAILY_CUP | DE Daily CUP | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | IFS_DAILY | IFS Daily | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | IFS_MONTHLY_NEG | IFS Monthly Neg | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | IFS_DAILY_NEG_CUP | IFS Daily Neg CUP | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | DAILY | Daily | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | IFS_DAILY_CUP | IFS Daily CUP | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | DAILY_CUP | Daily CUP | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | IFS_DAILY_NEG | IFS Daily Neg | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | IFS_TREASURY | IFS Treasury | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | DE_DAILY | DE Daily | Available | Required | Allowed | NA |
+
+
+
+<!-- type: tab-->
+
+##### North Specification
+
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+|     -      |  -  |   -    |     -      |   -    |   -   |   -  |   -  |
+
+<!-- type: tab-->
+
+##### GMA Specification
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| chargeBarer |  chargeBarer  |    SLEV   | Charges follow the service level; the only allowed alternative for Sepa payments  |    Available     | Optional     | Allowed |    NA |
+| - |  -  |    CRED   | Creditor pays all charges  |    Available     | Optional     | Allowed |    NA |
+| - |  -  |    DEBT   | Debtor pays all charges  |    Available     | Optional     | Allowed |    NA |
+| - |  -  |    SHAR   | Debtor and Creditor pay their own charges  |    Available     | Optional     | Allowed |    NA |
+| dcc |  dcc  |    -   |  -  |    Available     | Optional     | Allowed |    NA    |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | DE_DAILY_CUP | DE Daily CUP | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | IFS_DAILY | IFS Daily | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | IFS_MONTHLY_NEG | IFS Monthly Neg | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | IFS_DAILY_NEG_CUP | IFS Daily Neg CUP | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | DAILY | Daily | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | IFS_DAILY_CUP | IFS Daily CUP | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | DAILY_CUP | Daily CUP | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | IFS_DAILY_NEG | IFS Daily Neg | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | IFS_TREASURY | IFS Treasury | Available | Required | Allowed | NA |
+| settlementMethod |  The settlement method defines the frequency and grouping of transactions posted to makeup a payment as well as the funding channel.  | DE_DAILY | DE Daily | Available | Required | Allowed | NA |
+
+<!-- type: tab-end -->
