@@ -343,7 +343,7 @@ titles: UMM, North, South, GMA
 ##### GMA Specification
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
-| String |       -        |     -      |     -    |          |              |       NA     |
+| String |       0        |     18     |     Available    |    Optional      |     NA         |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -499,6 +499,264 @@ titles: UMM, North, South, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab-end -->
+---
+### LEGAL_ENTITY_TYPE_CODE
+* Description: Company entity type for information purposes only, no impact to transaction processing.
+* API field: `legalEntityTypeCode`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |        3       |    31        |    Y     | Y     | NA |    |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:----------------------------------------------|
+|PUBLIC_PRIVATE_CORP | Public/Private Corp|
+|OTHER | Other|
+|PROPRIETOR | Proprietorship|
+|PARTNERSHIP | Partnership|
+|ASSOCIATION_ESTATE_TRUST | Association/Estate/Trust|
+|TAX_EXEMPT_GOVERNMENT | Tax Exempt/Government|
+|INTERNATIONAL_ORG | International Org|
+|LTD_LIABILITY_COMP | Limited Liability Company|
+|CO_OPERATIVE | Co-Operative|
+|JOINT_STOCK_SPA | JOINT_STOCK-ITALY SPA|
+|LLC | Limited|
+|SOLE_TRADER | Sole Trader|
+|PRIVATE_COMPANY | Private Company|
+|PUBLIC_LIMITED_COMPANY | Plc|
+|SOCIETE_ANONYME | CORPORATION-FRANCE SOCIETE ANONYME|
+|EXTERNAL_COMPANY | External Company|
+|LLC_GMBH | LLC-GERMANY GMBH|
+|NON_PROFIT_ORGANIZATION | Non Profit Org|
+|FOUNDATION | Foundation|
+|CLOSED_CORPORATION | Closed Corp.|
+|CO_OPERATIVE_SCRL | CO_OPERATIVE-BELGIUM SCRL|
+|PUBLIC_COMPANY | Public Company|
+|LIMITED_PARTNERS | Limited partners|
+|PARTNERSHIP_SNC | PARTNERSHIP-FRANCE SNC|
+|PARTNERSHIP | Partnership|
+|LEGAL_FORM | Legal Form|
+|PERSONAL_LIABILITY_COMPANY | Pers Liab Comp|
+|NOT_APPLICABLE | Not Applicable|
+|CHARITY | Charity|
+|ASSOCIATIONS | Associations|
+|BUSINESS_TRUST | Business Trust|
+|JOINT_STOCK | Joint stock|
+|CORPORATION | Corporation|
+|NON_PROFIT_ORGANIZATION_ONLUS | NON_PROFIT_ORGANIZATION-ITALY ONLUS|
+|GENERAL_PARTNERS | General partners|
+|COMPANY | Company|
+|CIVIL_LAW_ASSOCIATION | Civil Law Assoc.|
+|ALTRO | Altro|
+|NON_PROFIT_COMPANY | NonProfitCompany|
+|OTHERS | Others|
+|LLC_SRL | LLC-ITALY SRL|
+|PROPRIETORSHIP | Sole proprietor|
+|PROPRIETORSHIP_DITTA_INDIVIDUAL | PROPRIETORSHIP-ITALY DITTA INDIVIDUAL|
+|SIMPLIFIED_SHAREHOLDER_COMPANY | SAS|
+|INDIVIDUAL | Individual|
+|TRUST | Trust|
+
+<!-- type: tab -->
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |      10         |      15   | Y   | Y   | NA   |    |      |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:----------------------------------------------|
+|OTHER | Other|
+|TAX_EXEMPT_GOVERNMENT | Tax Exempt/Government|
+|PUBLIC_PRIVATE_CORP | Public/Private Corp|
+|ASSOCIATION_ESTATE_TRUST | Association/Estate/Trust|
+|PROPRIETOR | Proprietorship|
+|PARTNERSHIP | Partnership|
+|INTERNATIONAL_ORG | International Org|
+|LTD_LIABILITY_COMP | Limited Liability Company|
+
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       3        |     3      |     Available    |    Required      |      Allowed        |       NA     |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:----------------------------------------------|
+|CO_OPERATIVE | Co-Operative|
+|JOINT_STOCK_SPA | JOINT_STOCK-ITALY SPA|
+|LLC | Limited|
+|SOLE_TRADER | Sole Trader|
+|PRIVATE_COMPANY | Private Company|
+|PUBLIC_LIMITED_COMPANY | Plc|
+|SOCIETE_ANONYME | CORPORATION-FRANCE SOCIETE ANONYME|
+|EXTERNAL_COMPANY | External Company|
+|LLC_GMBH | LLC-GERMANY GMBH|
+|NON_PROFIT_ORGANIZATION | Non Profit Org|
+|FOUNDATION | Foundation|
+|CLOSED_CORPORATION | Closed Corp.|
+|CO_OPERATIVE_SCRL | CO_OPERATIVE-BELGIUM SCRL|
+|PUBLIC_COMPANY | Public Company|
+|LIMITED_PARTNERS | Limited partners|
+|PARTNERSHIP_SNC | PARTNERSHIP-FRANCE SNC|
+|PARTNERSHIP | Partnership|
+|LEGAL_FORM | Legal Form|
+|PERSONAL_LIABILITY_COMPANY | Pers Liab Comp|
+|NOT_APPLICABLE | Not Applicable|
+|CHARITY | Charity|
+|ASSOCIATIONS | Associations|
+|BUSINESS_TRUST | Business Trust|
+|JOINT_STOCK | Joint stock|
+|CORPORATION | Corporation|
+|NON_PROFIT_ORGANIZATION_ONLUS | NON_PROFIT_ORGANIZATION-ITALY ONLUS|
+|GENERAL_PARTNERS | General partners|
+|COMPANY | Company|
+|CIVIL_LAW_ASSOCIATION | Civil Law Assoc.|
+|ALTRO | Altro|
+|NON_PROFIT_COMPANY | NonProfitCompany|
+|OTHERS | Others|
+|LLC_SRL | LLC-ITALY SRL|
+|PROPRIETORSHIP | Sole proprietor|
+|PROPRIETORSHIP_DITTA_INDIVIDUAL | PROPRIETORSHIP-ITALY DITTA INDIVIDUAL|
+|SIMPLIFIED_SHAREHOLDER_COMPANY | SAS|
+|INDIVIDUAL | Individual|
+|TRUST | Trust|
+
+
+<!-- type: tab-end -->
+---
+### REGISTRATION_NUMBER
+* Description: The merchant registration number is a field that is conditional based on the configuration setup of an institution. By default, this field is mandatory, but it can be made optional at the institution level. If the field is provided in the payload, it must have a minimum length of 5 characters. Note that this value will be encrypted before storage, as it is considered PII data. To ensure proper encryption, a minimum length of 5 characters is required.
+* API field: `registrationNumber`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |        5       |     15       |    Available     | Optional     | Allowed |     NA  |
+
+<!-- type: tab -->
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |               |         | NA   | NA   | NA   |    |      |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |        5       |     15       |    Available     | Optional     | Allowed |     NA  |
+
+<!-- type: tab-end -->
+---
+### ANNUAL_SALES_AMOUNT
+* Description: Contracted sales value for the merchant. Whether this value is per week, per month, per year, etc. is defined at institution level.
+* API field: `annualSalesAmount`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal |        3       |     38       |    Available     | Optional     | Allowed | NA  |
+
+<!-- type: tab -->
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |               |         | NA   | NA   | NA   |    |      |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |        3       |     18       |    Available     | Optional     | Allowed | NA  |
+
+<!-- type: tab-end -->
+---
+### AVERAGE_TICKET_AMOUNT
+* Description: Contracted average ticket value for the merchant. Whether this value is per week, per month, per year, etc. is defined at institution level.
+* API field: `averageTicketAmount`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, South, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal |        3       |     38       |    Available     | Optional     | Allowed | NA  |
+
+<!-- type: tab -->
+
+##### North Specification 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |               |         | NA   | NA   | NA   |    |      |
+
+<!-- type: tab --> 
+
+##### South Specification
+
+| Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
+| String |       -        |     -      |     -    |          |              |       NA     |
+
+<!-- type: tab -->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |        3       |     38       |    Available     | Optional     | Allowed | NA  |
 
 <!-- type: tab-end -->
 ---
