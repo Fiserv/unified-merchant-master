@@ -1111,7 +1111,11 @@ titles: UMM, North, GMA
 |                  |                                        |    EUROPEAN_UNION   |   European Union        |    Available     | Required     | Allowed |    NA |    
 |                  |                                        |    BIN_OVERRIDE_123003   |   Bin Override 123003        |    Available     | Required     | Allowed |    NA |    
 |                  |                                        |    JAPAN   |   Japan        |    Available     | Required     | Allowed |    NA |    
-| clientTariff     | This the merchant tariff assigned to the merchant        |       |           |    Available     | Required     | Allowed |    NA |    
+| clientTariff     | This the merchant tariff assigned to the merchant  |    PF_TARIFF_1   |   When PF wants to bill the submerchant a Authorization, Chargeback and Retrevial Fees  |    Available     | Required     | Allowed |    NA  |
+| clientTariff     | This the merchant tariff assigned to the merchant        |   PF_TARIFF_2    |     When PF wants to bill the submerchant Authorization and Wire Fees      |    Available     | Required     | Allowed |    NA   | 
+| clientTariff     | This the merchant tariff assigned to the merchant        |   STANDARD_4    |    Non PFAC Account Fees Tariff       |    Available     | Required     | Allowed |    NA    |
+| clientTariff     | This the merchant tariff assigned to the merchant        |    PF_TARIFF_3   |    When PF wants to bill the submerchant for all Account Fees       |    Available     | Required     | Allowed |    NA    |
+| clientTariff     | This the merchant tariff assigned to the merchant        |    PF_TARIFF_4   |    When no override at merchant level is possible       |    Available     | Required     | Allowed |    NA    |
 | postingTariff | The posting method assigned to the merchant        |    GRS_999_USD   |   Grs 999 Usd        |    Available     | Required     | Allowed |    NA |    
 |              |                                                    |    GMA_ZAR_999   |   Gma Zar 999        |    Available     | Required     | Allowed |    NA |    
 |              |                                                    |    NA_HK_999   |   Na Hk 999        |    Available     | Required     | Allowed |    NA |    
@@ -1168,7 +1172,10 @@ titles: UMM, North, GMA
 |              |                                                    |    REGULAR_8   |   Regular 8        |    Available     | Required     | Allowed |    NA |    
 |              |                                                    |    ALL_TO_PLN   |   All To Pln        |    Available     | Required     | Allowed |    NA |    
 | protectAgainstFXChange| Indicate if the Merchant is protected against currency fluctuations on the event the transaction is disputed        |    FALSE   |   False        |    Available     | Required     | Allowed |    NA |   
-| serviceContractIndex| Service contract defines the processing rules for a merchant        |    SERVICE_CONTRACT_1   |   Service Contract 1        |    Available     | Required     | Allowed |    NA |    
+| serviceContractIndex| Service contract defines the processing rules for a merchant        |    SERVICE_CONTRACT_1   |   Service Contract 1        |    Available     | Required     | Allowed |    NA |
+| tierStructure | If tier pricing is active on the institutions this field indicates which is the Tier Structure assigned to the merchant, if not in use for the institution use 000=N/A for this field.        |    NA   |   Not Applicable   |    Available | NA  | Allowed |  NA |
+| effectiveDate | Effective date format YYYY-MM-DD  |    NA   |   Not Applicable   |  Available | NA  | Allowed |  NA |
+
 
 
 <!-- type: tab-->

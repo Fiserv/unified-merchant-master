@@ -114,7 +114,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 5        |    17        |    Available     | Required     | Allowed |    NA        |       
+| String  | 5        |    17        |    Available     | Required     |    NA   |    NA        |       
 
 * ADDRESS_TYPE_CODE will be required to update corresponding merchant address  
 
@@ -138,7 +138,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| STRING   | Available   | Required   | Allowed    | NA |         |
+| STRING   | Available   | Required   | NA    | NA |         |
 
 **Valid Values**: 
 |              Value   |                    Description                 |

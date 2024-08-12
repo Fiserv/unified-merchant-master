@@ -227,9 +227,9 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 ##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 0        |    20        |    Available     | Required     | NA |       NA          |
 
 <!-- type: tab-end -->
 ---

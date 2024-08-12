@@ -577,7 +577,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 6        |    18        |    Available     | Required     | Allowed |    NA     |
+| String  | 6        |    28        |    Available     | Required     | Allowed |    NA        |
 
 **Valid Values**: 
 |         Value        |                    Description                 |
@@ -586,7 +586,45 @@ titles: UMM, North, GMA
 | CANCELLED_FRAUD     |Cancelled Due to Fraud   | 
 | CANCELLED_CREDIT     |Cancelled By Credit   | 
 | CANCELLED_MERCHANT     |Cancelled By Merchant   | 
-| ACTIVE     |Active - Monthly Stmt   |      |
+| ACTIVE     |Active - Monthly Stmt   |
+| ACTIVE_STTLS_WKLY_FRI | Active Weekly Friday |
+| ACTIVE_STTLS_LAST_FRI | Active Last Friday |
+| ACTIVE_DIRECT_PAYMENT | Active Direct Payment |
+| CANCELLED_LTRCLOSMR | CLOSED-LTRCLOSMR |
+| CANCELLED_POORSERV | Closed-Poorserv |
+| CANCELLED_REASON_UNKNOWN | CLOSED-REASUNKW |
+| CANCELLED_DECEASED | Closed (Deceased) |
+| ACTIVE | Active |
+| CANCELLED_ACNTNEVRQ | CLOSED-ACNTNEVRQ |
+| CANCELLED_MRCHCHBS | CLOSED-MRCHCHBS |
+| CANCELLED_POSTECISS | Closed-Posteciss |
+| ACTIVE_HOLD_PAY | Active (Hold Pay) |
+| CANCELLED_PRTNRSPLT | CLOSED-PRTNRSPLT |
+| CANCELLED_DUPLICATE_ACCOUNT | CLOSED-DUPLACCNT |
+| ACTIVE_BANKRUPT | Active (Bankrupt) |
+| CANCELLED_BUSINESS_CLOSED | CLOSED-BSNSCLOSD |
+| CANCELLED_ATREQEMS | CLOSED-ATREQEMS  |
+| CANCELLED_BANKRUPT | CLOSED-BANKRUPT  |
+| CANCELLED_TERMRTND | Closed-Termrtnd |
+| CANCELLED_BANKRPT | Closed (Bankrupt) |
+| CANCELLED_NO_LONGER_ACC | CLOSED-NOLONGACC |
+| DORMANT | Dormant |
+| CANCELLED_APPLY_FEE | Closed Apply Fee |
+| CANCELLED_NEW_OWN | Closed (New Own) |
+| CANCELLED_RISK | Closed-Risk |
+| CANCELLED_EMERGENCY | Closed (Emergency) |
+| CANCELLED_FRAUD | CLOSED-FRAUD     |
+| CANCELLED_PROBWSREP | CLOSED-PROBWSREP |
+| CANCELLED_SOLDBUSNS | CLOSED-SOLDBUSNS |
+| CANCELLED_DIS_SATISFACTION | CLOSED-DISATFEES |
+| CANCELLED_MNGMTREQ | Closed-Mngmtreq |
+| CANCELLED | Closed |
+| CANCELLED_CHANGE_OWNER | CLOSED-CHNGEOWNR |
+| SUSPENDED | Suspended |
+| CANCELLED_MERCHANT_NO_REASON | CLOSED-MRCNOREAS |
+| CANCELLED_CREDIT | Closed by Credit |
+| CANCELLED_BY_MERCHANT | Closed by Merchant |
+| CANCELLED_NOACTONAC | CLOSED-NOACTONAC |
 
 <!-- type: tab -->
 
@@ -603,7 +641,10 @@ titles: UMM, North, GMA
 | CANCELLED_FRAUD     |Cancelled Due to Fraud  ( 02)  | 
 | CANCELLED_CREDIT     |Cancelled By Credit  (03)  | 
 | CANCELLED_MERCHANT     |Cancelled By Merchant (13)  | 
-| ACTIVE     |Active with Monthly Stmt (16)   |  |
+| ACTIVE     | Active with Monthly Stmt (16)   |
+| ACTIVE_STTLS_WKLY_FRI | Active Weekly Friday |
+| ACTIVE_STTLS_LAST_FRI | Active Last Friday |
+| ACTIVE_DIRECT_PAYMENT | Active Direct Payment |
 
 <!-- type: tab --> 
 
@@ -614,9 +655,48 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 ##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-| String |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 3        |    3        |    Available     | NA     |   Allowed  |        NA        |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| CANCELLED_LTRCLOSMR | CLOSED-LTRCLOSMR |
+| CANCELLED_POORSERV | Closed-Poorserv |
+| CANCELLED_REASON_UNKNOWN | CLOSED-REASUNKW |
+| CANCELLED_DECEASED | Closed (Deceased) |
+| ACTIVE | Active |
+| CANCELLED_ACNTNEVRQ | CLOSED-ACNTNEVRQ |
+| CANCELLED_MRCHCHBS | CLOSED-MRCHCHBS |
+| CANCELLED_POSTECISS | Closed-Posteciss |
+| ACTIVE_HOLD_PAY | Active (Hold Pay) |
+| CANCELLED_PRTNRSPLT | CLOSED-PRTNRSPLT |
+| CANCELLED_DUPLICATE_ACCOUNT | CLOSED-DUPLACCNT |
+| ACTIVE_BANKRUPT | Active (Bankrupt) |
+| CANCELLED_BUSINESS_CLOSED | CLOSED-BSNSCLOSD |
+| CANCELLED_ATREQEMS | CLOSED-ATREQEMS  |
+| CANCELLED_BANKRUPT | CLOSED-BANKRUPT  |
+| CANCELLED_TERMRTND | Closed-Termrtnd |
+| CANCELLED_BANKRPT | Closed (Bankrupt) |
+| CANCELLED_NO_LONGER_ACC | CLOSED-NOLONGACC |
+| DORMANT | Dormant |
+| CANCELLED_APPLY_FEE | Closed Apply Fee |
+| CANCELLED_NEW_OWN | Closed (New Own) |
+| CANCELLED_RISK | Closed-Risk |
+| CANCELLED_EMERGENCY | Closed (Emergency) |
+| CANCELLED_FRAUD | CLOSED-FRAUD     |
+| CANCELLED_PROBWSREP | CLOSED-PROBWSREP |
+| CANCELLED_SOLDBUSNS | CLOSED-SOLDBUSNS |
+| CANCELLED_DIS_SATISFACTION | CLOSED-DISATFEES |
+| CANCELLED_MNGMTREQ | Closed-Mngmtreq |
+| CANCELLED | Closed |
+| CANCELLED_CHANGE_OWNER | CLOSED-CHNGEOWNR |
+| SUSPENDED | Suspended |
+| CANCELLED_MERCHANT_NO_REASON | CLOSED-MRCNOREAS |
+| CANCELLED_CREDIT | Closed by Credit |
+| CANCELLED_BY_MERCHANT | Closed by Merchant |
+| CANCELLED_NOACTONAC | CLOSED-NOACTONAC |
 
 <!-- type: tab-end -->
 ---
