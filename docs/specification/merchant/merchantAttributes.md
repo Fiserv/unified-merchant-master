@@ -233,7 +233,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-| incomeTaxCode                | Income Tax Code                                   |               |                                                           | Available| Required | Allowed  |    NA    |    
+| incomeTaxCode                | Income Tax Code                                   |               |                                                           | Available| Required | Allowed  |    NA    | 
 | secondaryTaxId               | Secondary Tax ID                                  |               |                                                           | Available| Required | Allowed  |    NA    |
 | vatTaxCode                   | VAT Tax Code                                      |               |                                                           | Available| Required | Allowed  |    NA    |
 
@@ -287,7 +287,7 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |   
 
 <!-- type: tab-end -->
 
@@ -321,7 +321,7 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-|          -                   |                 -                                 |               |                                                           |          |          |          |          |    
+|          -                   |                 -                                 |               |                                                           |          |          |          |          |   
 
 <!-- type: tab-end -->
 
