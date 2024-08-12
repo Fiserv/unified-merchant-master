@@ -348,6 +348,7 @@ titles: UMM, North, GMA
 
 * ACCT_USAGE_CODE will be used to update bank detail associated with a specific bank account for GMA (Omnipay) backend platform. The valid values for ACCT_USAGE_CODE is applicable for both PAYABLE and RECEIVABLE and hence, they have been noted separately below. This field is applicable for both PAYABLE and RECEIVABLE entities for GMA.
 
+
 **Valid Values**: 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
@@ -1272,7 +1273,25 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    4        |    Available     | Required |  TBD  |    NA               |
+| String  | 3        |    3        |    Available     | Required |  TBD  |    NA               |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:----------------------------------------------|
+|EUR | Euro|
+|CHF | Swiss Franc|
+|HKD | Hong Kong Dollar|
+|DKK | Danish Krone|
+|USD | US Dollar|
+|CAD | Canadian Dollar|
+|ZAR | Rand|
+|NOK | Norwegian Krone|
+|JPY  | Yen|
+|AUD | Australian Dollar|
+|SGD | Singapore Dollar|
+|GBP | Pound Sterling|
+|SEK | Swedish Krona|
+|NZD | New Zealand Dollar|
 
 <!-- type: tab -->
 
@@ -1293,6 +1312,258 @@ titles: UMM, North, GMA
 ##### GMA Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Boolean  | 3        |    3        |    Available     | Required |  TBD  |    NA              |
+| String  | 3        |    3        |    Available     | Required |  TBD  |    NA               |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:----------------------------------------------|
+|EUR | Euro|
+|CHF | Swiss Franc|
+|HKD | Hong Kong Dollar|
+|DKK | Danish Krone|
+|USD | US Dollar|
+|CAD | Canadian Dollar|
+|ZAR | Rand|
+|NOK | Norwegian Krone|
+|JPY  | Yen|
+|AUD | Australian Dollar|
+|SGD | Singapore Dollar|
+|GBP | Pound Sterling|
+|SEK | Swedish Krona|
+|NZD | New Zealand Dollar|
+
+<!-- type: tab-end -->
+---
+### PAYMENT_REFERENCE
+* Description: For institutions using IFS funding file this field should contain the direct debit contract number (required for merchant debits). For others it is a reference text to display on merchant's bank statement if supported on the funding file.
+
+* API field: `paymentReference`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 1        |    18        |    Available     | Optional |  TBD  |    NA              |
+
+<!-- type: tab -->
+
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| NA | NA   | NA   |  NA    | NA |
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 0        |    18        |    Available     | Optional |  TBD  |    NA              |
+
+<!-- type: tab-end -->
+---
+### RECEIVER_COUNTRY
+* Description: ISO-3166 alpha country code for the merchant's bank country. Mandatory if billing level is set to true. If not provided while adding an account then system will default to null.
+
+* API field: `receiverCountry`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 3        |    3        |    Available     | Optional |  TBD  |    NA               |
+
+<!-- type: tab -->
+
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| NA | NA   | NA   |  NA    | NA |
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 3        |    3        |    Available     | Optional |  TBD  |    NA               |
+
+<!-- type: tab-end -->
+---
+### STATEMENT_GENERATION
+* Description: Option for statement generation. Defauts to GENERATE_IF_ACTIVITY.
+
+* API field: `statementGeneration`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 8        |    23        |    Available     | Optional |  TBD  |    NA              |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:----------------------------------------------|
+|SUPPRESS | Suppress Statement Generation for Merchant account|
+|GENERATE | Generate statements for Merchant account|
+|GENERATE_IF_ACTIVITY | Generate statements for Merchant if there is activity on the account|
+|GENERATE_IF_NO_ACTIVITY | Generate statements for Merchant if there is no activity on the account|
+
+<!-- type: tab -->
+
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| NA | NA   | NA   |  NA    | NA |
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 8        |    23        |    Available     | Optional |  TBD  |    NA              |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:----------------------------------------------|
+|SUPPRESS | Suppress Statement Generation for Merchant account|
+|GENERATE | Generate statements for Merchant account|
+|GENERATE_IF_ACTIVITY | Generate statements for Merchant if there is activity on the account|
+|GENERATE_IF_NO_ACTIVITY | Generate statements for Merchant if there is no activity on the account|
+
+<!-- type: tab-end -->
+---
+### STATEMENT_TYPE
+* Description: Statement type to be generated. Allowed to provide valid value if the institution level configuration enabled to override at merchant level. If no value provided while adding a merchant account, then system will default to "900".
+
+* API field: `statementGeneration`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+##### UMM Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 11        |    30        |    Available     | Optional |  TBD  |    NA             |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:----------------------------------------------|
+|CHARGE_INVOICE | Charge Invoice|
+|MERCHANT_STATEM_G_C_FEE | Merchant Statem. g+c fee|
+|CARDHOLDER_STATEMENT_15 | Cardholder Statement 15|
+|DETAIL_WKLY_CHAIN_STATEMENT_S | Detail wkly chain statement-S|
+|CARDHOLDER_STATEMENT_EOM | Cardholder Statement EOM|
+|DETAIL_MNTHLY_SINGLE_STATEMENT | Detail mnthly single statement|
+|DETAIL_WEEKLY_CHAIN_STATEMENT | Detail weekly chain statement|
+|GSS_CARDHOLDER_STATEMENT | GSS Cardholder Statement|
+|BATCH_WEEKLY_CHAIN_STATEMENT | Batch weekly chain statement|
+|BATCH_MNTHLY_SINGLE_STATEMENT | Batch mnthly single statement|
+|BATCH_WEEKLY_CHAIN_STATEMENT_S | Batch weekly chain statement-S|
+|DETAIL_MNTHLY_CHAIN_STATEMENT | Detail mnthly chain statement|
+|MERCHANT_STATEMENT_NET | Merchant Statement net|
+|BATCH_MNTHLY_CHAIN_STATEMENT | Batch mnthly chain statement|
+|DETAIL_MTHLY_SINGL_STATEMENT_S | Detail mthly single statement-S|
+|USE_DEFAULT | Use Default|
+|BATCH_MNTHLY_CHAIN_STATEMENT_S | Batch mnthly chain statement-S|
+|PAYMENT_ADVICE | Payment Advice|
+|BATCH_WEEKLY_SINGLE_STATEMENT | Batch weekly single statement|
+|BATCH_WEEKLY_SINGL_STATEMENT_S | Batch weekly single statement-S|
+|NOT_APPLICABLE | Not Applicable|
+|BATCH_MNTHLY_SINGL_STATEMENT_S | Batch mnthly single statement-S|
+|MERCHANT_STATEMENT_EOM | Merchant Statement EOM|
+|DETAIL_WEEKLY_SINGLE_STATEMENT | Detail weekly single statement|
+|GSS_MERCHANT_STATEMENT | GSS  Merchant Statement|
+|SERVICE_PROVIDER_STATEMENT | Service Provider Statement|
+|DETAIL_WKLY_SINGLE_STATEMENT_S | Detail wkly single statement-S|
+|DETAIL_MTHLY_CHAIN_STATEMENT_S | Detail mthly chain statement-S|
+|MERCHANT_STATEMENT_G_C | Merchant Statement g+c|
+
+<!-- type: tab -->
+
+
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| NA | NA   | NA   |  NA    | NA |
+
+<!-- type: tab --> 
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+##### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 3        |    3        |    Available     | Optional |  TBD  |    NA               |
+
+**Valid Values**: 
+|              Value   |                    Description                 |
+|:----------------------|:----------------------------------------------|
+|CHARGE_INVOICE | Charge Invoice|
+|MERCHANT_STATEM_G_C_FEE | Merchant Statem. g+c fee|
+|CARDHOLDER_STATEMENT_15 | Cardholder Statement 15|
+|DETAIL_WKLY_CHAIN_STATEMENT_S | Detail wkly chain statement-S|
+|CARDHOLDER_STATEMENT_EOM | Cardholder Statement EOM|
+|DETAIL_MNTHLY_SINGLE_STATEMENT | Detail mnthly single statement|
+|DETAIL_WEEKLY_CHAIN_STATEMENT | Detail weekly chain statement|
+|GSS_CARDHOLDER_STATEMENT | GSS Cardholder Statement|
+|BATCH_WEEKLY_CHAIN_STATEMENT | Batch weekly chain statement|
+|BATCH_MNTHLY_SINGLE_STATEMENT | Batch mnthly single statement|
+|BATCH_WEEKLY_CHAIN_STATEMENT_S | Batch weekly chain statement-S|
+|DETAIL_MNTHLY_CHAIN_STATEMENT | Detail mnthly chain statement|
+|MERCHANT_STATEMENT_NET | Merchant Statement net|
+|BATCH_MNTHLY_CHAIN_STATEMENT | Batch mnthly chain statement|
+|DETAIL_MTHLY_SINGL_STATEMENT_S | Detail mthly single statement-S|
+|USE_DEFAULT | Use Default|
+|BATCH_MNTHLY_CHAIN_STATEMENT_S | Batch mnthly chain statement-S|
+|PAYMENT_ADVICE | Payment Advice|
+|BATCH_WEEKLY_SINGLE_STATEMENT | Batch weekly single statement|
+|BATCH_WEEKLY_SINGL_STATEMENT_S | Batch weekly single statement-S|
+|NOT_APPLICABLE | Not Applicable|
+|BATCH_MNTHLY_SINGL_STATEMENT_S | Batch mnthly single statement-S|
+|MERCHANT_STATEMENT_EOM | Merchant Statement EOM|
+|DETAIL_WEEKLY_SINGLE_STATEMENT | Detail weekly single statement|
+|GSS_MERCHANT_STATEMENT | GSS  Merchant Statement|
+|SERVICE_PROVIDER_STATEMENT | Service Provider Statement|
+|DETAIL_WKLY_SINGLE_STATEMENT_S | Detail wkly single statement-S|
+|DETAIL_MTHLY_CHAIN_STATEMENT_S | Detail mthly chain statement-S|
+|MERCHANT_STATEMENT_G_C | Merchant Statement g+c|
 
 <!-- type: tab-end -->
