@@ -1565,5 +1565,4 @@ titles: UMM, North, GMA
 |DETAIL_WKLY_SINGLE_STATEMENT_S | Detail wkly single statement-S|
 |DETAIL_MTHLY_CHAIN_STATEMENT_S | Detail mthly chain statement-S|
 |MERCHANT_STATEMENT_G_C | Merchant Statement g+c|
-
 <!-- type: tab-end -->
