@@ -47,6 +47,7 @@ titles: UMM, North, GMA
 
 <!-- type: tab-end -->
 ---
+
 ### PLATFORM_CODE
 
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
