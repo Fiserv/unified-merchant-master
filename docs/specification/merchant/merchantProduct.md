@@ -49,6 +49,7 @@ titles: UMM, North, GMA
 ---
 
 ### PLATFORM_CODE
+
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
 * Field Specification:
@@ -90,6 +91,7 @@ titles: UMM, North, GMA
 ---
 
 ### PRDCT_CODE
+
 * Description: The product code associated with the product and defined by UMM API.
 * API field: productCode
 * Field Specification:
@@ -11038,6 +11040,7 @@ titles: UMM
 <!-- type: tab-end -->
 ---
 ### STATUS
+
 * Description: This field indicates whether the product is active or not.
 * API field: `isActive`
 * Field Specification:
@@ -11089,6 +11092,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 ### UNIQUE_IDENTIFIER
+
 * Description: This field serves as a unique identifier for a particular product
 * API field: Not Available
 * Field Specification:
@@ -11128,6 +11132,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 ### FEE_TABLE_ID
+
 * Description: TBD
 * API field: `feeTableId`
 * Field Specification:
@@ -11167,6 +11172,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 ### WHOLESALE_CHARGE
+
 * Description: TBD
 * API field: `wholesaleAmountOrPercent`
 * Field Specification:
@@ -11206,7 +11212,8 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 ### RETAIL_CHARGE
-* Description: TBD
+
+* Description: retailAmountOrPercent (TBD)
 * API field: `retailAmountOrPercent`
 * Field Specification:
 
