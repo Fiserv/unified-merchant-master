@@ -1,4 +1,4 @@
-[![Studio Validator](https://github.com/Fiserv/unified-merchant-master/actions/workflows/validator.yaml/badge.svg)](https://github.com/Fiserv/unified-merchant-master/actions/workflows/validator.yaml) [![Studio Zip Generator](https://github.com/Fiserv/unified-merchant-master/actions/workflows/zip-generator.yaml/badge.svg)](https://github.com/Fiserv/unified-merchant-master/actions/workflows/zip-generator.yaml)
+[![Studio Validator](https://github.com/Fiserv/unified-merchant-master/actions/workflows/validator.yaml/badge.svg?event=pull_request)](https://github.com/Fiserv/unified-merchant-master/actions/workflows/validator.yaml) [![Studio Zip Generator](https://github.com/Fiserv/unified-merchant-master/actions/workflows/zip-generator.yaml/badge.svg)](https://github.com/Fiserv/unified-merchant-master/actions/workflows/zip-generator.yaml)
 
 # Dev Studio - UMM Template repo
 
