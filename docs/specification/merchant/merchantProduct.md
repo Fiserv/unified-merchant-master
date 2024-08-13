@@ -5,44 +5,6 @@
 
 ## List of Fields:
 
-### MERCHANT_ID
-* Description: Unique identifier of the merchant. It is required to add merchant-specific information to the database.
-* API field: `merchantId`
-* Field Specification:
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 34        |    50        |    NA     | NA     | NA |    NA |    
-
-<!-- type: tab -->
-
-
-##### North Specification 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| 12   | NA   | NA   | NA   |  |    
-
-<!-- type: tab --> 
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
-
-<!-- type: tab-end -->
----
-
 ### PLATFORM_CODE
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
@@ -63,7 +25,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|    | NA   | NA   | NA   |  |    
+| String   | NA   | NA   | NA   |  |    
 
 <!-- type: tab --> 
 
@@ -101,7 +63,7 @@ titles: UMM, North, GMA
 ##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| 2   | NA   | NA   | NA   | productCode |         |
+|    | NA   | NA   | NA   | productCode |         |
 
 **Valid Values**: 
 |              Value   |                    Description                 |
@@ -148,7 +110,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| 10  |         |    10        |    Available     | Required     | Allowed |    NA |    
+|   | 10        |    10        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab -->
 
@@ -238,7 +200,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| 11  | 6        |    11        |    Available     | Required     | Allowed |    NA |    
+|   | 11        |    11        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab -->
 
@@ -276,7 +238,7 @@ titles: UMM, North, GMA
 ##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| 11  | 6        |    11        |    Available     | Required     | Allowed |    NA |    
+|   | 11        |    11        |    Available     | Required     | Allowed |    NA |    
 
 <!-- type: tab -->
 
