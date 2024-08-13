@@ -31,6 +31,7 @@
 ## List of Fields:
 
 ### MERCHANT_ID
+
 * Description: Backend unique identifier for a merchant.
 * API field: merchantId
 * Field Specification:
@@ -200,6 +201,7 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | ackFilePreference            | Acknowledgement File Preference                   | NORMAL        | Normal                                                    |Available | Required | Allowed  |    NA    |
