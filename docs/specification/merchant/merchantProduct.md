@@ -1,4 +1,4 @@
-# MERCHANT_XREF
+# MERCHANT_PRODUCT
 * **Description**: 
 * **API schema**: ` `
 * **Table Name**: `MERCHANT_PRODUCT`
