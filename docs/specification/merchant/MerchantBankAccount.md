@@ -1,10 +1,10 @@
 # Merchant Bank Account
 
-* **Description**: Essential information about merchant bank account, including account number, account type, and contact information. 
-* **API schema**: `MerchantAccount` 
-* **Table Name**: `UMM.MERCHANT_BANK_ACCOUNT` 
+* **Description**: Essential information about merchant bank account, including account number, account type, and contact information.
+* **API schema**: `MerchantAccount`
+* **Table Name**: `UMM.MERCHANT_BANK_ACCOUNT`
 
-## List of Fields:
+## List of Fields
 
 ### MERCHANT_ID
 
@@ -17,21 +17,22 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 8        |    50        |    Required     | Required     | Required |    Required     |
 
-* Merchant Id is required for carrying out any operation on a specific merchant. 
+* Merchant Id is required for carrying out any operation on a specific merchant.
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | String   | Required   | Required   | Required   | Required  |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -40,13 +41,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 8        |    8        |    Required     | Required     | Required |    NA         |
 
 <!-- type: tab-end -->
 ---
+
 ### PLATFORM_CODE
+
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
 * Field Specification:
@@ -56,32 +60,33 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 5        |    9        |    Required     | Required     | Required |    Required     |
 
-**Valid Values**: 
+**Valid Values**:
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NORTH     |   North Backend     | 
-| OMNIPAY26     |  Omnipay Backend ( GMA)      | 
-| SOUTH     |     South  Backend | 
-| OMNIPAY21     |    Omnipay ( Australia)    |      |
+| NORTH     |   North Backend     |
+| OMNIPAY26     |  Omnipay Backend ( GMA)      |
+| SOUTH     |     South  Backend |
+| OMNIPAY21     |    Omnipay ( Australia)    |
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | String   | Required   | Required   | Required   | Required     |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | NORTH     |     North   |  |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -90,11 +95,12 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 9        |    9        |    Required     | Required     | Required |    NA         |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | OMNIPAY26     |  Omnipay Backend ( GMA)    |
@@ -104,6 +110,7 @@ titles: UMM, North, GMA
 ---
 
 ### SEQUENCE_NUMBER
+
 * Description: ABA/DDA occurrence sequence number of a bank.
 * API field: `sequenceNumber`
 * Field Specification:
@@ -113,38 +120,40 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Integer  | 1        |    4        |    Available     | Required     |  Allowable  |    NA    |
 
 * SEQUENCE_NUMBER will be used to update bank detail associated with a specific bank account for North backend platform
 
-**Valid Values**: 
+**Valid Values**:
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| 1     |     1st Bank Account    | 
-| 2     |     2nd Bank Account   | 
-| 3     |     3rd bank Account   | 
-| 4     |     4th Bank Account   | 
+| 1     |     1st Bank Account    |
+| 2     |     2nd Bank Account   |
+| 3     |     3rd bank Account   |
+| 4     |     4th Bank Account   |
 | 5     |     5th Bank Account   |
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | Integer| Available   | Required   |  Allowable    | NA |         |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| 1     |     1st Bank Account    | 
-| 2     |     2nd Bank Account   | 
-| 3     |     3rd bank Account   | 
-| 4     |     4th Bank Account   | 
+| 1     |     1st Bank Account    |
+| 2     |     2nd Bank Account   |
+| 3     |     3rd bank Account   |
+| 4     |     4th Bank Account   |
 | 5     |     5th Bank Account   |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -153,13 +162,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Integer  | 1        |    4        |    Available| NA           |  NA          |    NA        |
 
 <!-- type: tab-end -->
 ---
+
 ### ACCT_USAGE_CODE
+
 * Description: Code that indicate the usage/purpose of an account.
 * API field: `accountUsageCode`
 * Field Specification:
@@ -169,14 +181,15 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 7        |    32        |    Available     |   Required   | Allowed  |  NA          |        
+| String  | 7        |    32        |    Available     |   Required   | Allowed  |  NA          |
 
-**Valid Values**: 
+**Valid Values**:
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| FUNDING     |     Funding Bank Account  | 
+| FUNDING     |     Funding Bank Account  |
 | LEASING     |     Leasing Bank Account   |
 | PAR_PAYABLE | Account Usage Code |
 | APM_PAR_PAYABLE | Account Usage Code |
@@ -319,23 +332,21 @@ titles: UMM, North, GMA
 | GST_COLLECT_RECEIVABLE | Account Usage Code |
 | VEASE_FUND_CLEAR_RECEIVABLE | Account Usage Code |
 
-
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Required   |  NA  | NA |       
+| String   | Available   | Required   |  NA  | NA |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| FUNDING     |     Funding Bank Account   | 
-| LEASING     |     Leasing Bank Account    | 
+| FUNDING     |     Funding Bank Account   |
+| LEASING     |     Leasing Bank Account    |
 
-
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -344,14 +355,14 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    3        |    Available     |   Required   | NA  |  NA              |
 
 * ACCT_USAGE_CODE will be used to update bank detail associated with a specific bank account for GMA (Omnipay) backend platform. The valid values for ACCT_USAGE_CODE is applicable for both PAYABLE and RECEIVABLE and hence, they have been noted separately below. This field is applicable for both PAYABLE and RECEIVABLE entities for GMA.
 
-
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | PAR_PAYABLE | Account Usage Code |
@@ -493,12 +504,13 @@ titles: UMM, North, GMA
 | MC_ADJUSTMENTS_RECEIVABLE | Account Usage Code |
 | REJECTED_DESC_RECEIVABLE | Account Usage Code |
 | GST_COLLECT_RECEIVABLE | Account Usage Code |
-| VEASE_FUND_CLEAR_RECEIVABLE | Account Usage Code | 
+| VEASE_FUND_CLEAR_RECEIVABLE | Account Usage Code |
 
 <!-- type: tab-end -->
 ---
 
 ### ROUTING_NUMBER
+
 * Description: Routing number of a bank.
 * API field: `routingNumber`
 * Field Specification:
@@ -508,6 +520,7 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 9        |    22        |    Available     | Required     |  Allowed  |    NA      |
@@ -516,12 +529,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Required   |  Allowed    | NA |    
+| String   | Available   | Required   |  Allowed    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -530,13 +544,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 0        |    22       |    Available     | Optional     |  Allowed  |    NA       |
 
 <!-- type: tab-end -->
 ---
+
 ### ACCT_NUMBER
+
 * Description: Account number assigned to the merchant's bank account.
 * API field: `accountNumber`
 * Field Specification:
@@ -546,21 +563,23 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 6        |    35        |    Available     | Required     |  Allowed  |    NA      |    
+| String  | 6        |    35        |    Available     | Required     |  Allowed  |    NA      |
 
-* Since Account number is PII data, it will be stored in encrypted format in table. 
+* Since Account number is PII data, it will be stored in encrypted format in table.
 * Note: This field is applicable for both PAYABLE and RECEIVABLE entities for GMA.
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Required   |  Allowed    | NA |    
+| String   | Available   | Required   |  Allowed    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -569,6 +588,7 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 0        |    35        |    Available     | Optional     |  Allowed  |    NA      |
@@ -576,7 +596,9 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 
 ---
+
 ### ACCOUNT_EFFECTIVE_DT
+
 * Description: Date on which the account was activated.
 * API field: `accountEffectiveDate`
 * Field Specification:
@@ -586,18 +608,20 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Date  | 10        |    10        |    Available     | Required     |  Allowed  |    NA |    
+| Date  | 10        |    10        |    Available     | Required     |  Allowed  |    NA |
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Required   |  Allowed    | NA |    
+| String   | Available   | Required   |  Allowed    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -606,6 +630,7 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
 |       |     -    |          |              |       NA     |
@@ -614,6 +639,7 @@ titles: UMM, North, GMA
 ---
 
 ### BANK_FUNDING_FILE_CODE
+
 * Description: Code that indicates the funding file process associated with ABA/DDA.
 * API field: `bankFundingFileCode`
 * Field Specification:
@@ -623,39 +649,40 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 14        |    18        |    Available     | Required     |  Allowed  |    NA |         |
 
-**Valid Values**: 
+**Valid Values**:
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| DDA_AGENT_LEVEL     |     DDA Agent Level   | 
-| FED_AGENT_LEVEL     |     Fed Agent Level   | 
-| FED_BANK_LEVEL     |     Fed Bank Level   | 
-| DDA_BANK_LEVEL     |     DDA Bank Level   | 
-| DDA_BUSINESS_LEVEL     |     DDA Business Level   | 
+| DDA_AGENT_LEVEL     |     DDA Agent Level   |
+| FED_AGENT_LEVEL     |     Fed Agent Level   |
+| FED_BANK_LEVEL     |     Fed Bank Level   |
+| DDA_BANK_LEVEL     |     DDA Bank Level   |
+| DDA_BUSINESS_LEVEL     |     DDA Business Level   |
 | FED_BUSINESS_LEVEL     |     Fed Business Level   |
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | String   | Available   | Required   |  Allowed    | NA |         |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| DDA_AGENT_LEVEL     |     DDA Agent Level   | 
-| FED_AGENT_LEVEL     |     Fed Agent Level   | 
-| FED_BANK_LEVEL     |     Fed Bank Level   | 
-| DDA_BANK_LEVEL     |     DDA Bank Level   | 
-| DDA_BUSINESS_LEVEL     |     DDA Business Level   | 
+| DDA_AGENT_LEVEL     |     DDA Agent Level   |
+| FED_AGENT_LEVEL     |     Fed Agent Level   |
+| FED_BANK_LEVEL     |     Fed Bank Level   |
+| DDA_BANK_LEVEL     |     DDA Bank Level   |
+| DDA_BUSINESS_LEVEL     |     DDA Business Level   |
 | FED_BUSINESS_LEVEL     |     Fed Business Level   |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -664,13 +691,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
 |       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### BANK_ACCOUNT_TYPE
+
 * Description: Type of an account.
 
 * API field: `bankAccountType`
@@ -681,31 +711,32 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 7        |    10        |    Available     | Required     |  Allowed  |    NA |         |
 
-**Valid Values**: 
+**Valid Values**:
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| CHECKING     |     Checking   | 
-| SAVINGS     |     Savings   | 
+| CHECKING     |     Checking   |
+| SAVINGS     |     Savings   |
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | String | Available   | Required   |  Allowed    | NA |         |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| CHECKING     |     Checking   | 
-| SAVINGS     |     Savings   | 
+| CHECKING     |     Checking   |
+| SAVINGS     |     Savings   |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -714,13 +745,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
 |       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### PAYMENT_DELAY_DAYS
+
 * Description: Number of days to hold payment to the merchant.
 
 * API field: `paymentDelayDays`
@@ -731,19 +765,20 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Integer  | 1        |    3        |    Available     | Optional     |  TBD  |    NA          |
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| NA | NA   | NA   |  NA    | NA |         
+| NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -752,13 +787,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    3        |    Available | Optional     |  TBD  |    NA               |
 
 <!-- type: tab-end -->
 ---
+
 ### BANK_NAME
+
 * Description: Merchant's bank name. When Billing Level set to true Bank Name must be populated.
 
 * API field: `bankName`
@@ -769,6 +807,7 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    100        |    Available     | Optional |  TBD  |    NA             |
@@ -777,13 +816,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| NA | NA   | NA   |  NA    | NA |         
+| NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -792,13 +831,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 0        |    40        |    Available | Optional     |  TBD  |    NA              |
 
 <!-- type: tab-end -->
 ---
+
 ### NAME_ON_ACCT
+
 * Description: Merchant's bank account name. Mandatory if billing level is set to true.
 
 * API field: `nameOnAccount`
@@ -809,6 +851,7 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    100        |    Available     | Optional |  TBD  |    NA             |
@@ -817,13 +860,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| NA | NA   | NA   |  NA    | NA |         
+| NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -832,13 +875,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 0        |    35        |    Available | Optional     |  TBD  |    NA              |
 
 <!-- type: tab-end -->
 ---
+
 ### IBAN
+
 * Description: International Bank Account Number (IBAN) is a series of alphanumeric characters that uniquely identifies a customer's account held at a bank anywhere in the world. This is considered PII data; the value will be encrypted prior to storing.
 
 * API field: `iban`
@@ -849,6 +895,7 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    50        |    Available     | Optional |  TBD  |    NA              |
@@ -857,13 +904,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| NA | NA   | NA   |  NA    | NA |         
+| NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -872,13 +919,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 0        |    35        |    Available | Optional     |  TBD  |    NA              |
 
 <!-- type: tab-end -->
 ---
+
 ### PHONE_NUMBER
+
 * Description: The telephone number of the merchant bank.
 
 * API field: `phoneNumber`
@@ -889,6 +939,7 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 10        |    15        |    Available     | Optional |  TBD  |    NA             |
@@ -897,13 +948,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| NA | NA   | NA   |  NA    | NA |         
+| NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -912,13 +963,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 0        |    15        |    Available | Optional     |  TBD  |    NA              |
 
 <!-- type: tab-end -->
 ---
+
 ### CONTACT_NAME
+
 * Description: Name of contact at the merchant's bank. Mandatory if billing level is set to true.
 
 * API field: `contactName`
@@ -929,6 +983,7 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    80        |    Available     | Optional |  TBD  |    NA              |
@@ -937,13 +992,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| NA | NA   | NA   |  NA    | NA |         
+| NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -952,13 +1007,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 0        |    35        |    Available | Optional     |  TBD  |    NA              |
 
 <!-- type: tab-end -->
 ---
+
 ### CORRESPONDENT_BANK_NO
+
 * Description: For institutions using IFS funding file this field should contain the swift code of the payable bank (mapped to international bank code field on the IFS file).
 
 * API field: `correspondentBankNo`
@@ -969,6 +1027,7 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    80        |    Available     | Optional |  TBD  |    NA              |
@@ -977,13 +1036,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| NA | NA   | NA   |  NA    | NA |         
+| NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -992,13 +1051,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 0        |    11        |    Available | Optional     |  TBD  |    NA              |
 
 <!-- type: tab-end -->
 ---
+
 ### BANK_CITY
+
 * Description: CREDIT ACCOUNT Bank City (optional field).
 
 * API field: `bankCity`
@@ -1009,6 +1071,7 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    50        |    Available     | Optional |  TBD  |    NA              |
@@ -1017,13 +1080,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| NA | NA   | NA   |  NA    | NA |         
+| NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -1032,13 +1095,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 0        |    35        |    Available | Optional     |  TBD  |    NA              |
 
 <!-- type: tab-end -->
 ---
+
 ### PAYMENT_FORMAT_ID
+
 * Description: Format to be used to present payments to the clearing entity. Only applicable to institutions using the IFS file for funding merchants. If not provided while adding a merchant account, then system will default to the first occurrence (ordered by Index) defined for an institution.
 
 * API field: `paymentFormat`
@@ -1049,13 +1115,14 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 2        |    7        |    Available     | Optional |  TBD  |    NA               |
 
 * Note: This field is applicable for both PAYABLE and RECEIVABLE entities for GMA.
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:----------------------------------------------|
 | BACS | BACS |
@@ -1069,17 +1136,17 @@ titles: UMM, North, GMA
 | ACH | ACH |
 | XML | XML |
 | EDIFACT | EDIFACT |
-| FPT | FPT | 
+| FPT | FPT |
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -1088,11 +1155,12 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    3        |    Available | Optional     |  TBD  |    NA               |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:----------------------------------------------|
 | BACS | BACS |
@@ -1110,7 +1178,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab-end -->
 ---
+
 ### CLEARING_ENTITY
+
 * Description: The financial institution that will receive the payment. Only applicable to institutions using the IFS file for funding merchants.
 
 * API field: `clearingEntity`
@@ -1121,13 +1191,14 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    18        |    Available     | Optional |  TBD  |    NA              |
 
 * Note: This field is applicable for both PAYABLE and RECEIVABLE entities for GMA.
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:----------------------------------------------|
 | ABN_AMRO | ABN Amro |
@@ -1145,13 +1216,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -1160,11 +1231,12 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    3        |    Available | Optional     |  TBD  |    NA               |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:----------------------------------------------|
 | ABN_AMRO | ABN Amro |
@@ -1182,7 +1254,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab-end -->
 ---
+
 ### CORRESPONDENT_BANK_ACCOUNT
+
 * Description: Bank account number for the intermediary bank used for fund transfers. Used in cases where merchant uses a small financial institution, for example a local credit union.
 
 * API field: `correspondentBankAccount`
@@ -1193,6 +1267,7 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 0        |    20        |    Available     | Optional |  TBD  |    NA              |
@@ -1201,13 +1276,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -1216,13 +1291,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 0        |    16        |    Available | Optional     |  TBD  |    NA               |
 
 <!-- type: tab-end -->
 ---
+
 ### BILLING_LEVEL
+
 * Description: Indicates if the account will be settled to on a funding.
 
 * API field: `billingLevel`
@@ -1233,6 +1311,7 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Boolean  | 4        |    5        |    Available     | Required |  TBD  |    NA              |
@@ -1241,13 +1320,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -1256,13 +1335,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Boolean  | 4        |    5        |    Available     | Required |  TBD  |    NA              |
 
 <!-- type: tab-end -->
 ---
+
 ### CURRENCY_CODE
+
 * Description: Indicates if the account will be settled to on a funding.
 
 * API field: `currencyCode`
@@ -1273,11 +1355,12 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    3        |    Available     | Required |  TBD  |    NA               |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:----------------------------------------------|
 |EUR | Euro|
@@ -1297,13 +1380,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -1312,11 +1395,12 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    3        |    Available     | Required |  TBD  |    NA               |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:----------------------------------------------|
 |EUR | Euro|
@@ -1336,7 +1420,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab-end -->
 ---
+
 ### PAYMENT_REFERENCE
+
 * Description: For institutions using IFS funding file this field should contain the direct debit contract number (required for merchant debits). For others it is a reference text to display on merchant's bank statement if supported on the funding file.
 
 * API field: `paymentReference`
@@ -1347,19 +1433,20 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    18        |    Available     | Optional |  TBD  |    NA              |
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -1368,13 +1455,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 0        |    18        |    Available     | Optional |  TBD  |    NA              |
 
 <!-- type: tab-end -->
 ---
+
 ### RECEIVER_COUNTRY
+
 * Description: ISO-3166 alpha country code for the merchant's bank country. Mandatory if billing level is set to true. If not provided while adding an account then system will default to null.
 
 * API field: `receiverCountry`
@@ -1385,19 +1475,20 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    3        |    Available     | Optional |  TBD  |    NA               |
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -1406,13 +1497,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    3        |    Available     | Optional |  TBD  |    NA               |
 
 <!-- type: tab-end -->
 ---
+
 ### STATEMENT_GENERATION
+
 * Description: Option for statement generation. Defauts to GENERATE_IF_ACTIVITY.
 
 * API field: `statementGeneration`
@@ -1423,11 +1517,12 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 8        |    23        |    Available     | Optional |  TBD  |    NA              |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:----------------------------------------------|
 |SUPPRESS | Suppress Statement Generation for Merchant account|
@@ -1437,13 +1532,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -1452,11 +1547,12 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 8        |    23        |    Available     | Optional |  TBD  |    NA              |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:----------------------------------------------|
 |SUPPRESS | Suppress Statement Generation for Merchant account|
@@ -1466,7 +1562,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab-end -->
 ---
+
 ### STATEMENT_TYPE
+
 * Description: Statement type to be generated. Allowed to provide valid value if the institution level configuration enabled to override at merchant level. If no value provided while adding a merchant account, then system will default to "900".
 
 * API field: `statementGeneration`
@@ -1477,11 +1575,12 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 11        |    30        |    Available     | Optional |  TBD  |    NA             |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:----------------------------------------------|
 |CHARGE_INVOICE | Charge Invoice|
@@ -1516,13 +1615,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | NA | NA   | NA   |  NA    | NA |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -1531,11 +1630,12 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    3        |    Available     | Optional |  TBD  |    NA               |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:----------------------------------------------|
 |CHARGE_INVOICE | Charge Invoice|

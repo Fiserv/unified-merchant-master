@@ -4,7 +4,7 @@
 * **API schema**: `MerchantBusinessInformation`
 * **Table Name**: `UMM.MERCHANT`
 
-## List of Fields:
+## List of Fields
 
 ### MERCHANT_ID
 
@@ -17,18 +17,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |            |    NA     | NA     | NA |         |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |      12         |      12   | NA   | NA   | NA   |    |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -39,13 +41,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### PLATFORM_CODE
+
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
 * Field Specification:
@@ -55,18 +60,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |            |    NA     | NA     | NA |         |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |         | NA   | NA   | NA   |    |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -77,13 +84,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### LEGAL_CONTACT_NAME
+
 * Description: Name of the legal contact person.
 * API field: `legalContactName`
 * Field Specification:
@@ -93,18 +103,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |    5        |    Y     | Y     | NA |    legalContactName     |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |      5         |      24   | Y   | Y   | NA   | legalContactName   |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -115,13 +127,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### LEGAL_ENTITY_TYPE_CODE
+
 * Description: Code that indicates the type of legal merchant entity.
 * API field: `entityTypeCode`
 * Field Specification:
@@ -131,18 +146,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |    2        |    Y     | Y     | NA |    entityTypeCode     |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |      1         |      1   | Y   | Y   | NA   | entityTypeCode   |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -153,13 +170,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### LEGAL_CONTACT_TITLE
+
 * Description: Title or designation given to the legal contact person.
 * API field: `legalContactTitle`
 * Field Specification:
@@ -169,18 +189,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |    1        |    Y     | Y     | NA |    legalContactTitle     |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |      1         |      24   | Y   | Y   | NA   | legalContactTitle   |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -191,13 +213,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### CUSTOMER_SERVICE_PHONE_NUMBER
+
 * Description: Phone number of the merchant customer serivce.
 * API field: `customerServicePhoneNumber`
 * Field Specification:
@@ -207,18 +232,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |    10        |    Y     | Y     | NA |    customerServicePhoneNumber     |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |      10         |      10   | Y   | Y   | NA   | customerServicePhoneNumber   |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -229,13 +256,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### SALES_TAX_EXEMPT_INDICATOR
+
 * Description: Value that indicates whether the merchant is exempt from paying tax.
 * API field: `salesTaxExemptIndicator`
 * Field Specification:
@@ -245,18 +275,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |    1        |    Y     | Y     | NA |    salesTaxExemptIndicator     |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |      1         |      1   | Y   | Y   | NA   | salesTaxExemptIndicator   |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -267,13 +299,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### THIRD_PARTY_PROCESSOR_CODE
+
 * Description: Code that indicates the third party payment processor.
 * API field: `thirdPartyProcessorCode`
 * Field Specification:
@@ -283,18 +318,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |    3        |    Y     | Y     | NA |    thirdPartyProcessorCode     |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |      1         |      2   | Y   | Y   | NA   | thirdPartyProcessorCode   |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -305,13 +342,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### AVERAGE_TICKET_AMOUNT
+
 * Description: Average amount of each individual transaction that a customer makes at the merchant's establishment.
 * API field: `averageTicketAmount`
 * Field Specification:
@@ -321,18 +361,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       38        |    4        |    Y     | Y     | NA |    averageTicketAmount     |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |      1         |      5   | Y   | Y   | NA   | averageTicketAmount   |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -343,13 +385,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       0        |     18     |     Available    |    Optional      |     NA         |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### HIGHEST_TICKET_AMOUNT
+
 * Description: Maximum or highest amount of a single transaction that a customer makes at the merchant's establishment.
 * API field: `highestTicketAmount`
 * Field Specification:
@@ -359,18 +404,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |            |    NA     | NA     | NA |         |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |         | NA   | NA   | NA   |    |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -381,13 +428,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### KEYED_PERCENT
+
 * Description: Percentage entered manually rather than being automatically calculated or derived from a system.
 * API field: `keyedPercent`
 * Field Specification:
@@ -397,18 +447,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |    1        |    Y     | Y     | NA |    keyedPercent     |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |      1         |      3   | Y   | Y   | NA   | keyedPercent   |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -419,17 +471,21 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### FIRST_ACTIVITY_DATE
+
 * Description: Date on which the first activity was recorded.
 
-Format: CCYY-MM-DD 
+Format: CCYY-MM-DD
 Example: 2024-05-15
+
 * API field: `firstActivityDate`
 * Field Specification:
 
@@ -438,18 +494,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |            |    NA     | NA     | NA |         |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |         | NA   | NA   | NA   |    |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -460,13 +518,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### THIRD_PARTY_PROCESSOR_TEXT
+
 * Description: Name of the third party processor.
 * API field: `thirdPartyProcessorName`
 * Field Specification:
@@ -476,18 +537,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |    10        |    Y     | Y     | NA |    thirdPartyProcessorName     |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |      10         |      15   | Y   | Y   | NA   | thirdPartyProcessorName   |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -498,13 +561,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       -        |     -      |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### LEGAL_ENTITY_TYPE_CODE
+
 * Description: Company entity type for information purposes only, no impact to transaction processing.
 * API field: `legalEntityTypeCode`
 * Field Specification:
@@ -514,11 +580,12 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |        3       |    31        |    Y     | Y     | NA |    |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:----------------------------------------------|
 |PUBLIC_PRIVATE_CORP | Public/Private Corp|
@@ -570,12 +637,13 @@ titles: UMM, North, South, GMA
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |      10         |      15   | Y   | Y   | NA   |    |      |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:----------------------------------------------|
 |OTHER | Other|
@@ -587,8 +655,7 @@ titles: UMM, North, South, GMA
 |INTERNATIONAL_ORG | International Org|
 |LTD_LIABILITY_COMP | Limited Liability Company|
 
-
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -599,11 +666,12 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:--------:|:------------:|:------------:|
 | String |       3        |     3      |     Available    |    Required      |      Allowed        |       NA     |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:----------------------------------------------|
 |CO_OPERATIVE | Co-Operative|
@@ -645,10 +713,11 @@ titles: UMM, North, South, GMA
 |INDIVIDUAL | Individual|
 |TRUST | Trust|
 
-
 <!-- type: tab-end -->
 ---
+
 ### REGISTRATION_NUMBER
+
 * Description: The merchant registration number is a field that is conditional based on the configuration setup of an institution. By default, this field is mandatory, but it can be made optional at the institution level. If the field is provided in the payload, it must have a minimum length of 5 characters. Note that this value will be encrypted before storage, as it is considered PII data. To ensure proper encryption, a minimum length of 5 characters is required.
 * API field: `registrationNumber`
 * Field Specification:
@@ -658,18 +727,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |        5       |     15       |    Available     | Optional     | Allowed |     NA  |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |         | NA   | NA   | NA   |    |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -680,13 +751,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |        5       |     15       |    Available     | Optional     | Allowed |     NA  |
 
 <!-- type: tab-end -->
 ---
+
 ### ANNUAL_SALES_AMOUNT
+
 * Description: Contracted sales value for the merchant. Whether this value is per week, per month, per year, etc. is defined at institution level.
 * API field: `annualSalesAmount`
 * Field Specification:
@@ -696,18 +770,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | BigDecimal |        3       |     38       |    Available     | Optional     | Allowed | NA  |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |         | NA   | NA   | NA   |    |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -718,13 +794,16 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |        3       |     18       |    Available     | Optional     | Allowed | NA  |
 
 <!-- type: tab-end -->
 ---
+
 ### AVERAGE_TICKET_AMOUNT
+
 * Description: Contracted average ticket value for the merchant. Whether this value is per week, per month, per year, etc. is defined at institution level.
 * API field: `averageTicketAmount`
 * Field Specification:
@@ -734,18 +813,20 @@ titles: UMM, North, South, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | BigDecimal |        3       |     38       |    Available     | Optional     | Allowed | NA  |
 
 <!-- type: tab -->
 
-##### North Specification 
+##### North Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |               |         | NA   | NA   | NA   |    |      |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 #### South Specification
 
@@ -756,6 +837,7 @@ titles: UMM, North, South, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |        3       |     38       |    Available     | Optional     | Allowed | NA  |

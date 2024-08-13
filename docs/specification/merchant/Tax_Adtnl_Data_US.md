@@ -1,10 +1,10 @@
 # Merchant Additional Data - US
 
 * **Description**: Stores Tax related information for merchants
-* **API schema**: `MerchantIrsTax` 
-* **Table Name**: `UMM.MERCHANT_TAX_ADTNL_DATA_US` 
+* **API schema**: `MerchantIrsTax`
+* **Table Name**: `UMM.MERCHANT_TAX_ADTNL_DATA_US`
 
-## List of Fields:
+## List of Fields
 
 ### MERCHANT_ID
 
@@ -17,21 +17,22 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 8        |    50        |    Required     | Required     | Required |    Required     |
 
-* Merchant Id is required for carrying out any operation on a specific merchant. 
+* Merchant Id is required for carrying out any operation on a specific merchant.
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | String   | Required   | Required   | Required   | Required  |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -40,13 +41,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
 | String |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### PLATFORM_CODE
+
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
 * Field Specification:
@@ -56,32 +60,33 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 5        |    9        |    Required     | Required     | Required |    Required     |
 
-**Valid Values**: 
+**Valid Values**:
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NORTH     |   North Backend     | 
-| OMNIPAY26     |  Omnipay Backend ( GMA)      | 
-| SOUTH     |     South  Backend | 
+| NORTH     |   North Backend     |
+| OMNIPAY26     |  Omnipay Backend ( GMA)      |
+| SOUTH     |     South  Backend |
 | OMNIPAY21     |    Omnipay ( Australia)    |      |
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | String   | Required   | Required   | Required   | Required     |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | NORTH     |     North   |  |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -90,13 +95,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
 | String |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### EXCLUSION_CODE
+
 * Description: Code that indicates weather the merchant is excluded from the IRS processing.
 * API field: `exclusionCode`
 * Field Specification:
@@ -106,12 +114,12 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       12        |    35        |    Available     | NA     | Allowed |    NA     |
 
-
-**Valid Values**: 
+**Valid Values**:
 
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
@@ -126,11 +134,11 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |      
-
+| String |     Available   | NA   | Allowed   | NA   |
 
 **Valid Values**
 
@@ -148,14 +156,17 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |      
+| String |        |    |    |    |
 
 <!-- type: tab-end -->
 
 ---
+
 ### IRS_TIN_VALIDATION_CODE
+
 * Description: Code that indicates the validation of the merchant's taxpayer identification number (TIN).
 * API field: `irsTinValidationCode`
 * Field Specification:
@@ -165,11 +176,12 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
  String |       10        |    24        |    Available     | NA     | Allowed |    NA     |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |TIN_MATCHED | TIN and name match IRS|
@@ -190,12 +202,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |    
+| String |     Available   | NA   | Allowed   | NA   |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |TIN_MATCHED | TIN and name match IRS|
@@ -213,19 +226,20 @@ titles: UMM, North, GMA
 |IN_PROCESS | In process|
 |INVALID_NOT_TFN | Invalid passed TIN not TFN|
 |FAILED_PRESCREEN | TIN failed prescreening|
-
-
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |      
+| String |        |    |    |    |
 
 <!-- type: tab-end -->
 ---
+
 ### TIN_VALIDATION_DATE
+
 * Description: Date on which the IRS taxpayer identification number (TIN) validation was last performed for a merchant.
 * API field: `tinValidationDate`
 * Field Specification:
@@ -235,28 +249,32 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    10        |    Available     | NA     | Allowed |    NA     |
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
-
+| String |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
 <!-- type: tab-end -->
 ---
+
 ### PAYEE_CODE
+
 * Description: Code that indicates the unique code assigned to a payee or recipient for tax reporting purposes by the Internal Revenue Service (IRS).
 * API field: `payeeCode`
 * Field Specification:
@@ -266,11 +284,12 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       11        |    24        |    Available     | NA     | Allowed |    NA     |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |CHAIN_PAYEE_AGREGATOR | Chain Payee Agregator|
@@ -285,12 +304,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |CHAIN_PAYEE_AGREGATOR | Chain Payee Agregator|
@@ -306,15 +326,18 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
 <!-- type: tab-end -->
 ---
+
 ### CP2100_NOTICE_RECEIVED_DATE
+
 * Description: Date on which the merchant received a IRS CP2100 notice.
- Format: CCYY-MM-DD 
+ Format: CCYY-MM-DD
  Example: 2024-05-15
 * API field: `cp2100NoticeReceivedDate`
 * Field Specification:
@@ -324,31 +347,34 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    10        |    Available     | NA     | Allowed |    NA     |
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
-
+| String |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
-
 <!-- type: tab-end -->
 ---
+
 ### CP2100_NOTICE_EFFECTIVE_DATE
+
 * Description: Date on which the IRS CP2100 notice  becomes effective.
-  Format: CCYY-MM-DD 
+  Format: CCYY-MM-DD
   Example: 2024-05-15
 * API field: `cp2100NoticeEffectiveDate`
 * Field Specification:
@@ -358,29 +384,32 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    10        |    Available     | NA     | Allowed |    NA     |
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
-
+| String |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
-
 <!-- type: tab-end -->
 ---
+
 ### WITHHOLDING_CODE
+
 * Description: Code that indicates the IRS withholding is required or not.
 * API field: `withholdingCode`
 * Field Specification:
@@ -390,11 +419,12 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       8        |    12        |    Available     | NA     | Allowed |    NA     |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |REQUIRED | Backup Withhold is Required|
@@ -402,12 +432,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |REQUIRED | Backup Withhold is Required|
@@ -416,13 +447,16 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
 <!-- type: tab-end -->
 ---
+
 ### WITHHOLDING_NOTIFICATION_CODE
+
 * Description: Code that indicates the IRS back up withholding notification.
 * API field: `withholdingNotificationCode`
 * Field Specification:
@@ -432,11 +466,12 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       6        |    22        |    Available   | NA   | Allowed   | NA   |  
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |1ST_BUW_NOTICE | First BUW Notice|
@@ -450,12 +485,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |1ST_BUW_NOTICE | First BUW Notice|
@@ -470,16 +506,18 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
-
 <!-- type: tab-end -->
 ---
+
 ### WITHHOLDING_NOTIFICATION_DATE
+
 * Description: Date on which the taxpayer received a notification related to income withholding.
-  Format: CCYY-MM-DD 
+  Format: CCYY-MM-DD
   Example: 2024-05-15
 * API field: `withholdingNotificationDate`
 * Field Specification:
@@ -489,27 +527,32 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    10        |     Available   | NA   | Allowed   | NA   |  
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
 <!-- type: tab-end -->
 ---
+
 ### WITHHOLDING_REASON_CODE
+
 * Description: Code that indicates the IRS back up withholding reason.
 * API field: `withholdingReasonCode`
 * Field Specification:
@@ -519,11 +562,12 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       11        |    24        |    Available   | NA   | Allowed   | NA   |  
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |TIMS_MANUAL_BUW_OFF | TIMS Manual BUW Off|
@@ -539,12 +583,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |TIMS_MANUAL_BUW_OFF | TIMS Manual BUW Off|
@@ -557,21 +602,22 @@ titles: UMM, North, GMA
 |W8_NO_EXPIRATIONS | W8 no expirations|
 |W9_RECEIVED_EXEMPTION | W9 received exemption|
 |W8_EXPIRATION_PENDING | W8 expiration pending|
-
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
-
 <!-- type: tab-end -->
 ---
+
 ### WITHHOLDING_EFFECTIVE_DATE
+
 * Description: Date on which the IRS back up withholding becomes effective.
-  Format: CCYY-MM-DD 
+  Format: CCYY-MM-DD
   Example: 2024-05-15
 * API field: `withholdingEffectiveDate`
 * Field Specification:
@@ -581,29 +627,34 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    10        |    Available   | NA   | Allowed   | NA   |  
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
 <!-- type: tab-end -->
 ---
+
 ### WITHHOLDING_END_DATE
+
 * Description: Date from which the IRS back up withholding is not effective.
-  Format: CCYY-MM-DD 
+  Format: CCYY-MM-DD
   Example: 2024-05-15
 * API field: `withholdingEndDate`
 * Field Specification:
@@ -613,20 +664,23 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    10        |    Available   | NA   | Allowed   | NA   |  
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
@@ -634,7 +688,9 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 
 ---
+
 ### FED_WITHHOLDING_PERCENT
+
 * Description: Percentage of backup withholding that is required to be withheld by the the IRS.
 * API field: `fedWithHoldingPercent`
 * Field Specification:
@@ -644,20 +700,23 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | BigDecimal |       1        |    7        |     Available   | NA   | Allowed   | NA   |  
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
@@ -665,7 +724,9 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 
 ---
+
 ### STATE_WITHHOLDING_PERCENT
+
 * Description: Percentage that applies to the withholding of state income tax.
 * API field: `stateWithholdingPercent`
 * Field Specification:
@@ -675,27 +736,32 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       1        |    3        |    Available   | NA   | Allowed   | NA   |  
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
 <!-- type: tab-end -->
 ---
+
 ### FORM_CERT_STATUS_CODE
+
 * Description: Code that indicates the status of IRS form certification.
 * API field: `formCertStatusCode`
 * Field Specification:
@@ -705,11 +771,12 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String |       10        |    24        |     Available   | NA   | Allowed   | NA   |  
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |TIMS_MANUAL_BUW_OFF | TIMS Manual BUW Off|
@@ -725,12 +792,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |TIMS_MANUAL_BUW_OFF | TIMS Manual BUW Off|
@@ -743,21 +811,22 @@ titles: UMM, North, GMA
 |W8_NO_EXPIRATIONS | W8 no expirations|
 |W9_RECEIVED_EXEMPTION | W9 received exemption|
 |W8_EXPIRATION_PENDING | W8 expiration pending|
-
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
-
 <!-- type: tab-end -->
 ---
+
 ### FORM_CERT_STATUS_RECEIVED_DATE
+
 * Description: Date on which the certification status of an IRS form was received.
-  Format: CCYY-MM-DD 
+  Format: CCYY-MM-DD
   Example: 2024-05-15
 * API field: `formCertStatusReceivedDate`
 * Field Specification:
@@ -767,30 +836,34 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Date |       10        |    10        |    Available   | NA   | Allowed   | NA   |  
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
-
 <!-- type: tab-end -->
 ---
+
 ### TURF_EFFECTIVE_DATE
+
 * Description: Effective date from when the Taxpayer's United Reporting Federation (TURF) makes an agreement with the IRS.
- Format: CCYY-MM-DD 
+ Format: CCYY-MM-DD
  Example: 2024-05-15
 * API field: `turfEffectiveDate`
 * Field Specification:
@@ -800,28 +873,32 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Date |       10        |    10        |     Available   | NA   | Allowed   | NA   | 
+| Date |       10        |    10        |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
-
 <!-- type: tab-end -->
 ---
+
 ### TURF_REASON_CODE
+
 * Description: Code that indicates the reason of updating the IRS TURF agreement.
 * API field: `turfReasonCode`
 * Field Specification:
@@ -831,11 +908,12 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       17        |    23        |    Available   | NA   | Allowed   | NA   | 
+| String |       17        |    23        |    Available   | NA   | Allowed   | NA   |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |ADD_MISSING_TIN/TFN | Add missing TIN/TFN|
@@ -846,12 +924,13 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |ADD_MISSING_TIN/TFN | Add missing TIN/TFN|
@@ -863,15 +942,18 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
 <!-- type: tab-end -->
 ---
+
 ### TURF_UPDATE_DATE
+
 * Description: Date on which the Taxpayer's United Reporting Federation (TURF) agreement with the IRS was last updated.
- Format: CCYY-MM-DD 
+ Format: CCYY-MM-DD
  Example: 2024-05-15
 * API field: `turfUpdateDate`
 * Field Specification:
@@ -881,27 +963,32 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    10        |     Available   | NA   | Allowed   | NA   | 
+| String |       10        |    10        |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
 <!-- type: tab-end -->
 ---
+
 ### TAX_EFFECTIVE_YEAR
+
 * Description: Year from which the IRS tax regulations, rules, and rates come into effect.
 * API field: `taxEffectiveYear`
 * Field Specification:
@@ -911,28 +998,32 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       4        |    4        |   Available   | NA   | Allowed   | NA   | 
+| String |       4        |    4        |   Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
-
+| String |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
 <!-- type: tab-end -->
 ---
+
 ### TIMS_ACCT_NUMBER
+
 * Description: Account number associated with the Taxpayer Information Management System (TIMS).
 * API field: `timsAccountNumber`
 * Field Specification:
@@ -942,27 +1033,32 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       1        |    20        |    Available   | NA   | Allowed   | NA   | 
+| String |       1        |    20        |    Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  
 
 <!-- type: tab-end -->
 ---
+
 ### TAX_PAY_INDICATOR
+
 * Description: Value that indicates whether a taxpayer has made the required tax payments for a specific period or tax year.
 * API field: `taxPayIndicator`
 * Field Specification:
@@ -972,11 +1068,12 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       2        |    3        |     Available   | NA   | Allowed   | NA   | 
+| String |       2        |    3        |     Available   | NA   | Allowed   | NA   |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |NO | Tax Pay Indicator|
@@ -984,21 +1081,22 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-#### North Specification 
+#### North Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |   
+| String |     Available   | NA   | Allowed   | NA   |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |NO | Tax Pay Indicator|
 |YES | Tax Pay Indicator|
-
 
 <!-- type: tab -->
 
 #### GMA Specification
+
 | Type   |  Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|
 | String |        |    |    |    |  

@@ -4,7 +4,7 @@
 * **API schema**: `MerchantXref`
 * **Table Name**: `MERCHANT_XREF`
 
-## List of Fields:
+## List of Fields
 
 ### MERCHANT_ID
 
@@ -17,21 +17,22 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 8        |    50        |    Required     | Required     | Required |    Required     |
 
-* Merchant Id is required for carrying out any operation on a specific merchant. 
+* Merchant Id is required for carrying out any operation on a specific merchant.
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | String   | Required   | Required   | Required   | Required  |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -40,13 +41,16 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
 | String |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### PLATFORM_CODE
+
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
 * Field Specification:
@@ -56,32 +60,33 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 5        |    9        |    Required     | Required     | Required |    Required     |
 
-**Valid Values**: 
+**Valid Values**:
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NORTH     |   North Backend     | 
-| OMNIPAY26     |  Omnipay Backend ( GMA)      | 
-| SOUTH     |     South  Backend | 
-| OMNIPAY21     |    Omnipay ( Australia)    |      |
+| NORTH     |   North Backend     |
+| OMNIPAY26     |  Omnipay Backend ( GMA)      |
+| SOUTH     |     South  Backend |
+| OMNIPAY21     |    Omnipay ( Australia)    |
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | String   | Required   | Required   | Required   | Required     |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NORTH     |     North   |  |
+| NORTH     |     North   |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -90,6 +95,7 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
 | String |     -    |          |              |       NA     |
@@ -98,6 +104,7 @@ titles: UMM, North, GMA
 ---
 
 ### XREF_PLATFORM_CODE
+
 * Description: Value that indicates the usage of cross reference record associated with the merchant.
 * API field: `xrefPlatformCode`
 * Field Specification:
@@ -107,11 +114,12 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 3        |    16        |    Available     | Optional      | NA |    Allowed |
 
-* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference. 
+* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference.
 
 **Valid Values**: --- Complete list ??
 |         Value        |                    Description                 |
@@ -144,8 +152,8 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | String   | Available   | optional   | NA   | NA |
@@ -179,7 +187,7 @@ titles: UMM, North, GMA
 |  CARDNET     |  Cross Reference platform    |
 |  HBOS     |  Cross Reference platform    |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -188,6 +196,7 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
 |       |     -    |          |              |       NA     |
@@ -196,6 +205,7 @@ titles: UMM, North, GMA
 ---
 
 ### XREF_PLATFORM_MID
+
 * Description: Unique identifier assigned to an external merchant.
 * API field: `xrefPlatformMid`
 * Field Specification:
@@ -205,22 +215,23 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 7        |    20        |    Available     | Optional     | NA |    Allowed  |   
+| String  | 7        |    20        |    Available     | Optional     | NA |    Allowed  |
 
-* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference. 
-* It will delete all fields associated with the specific cross reference 
+* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference.
+* It will delete all fields associated with the specific cross reference
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Optional   | NA   | Allowed |    
+| String   | Available   | Optional   | NA   | Allowed |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -229,6 +240,7 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 0        |    20        |    Available     | Required     | NA |       NA          |
@@ -237,6 +249,7 @@ titles: UMM, North, GMA
 ---
 
 ### PRIMARY_SECURITY_CODE
+
 * Description: Security code  associated with a front end network.
 * API field: `primarySecurityCode`
 * Field Specification:
@@ -246,22 +259,23 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 4        |    4        |    Available     | Optional     | NA |    Allowed |    
+| String  | 4        |    4        |    Available     | Optional     | NA |    Allowed |
 
-* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference. 
-* It will delete all fields associated with the specific cross reference 
+* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference.
+* It will delete all fields associated with the specific cross reference
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Optional   | NA   | Allowed |    
+| String   | Available   | Optional   | NA   | Allowed |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -270,6 +284,7 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
 |       |     -    |          |              |       NA     |
@@ -278,6 +293,7 @@ titles: UMM, North, GMA
 ---
 
 ### ALLIANCE_PLATFORM_CODE
+
 * Description: Code that indicates the alliance Platform.
 * API field: `alliancePlatformCode`
 * Field Specification:
@@ -287,17 +303,18 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    22        |    Available     | Optional     | Allowed |    Allowed |         
+| String  | 3        |    22        |    Available     | Optional     | Allowed |    Allowed |
 
-* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference. 
+* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference.
 * Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to update ALLIANCE_PLATFORM_CODE
 
-**Valid Values**: 
+**Valid Values**:
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-|  FISERV_BAMS	|  Fiserv/BAMS     |
+|  FISERV_BAMS |  Fiserv/BAMS     |
 |  WALMART         |   Walmart     |
 |  SUNTRUST_TWO         |   2SunTrust     |
 |  FISERV_BANK_OF_AMERICA         |   Fiserv/Bank of America     |
@@ -319,16 +336,16 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | String   | Available   | Required   | Allowed   | NA |         |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-|  FISERV_BAMS	|  Fiserv/BAMS     |
+|  FISERV_BAMS |  Fiserv/BAMS     |
 |  WALMART         |   Walmart     |
 |  SUNTRUST_TWO         |   2SunTrust     |
 |  FISERV_BANK_OF_AMERICA         |   Fiserv/Bank of America     |
@@ -348,7 +365,7 @@ titles: UMM, North, GMA
 |  SUNTRUST_ONE         |   Sun Trust     |
 |  NOVUS         |   Novus     |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -357,6 +374,7 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
 |       |     -    |          |              |       NA     |
@@ -365,6 +383,7 @@ titles: UMM, North, GMA
 ---
 
 ### XREF_CORRESPONDENCE_INDICATOR
+
 * Description: Value that indicates the merchants and communications uses the associated cross reference number.
 * API field: `xrefCorrespondenceIndicator`
 * Field Specification:
@@ -374,34 +393,35 @@ titles: UMM, North, GMA
 -->
 
 #### UMM Specification
+
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 2        |    3        |    Available     | Optional     | Allowed |    Allowed |
 
-**Valid Values**: 
+**Valid Values**:
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NO     |     No   | 
-| YES     |     Yes   | 
+| NO     |     No   |
+| YES     |     Yes   |
 
-* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference. 
+* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference.
 * Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to update XREF_CORRESPONDENCE_INDICATOR
 
 <!-- type: tab -->
 
+#### North Specification
 
-#### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
 | String   | Available   | Optional   | Allowed   | Allowed |         |
 
-**Valid Values**: 
+**Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| NO     |     No   | 
-| YES     |     Yes   | 
+| NO     |     No   |
+| YES     |     Yes   |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--#### South Specification -->
 
@@ -410,6 +430,7 @@ titles: UMM, North, GMA
 <!--| String |     -    |          |              |       NA     |-->
 
 #### GMA Specification
+
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
 |       |     -    |          |              |       NA     |
