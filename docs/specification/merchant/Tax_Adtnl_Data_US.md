@@ -1,4 +1,5 @@
 # Merchant Additional Data - US
+
 * **Description**: Stores Tax related information for merchants
 * **API schema**: `MerchantIrsTax` 
 * **Table Name**: `UMM.MERCHANT_TAX_ADTNL_DATA_US` 

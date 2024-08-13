@@ -1,4 +1,5 @@
 # Merchant Bank Account
+
 * **Description**: Essential information about merchant bank account, including account number, account type, and contact information. 
 * **API schema**: `MerchantAccount` 
 * **Table Name**: `UMM.MERCHANT_BANK_ACCOUNT` 

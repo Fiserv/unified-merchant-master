@@ -1,4 +1,5 @@
 # Merchant Owner
+
 * **Description**: Essential information about merchant owner, including demographic details, and contact information. This is a critical information for every principal owner of a merchant.
 * **API schema**: `Owner`
 * **Table Name**: `UMM.MERCHANT_OWNER` 

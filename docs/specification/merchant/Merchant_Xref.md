@@ -1,4 +1,5 @@
 # MERCHANT_XREF
+
 * **Description**: Stores essential information about  cross reference of other platform for same merchant.
 * **API schema**: `MerchantXref`
 * **Table Name**: `MERCHANT_XREF`

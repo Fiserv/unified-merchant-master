@@ -1,4 +1,5 @@
 # Merchant Hierarchy
+
 * **Description**: Stores essential information of management hierarchy for the merchant.
 * **API schema**: `MerchantHierarchies` 
 * **Table Name**: `UMM.merchant_hierarchy` 

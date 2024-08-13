@@ -1,4 +1,5 @@
 # Merchant
+
 * **Description**: Stores essential information about merchant -   demographic information,merchant status , business type, and contractual data, ensuring efficient transaction processing and management. Every merchant has an entry in this critical repository.
 * **API Schema**: `Merchant`
 * **Table Name**: `UMM.MERCHANT`

@@ -1,4 +1,5 @@
 # Merchant Address
+
 * **Description**: Essential information about  business address of a merchant for official purposes and communication.
 * **API schema**: `Address`
 * **Table Name**: `MERCHANT_ADDRESS` 
