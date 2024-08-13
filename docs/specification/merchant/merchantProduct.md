@@ -6,97 +6,81 @@
 
 ## List of Fields:
 ### MERCHANT_ID
-* Description: Backend unique identifier for a merchant.
-* API field: merchantId
+* Description: Unique identifier of the merchant. It is required to add merchant-specific information to the database.
+* API field: `merchantId`
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
-|--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
-| String |  BE specific   |     50     |   N/A   | Required | Required |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 34        |    50        |    NA     | NA     | NA |    NA |    
 
-<!-- type: tab-->
+<!-- type: tab -->
 
-##### North Specification
-| Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
-|--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
-| String |       12       |     12     |   N/A   | Required | Required |
 
-<!-- type: tab--> 
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+| 12   | NA   | NA   | NA   |  |    
 
-##### South Specification
+<!-- type: tab --> 
 
-| Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
-|--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
-| String |       11       |     11     |   N/A   | Required | Required |
+<!--##### South Specification -->
 
-<!-- type: tab-->
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
 
 ##### GMA Specification
-| Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
-|--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
-| String |       11       |     11     |   N/A   | Required | Required |
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
 
 ### PLATFORM_CODE
-* Description: Backend platform identifier e.g. North, South etc.
-* API field: platformCode
+* Description: Code to identify the specific backend platform. It adds the required information for the merchant.
+* API field: `platformCode`
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
-| Type | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
-|------|:--------------:|:----------:|:-------:|:--------:|:--------:|
-| ENUM |      N/A       |     40     |   N/A   | Required | Required |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 5        |    50        |    NA     | NA     | NA |    NA |    
 
-See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
-<!-- type: tab-end -->
----
-## ATTRIBUTE_ID
-* Description: UMM defined attribute ID.
-* API field: Not applicable
-```
-                 
-```
-* Field Specification:
+<!-- type: tab -->
 
-<!-- type: tab 
-titles: UMM
--->
 
-##### UMM Specification
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Numeric |      N/A       |     6      |   N/A   |  N/A   |  N/A   |
+##### North Specification 
+| Type   | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------:|:------------:|:------------:|:------------:|
+|    | NA   | NA   | NA   |  |    
 
-<!-- type: tab-end -->
----
+<!-- type: tab --> 
 
-### VALUE
-* Description: Value of the Attribute
-* API field: values
-* Field Specification:
+<!--##### South Specification -->
 
-<!-- type: tab 
-titles: UMM
--->
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
 
-##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry | Create | Update |
-|--------|:--------------:|:----------:|:-------:|:------:|:------:|
-| String |      NA       |    200     |   NA   |  NA   |  NA   |
+##### GMA Specification
+| Type   | Inquiry  |  Create  |    Update    |    Delete    |
+|--------|:--------:|:--------:|:------------:|:------------:|
+|       |     -    |          |              |       NA     |
 
 <!-- type: tab-end -->
 ---
+
 ### PRDCT_CODE
 * Description: The product code associated with the product and defined by UMM API.
 * API field: productCode
@@ -11235,3 +11219,5 @@ titles: UMM, North, GMA
 | String  | 1        |    11    |    Available     | NA  |  NA   |    NA        |
 
 <!-- type: tab-end -->
+=======
+
