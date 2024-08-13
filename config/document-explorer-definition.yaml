@@ -66,9 +66,9 @@
               link: docs/specification/merchant/Tax_Adtnl_Data_US.md
             - title: Merchant Business Information
               link: docs/specification/merchant/MerchantBusinessInformation.md
-             - title: Merchant Product
+            - title: Merchant Product
               link: docs/specification/merchant/merchantProduct.md
-              - title: Merchant Attributes
+            - title: Merchant Attributes
               link: docs/specification/merchant/merchantAttributes.md
 - sections:
   - title: Release notes
