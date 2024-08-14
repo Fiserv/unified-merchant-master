@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "42crunch.vscode-openapi",
+    "aykutsarac.jsoncrack-vscode",
+    "davidanson.vscode-markdownlint",
+    "github.vscode-pull-request-github",
+    "mhutchie.git-graph",
+    "redhat.vscode-yaml"
+  ]
+}
