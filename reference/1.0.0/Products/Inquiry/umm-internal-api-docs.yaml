@@ -16,14 +16,16 @@ paths:
       - name: platformCode
         in: query
         description: |
-          Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
-          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+          Code to identify the specific backend platform. It adds the required information for the merchant
+          > For more details refer to
+          <a href="../docs?path=docs/specification/merchant/merchant.md#platform_code">specification</a>
         required: true
         schema:
           type: string
           description: |
-            Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+            Code to identify the specific backend platform. It adds the required information for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md#platform_code">specification</a>
           example: NORTH
           enum:
           - NORTH
@@ -90,7 +92,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/ProductMasterResponse"
+                $ref: '#/components/schemas/ProductMasterResponse'
       x-proxy-name: v1/products
       x-group-name: Inquiry
       x-core: UMM
@@ -110,7 +112,7 @@ components:
         products:
           type: array
           items:
-            $ref: "#/components/schemas/ProductResponse"
+            $ref: '#/components/schemas/ProductResponse'
         pageNumber:
           type: integer
           format: int32
@@ -128,10 +130,7 @@ components:
           format: int64
         productCode:
           type: string
-          description: |
-            Code that indicate the brand entitlement of the product
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
+          description: Code that indicate the brand entitlement of the product
         productLongDesc:
           type: string
         productShortDesc:
@@ -144,16 +143,12 @@ components:
           type: string
         isActive:
           type: string
-          description: |
-            This field indicates whether the product is active or not
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
         productCategory:
           type: string
         crossReference:
           type: array
           items:
-            $ref: "#/components/schemas/ProductMasterExternalCrossRefResponse"
+            $ref: '#/components/schemas/ProductMasterExternalCrossRefResponse'
         attributes:
           type: object
           additionalProperties:
