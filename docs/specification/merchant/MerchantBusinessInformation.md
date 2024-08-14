@@ -13,7 +13,8 @@
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, GMA -->
+titles: UMM, North, GMA 
+-->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -43,7 +44,8 @@ titles: UMM, North, GMA -->
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, GMA -->
+titles: UMM, North, GMA 
+-->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
