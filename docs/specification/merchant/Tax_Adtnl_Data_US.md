@@ -1,7 +1,7 @@
 # Merchant Additional Data - US
 
 * **Description**: Stores Tax related information for merchants
-* **API schema**: `MerchantIrsTax`
+* **API schema**: `merchantIrsDetails`
 * **Table Name**: `UMM.MERCHANT_TAX_ADTNL_DATA_US`
 
 ## List of Fields
@@ -55,7 +55,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 5        |    9        |    Required     | Required     | Required |    Required     |
+| Enum   | NA        |    NA        |    Required     | Required     | Required |    Required  |
 
 **Valid Values**:
 |         Value        |                    Description                 |
@@ -67,9 +67,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Required   | Required   | Required   | Required     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   | NA        |    NA        |    Required     | Required     | Required |    Required  |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -109,26 +109,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       12        |    35        |    Available     | NA     | Allowed |    NA     |
-
-**Valid Values**:
-
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-|FOREIGN_ENTITY_PENDING_VERIFICATION | Fgn Entity Pend Verify|
-|FOREIGN_ENTITY_PRIOR_1/1/11 | Fgn Entity prior 1/11/11|
-|NONPROFIT_VERIFIED | Non profit verified|
-|NONPROFIT_NOT_VERIFIED | Non profit not verified|
-|FOREIGN_ENTITY_VERIFIED | Foreign Entity Verified|
-|GOVERNMENT_ENTITY | Government entity|
-|FINANCIAL_INSTITUTION | Financial institution|
-|NOT_EXCLUDED | Not excluded|
-
-<!-- type: tab -->
-
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Enum   |       NA        |    NA        |    Available     | NA     | Allowed |    NA     |
 
 **Valid Values**:
 
@@ -147,7 +128,26 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+| Enum   |       NA        |    NA        |    Available     | NA     | Allowed |    NA     |
+
+**Valid Values**:
+
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+|FOREIGN_ENTITY_PENDING_VERIFICATION | Fgn Entity Pend Verify|
+|FOREIGN_ENTITY_PRIOR_1/1/11 | Fgn Entity prior 1/11/11|
+|NONPROFIT_VERIFIED | Non profit verified|
+|NONPROFIT_NOT_VERIFIED | Non profit not verified|
+|FOREIGN_ENTITY_VERIFIED | Foreign Entity Verified|
+|GOVERNMENT_ENTITY | Government entity|
+|FINANCIAL_INSTITUTION | Financial institution|
+|NOT_EXCLUDED | Not excluded|
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 
@@ -165,32 +165,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    24        |    Available     | NA     | Allowed |    NA     |
-
-**Valid Values**:
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-|TIN_MATCHED | TIN and name match IRS|
-|TIN_MISSING | TIN missing / not 9 digits|
-|TIN_UNISSUED | TIN not currently issued|
-|TIN_NOTMATCHED | TIN/NAME not equal to IRS|
-|INVALID_TIN | Invalid TIN match request|
-|DUPLICATE_TIN | Duplicate TIN matching request|
-|TIN_MATCHED_SSN | TIN/name match IRS/SSN|
-|TIN_MATCHED_EIN | TIN/name match IRS/EIN|
-|TIN_MATCHED_SSN_EIN | TIN/name match IRS/SSN/EIN|
-|IN_PROCESS_NO_UPDATE_MMF | In progress no update MMF|
-|TEST_ACCOUNT | Test account ex val by IRS|
-|INVALID_TIN_MULTI_TFN | Invalid TIN with multi TFN|
-|IN_PROCESS | In process|
-|INVALID_NOT_TFN | Invalid passed TIN not TFN|
-|FAILED_PRESCREEN | TIN failed prescreening|
-
-<!-- type: tab -->
-
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Enum   |       NA        |    NA        |    Available     | NA     | Allowed |    NA     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -215,7 +190,32 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+| Enum   |       NA        |    NA        |    Available     | NA     | Allowed |    NA     |
+
+**Valid Values**:
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+|TIN_MATCHED | TIN and name match IRS|
+|TIN_MISSING | TIN missing / not 9 digits|
+|TIN_UNISSUED | TIN not currently issued|
+|TIN_NOTMATCHED | TIN/NAME not equal to IRS|
+|INVALID_TIN | Invalid TIN match request|
+|DUPLICATE_TIN | Duplicate TIN matching request|
+|TIN_MATCHED_SSN | TIN/name match IRS/SSN|
+|TIN_MATCHED_EIN | TIN/name match IRS/EIN|
+|TIN_MATCHED_SSN_EIN | TIN/name match IRS/SSN/EIN|
+|IN_PROCESS_NO_UPDATE_MMF | In progress no update MMF|
+|TEST_ACCOUNT | Test account ex val by IRS|
+|INVALID_TIN_MULTI_TFN | Invalid TIN with multi TFN|
+|IN_PROCESS | In process|
+|INVALID_NOT_TFN | Invalid passed TIN not TFN|
+|FAILED_PRESCREEN | TIN failed prescreening|
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -232,19 +232,19 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    10        |    Available     | NA     | Allowed |    NA     |
-
-<!-- type: tab -->
-
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| String |       10        |    10        |    Available     | NA     | Allowed |       NA     |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+| String |       10        |    10        |    Available     | NA     | Allowed |       NA     |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -261,26 +261,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       11        |    24        |    Available     | NA     | Allowed |    NA     |
-
-**Valid Values**:
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-|CHAIN_PAYEE_AGREGATOR | Chain Payee Agregator|
-|CHAIN_PAYEE | Chain Payee|
-|CHAIN_NON_PAYEE | Chain Non Payee|
-|CHAIN_OUTLET_NO_1099K | Chain/Outlet no 1099k|
-|OUTLET_NONPAYEE_UNRELATD | Outlet nonpayee unrelatd|
-|OUTLET_NON_PAYEE_RELATED | Outlet non payee related|
-|OUTLET_PAYEE_RELATED | Outlet payee related|
-|SINGLETON_PAYEE | Singleton payee|
-|OUTLET_PAYEE_UNRELATED | Outlet payee unrelated|
-
-<!-- type: tab -->
-
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Enum   |       NA        |    NA        |    Available     | NA     | Allowed |       NA     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -299,7 +280,26 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+| Enum   |       NA        |    NA        |    Available     | NA     | Allowed |       NA     |
+
+**Valid Values**:
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+|CHAIN_PAYEE_AGREGATOR | Chain Payee Agregator|
+|CHAIN_PAYEE | Chain Payee|
+|CHAIN_NON_PAYEE | Chain Non Payee|
+|CHAIN_OUTLET_NO_1099K | Chain/Outlet no 1099k|
+|OUTLET_NONPAYEE_UNRELATD | Outlet nonpayee unrelatd|
+|OUTLET_NON_PAYEE_RELATED | Outlet non payee related|
+|OUTLET_PAYEE_RELATED | Outlet payee related|
+|SINGLETON_PAYEE | Singleton payee|
+|OUTLET_PAYEE_UNRELATED | Outlet payee unrelated|
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -322,15 +322,16 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       10        |    10        |    Available     | NA     | Allowed |    NA     |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
 <!-- type: tab-end -->
 ---
 
@@ -352,15 +353,15 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       10        |    10        |    Available     | NA     | Allowed |    NA     |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -377,19 +378,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       8        |    12        |    Available     | NA     | Allowed |    NA     |
-
-**Valid Values**:
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-|REQUIRED | Backup Withhold is Required|
-|NOT_REQUIRED | Previously required backup withholding is not required now|
-
-<!-- type: tab -->
-
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Enum   |       NA        |    NA        |    Available     | NA     | Allowed |       NA     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -401,7 +390,19 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+| Enum   |       NA        |    NA        |    Available     | NA     | Allowed |       NA     |
+
+**Valid Values**:
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+|REQUIRED | Backup Withhold is Required|
+|NOT_REQUIRED | Previously required backup withholding is not required now|
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -418,25 +419,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       6        |    22        |    Available   | NA   | Allowed   | NA   |  
-
-**Valid Values**:
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-|1ST_BUW_NOTICE | First BUW Notice|
-|2ND_BUW_NOTICE | Second BUW Notice|
-|BUW_WARN_LETTER | BUW Warning Letter|
-|1099K_REPORT | 1099K Reporting|
-|1099K_REPORT_AND_STATE | 1099K Report and State|
-|BUW_MISSING_TIN | BUW Missing TIN|
-|TIMS_MANL_BUW | TIMS Manual BUW On|
-|W8_EXP | W8 Expiration|
-
-<!-- type: tab -->
-
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Enum   |       NA       |    NA        |    Available   | NA   | Allowed   |    NA   |  
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -454,7 +437,25 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+| Enum   |       NA       |    NA        |    Available   | NA   | Allowed   |    NA   |  
+
+**Valid Values**:
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+|1ST_BUW_NOTICE | First BUW Notice|
+|2ND_BUW_NOTICE | Second BUW Notice|
+|BUW_WARN_LETTER | BUW Warning Letter|
+|1099K_REPORT | 1099K Reporting|
+|1099K_REPORT_AND_STATE | 1099K Report and State|
+|BUW_MISSING_TIN | BUW Missing TIN|
+|TIMS_MANL_BUW | TIMS Manual BUW On|
+|W8_EXP | W8 Expiration|
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -473,19 +474,19 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    10        |     Available   | NA   | Allowed   | NA   |  
-
-<!-- type: tab -->
-
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| String |       10        |    10        |     Available   | NA   | Allowed   |   NA   |  
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+| String |       10        |    10        |     Available   | NA   | Allowed   |   NA   |  
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -502,27 +503,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       11        |    24        |    Available   | NA   | Allowed   | NA   |  
-
-**Valid Values**:
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-|TIMS_MANUAL_BUW_OFF | TIMS Manual BUW Off|
-|W9_ON_FILE | W9 on file / received|
-|FORM_CERTIFY_PENDING | Form certify pending|
-|INCOMPLETE_PAPERWORK | Incomplete paperwork|
-|SS_CARDCOPY_OR_LTR147C | SS cardcopy or ltr147c|
-|W8_FOREIGN_PNDING_REVIEW | W8 foreign pnding review|
-|W8_FOREIGN_COMPLETE | W8 foreign complete|
-|W8_NO_EXPIRATIONS | W8 no expirations|
-|W9_RECEIVED_EXEMPTION | W9 received exemption|
-|W8_EXPIRATION_PENDING | W8 expiration pending|
-
-<!-- type: tab -->
-
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Enum   |       NA        |    NA        |    Available   | NA   | Allowed   |   NA   |  
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -542,7 +523,27 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+| Enum   |       NA        |    NA        |    Available   | NA   | Allowed   |   NA   |
+
+**Valid Values**:
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+|TIMS_MANUAL_BUW_OFF | TIMS Manual BUW Off|
+|W9_ON_FILE | W9 on file / received|
+|FORM_CERTIFY_PENDING | Form certify pending|
+|INCOMPLETE_PAPERWORK | Incomplete paperwork|
+|SS_CARDCOPY_OR_LTR147C | SS cardcopy or ltr147c|
+|W8_FOREIGN_PNDING_REVIEW | W8 foreign pnding review|
+|W8_FOREIGN_COMPLETE | W8 foreign complete|
+|W8_NO_EXPIRATIONS | W8 no expirations|
+|W9_RECEIVED_EXEMPTION | W9 received exemption|
+|W8_EXPIRATION_PENDING | W8 expiration pending|
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -565,15 +566,15 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       10        |    10        |    Available   | NA   | Allowed   | NA   |  
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -596,15 +597,15 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       10        |    10        |    Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 
@@ -626,15 +627,15 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal |       1        |    7        |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 
@@ -656,15 +657,15 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       1        |    3        |    Available   | NA   | Allowed   | NA   |  
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -681,27 +682,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       10        |    24        |     Available   | NA   | Allowed   | NA   |  
-
-**Valid Values**:
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-|TIMS_MANUAL_BUW_OFF | TIMS Manual BUW Off|
-|W9_ON_FILE | W9 on file / received|
-|FORM_CERTIFY_PENDING | Form certify pending|
-|INCOMPLETE_PAPERWORK | Incomplete paperwork|
-|SS_CARDCOPY_OR_LTR147C | SS cardcopy or ltr147c|
-|W8_FOREIGN_PNDING_REVIEW | W8 foreign pnding review|
-|W8_FOREIGN_COMPLETE | W8 foreign complete|
-|W8_NO_EXPIRATIONS | W8 no expirations|
-|W9_RECEIVED_EXEMPTION | W9 received exemption|
-|W8_EXPIRATION_PENDING | W8 expiration pending|
-
-<!-- type: tab -->
-
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Enum   |       NA        |    NA        |     Available   | NA   | Allowed   |   NA   |  
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -721,7 +702,27 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+| Enum   |       NA        |    NA        |     Available   | NA   | Allowed   |   NA   |  
+
+**Valid Values**:
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+|TIMS_MANUAL_BUW_OFF | TIMS Manual BUW Off|
+|W9_ON_FILE | W9 on file / received|
+|FORM_CERTIFY_PENDING | Form certify pending|
+|INCOMPLETE_PAPERWORK | Incomplete paperwork|
+|SS_CARDCOPY_OR_LTR147C | SS cardcopy or ltr147c|
+|W8_FOREIGN_PNDING_REVIEW | W8 foreign pnding review|
+|W8_FOREIGN_COMPLETE | W8 foreign complete|
+|W8_NO_EXPIRATIONS | W8 no expirations|
+|W9_RECEIVED_EXEMPTION | W9 received exemption|
+|W8_EXPIRATION_PENDING | W8 expiration pending|
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -744,15 +745,15 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |       10        |    10        |    Available   | NA   | Allowed   | NA   |  
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |  
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |  
 
 <!-- type: tab-end -->
 ---
@@ -775,15 +776,15 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |       10        |    10        |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -800,22 +801,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       17        |    23        |    Available   | NA   | Allowed   | NA   |
-
-**Valid Values**:
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-|ADD_MISSING_TIN/TFN | Add missing TIN/TFN|
-|CORRECT_WRONG_TIN/TFN | Correct wrong TIN/TFN|
-|NO_TIN/TFN_CHANGE | No TIN/TFN change|
-|CHANGE_IN_OWNERSHIP | Change in ownership|
-|CHANGE_IN_FILING_STATUS | Change in filing status|
-
-<!-- type: tab -->
-
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Enum   |       NA        |    NA        |    Available   | NA   | Allowed   |   NA   |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -830,7 +816,22 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+| Enum   |       NA        |    NA        |    Available   | NA   | Allowed   |   NA   |
+
+**Valid Values**:
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+|ADD_MISSING_TIN/TFN | Add missing TIN/TFN|
+|CORRECT_WRONG_TIN/TFN | Correct wrong TIN/TFN|
+|NO_TIN/TFN_CHANGE | No TIN/TFN change|
+|CHANGE_IN_OWNERSHIP | Change in ownership|
+|CHANGE_IN_FILING_STATUS | Change in filing status|
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -853,15 +854,15 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       10        |    10        |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -882,15 +883,15 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       4        |    4        |   Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -911,15 +912,15 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |       1        |    20        |    Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 <!-- type: tab-end -->
 ---
 
@@ -935,19 +936,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       2        |    3        |     Available   | NA   | Allowed   | NA   |
-
-**Valid Values**:
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-|NO | Tax Pay Indicator|
-|YES | Tax Pay Indicator|
-
-<!-- type: tab -->
-
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |     Available   | NA   | Allowed   | NA   |
+| Enum  |       NA        |    NA        |     Available   | NA   | Allowed   |   NA   |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -959,7 +948,19 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
+| Enum  |       NA        |    NA        |     Available   | NA   | Allowed   |   NA   |
+
+**Valid Values**:
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+|NO | Tax Pay Indicator|
+|YES | Tax Pay Indicator|
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---

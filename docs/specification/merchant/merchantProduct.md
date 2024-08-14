@@ -1,7 +1,7 @@
 # Merchant Products
 
 * **Description**:
-* **API section**: products
+* **API section**: `products`
 * **Table Name**: UMM.MERCHANT_PRODUCT
 
 ## List of Fields
@@ -18,7 +18,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 8        |    50        |    Required     | Required     | Required |    Required     |
+| String  | 8        |    50        |    Required     | Required     | Required |    Required  |
 
 * Merchant Id is required for carrying out any operation on a specific merchant.
 
