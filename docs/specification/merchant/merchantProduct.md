@@ -16,15 +16,11 @@
 titles: UMM, North, GMA 
 -->
 
-#### UMM Specification
-
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 34        |    50        |    NA     | NA     | NA |    NA |
 
 <!-- type: tab -->
-
-#### North Specification
 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
@@ -37,8 +33,6 @@ titles: UMM, North, GMA
 <!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
 <!--|--------|:--------:|:--------:|:------------:|:------------:|-->
 <!--| String |     -    |          |              |       NA     |-->
-
-#### GMA Specification
 
 | Type   | Inquiry  |  Create  |    Update    |    Delete    |
 |--------|:--------:|:--------:|:------------:|:------------:|
@@ -57,19 +51,28 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-#### UMM Specification
-
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 5        |    50        |    NA     | NA     | NA |    NA |
+| String  | 5        |    9        |    Required     | Required     | Required |    Required     |
+
+**Valid Values**:
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| NORTH     |   North Backend     |
+| OMNIPAY26     |  Omnipay Backend ( GMA)      |
+| SOUTH     |     South  Backend |
+| OMNIPAY21     |    Omnipay ( Australia)    |
 
 <!-- type: tab -->
 
-#### North Specification
-
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-|    | NA   | NA   | NA   |  |
+| String   | Required   | Required   | Required   | Required     |
+
+**Valid Values**:
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| NORTH     |     North   |
 
 <!-- type: tab -->
 
@@ -79,11 +82,15 @@ titles: UMM, North, GMA
 <!--|--------|:--------:|:--------:|:------------:|:------------:|-->
 <!--| String |     -    |          |              |       NA     |-->
 
-#### GMA Specification
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 9        |    9        |    Required     | Required     | Required |    NA     |
 
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+**Valid Values**:
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| OMNIPAY26     |  Omnipay Backend ( GMA)    |
+| OMNIPAY21     |    Omnipay ( Australia)    |
 
 <!-- type: tab-end -->
 ---
@@ -97,8 +104,6 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM
 -->
-
-#### UMM Specification
 
 | Type   | Minimum Length | Max Length | Inquiry | Create | Update |
 |--------|:--------------:|:----------:|:-------:|:------:|:------:|
@@ -5837,7 +5842,7 @@ titles: UMM
 | EQUIPMENT | EQUPN070 | PTI-Nurit 2070 HDC |
 | EQUIPMENT | EQUPNCAN | Yankee Candle AJB-Epicor |
 | EQUIPMENT | EQUPNCMY | Auto Owners Insurance Company |
-"| EQUIPMENT | EQUPNCR  | NCR Falcon  | "
+| EQUIPMENT | EQUPNCR  | NCR Falcon |
 | EQUIPMENT | EQUPNDS1 | Jenkon Data Systems |
 | EQUIPMENT | EQUPNTRV | Sierra National (REST) v 2011-2 |
 | EQUIPMENT | EQUPONT2 | Gateway Connect eCommerce |
@@ -11048,8 +11053,6 @@ titles: UMM
 titles: UMM, North, GMA 
 -->
 
-#### UMM Specification
-
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    1        |    Available     | Required     | Allowed |    NA         |
@@ -11062,8 +11065,6 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-#### North Specification
-
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    1        |    Available     |    NA     | Allowed |       NA         |
@@ -11075,8 +11076,6 @@ titles: UMM, North, GMA
 <!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
 <!--|--------|:--------:|:--------:|:------------:|:------------:|-->
 <!--| String |     -    |          |              |       NA     |-->
-
-#### GMA Specification
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -11101,15 +11100,11 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-#### UMM Specification
-
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
 
 <!-- type: tab -->
-
-#### North Specification
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -11122,8 +11117,6 @@ titles: UMM, North, GMA
 <!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
 <!--|--------|:--------:|:--------:|:------------:|:------------:|-->
 <!--| String |     -    |          |              |       NA     |-->
-
-#### GMA Specification
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -11142,15 +11135,11 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-#### UMM Specification
-
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    16        |    Available     | Optional  |  Allowed   |    NA        |
 
 <!-- type: tab -->
-
-#### North Specification
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -11163,8 +11152,6 @@ titles: UMM, North, GMA
 <!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
 <!--|--------|:--------:|:--------:|:------------:|:------------:|-->
 <!--| String |     -    |          |              |       NA     |-->
-
-#### GMA Specification
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -11183,15 +11170,11 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-#### UMM Specification
-
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | BigDecimal  | 1       |    11        |    Available   | Optional  |  Allowed   |    NA        |
 
 <!-- type: tab -->
-
-#### North Specification
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -11204,8 +11187,6 @@ titles: UMM, North, GMA
 <!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
 <!--|--------|:--------:|:--------:|:------------:|:------------:|-->
 <!--| String |     -    |          |              |       NA     |-->
-
-#### GMA Specification
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -11224,15 +11205,11 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-#### UMM Specification
-
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | BigDecimal  | 1       |    11        |    Available   | Optional  |  Allowed   |    NA        |
 
 <!-- type: tab -->
-
-#### North Specification
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -11245,8 +11222,6 @@ titles: UMM, North, GMA
 <!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
 <!--|--------|:--------:|:--------:|:------------:|:------------:|-->
 <!--| String |     -    |          |              |       NA     |-->
-
-#### GMA Specification
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
