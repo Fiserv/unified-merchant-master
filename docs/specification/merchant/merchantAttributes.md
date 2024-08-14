@@ -34,7 +34,7 @@
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
 ##### UMM Specification
