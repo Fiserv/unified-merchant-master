@@ -83,6 +83,3 @@ titles: UMM, North, South, GMA
 | OMNIPAY21     |    Omnipay ( Australia)    |
 
 <!-- type: tab-end -->
----
-
-<!-- type: tab-end -->
