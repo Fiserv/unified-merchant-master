@@ -367,6 +367,197 @@ components:
           description: |
             Sample merchant boarding mutation query
             ```
+            mutation createMerchant {
+              createMerchant(
+                merchant: {
+                  merchantId: "12345678"
+                  platformCode: OMNIPAY26
+                  dbaName: "SAMPLE"
+                  legalName: "Omnipay Ltd."
+                  merchantCategoryCode: "8021"
+                  languageCode: "ENGLISH"
+                  taxId: "MT 10644256"
+                  businessUrl: "www.abc.com"
+                  businessTypCode: "BOTH"
+                  merchantAccounts: [
+                    {
+                      accountUsageCode: PAR_PAYABLE
+                      currencyCode: "EUR"
+                      billingLevel: "N"
+                      receiverCountry: "IRL"
+                      statementGeneration: "GENERATE_IF_ACTIVITY"
+                      paymentReference: "999999999999999999"
+                      bankName: "Bank of Dublin"
+                      nameOnAccount: "John Doe Credit Account"
+                      routingNumber: "13165987"
+                      accountNumber: "ZZ999999999999999"
+                      iban: "ZZ99999999999999999999"
+                      phoneNumber: "00535125412123"
+                      contactName: "Frank Castle"
+                      correspondentBankNo: "ZZZZZZZZZZZ"
+                      bankCity: "Dublin"
+                      #paymentFormat: "NOT_APPLICABLE"
+                      clearingEntity: "NOT_APPLICABLE"
+                      correspondentBankAccount: "ZZ 9842512858747"
+                      paymentDelayDays: "000"
+                    }
+                    {
+                      accountUsageCode: PAR_RECEIVABLE
+                      currencyCode: "EUR"
+                      billingLevel: "false"
+                      receiverCountry: "IRL"
+                      statementGeneration: "GENERATE_IF_ACTIVITY"
+                      paymentReference: "999999999999999999"
+                      bankName: "Sample Bank Name"
+                      nameOnAccount: "John Doe Debit Account"
+                      routingNumber: "999999999999999999"
+                      accountNumber: "ZZ999999999999999"
+                      iban: "ZZ999999999999999999999"
+                      phoneNumber: "003531234567"
+                      contactName: "Joanne Burke"
+                      correspondentBankNo: "ZZ99999999"
+                      bankCity: "Dublin"
+                      #paymentFormat: "NOT_APPLICABLE"
+                      clearingEntity: "NOT_APPLICABLE"
+                      correspondentBankAccount: "ZZ 9842512858747"
+                      paymentDelayDays: "000"
+                    }
+                  ]
+                  merchantBusinessInformation: {
+                    legalEntityTypeCode: "LLC"
+                    registrationNumber: "000000000000000"
+                  }
+                  merchantXrefs : {
+                    xrefPlatformCode: "NORTH"
+                    xrefPlatformMid: "00000075999959"
+                  }
+                  merchantHierarchies: [
+                    {
+                      hierarchyLevelCode: "MEMBER"
+                      hierarchyMerchantId: "60555887"
+                    }
+                  ]
+                  addresses: [
+                   {
+                      addressTypeCode: DISPUTE_ADDRESS
+                      address1Text: "15 Beach Street"
+                      address2Text: "4th Zone"
+                      address3Text: "Bremen"
+                      address4Text: "Saxony"
+                      address5Text: "Ireland"
+                      city: "Frankfurt"
+                      postalCode: "D18 R219"
+                      countryCode: "IRL"
+                      businessPhone: "00353112345678"
+                      emailAddress: "abc@omnipay.com"
+                      contactName: "Joe Smith"
+                    },
+                    {
+                      addressTypeCode: CORPORATE
+                      address1Text: "15 Beach Street"
+                      address2Text: "4th Zone"
+                      address3Text: "Bremen"
+                      address4Text: "Saxony"
+                      address5Text: "Ireland"
+                      city: "Frankfurt"
+                      postalCode: "D18 R219"
+                      countryCode: "IRL"
+                      businessPhone: "00353112345678"
+                      emailAddress: "abc@omnipay.com"
+                      contactName: "Joe Smith"
+                    },
+                    {
+                      addressTypeCode: LOCATION
+                      address1Text: "15 Beach Street"
+                      city: "Frankfurt"
+                      stateCode: "ST"
+                      postalCode: "D18 R219"
+                      countryCode: "IRL"
+                      businessPhone: "00353112345678"
+                    }
+                  ]
+                  merchantAttributes: {
+                    contract: {
+                      protectAgainstFXChange: {
+                        values: [ "true" ]
+                      },
+                      serviceContract: {
+                        values: [ "497" ]
+                      },
+                      clientTariff: {
+                        values: [ "PF_TARIFF_4" ]
+                      },
+                      postingTariff: {
+                        values: [ "ALL_TO1EUR" ]
+                      },
+                      clientRegion: {
+                        values: [ "BY_COUNTRY" ]
+                      }
+                    },
+                    additionalTaxInfo: {
+                      secondaryTaxId: {
+                        values: [ "MT 10644256" ]
+                      }
+                    }
+                    settlementConfig: {
+                     settlementMethod: {
+                        values: [ "DAILY" ]
+                     }
+                    }
+                  }
+                  products: {
+                    entitlements: [
+                      {
+                        productCode: "ENTLMC"
+                        feeTableId: "GENERAL_9"
+                        isActive: "Y"
+                        attributes: {
+                          entitlementAttr: {
+                            mcIpQualification: {
+                              values: [ "NA" ]
+                            },
+                            mcIpValue: {
+                              values: [ "00000055" ]
+                            },
+                            pfId: {
+                              values: [ "12345" ]
+                            },
+                            isoId: {
+                              values: "1234" ]
+                            }
+                          }
+                        }
+                      },
+                      {
+                        productCode: "ENTLVI"
+                        feeTableId: "PF_TARIFF"
+                        isActive: "Y"
+                        attributes: {
+                          entitlementAttr: {
+                            visaIpQualification: {
+                              values: [ "NA" ]
+                            },
+                            visaIpValue: {
+                              values: [ "401938547" ]
+                            },
+                            visaPfId: {
+                              values: [ "AbC12345" ]
+                            },
+                            floorLimitAmount: {
+                              values: [ "000000000000000000" ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ) {
+                __typename ... on Merchant {
+                  merchantId
+                }
+              }
+            }
             ```
         boardingSchema:
           $ref: "#/components/schemas/MerchantBoardingSchema"
