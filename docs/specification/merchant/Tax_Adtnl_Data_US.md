@@ -36,9 +36,9 @@ titles: UMM, North, GMA
 <!--|--------|:--------:|:--------:|:------------:|:------------:|-->
 <!--| String |     -    |          |              |       NA     |-->
 
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-| String |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 8        |    8        |    Required     | Required     | Required |    NA     |
 
 <!-- type: tab-end -->
 ---
@@ -84,9 +84,15 @@ titles: UMM, North, GMA
 <!--|--------|:--------:|:--------:|:------------:|:------------:|-->
 <!--| String |     -    |          |              |       NA     |-->
 
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-| String |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum  | NA        |    NA        |    Required     | Required     | Required |    NA     |
+
+**Valid Values**:
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| OMNIPAY26     |  Omnipay Backend ( GMA)    |
+| OMNIPAY21     |    Omnipay ( Australia)    |
 
 <!-- type: tab-end -->
 ---
@@ -139,9 +145,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 
@@ -207,9 +213,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -236,9 +242,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -291,9 +297,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -322,10 +328,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
-
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 <!-- type: tab-end -->
 ---
 
@@ -353,9 +358,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -394,9 +399,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -447,9 +452,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -478,9 +483,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -535,9 +540,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -566,9 +571,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -597,9 +602,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 
@@ -627,9 +632,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 
@@ -657,9 +662,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -714,9 +719,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -745,9 +750,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |  
 
 <!-- type: tab-end -->
 ---
@@ -776,9 +781,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -823,9 +828,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -854,9 +859,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -883,9 +888,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
@@ -912,10 +917,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
-
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 <!-- type: tab-end -->
 ---
 
@@ -953,9 +957,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   |  Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|
-| String |        |    |    |    |  
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|    -   |       -        |    -       |    -     |      -       |       -      |       -      |
 
 <!-- type: tab-end -->
 ---
