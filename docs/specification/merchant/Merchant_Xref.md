@@ -1,7 +1,7 @@
 # MERCHANT_XREF
 
 * **Description**: Stores essential information about  cross reference of other platform for same merchant.
-* **API schema**: `MerchantXref`
+* **API schema**: `merchantXrefs`
 * **Table Name**: `MERCHANT_XREF`
 
 ## List of Fields
@@ -30,9 +30,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-| String |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 8        |    8        |    Required     | Required     | Required  |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -49,7 +49,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 5        |    9        |    Required     | Required     | Required |    Required     |
+| Enum  | NA        |    NA        |    Required     | Required     | Required |    Required     |
 
 **Valid Values**:
 |         Value        |                    Description                 |
@@ -72,9 +72,15 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-| String |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum  | NA        |    NA        |    Required     | Required     | Required |    NA     |
+
+**Valid Values**:
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| OMNIPAY26     |  Omnipay Backend ( GMA)    |
+| OMNIPAY21     |    Omnipay ( Australia)    |
 
 <!-- type: tab-end -->
 ---
@@ -91,7 +97,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    16        |    Available     | Optional      | NA |    Allowed |
+| Enum   | NA        |    NA        |    Available     | Optional      | NA |    Allowed       |
 
 * Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference.
 
@@ -123,6 +129,7 @@ titles: UMM, North, GMA
 |  MONERIS     |  Cross Reference platform    |
 |  CARDNET     |  Cross Reference platform    |
 |  HBOS     |  Cross Reference platform    |
+|  NORTH     |  Cross Reference platform    |
 
 <!-- type: tab -->
 
@@ -161,9 +168,14 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   | NA        |    NA        |    Available     | Optional      | NA |    Allowed       |
+
+**Valid Values**:
+|         Value        |                    Description                   |
+|:----------------------|:------------------------------------------------|
+|  NORTH     |  Cross Reference platform    |
 
 <!-- type: tab-end -->
 ---
@@ -195,7 +207,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 0        |    20        |    Available     | Required     | NA |       NA          |
+| String  | 7        |    20        |    Available     | Required     | NA |       NA          |
 
 <!-- type: tab-end -->
 ---
@@ -225,9 +237,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -303,9 +315,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -347,8 +359,8 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->

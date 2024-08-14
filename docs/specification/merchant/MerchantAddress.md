@@ -1,7 +1,7 @@
 # Merchant Address
 
 * **Description**: Essential information about  business address of a merchant for official purposes and communication.
-* **API schema**: `Address`
+* **API schema**: `addresses`
 * **Table Name**: `MERCHANT_ADDRESS`
 
 ## List of Fields
@@ -118,9 +118,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| STRING   | Available   | Required   | NA    | NA |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   | NA        |    NA        |    Available     | Required     |    NA   |    NA        |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -174,7 +174,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 0        |    35        |    Available     | Required     | Allowed |    NA        |
+| String  | 1        |    35        |    Available     | Required     | Allowed |    NA        |
 
 * Note: For addressTypeCode - LOCATION, the maximum and minimum length is 40 and 0 respectively.
 
@@ -205,7 +205,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 0        |    35        |    Available     | Optional     | Allowed |    NA |
+| String  | 1        |    35        |    Available     | Optional     | Allowed |    NA |
 
 <!-- type: tab-end -->
 ---
@@ -234,7 +234,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 0        |    35        |    Available     | Optional     | Allowed |    NA |
+| String  | 1        |    35        |    Available     | Optional     | Allowed |    NA |
 
 <!-- type: tab-end -->
 ---
@@ -263,7 +263,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 0        |    35        |    Available     | Optional     | Allowed |    NA |
+| String  | 1        |    35        |    Available     | Optional     | Allowed |    NA |
 
 <!-- type: tab-end -->
 ---
@@ -292,7 +292,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 0        |    35        |    Available     | Optional     | Allowed |    NA |
+| String  | 1        |    35        |    Available     | Optional     | Allowed |    NA |
 
 <!-- type: tab-end -->
 ---
@@ -321,7 +321,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 0        |    35        |    Available     | Required     | Allowed |    NA        |
+| String  | 1        |    35        |    Available     | Required     | Allowed |    NA        |
 
 * Note: For addressTypeCode - LOCATION, the maximum and minimum length is 13 and 0 respectively.
 
@@ -352,7 +352,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 0        |    3        |    Available     | Optional     | Allowed |    NA         |
+| String  | 2        |    3        |    Available     | Optional     | Allowed |    NA         |
 
 <!-- type: tab-end -->
 ---
@@ -553,7 +553,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String | 0        |    11        |    Available     | Optional     | Allowed |    NA         |
+| String | 5        |    11        |    Available     | Optional     | Allowed |    NA         |
 
 * Note: For addressTypeCode - LOCATION, the maximum and minimum length is 11 and 0 respectively.
 
@@ -582,9 +582,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|String  |     NA    |    NA      |     NA         |  NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab-end -->
 ---
@@ -613,9 +613,9 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 0        |    15        |    Available     | Optional     | Allowed |    NA        |
+| String  | 10        |    15        |    Available     | Optional     | Allowed |    NA       |
 
-* Note: For addressTypeCode - LOCATION, the maximum and minimum length is 16 and 0 respectively.
+* Note: For addressTypeCode - LOCATION, the maximum and minimum length is 16 and 10 respectively.
 
 <!-- type: tab-end -->
 ---
@@ -644,7 +644,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | NA        |    NA        |    NA     | NA     | NA |    NA       |  
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |  
 
 <!-- type: tab-end -->
 ---
@@ -673,7 +673,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 0        |    60        |    Available     | Optional     | Allowed |    NA       |
+| String  | 7        |    60        |    Available     | Optional     | Allowed |    NA       |
 
 <!-- type: tab-end -->
 ---
@@ -702,7 +702,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 0        |    15        |    Available     | Optional     | Allowed |    NA        |
+| String  | 10        |    15        |    Available     | Optional     | Allowed |    NA       |
 
 <!-- type: tab-end -->
 ---
@@ -818,6 +818,6 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 0        |    35        |    Available     | Optional     | Allowed |    NA        |
+| String  | 1        |    35        |    Available     | Optional     | Allowed |    NA        |
 
 <!-- type: tab-end -->

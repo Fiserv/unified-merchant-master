@@ -1,7 +1,7 @@
 # Merchant Hierarchy
 
 * **Description**: Stores essential information of management hierarchy for the merchant.
-* **API schema**: `MerchantHierarchies`
+* **API schema**: `merchantHierarchies`
 * **Table Name**: `UMM.merchant_hierarchy`
 
 ## List of Fields
@@ -67,9 +67,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Required   | Required   | Required   | Required     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   | NA        |    NA        |    Required     | Required     | Required |    Required  |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -126,9 +126,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Required   | NA   | NA |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   | NA        |    NA        |    Available     | Required     |     NA  |        NA    |
 
 **Valid Values**:
 |              Value   |                    Description                 |
