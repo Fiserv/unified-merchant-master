@@ -18,25 +18,21 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 34        |    50        |    NA     | NA     | NA |    NA |
+| String  | 8        |    50        |    Required     | Required     | Required |    Required     |
+
+* Merchant Id is required for carrying out any operation on a specific merchant.
 
 <!-- type: tab -->
 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| 12   | NA   | NA   | NA   |  |
+| String   | Required   | Required   | Required   | Required  |
 
 <!-- type: tab -->
 
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 8        |    8        |    Required     | Required     | Required |    NA     |
 
 <!-- type: tab-end -->
 ---
@@ -53,7 +49,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 5        |    9        |    Required     | Required     | Required |    Required     |
+| Enum   | NA        |    NA        |    Required     | Required     | Required |    Required  |
 
 **Valid Values**:
 |         Value        |                    Description                 |
@@ -84,7 +80,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 9        |    9        |    Required     | Required     | Required |    NA     |
+| Enum   | NA        |    NA        |    Required     | Required     | Required |       NA     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -105,9 +101,9 @@ titles: UMM, North, GMA
 titles: UMM
 -->
 
-| Type   | Minimum Length | Max Length | Inquiry | Create | Update |
-|--------|:--------------:|:----------:|:-------:|:------:|:------:|
-| String |   4   |    27  |  Available |  Required   |     NA      |
+| Type   | Minimum Length | Max Length | Inquiry | Create | Update | Delete |
+|--------|:--------------:|:----------:|:-------:|:------:|:------:|:------:|
+| Enum   |   NA   |   NA  |  Available |  Required   |     NA      |   NA   |
 
 **Valid Values**:
 |      Product Category   |                    Valid Value                |                 Description                     |
@@ -11055,7 +11051,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    1        |    Available     | Required     | Allowed |    NA         |
+| Enum   | NA        |    NA        |    Available     | Required     | Allowed |    NA        |
 
 **Valid Values**:
 |         Value        |                    Description                 |
@@ -11067,7 +11063,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    1        |    Available     |    NA     | Allowed |       NA         |
+| Enum   | NA        |    NA        |    Available     | Required     | Allowed |    NA        |
 
 <!-- type: tab -->
 
@@ -11172,13 +11168,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal  | 1       |    11        |    Available   | Optional  |  Allowed   |    NA        |
+| BigDecimal  | NA       |    NA        |    Available   | Optional  |  Allowed   |    NA      |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    11    |    Available     | Optional  |  Allowed   |    NA        |
+| String  | 4        |    11    |    Available     | Optional  |  Allowed   |        NA        |
 
 <!-- type: tab -->
 
@@ -11190,14 +11186,14 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    11    |    Available     | NA  |  NA   |    NA        |
+| String |        4       |    11    |    Available    |      NA      |       NA     |  NA     |
 
 <!-- type: tab-end -->
 ---
 
 ### RETAIL_CHARGE
 
-* Description: retailAmountOrPercent (TBD)
+* Description: TBD
 * API field: `retailAmountOrPercent`
 * Field Specification:
 
@@ -11207,13 +11203,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal  | 1       |    11        |    Available   | Optional  |  Allowed   |    NA        |
+| BigDecimal  | NA       |    NA        |    Available   | Optional  |  Allowed   |    NA      |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    11    |    Available     | Optional  |  Allowed   |    NA        |
+| String  | 4        |    11    |    Available     | Optional  |  Allowed   |    NA        |
 
 <!-- type: tab -->
 
@@ -11225,6 +11221,6 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    11    |    Available     | NA  |  NA   |    NA        |
+| String  | 4        |    11    |    Available     | NA  |  NA   |    NA        |
 
 <!-- type: tab-end -->
