@@ -41,11 +41,17 @@ paths:
         example: VAS
       - name: productCode
         in: query
-        description: Code that indicate the brand entitlement of the product
+        description: |
+          The product code associated with the product and defined by UMM API
+          > For more details refer to
+          <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
         required: false
         schema:
           type: string
-          description: Code that indicate the brand entitlement of the product
+          description: |
+            The product code associated with the product and defined by UMM API
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
       - name: productShortDescription
         in: query
         required: false
@@ -129,7 +135,7 @@ components:
         productCode:
           type: string
           description: |
-            Code that indicate the brand entitlement of the product
+            The product code associated with the product and defined by UMM API
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
         productLongDesc:
