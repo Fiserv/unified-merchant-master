@@ -2,6 +2,7 @@
   "recommendations": [
     "42crunch.vscode-openapi",
     "aykutsarac.jsoncrack-vscode",
+    "ban.spellright",
     "davidanson.vscode-markdownlint",
     "github.vscode-pull-request-github",
     "mhutchie.git-graph",
