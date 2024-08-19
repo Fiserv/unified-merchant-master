@@ -1132,25 +1132,25 @@ components:
         legalContactTitle:
           type: string
           description: |
-            Professional title or designation of the legal contact for a business or organization
+            Title or designation given to the legal contact person
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#legal_contact_title">specification</a>
         customerServicePhoneNumber:
           type: string
           description: |
-            Customer service contact number provided by the merchant
+            Phone number of the merchant customer service
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#customer_service_phone_number">specification</a>
         salesTaxExemptIndicator:
           type: string
           description: |
-            Indicates whether the merchant is exempt from paying tax
+            Value that indicates whether the merchant is exempt from paying tax
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#sales_tax_exempt_indicator">specification</a>
         thirdPartyProcessorCode:
           type: string
           description: |
-            Unique identifier associated with a third-party payment processor used by a merchant
+            Code that indicates the third party payment processor
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#third_party_processor_code">specification</a>
         periodicReviewIndicator:
@@ -1161,7 +1161,7 @@ components:
         averageTicketAmount:
           type: number
           description: |
-            Average amount of each individual transaction made by customers at a merchant's establishment
+            Contracted average ticket value for the merchant. Whether this value is per week, per month, per year, etc. is defined at institution level
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#average_ticket_amount">specification</a>
         largeTicketPurchaseIndicator:
@@ -1183,12 +1183,13 @@ components:
         thirdPartyProcessorName:
           type: string
           description: |
+            Name of the third party processor
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#third_party_processor_name">specification</a>
         legalEntityTypeCode:
           type: string
           description: |
-            Identifier used to denote the legal entity type of a business or organization
+            Code that indicates the type of legal merchant entity
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#legal_entity_type_code">specification</a>
         registrationNumber:
