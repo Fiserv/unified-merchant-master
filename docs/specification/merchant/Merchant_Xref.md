@@ -133,9 +133,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | optional   | NA   | NA |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   | NA        |    NA        |    Available     | Optional      | NA |    Allowed       |
 
 **Valid Values**:  --- Complete list ??
 |         Value        |                    Description                 |
@@ -256,7 +256,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    22        |    Available     | Optional     | Allowed |    Allowed |
+| Enum   | NA        |    NA        |    Available     | Optional     | Allowed |    Allowed   |
 
 * Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference.
 * Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to update ALLIANCE_PLATFORM_CODE
@@ -334,7 +334,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 2        |    3        |    Available     | Optional     | Allowed |    Allowed |
+| Enum   | NA        |    NA        |    Available     | Optional     | Allowed |    Allowed   |
 
 **Valid Values**:
 |         Value        |                    Description                 |
