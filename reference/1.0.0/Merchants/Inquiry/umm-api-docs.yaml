@@ -558,6 +558,117 @@ components:
             ```
         createSchema:
           $ref: "#/components/schemas/MerchantBoardingRequestSchema"
+    EntitlementProductRequest:
+      type: object
+      properties:
+        productCode:
+          type: string
+          description: |
+            The product code associated with the product and defined by UMM API
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
+        attributes:
+          type: object
+          additionalProperties:
+            type: object
+            description: |
+              Will contain one or more attributes in the format shown below
+              ```
+              {
+                "attributeType#1": {
+                  "attribute#1": {
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+          description: |
+            Will contain one or more attributes in the format shown below
+            ```
+            {
+              "attributeType#1": {
+                "attribute#1": {
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
+        isActive:
+          type: string
+          description: |
+            This field indicates whether the product is active or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
+        feeTableId:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#fee_table_id">specification</a>
+    FeeProductRequest:
+      type: object
+      properties:
+        productCode:
+          type: string
+          description: |
+            The product code associated with the product and defined by UMM API
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
+        attributes:
+          type: object
+          additionalProperties:
+            type: object
+            description: |
+              Will contain one or more attributes in the format shown below
+              ```
+              {
+                "attributeType#1": {
+                  "attribute#1": {
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+          description: |
+            Will contain one or more attributes in the format shown below
+            ```
+            {
+              "attributeType#1": {
+                "attribute#1": {
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
+        isActive:
+          type: string
+          description: |
+            This field indicates whether the product is active or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
+        wholesaleAmountOrPercent:
+          type: number
+        retailAmountOrPercent:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#retail_charge">specification</a>
+        feeTableId:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#fee_table_id">specification</a>
     MerchantAccountBoardingRequest:
       type: object
       properties:
@@ -1002,7 +1113,7 @@ components:
           items:
             $ref: "#/components/schemas/AddressBoardingRequest"
         products:
-          $ref: "#/components/schemas/MerchantProduct"
+          $ref: "#/components/schemas/MerchantProductsRequest"
         merchantAttributes:
           type: object
           additionalProperties:
@@ -1235,25 +1346,21 @@ components:
         Stores essential information of management hierarchy for the merchant
         > For more details refer to
         <a href="../docs?path=docs/specification/merchant/MerchantHierarchy.md&branch=develop">specification</a>
-    MerchantProduct:
+    MerchantProductsRequest:
       type: object
       properties:
         entitlements:
           type: array
           items:
-            $ref: "#/components/schemas/Product"
-        valueAddedServices:
-          type: array
-          items:
-            $ref: "#/components/schemas/Product"
+            $ref: "#/components/schemas/EntitlementProductRequest"
         fees:
           type: array
           items:
-            $ref: "#/components/schemas/Product"
-        equipments:
+            $ref: "#/components/schemas/FeeProductRequest"
+        valueAddedServices:
           type: array
           items:
-            $ref: "#/components/schemas/Product"
+            $ref: "#/components/schemas/ValueAddedServicesRequest"
       description: |
         > For more details refer to
         <a href="../docs?path=docs/specification/merchant/MerchantProduct.md&branch=develop">specification</a>
@@ -1467,7 +1574,7 @@ components:
             Unique number associated with an official identity document provided by the merchant
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#identity_doc_number">specification</a>
-    Product:
+    ValueAddedServicesRequest:
       type: object
       properties:
         productCode:
@@ -1476,55 +1583,6 @@ components:
             The product code associated with the product and defined by UMM API
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
-        subCategory:
-          type: string
-        productShortDesc:
-          type: string
-        productLongDesc:
-          type: string
-        lineNumber:
-          type: integer
-          format: int64
-        parentLineNumber:
-          type: integer
-          format: int64
-        quantity:
-          type: integer
-          format: int64
-        feeTableId:
-          type: string
-          description: |
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#fee_table_id">specification</a>
-        isActive:
-          type: string
-          description: |
-            This field indicates whether the product is active or not
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
-        uniqueIdentifier:
-          type: string
-          description: |
-            This field serves as a unique identifier for a particular product
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#unique_identifier">specification</a>
-        uniqueId:
-          type: string
-        equipmentId:
-          type: string
-        purchaseType:
-          type: string
-        wholesaleCharge:
-          type: number
-          description: |
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#wholesale_charge">specification</a>
-        retailCharge:
-          type: number
-        terminalFrontEnds:
-          type: array
-          items:
-            $ref: "#/components/schemas/ProductEquipmentTerminalFrontEndsRes"
         attributes:
           type: object
           additionalProperties:
@@ -1557,56 +1615,12 @@ components:
               }
             }
             ```
-        productAssociation:
-          $ref: "#/components/schemas/ProductAssociation"
-        wholesaleAmountOrPercent:
-          type: number
-        retailAmountOrPercent:
-          type: number
+        isActive:
+          type: string
           description: |
+            This field indicates whether the product is active or not
             > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#retail_charge">specification</a>
-        feeTypeCode:
-          type: string
-        equipmentCategory:
-          type: string
-        parentEquipmentId:
-          type: string
-        serialNumber:
-          type: string
-        frontend:
-          type: string
-        terminalId:
-          type: string
-        frontendMid:
-          type: string
-        partNumber:
-          type: string
-        maintenanceCharge:
-          type: number
-        leaseTerm:
-          type: integer
-          format: int64
-        totalCost:
-          type: number
-    ProductAssociation:
-      type: object
-      properties:
-        category:
-          type: string
-        productCode:
-          type: string
-        description:
-          type: string
-    ProductEquipmentTerminalFrontEndsRes:
-      type: object
-      properties:
-        frontEnd:
-          type: string
-        terminalId:
-          type: string
-        frontEndMid:
-          type: string
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
     Address:
       type: object
       properties:
@@ -2871,6 +2885,28 @@ components:
         Stores Tax related information for merchants
         > For more details refer to
         <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop">specification</a>
+    MerchantProduct:
+      type: object
+      properties:
+        entitlements:
+          type: array
+          items:
+            $ref: "#/components/schemas/Product"
+        valueAddedServices:
+          type: array
+          items:
+            $ref: "#/components/schemas/Product"
+        fees:
+          type: array
+          items:
+            $ref: "#/components/schemas/Product"
+        equipments:
+          type: array
+          items:
+            $ref: "#/components/schemas/Product"
+      description: |
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/MerchantProduct.md&branch=develop">specification</a>
     MerchantXref:
       type: object
       properties:
@@ -3091,6 +3127,146 @@ components:
         This is a critical information for every principal owner of a merchant
         > For more details refer to
         <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop">specification</a>
+    Product:
+      type: object
+      properties:
+        productCode:
+          type: string
+          description: |
+            The product code associated with the product and defined by UMM API
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
+        subCategory:
+          type: string
+        productShortDesc:
+          type: string
+        productLongDesc:
+          type: string
+        lineNumber:
+          type: integer
+          format: int64
+        parentLineNumber:
+          type: integer
+          format: int64
+        quantity:
+          type: integer
+          format: int64
+        feeTableId:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#fee_table_id">specification</a>
+        isActive:
+          type: string
+          description: |
+            This field indicates whether the product is active or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
+        uniqueIdentifier:
+          type: string
+          description: |
+            This field serves as a unique identifier for a particular product
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#unique_identifier">specification</a>
+        uniqueId:
+          type: string
+        equipmentId:
+          type: string
+        purchaseType:
+          type: string
+        wholesaleCharge:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#wholesale_charge">specification</a>
+        retailCharge:
+          type: number
+        terminalFrontEnds:
+          type: array
+          items:
+            $ref: "#/components/schemas/ProductEquipmentTerminalFrontEndsRes"
+        attributes:
+          type: object
+          additionalProperties:
+            type: object
+            description: |
+              Will contain one or more attributes in the format shown below
+              ```
+              {
+                "attributeType#1": {
+                  "attribute#1": {
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+          description: |
+            Will contain one or more attributes in the format shown below
+            ```
+            {
+              "attributeType#1": {
+                "attribute#1": {
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
+        productAssociation:
+          $ref: "#/components/schemas/ProductAssociation"
+        wholesaleAmountOrPercent:
+          type: number
+        retailAmountOrPercent:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#retail_charge">specification</a>
+        feeTypeCode:
+          type: string
+        equipmentCategory:
+          type: string
+        parentEquipmentId:
+          type: string
+        serialNumber:
+          type: string
+        frontend:
+          type: string
+        terminalId:
+          type: string
+        frontendMid:
+          type: string
+        partNumber:
+          type: string
+        maintenanceCharge:
+          type: number
+        leaseTerm:
+          type: integer
+          format: int64
+        totalCost:
+          type: number
+    ProductAssociation:
+      type: object
+      properties:
+        category:
+          type: string
+        productCode:
+          type: string
+        description:
+          type: string
+    ProductEquipmentTerminalFrontEndsRes:
+      type: object
+      properties:
+        frontEnd:
+          type: string
+        terminalId:
+          type: string
+        frontEndMid:
+          type: string
     ResponseMerchant:
       type: object
       properties:
