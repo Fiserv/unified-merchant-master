@@ -70,10 +70,10 @@ titles: UMM
 |--------|:--------------:|:----------:|:-------:|:------:|:------:|:------:|
 | Enum   |   NA   |   NA  |  Available |  Required   |     NA      |   NA   |
 
-See supported Entitlements [here](?path=docs/specification/products_entitlements.md)
-See supported Value Added Services [here](?path=docs/specification/products_vas.md)
-See supported Fees [here](?path=docs/specification/products_fees.md)
-See supported Equipments [here](?path=docs/specification/products_equipments.md)
+* See supported Entitlements [here](?path=docs/specification/products_entitlements.md)
+* See supported Value Added Services [here](?path=docs/specification/products_vas.md)
+* See supported Fees [here](?path=docs/specification/products_fees.md)
+* See supported Equipments [here](?path=docs/specification/products_equipments.md)
 
 <!-- type: tab-end -->
 ---
