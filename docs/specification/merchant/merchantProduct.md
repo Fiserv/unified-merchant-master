@@ -44,49 +44,14 @@ titles: UMM, North, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, GMA 
+titles: UMM 
 -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Enum   | NA        |    NA        |    Required     | Required     | Required |    Required  |
 
-**Valid Values**:
-|         Value        |                    Description                 |
-|:----------------------|:------------------------------------------------|
-| NORTH     |   North Backend     |
-| OMNIPAY26     |  Omnipay Backend ( GMA)      |
-| SOUTH     |     South  Backend |
-| OMNIPAY21     |    Omnipay ( Australia)    |
-
-<!-- type: tab -->
-
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Required   | Required   | Required   | Required     |
-
-**Valid Values**:
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-| NORTH     |     North   |
-
-<!-- type: tab -->
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum   | NA        |    NA        |    Required     | Required     | Required |       NA     |
-
-**Valid Values**:
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-| OMNIPAY26     |  Omnipay Backend ( GMA)    |
-| OMNIPAY21     |    Omnipay ( Australia)    |
+See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
 
 <!-- type: tab-end -->
 ---
@@ -105,7 +70,10 @@ titles: UMM
 |--------|:--------------:|:----------:|:-------:|:------:|:------:|:------:|
 | Enum   |   NA   |   NA  |  Available |  Required   |     NA      |   NA   |
 
-See supported entitlements [here](?path=docs/specification/products_entitlements.md)
+See supported Entitlements [here](?path=docs/specification/products_entitlements.md)
+See supported Value Added Services [here](?path=docs/specification/products_vas.md)
+See supported Fees [here](?path=docs/specification/products_fees.md)
+See supported Equipments [here](?path=docs/specification/products_equipments.md)
 
 <!-- type: tab-end -->
 ---
