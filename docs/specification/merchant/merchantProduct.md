@@ -105,8 +105,7 @@ titles: UMM
 |--------|:--------------:|:----------:|:-------:|:------:|:------:|:------:|
 | Enum   |   NA   |   NA  |  Available |  Required   |     NA      |   NA   |
 
-**Valid Values**:
-[Merchant Entitlements](?path=docs/specification/merchant/products_entitlements.xlsx)
+See supported entitlements [here](?path=docs/specification/products_entitlements.md)
 
 <!-- type: tab-end -->
 ---
