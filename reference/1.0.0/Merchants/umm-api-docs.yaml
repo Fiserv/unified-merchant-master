@@ -1143,7 +1143,7 @@ components:
               }
               ```
               > For more details refer to
-              <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
+              <a href="../docs?path=docs/specification/merchant/merchantAttributes.md">specification</a>
           description: |
             Will contain one or more attributes in the format shown below
             ```json
@@ -1169,7 +1169,7 @@ components:
             }
             ```
             > For more details refer to
-            <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
+            <a href="../docs?path=docs/specification/merchant/merchantAttributes.md">specification</a>
         merchantBusinessInformation:
           $ref: "#/components/schemas/MerchantBusinessInformationBoardingRequest"
         merchantXrefs:
@@ -2121,7 +2121,7 @@ components:
               }
               ```
               > For more details refer to
-              <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
+              <a href="../docs?path=docs/specification/merchant/merchantAttributes.md">specification</a>
           description: |
             Will contain one or more attributes in the format shown below
             ```json
@@ -2147,7 +2147,7 @@ components:
             }
             ```
             > For more details refer to
-            <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
+            <a href="../docs?path=docs/specification/merchant/merchantAttributes.md">specification</a>
         merchantBusinessInformation:
           $ref: "#/components/schemas/MerchantBusinessInformation"
         merchantHierarchies:
@@ -3546,7 +3546,7 @@ components:
               }
               ```
               > For more details refer to
-              <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
+              <a href="../docs?path=docs/specification/merchant/merchantAttributes.md">specification</a>
           description: |
             Will contain one or more attributes in the format shown below
             ```json
@@ -3572,7 +3572,7 @@ components:
             }
             ```
             > For more details refer to
-            <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
+            <a href="../docs?path=docs/specification/merchant/merchantAttributes.md">specification</a>
         merchantBusinessInformation:
           $ref: "#/components/schemas/MerchantBusinessInformation"
         merchantHierarchies:
