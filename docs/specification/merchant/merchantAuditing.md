@@ -238,7 +238,7 @@ UMM also provides capability in Inquiry API to retrieve a snapshot of merchant d
 
 ---
 
-* Sample Query to pull ALL merchants for which address got updated in last 1 hr:
+Sample Query to pull ALL merchants for which address got updated in last 1 hr:
 
   ```
 select  * from umm.umm_audit_info 
