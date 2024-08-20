@@ -42,16 +42,7 @@ titles: UMM, North, GMA
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
 * Field Specification:
-
-<!-- type: tab 
-titles: UMM 
--->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum   | NA        |    NA        |    Required     | Required     | Required |    Required  |
-
-See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
+* See supported platforms and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
 
 <!-- type: tab-end -->
 ---
