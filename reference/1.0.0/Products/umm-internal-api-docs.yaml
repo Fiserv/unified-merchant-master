@@ -168,7 +168,7 @@ components:
               type: object
               description: |
                 Will contain one or more attributes in the format shown below
-                ```
+                ```json
                 {
                   "attributeType#1": {
                     "attribute#1": {
@@ -182,7 +182,7 @@ components:
                 ```
             description: |
               Will contain one or more attributes in the format shown below
-              ```
+              ```json
               {
                 "attributeType#1": {
                   "attribute#1": {
@@ -196,7 +196,7 @@ components:
               ```
           description: |
             Will contain one or more attributes in the format shown below
-            ```
+            ```json
             {
               "attributeType#1": {
                 "attribute#1": {
