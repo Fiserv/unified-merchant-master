@@ -296,8 +296,8 @@ titles: UMM, North, GMA
 **Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-|NO | Sales Tax not exempted|
-|YES | Sales Tax  exempted|
+| NO | Sales Tax not exempted |
+| YES | Sales Tax  exempted |
 
 <!-- type: tab -->
 
@@ -308,8 +308,8 @@ titles: UMM, North, GMA
 **Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-|NO | Sales Tax not exempted|
-|YES | Sales Tax  exempted|
+| NO | Sales Tax not exempted |
+| YES | Sales Tax  exempted |
 
 <!-- type: tab -->
 
@@ -394,13 +394,13 @@ titles: UMM, North , GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |               |            |    Available     | NA     | NA |   NA |
+| BigDecimal |       6        |      4      |    Available     |     NA     |   NA    |   NA   |
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | NA   | NA   | NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal |       6        |      4      |    Available     |     NA     |   NA    |   NA   |
 
 <!-- type: tab -->
 
@@ -423,13 +423,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |        1       |    5        |    Available     | Required     | Allowed |   NA    |
+| BigDecimal |      6     |    4        |    Available     | Optional     | Allowed |   NA     |
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Available   | Required   | Allowed   | NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal |      6     |    4        |    Available     | Optional     | Allowed |   NA     |
 
 <!-- type: tab -->
 
@@ -588,4 +588,748 @@ titles: UMM, North, GMA
 | String |        4       |     39       |    Available     | Optional     | Allowed | NA  |
 
 <!-- type: tab-end -->
+---
+
+### ACTIVATION_DATE
+
+* Description: Date on which the merchant was activated.
+
+Format: CCYY-MM-DD
+Example: 2024-05-15
+
+* API field: `activationDate`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### ESTIMATED_FIRST_PROCESS_DATE
+
+* Description: Estimated first settlement processing date
+
+Format: CCYY-MM-DD
+Example: 2024-05-15
+
+* API field: `estimatedFirstProcessDate`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### FIRST_CANCEL_DATE
+
+* Description: First cancellation date
+
+Format: CCYY-MM-DD
+Example: 2024-05-15
+
+* API field: `firstCancelDate`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### LAST_CANCEL_DATE
+
+* Description: Last cancellation date
+
+Format: CCYY-MM-DD
+Example: 2024-05-15
+
+* API field: `lastCancelDate`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### LAST_SETTLEMENT_DATE
+
+* Description: Last settlement date
+
+Format: CCYY-MM-DD
+Example: 2024-05-15
+
+* API field: `lastSettleDate`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+---
+
+### ACCOUNT_SIGNED_DATE
+
+* Description: Last settlement date
+
+Format: CCYY-MM-DD
+Example: 2024-05-15
+
+* API field: `accountSignedDate`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### ACCUNT_APPROVAL_DATE
+
+* Description: Account Approval date
+
+Format: CCYY-MM-DD
+Example: 2024-05-15
+
+* API field: `accountApprovalDate`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### LOCATION_START_DATE
+
+* Description: Location Start Date
+
+Format: CCYY-MM-DD
+Example: 2024-05-15
+
+* API field: `locationStartDate`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date |          10      |     10       |   Available | NA     |    NA     | NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### ELECTRONIC_SIG_INDICATOR
+
+* Description: Electronic signature indicator
+* API field: `electronicSigIndicator`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   |      NA      |     NA       |   Available |   Optional     |    Allowed    |   NA   |
+
+**Valid Values**:
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| YES    |   Electronic Signature Indicator required     |
+| NO     |  Electronic Signature Indicator not required  |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   |      NA      |     NA       |   Available |   Optional     |    Allowed    |   NA   |
+
+**Valid Values**:
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| YES    |   Electronic Signature Indicator required     |
+| NO     |  Electronic Signature Indicator not required  |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+---
+
+### PERIODIC_REVIEW_INDICATOR
+
+* Description: Periodic review indicator
+* API field: `periodicReviewIndicator`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   |      NA      |     NA       |   Available |   Optional     |    Allowed    |   NA   |
+
+**Valid Values**:
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| YES    |  Periodic Review Indicator required      |
+| NO     |  Periodic Review Indicator not required  |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   |      NA      |     NA       |   Available |   Optional     |    Allowed    |   NA   |
+
+**Valid Values**:
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| YES    |  Periodic Review Indicator required      |
+| NO     |  Periodic Review Indicator not required  |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### LARGE_TICKET_PURCHASE_INDICATOR
+
+* Description: Large Ticket Purchase indicator
+* API field: `largeTicketPurchaseIndicator`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   |      NA      |     NA       |   Available |   Optional     |    Allowed    |   NA   |
+
+**Valid Values**:
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| YES    |  Large Ticket Purchase Indicator required      |
+| NO     |  Large Ticket Purchase not required  |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   |      NA      |     NA       |   Available |   Optional     |    Allowed    |   NA   |
+
+**Valid Values**:
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| YES    |  Large Ticket Purchase required      |
+| NO     |  Large Ticket Purchase not required  |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### QUASI_CASH_INDICATOR
+
+* Description: Quasi Cash indicator
+* API field: `quasiCashIndicator`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   |      NA      |     NA       |   Available |   Optional     |    Allowed    |   NA   |
+
+**Valid Values**:
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| YES    |  Quasi Cash Indicator required      |
+| NO     |  Quasi Cash Indicator not required  |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   |      NA      |     NA       |   Available |   Optional     |    Allowed    |   NA   |
+
+**Valid Values**:
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| YES    |  Quasi Cash Indicator required      |
+| NO     |  Quasi Cash Indicator not required  |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### DEL_0_TO_7_DAY_PERCENT
+
+* Description: Diligence 0 - 7 day percent
+* API field: `del0To7DayPercent`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### DEL_8_TO_14_DAY_PERCENT
+
+* Description: Diligence 8 - 14 day percent
+* API field: `del8To14DayPercent`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### DEL_15_TO_30_DAY_PERCENT
+
+* Description: Diligence 15 - 30 day percent
+* API field: `del15To30DayPercent`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### DEL_30_PLUS_DAY_PERCENT
+
+* Description: Diligence 30 Plus day percent
+* API field: `del30PlusDayPercent`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### MAIL_ORDER_PERCENT
+
+* Description: Mail Order percent
+* API field: `mailOrderPercent`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### PHONE_ORDER_PERCENT
+
+* Description: Phone Order percent
+* API field: `phoneOrderPercent`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### POS_ORDER_PERCENT
+
+* Description: POS Order percent
+* API field: `posOrderPercent`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### SWIPED_PERCENT
+
+* Description: Swiped percent
+* API field: `swipedPercent`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### INTERNET_ORDER_PERCENT
+
+* Description: Internet Order percent
+* API field: `internetOrderPercent`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   Optional     |    Allowed    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   Optional     |    Allowed    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
+---
+
+### RESIDENT_STATUS_CODE
+
+* Description: Resident Status Code
+* API field: `residentStatusCode`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   Optional     |    Allowed    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| BigDecimal   |      6      |     4       |   Available |   Optional     |    Allowed    |   NA   |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+
+<!-- type: tab-end -->
+
 ---
