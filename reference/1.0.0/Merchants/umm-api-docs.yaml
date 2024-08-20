@@ -3698,7 +3698,7 @@ components:
               }
             }
             ```
-        search:
+        searchCriteria:
           $ref: "#/components/schemas/SearchCriteriaInput"
       description: Merchant Search Request
     ResponseSearchResponse:
