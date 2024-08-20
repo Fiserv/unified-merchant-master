@@ -1,0 +1,3760 @@
+openapi: 3.0.1
+info:
+  title: UMM GraphQL
+  description: Unified API to retrieve/update Merchant's information
+  version: 1.0.0
+servers:
+- url: https://connect.fiservapis.com/unifiedmerchantmaster
+paths:
+  /graphql⁣⁣⁣⁣:
+    post:
+      tags:
+      - Merchant Create
+      summary: GraphQL API to create Merchant
+      operationId: createMerchant
+      parameters:
+      - name: Authorization
+        in: header
+        description: |
+          Bearer access token. For token generation refer to
+          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
+        required: true
+        schema:
+          type: string
+        example: "Bearer {token}"
+      - name: x-encrypted-data
+        in: header
+        description: Use to signify if data is encrypted
+        required: false
+        schema:
+          type: string
+        example: false
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateMerchant"
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResponseMerchant"
+      x-proxy-name: createMerchant
+      x-group-name: Mutation
+      x-core: UMM
+      x-child-product-name: Merchant
+  /graphql⁣⁣:
+    post:
+      tags:
+      - Merchant Update
+      summary: GraphQL API to update Merchant's information
+      operationId: updateMerchant
+      parameters:
+      - name: Authorization
+        in: header
+        description: |
+          Bearer access token. For token generation refer to
+          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
+        required: true
+        schema:
+          type: string
+        example: "Bearer {token}"
+      - name: x-encrypted-data
+        in: header
+        description: Use to signify if data is encrypted
+        required: false
+        schema:
+          type: string
+        example: false
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateMerchant"
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResponseMerchant"
+      x-proxy-name: updateMerchant
+      x-group-name: Mutation
+      x-core: UMM
+      x-child-product-name: Merchant
+  /graphql⁣:
+    post:
+      tags:
+      - Merchant Search
+      summary: GraphQL API to retrieve Merchant's information by search criteria
+      operationId: search
+      parameters:
+      - name: platformCode
+        in: query
+        description: |
+          Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+        required: true
+        schema:
+          type: string
+          description: |
+            Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+      - name: pageNumber
+        in: query
+        required: true
+        schema:
+          type: string
+          example: 1
+        example: 1
+      - name: Authorization
+        in: header
+        description: |
+          Bearer access token. For token generation refer to
+          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
+        required: true
+        schema:
+          type: string
+        example: "Bearer {token}"
+      - name: x-encrypted-data
+        in: header
+        description: Use to signify if data is encrypted
+        required: false
+        schema:
+          type: string
+        example: false
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SearchRequest"
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResponseSearchResponse"
+      x-proxy-name: search
+      x-group-name: Inquiry
+      x-core: UMM
+      x-child-product-name: Merchant
+  /graphql:
+    post:
+      tags:
+      - Merchant Inquiry
+      summary: GraphQL API to retrieve Merchant's information. Additional filtering
+        can be perfomed based on certain parameter as shown in the provided request
+        sample
+      operationId: getMerchant
+      parameters:
+      - name: merchantId
+        in: query
+        description: |
+          Unique identifier of the merchant. It is required to add merchant-specific information to the database. For more details refer to
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#merchant_id">specification</a>
+        required: true
+        schema:
+          type: string
+          description: |
+            Unique identifier of the merchant. It is required to add merchant-specific information to the database. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#merchant_id">specification</a>
+      - name: platformCode
+        in: query
+        description: |
+          Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+        required: true
+        schema:
+          type: string
+          description: |
+            Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+      - name: effectiveDate
+        in: query
+        description: Effective date from when the user can start fetching the snapshot
+          data for a particular merchant and platform using UMM DB
+        required: false
+        schema:
+          type: string
+          description: Effective date from when the user can start fetching the snapshot
+            data for a particular merchant and platform using UMM DB
+          format: yyyy-MM-dd
+          example: 2024-06-06
+        example: 2024-06-06
+      - name: Authorization
+        in: header
+        description: |
+          Bearer access token. For token generation refer to
+          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
+        required: true
+        schema:
+          type: string
+        example: "Bearer {token}"
+      - name: x-encrypted-data
+        in: header
+        description: Use to signify if data is encrypted
+        required: false
+        schema:
+          type: string
+        example: false
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/InquiryRequest"
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResponseMerchant"
+      x-proxy-name: getMerchant
+      x-group-name: Inquiry
+      x-core: UMM
+      x-child-product-name: Merchant
+components:
+  schemas:
+    AddressBoardingRequest:
+      type: object
+      properties:
+        addressTypeCode:
+          type: string
+          description: |
+            This field represents which level of merchant hierarchy that the request pertains to
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#address_type_code">specification</a>
+          readOnly: true
+          enum:
+          - LOCATION
+          - CORPORATE
+          - MSIP_LOCATION
+          - MSIP_CORPORATE
+          - DISPUTE_ADDRESS
+          - HEAD_OFFICE
+          - LEGAL
+          - BENEFICIARY
+          - BUSINESS_MANAGER
+          - ALTERNATE_ADDRESS
+        contactName:
+          type: string
+          description: |
+            The contact name at the address location
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#contact_name">specification</a>
+        address1Text:
+          type: string
+          description: |
+            Address line 1
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#address_1_text">specification</a>
+        address2Text:
+          type: string
+          description: |
+            Address line 2
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#address_2_text">specification</a>
+        address3Text:
+          type: string
+          description: |
+            Address line 3
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#address_3_text">specification</a>
+        address4Text:
+          type: string
+          description: |
+            Address line 4
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#address_4_text">specification</a>
+        address5Text:
+          type: string
+          description: |
+            Address line 5
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#address_5_text">specification</a>
+        city:
+          type: string
+          description: |
+            Name of the city
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#city">specification</a>
+        stateCode:
+          type: string
+          description: |
+            State Code
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#state_code">specification</a>
+        stateName:
+          type: string
+          description: |
+            State Name
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#state_name">specification</a>
+        countryCode:
+          type: string
+          description: |
+            Code that indicates the country
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#country_code">specification</a>
+        postalCode:
+          type: string
+          description: |
+            Postal code or zip code
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#postal_code">specification</a>
+        countyCode:
+          type: string
+          description: |
+            County code where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#county_code">specification</a>
+        countyName:
+          type: string
+          description: |
+            Name of the county
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#county_name">specification</a>
+        businessPhone:
+          type: string
+          description: |
+            Phone number of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#business_phone">specification</a>
+        mobile:
+          type: string
+          description: |
+            Mobile number of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#mobile">specification</a>
+        fax:
+          type: string
+          description: |
+            Fax of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#fax">specification</a>
+        emailAddress:
+          type: string
+          description: |
+            E-mail address of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#email_address">specification</a>
+        attentionTo:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#attention_to">specification</a>
+      description: |
+        Essential information about  business address of a merchant for official purposes and communication
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop">specification</a>
+    CreateMerchant:
+      required:
+      - query
+      type: object
+      properties:
+        query:
+          type: string
+          description: |
+            Sample merchant boarding mutation query
+            ```json
+            mutation createMerchant {
+              createMerchant(
+                merchant: {
+                  merchantId: "12345678"
+                  platformCode: OMNIPAY26
+                  dbaName: "SAMPLE"
+                  legalName: "Omnipay Ltd."
+                  merchantCategoryCode: "8021"
+                  languageCode: "ENGLISH"
+                  taxId: "MT 10644256"
+                  businessUrl: "www.abc.com"
+                  businessTypCode: "BOTH"
+                  merchantAccounts: [
+                    {
+                      accountUsageCode: PAR_PAYABLE
+                      currencyCode: "EUR"
+                      billingLevel: "N"
+                      receiverCountry: "IRL"
+                      statementGeneration: "GENERATE_IF_ACTIVITY"
+                      paymentReference: "999999999999999999"
+                      bankName: "Bank of Dublin"
+                      nameOnAccount: "John Doe Credit Account"
+                      routingNumber: "13165987"
+                      accountNumber: "ZZ999999999999999"
+                      iban: "ZZ99999999999999999999"
+                      phoneNumber: "00535125412123"
+                      contactName: "Frank Castle"
+                      correspondentBankNo: "ZZZZZZZZZZZ"
+                      bankCity: "Dublin"
+                      paymentFormat: "NOT_APPLICABLE"
+                      clearingEntity: "NOT_APPLICABLE"
+                      correspondentBankAccount: "ZZ 9842512858747"
+                      paymentDelayDays: "000"
+                    }
+                    {
+                      accountUsageCode: PAR_RECEIVABLE
+                      currencyCode: "EUR"
+                      billingLevel: "false"
+                      receiverCountry: "IRL"
+                      statementGeneration: "GENERATE_IF_ACTIVITY"
+                      paymentReference: "999999999999999999"
+                      bankName: "Sample Bank Name"
+                      nameOnAccount: "John Doe Debit Account"
+                      routingNumber: "999999999999999999"
+                      accountNumber: "ZZ999999999999999"
+                      iban: "ZZ999999999999999999999"
+                      phoneNumber: "003531234567"
+                      contactName: "Joanne Burke"
+                      correspondentBankNo: "ZZ99999999"
+                      bankCity: "Dublin"
+                      paymentFormat: "NOT_APPLICABLE"
+                      clearingEntity: "NOT_APPLICABLE"
+                      correspondentBankAccount: "ZZ 9842512858747"
+                      paymentDelayDays: "000"
+                    }
+                  ]
+                  merchantBusinessInformation: {
+                    legalEntityTypeCode: "LLC"
+                    registrationNumber: "000000000000000"
+                  }
+                  merchantXrefs : {
+                    xrefPlatformCode: "NORTH"
+                    xrefPlatformMid: "00000075999959"
+                  }
+                  merchantHierarchies: [
+                    {
+                      hierarchyLevelCode: "MEMBER"
+                      hierarchyMerchantId: "60555887"
+                    }
+                  ]
+                  addresses: [
+                   {
+                      addressTypeCode: DISPUTE_ADDRESS
+                      address1Text: "15 Beach Street"
+                      address2Text: "4th Zone"
+                      address3Text: "Bremen"
+                      address4Text: "Saxony"
+                      address5Text: "Ireland"
+                      city: "Frankfurt"
+                      postalCode: "D18 R219"
+                      countryCode: "IRL"
+                      businessPhone: "00353112345678"
+                      emailAddress: "abc@omnipay.com"
+                      contactName: "Joe Smith"
+                    },
+                    {
+                      addressTypeCode: CORPORATE
+                      address1Text: "15 Beach Street"
+                      address2Text: "4th Zone"
+                      address3Text: "Bremen"
+                      address4Text: "Saxony"
+                      address5Text: "Ireland"
+                      city: "Frankfurt"
+                      postalCode: "D18 R219"
+                      countryCode: "IRL"
+                      businessPhone: "00353112345678"
+                      emailAddress: "abc@omnipay.com"
+                      contactName: "Joe Smith"
+                    },
+                    {
+                      addressTypeCode: LOCATION
+                      address1Text: "15 Beach Street"
+                      city: "Frankfurt"
+                      stateCode: "ST"
+                      postalCode: "D18 R219"
+                      countryCode: "IRL"
+                      businessPhone: "00353112345678"
+                    }
+                  ]
+                  merchantAttributes: {
+                    contract: {
+                      protectAgainstFXChange: {
+                        values: [ "true" ]
+                      },
+                      serviceContract: {
+                        values: [ "497" ]
+                      },
+                      clientTariff: {
+                        values: [ "PF_TARIFF_4" ]
+                      },
+                      postingTariff: {
+                        values: [ "ALL_TO1EUR" ]
+                      },
+                      clientRegion: {
+                        values: [ "BY_COUNTRY" ]
+                      }
+                    },
+                    additionalTaxInfo: {
+                      secondaryTaxId: {
+                        values: [ "MT 10644256" ]
+                      }
+                    }
+                    settlementConfig: {
+                     settlementMethod: {
+                        values: [ "DAILY" ]
+                     }
+                    }
+                  }
+                  products: {
+                    entitlements: [
+                      {
+                        productCode: "ENTLMC"
+                        feeTableId: "GENERAL_9"
+                        isActive: "Y"
+                        attributes: {
+                          entitlementAttr: {
+                            mcIpQualification: {
+                              values: [ "NA" ]
+                            },
+                            mcIpValue: {
+                              values: [ "00000055" ]
+                            },
+                            pfId: {
+                              values: [ "12345" ]
+                            },
+                            isoId: {
+                              values: "1234" ]
+                            }
+                          }
+                        }
+                      },
+                      {
+                        productCode: "ENTLVI"
+                        feeTableId: "PF_TARIFF"
+                        isActive: "Y"
+                        attributes: {
+                          entitlementAttr: {
+                            visaIpQualification: {
+                              values: [ "NA" ]
+                            },
+                            visaIpValue: {
+                              values: [ "401938547" ]
+                            },
+                            visaPfId: {
+                              values: [ "AbC12345" ]
+                            },
+                            floorLimitAmount: {
+                              values: [ "000000000000000000" ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ) {
+                __typename ... on Merchant {
+                  merchantId
+                }
+              }
+            }
+            ```
+        merchant:
+          $ref: "#/components/schemas/MerchantBoardingRequestSchema"
+    EntitlementProductRequest:
+      type: object
+      properties:
+        productCode:
+          type: string
+          description: |
+            The product code associated with the product and defined by UMM API
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
+        attributes:
+          type: object
+          additionalProperties:
+            type: object
+            description: |
+              Will contain one or more attributes in the format shown below
+              ```json
+              {
+                "attributeType#1": {
+                  "attribute#1": {
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+          description: |
+            Will contain one or more attributes in the format shown below
+            ```json
+            {
+              "attributeType#1": {
+                "attribute#1": {
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
+        isActive:
+          type: string
+          description: |
+            This field indicates whether the product is active or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
+        feeTableId:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#fee_table_id">specification</a>
+    FeeProductRequest:
+      type: object
+      properties:
+        productCode:
+          type: string
+          description: |
+            The product code associated with the product and defined by UMM API
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
+        attributes:
+          type: object
+          additionalProperties:
+            type: object
+            description: |
+              Will contain one or more attributes in the format shown below
+              ```json
+              {
+                "attributeType#1": {
+                  "attribute#1": {
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+          description: |
+            Will contain one or more attributes in the format shown below
+            ```json
+            {
+              "attributeType#1": {
+                "attribute#1": {
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
+        isActive:
+          type: string
+          description: |
+            This field indicates whether the product is active or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
+        wholesaleAmountOrPercent:
+          type: number
+        retailAmountOrPercent:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#retail_charge">specification</a>
+        feeTableId:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#fee_table_id">specification</a>
+    MerchantAccountBoardingRequest:
+      type: object
+      properties:
+        accountUsageCode:
+          type: string
+          description: |
+            Code that indicate the usage/purpose of an account
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#acct_usage_code">specification</a>
+          enum:
+          - FUNDING
+          - LEASING
+          - VISA_PAR_PAYABLE
+          - VISA_PAR_RECEIVABLE
+          - MC_PAR_PAYABLE
+          - MC_PAR_RECEIVABLE
+          - AMEX_ADJUSTMENTS_PAYABLE
+          - AMEX_ADJUSTMENTS_RECEIVABLE
+          - VISA_ADJUSTMENTS_PAYABLE
+          - VISA_ADJUSTMENTS_RECEIVABLE
+          - FEE_COLLECT_PAYABLE
+          - FEE_COLLECT_RECEIVABLE
+          - SP_PAYMENT_PAYABLE
+          - SP_PAYMENT_RECEIVABLE
+          - FEE_HOLD_PAYABLE
+          - FEE_HOLD_RECEIVABLE
+          - AMEX_MERCH_PAYABLE
+          - AMEX_MERCH_RECEIVABLE
+          - MC_ADJUSTMENTS_PAYABLE
+          - MC_ADJUSTMENTS_RECEIVABLE
+          - APM_PAR_PAYABLE
+          - APM_PAR_RECEIVABLE
+          - WRITEOFF_ACQ_PAYABLE
+          - WRITEOFF_ACQ_RECEIVABLE
+          - WRITEOFF_SP_PAYABLE
+          - WRITEOFF_SP_RECEIVABLE
+          - FX_PI_CHARGEBACK_PAYABLE
+          - FX_PI_CHARGEBACK_RECEIVABLE
+          - INTERBANK_SUSP_VISA_PAYABLE
+          - INTERBANK_SUSP_VISA_RECEIVABLE
+          - REJECTS_ECCF_PAYABLE
+          - REJECTS_ECCF_RECEIVABLE
+          - REJECTS_VISA_PAYABLE
+          - REJECTS_VISA_RECEIVABLE
+          - REJECTS_INET_PAYABLE
+          - REJECTS_INET_RECEIVABLE
+          - FEE_COLL_ECCF_PAYABLE
+          - FEE_COLL_ECCF_RECEIVABLE
+          - FEE_COLL_VISA_PAYABLE
+          - FEE_COLL_VISA_RECEIVABLE
+          - FEE_COLL_INET_PAYABLE
+          - FEE_COLL_INET_RECEIVABLE
+          - REJECTS_IPM_PAYABLE
+          - REJECTS_IPM_RECEIVABLE
+          - FEE_COLL_IPM_PAYABLE
+          - FEE_COLL_IPM_RECEIVABLE
+          - MANUAL_ADJUSTMENTS_PAYABLE
+          - MANUAL_ADJUSTMENTS_RECEIVABLE
+          - FX_PL_CHARGEBACK_2_PAYABLE
+          - FX_PL_CHARGEBACK_2_RECEIVABLE
+          - MERCH_PYMT_REJECTS_PAYABLE
+          - MERCH_PYMT_REJECTS_RECEIVABLE
+          - ACQ_DISPUTE_TRANS_PAYABLE
+          - ACQ_DISPUTE_TRANS_RECEIVABLE
+          - INTERBANL_SUSPENSE_PAYABLE
+          - INTERBANL_SUSPENSE_RECEIVABLE
+          - REJECTED_DESC_PAYABLE
+          - REJECTED_DESC_RECEIVABLE
+          - INTEREST_RECEIVABLE_PAYABLE
+          - INTEREST_RECEIVABLE_RECEIVABLE
+          - REJECTED_SOURCE_PAYABLE
+          - REJECTED_SOURCE_RECEIVABLE
+          - MERCH_COMM_REVENUE_PAYABLE
+          - MERCH_COMM_REVENUE_RECEIVABLE
+          - ACQ_COMM_REVENUE_PAYABLE
+          - ACQ_COMM_REVENUE_RECEIVABLE
+          - TREASURY_PYMT_VISA_PAYABLE
+          - TREASURY_PYMT_VISA_RECEIVABLE
+          - TREASURY_PYMT_MC_PAYABLE
+          - TREASURY_PYMT_MC_RECEIVABLE
+          - TREASURY_PYMT_ALL_PAYABLE
+          - TREASURY_PYMT_ALL_RECEIVABLE
+          - TREASURY_PYMT_WELLS_PAYABLE
+          - TREASURY_PYMT_WELLS_RECEIVABLE
+          - TREASURY_PYMT_FDELGBP_PAYABLE
+          - TREASURY_PYMT_FDELGBP_RECEIVABLE
+          - TREASURY_PYMT_BASECAD_PAYABLE
+          - TREASURY_PYMT_BASECAD_RECEIVABLE
+          - TREASURY_PYMT_EUR_PAYABLE
+          - TREASURY_PYMT_EUR_RECEIVABLE
+          - TREASURY_PYMT_BAMS_PAYABLE
+          - TREASURY_PYMT_BAMS_RECEIVABLE
+          - PAR_PAYABLE
+          - PAR_RECEIVABLE
+          - PAYMENT_SUSPENSE_PAYABLE
+          - PAYMENT_SUSPENSE_RECEIVABLE
+          - FX_ROUNDING_DIFF_PAYABLE
+          - FX_ROUNDING_DIFF_RECEIVABLE
+          - MERCHANT_HOLD_PAYABLE
+          - MERCHANT_HOLD_RECEIVABLE
+          - VAT_HOLD_PAYABLE
+          - VAT_HOLD_RECEIVABLE
+          - MERCH_RESERVE_PAYABLE
+          - MERCH_RESERVE_RECEIVABLE
+          - FEXCO_COMM_REVENUE_PAYABLE
+          - FEXCO_COMM_REVENUE_RECEIVABLE
+          - JCB_MERCHANT_PAYABLE
+          - JCB_MERCHANT_RECEIVABLE
+          - MERCHANT_BILLBACK_PAYABLE
+          - MERCHANT_BILLBACK_RECEIVABLE
+          - INTERCHANGE_REJ_SUSP_PAYABLE
+          - INTERCHANGE_REJ_SUSP_RECEIVABLE
+          - GST_COLLECT_PAYABLE
+          - GST_COLLECT_RECEIVABLE
+          - TREASURY_PYMT_U_PAYABLE
+          - TREASURY_PYMT_U_RECEIVABLE
+          - DINERS_MERCHANT_PAYABLE
+          - DINERS_MERCHANT_RECEIVABLE
+          - PAGOBANCOMAT_PAYABLE
+          - PAGOBANCOMAT_RECEIVABLE
+          - MERC_ROLLIN_RESERVE_PAYABLE
+          - MERC_ROLLIN_RESERVE_RECEIVABLE
+          - ALTERNATIVE_PAYMENTS_PAYABLE
+          - ALTERNATIVE_PAYMENTS_RECEIVABLE
+          - PAR_HOLDING_PAYABLE
+          - PAR_HOLDING_RECEIVABLE
+          - PAR_DR_PAYABLE
+          - PAR_DR_RECEIVABLE
+          - FEDERAL_TAX_PAYABLE
+          - FEDERAL_TAX_RECEIVABLE
+          - STATE_TAX_PAYABLE
+          - STATE_TAX_RECEIVABLE
+          - MERCH_FACTOR_PAYABLE
+          - MERCH_FACTOR_RECEIVABLE
+          - VEASE_FUND_CLEAR_PAYABLE
+          - VEASE_FUND_CLEAR_RECEIVABLE
+          - PAR_BCMC_PAYABLE
+          - PAR_BCMC_RECEIVABLE
+          - FEE_HOLD_BCMC_PAYABLE
+          - FEE_HOLD_BCMC_RECEIVABLE
+          - FEE_COLL_BCMC_PAYABLE
+          - FEE_COLL_BCMC_RECEIVABLE
+          - CUP_MERCHANT_PAYABLE
+          - CUP_MERCHANT_RECEIVABLE
+          - IDEAL_PAR_PAYABLE
+          - IDEAL_PAR_RECEIVABLE
+          - SM_PAR_PAYABLE
+          - SM_PAR_RECEIVABLE
+          - CHBK_HOLD_PAYABLE
+          - CHBK_HOLD_RECEIVABLE
+        sequenceNumber:
+          type: integer
+          description: |
+            ABA/DDA occurrence sequence number of a bank
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#sequence_number">specification</a>
+          format: int64
+        routingNumber:
+          type: string
+          description: |
+            Routing number of a bank
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#routing_number">specification</a>
+        accountNumber:
+          type: string
+          description: |
+            Account number assigned to the merchant's bank account
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#acct_number">specification</a>
+        bankFundingFileCode:
+          type: string
+          description: |
+            Code that indicates the funding file process associated with ABA/DDA
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#bank_funding_file_code">specification</a>
+        bankAccountType:
+          type: string
+          description: |
+            Type of an account
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#bank_account_type">specification</a>
+        currencyCode:
+          type: string
+          description: |
+            ISO 4217 currency of the account selected
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#currency_code">specification</a>
+        billingLevel:
+          type: string
+          description: |
+            Indicates if the account will be settled to on a funding
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#billing_level">specification</a>
+        receiverCountry:
+          type: string
+          description: |
+            ISO-3166 alpha country code for the merchant's bank country. Mandatory if billing level is set to true. If not provided
+            while adding an account then system will default to null
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#receiver_country">specification</a>
+        statementType:
+          type: string
+          description: |
+            Statement type to be generated. Allowed to provide valid value if the institution level configuration enabled to override at
+            merchant level. If no value provided while adding a merchant account, then system will default to `900`
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#statement_type">specification</a>
+        statementGeneration:
+          type: string
+          description: |
+            Option for statement generation. Defauts to `GENERATE_IF_ACTIVITY`
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#statement_generation">specification</a>
+        paymentReference:
+          type: string
+          description: |
+            For institutions using IFS funding file this field should contain the direct debit contract number (required for merchant
+            debits). For others it is a reference text to display on merchant's bank statement if supported on the funding file
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#payment_reference">specification</a>
+        bankName:
+          type: string
+          description: |
+            Merchant's bank account name. Mandatory if billing level is set to true
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#bank_name">specification</a>
+        nameOnAccount:
+          type: string
+          description: |
+            Merchant's bank account name. Mandatory if billing level is set to true
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#name_on_account">specification</a>
+        iban:
+          type: string
+          description: |
+            International Bank Account Number (IBAN) is a series of alphanumeric characters that uniquely identifies a customer's
+            account held at a bank anywhere in the world. This is considered PII data; the value will be encrypted prior to storing
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#iban">specification</a>
+        phoneNumber:
+          type: string
+          description: |
+            The telephone number of the merchant bank
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#phone_number">specification</a>
+        contactName:
+          type: string
+          description: |
+            Name of contact at the merchant's bank. Mandatory if billing level is set to true
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#contact_name">specification</a>
+        correspondentBankNo:
+          type: string
+          description: |
+            For institutions using IFS funding file this field should contain the swift code of the payable bank (mapped to international
+            bank code field on the IFS file)
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#correspondent_bank_no">specification</a>
+        bankCity:
+          type: string
+          description: |
+            CREDIT ACCOUNT Bank City (optional field)
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#bank_city">specification</a>
+        clearingEntity:
+          type: string
+          description: |
+            The financial institution that will receive the payment. Only applicable to institutions using the IFS file for funding merchants
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#clearing_entity">specification</a>
+        correspondentBankAccount:
+          type: string
+          description: |
+            Bank account number for the intermediary bank used for fund transfers. Used in cases where merchant uses a small financial institution,
+            for example a local credit union
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#corredpondent_bank_account">specification</a>
+        paymentDelayDays:
+          type: integer
+          description: |
+            Number of days to hold payment to the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#payment_delay_days">specification</a>
+          format: int32
+      description: |
+        Essential information about merchant bank account, including account number, account type, and contact information
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop">specification</a>
+    MerchantBoardingRequestSchema:
+      required:
+      - merchantId
+      - platformCode
+      type: object
+      properties:
+        merchantId:
+          type: string
+          description: |
+            Unique identifier of the merchant. It is required to add merchant-specific information to the database
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#merchant_id">specification</a>
+        platformCode:
+          type: string
+          description: |
+            Code to identify the specific backend platform. It adds the required information for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+          enum:
+          - NORTH
+          - SOUTH
+          - OMNIPAY26
+        setupIndicator:
+          type: string
+        boardingTypeCode:
+          type: string
+        boardingSourceCode:
+          type: string
+        dbaName:
+          type: string
+          description: |
+            Official merchant name that the customer or authorities commonly recognizes
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#dba_name">specification</a>
+        legalName:
+          type: string
+          description: |
+            Legal or official name of a merchant that is registered with government tax authorities
+            > Note: It must be entered exactly same as it apears in the legal tax documents for the merchant. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#legal_name">specification</a>
+        businessUrl:
+          type: string
+          description: |
+            Official website address (URL) associated with the merchant
+            > Note: The URL should be complete and accurate and it should start with the protocol (http:// or https://). For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#business_url">specification</a>
+        storeId:
+          type: string
+          description: |
+            Unique identifier of the merchant's store
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#store_id">specification</a>
+        taxFilingName:
+          type: string
+          description: |
+            Name that the merchant uses to file the taxes with the relevant tax authorities
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tax_filing_name">specification</a>
+        businessTypCode:
+          type: string
+          description: |
+            Code that indicates whether merchant can process payment in store or online
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#business_typ_code">specification</a>
+        merchantCategoryCode:
+          type: string
+          description: |
+            Code that indicates the type of business in which a merchant is engaged
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#merchant_category_code">specification</a>
+        standardIndustryClassCode:
+          type: string
+          description: |
+            Code that indicates the classification of MC/VISA standard industry
+            > Note: The code list is available upon request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#standard_industry_class_code">specification</a>
+        statusCode:
+          type: string
+          description: |
+            Code that indicates the status of a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#status_code">specification</a>
+        franchiseIndicator:
+          type: string
+          description: |
+            Value that indicates the merchat is a franchise or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#franchise_indicator">specification</a>
+        seasonalIndicator:
+          type: string
+          description: |
+            Value that indicates the merchant is a seasonal or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#seasonal_indicator">specification</a>
+        salesmanCode:
+          type: string
+          description: |
+            Code that indicates the salesman associated with a merchant
+            > Note: The code list is available upon request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#salesman_code">specification</a>
+        relationshipMgrCode:
+          type: string
+          description: |
+            Code that indicates a relationship manager who is responsible for managing the merchant's account
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#relationship_mgr_code">specification</a>
+        clearingBankCode:
+          type: string
+          description: |
+            Code that indicates the clearing bank associated with a merchant
+            > Note: The valid list is available on request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#clearing_bank_code">specification</a>
+        pricingTypeCode:
+          type: string
+          description: |
+            Code that indicates the pricing type for interchange calculations
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#pricing_type_code">specification</a>
+        taxIdTypeCode:
+          type: string
+          description: |
+            Code that indicates the type of tax identifier
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tax_id_type_code">specification</a>
+        taxId:
+          type: string
+          description: |
+            Unique identifier of the merchat tax
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tax_id">specification</a>
+        subPlatformCode:
+          type: string
+          description: |
+            Code that indicates the alliance pratform
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#sub_platform">specification</a>
+        multiCurrencyIndicator:
+          type: string
+        owners:
+          type: array
+          description: |
+            Essential information about merchant owner, including demographic details, and contact information.
+            This is a critical information for every principal owner of a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/OwnerBoardingRequest"
+        addresses:
+          type: array
+          description: |
+            Essential information about  business address of a merchant for official purposes and communication
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/AddressBoardingRequest"
+        products:
+          $ref: "#/components/schemas/MerchantProductsRequest"
+        merchantAttributes:
+          type: object
+          additionalProperties:
+            type: object
+            description: |
+              Will contain one or more attributes in the format shown below
+              ```json
+              {
+                "domain#1": {
+                  "domainDescription": "domain #1 description",
+                  "attribute#1": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  }
+                },
+                "domain#2": {
+                  "domainDescription": "domain #2 description",
+                  "attribute#1": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+              > For more details refer to
+              <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
+          description: |
+            Will contain one or more attributes in the format shown below
+            ```json
+            {
+              "domain#1": {
+                "domainDescription": "domain #1 description",
+                "attribute#1": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                }
+              },
+              "domain#2": {
+                "domainDescription": "domain #2 description",
+                "attribute#1": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
+            > For more details refer to
+            <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
+        merchantBusinessInformation:
+          $ref: "#/components/schemas/MerchantBusinessInformationBoardingRequest"
+        merchantXrefs:
+          type: array
+          description: |
+            Stores essential information about  cross reference of other platform for same merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/MerchantXrefBoardingRequest"
+        merchantAccounts:
+          type: array
+          description: |
+            Essential information about merchant bank account, including account number, account type, and contact information
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/MerchantAccountBoardingRequest"
+        merchantHierarchies:
+          type: array
+          description: |
+            Stores essential information of management hierarchy for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantHierarchy.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/MerchantHierarchies"
+        corporateName:
+          type: string
+          description: |
+            Official name of the merchant as it appears in legal and corporate documents
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#corporate_name">specification</a>
+        languageCode:
+          type: string
+          description: |
+            Code that indicates the language for communication with the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#language_code">specification</a>
+        acctOpenDate:
+          type: string
+          description: |
+            Date on which the merchant account was opened
+            > Note: It can include a time component if required. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#acct_open_date">specification</a>
+          format: date
+        markerBankCode:
+          type: string
+          description: |
+            Code that indicates the bank associated with a maker or client
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#marker_bank_code">specification</a>
+        productsSold:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#products_sold">specification</a>
+          readOnly: true
+      description: "> 🚫 This schema is for reference, **not** required in request\
+        \ body; this will be part of the graphql mutation query"
+      nullable: true
+      default: {}
+    MerchantBusinessInformationBoardingRequest:
+      type: object
+      properties:
+        legalContactName:
+          type: string
+          description: |
+            Individual designated as the legal contact for a business or organization
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#legal_contact_name">specification</a>
+        legalContactTitle:
+          type: string
+          description: |
+            Title or designation given to the legal contact person
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#legal_contact_title">specification</a>
+        customerServicePhoneNumber:
+          type: string
+          description: |
+            Phone number of the merchant customer service
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#customer_service_phone_number">specification</a>
+        salesTaxExemptIndicator:
+          type: string
+          description: |
+            Value that indicates whether the merchant is exempt from paying tax
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#sales_tax_exempt_indicator">specification</a>
+        thirdPartyProcessorCode:
+          type: string
+          description: |
+            Code that indicates the third party payment processor
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#third_party_processor_code">specification</a>
+        periodicReviewIndicator:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#periodic_review_indicator">specification</a>
+        averageTicketAmount:
+          type: number
+          description: |
+            Contracted average ticket value for the merchant. Whether this value is per week, per month, per year, etc. is defined at institution level
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#average_ticket_amount">specification</a>
+        largeTicketPurchaseIndicator:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#higheslarge_ticket_purchase_indicator">specification</a>
+        keyedPercent:
+          type: number
+          description: |
+            Percentage entered manually rather than being automatically calculated or derived from a system
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#keyed_percent">specification</a>
+        internetOrderPercent:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#internet_order_percent">specification</a>
+        thirdPartyProcessorName:
+          type: string
+          description: |
+            Name of the third party processor
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#third_party_processor_name">specification</a>
+        legalEntityTypeCode:
+          type: string
+          description: |
+            Code that indicates the type of legal merchant entity
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#legal_entity_type_code">specification</a>
+        registrationNumber:
+          type: string
+        annualSalesAmount:
+          type: number
+        estimatedAnnualBankCardSalesAmount:
+          type: number
+      description: |
+        Stores essential information about merchants, including contact details, business type, and contractual data,
+        ensuring efficient transaction processing and management. Every merchant has an entry in this critical repository
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop">specification</a>
+    MerchantHierarchies:
+      type: object
+      properties:
+        hierarchyLevelCode:
+          type: string
+          description: |
+            Unique identifier of the merchant to represent the management hierarchy
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantHierarchy.md&branch=develop#hierarchy_level_code">specification</a>
+        hierarchySeq:
+          type: integer
+          description: |
+            Dynamic sequence depending  on hierarchy level for a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantHierarchy.md&branch=develop#hierarchy_seq">specification</a>
+          format: int64
+        hierarchyName:
+          type: string
+          description: |
+            Designated name of a specific level or position within a merchant organization
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantHierarchy.md&branch=develop#hierarchy_name">specification</a>
+        hierarchyMerchantId:
+          type: string
+          description: |
+            Unique identifier assigned to a merchant within a hierarchical system - e.g. Business number associated with a specific merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantHierarchy.md&branch=develop#hierarchy_merchant_id">specification</a>
+      description: |
+        Stores essential information of management hierarchy for the merchant
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/MerchantHierarchy.md&branch=develop">specification</a>
+    MerchantProductsRequest:
+      type: object
+      properties:
+        entitlements:
+          type: array
+          items:
+            $ref: "#/components/schemas/EntitlementProductRequest"
+        fees:
+          type: array
+          items:
+            $ref: "#/components/schemas/FeeProductRequest"
+        valueAddedServices:
+          type: array
+          items:
+            $ref: "#/components/schemas/ValueAddedServicesRequest"
+      description: |
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/MerchantProduct.md&branch=develop">specification</a>
+    MerchantXrefBoardingRequest:
+      type: object
+      properties:
+        xrefPlatformMid:
+          type: string
+          description: |
+            Unique identifier assigned to an external merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop#xref_platform_mid">specification</a>
+        xrefPlatformCode:
+          type: string
+          description: |
+            Value that indicates the usage of cross reference record associated with the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop#xref_platform_code">specification</a>
+        primarySecurityCode:
+          type: string
+          description: |
+            Security code  associated with a front end network
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop#primary_secutiry_code">specification</a>
+        xrefCorrespondenceIndicator:
+          type: string
+          description: |
+            Value that indicates the merchants and communications uses the associated cross reference number
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop#xref_correspondence_indicator">specification</a>
+      description: |
+        Stores essential information about  cross reference of other platform for same merchant
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop">specification</a>
+    OwnerBoardingRequest:
+      type: object
+      properties:
+        ownerSeqCode:
+          type: string
+          description: |
+            Sequence number of the principal owner associated with the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#owner_seq_code">specification</a>
+        firstName:
+          type: string
+          description: |
+            First name of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#first_name">specification</a>
+        middleName:
+          type: string
+          description: |
+            Middle name of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#middle_name">specification</a>
+        lastName:
+          type: string
+          description: |
+            Last name of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#last_name">specification</a>
+        title:
+          type: string
+          description: |
+            Title or prefix that is used before the name of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#title">specification</a>
+        address1Text:
+          type: string
+          description: |
+            Address line 1
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#address_1_text">specification</a>
+        address2Text:
+          type: string
+          description: |
+            Address line 2
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#address_2_text">specification</a>
+        address3Text:
+          type: string
+          description: |
+            Address line 3
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#address_3_text">specification</a>
+        address4Text:
+          type: string
+          description: |
+            Address line 4
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#address_4_text">specification</a>
+        address5Text:
+          type: string
+          description: |
+            Address line 5
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#address_5_text">specification</a>
+        city:
+          type: string
+          description: |
+            Name of the city
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#city">specification</a>
+        stateCode:
+          type: string
+          description: |
+            State province name as per ISO 3166-2:CA codes
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#state_code">specification</a>
+        countryCode:
+          type: string
+          description: |
+            Code that indicates the country
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#country_code">specification</a>
+        postalCode:
+          type: string
+          description: |
+            Postal code or zip code
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#postal_code">specification</a>
+        countyCode:
+          type: string
+          description: |
+            County code where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#county_code">specification</a>
+        countyName:
+          type: string
+          description: |
+            County Name where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#county_name">specification</a>
+        mobile:
+          type: string
+          description: |
+            Mobile number of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#mobile">specification</a>
+        fax:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#fax">specification</a>
+        signerIndicator:
+          type: string
+          description: |
+            Value that indicates whether the principal owner is an authorized signer or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#signer_indicator">specification</a>
+        guarantorIndicator:
+          type: string
+          description: |
+            Value that indicates whether the principal guarantor exist or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#guarantor_indicator">specification</a>
+        birthDate:
+          type: string
+          description: |
+            Date on which the principal owner was born (birth date)
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#birth_date">specification</a>
+          format: date
+        yearsAtAddress:
+          type: integer
+          description: |
+            The principal owner resides at the current address for a certain number of years
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#years_at_address">specification</a>
+          format: int64
+        emailAddress:
+          type: string
+          description: |
+            E-mail address of the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#email_address">specification</a>
+        ownershipPercent:
+          type: integer
+          description: |
+            Percentage of ownership that a particular owner  holds in the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#ownership_percent">specification</a>
+          format: int32
+        ownerIdentificationDetails:
+          type: array
+          items:
+            $ref: "#/components/schemas/OwnerIdentification"
+        phoneNumber:
+          type: string
+          description: |
+            Phone number of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#business_phone">specification</a>
+      description: |
+        Essential information about merchant owner, including demographic details, and contact information.
+        This is a critical information for every principal owner of a merchant
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop">specification</a>
+    OwnerIdentification:
+      type: object
+      properties:
+        identityDocTypeCode:
+          type: string
+          description: |
+            Type of tax identification document provided by the merchant for verification purposes
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#identity_doc_type_code">specification</a>
+        identityDocNumber:
+          type: string
+          description: |
+            Unique number associated with an official identity document provided by the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#identity_doc_number">specification</a>
+    ValueAddedServicesRequest:
+      type: object
+      properties:
+        productCode:
+          type: string
+          description: |
+            The product code associated with the product and defined by UMM API
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
+        attributes:
+          type: object
+          additionalProperties:
+            type: object
+            description: |
+              Will contain one or more attributes in the format shown below
+              ```json
+              {
+                "attributeType#1": {
+                  "attribute#1": {
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+          description: |
+            Will contain one or more attributes in the format shown below
+            ```json
+            {
+              "attributeType#1": {
+                "attribute#1": {
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
+        isActive:
+          type: string
+          description: |
+            This field indicates whether the product is active or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
+    Address:
+      type: object
+      properties:
+        addressTypeCode:
+          type: string
+          description: |
+            This field represents which level of merchant hierarchy that the request pertains to
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#address_type_code">specification</a>
+          readOnly: true
+          enum:
+          - LOCATION
+          - CORPORATE
+          - MSIP_LOCATION
+          - MSIP_CORPORATE
+          - DISPUTE_ADDRESS
+          - HEAD_OFFICE
+          - LEGAL
+          - BENEFICIARY
+          - BUSINESS_MANAGER
+          - ALTERNATE_ADDRESS
+        contactName:
+          type: string
+          description: |
+            The contact name at the address location
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#contact_name">specification</a>
+        contactTitle:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#contact_title">specification</a>
+        address1Text:
+          type: string
+          description: |
+            Address line 1
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#address_1_text">specification</a>
+        address2Text:
+          type: string
+          description: |
+            Address line 2
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#address_2_text">specification</a>
+        address3Text:
+          type: string
+          description: |
+            Address line 3
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#address_3_text">specification</a>
+        address4Text:
+          type: string
+          description: |
+            Address line 4
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#address_4_text">specification</a>
+        address5Text:
+          type: string
+          description: |
+            Address line 5
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#address_5_text">specification</a>
+        city:
+          type: string
+          description: |
+            Name of the city
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#city">specification</a>
+        stateCode:
+          type: string
+          description: |
+            State Code
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#state_code">specification</a>
+        stateName:
+          type: string
+          description: |
+            State Name
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#state_name">specification</a>
+        countryCode:
+          type: string
+          description: |
+            Code that indicates the country
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#country_code">specification</a>
+        postalCode:
+          type: string
+          description: |
+            Postal code or zip code
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#postal_code">specification</a>
+        countyCode:
+          type: string
+          description: |
+            County code where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#county_code">specification</a>
+        countyName:
+          type: string
+          description: |
+            Name of the county
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#county_name">specification</a>
+        businessPhone:
+          type: string
+          description: |
+            Phone number of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#business_phone">specification</a>
+        mobile:
+          type: string
+          description: |
+            Mobile number of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#mobile">specification</a>
+        fax:
+          type: string
+          description: |
+            Fax of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#fax">specification</a>
+        emailAddress:
+          type: string
+          description: |
+            E-mail address of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#email_address">specification</a>
+        deliveryMethod:
+          type: string
+          description: |
+            Delivery method code of correspondence to this address; however, it is dependent on the delivery solutions in place for the given institution
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#delivery_method">specification</a>
+        attentionTo:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop#attention_to">specification</a>
+      description: |
+        Essential information about  business address of a merchant for official purposes and communication
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop">specification</a>
+    Error:
+      type: object
+      properties:
+        errorCode:
+          type: integer
+          format: int32
+        errorMessage:
+          type: string
+        httpStatusCode:
+          type: string
+          enum:
+          - 100 CONTINUE
+          - 101 SWITCHING_PROTOCOLS
+          - 102 PROCESSING
+          - 103 EARLY_HINTS
+          - 103 CHECKPOINT
+          - 200 OK
+          - 201 CREATED
+          - 202 ACCEPTED
+          - 203 NON_AUTHORITATIVE_INFORMATION
+          - 204 NO_CONTENT
+          - 205 RESET_CONTENT
+          - 206 PARTIAL_CONTENT
+          - 207 MULTI_STATUS
+          - 208 ALREADY_REPORTED
+          - 226 IM_USED
+          - 300 MULTIPLE_CHOICES
+          - 301 MOVED_PERMANENTLY
+          - 302 FOUND
+          - 302 MOVED_TEMPORARILY
+          - 303 SEE_OTHER
+          - 304 NOT_MODIFIED
+          - 305 USE_PROXY
+          - 307 TEMPORARY_REDIRECT
+          - 308 PERMANENT_REDIRECT
+          - 400 BAD_REQUEST
+          - 401 UNAUTHORIZED
+          - 402 PAYMENT_REQUIRED
+          - 403 FORBIDDEN
+          - 404 NOT_FOUND
+          - 405 METHOD_NOT_ALLOWED
+          - 406 NOT_ACCEPTABLE
+          - 407 PROXY_AUTHENTICATION_REQUIRED
+          - 408 REQUEST_TIMEOUT
+          - 409 CONFLICT
+          - 410 GONE
+          - 411 LENGTH_REQUIRED
+          - 412 PRECONDITION_FAILED
+          - 413 PAYLOAD_TOO_LARGE
+          - 413 REQUEST_ENTITY_TOO_LARGE
+          - 414 URI_TOO_LONG
+          - 414 REQUEST_URI_TOO_LONG
+          - 415 UNSUPPORTED_MEDIA_TYPE
+          - 416 REQUESTED_RANGE_NOT_SATISFIABLE
+          - 417 EXPECTATION_FAILED
+          - 418 I_AM_A_TEAPOT
+          - 419 INSUFFICIENT_SPACE_ON_RESOURCE
+          - 420 METHOD_FAILURE
+          - 421 DESTINATION_LOCKED
+          - 422 UNPROCESSABLE_ENTITY
+          - 423 LOCKED
+          - 424 FAILED_DEPENDENCY
+          - 425 TOO_EARLY
+          - 426 UPGRADE_REQUIRED
+          - 428 PRECONDITION_REQUIRED
+          - 429 TOO_MANY_REQUESTS
+          - 431 REQUEST_HEADER_FIELDS_TOO_LARGE
+          - 451 UNAVAILABLE_FOR_LEGAL_REASONS
+          - 500 INTERNAL_SERVER_ERROR
+          - 501 NOT_IMPLEMENTED
+          - 502 BAD_GATEWAY
+          - 503 SERVICE_UNAVAILABLE
+          - 504 GATEWAY_TIMEOUT
+          - 505 HTTP_VERSION_NOT_SUPPORTED
+          - 506 VARIANT_ALSO_NEGOTIATES
+          - 507 INSUFFICIENT_STORAGE
+          - 508 LOOP_DETECTED
+          - 509 BANDWIDTH_LIMIT_EXCEEDED
+          - 510 NOT_EXTENDED
+          - 511 NETWORK_AUTHENTICATION_REQUIRED
+        rawExceptionMessage:
+          type: string
+        errorSource:
+          type: string
+    Merchant:
+      required:
+      - merchantId
+      - platformCode
+      type: object
+      properties:
+        merchantId:
+          type: string
+          description: |
+            Unique identifier of the merchant. It is required to add merchant-specific information to the database
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#merchant_id">specification</a>
+        platformCode:
+          type: string
+          description: |
+            Code to identify the specific backend platform. It adds the required information for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+          enum:
+          - NORTH
+          - OMAHA
+          - SOUTH
+          - OMNIPAY26
+          - OMNIPAY21
+        setupIndicator:
+          type: string
+        dbaName:
+          type: string
+          description: |
+            Official merchant name that the customer or authorities commonly recognizes
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#dba_name">specification</a>
+        legalName:
+          type: string
+          description: |
+            Legal or official name of a merchant that is registered with government tax authorities
+            > Note: It must be entered exactly same as it apears in the legal tax documents for the merchant. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#legal_name">specification</a>
+        businessUrl:
+          type: string
+          description: |
+            Official website address (URL) associated with the merchant
+            > Note: The URL should be complete and accurate and it should start with the protocol (http:// or https://). For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#business_url">specification</a>
+        hierarchyLevelCode:
+          type: string
+          description: |
+            Unique identifier assigned to an outlet or a specific level within a hierarchical structure of a merchant's busines
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#hierarchy_level_code">specification</a>
+          readOnly: true
+        storeId:
+          type: string
+          description: |
+            Unique identifier of the merchant's store
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#store_id">specification</a>
+        taxFilingName:
+          type: string
+          description: |
+            Name that the merchant uses to file the taxes with the relevant tax authorities
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tax_filing_name">specification</a>
+        businessTypCode:
+          type: string
+          description: |
+            Code that indicates whether merchant can process payment in store or online
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#business_typ_code">specification</a>
+        merchantCategoryCode:
+          type: string
+          description: |
+            Code that indicates the type of business in which a merchant is engaged
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#merchant_category_code">specification</a>
+        standardIndustryClassCode:
+          type: string
+          description: |
+            Code that indicates the classification of MC/VISA standard industry
+            > Note: The code list is available upon request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#standard_industry_class_code">specification</a>
+        productsSold:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#products_sold">specification</a>
+          readOnly: true
+        statusCode:
+          type: string
+          description: |
+            Code that indicates the status of a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#status_code">specification</a>
+        acctOpenDate:
+          type: string
+          description: |
+            Date on which the merchant account was opened
+            > Note: It can include a time component if required. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#acct_open_date">specification</a>
+          format: date
+        acctSubmitDate:
+          type: string
+          description: |
+            Date on which the account was submitted
+            > Note: It can include a time component if required. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#acct_submit_date">specification</a>
+          format: date
+          readOnly: true
+        lastStatusChangedDate:
+          type: string
+          description: |
+            Date on which the last status of the merchant account was changed
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#last_status_changed_date">specification</a>
+          format: date
+          readOnly: true
+        lastStatusCode:
+          type: string
+          description: |
+            Code to indicate the last status of the merchant account before a recent update
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#last_status_code">specification</a>
+        acctCloseDate:
+          type: string
+          description: |
+            Date on which the account was closed
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#acct_close_date">specification</a>
+          format: date
+        closeReasonCode:
+          type: string
+          description: |
+            Code that indicates the reason of merchant account closure
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#close_reason_code">specification</a>
+        franchiseIndicator:
+          type: string
+          description: |
+            Value that indicates the merchat is a franchise or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#franchise_indicator">specification</a>
+        seasonalIndicator:
+          type: string
+          description: |
+            Value that indicates the merchant is a seasonal or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#seasonal_indicator">specification</a>
+        salesmanCode:
+          type: string
+          description: |
+            Code that indicates the salesman associated with a merchant
+            > Note: The code list is available upon request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#salesman_code">specification</a>
+        relationshipMgrCode:
+          type: string
+          description: |
+            Code that indicates a relationship manager who is responsible for managing the merchant's account
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#relationship_mgr_code">specification</a>
+        markerBankCode:
+          type: string
+          description: |
+            Code that indicates the bank associated with a maker or client
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#marker_bank_code">specification</a>
+        clearingBankCode:
+          type: string
+          description: |
+            Code that indicates the clearing bank associated with a merchant
+            > Note: The valid list is available on request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#clearing_bank_code">specification</a>
+        businessStartDate:
+          type: string
+          description: |
+            Date on which the business was started
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#business_start_date">specification</a>
+          format: date
+          readOnly: true
+        pricingTypeCode:
+          type: string
+          description: |
+            Code that indicates the pricing type for interchange calculations
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#pricing_type_code">specification</a>
+        taxIdTypeCode:
+          type: string
+          description: |
+            Code that indicates the type of tax identifier
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tax_id_type_code">specification</a>
+        taxId:
+          type: string
+          description: |
+            Unique identifier of the merchat tax
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tax_id">specification</a>
+        intlTaxExemptIndicator:
+          type: string
+          description: |
+            Value that indicates whether international tax exempt rule is applicable to Merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#intl_tax_exempt_indicator">specification</a>
+        annualCardAmount:
+          type: number
+          description: |
+            Amount of the annual card in decimal format
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#annual_card_amount">specification</a>
+          readOnly: true
+        businessTimeZone:
+          type: string
+          readOnly: true
+        languageCode:
+          type: string
+          description: |
+            Code that indicates the language for communication with the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#language_code">specification</a>
+        multiCurrencyIndicator:
+          type: string
+          description: |
+            Value that indicates whether a merchant conducts currency conversion at the point of sale
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#multi_currency_indicator">specification</a>
+        owners:
+          type: array
+          description: |
+            Essential information about merchant owner, including demographic details, and contact information.
+            This is a critical information for every principal owner of a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/Owner"
+        addresses:
+          type: array
+          description: |
+            Essential information about  business address of a merchant for official purposes and communication
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/Address"
+        products:
+          $ref: "#/components/schemas/MerchantProduct"
+        merchantAttributes:
+          type: object
+          additionalProperties:
+            type: object
+            description: |
+              Will contain one or more attributes in the format shown below
+              ```json
+              {
+                "domain#1": {
+                  "domainDescription": "domain #1 description",
+                  "attribute#1": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  }
+                },
+                "domain#2": {
+                  "domainDescription": "domain #2 description",
+                  "attribute#1": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+              > For more details refer to
+              <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
+          description: |
+            Will contain one or more attributes in the format shown below
+            ```json
+            {
+              "domain#1": {
+                "domainDescription": "domain #1 description",
+                "attribute#1": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                }
+              },
+              "domain#2": {
+                "domainDescription": "domain #2 description",
+                "attribute#1": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
+            > For more details refer to
+            <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
+        merchantBusinessInformation:
+          $ref: "#/components/schemas/MerchantBusinessInformation"
+        merchantHierarchies:
+          type: array
+          description: |
+            Stores essential information of management hierarchy for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantHierarchy.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/MerchantHierarchies"
+        merchantXrefs:
+          type: array
+          description: |
+            Stores essential information about  cross reference of other platform for same merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/MerchantXref"
+        merchantAccounts:
+          type: array
+          description: |
+            Essential information about merchant bank account, including account number, account type, and contact information
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/MerchantAccount"
+        merchantIrsDetails:
+          $ref: "#/components/schemas/MerchantIrsTax"
+        subPlatformCode:
+          type: string
+          description: |
+            Code that indicates the alliance pratform
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#sub_platform">specification</a>
+        corporateName:
+          type: string
+          description: |
+            Official name of the merchant as it appears in legal and corporate documents
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#corporate_name">specification</a>
+    MerchantAccount:
+      type: object
+      properties:
+        accountUsageCode:
+          type: string
+          description: |
+            Code that indicate the usage/purpose of an account
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#acct_usage_code">specification</a>
+          enum:
+          - FUNDING
+          - LEASING
+          - VISA_PAR_PAYABLE
+          - VISA_PAR_RECEIVABLE
+          - MC_PAR_PAYABLE
+          - MC_PAR_RECEIVABLE
+          - AMEX_ADJUSTMENTS_PAYABLE
+          - AMEX_ADJUSTMENTS_RECEIVABLE
+          - VISA_ADJUSTMENTS_PAYABLE
+          - VISA_ADJUSTMENTS_RECEIVABLE
+          - FEE_COLLECT_PAYABLE
+          - FEE_COLLECT_RECEIVABLE
+          - SP_PAYMENT_PAYABLE
+          - SP_PAYMENT_RECEIVABLE
+          - FEE_HOLD_PAYABLE
+          - FEE_HOLD_RECEIVABLE
+          - AMEX_MERCH_PAYABLE
+          - AMEX_MERCH_RECEIVABLE
+          - MC_ADJUSTMENTS_PAYABLE
+          - MC_ADJUSTMENTS_RECEIVABLE
+          - APM_PAR_PAYABLE
+          - APM_PAR_RECEIVABLE
+          - WRITEOFF_ACQ_PAYABLE
+          - WRITEOFF_ACQ_RECEIVABLE
+          - WRITEOFF_SP_PAYABLE
+          - WRITEOFF_SP_RECEIVABLE
+          - FX_PI_CHARGEBACK_PAYABLE
+          - FX_PI_CHARGEBACK_RECEIVABLE
+          - INTERBANK_SUSP_VISA_PAYABLE
+          - INTERBANK_SUSP_VISA_RECEIVABLE
+          - REJECTS_ECCF_PAYABLE
+          - REJECTS_ECCF_RECEIVABLE
+          - REJECTS_VISA_PAYABLE
+          - REJECTS_VISA_RECEIVABLE
+          - REJECTS_INET_PAYABLE
+          - REJECTS_INET_RECEIVABLE
+          - FEE_COLL_ECCF_PAYABLE
+          - FEE_COLL_ECCF_RECEIVABLE
+          - FEE_COLL_VISA_PAYABLE
+          - FEE_COLL_VISA_RECEIVABLE
+          - FEE_COLL_INET_PAYABLE
+          - FEE_COLL_INET_RECEIVABLE
+          - REJECTS_IPM_PAYABLE
+          - REJECTS_IPM_RECEIVABLE
+          - FEE_COLL_IPM_PAYABLE
+          - FEE_COLL_IPM_RECEIVABLE
+          - MANUAL_ADJUSTMENTS_PAYABLE
+          - MANUAL_ADJUSTMENTS_RECEIVABLE
+          - FX_PL_CHARGEBACK_2_PAYABLE
+          - FX_PL_CHARGEBACK_2_RECEIVABLE
+          - MERCH_PYMT_REJECTS_PAYABLE
+          - MERCH_PYMT_REJECTS_RECEIVABLE
+          - ACQ_DISPUTE_TRANS_PAYABLE
+          - ACQ_DISPUTE_TRANS_RECEIVABLE
+          - INTERBANL_SUSPENSE_PAYABLE
+          - INTERBANL_SUSPENSE_RECEIVABLE
+          - REJECTED_DESC_PAYABLE
+          - REJECTED_DESC_RECEIVABLE
+          - INTEREST_RECEIVABLE_PAYABLE
+          - INTEREST_RECEIVABLE_RECEIVABLE
+          - REJECTED_SOURCE_PAYABLE
+          - REJECTED_SOURCE_RECEIVABLE
+          - MERCH_COMM_REVENUE_PAYABLE
+          - MERCH_COMM_REVENUE_RECEIVABLE
+          - ACQ_COMM_REVENUE_PAYABLE
+          - ACQ_COMM_REVENUE_RECEIVABLE
+          - TREASURY_PYMT_VISA_PAYABLE
+          - TREASURY_PYMT_VISA_RECEIVABLE
+          - TREASURY_PYMT_MC_PAYABLE
+          - TREASURY_PYMT_MC_RECEIVABLE
+          - TREASURY_PYMT_ALL_PAYABLE
+          - TREASURY_PYMT_ALL_RECEIVABLE
+          - TREASURY_PYMT_WELLS_PAYABLE
+          - TREASURY_PYMT_WELLS_RECEIVABLE
+          - TREASURY_PYMT_FDELGBP_PAYABLE
+          - TREASURY_PYMT_FDELGBP_RECEIVABLE
+          - TREASURY_PYMT_BASECAD_PAYABLE
+          - TREASURY_PYMT_BASECAD_RECEIVABLE
+          - TREASURY_PYMT_EUR_PAYABLE
+          - TREASURY_PYMT_EUR_RECEIVABLE
+          - TREASURY_PYMT_BAMS_PAYABLE
+          - TREASURY_PYMT_BAMS_RECEIVABLE
+          - PAR_PAYABLE
+          - PAR_RECEIVABLE
+          - PAYMENT_SUSPENSE_PAYABLE
+          - PAYMENT_SUSPENSE_RECEIVABLE
+          - FX_ROUNDING_DIFF_PAYABLE
+          - FX_ROUNDING_DIFF_RECEIVABLE
+          - MERCHANT_HOLD_PAYABLE
+          - MERCHANT_HOLD_RECEIVABLE
+          - VAT_HOLD_PAYABLE
+          - VAT_HOLD_RECEIVABLE
+          - MERCH_RESERVE_PAYABLE
+          - MERCH_RESERVE_RECEIVABLE
+          - FEXCO_COMM_REVENUE_PAYABLE
+          - FEXCO_COMM_REVENUE_RECEIVABLE
+          - JCB_MERCHANT_PAYABLE
+          - JCB_MERCHANT_RECEIVABLE
+          - MERCHANT_BILLBACK_PAYABLE
+          - MERCHANT_BILLBACK_RECEIVABLE
+          - INTERCHANGE_REJ_SUSP_PAYABLE
+          - INTERCHANGE_REJ_SUSP_RECEIVABLE
+          - GST_COLLECT_PAYABLE
+          - GST_COLLECT_RECEIVABLE
+          - TREASURY_PYMT_U_PAYABLE
+          - TREASURY_PYMT_U_RECEIVABLE
+          - DINERS_MERCHANT_PAYABLE
+          - DINERS_MERCHANT_RECEIVABLE
+          - PAGOBANCOMAT_PAYABLE
+          - PAGOBANCOMAT_RECEIVABLE
+          - MERC_ROLLIN_RESERVE_PAYABLE
+          - MERC_ROLLIN_RESERVE_RECEIVABLE
+          - ALTERNATIVE_PAYMENTS_PAYABLE
+          - ALTERNATIVE_PAYMENTS_RECEIVABLE
+          - PAR_HOLDING_PAYABLE
+          - PAR_HOLDING_RECEIVABLE
+          - PAR_DR_PAYABLE
+          - PAR_DR_RECEIVABLE
+          - FEDERAL_TAX_PAYABLE
+          - FEDERAL_TAX_RECEIVABLE
+          - STATE_TAX_PAYABLE
+          - STATE_TAX_RECEIVABLE
+          - MERCH_FACTOR_PAYABLE
+          - MERCH_FACTOR_RECEIVABLE
+          - VEASE_FUND_CLEAR_PAYABLE
+          - VEASE_FUND_CLEAR_RECEIVABLE
+          - PAR_BCMC_PAYABLE
+          - PAR_BCMC_RECEIVABLE
+          - FEE_HOLD_BCMC_PAYABLE
+          - FEE_HOLD_BCMC_RECEIVABLE
+          - FEE_COLL_BCMC_PAYABLE
+          - FEE_COLL_BCMC_RECEIVABLE
+          - CUP_MERCHANT_PAYABLE
+          - CUP_MERCHANT_RECEIVABLE
+          - IDEAL_PAR_PAYABLE
+          - IDEAL_PAR_RECEIVABLE
+          - SM_PAR_PAYABLE
+          - SM_PAR_RECEIVABLE
+          - CHBK_HOLD_PAYABLE
+          - CHBK_HOLD_RECEIVABLE
+        sequenceNumber:
+          type: integer
+          description: |
+            ABA/DDA occurrence sequence number of a bank
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#sequence_number">specification</a>
+          format: int64
+        recordType:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#record_type">specification</a>
+        billingLevel:
+          type: string
+          description: |
+            Indicates if the account will be settled to on a funding
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#billing_level">specification</a>
+        routingNumber:
+          type: string
+          description: |
+            Routing number of a bank
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#routing_number">specification</a>
+        accountNumber:
+          type: string
+          description: |
+            Account number assigned to the merchant's bank account
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#acct_number">specification</a>
+        nameOnAccount:
+          type: string
+          description: |
+            Merchant's bank account name. Mandatory if billing level is set to true
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#name_on_account">specification</a>
+        bankName:
+          type: string
+          description: |
+            Merchant's bank account name. Mandatory if billing level is set to true
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#bank_name">specification</a>
+        accountEffectiveDate:
+          type: string
+          description: |
+            Date on which the account was activated
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#account_effective_dt">specification</a>
+          format: date
+        receiverCountry:
+          type: string
+          description: |
+            ISO-3166 alpha country code for the merchant's bank country. Mandatory if billing level is set to true. If not provided
+            while adding an account then system will default to null
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#receiver_country">specification</a>
+        phoneNumber:
+          type: string
+          description: |
+            The telephone number of the merchant bank
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#phone_number">specification</a>
+        contactName:
+          type: string
+          description: |
+            Name of contact at the merchant's bank. Mandatory if billing level is set to true
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#contact_name">specification</a>
+        paymentReference:
+          type: string
+          description: |
+            For institutions using IFS funding file this field should contain the direct debit contract number (required for merchant
+            debits). For others it is a reference text to display on merchant's bank statement if supported on the funding file
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#payment_reference">specification</a>
+        iban:
+          type: string
+          description: |
+            International Bank Account Number (IBAN) is a series of alphanumeric characters that uniquely identifies a customer's
+            account held at a bank anywhere in the world. This is considered PII data; the value will be encrypted prior to storing
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#iban">specification</a>
+        correspondentBankNo:
+          type: string
+          description: |
+            For institutions using IFS funding file this field should contain the swift code of the payable bank (mapped to international
+            bank code field on the IFS file)
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#correspondent_bank_no">specification</a>
+        paymentFormatId:
+          type: string
+          description: |
+            Format to be used to present payments to the clearing entity. Only applicable to institutions using the IFS file for funding merchants.
+            If not provided while adding a merchant account, then system will default to the first occurrence (ordered by Index) defined for an
+            institution
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#payment_format_id">specification</a>
+        clearingEntity:
+          type: string
+          description: |
+            The financial institution that will receive the payment. Only applicable to institutions using the IFS file for funding merchants
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#clearing_entity">specification</a>
+        paymentDelayDays:
+          type: integer
+          description: |
+            Number of days to hold payment to the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#payment_delay_days">specification</a>
+          format: int32
+        currencyCode:
+          type: string
+          description: |
+            ISO 4217 currency of the account selected
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#currency_code">specification</a>
+        bankReference:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#bank_reference">specification</a>
+        correspondentBankAccount:
+          type: string
+          description: |
+            Bank account number for the intermediary bank used for fund transfers. Used in cases where merchant uses a small financial institution,
+            for example a local credit union
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#corredpondent_bank_account">specification</a>
+        bankFundingFileCode:
+          type: string
+          description: |
+            Code that indicates the funding file process associated with ABA/DDA
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#bank_funding_file_code">specification</a>
+        bankCity:
+          type: string
+          description: |
+            CREDIT ACCOUNT Bank City (optional field)
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#bank_city">specification</a>
+        bankAccountType:
+          type: string
+          description: |
+            Type of an account
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#bank_account_type">specification</a>
+        statementGeneration:
+          type: string
+          description: |
+            Option for statement generation. Defauts to `GENERATE_IF_ACTIVITY`
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#statement_generation">specification</a>
+        statementType:
+          type: string
+          description: |
+            Statement type to be generated. Allowed to provide valid value if the institution level configuration enabled to override at
+            merchant level. If no value provided while adding a merchant account, then system will default to `900`
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#statement_type">specification</a>
+        status:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#status">specification</a>
+        settlementNumber:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#settlement_number">specification</a>
+        currentBalance:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop#current_balance">specification</a>
+      description: |
+        Essential information about merchant bank account, including account number, account type, and contact information
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop">specification</a>
+    MerchantBusinessInformation:
+      type: object
+      properties:
+        legalContactName:
+          type: string
+          description: |
+            Individual designated as the legal contact for a business or organization
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#legal_contact_name">specification</a>
+        legalEntityTypeCode:
+          type: string
+          description: |
+            Code that indicates the type of legal merchant entity
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#legal_entity_type_code">specification</a>
+        legalContactTitle:
+          type: string
+          description: |
+            Title or designation given to the legal contact person
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#legal_contact_title">specification</a>
+        customerServicePhoneNumber:
+          type: string
+          description: |
+            Phone number of the merchant customer service
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#customer_service_phone_number">specification</a>
+        locationStartDate:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#localtion_start_date">specification</a>
+          format: date
+        activationDate:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#activation_date">specification</a>
+          format: date
+        estimatedFirstProcessDate:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#estimated_first_process_date">specification</a>
+          format: date
+        firstCancelDate:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#first_cancel_date">specification</a>
+          format: date
+        lastCancelDate:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#last_cancel_date">specification</a>
+          format: date
+        lastSettleDate:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#last_settle_date">specification</a>
+          format: date
+        electronicSigIndicator:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#electronic_sig_indicator">specification</a>
+        residentStatusCode:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#resident_status_code">specification</a>
+        registrationNumber:
+          type: string
+          description: |
+            The merchant registration number is a field that is conditional based on the configuration setup of an institution.
+            By default, this field is mandatory, but it can be made optional at the institution level. If the field is provided
+            in the payload, it must have a minimum length of 5 characters. Note that this value will be encrypted before storage,
+            as it is considered PII data. To ensure proper encryption, a minimum length of 5 characters is required
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#registration_number">specification</a>
+        salesTaxExemptIndicator:
+          type: string
+          description: |
+            Value that indicates whether the merchant is exempt from paying tax
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#sales_tax_exempt_indicator">specification</a>
+        thirdPartyProcessorCode:
+          type: string
+          description: |
+            Code that indicates the third party payment processor
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#third_party_processor_code">specification</a>
+        periodicReviewIndicator:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#periodic_review_indicator">specification</a>
+        annualSalesAmount:
+          type: number
+          description: |
+            Contracted sales value for the merchant. Whether this value is per week, per month, per year, etc. is defined at institution level
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#annual_sales_amount">specification</a>
+        averageTicketAmount:
+          type: number
+          description: |
+            Contracted average ticket value for the merchant. Whether this value is per week, per month, per year, etc. is defined at institution level
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#average_ticket_amount">specification</a>
+        highestTicketAmount:
+          type: number
+          description: |
+            Maximum or highest amount of a single transaction that a customer makes at the merchant's establishment
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#highest_ticket_amount">specification</a>
+        largeTicketPurchaseIndicator:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#higheslarge_ticket_purchase_indicator">specification</a>
+        mailOrderPercent:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#mail_order_percent">specification</a>
+        phoneOrderPercent:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#phone_order_percent">specification</a>
+        posOrderPercent:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#pos_order_percent">specification</a>
+        swipedPercent:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#swiped_percent">specification</a>
+        keyedPercent:
+          type: number
+          description: |
+            Percentage entered manually rather than being automatically calculated or derived from a system
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#keyed_percent">specification</a>
+        salesChannelId:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#sales_channel_id">specification</a>
+        salesLeadTrackingNo:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#sales_lead_tracking_no">specification</a>
+        accountSignedDate:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#account_signed_date">specification</a>
+          format: date
+        accountApprovalDate:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#account_approval_date">specification</a>
+          format: date
+        quasiCashIndicator:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#quasi_cash_indicator">specification</a>
+        internetOrderPercent:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#internet_order_percent">specification</a>
+        firstActivityDate:
+          type: string
+          description: |
+            Date on which the first activity was recorded
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#first_activity_date">specification</a>
+          format: date
+        thirdPartyProcessorName:
+          type: string
+          description: |
+            Name of the third party processor
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#third_party_processor_name">specification</a>
+        estimatedAnnualBankCardSalesAmount:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop#estimated_annual_bank_card_sales_amount">specification</a>
+        del0To7DayPercent:
+          type: number
+        del8To14DayPercent:
+          type: number
+        del15To30DayPercent:
+          type: number
+        del30PlusDayPercent:
+          type: number
+      description: |
+        Stores essential information about merchants, including contact details, business type, and contractual data,
+        ensuring efficient transaction processing and management. Every merchant has an entry in this critical repository
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/MerchantBusinessInformation.md&branch=develop">specification</a>
+    MerchantIrsTax:
+      type: object
+      properties:
+        exclusionCode:
+          type: string
+          description: |
+            Code that indicates weather the merchant is excluded from the IRS processing
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#exclusion_code">specification</a>
+        irsTinValidationCode:
+          type: string
+          description: |
+            Code that indicates the validation of the merchant's taxpayer identification number (TIN)
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#irs_tin_validation_code">specification</a>
+        tinValidationDate:
+          type: string
+          description: |
+            Date on which the IRS taxpayer identification number (TIN) validation was last performed for a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#tin_validation_date">specification</a>
+          format: date
+        payeeId:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#payee_id">specification</a>
+        payeeCode:
+          type: string
+          description: |
+            Code that indicates the unique code assigned to a payee or recipient for tax reporting purposes by the Internal Revenue Service (IRS)
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#payee_code">specification</a>
+        cp2100NoticeReceivedDate:
+          type: string
+          description: |
+            Date on which the merchant received a IRS CP2100 notice
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#cp2100_notice_received_date">specification</a>
+          format: date
+        cp2100NoticeEffectiveDate:
+          type: string
+          description: |
+            Date on which the IRS CP2100 notice becomes effective
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#cp2100_notice_effective_date">specification</a>
+          format: date
+        withHoldingCode:
+          type: string
+          description: |
+            Code that indicates the IRS withholding is required or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#withholding_code">specification</a>
+        withholdingNotificationCode:
+          type: string
+          description: |
+            Code that indicates the IRS back up withholding notification
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#withholding_notification_code">specification</a>
+        withholdingNotificationDate:
+          type: string
+          description: |
+            Date on which the taxpayer received a notification related to income withholding
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#withholding_notification_date">specification</a>
+          format: date
+        withHoldingReasonCode:
+          type: string
+          description: |
+            Code that indicates the IRS back up withholding reason
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#withholding_reason_code">specification</a>
+        withHoldingEffectiveDate:
+          type: string
+          description: |
+            Date on which the IRS back up withholding becomes effective
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#withholding_effective_date">specification</a>
+          format: date
+        withHoldingEndDate:
+          type: string
+          description: |
+            Date from which the IRS back up withholding is not effective
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#withholding_end_date">specification</a>
+          format: date
+        fedWithHoldingPercent:
+          type: number
+          description: |
+            Percentage of backup withholding that is required to be withheld by the the IRS
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#fed_withholding_percent">specification</a>
+        stateWithHoldingPercent:
+          type: number
+          description: |
+            Percentage that applies to the withholding of state income tax
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#state_withholding_percent">specification</a>
+        formCertStatusCode:
+          type: string
+          description: |
+            Code that indicates the status of IRS form certification
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#form_cert_status_code">specification</a>
+        formCertStatusReceivedDate:
+          type: string
+          description: |
+            Date on which the certification status of an IRS form was received
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#form_cert_status_received_date">specification</a>
+          format: date
+        turfEffectiveDate:
+          type: string
+          description: |
+            Effective date from when the Taxpayer's United Reporting Federation (TURF) makes an agreement with the IRS
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#turf_effective_date">specification</a>
+          format: date
+        turfReasonCode:
+          type: string
+          description: |
+            Code that indicates the reason of updating the IRS TURF agreement
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#turf_reason_code">specification</a>
+        turfUpdateDate:
+          type: string
+          description: |
+            Date on which the Taxpayer's United Reporting Federation (TURF) agreement with the IRS was last updated
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#turf_update_date">specification</a>
+          format: date
+        taxEffectiveYear:
+          type: string
+          description: |
+            Year from which the IRS tax regulations, rules, and rates come into effect
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#tax_effective_year">specification</a>
+        timsAccountNumber:
+          type: string
+          description: |
+            Account number associated with the Taxpayer Information Management System (TIMS)
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#tims_account_number">specification</a>
+        payeeDefaultIndicator:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#payee_default_indicator">specification</a>
+        taxPayIndicator:
+          type: string
+          description: |
+            Value that indicates whether a taxpayer has made the required tax payments for a specific period or tax year
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop#tax_pay_indicator">specification</a>
+      description: |
+        Stores Tax related information for merchants
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/Tax_Adtnl_Data_US.md&branch=develop">specification</a>
+    MerchantProduct:
+      type: object
+      properties:
+        entitlements:
+          type: array
+          items:
+            $ref: "#/components/schemas/Product"
+        valueAddedServices:
+          type: array
+          items:
+            $ref: "#/components/schemas/Product"
+        fees:
+          type: array
+          items:
+            $ref: "#/components/schemas/Product"
+        equipments:
+          type: array
+          items:
+            $ref: "#/components/schemas/Product"
+      description: |
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/MerchantProduct.md&branch=develop">specification</a>
+    MerchantXref:
+      type: object
+      properties:
+        xrefPlatformMid:
+          type: string
+          description: |
+            Unique identifier assigned to an external merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop#xref_platform_mid">specification</a>
+        xrefPlatformCode:
+          type: string
+          description: |
+            Value that indicates the usage of cross reference record associated with the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop#xref_platform_code">specification</a>
+        primarySecurityCode:
+          type: string
+          description: |
+            Security code  associated with a front end network
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop#primary_secutiry_code">specification</a>
+        alliancePlatformCode:
+          type: string
+          description: |
+            Code that indicates the alliance Platform
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop#alliance_platform_code">specification</a>
+        xrefCorrespondenceIndicator:
+          type: string
+          description: |
+            Value that indicates the merchants and communications uses the associated cross reference number
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop#xref_correspondence_indicator">specification</a>
+      description: |
+        Stores essential information about  cross reference of other platform for same merchant
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop">specification</a>
+    Owner:
+      type: object
+      properties:
+        ownerSeqCode:
+          type: string
+          description: |
+            Sequence number of the principal owner associated with the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#owner_seq_code">specification</a>
+        firstName:
+          type: string
+          description: |
+            First name of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#first_name">specification</a>
+        middleName:
+          type: string
+          description: |
+            Middle name of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#middle_name">specification</a>
+        lastName:
+          type: string
+          description: |
+            Last name of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#last_name">specification</a>
+        title:
+          type: string
+          description: |
+            Title or prefix that is used before the name of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#title">specification</a>
+        address1Text:
+          type: string
+          description: |
+            Address line 1
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#address_1_text">specification</a>
+        address2Text:
+          type: string
+          description: |
+            Address line 2
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#address_2_text">specification</a>
+        address3Text:
+          type: string
+          description: |
+            Address line 3
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#address_3_text">specification</a>
+        address4Text:
+          type: string
+          description: |
+            Address line 4
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#address_4_text">specification</a>
+        address5Text:
+          type: string
+          description: |
+            Address line 5
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#address_5_text">specification</a>
+        city:
+          type: string
+          description: |
+            Name of the city
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#city">specification</a>
+        stateCode:
+          type: string
+          description: |
+            State province name as per ISO 3166-2:CA codes
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#state_code">specification</a>
+        countryCode:
+          type: string
+          description: |
+            Code that indicates the country
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#country_code">specification</a>
+        postalCode:
+          type: string
+          description: |
+            Postal code or zip code
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#postal_code">specification</a>
+        countyCode:
+          type: string
+          description: |
+            County code where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#county_code">specification</a>
+        countyName:
+          type: string
+          description: |
+            County Name where the merchant is located
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#county_name">specification</a>
+        mobile:
+          type: string
+          description: |
+            Mobile number of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#mobile">specification</a>
+        fax:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#fax">specification</a>
+        signerIndicator:
+          type: string
+          description: |
+            Value that indicates whether the principal owner is an authorized signer or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#signer_indicator">specification</a>
+        guarantorIndicator:
+          type: string
+          description: |
+            Value that indicates whether the principal guarantor exist or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#guarantor_indicator">specification</a>
+        birthDate:
+          type: string
+          description: |
+            Date on which the principal owner was born (birth date)
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#birth_date">specification</a>
+          format: date
+        yearsAtAddress:
+          type: integer
+          description: |
+            The principal owner resides at the current address for a certain number of years
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#years_at_address">specification</a>
+          format: int64
+        emailAddress:
+          type: string
+          description: |
+            E-mail address of the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#email_address">specification</a>
+        ownershipPercent:
+          type: integer
+          description: |
+            Percentage of ownership that a particular owner  holds in the business
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#ownership_percent">specification</a>
+          format: int32
+        mobileValidationStatus:
+          type: string
+          description: |
+            Code that indicates the validation status of the principal owner's mobile number
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#mobile_validation_status">specification</a>
+        mobileValidationSourceCode:
+          type: string
+          description: |
+            Code that indicates the validation status of the principal owner's mobile number source
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#mobile_validation_source_code">specification</a>
+        mobileValidationDate:
+          type: string
+          description: |
+            Date on which the principal owner's mobile number was validated
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#mobile_validation_date">specification</a>
+          format: date
+        ownerIdentificationDetails:
+          type: array
+          items:
+            $ref: "#/components/schemas/OwnerIdentification"
+        phoneNumber:
+          type: string
+          description: |
+            Phone number of the principal owner
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop#business_phone">specification</a>
+      description: |
+        Essential information about merchant owner, including demographic details, and contact information.
+        This is a critical information for every principal owner of a merchant
+        > For more details refer to
+        <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop">specification</a>
+    Product:
+      type: object
+      properties:
+        productCode:
+          type: string
+          description: |
+            The product code associated with the product and defined by UMM API
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
+        subCategory:
+          type: string
+        productShortDesc:
+          type: string
+        productLongDesc:
+          type: string
+        lineNumber:
+          type: integer
+          format: int64
+        parentLineNumber:
+          type: integer
+          format: int64
+        quantity:
+          type: integer
+          format: int64
+        feeTableId:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#fee_table_id">specification</a>
+        isActive:
+          type: string
+          description: |
+            This field indicates whether the product is active or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
+        uniqueIdentifier:
+          type: string
+          description: |
+            This field serves as a unique identifier for a particular product
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#unique_identifier">specification</a>
+        uniqueId:
+          type: string
+        equipmentId:
+          type: string
+        purchaseType:
+          type: string
+        wholesaleCharge:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#wholesale_charge">specification</a>
+        retailCharge:
+          type: number
+        terminalFrontEnds:
+          type: array
+          items:
+            $ref: "#/components/schemas/ProductEquipmentTerminalFrontEndsRes"
+        attributes:
+          type: object
+          additionalProperties:
+            type: object
+            description: |
+              Will contain one or more attributes in the format shown below
+              ```json
+              {
+                "attributeType#1": {
+                  "attribute#1": {
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+          description: |
+            Will contain one or more attributes in the format shown below
+            ```json
+            {
+              "attributeType#1": {
+                "attribute#1": {
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
+        productAssociation:
+          $ref: "#/components/schemas/ProductAssociation"
+        wholesaleAmountOrPercent:
+          type: number
+        retailAmountOrPercent:
+          type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#retail_charge">specification</a>
+        feeTypeCode:
+          type: string
+        equipmentCategory:
+          type: string
+        parentEquipmentId:
+          type: string
+        serialNumber:
+          type: string
+        frontend:
+          type: string
+        terminalId:
+          type: string
+        frontendMid:
+          type: string
+        partNumber:
+          type: string
+        maintenanceCharge:
+          type: number
+        leaseTerm:
+          type: integer
+          format: int64
+        totalCost:
+          type: number
+    ProductAssociation:
+      type: object
+      properties:
+        category:
+          type: string
+        productCode:
+          type: string
+        description:
+          type: string
+    ProductEquipmentTerminalFrontEndsRes:
+      type: object
+      properties:
+        frontEnd:
+          type: string
+        terminalId:
+          type: string
+        frontEndMid:
+          type: string
+    ResponseMerchant:
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/Merchant"
+        errors:
+          type: array
+          items:
+            $ref: "#/components/schemas/Error"
+    MerchantUpdateRequestSchema:
+      required:
+      - merchantId
+      - platformCode
+      type: object
+      properties:
+        merchantId:
+          type: string
+          description: |
+            Unique identifier of the merchant. It is required to add merchant-specific information to the database
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#merchant_id">specification</a>
+        platformCode:
+          type: string
+          description: |
+            Code to identify the specific backend platform. It adds the required information for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+          enum:
+          - NORTH
+          - OMNIPAY26
+        setupIndicator:
+          type: string
+        dbaName:
+          type: string
+          description: |
+            Official merchant name that the customer or authorities commonly recognizes
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#dba_name">specification</a>
+        legalName:
+          type: string
+          description: |
+            Legal or official name of a merchant that is registered with government tax authorities
+            > Note: It must be entered exactly same as it apears in the legal tax documents for the merchant. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#legal_name">specification</a>
+        businessUrl:
+          type: string
+          description: |
+            Official website address (URL) associated with the merchant
+            > Note: The URL should be complete and accurate and it should start with the protocol (http:// or https://). For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#business_url">specification</a>
+        hierarchyLevelCode:
+          type: string
+          description: |
+            Unique identifier assigned to an outlet or a specific level within a hierarchical structure of a merchant's busines
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#hierarchy_level_code">specification</a>
+          readOnly: true
+        storeId:
+          type: string
+          description: |
+            Unique identifier of the merchant's store
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#store_id">specification</a>
+        taxFilingName:
+          type: string
+          description: |
+            Name that the merchant uses to file the taxes with the relevant tax authorities
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tax_filing_name">specification</a>
+        businessTypCode:
+          type: string
+          description: |
+            Code that indicates whether merchant can process payment in store or online
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#business_typ_code">specification</a>
+        merchantCategoryCode:
+          type: string
+          description: |
+            Code that indicates the type of business in which a merchant is engaged
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#merchant_category_code">specification</a>
+        standardIndustryClassCode:
+          type: string
+          description: |
+            Code that indicates the classification of MC/VISA standard industry
+            > Note: The code list is available upon request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#standard_industry_class_code">specification</a>
+        productsSold:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#products_sold">specification</a>
+          readOnly: true
+        statusCode:
+          type: string
+          description: |
+            Code that indicates the status of a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#status_code">specification</a>
+        acctOpenDate:
+          type: string
+          description: |
+            Date on which the merchant account was opened
+            > Note: It can include a time component if required. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#acct_open_date">specification</a>
+          format: date
+        acctSubmitDate:
+          type: string
+          description: |
+            Date on which the account was submitted
+            > Note: It can include a time component if required. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#acct_submit_date">specification</a>
+          format: date
+          readOnly: true
+        lastStatusChangedDate:
+          type: string
+          description: |
+            Date on which the last status of the merchant account was changed
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#last_status_changed_date">specification</a>
+          format: date
+          readOnly: true
+        lastStatusCode:
+          type: string
+          description: |
+            Code to indicate the last status of the merchant account before a recent update
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#last_status_code">specification</a>
+        acctCloseDate:
+          type: string
+          description: |
+            Date on which the account was closed
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#acct_close_date">specification</a>
+          format: date
+        closeReasonCode:
+          type: string
+          description: |
+            Code that indicates the reason of merchant account closure
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#close_reason_code">specification</a>
+        franchiseIndicator:
+          type: string
+          description: |
+            Value that indicates the merchat is a franchise or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#franchise_indicator">specification</a>
+        seasonalIndicator:
+          type: string
+          description: |
+            Value that indicates the merchant is a seasonal or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#seasonal_indicator">specification</a>
+        salesmanCode:
+          type: string
+          description: |
+            Code that indicates the salesman associated with a merchant
+            > Note: The code list is available upon request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#salesman_code">specification</a>
+        relationshipMgrCode:
+          type: string
+          description: |
+            Code that indicates a relationship manager who is responsible for managing the merchant's account
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#relationship_mgr_code">specification</a>
+        markerBankCode:
+          type: string
+          description: |
+            Code that indicates the bank associated with a maker or client
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#marker_bank_code">specification</a>
+        clearingBankCode:
+          type: string
+          description: |
+            Code that indicates the clearing bank associated with a merchant
+            > Note: The valid list is available on request only. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#clearing_bank_code">specification</a>
+        businessStartDate:
+          type: string
+          description: |
+            Date on which the business was started
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#business_start_date">specification</a>
+          format: date
+          readOnly: true
+        pricingTypeCode:
+          type: string
+          description: |
+            Code that indicates the pricing type for interchange calculations
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#pricing_type_code">specification</a>
+        taxIdTypeCode:
+          type: string
+          description: |
+            Code that indicates the type of tax identifier
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tax_id_type_code">specification</a>
+        taxId:
+          type: string
+          description: |
+            Unique identifier of the merchat tax
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#tax_id">specification</a>
+        intlTaxExemptIndicator:
+          type: string
+          description: |
+            Value that indicates whether international tax exempt rule is applicable to Merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#intl_tax_exempt_indicator">specification</a>
+        annualCardAmount:
+          type: number
+          description: |
+            Amount of the annual card in decimal format
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#annual_card_amount">specification</a>
+          readOnly: true
+        businessTimeZone:
+          type: string
+          readOnly: true
+        languageCode:
+          type: string
+          description: |
+            Code that indicates the language for communication with the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#language_code">specification</a>
+        multiCurrencyIndicator:
+          type: string
+          description: |
+            Value that indicates whether a merchant conducts currency conversion at the point of sale
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#multi_currency_indicator">specification</a>
+        owners:
+          type: array
+          description: |
+            Essential information about merchant owner, including demographic details, and contact information.
+            This is a critical information for every principal owner of a merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantOwner.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/Owner"
+        addresses:
+          type: array
+          description: |
+            Essential information about  business address of a merchant for official purposes and communication
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantAddress.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/Address"
+        products:
+          $ref: "#/components/schemas/MerchantProduct"
+        merchantAttributes:
+          type: object
+          additionalProperties:
+            type: object
+            description: |
+              Will contain one or more attributes in the format shown below
+              ```json
+              {
+                "domain#1": {
+                  "domainDescription": "domain #1 description",
+                  "attribute#1": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  }
+                },
+                "domain#2": {
+                  "domainDescription": "domain #2 description",
+                  "attribute#1": {
+                    "attributeDescription": "attribute description",
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+              > For more details refer to
+              <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
+          description: |
+            Will contain one or more attributes in the format shown below
+            ```json
+            {
+              "domain#1": {
+                "domainDescription": "domain #1 description",
+                "attribute#1": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                }
+              },
+              "domain#2": {
+                "domainDescription": "domain #2 description",
+                "attribute#1": {
+                  "attributeDescription": "attribute description",
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
+            > For more details refer to
+            <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
+        merchantBusinessInformation:
+          $ref: "#/components/schemas/MerchantBusinessInformation"
+        merchantHierarchies:
+          type: array
+          description: |
+            Stores essential information of management hierarchy for the merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantHierarchy.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/MerchantHierarchies"
+        merchantXrefs:
+          type: array
+          description: |
+            Stores essential information about  cross reference of other platform for same merchant
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/Merchant_Xref.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/MerchantXref"
+        merchantAccounts:
+          type: array
+          description: |
+            Essential information about merchant bank account, including account number, account type, and contact information
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/MerchantBankAccount.md&branch=develop">specification</a>
+          items:
+            $ref: "#/components/schemas/MerchantAccount"
+        merchantIrsDetails:
+          $ref: "#/components/schemas/MerchantIrsTax"
+        subPlatformCode:
+          type: string
+          description: |
+            Code that indicates the alliance pratform
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#sub_platform">specification</a>
+        corporateName:
+          type: string
+          description: |
+            Official name of the merchant as it appears in legal and corporate documents
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#corporate_name">specification</a>
+      description: "> 🚫 This schema is for reference, **not** required in request\
+        \ body; this will be part of the graphql mutation query"
+      nullable: true
+      default: {}
+    UpdateMerchant:
+      required:
+      - query
+      type: object
+      properties:
+        query:
+          type: string
+          description: |
+            Sample merchant update mutation query
+            ```json
+            mutation merchant {
+              updateMerchant(
+                merchant: {
+                  merchantId: "1234567890"
+                  platformCode: NORTH
+                  addresses: [
+                    {
+                      addressTypeCode: CORPORATE,
+                      address1Text: "123 Nowhere Lane"
+                    }
+                  ]
+                }
+              ) {
+                __typename ... on Merchant {
+                  merchantId
+                  platformCode
+                }
+              }
+            }
+            ```
+        merchant:
+          $ref: "#/components/schemas/MerchantUpdateRequestSchema"
+    SearchCriteriaInput:
+      type: object
+      properties:
+        criteriaName:
+          type: string
+          enum:
+          - taxId
+          - dbaName
+          - legalName
+          - hierarchyLevelMid
+          - taxIdEncrypted
+        criteriaValue:
+          type: string
+      description: "> 🚫 This schema is for reference, **not** required in request\
+        \ body; this will be part of the graphql inquiry query"
+      nullable: true
+      default: {}
+    SearchRequest:
+      required:
+      - query
+      type: object
+      properties:
+        query:
+          type: string
+          description: |
+            Sample merchant search query
+            ```json
+            query inquiry {
+              search(
+                pageNumber: 1
+                platformCode: NORTH
+                searchCriteria: {
+                  criteriaName: legalName,
+                  criteriaValue: "TEST"
+                }
+              ) {
+                __typename ... on SearchResponse {
+                  pageNumber
+                  pageSize
+                  totalCount
+                  searchResponses {
+                    merchantId
+                    dbaName
+                    legalName
+                  }
+                }
+              }
+            }
+            ```
+        searchCriteria:
+          $ref: "#/components/schemas/SearchCriteriaInput"
+      description: Merchant Search Request
+    ResponseSearchResponse:
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/SearchResponse"
+        errors:
+          type: array
+          items:
+            $ref: "#/components/schemas/Error"
+    SearchResponse:
+      type: object
+      properties:
+        searchResponses:
+          type: array
+          items:
+            $ref: "#/components/schemas/Merchant"
+        pageNumber:
+          type: integer
+          format: int32
+        pageSize:
+          type: integer
+          format: int64
+        totalCount:
+          type: integer
+          format: int64
+    InquiryRequest:
+      required:
+      - query
+      type: object
+      properties:
+        query:
+          type: string
+          description: |
+            Sample merchant inquiry query
+            ```json
+            query inquiry {
+              getMerchant(
+                merchantId: "12345678901",
+                platformCode: NORTH
+              ) {
+                __typename ... on Merchant {
+                  merchantId
+                  platformCode
+                  dbaName
+                  addresses {
+                    addressTypeCode (
+                      filterByAddressType:[LOCATION]
+                    )
+                    contactName
+                    contactTitle
+                    address1Text
+                  }
+                }
+              }
+            }
+            ```
+      description: Merchant Inquiry Request

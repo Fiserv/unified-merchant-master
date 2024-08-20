@@ -1,11 +1,13 @@
-# MERCHANT_PRODUCT
-* **Description**: 
-* **API schema**: ` `
-* **Table Name**: `MERCHANT_PRODUCT`
+# Merchant Products
 
-## List of Fields:
+* **Description**:
+* **API section**: `products`
+* **Table Name**: UMM.MERCHANT_PRODUCT
+
+## List of Fields
 
 ### MERCHANT_ID
+
 * Description: Unique identifier of the merchant. It is required to add merchant-specific information to the database.
 * API field: `merchantId`
 * Field Specification:
@@ -14,176 +16,62 @@
 titles: UMM, North, GMA 
 -->
 
-##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 34        |    50        |    NA     | NA     | NA |    NA |    
+| String  | 8        |    50        |    Required     | Required     | Required |    Required  |
+
+* Merchant Id is required for carrying out any operation on a specific merchant.
 
 <!-- type: tab -->
 
-
-##### North Specification 
 | Type   | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------:|:------------:|:------------:|:------------:|
-| 12   | NA   | NA   | NA   |  |    
+| String   | Required   | Required   | Required   | Required  |
 
-<!-- type: tab --> 
+<!-- type: tab -->
 
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 8        |    8        |    Required     | Required     | Required |    NA     |
 
 <!-- type: tab-end -->
 ---
 
 ### PLATFORM_CODE
+
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
 * API field: `platformCode`
 * Field Specification:
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 5        |    50        |    NA     | NA     | NA |    NA |    
-
-<!-- type: tab -->
-
-
-##### North Specification 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-|    | NA   | NA   | NA   |  |    
-
-<!-- type: tab --> 
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+* See supported platforms and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
 
 <!-- type: tab-end -->
 ---
 
 ### PRDCT_CODE
-* Description: Code that indicates the brand entitlement of the product.
-* API field: `productCode`
+
+* Description: The product code associated with the product and defined by UMM API.
+* API field: productCode
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, GMA 
+titles: UMM
 -->
 
-##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|   |         |            |    Available     | NA     | NA |    NA |    
+| Type   | Minimum Length | Max Length | Inquiry | Create | Update | Delete |
+|--------|:--------------:|:----------:|:-------:|:------:|:------:|:------:|
+| Enum   |   NA   |   NA  |  Available |  Required   |     NA      |   NA   |
 
-<!-- type: tab -->
-
-
-##### North Specification 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| 2   | NA   | NA   | NA   | productCode |         |
-
-**Valid Values**: 
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-| ENTLINTERACINAPP     |     InteracInApp   | 
-| ENTLVI     |     Visa   | 
-| ENTLMC     |     Entitlement Master Card   | 
-| ENTLMCDB     |     Mastercard Debit   | 
-| ENTLVIDB     |     Visa Debit   | 
-| ENTLAMEXOB     |     American Express Opt Blue   | 
-| ENTLDISC     |     Discover Full Service   | 
-| ENTLDINER     |     Diners   | 
-| ENTLJCB     |     JCB   | 
-| ENTLAMEXPT     |     Amex   | 
-| ENTLMASTRODB     |     Interac/Maestro Debit   | 
-| ENTLUPIDBT     |     UPI Debit   | 
-| ENTLUPICRD     |     UPI Credit   | 
-
-<!-- type: tab --> 
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+* See supported Entitlements [here](?path=docs/specification/products_entitlements.md)
+* See supported Value Added Services [here](?path=docs/specification/products_vas.md)
+* See supported Fees [here](?path=docs/specification/products_fees.md)
+* See supported Equipments [here](?path=docs/specification/products_equipments.md)
 
 <!-- type: tab-end -->
 ---
 
-### FEE_TABLE_ID
-* Description: Unique identifier of pricing grid assigned to a merchant.
-* API field: `feeTableId`
-* Field Specification:
+### STATUS
 
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-##### UMM Specification
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| 10  |         |    10        |    Available     | Required     | Allowed |    NA |    
-
-<!-- type: tab -->
-
-
-##### North Specification 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-|    | Allowed   | NA   | Required   | gridId |         |
-
-**Valid Values**: 
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-| PF_BLENDED_PLAN     |     PF Blended Plan   | 
-| PF_MPI_PLAN     |     PF MPI Plan   | 
-| PF_TARIFF     |     PF Tariff   | 
-| GENERAL_9     |     General 9   | 
-
-<!-- type: tab --> 
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
-
-<!-- type: tab-end -->
----
-
-### IS_ACTIVE
-* Description: 
+* Description: This field indicates whether the product is active or not.
 * API field: `isActive`
 * Field Specification:
 
@@ -191,26 +79,23 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|   |         |            |    Available     | Required     | Allowed |    NA |    
+| Enum   | NA        |    NA        |    Available     | Required     | Allowed |    NA        |
+
+**Valid Values**:
+|         Value        |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| N | Flag to indicate that product is inactive |
+| Y | Flag to indicate that product is active |
 
 <!-- type: tab -->
 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Enum   | NA        |    NA        |    Available     | Required     | Allowed |    NA        |
 
-##### North Specification 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-|    | Allowed   | NA   | Required   |  |         |
-
-**Valid Values**: 
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-| Y     |     Flag to indicate that product code is active   | 
-| N     |     Flag to indicate that product code is inactive   | 
-
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--##### South Specification -->
 
@@ -218,16 +103,92 @@ titles: UMM, North, GMA
 <!--|--------|:--------:|:--------:|:------------:|:------------:|-->
 <!--| String |     -    |          |              |       NA     |-->
 
-##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Boolean  |    4     |    5    |    Available     |   Required     |  Allowed |     NA        |
+
+**Valid Values**:
+|              Value   |                    Description                 |
+|:----------------------|:------------------------------------------------|
+| N | Flag to indicate that product is inactive |
+| Y | Flag to indicate that product is active |
 
 <!-- type: tab-end -->
 ---
 
-### WHOLESALE_AMOUNT
-* Description: 
+### UNIQUE_IDENTIFIER
+
+* Description: This field serves as a unique identifier for a particular product
+* API field: Not Available
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
+
+<!-- type: tab -->
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
+
+<!-- type: tab-end -->
+---
+
+### FEE_TABLE_ID
+
+* Description: TBD
+* API field: `feeTableId`
+* Field Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 1        |    16        |    Available     | Optional  |  Allowed   |    NA        |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 1        |    16        |    Available     | Optional  |  Allowed   |    NA        |
+
+<!-- type: tab -->
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 1        |    16        |    Available     | Optional  |  Allowed   |    NA        |
+
+<!-- type: tab-end -->
+---
+
+### WHOLESALE_CHARGE
+
+* Description: TBD
 * API field: `wholesaleAmountOrPercent`
 * Field Specification:
 
@@ -235,20 +196,17 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| 11  | 6        |    11        |    Available     | Required     | Allowed |    NA |    
+| BigDecimal  | NA       |    NA        |    Available   | Optional  |  Allowed   |    NA      |
 
 <!-- type: tab -->
 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 4        |    11    |    Available     | Optional  |  Allowed   |        NA        |
 
-##### North Specification 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-|    | Allowed   | NA   | Required   | feeWholesaleAmount |    
-
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--##### South Specification -->
 
@@ -256,16 +214,16 @@ titles: UMM, North, GMA
 <!--|--------|:--------:|:--------:|:------------:|:------------:|-->
 <!--| String |     -    |          |              |       NA     |-->
 
-##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |        4       |    11    |    Available    |      NA      |       NA     |  NA     |
 
 <!-- type: tab-end -->
 ---
 
-### RETAIL_AMOUNT
-* Description: 
+### RETAIL_CHARGE
+
+* Description: TBD
 * API field: `retailAmountOrPercent`
 * Field Specification:
 
@@ -273,20 +231,17 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-##### UMM Specification
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| 11  | 6        |    11        |    Available     | Required     | Allowed |    NA |    
+| BigDecimal  | NA       |    NA        |    Available   | Optional  |  Allowed   |    NA      |
 
 <!-- type: tab -->
 
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 4        |    11    |    Available     | Optional  |  Allowed   |    NA        |
 
-##### North Specification 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-|    | Allowed   | NA   | Required   | feeRetailAmount |    
-
-<!-- type: tab --> 
+<!-- type: tab -->
 
 <!--##### South Specification -->
 
@@ -294,9 +249,8 @@ titles: UMM, North, GMA
 <!--|--------|:--------:|:--------:|:------------:|:------------:|-->
 <!--| String |     -    |          |              |       NA     |-->
 
-##### GMA Specification
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-|       |     -    |          |              |       NA     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 4        |    11    |    Available     | NA  |  NA   |    NA        |
 
 <!-- type: tab-end -->
