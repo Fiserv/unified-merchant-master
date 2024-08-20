@@ -33,10 +33,11 @@ Read [Auditing page](?path=docs/specification/merchant/merchantAuditing.md) for 
 * [Merchant Hierarchy](?path=docs/specification/merchant/MerchantHierarchy.md): Hierarchy of the merchant.
 * [Address](?path=docs/specification/merchant/MerchantAddress.md): All addresses on file for a merchant.
 * [Owner](?path=docs/specification/merchant/MerchantOwner.md) : Ownership details of the merchant business.
+* [Merchant Bank Account](?path=docs/specification/merchant/MerchantBankAccount.md): This entiry stores the bank accounts for a specific merchant.
+* [Merchant Cross Reference](?path=docs/specification/merchant/Merchant_Xref.md): This entiry stores the cross references for a specific merchant.
 * [Products](?path=docs/specification/merchant/merchantProduct.md) : Stores all entitlements, services, equipments fees a merchant has and further segregated into following logical groups
   * [Entitlements](?path=docs/specification/merchant/merchantProduct.md) : Contains all acquiring entitlements e.g. MasterCard, VISA etc.
   * [Fees](?path=docs/specification/merchant/merchantProduct.md) : All fees for a merchant.
   * [Value Added Services](?path=docs/specification/merchant/merchantProduct.md): Example of Value Added services would be TransArmor, Auth Optimization
-  * Payment Features:
-  * TBD: List Other groups
-* TBD: List other entities
+  * [Merchant IRS Information](?path=docs/specification/merchant/Tax_Adtnl_Data_US.md): All tax related information for a merchant.
+  
