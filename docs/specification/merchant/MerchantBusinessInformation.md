@@ -1322,13 +1322,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      NA      |     NA       |   Available |   Optional     |    Allowed    |   NA   |
+|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-|   NA   |       NA       |    NA      |    NA    |      NA      |       NA     |       NA     |
+| String |      1      |     10       |   Available |   Optional     |    Allowed    |   NA    |
 
 <!-- type: tab-end -->
 
