@@ -1,6 +1,7 @@
 # Supported Back-ends
 
-## List of Back End Platforms UMM supports and Roadmap:
+## List of Back End Platforms UMM supports and Roadmap
+
 | Platform |     UMM Code     | Inquiry | Create | Update |
 |----------|:----------------:|:-------:|:------:|:------:|
 | North    |      NORTH       |   Yes   |  Yes   |  Yes   |

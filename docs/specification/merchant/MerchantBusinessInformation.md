@@ -2,7 +2,7 @@
 
 * **Description**: Stores essential information about merchants, including contact details, business type, and contractual data, ensuring efficient transaction processing and management. Every merchant has an entry in this critical repository.
 * **API schema**: `merchantBusinessInformation`
-* **Table Name**: `UMM.MERCHANT`
+* **Table Name**: `UMM.MERCHANT_BUSINESS_INFORMATION`
 
 ## List of Fields
 
@@ -1046,13 +1046,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
@@ -1076,13 +1076,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
@@ -1106,13 +1106,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
@@ -1136,13 +1136,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
@@ -1166,13 +1166,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
@@ -1196,13 +1196,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |     4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
@@ -1226,13 +1226,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
@@ -1256,13 +1256,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   NA     |    NA    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   NA     |    NA    |   NA   |
 
 <!-- type: tab -->
 
@@ -1286,13 +1286,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   Optional     |    Allowed    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   Optional     |    Allowed    |   NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   Optional     |    Allowed    |   NA   |
+| BigDecimal   |      4      |     6       |   Available |   Optional     |    Allowed    |   NA   |
 
 <!-- type: tab -->
 
@@ -1316,13 +1316,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   Optional     |    Allowed    |   NA   |
+| String |      NA      |     NA       |   Available |   Optional     |    Allowed    |   NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal   |      6      |     4       |   Available |   Optional     |    Allowed    |   NA   |
+| String |      NA      |     NA       |   Available |   Optional     |    Allowed    |   NA   |
 
 <!-- type: tab -->
 
