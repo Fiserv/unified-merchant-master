@@ -363,7 +363,7 @@ components:
           type: string
           description: |
             Sample merchant boarding mutation query
-            ```
+            ```json
             mutation createMerchant {
               createMerchant(
                 merchant: {
@@ -393,7 +393,7 @@ components:
                       contactName: "Frank Castle"
                       correspondentBankNo: "ZZZZZZZZZZZ"
                       bankCity: "Dublin"
-                      #paymentFormat: "NOT_APPLICABLE"
+                      paymentFormat: "NOT_APPLICABLE"
                       clearingEntity: "NOT_APPLICABLE"
                       correspondentBankAccount: "ZZ 9842512858747"
                       paymentDelayDays: "000"
@@ -414,7 +414,7 @@ components:
                       contactName: "Joanne Burke"
                       correspondentBankNo: "ZZ99999999"
                       bankCity: "Dublin"
-                      #paymentFormat: "NOT_APPLICABLE"
+                      paymentFormat: "NOT_APPLICABLE"
                       clearingEntity: "NOT_APPLICABLE"
                       correspondentBankAccount: "ZZ 9842512858747"
                       paymentDelayDays: "000"
@@ -556,7 +556,7 @@ components:
               }
             }
             ```
-        createSchema:
+        merchant:
           $ref: "#/components/schemas/MerchantBoardingRequestSchema"
     EntitlementProductRequest:
       type: object
@@ -573,7 +573,7 @@ components:
             type: object
             description: |
               Will contain one or more attributes in the format shown below
-              ```
+              ```json
               {
                 "attributeType#1": {
                   "attribute#1": {
@@ -587,7 +587,7 @@ components:
               ```
           description: |
             Will contain one or more attributes in the format shown below
-            ```
+            ```json
             {
               "attributeType#1": {
                 "attribute#1": {
@@ -625,7 +625,7 @@ components:
             type: object
             description: |
               Will contain one or more attributes in the format shown below
-              ```
+              ```json
               {
                 "attributeType#1": {
                   "attribute#1": {
@@ -639,7 +639,7 @@ components:
               ```
           description: |
             Will contain one or more attributes in the format shown below
-            ```
+            ```json
             {
               "attributeType#1": {
                 "attribute#1": {
@@ -1120,7 +1120,7 @@ components:
             type: object
             description: |
               Will contain one or more attributes in the format shown below
-              ```
+              ```json
               {
                 "domain#1": {
                   "domainDescription": "domain #1 description",
@@ -1146,7 +1146,7 @@ components:
               <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
           description: |
             Will contain one or more attributes in the format shown below
-            ```
+            ```json
             {
               "domain#1": {
                 "domainDescription": "domain #1 description",
@@ -1227,8 +1227,8 @@ components:
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#products_sold">specification</a>
           readOnly: true
-      description: "> 🚫 This is for reference, **not** required in request body;\
-        \ this will be part of the graphql mutation query"
+      description: "> 🚫 This schema is for reference, **not** required in request\
+        \ body; this will be part of the graphql mutation query"
       nullable: true
       default: {}
     MerchantBusinessInformationBoardingRequest:
@@ -1589,7 +1589,7 @@ components:
             type: object
             description: |
               Will contain one or more attributes in the format shown below
-              ```
+              ```json
               {
                 "attributeType#1": {
                   "attribute#1": {
@@ -1603,7 +1603,7 @@ components:
               ```
           description: |
             Will contain one or more attributes in the format shown below
-            ```
+            ```json
             {
               "attributeType#1": {
                 "attribute#1": {
@@ -2098,7 +2098,7 @@ components:
             type: object
             description: |
               Will contain one or more attributes in the format shown below
-              ```
+              ```json
               {
                 "domain#1": {
                   "domainDescription": "domain #1 description",
@@ -2124,7 +2124,7 @@ components:
               <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
           description: |
             Will contain one or more attributes in the format shown below
-            ```
+            ```json
             {
               "domain#1": {
                 "domainDescription": "domain #1 description",
@@ -3191,7 +3191,7 @@ components:
             type: object
             description: |
               Will contain one or more attributes in the format shown below
-              ```
+              ```json
               {
                 "attributeType#1": {
                   "attribute#1": {
@@ -3205,7 +3205,7 @@ components:
               ```
           description: |
             Will contain one or more attributes in the format shown below
-            ```
+            ```json
             {
               "attributeType#1": {
                 "attribute#1": {
@@ -3523,7 +3523,7 @@ components:
             type: object
             description: |
               Will contain one or more attributes in the format shown below
-              ```
+              ```json
               {
                 "domain#1": {
                   "domainDescription": "domain #1 description",
@@ -3549,7 +3549,7 @@ components:
               <a href="../docs??path=docs/specification/merchant/merchantAttributes.md">specification</a>
           description: |
             Will contain one or more attributes in the format shown below
-            ```
+            ```json
             {
               "domain#1": {
                 "domainDescription": "domain #1 description",
@@ -3613,8 +3613,8 @@ components:
             Official name of the merchant as it appears in legal and corporate documents
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#corporate_name">specification</a>
-      description: "> 🚫 This is for reference, **not** required in request body;\
-        \ this will be part of the graphql mutation query"
+      description: "> 🚫 This schema is for reference, **not** required in request\
+        \ body; this will be part of the graphql mutation query"
       nullable: true
       default: {}
     UpdateMerchant:
@@ -3626,7 +3626,7 @@ components:
           type: string
           description: |
             Sample merchant update mutation query
-            ```
+            ```json
             mutation merchant {
               updateMerchant(
                 merchant: {
@@ -3647,7 +3647,7 @@ components:
               }
             }
             ```
-        updateSchema:
+        merchant:
           $ref: "#/components/schemas/MerchantUpdateRequestSchema"
     SearchCriteriaInput:
       type: object
@@ -3662,8 +3662,8 @@ components:
           - taxIdEncrypted
         criteriaValue:
           type: string
-      description: "> 🚫 This is for reference, **not** required in request body;\
-        \ this will be part of the graphql inquiry query"
+      description: "> 🚫 This schema is for reference, **not** required in request\
+        \ body; this will be part of the graphql inquiry query"
       nullable: true
       default: {}
     SearchRequest:
@@ -3675,7 +3675,7 @@ components:
           type: string
           description: |
             Sample merchant search query
-            ```
+            ```json
             query inquiry {
               search(
                 pageNumber: 1
@@ -3735,7 +3735,7 @@ components:
           type: string
           description: |
             Sample merchant inquiry query
-            ```
+            ```json
             query inquiry {
               getMerchant(
                 merchantId: "12345678901",
