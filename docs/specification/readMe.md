@@ -16,8 +16,8 @@ Consumers can use UMM data in two different ways -
   * Product: UMM maintains a list of products to represent subscribed card entitlements,fees, payment features, value added services and equipments.
   Additional information about product can be found [here](?path=docs/specification/merchant/merchantProduct.md)
   * Attribute: Related fields logically grouped under a domain and stored as key value pair. This construct is used at both merchant level and product level.
-      * Additional information about `Merchant Level Attributes` can be found [here](?path=docs/specification/merchant/merchantAttributes.md)
-      * Additional information about `Product Level Attribute` can be found [here](?path=docs/specification/merchant/merchantProductAttributes.md)
+    * Additional information about `Merchant Level Attributes` can be found [here](?path=docs/specification/merchant/merchantAttributes.md)
+    * Additional information about `Product Level Attribute` can be found [here](?path=docs/specification/merchant/merchantProductAttributes.md)
 * Each entity has the below columns as part of their key
   * MERCHANT_ID : Unique Identifier for the Merchant
   * PLATFORM_CODE: Identifies the Backend Platform the merchant is on. Supported platforms on UMM can be found [here](?path=docs/specification/supportedPlatforms.md)
@@ -35,9 +35,8 @@ Read [Auditing page](?path=docs/specification/merchant/merchantAuditing.md) for 
 * [Owner](?path=docs/specification/merchant/MerchantOwner.md) : Ownership details of the merchant business.
 * [Merchant Bank Account](?path=docs/specification/merchant/MerchantBankAccount.md): This entiry stores the bank accounts for a specific merchant.
 * [Merchant Cross Reference](?path=docs/specification/merchant/Merchant_Xref.md): This entiry stores the cross references for a specific merchant.
+* [Merchant IRS Information](?path=docs/specification/merchant/Tax_Adtnl_Data_US.md): All tax related information for a merchant.
 * [Products](?path=docs/specification/merchant/merchantProduct.md) : Stores all entitlements, services, equipments fees a merchant has and further segregated into following logical groups
   * [Entitlements](?path=docs/specification/merchant/merchantProduct.md) : Contains all acquiring entitlements e.g. MasterCard, VISA etc.
   * [Fees](?path=docs/specification/merchant/merchantProduct.md) : All fees for a merchant.
   * [Value Added Services](?path=docs/specification/merchant/merchantProduct.md): Example of Value Added services would be TransArmor, Auth Optimization
-  * [Merchant IRS Information](?path=docs/specification/merchant/Tax_Adtnl_Data_US.md): All tax related information for a merchant.
-  
