@@ -159,81 +159,93 @@ UMM also provides capability in Inquiry API to retrieve a snapshot of merchant d
 
 ## UMM Audit Additional Info Table 
 
-* **Description**: Stores changes happening in each entities
-* **Table Name**: UMM.UMM_AUDIT_ADDITIONAL_INFO
+    * **Description**: Stores changes happening in each entities
+    * **Table Name**: UMM.UMM_AUDIT_ADDITIONAL_INFO
 
-### List of Fields
+    ### List of Fields
 
-### ID
+    ### ID
 
-* Description: Unique identifier of each record in UMM_AUDIT_INFO table.
-* API field: NA
-* Field Specification:
+    * Description: Unique identifier of each record in UMM_AUDIT_INFO table.
+    * API field: NA
+    * Field Specification:
 
-#### UMM Specification
+    #### UMM Specification
 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Number  |         |    38        |    NA     | NA     | NA |    NA     |
+    | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+    |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+    | Number  |         |    38        |    NA     | NA     | NA |    NA     |
+
+    ---
+
+    ### Table_Name
+
+    * Description: Name of the Table or entity got modified
+    * API field: NA
+    * Field Specification:
+
+    #### UMM Specification
+
+    | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+    |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+    | String  |     5    |    100        |    NA     | NA     | NA |    NA     |
+
+    ---
+
+    ### KEY_COLUMN_NAME
+
+    * Description: Part of the parimay key ( apart from Merchant # and Platform code. )
+    * API field: NA
+    * Field Specification:
+
+    #### UMM Specification
+
+    | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+    |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+    | String  |     1    |    100        |    NA     | NA     | NA |    NA     |
+
+    * For example, MERCHANT_ATTRIBUTES table has primary key on Merchant#, Platform code and attribute id.
+    * UMM_AUDIT_INFO will contain Merchant# and platform code as standard columns, where as third primary key 
+    * 'ATTRIBUTE_ID' will be stored under KEY_COLUMN_NAME.
+
+    ---
+
+    ### KEY_COLUMN_VALUE
+
+    * Description: Value of the KEY_COLUMN_NAME
+    * API field: NA
+    * Field Specification:
+
+    #### UMM Specification
+
+    | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+    |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+    | String  |     1    |    600        |    NA     | NA     | NA |    NA     |
+
+    ---
+
+    ### CREATED_DATE
+
+    * Description: Audit Date
+    * API field: NA
+    * Field Specification:
+
+    #### UMM Specification
+
+    | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+    |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+    | Date  |     10    |    10        |    NA     | NA     | NA |    NA     |
 
 ---
 
-### Table_Name
+* Sample Query to pull ALL merchants for which address got updated in last 1 hr:
 
-* Description: Name of the Table or entity got modified
-* API field: NA
-* Field Specification:
+  ```
+select  * from umm.umm_audit_info 
+where BE_PLATFORM_CODE = 'NORTH'
+and table_name = 'MERCHANT_ADDRESS' 
+and action = 'UPDATE' 
+and CHANGED_TIMESTAMP > dateadd( HOUR,-1, current_date()); 
 
-#### UMM Specification
+  ```
 
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  |     5    |    100        |    NA     | NA     | NA |    NA     |
-
----
-
-### KEY_COLUMN_NAME
-
-* Description: Part of the parimay key ( apart from Merchant # and Platform code. )
-* API field: NA
-* Field Specification:
-
-#### UMM Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  |     1    |    100        |    NA     | NA     | NA |    NA     |
-
-* For example, MERCHANT_ATTRIBUTES table has primary key on Merchant#, Platform code and attribute id.
-* UMM_AUDIT_INFO will contain Merchant# and platform code as standard columns, where as third primary key 
-* 'ATTRIBUTE_ID' will be stored under KEY_COLUMN_NAME.
-
----
-
-### KEY_COLUMN_VALUE
-
-* Description: Value of the KEY_COLUMN_NAME
-* API field: NA
-* Field Specification:
-
-#### UMM Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  |     1    |    600        |    NA     | NA     | NA |    NA     |
-
----
-
-### CREATED_DATE
-
-* Description: Audit Date
-* API field: NA
-* Field Specification:
-
-#### UMM Specification
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Date  |     10    |    10        |    NA     | NA     | NA |    NA     |
-
----
