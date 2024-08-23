@@ -36,16 +36,35 @@ header:
     altText: UMM™
 benefits:
   - title: Unified Data Model
-    description: Snowflake database hosting merchant, equipment, fees & product data across Fiserv platforms in unified format
+    description: Snowflake database hosts merchant, equipment, fees, and product data from across Fiserv platforms in a unified format.
   - title: Simplified Integration
-    description: Unified API layer to retrieve, on-board or update merchant across Fiserv platforms.
-  - title: Analystics & Reporting
-    description: Convert unstructured data into eays-to-read insight to make solid business decisions
+    description: Unified  API layer to retrieve, on-board or update merchant across Fiserv platforms.
+  - title: Analytics & Reporting
+    description: Reconciliation and comprehensive analytics of merchant data across Fiserv platforms leveraging co-located unfiied data model 
 getStarted: /docs/getting-started.md
 featuredFeatures:
+  - title: Unified Merchant data
+    description: Fiserv has diverse and complex back-end merchant databases having significant variations in merchant details, hierarchy, product information, and pricing data. This lack of data structure uniformity poses considerable challenges for data consumption and integration, leading to increased complexity and turnaround time. Furthermore, the absence of this data in a single repository further complicates the process. UMM has consolidated the data into a unified format in a single repository for seamless data consumption and integration. 
+    tags: ["UMM", "Merchant",  "Unified"]
+    bullets: ["UMM", "Merchant"]
+    relatedDocs:
+      - relatedDoc: 
+        title: Merchant
+        description: Merchant
+        link: ./docs/getting-started.md
+    relatedAPIs:
+      - relatedAPI: 
+        title: Merchant Inquiry
+        description: Unified GraphQL Merchant Inquiry API
+        type: "post"
+        path: "/graphql"
+      - relatedAPI: 
+        title: Merchant Search
+        description: Unified GraphQL Merchant Search API
+        type: "post"
+        path: "/graphql⁣⁣"
   - title: Merchant Inquiry
-    description: Unified GraphQL Merchant Inquiry API
-    tags: ["UMM", "Merchant", "GraphQL", "Inquiry", "Search"]
+    description: The Unified GraphQL Merchant Inquiry API provides a simplified method to access merchant data across platforms in a unified manner, removing the need for independent integrations with multiple backend systems in diverse formats.
     bullets: ["UMM", "Merchant", "GraphQL", "Inquiry", "Search"]
     relatedDocs:
       - relatedDoc: 
@@ -63,8 +82,8 @@ featuredFeatures:
         description: Unified GraphQL Merchant Search API
         type: "post"
         path: "/graphql⁣⁣"
-  - title: Merchant Mutation
-    description: Unified GraphQL Merchant Update API
+  - title: Merchant Update 
+    description: The Unified GraphQL Merchant Update API provides a simplified method to update merchant data across platforms in a unified manner, removing the need for independent integrations with multiple backend systems in diverse formats.
     tags: ["UMM", "Merchant", "GraphQL", "Create", "Update"]
     bullets: ["UMM", "Merchant", "GraphQL", "Create", "Update"]
     relatedDocs:
