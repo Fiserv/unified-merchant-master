@@ -298,6 +298,8 @@ titles: UMM, North, GMA
 |:----------------------|:------------------------------------------------|
 | NO | Sales Tax not exempted |
 | YES | Sales Tax  exempted |
+| UNKNOWN | Unknown Value |
+| BLANK | Blank Value |
 
 <!-- type: tab -->
 
@@ -310,6 +312,8 @@ titles: UMM, North, GMA
 |:----------------------|:------------------------------------------------|
 | NO | Sales Tax not exempted |
 | YES | Sales Tax  exempted |
+| UNKNOWN | Unknown Value |
+| BLANK | Blank Value |
 
 <!-- type: tab -->
 
