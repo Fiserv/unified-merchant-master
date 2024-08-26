@@ -385,6 +385,8 @@ titles: UMM, North, GMA
 |:----------------------|:------------------------------------------------|
 |REQUIRED | Backup Withhold is Required|
 |NOT_REQUIRED | Previously required backup withholding is not required now|
+| NO_WITHHOLDING_IS_REQUIRED| No withholding is required |
+| OUT_OBLIGATION | Out Obligation |
 
 <!-- type: tab -->
 
@@ -397,6 +399,8 @@ titles: UMM, North, GMA
 |:----------------------|:------------------------------------------------|
 |REQUIRED | Backup Withhold is Required|
 |NOT_REQUIRED | Previously required backup withholding is not required now|
+| NO_WITHHOLDING_IS_REQUIRED| No withholding is required |
+| OUT_OBLIGATION | Out Obligation |
 
 <!-- type: tab -->
 
@@ -518,6 +522,7 @@ titles: UMM, North, GMA
 |W8_NO_EXPIRATIONS | W8 no expirations|
 |W9_RECEIVED_EXEMPTION | W9 received exemption|
 |W8_EXPIRATION_PENDING | W8 expiration pending|
+| NOT_APPLICABLE | Not Applicable |
 
 <!-- type: tab -->
 
@@ -538,6 +543,7 @@ titles: UMM, North, GMA
 |W8_NO_EXPIRATIONS | W8 no expirations|
 |W9_RECEIVED_EXEMPTION | W9 received exemption|
 |W8_EXPIRATION_PENDING | W8 expiration pending|
+| NOT_APPLICABLE | Not Applicable |
 
 <!-- type: tab -->
 
@@ -697,6 +703,7 @@ titles: UMM, North, GMA
 |W8_NO_EXPIRATIONS | W8 no expirations|
 |W9_RECEIVED_EXEMPTION | W9 received exemption|
 |W8_EXPIRATION_PENDING | W8 expiration pending|
+| NONE | Blank Value |
 
 <!-- type: tab -->
 
@@ -717,6 +724,7 @@ titles: UMM, North, GMA
 |W8_NO_EXPIRATIONS | W8 no expirations|
 |W9_RECEIVED_EXEMPTION | W9 received exemption|
 |W8_EXPIRATION_PENDING | W8 expiration pending|
+| NONE | Blank Value |
 
 <!-- type: tab -->
 
@@ -811,6 +819,7 @@ titles: UMM, North, GMA
 |NO_TIN/TFN_CHANGE | No TIN/TFN change|
 |CHANGE_IN_OWNERSHIP | Change in ownership|
 |CHANGE_IN_FILING_STATUS | Change in filing status|
+| NONE | Blank Value |
 
 <!-- type: tab -->
 
@@ -826,6 +835,7 @@ titles: UMM, North, GMA
 |NO_TIN/TFN_CHANGE | No TIN/TFN change|
 |CHANGE_IN_OWNERSHIP | Change in ownership|
 |CHANGE_IN_FILING_STATUS | Change in filing status|
+| NONE | Blank Value |
 
 <!-- type: tab -->
 
