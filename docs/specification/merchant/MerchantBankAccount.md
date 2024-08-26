@@ -619,6 +619,9 @@ titles: UMM, North, GMA
 | DDA_BANK_LEVEL     |     DDA Bank Level   |
 | DDA_BUSINESS_LEVEL     |     DDA Business Level   |
 | FED_BUSINESS_LEVEL     |     Fed Business Level   |
+| RESTRCTD_ET_FILE | Restricted ET File |
+| BASE_ACH | Base ACH |
+| NONE | Blank value |
 
 <!-- type: tab -->
 
@@ -635,6 +638,9 @@ titles: UMM, North, GMA
 | DDA_BANK_LEVEL     |     DDA Bank Level   |
 | DDA_BUSINESS_LEVEL     |     DDA Business Level   |
 | FED_BUSINESS_LEVEL     |     Fed Business Level   |
+| RESTRCTD_ET_FILE | Restricted ET File |
+| BASE_ACH | Base ACH |
+| NONE | Blank value |
 
 <!-- type: tab -->
 
@@ -671,6 +677,7 @@ titles: UMM, North, GMA
 |:----------------------|:------------------------------------------------|
 | CHECKING     |     Checking   |
 | SAVINGS     |     Savings   |
+| NONE | Blank Value |
 
 <!-- type: tab -->
 
@@ -683,6 +690,7 @@ titles: UMM, North, GMA
 |:----------------------|:------------------------------------------------|
 | CHECKING     |     Checking   |
 | SAVINGS     |     Savings   |
+| NONE | Blank Value |
 
 <!-- type: tab -->
 
