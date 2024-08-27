@@ -1,4 +1,4 @@
-### Merchant Attributes
+# Merchant Attributes
 
 * **Description**: List of fields grouped under logical **Domains** and stored as key-value(s) pair as attributes.
   * Example of a **Domain**: [chargebackConfig](#-chargebackconfig) is a **domain** that groups all fields called as **Attributes** those configures chargeback related processing for a merchant. Example of some attributes are:
