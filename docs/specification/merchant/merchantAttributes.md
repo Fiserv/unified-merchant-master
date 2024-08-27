@@ -42,28 +42,28 @@
 titles: UMM, North, South, GMA 
 -->
 
-##### UMM Specification
+**UMM Specification**
 | Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
 |--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
 | String |  BE specific   |     50     |   N/A   | Required | Required |
 
 <!-- type: tab -->
 
-##### North Specification
+**North Specification**
 | Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
 |--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
 | String |       12       |     12     |   N/A   | Required | Required |
 
 <!-- type: tab -->
 
-##### South Specification
+**South Specification**
 | Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
 |--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
 | String |       11       |     11     |   N/A   | Required | Required |
 
 <!-- type: tab -->
 
-##### GMA Specification
+**GMA Specification**
 
 | Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
 |--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
@@ -85,7 +85,7 @@ type: tab-end
 titles: UMM
 -->
 
-##### UMM Specification
+**UMM Specification**
 
 | Type | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
 |------|:--------------:|:----------:|:-------:|:--------:|:--------:|
@@ -172,7 +172,7 @@ type: tab-end
 titles: UMM
 -->
 
-##### UMM Specification
+**UMM Specification**
 
 | Type    | Minimum Length | Max Length | Inquiry | Create | Update |
 |---------|:--------------:|:----------:|:-------:|:------:|:------:|
@@ -192,7 +192,7 @@ titles: UMM
 titles: UMM
 -->
 
-##### UMM Specification
+**UMM Specification**
 
 | Type   | Minimum Length | Max Length | Inquiry | Create | Update |
 |--------|:--------------:|:----------:|:-------:|:------:|:------:|
@@ -215,7 +215,7 @@ tags: [acknowledgementFilePreference]
 titles: UMM, North, GMA 
 -->
 
-##### UMM Specification
+**UMM Specification**
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | ackFilePreference            | Acknowledgement File Preference                   | NORMAL        | Normal                                                    |Available | Required | Allowed  |    NA    |
@@ -223,7 +223,7 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-##### North Specification
+**North Specification**
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | ackFilePreference            | Acknowledgement File Preference                   | NORMAL        | Normal                                                    |Available | Required | Allowed  |    NA    |
@@ -231,7 +231,7 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-##### GMA Specification
+**GMA Specification**
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create | Update |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:------:|:------:|:--------:|
 |                              |                                                   |               |                                                           |          |        |        |    NA    |
