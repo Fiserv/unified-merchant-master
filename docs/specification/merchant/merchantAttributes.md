@@ -531,7 +531,9 @@ titles: UMM, North, GMA
 | membershipFeeDate| Date that membership fees will be charged  |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Optional     | Allowed |    NA |
 | retailerRateCode| Retailer rate code specific client usage        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
 | zeroInterchangeIndicator| Zero interchange indicator reserved for international banks only        |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
-|             |                      |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
+|          |             |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
+|          |             |    MASTERCARD_ONLY   |   Mastercard Only   |    Available     | Optional     | Allowed |    NA |
+|          |             |    VISA_ONLY   |   Visa Only   |    Available     | Optional     | Allowed |    NA |
 
 <!-- type: tab -->
 
@@ -720,8 +722,10 @@ titles: UMM, North, GMA
 | splitFundingAdvanceAmount| Split Funding Advance Amount        |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Optional     | Allowed |    NA |
 | splitFundingParticipationCode| Split Funding Participation Code        |    ADV_REPAID   |   Adv Repaid        |    Available     | Optional     | Allowed |    NA |
 |                              |                                         |    NOT_USED   |   Not Used        |    Available     | Optional     | Allowed |    NA |
-|                              |                                           ACTIVE   |   Active        |    Available     | Optional     | Allowed |    NA |
-|                              |                                           SPLIT_FUNDING   |   Split Funding        |    Available     | Optional     | Allowed |    NA |
+|             |                 |                                           ACTIVE   |   Active        |    Available     | Optional     | Allowed |    NA |
+|        |       |  SPLIT_FUNDING   |   Split Funding        |    Available     | Optional     | Allowed |    NA   |
+|        |       |  RAPID_ADVANCE   |   Rapid Advance        |    Available     | Optional     | Allowed |    NA   |
+|        |       |  MERCHANT_CAPITAL_SRC   |   Merchant Capital Source  |  Available  | Optional     | Allowed |    NA   |
 | splitFundingPayToMerchantId| Split funding pay to merchant number        |    STRING - Digits only - MERCHANT ID   |   String - Digits Only - Merchant Id        |    Available     | Optional     | Allowed |    NA |
 | splitFundingPercent| Split Funding Percentage        |    STRING - Digits only - no decimal (max length - 3, min - 1)   |   String - Digits Only - No Decimal (Max Length: 3, Min Length: 1)        |    Available     | Optional     | Allowed |    NA |
 | splitFundingVendorCode| Split funding cash advance vendor code        |    MER_ADV_FUNDING   |   Mer Adv Funding        |    Available     | Optional     | Allowed |    NA |
@@ -741,8 +745,10 @@ titles: UMM, North, GMA
 | splitFundingAdvanceAmount| Split Funding Advance Amount        |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Optional     | Allowed |    NA |
 | splitFundingParticipationCode| Split Funding Participation Code        |    ADV_REPAID   |   Adv Repaid        |    Available     | Optional     | Allowed |    NA |
 |                              |                                         |    NOT_USED   |   Not Used        |    Available     | Optional     | Allowed |    NA |
-|                              |                                           ACTIVE   |   Active        |    Available     | Optional     | Allowed |    NA |
-|                              |                                           SPLIT_FUNDING   |   Split Funding        |    Available     | Optional     | Allowed |    NA |
+|             |                 |    ACTIVE   |   Active        |    Available     | Optional     | Allowed |    NA |
+|        |       |  SPLIT_FUNDING   |   Split Funding        |    Available     | Optional     | Allowed |    NA   |
+|        |       |  RAPID_ADVANCE   |   Rapid Advance        |    Available     | Optional     | Allowed |    NA   |
+|        |       |  MERCHANT_CAPITAL_SRC   |   Merchant Capital Source  |  Available  | Optional     | Allowed |    NA   |
 | splitFundingPayToMerchantId| Split funding pay to merchant number        |    STRING - Digits only - MERCHANT ID   |   String - Digits Only - Merchant Id        |    Available     | Optional     | Allowed |    NA |
 | splitFundingPercent| Split Funding Percentage        |    STRING - Digits only - no decimal (max length - 3, min - 1)   |   String - Digits Only - No Decimal (Max Length: 3, Min Length: 1)        |    Available     | Optional     | Allowed |    NA |
 | splitFundingVendorCode| Split funding cash advance vendor code        |    MER_ADV_FUNDING   |   Mer Adv Funding        |    Available     | Optional     | Allowed |    NA |
@@ -1524,6 +1530,7 @@ titles: UMM, North, GMA
 |                            |                                     |    REJECT_IF_GTE_15000   |   Reject If Gte 15000        |    Available     | Optional     | Allowed |    NA |
 |                            |                                     |    REJECT_IF_GTE_140000   |   Reject If Gte 140000        |    Available     | Optional     | Allowed |    NA |
 |                            |                                     |    REJECT_IF_GTE_150000   |   Reject If Gte 150000        |    Available     | Optional     | Allowed |    NA |
+|                            |                                     |    REJECT_IF_GTE_90000   |   Reject If Gte 90000        |    Available     | Optional     | Allowed |    NA |
 
 <!-- type: tab -->
 
@@ -1642,6 +1649,7 @@ titles: UMM, North, GMA
 |                            |                                     |    REJECT_IF_GTE_15000   |   Reject If Gte 15000        |    Available     | Optional     | Allowed |    NA |
 |                            |                                     |    REJECT_IF_GTE_140000   |   Reject If Gte 140000        |    Available     | Optional     | Allowed |    NA |
 |                            |                                     |    REJECT_IF_GTE_150000   |   Reject If Gte 150000        |    Available     | Optional     | Allowed |    NA |
+|                            |                                     |    REJECT_IF_GTE_90000   |   Reject If Gte 90000        |    Available     | Optional     | Allowed |    NA |
 
 <!-- type: tab -->
 
@@ -1856,9 +1864,10 @@ titles: UMM, North, GMA
 | etcBypassEditsIndicator| TellS the edit programs if the Merchant wishes to let all his ETC transactions process        |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
 |                        |                                                                                               |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
 | etcCutoffTimeCode| Code indicating what time electronic ticket capture processing is terminated for the day        |    6PM_CST   |   6Pm Cst        |    Available     | Optional     | Allowed |    NA |
-|                  |                                                                                                 |    10PM_EST   |   10Pm Est        |    Available     | Optional     | Allowed |    NA |
-|                  |                                                                                                 |    12AM_CST   |   12Am Cst        |    Available     | Optional     | Allowed |    NA |
-|                  |                                                                                                 |    NONE   |   None        |    Available     | Optional     | Allowed |    NA |
+|                  |       |    10PM_EST   |   10Pm Est        |    Available     | Optional     | Allowed |    NA |
+|                  |       |    12AM_CST   |   12Am Cst        |    Available     | Optional     | Allowed |    NA |
+|                  |           |    NONE   |   None        |    Available     | Optional     | Allowed |    NA |
+|                  |       |    FDMS_DEFAULT   |   FDMS Default  |    Available     |    Optional  | Allowed |    NA   |
 | etcOptionCode| Code identifying the type of electronic ticket capture processing used        |    None   |   None        |    Available     | Optional     | Allowed |    NA |
 |              |                                                                               |    ETC_VOICE_BKP   |   Etc Voice Bkp        |    Available     | Optional     | Allowed |    NA |
 |              |                                                                               |    NON_ETC   |   Non Etc        |    Available     | Optional     | Allowed |    NA |
@@ -1880,6 +1889,7 @@ titles: UMM, North, GMA
 |                  |                                                                                                 |    10PM_EST   |   10Pm Est        |    Available     | Optional     | Allowed |    NA |
 |                  |                                                                                                 |    12AM_CST   |   12Am Cst        |    Available     | Optional     | Allowed |    NA |
 |                  |                                                                                                 |    NONE   |   None        |    Available     | Optional     | Allowed |    NA |
+|                  |       |    FDMS_DEFAULT   |   FDMS Default  |    Available     |    Optional  | Allowed |    NA   |
 | etcOptionCode| Code identifying the type of electronic ticket capture processing used        |    None   |   None        |    Available     | Optional     | Allowed |    NA |
 |              |                                                                               |    ETC_VOICE_BKP   |   Etc Voice Bkp        |    Available     | Optional     | Allowed |    NA |
 |              |                                                                               |    NON_ETC   |   Non Etc        |    Available     | Optional     | Allowed |    NA |
@@ -2245,7 +2255,7 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | achSuspenseHoldIndicator| ACH suspense hold indicator        |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
-|       |                       |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
+|       |                       |    HOLD   |   Hold        |    Available     | Optional     | Allowed |    NA |
 | achSuspenseReleaseIndicator| ACH suspense release indicator        |    DIVERT_TO_CARS   |   Divert To Cars        |    Available     | Optional     | Allowed |    NA |
 |       |                       |    HOLD_30_DAYS   |   Hold 30 Days        |    Available     | Optional     | Allowed |    NA |
 |       |                       |    RELEASE_FUNDING   |   Release Funding        |    Available     | Optional     | Allowed |    NA |
@@ -2254,11 +2264,13 @@ titles: UMM, North, GMA
 | bankwireBbkText| Bankwire beneficiary BBK Text        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
 | bankwireBnfText| Bankwire beneficiary BNF Text        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
 | bankwireObiText| Bankwire beneficiary OBI Text        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
-| chargebacksBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                              |                              |    2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                              |                              |    3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                              |                              |    4 - Bank Sequence Number#4   |   4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                              |                              |    5 - Bank Sequence Number#5   |   5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| chargebacksBankSequenceNumber| Funding Bank Sequence |    REMIT   |   Remit        |    Available     | Optional     | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | chargebacksFundingCategoryCode| Funding Category Code        |    DEPOSITS   |   Deposits        |    Available     | Optional     | Allowed |    NA |
 |                               |                              |    FEES   |   Fees        |    Available     | Optional     | Allowed |    NA |
 |                               |                              |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Optional     | Allowed |    NA |
@@ -2282,11 +2294,13 @@ titles: UMM, North, GMA
 |                             |                                                                         |    ABA_DDA_2   |   Aba Dda 2        |    Available     | Optional     | Allowed |    NA |
 |                             |                                                                         |    ABA_DDA_1   |   Aba Dda 1        |    Available     | Optional     | Allowed |    NA |
 |                             |                                                                         |    ABA_DDA_4   |   Aba Dda 4        |    Available     | Optional     | Allowed |    NA |
-| depositAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                                     |                              |    2 - Bank Sequence Number#2   |    2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |  
-|                                     |                              |    3 - Bank Sequence Number#3   |    3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                                     |                              |    4 - Bank Sequence Number#4   |    4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                                     |                              |    5 - Bank Sequence Number#5   |    5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| depositAdjustmentsBankSequenceNumber| Funding Bank Sequence |    REMIT   |   Remit  |    Available     | Optional     | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Optional     | Allowed |    NA |
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    REVERSALS   |   Reversals        |    Available     | Optional     | Allowed |    NA |
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Optional     | Allowed |    NA |
@@ -2304,11 +2318,13 @@ titles: UMM, North, GMA
 | depositAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_ROLLUP   |   Net Rollup        |    Available     | Optional     | Allowed |    NA |
 | depositAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Optional     | Allowed |    NA |
 | depositAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    VIA_CATEGORY   |   Via Category        |    Available     | Optional     | Allowed |    NA |
-| depositsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                           |                              |    2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                           |                              |    3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                           |                              |    4 - Bank Sequence Number#4   |   4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                           |                              |    5 - Bank Sequence Number#5   |   5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| depositsBankSequenceNumber| Funding Bank Sequence |  REMIT | Remit |  Available  | Optional | Allowed |  NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | depositsFundingCategoryCode| Funding Category Code        |    CHARGEBACKS   |   Chargebacks        |    Available     | Optional     | Allowed |    NA |
 |                            |                              |    FEES   |   Fees        |    Available     | Optional     | Allowed |    NA |
 |                            |                              |    DEPOSITS   |   Deposits        |    Available     | Optional     | Allowed |    NA |
@@ -2319,18 +2335,21 @@ titles: UMM, North, GMA
 |                            |                              |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Optional     | Allowed |    NA |
 |                            |                              |    DISCOUNTS   |   Discounts        |    Available     | Optional     | Allowed |    NA |
 | depositsFundingDivertCode| Funding Divert Code        |    CARS   |   Cars        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |    NONE   |   None        |    Available     | Optional     | Allowed |    NA |
+|       |       |    NONE   |   None        |    Available     | Optional     | Allowed |    NA |
+|       |       |    ICE   |   Ice        |    Available     | Optional     | Allowed |    NA |
 | depositsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_ROLLUP   |   Net Rollup        |    Available     | Optional     | Allowed |    NA |
 |                          |                                                                         |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Optional     | Allowed |    NA |
 |                          |                                                                         |    DEPOSIT_BATCH   |   Deposit Batch        |    Available     | Optional     | Allowed |    NA |
 |                          |                                                                         |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Optional     | Allowed |    NA |
 |                          |                                                                         |    EACH_TRANSFER   |   Each Transfer        |    Available     | Optional     | Allowed |    NA |
 |                          |                                                                         |    VIA_CATEGORY   |   Via Category        |    Available     | Optional     | Allowed |    NA |
-| discountsBankSequenceNumber| Funding Bank Sequence        |  1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |  2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |  3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |  4 - Bank Sequence Number#4   |   4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |  5 - Bank Sequence Number#5   |   5 - Bank Sequence Number#5         |    Available     | Optional     | Allowed |    NA |
+| discountsBankSequenceNumber| Funding Bank Sequence  |  REMIT   |   Remit  | Available | Optional | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | discountsFundingCategoryCode| Funding Category Code        |    FEES   |   Fees        |    Available     | Optional     | Allowed |    NA |
 |                             |                              |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Optional     | Allowed |    NA |
 |                             |                              |    DISCOUNTS   |   Discounts        |    Available     | Optional     | Allowed |    NA |
@@ -2348,11 +2367,13 @@ titles: UMM, North, GMA
 |                           |                                                                         |    DEPOSIT_BATCH   |   Deposit Batch        |    Available     | Optional     | Allowed |    NA |
 |                           |                                                                         |    NET_ROLLUP   |   Net Rollup        |    Available     | Optional     | Allowed |    NA |
 |                           |                                                                         |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Optional     | Allowed |    NA |
-| feesBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                       |                              |    2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                       |                              |    3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                       |                              |    4 - Bank Sequence Number#4   |   4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                       |                              |    5 - Bank Sequence Number#5   |   5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| feesBankSequenceNumber| Funding Bank Sequence |    REMIT   |   Remit  |    Available   |  Optional | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | feesFundingCategoryCode| Funding Category Code        |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Optional     | Allowed |    NA |
 |                                            |                                  |    DISCOUNTS   |   Discounts        |    Available     | Optional     | Allowed |    NA |
 |                                            |                                  |    CHARGEBACKS   |   Chargebacks        |    Available     | Optional     | Allowed |    NA |
@@ -2370,11 +2391,13 @@ titles: UMM, North, GMA
 |                      |                                                                         |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Optional     | Allowed |    NA |
 |                      |                                                                         |    VIA_CATEGORY   |   Via Category        |    Available     | Optional     | Allowed |    NA |
 |                      |                                                                         |    NET_ROLLUP   |   Net Rollup        |    Available     | Optional     | Allowed |    NA |
-| financialAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                      |                                               |    2 - Bank Sequence Number#2        |    2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                      |                                               |    3 - Bank Sequence Number#3        |    3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                      |                                               |    4 - Bank Sequence Number#4        |    4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                      |                                               |    5 - Bank Sequence Number#5        |    5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| financialAdjustmentsBankSequenceNumber| Funding Bank Sequence  |    REMIT   |   Remit  |  Available |  Optional  | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | financialAdjustmentsFundingCategoryCode| Funding Category Code        |    REVERSALS   |   Reversals        |    Available     | Optional     | Allowed |    NA |
 |                                            |                                  |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Optional     | Allowed |    NA |
 |                                            |                                  |    DISCOUNTS   |   Discounts        |    Available     | Optional     | Allowed |    NA |
@@ -2574,10 +2597,12 @@ titles: UMM, North, GMA
 |                     |                                            |    ACH_OUTLET   |   Ach Outlet        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    BY_CHK_TO_OUTLET   |   By Chk To Outlet        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    BNKWIRE_MER_BLK_CHAIN   |   Bnkwire Mer Blk Chain        |    Available     | Optional     | Allowed |    NA |
+|            |         |    BANKWIRE_OUTLET_ACH   |   Bankwire Outlet ACH    |    Available     | Optional     | Allowed |    NA   |
 | fundingNotifyContactName| Funding notification contact name        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
 | fundingNotifyFaxNumber| Funding notification contact name        |    STRING containing digits only (max - 15, min - 10)   |   String Containing Digits Only (Max - 15, Min Length: 10)        |    Available     | Optional     | Allowed |    NA |
 | fundingNotifyIndicator| Funding notification indicator        |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
+|       |      |    HIERARCHY   |   Hierarchy        |    Available     | Optional     | Allowed |    NA    |
 | fundingNotifyMethodCode| Funding notification method code        |    NOT_USED   |   Not Used        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    TELEPHONE   |   Telephone        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    MAIL   |   Mail        |    Available     | Optional     | Allowed |    NA |
@@ -2602,11 +2627,13 @@ titles: UMM, North, GMA
 |                     |                                            |   Funding Run1        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |   Funding Run2        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |   Funding Run3        |    Available     | Optional     | Allowed |    NA |
-| interchangeAssessmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                                         |                              |    2 - Bank Sequence Number#2    |    2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                                         |                              |    3 - Bank Sequence Number#3    |    3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                                         |                              |    4 - Bank Sequence Number#4    |    4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                                         |                              |    5 - Bank Sequence Number#5    |    5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |  
+| interchangeAssessmentsBankSequenceNumber| Funding Bank Sequence  |    REMIT   |   Remit  |    Available     | Optional     | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | interchangeAssessmentsFundingCategoryCode | Funding Category Code |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    DEPOSITS   |   Deposits        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Optional     | Allowed |    NA |
@@ -2624,11 +2651,13 @@ titles: UMM, North, GMA
 |                                           |                       |    EACH_TRANSFER   |   Each Transfer        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Optional     | Allowed |    NA |
-| nonBankcardAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1
-|                                           |                       |  2 - Bank Sequence Number#2|   2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                                           |                       |  3 - Bank Sequence Number#3|   3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |  
-|                                           |                       |  4 - Bank Sequence Number#4|   4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                                           |                       |  5 - Bank Sequence Number#5|   5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| nonBankcardAdjustmentsBankSequenceNumber| Funding Bank Sequence |    REMIT   |   Remit |    Available | Optional | Allowed |  NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | nonBankcardAdjustmentsFundingCategoryCode | Funding Category Code |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    REVERSALS   |   Reversals        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Optional     | Allowed |    NA |
@@ -2648,11 +2677,13 @@ titles: UMM, North, GMA
 |                                           |                       |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Optional     | Allowed |    NA |
 | ptsLimitsIndicator                        | PTS Limits Indicator  |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
-| reversalsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |    2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |    3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |    4 - Bank Sequence Number#4   |   4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |    5 - Bank Sequence Number#5   |   5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| reversalsBankSequenceNumber| Funding Bank Sequence |    REMIT   |   Remit  |    Available     | Optional     | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | reversalsFundingCategoryCode| Funding Category Code        |    REVERSALS   |   Reversals        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    FEES   |   Fees        |    Available     | Optional     | Allowed |    NA |
@@ -2676,6 +2707,7 @@ titles: UMM, North, GMA
 |                     |                                            |    TWO_DAY_HOLD   |   Two Day Hold        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    ZERO_DAY_HOLD   |   Zero Day Hold        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    ONE_DAY_HOLD   |   One Day Hold        |    Available     | Optional     | Allowed |    NA |
+|             |          |    DEFERRED   |   Deferred        |    Available     | Optional     | Allowed |    NA |
 | temporary30DayLimitAmount| Temporary monthly limit amount        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |
 | temporaryDailyLimitAmount| Temporary Daily Limit Amount        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |
 | temporaryFromDate| Temporary From Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Optional     | Allowed |    NA |
@@ -2686,7 +2718,7 @@ titles: UMM, North, GMA
 | Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | achSuspenseHoldIndicator| ACH suspense hold indicator        |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
-|       |                       |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
+|       |                       |    HOLD   |   Hold        |    Available     | Optional     | Allowed |    NA    |
 | achSuspenseReleaseIndicator| ACH suspense release indicator        |    DIVERT_TO_CARS   |   Divert To Cars        |    Available     | Optional     | Allowed |    NA |
 |       |                       |    HOLD_30_DAYS   |   Hold 30 Days        |    Available     | Optional     | Allowed |    NA |
 |       |                       |    RELEASE_FUNDING   |   Release Funding        |    Available     | Optional     | Allowed |    NA |
@@ -2695,11 +2727,13 @@ titles: UMM, North, GMA
 | bankwireBbkText| Bankwire beneficiary BBK Text        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
 | bankwireBnfText| Bankwire beneficiary BNF Text        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
 | bankwireObiText| Bankwire beneficiary OBI Text        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
-| chargebacksBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                              |                              |    2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                              |                              |    3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                              |                              |    4 - Bank Sequence Number#4   |   4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                              |                              |    5 - Bank Sequence Number#5   |   5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| chargebacksBankSequenceNumber| Funding Bank Sequence |    REMIT   |   Remit        |    Available     | Optional     | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | chargebacksFundingCategoryCode| Funding Category Code        |    DEPOSITS   |   Deposits        |    Available     | Optional     | Allowed |    NA |
 |                               |                              |    FEES   |   Fees        |    Available     | Optional     | Allowed |    NA |
 |                               |                              |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Optional     | Allowed |    NA |
@@ -2723,11 +2757,13 @@ titles: UMM, North, GMA
 |                             |                                                                         |    ABA_DDA_2   |   Aba Dda 2        |    Available     | Optional     | Allowed |    NA |
 |                             |                                                                         |    ABA_DDA_1   |   Aba Dda 1        |    Available     | Optional     | Allowed |    NA |
 |                             |                                                                         |    ABA_DDA_4   |   Aba Dda 4        |    Available     | Optional     | Allowed |    NA |
-| depositAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                                     |                              |    2 - Bank Sequence Number#2   |    2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |  
-|                                     |                              |    3 - Bank Sequence Number#3   |    3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                                     |                              |    4 - Bank Sequence Number#4   |    4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                                     |                              |    5 - Bank Sequence Number#5   |    5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| depositAdjustmentsBankSequenceNumber| Funding Bank Sequence |    REMIT   |   Remit  |    Available     | Optional     | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Optional     | Allowed |    NA |
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    REVERSALS   |   Reversals        |    Available     | Optional     | Allowed |    NA |
 | depositAdjustmentsFundingCategoryCode| Funding Category Code        |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Optional     | Allowed |    NA |
@@ -2745,11 +2781,13 @@ titles: UMM, North, GMA
 | depositAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_ROLLUP   |   Net Rollup        |    Available     | Optional     | Allowed |    NA |
 | depositAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Optional     | Allowed |    NA |
 | depositAdjustmentsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    VIA_CATEGORY   |   Via Category        |    Available     | Optional     | Allowed |    NA |
-| depositsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                           |                              |    2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                           |                              |    3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                           |                              |    4 - Bank Sequence Number#4   |   4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                           |                              |    5 - Bank Sequence Number#5   |   5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| depositsBankSequenceNumber| Funding Bank Sequence |  REMIT | Remit |  Available  | Optional | Allowed |  NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | depositsFundingCategoryCode| Funding Category Code        |    CHARGEBACKS   |   Chargebacks        |    Available     | Optional     | Allowed |    NA |
 |                            |                              |    FEES   |   Fees        |    Available     | Optional     | Allowed |    NA |
 |                            |                              |    DEPOSITS   |   Deposits        |    Available     | Optional     | Allowed |    NA |
@@ -2760,18 +2798,21 @@ titles: UMM, North, GMA
 |                            |                              |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Optional     | Allowed |    NA |
 |                            |                              |    DISCOUNTS   |   Discounts        |    Available     | Optional     | Allowed |    NA |
 | depositsFundingDivertCode| Funding Divert Code        |    CARS   |   Cars        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |    NONE   |   None        |    Available     | Optional     | Allowed |    NA |
+|               |          |    NONE   |   None        |    Available     | Optional     | Allowed |    NA |
+|       |       |    ICE   |   Ice        |    Available     | Optional     | Allowed |    NA |
 | depositsFundingRollupCode| Indicates how the transactions will be combined on DDA statement        |    NET_ROLLUP   |   Net Rollup        |    Available     | Optional     | Allowed |    NA |
 |                          |                                                                         |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Optional     | Allowed |    NA |
 |                          |                                                                         |    DEPOSIT_BATCH   |   Deposit Batch        |    Available     | Optional     | Allowed |    NA |
 |                          |                                                                         |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Optional     | Allowed |    NA |
 |                          |                                                                         |    EACH_TRANSFER   |   Each Transfer        |    Available     | Optional     | Allowed |    NA |
 |                          |                                                                         |    VIA_CATEGORY   |   Via Category        |    Available     | Optional     | Allowed |    NA |
-| discountsBankSequenceNumber| Funding Bank Sequence        |  1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |  2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |  3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |  4 - Bank Sequence Number#4   |   4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |  5 - Bank Sequence Number#5   |   5 - Bank Sequence Number#5         |    Available     | Optional     | Allowed |    NA |
+| discountsBankSequenceNumber| Funding Bank Sequence  |  REMIT   |   Remit  |    Available     | Optional     | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | discountsFundingCategoryCode| Funding Category Code        |    FEES   |   Fees        |    Available     | Optional     | Allowed |    NA |
 |                             |                              |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Optional     | Allowed |    NA |
 |                             |                              |    DISCOUNTS   |   Discounts        |    Available     | Optional     | Allowed |    NA |
@@ -2789,11 +2830,13 @@ titles: UMM, North, GMA
 |                           |                                                                         |    DEPOSIT_BATCH   |   Deposit Batch        |    Available     | Optional     | Allowed |    NA |
 |                           |                                                                         |    NET_ROLLUP   |   Net Rollup        |    Available     | Optional     | Allowed |    NA |
 |                           |                                                                         |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Optional     | Allowed |    NA |
-| feesBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                       |                              |    2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                       |                              |    3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                       |                              |    4 - Bank Sequence Number#4   |   4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                       |                              |    5 - Bank Sequence Number#5   |   5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| feesBankSequenceNumber| Funding Bank Sequence |    REMIT   |   Remit  |    Available   |  Optional | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | feesFundingCategoryCode| Funding Category Code        |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Optional     | Allowed |    NA |
 |                                            |                                  |    DISCOUNTS   |   Discounts        |    Available     | Optional     | Allowed |    NA |
 |                                            |                                  |    CHARGEBACKS   |   Chargebacks        |    Available     | Optional     | Allowed |    NA |
@@ -2811,11 +2854,13 @@ titles: UMM, North, GMA
 |                      |                                                                         |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Optional     | Allowed |    NA |
 |                      |                                                                         |    VIA_CATEGORY   |   Via Category        |    Available     | Optional     | Allowed |    NA |
 |                      |                                                                         |    NET_ROLLUP   |   Net Rollup        |    Available     | Optional     | Allowed |    NA |
-| financialAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                      |                                               |    2 - Bank Sequence Number#2        |    2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                      |                                               |    3 - Bank Sequence Number#3        |    3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                      |                                               |    4 - Bank Sequence Number#4        |    4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                      |                                               |    5 - Bank Sequence Number#5        |    5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| financialAdjustmentsBankSequenceNumber| Funding Bank Sequence  |    REMIT   |   Remit  |  Available |  Optional  | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | financialAdjustmentsFundingCategoryCode| Funding Category Code        |    REVERSALS   |   Reversals        |    Available     | Optional     | Allowed |    NA |
 |                                            |                                  |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Optional     | Allowed |    NA |
 |                                            |                                  |    DISCOUNTS   |   Discounts        |    Available     | Optional     | Allowed |    NA |
@@ -3015,10 +3060,12 @@ titles: UMM, North, GMA
 |                     |                                            |    ACH_OUTLET   |   Ach Outlet        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    BY_CHK_TO_OUTLET   |   By Chk To Outlet        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    BNKWIRE_MER_BLK_CHAIN   |   Bnkwire Mer Blk Chain        |    Available     | Optional     | Allowed |    NA |
+|            |         |    BANKWIRE_OUTLET_ACH   |   Bankwire Outlet ACH    |    Available     | Optional     | Allowed |    NA   |
 | fundingNotifyContactName| Funding notification contact name        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
 | fundingNotifyFaxNumber| Funding notification contact name        |    STRING containing digits only (max - 15, min - 10)   |   String Containing Digits Only (Max - 15, Min Length: 10)        |    Available     | Optional     | Allowed |    NA |
 | fundingNotifyIndicator| Funding notification indicator        |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
+|       |      |    HIERARCHY   |   Hierarchy        |    Available     | Optional     | Allowed |    NA    |
 | fundingNotifyMethodCode| Funding notification method code        |    NOT_USED   |   Not Used        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    TELEPHONE   |   Telephone        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    MAIL   |   Mail        |    Available     | Optional     | Allowed |    NA |
@@ -3043,11 +3090,13 @@ titles: UMM, North, GMA
 |                     |                                            |   Funding Run1        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |   Funding Run2        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |   Funding Run3        |    Available     | Optional     | Allowed |    NA |
-| interchangeAssessmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                                         |                              |    2 - Bank Sequence Number#2    |    2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                                         |                              |    3 - Bank Sequence Number#3    |    3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                                         |                              |    4 - Bank Sequence Number#4    |    4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                                         |                              |    5 - Bank Sequence Number#5    |    5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |  
+| interchangeAssessmentsBankSequenceNumber| Funding Bank Sequence  |    REMIT   |   Remit  |    Available     | Optional     | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |  
 | interchangeAssessmentsFundingCategoryCode | Funding Category Code |    DEPOSIT_ADJUSTMENTS   |   Deposit Adjustments        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    DEPOSITS   |   Deposits        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Optional     | Allowed |    NA |
@@ -3065,11 +3114,13 @@ titles: UMM, North, GMA
 |                                           |                       |    EACH_TRANSFER   |   Each Transfer        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    NET_FEE_TRANS   |   Net Fee Trans        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Optional     | Allowed |    NA |
-| nonBankcardAdjustmentsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1
-|                                           |                       |  2 - Bank Sequence Number#2|   2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                                           |                       |  3 - Bank Sequence Number#3|   3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |  
-|                                           |                       |  4 - Bank Sequence Number#4|   4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                                           |                       |  5 - Bank Sequence Number#5|   5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| nonBankcardAdjustmentsBankSequenceNumber| Funding Bank Sequence |    REMIT   |   Remit |    Available | Optional | Allowed |  NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | nonBankcardAdjustmentsFundingCategoryCode | Funding Category Code |    NON_BANKCARD_ADJUSTMENTS   |   Non Bankcard Adjustments        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    REVERSALS   |   Reversals        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    FINANCIAL_ADJUSTMENTS   |   Financial Adjustments        |    Available     | Optional     | Allowed |    NA |
@@ -3089,11 +3140,13 @@ titles: UMM, North, GMA
 |                                           |                       |    DEBIT_CREDIT   |   Debit Credit        |    Available     | Optional     | Allowed |    NA |
 | ptsLimitsIndicator                        | PTS Limits Indicator  |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
 |                                           |                       |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
-| reversalsBankSequenceNumber| Funding Bank Sequence        |    1 - Bank Sequence Number#1   |   1 - Bank Sequence Number#1        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |    2 - Bank Sequence Number#2   |   2 - Bank Sequence Number#2        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |    3 - Bank Sequence Number#3   |   3 - Bank Sequence Number#3        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |    4 - Bank Sequence Number#4   |   4 - Bank Sequence Number#4        |    Available     | Optional     | Allowed |    NA |
-|                            |                              |    5 - Bank Sequence Number#5   |   5 - Bank Sequence Number#5        |    Available     | Optional     | Allowed |    NA |
+| reversalsBankSequenceNumber| Funding Bank Sequence |    REMIT   |   Remit  |    Available     | Optional     | Allowed |    NA |
+|       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA3   |   DDA#3   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA4   |   DDA#4   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA5   |   DDA#5   |    Available     | Optional     | Allowed |  NA |
+|       |      |    DDA9   |   DDA#9   |    Available     | Optional     | Allowed |  NA |
 | reversalsFundingCategoryCode| Funding Category Code        |    REVERSALS   |   Reversals        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    INTERCHANGE_ASSESSMENTS   |   Interchange Assessments        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    FEES   |   Fees        |    Available     | Optional     | Allowed |    NA |
@@ -3117,6 +3170,7 @@ titles: UMM, North, GMA
 |                     |                                            |    TWO_DAY_HOLD   |   Two Day Hold        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    ZERO_DAY_HOLD   |   Zero Day Hold        |    Available     | Optional     | Allowed |    NA |
 |                     |                                            |    ONE_DAY_HOLD   |   One Day Hold        |    Available     | Optional     | Allowed |    NA |
+|             |          |    DEFERRED   |   Deferred        |    Available     | Optional     | Allowed |    NA |
 | temporary30DayLimitAmount| Temporary monthly limit amount        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |
 | temporaryDailyLimitAmount| Temporary Daily Limit Amount        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |
 | temporaryFromDate| Temporary From Date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Optional     | Allowed |    NA |
@@ -4628,8 +4682,10 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    BBG_BRONZE   |   Bbg Bronze        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    BBG_GOLD   |   Bbg Gold        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    RETAIL_BRONZE   |   Retail Bronze        |    Available     | Optional     | Allowed |    NA |
-| branchDepositorIndicator| Branch Depositor Indicator        |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
+|  -  |    -    |    NONE   |   Blank Value        |    Available     | Optional     | Allowed |    NA |
+| branchDepositorIndicator| Branch Depositor Indicator  |    YES   |   Yes  |  Available | Optional | Allowed | NA |
+|   -  |   -   |    NO   |   No        |    Available     | Optional     | Allowed |  NA |
+|   -  |   -   |    NONE   |   None    |    Available     | Optional     | Allowed |  NA |
 | branchLongNumber| Branch Long Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |
 | branchShortNumber| Branch Short Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |
 | caseManagementIndicator| Case Management Indicator        |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
@@ -4639,7 +4695,7 @@ titles: UMM, North, GMA
 | cmsServiceCodes| CMS Service Codes        |       |           |    Available     | Optional     | Allowed |    NA |
 | descriptorEntitledIndicator| Descriptor Entitled Indicator        |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
-| domesticForeignIndicator| DomesticForeignIndicator        |    DOM_MASTER_DESCRIPTION   |   Dom Master Description        |    Available     | Optional     | Allowed |    NA |    "
+| domesticForeignIndicator| DomesticForeignIndicator        |    DOM_MASTER_DESCRIPTION   |   Dom Master Description        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    DOM_FGN_INTERCHANGE_DESC   |   Dom Fgn Interchange Desc        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    FGN_MASTER_DESCRIPTION   |   Fgn Master Description        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    AAFES_NAVY_MASTER_DESC   |   Aafes Navy Master Desc        |    Available     | Optional     | Allowed |    NA |
@@ -4647,6 +4703,9 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    DOM_FGN_USENEW_DESC   |   Dom Fgn Usenew Desc        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    FGN_USENEW_DESCRIPTION   |   Fgn Usenew Description        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    DOM_USENEW_DESCRIPTION   |   Dom Usenew Description        |    Available     | Optional     | Allowed |    NA |
+|   -    |    -    |    DOM_USENEW_DESCRIPTION   |   Dom Usenew Description   |    Available  | Optional  | Allowed |  NA |
+|   -    |    -    |    DOM_FGN_ALT_DESC   |   Dom FGN ALT Description   |    Available  | Optional  | Allowed |  NA |
+|   -    |    -    |    DOM_FGN_DBA_DESC   |   Dom FGN DBA Description   |    Available  | Optional  | Allowed |  NA |
 | emailtypecode| Type of Email Address        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
 | emvIndicator| EMV Chip Enabled Indicator        |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
 |             |                                   |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
@@ -4659,18 +4718,26 @@ titles: UMM, North, GMA
 |             |                      |    MAIL   |   Mail        |    Available     | Optional     | Allowed |    NA |
 |             |                      |    EIDS_AUTOFAX   |   Eids Autofax        |    Available     | Optional     | Allowed |    NA |
 | fireSafetyActIndicator| Fire Safety Act Indicator        |    NO   |   No        |    Available     | Optional     | Allowed |    NA |  
-|             |                      |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |  
+|             |                      |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
+|             |              |    NONE   |   Blank Value        |    Available     | Optional     | Allowed |    NA    |  
 | imprintersCount| Imprinter Quantity Bill Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |  
 | internetCode| Internet Code        |    INTERNET_MERCHANT   |   Internet Merchant        |    Available     | Optional     | Allowed |    NA |  
 |                    |                                       |    FISERV_GATEWAY   |   Fiserv Gateway        |    Available     | Optional     | Allowed |    NA |  
 |                    |                                       |    DIAL_SOLUTION   |   Dial Solution        |    Available     | Optional     | Allowed |    NA |  
 |                    |                                       |    LEASED_LINE   |   Leased Line        |    Available     | Optional     | Allowed |    NA |  
 |                    |                                       |    CERT_GATEWAY   |   Cert Gateway        |    Available     | Optional     | Allowed |    NA |  
-|                    |                                       |    NON_PARTICIPANT   |   Non Participant        |    Available     | Optional     | Allowed |    NA |  
-| leaseCompanyCode| Lease Company Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |  
-| loyaltyProcessingCode| Loyalty Processing Code        |    N   |   N        |    Available     | Optional     | Allowed |    NA |  
-|                    |                                       |    Y   |   Y        |    Available     | Optional     | Allowed |    NA |  
-|                    |                                       |    NOT_SPECIFIED   |   Not Specified        |    Available     | Optional     | Allowed |    NA |  
+|                    |                                       |    NON_PARTICIPANT   |   Non Participant        |    Available     | Optional     | Allowed |    NA |
+|       |         |    NONE   |   None        |    Available     | Optional     | Allowed |    NA    | 
+| leaseCompanyCode| Lease Company Code   |    CIT   |   CIT    |    Available     | Optional     | Allowed |    NA   |
+|    |   |    FDLS   |   FDLS    |    Available     | Optional     | Allowed |   NA  |
+|    |   |    3RD_PARTY   |   3RD_PARTY    |    Available     | Optional     | Allowed |   NA  |
+|    |   |    NORTHERN   |   NORTHERN    |    Available     | Optional     | Allowed |   NA  |
+|    |   |    LADCO   |   LADCO    |    Available     | Optional     | Allowed |   NA  |
+|    |   |    NONE   |   Blank Value    |    Available     | Optional     | Allowed |   NA  |
+|    |   |    NOT_SPECIFIED   |   Not Specified    |    Available     | Optional     | Allowed |   NA  |
+| loyaltyProcessingCode| Loyalty Processing Code |    NO   |   No   |    Available     | Optional     | Allowed |  NA |  
+|                    |            |    YES   |   Yes       |    Available     | Optional     | Allowed |    NA |  
+|                    |            |    NOT_SPECIFIED   |   Not Specified        |    Available     | Optional     | Allowed |    NA |  
 | ncptAmount| Anticipated Mc/Visa® net contribution per transaction        |       |           |    Available     | Optional     | Allowed |    NA |  
 | nrptAmount| Anticipated Mc/Visa® net revenue percentage        |       |           |    Available     | Optional     | Allowed |    NA |  
 | oilTradeClassCode| Class of Trade code for specific client usage        |    YES, NO   |   Yes, No        |    Available     | Optional     | Allowed |    NA |  
@@ -4771,8 +4838,10 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    BBG_BRONZE   |   Bbg Bronze        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    BBG_GOLD   |   Bbg Gold        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    RETAIL_BRONZE   |   Retail Bronze        |    Available     | Optional     | Allowed |    NA |
-| branchDepositorIndicator| Branch Depositor Indicator        |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
+|  -  |    -    |    NONE   |   Blank Value        |    Available     | Optional     | Allowed |    NA |
+| branchDepositorIndicator| Branch Depositor Indicator  |    YES   |   Yes  |  Available | Optional | Allowed | NA |
+|   -  |   -   |    NO   |   No        |    Available     | Optional     | Allowed |  NA |
+|   -  |   -   |    NONE   |   None    |    Available     | Optional     | Allowed |  NA |
 | branchLongNumber| Branch Long Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |
 | branchShortNumber| Branch Short Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |
 | caseManagementIndicator| Case Management Indicator        |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
@@ -4782,14 +4851,16 @@ titles: UMM, North, GMA
 | cmsServiceCodes| CMS Service Codes        |       |           |    Available     | Optional     | Allowed |    NA |
 | descriptorEntitledIndicator| Descriptor Entitled Indicator        |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
-| domesticForeignIndicator| DomesticForeignIndicator        |    DOM_MASTER_DESCRIPTION   |   Dom Master Description        |    Available     | Optional     | Allowed |    NA |    "
+| domesticForeignIndicator| DomesticForeignIndicator        |    DOM_MASTER_DESCRIPTION   |   Dom Master Description        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    DOM_FGN_INTERCHANGE_DESC   |   Dom Fgn Interchange Desc        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    FGN_MASTER_DESCRIPTION   |   Fgn Master Description        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    AAFES_NAVY_MASTER_DESC   |   Aafes Navy Master Desc        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    AAFES_NAVY_USENEW_DESC   |   Aafes Navy Usenew Desc        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    DOM_FGN_USENEW_DESC   |   Dom Fgn Usenew Desc        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    FGN_USENEW_DESCRIPTION   |   Fgn Usenew Description        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    DOM_USENEW_DESCRIPTION   |   Dom Usenew Description        |    Available     | Optional     | Allowed |    NA |
+|   -    |    -    |    DOM_USENEW_DESCRIPTION   |   Dom Usenew Description   |    Available  | Optional  | Allowed |  NA |
+|   -    |    -    |    DOM_FGN_ALT_DESC   |   Dom FGN ALT Description   |    Available  | Optional  | Allowed |  NA |
+|   -    |    -    |    DOM_FGN_DBA_DESC   |   Dom FGN DBA Description   |    Available  | Optional  | Allowed |  NA |
 | emailtypecode| Type of Email Address        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
 | emvIndicator| EMV Chip Enabled Indicator        |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
 |             |                                   |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
@@ -4802,18 +4873,26 @@ titles: UMM, North, GMA
 |             |                      |    MAIL   |   Mail        |    Available     | Optional     | Allowed |    NA |
 |             |                      |    EIDS_AUTOFAX   |   Eids Autofax        |    Available     | Optional     | Allowed |    NA |
 | fireSafetyActIndicator| Fire Safety Act Indicator        |    NO   |   No        |    Available     | Optional     | Allowed |    NA |  
-|             |                      |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |  
+|             |                      |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
+|             |              |    NONE   |   Blank Value        |    Available     | Optional     | Allowed |    NA    |  
 | imprintersCount| Imprinter Quantity Bill Number        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |  
 | internetCode| Internet Code        |    INTERNET_MERCHANT   |   Internet Merchant        |    Available     | Optional     | Allowed |    NA |  
 |                    |                                       |    FISERV_GATEWAY   |   Fiserv Gateway        |    Available     | Optional     | Allowed |    NA |  
 |                    |                                       |    DIAL_SOLUTION   |   Dial Solution        |    Available     | Optional     | Allowed |    NA |  
 |                    |                                       |    LEASED_LINE   |   Leased Line        |    Available     | Optional     | Allowed |    NA |  
 |                    |                                       |    CERT_GATEWAY   |   Cert Gateway        |    Available     | Optional     | Allowed |    NA |  
-|                    |                                       |    NON_PARTICIPANT   |   Non Participant        |    Available     | Optional     | Allowed |    NA |  
-| leaseCompanyCode| Lease Company Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |  
-| loyaltyProcessingCode| Loyalty Processing Code        |    N   |   N        |    Available     | Optional     | Allowed |    NA |  
-|                    |                                       |    Y   |   Y        |    Available     | Optional     | Allowed |    NA |  
-|                    |                                       |    NOT_SPECIFIED   |   Not Specified        |    Available     | Optional     | Allowed |    NA |  
+|                    |                                       |    NON_PARTICIPANT   |   Non Participant        |    Available     | Optional     | Allowed |    NA |
+|       |         |    NONE   |   None        |    Available     | Optional     | Allowed |    NA    |  
+| leaseCompanyCode| Lease Company Code   |    CIT   |   CIT    |    Available     | Optional     | Allowed |    NA   |
+|    |   |    FDLS   |   FDLS    |    Available     | Optional     | Allowed |   NA  |
+|    |   |    3RD_PARTY   |   3RD_PARTY    |    Available     | Optional     | Allowed |   NA  |
+|    |   |    NORTHERN   |   NORTHERN    |    Available     | Optional     | Allowed |   NA  |
+|    |   |    LADCO   |   LADCO    |    Available     | Optional     | Allowed |   NA  |
+|    |   |    NONE   |   Blank Value    |    Available     | Optional     | Allowed |   NA  |
+|    |   |    NOT_SPECIFIED   |   Not Specified    |    Available     | Optional     | Allowed |   NA  | 
+| loyaltyProcessingCode| Loyalty Processing Code |    NO   |   No   |    Available     | Optional     | Allowed |  NA |  
+|                    |            |    YES   |   Yes       |    Available     | Optional     | Allowed |    NA |  
+|                    |            |    NOT_SPECIFIED   |   Not Specified        |    Available     | Optional     | Allowed |    NA |  
 | ncptAmount| Anticipated Mc/Visa® net contribution per transaction        |       |           |    Available     | Optional     | Allowed |    NA |  
 | nrptAmount| Anticipated Mc/Visa® net revenue percentage        |       |           |    Available     | Optional     | Allowed |    NA |  
 | oilTradeClassCode| Class of Trade code for specific client usage        |    YES, NO   |   Yes, No        |    Available     | Optional     | Allowed |    NA |  
@@ -5292,6 +5371,7 @@ titles: UMM, North, GMA
 | boardingOriginCode| Legacy field boarding origin code        |    MERCURY   |   Mercury        |    Available     | Required     | Allowed |    NA |
 |          -            |                 -                    |    BAM   |   Bam        |    Available     | Required     | Allowed |    NA |
 |          -            |                 -                    |    EMERALD   |   Emerald        |    Available     | Required     | Allowed |    NA |
+|   -   |    -   |    NONE   |   Blank Value  |    Available     | Required     | Allowed |    NA    |
 | boardingSourceCode| Code which indicates what boarding tool or process was used        |    UAL   |   Ual        |    Available     | Required     | Allowed |    NA |
 |          -            |                 -                    |    CONVERTED_ACCT   |   Converted Acct        |    Available     | Required     | Allowed |    NA |
 |          -            |                 -                    |    AMA_CLICK_TO_AGREE   |   Ama Click To Agree        |    Available     | Required     | Allowed |    NA |
@@ -5309,8 +5389,12 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    SNAP_MER_LITE   |   Snap Mer Lite        |    Available     | Required     | Allowed |    NA |
 |          -            |                 -                    |    GSB_BOARDING   |   Gsb Boarding        |    Available     | Required     | Allowed |    NA |
 |          -            |                 -                    |    AMA DE   |   Ama De        |    Available     | Required     | Allowed |    NA |
-| boardingTypeCode| Boarding Type Code        |    NEW_ACCOUNT   |   New Account        |    Available     | Required     | Allowed |    NA |
-|          -            |                 -                    |    ADDITIONAL_OUTLET   |   Additional Outlet        |    Available     | Required     | Allowed |    NA |
+|   -   |   -  |    VAPP_BRICK_AND_MORTAR   |   VAPP Brick and Mortar   |    Available     | Required     | Allowed |  NA |
+|   -   |   -  |    TRACES   |   Traces   |    Available     | Required     | Allowed |  NA |
+|   -   |   -  |    NONE   |   Blank Value   |    Available     | Required     | Allowed |  NA |
+| boardingTypeCode| Boarding Type Code |    NEW_ACCOUNT   |  New Account |  Available | Required  | Allowed | NA |
+|   -   |    -   |    ADDITIONAL_OUTLET   |   Additional Outlet  |    Available     | Required  | Allowed |  NA |
+|   -   |    -   |    BATCH_FEED   |   Batch Feed  |    Available     | Required  | Allowed |  NA |
 | convertedAccountDate| Converted Account Date        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |
 | convertedAccountIndicator| Converted Account Indicator        |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
@@ -5324,6 +5408,7 @@ titles: UMM, North, GMA
 | boardingOriginCode| Legacy field boarding origin code        |    MERCURY   |   Mercury        |    Available     | Required     | Allowed |    NA |
 |          -            |                 -                    |    BAM   |   Bam        |    Available     | Required     | Allowed |    NA |
 |          -            |                 -                    |    EMERALD   |   Emerald        |    Available     | Required     | Allowed |    NA |
+|   -   |    -   |    NONE   |   Blank Value  |    Available     | Required     | Allowed |    NA    |
 | boardingSourceCode| Code which indicates what boarding tool or process was used        |    UAL   |   Ual        |    Available     | Required     | Allowed |    NA |
 |          -            |                 -                    |    CONVERTED_ACCT   |   Converted Acct        |    Available     | Required     | Allowed |    NA |
 |          -            |                 -                    |    AMA_CLICK_TO_AGREE   |   Ama Click To Agree        |    Available     | Required     | Allowed |    NA |
@@ -5341,8 +5426,12 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    SNAP_MER_LITE   |   Snap Mer Lite        |    Available     | Required     | Allowed |    NA |
 |          -            |                 -                    |    GSB_BOARDING   |   Gsb Boarding        |    Available     | Required     | Allowed |    NA |
 |          -            |                 -                    |    AMA DE   |   Ama De        |    Available     | Required     | Allowed |    NA |
-| boardingTypeCode| Boarding Type Code        |    NEW_ACCOUNT   |   New Account        |    Available     | Required     | Allowed |    NA |
-|          -            |                 -                    |    ADDITIONAL_OUTLET   |   Additional Outlet        |    Available     | Required     | Allowed |    NA |
+|   -   |   -  |    VAPP_BRICK_AND_MORTAR   |   VAPP Brick and Mortar   |    Available     | Required     | Allowed |  NA |
+|   -   |   -  |    TRACES   |   Traces   |    Available     | Required     | Allowed |  NA |
+|   -   |   -  |    NONE   |   Blank Value   |    Available     | Required     | Allowed |  NA |
+| boardingTypeCode| Boarding Type Code |    NEW_ACCOUNT   |  New Account |  Available | Required  | Allowed | NA |
+|   -   |    -   |    ADDITIONAL_OUTLET   |   Additional Outlet  |    Available     | Required  | Allowed |  NA |
+|   -   |    -   |    BATCH_FEED   |   Batch Feed  |    Available     | Required  | Allowed |  NA |
 | convertedAccountDate| Converted Account Date        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |
 | convertedAccountIndicator| Converted Account Indicator        |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
@@ -6013,7 +6102,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    PACIFIC_TIME   |   Pacific Time        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    CHRISTMAS_ISLAND   |   Christmas Island        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    CENTRAL_EUROPEAN   |   Central European        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    GMT_0430   |   Gmt 0430        |    Available     | Optional     | Allowed |    NA |
+|          -            |                 -                    |    GMT-0430   |   Gmt 0430        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    MARQUESAS_TIME   |   Marquesas Time        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    EASTERN_TIME   |   Eastern Time        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    INDIAN_STANDARD   |   Indian Standard        |    Available     | Optional     | Allowed |    NA |
@@ -6024,7 +6113,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    LINE_ISLAND   |   Line Island        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    FIJI_TIME   |   Fiji Time        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    JAPAN_TIME   |   Japan Time        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    GMT_0330   |   Gmt 0330        |    Available     | Optional     | Allowed |    NA |
+|          -            |                 -                    |    GMT-0330   |   Gmt 0330        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    PHOENIX_ISLAND   |   Phoenix Island        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    PAPAU_NEW_GUINEA   |   Papau New Guinea        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    ALASKAN_TIME   |   Alaskan Time        |    Available     | Optional     | Allowed |    NA |
@@ -6040,6 +6129,20 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    GMT+1130   |   Gmt+1130        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    BRASILIA_DAYLIGHT   |   Brasilia Daylight        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    SAMOA_STANDARD   |   Samoa Standard        |    Available     | Optional     | Allowed |    NA |
+|          -            |                 -                    |    BHUTAN_TIME   |   Bhutan Time  |    Available     | Optional     | Allowed |    NA   |
+|          -            |                 -                    |    ATLANTIC_DAYLIGHT   |   Atlantic Daylight  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0100   |   G-0100  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0200   |   G-0200  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0400   |   G-0400  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0500   |   G-0500  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0600   |   G-0600  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0700   |   G-0700  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0800   |   G-0800  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0900   |   G-0900  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0930   |   G-0930  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-1000   |   G-1000  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-1100   |   G-1100  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-1200   |   G-1200  |    Available     | Optional     | Allowed |    NA   |
 
 <!-- type: tab -->
 
@@ -6059,7 +6162,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    PACIFIC_TIME   |   Pacific Time        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    CHRISTMAS_ISLAND   |   Christmas Island        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    CENTRAL_EUROPEAN   |   Central European        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    GMT_0430   |   Gmt 0430        |    Available     | Optional     | Allowed |    NA |
+|          -            |                 -                    |    GMT-0430   |   Gmt 0430        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    MARQUESAS_TIME   |   Marquesas Time        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    EASTERN_TIME   |   Eastern Time        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    INDIAN_STANDARD   |   Indian Standard        |    Available     | Optional     | Allowed |    NA |
@@ -6070,7 +6173,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    LINE_ISLAND   |   Line Island        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    FIJI_TIME   |   Fiji Time        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    JAPAN_TIME   |   Japan Time        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    GMT_0330   |   Gmt 0330        |    Available     | Optional     | Allowed |    NA |
+|          -            |                 -                    |    GMT-0330   |   Gmt 0330        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    PHOENIX_ISLAND   |   Phoenix Island        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    PAPAU_NEW_GUINEA   |   Papau New Guinea        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    ALASKAN_TIME   |   Alaskan Time        |    Available     | Optional     | Allowed |    NA |
@@ -6086,6 +6189,20 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    GMT+1130   |   Gmt+1130        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    BRASILIA_DAYLIGHT   |   Brasilia Daylight        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    SAMOA_STANDARD   |   Samoa Standard        |    Available     | Optional     | Allowed |    NA |
+|          -            |                 -                    |    BHUTAN_TIME   |   Bhutan Time  |    Available     | Optional     | Allowed |    NA   |
+|          -            |                 -                    |    ATLANTIC_DAYLIGHT   |   Atlantic Daylight  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0100   |   G-0100  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0200   |   G-0200  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0400   |   G-0400  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0500   |   G-0500  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0600   |   G-0600  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0700   |   G-0700  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0800   |   G-0800  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0900   |   G-0900  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-0930   |   G-0930  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-1000   |   G-1000  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-1100   |   G-1100  |    Available     | Optional     | Allowed |    NA   |
+|    -    |     -     |    G-1200   |   G-1200  |    Available     | Optional     | Allowed |    NA   |
 
 <!-- type: tab -->
 
@@ -6256,12 +6373,22 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    PAPER_VOICE   |   Paper Voice        |    Available     | Optional     | Allowed |    NA |
 | settleFrequencyCode| Settle Frequency Code        |    AT_SETTLEMENT   |   At Settlement        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    DAILY_DISC   |   Daily Disc        |    Available     | Optional     | Allowed |    NA |
+|    -    |    -    |    2X_WEEKLY_CHAIN   |   2X Weekly Chain   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    2X_WEEKLY_OUTLET   |   2X Weekly Outlet   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    WEEKLY_CHECK_CHAIN   |   Weekly Check Chain   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    WEEKLY_CHECK_OUTLET   |   Weekly Check Outlet   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    2X_MONTHLY_CHAIN   |   2X Monthly Chain   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    2X_MONTHLY_OUTLET   |   2X Monthly Outlet   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    MONTHLY_CHAIN   |   Monthly Chain   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    MONTHLY_OUTLET   |   Monthly Outlet   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    FLEX_FUND   |   Flex Fund   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    FLEX_FUND_ONUS   |   Flex Fund Onus   |    Available     | Optional     | Allowed |    NA    |
 | surchargeExceptionCode| Determine If A Billback Surcharge Should Be Applied        |    NO_SCHG_VISA_SIG_COMM   |   No Schg Visa Sig Comm        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NO_SCHG_VISA_INF_MC   |   No Schg Visa Inf Mc        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NO_SCHG_VISA_SIG_MC   |   No Schg Visa Sig Mc        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NO_SCHG_VISA_INF_COMM   |   No Schg Visa Inf Comm        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    ALLOW_SCHG   |   Allow Schg        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    NO_SCHG_VISA_INF_MC_F20A   |   No Schg Visa Inf Mc F20A        |    Available     | Optional     | Allowed |    NA |
+|          -            |                 -                    |    SPEC_SCHG_VISA_INF_COMM   |   Special Schg Visa Inf Comm F20A        |    Available     | Optional     | Allowed |    NA |
 | chargeBarer| Charge Barer for Omnipay |    CRED | Creditor pays all charges | Available | Optional | Allowed |  NA |
 |   -   |  -  |    SLEV | Charges Follow The Service Level; The Only Allowed Alternative For Sepa Payments  |    Available     | Optional     | Allowed |  NA |  
 |  -  |  -  |    DEBT |    Debt - Debtor Pays All Charges        |    Available     | Optional     | Allowed |  NA |  
@@ -6313,12 +6440,22 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    PAPER_VOICE   |   Paper Voice        |    Available     | Optional     | Allowed |    NA |
 | settleFrequencyCode| Settle Frequency Code        |    AT_SETTLEMENT   |   At Settlement        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    DAILY_DISC   |   Daily Disc        |    Available     | Optional     | Allowed |    NA |
+|    -    |    -    |    2X_WEEKLY_CHAIN   |   2X Weekly Chain   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    2X_WEEKLY_OUTLET   |   2X Weekly Outlet   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    WEEKLY_CHECK_CHAIN   |   Weekly Check Chain   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    WEEKLY_CHECK_OUTLET   |   Weekly Check Outlet   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    2X_MONTHLY_CHAIN   |   2X Monthly Chain   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    2X_MONTHLY_OUTLET   |   2X Monthly Outlet   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    MONTHLY_CHAIN   |   Monthly Chain   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    MONTHLY_OUTLET   |   Monthly Outlet   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    FLEX_FUND   |   Flex Fund   |    Available     | Optional     | Allowed |    NA    |
+|    -    |    -    |    FLEX_FUND_ONUS   |   Flex Fund Onus   |    Available     | Optional     | Allowed |    NA    |
 | surchargeExceptionCode| Determine If A Billback Surcharge Should Be Applied        |    NO_SCHG_VISA_SIG_COMM   |   No Schg Visa Sig Comm        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NO_SCHG_VISA_INF_MC   |   No Schg Visa Inf Mc        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NO_SCHG_VISA_SIG_MC   |   No Schg Visa Sig Mc        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NO_SCHG_VISA_INF_COMM   |   No Schg Visa Inf Comm        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    ALLOW_SCHG   |   Allow Schg        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    NO_SCHG_VISA_INF_MC_F20A   |   No Schg Visa Inf Mc F20A        |    Available     | Optional     | Allowed |    NA |
+|          -            |                 -                    |    SPEC_SCHG_VISA_INF_COMM   |   Special Schg Visa Inf Comm F20A        |    Available     | Optional     | Allowed |    NA |
 
 <!-- type: tab -->
 
@@ -6476,7 +6613,7 @@ titles: UMM, North, GMA
 | email| Statement email address        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
 | icplusStatementFormatCode| Code determining the interchange fee information the System prints on the merchant statement        |    ICPLUS_LONG_STMT   |   Icplus Long Stmt        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NONE   |   None        |    Available     | Optional     | Allowed |    NA |
-| statementDeliveryCode| Statement delivery method        |    BOTH   |   Both        |    Available     | Optional     | Allowed |    NA |
+| statementDeliveryCode| Statement delivery method        |    BULK_MAIL   |   Bulk Mail  |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    MAIL   |   Mail        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    HOLD   |   Hold        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    PRINT   |   Print        |    Available     | Optional     | Allowed |    NA |
@@ -6492,10 +6629,20 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    MAIL_TO_CORP   |   Mail To Corp        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    RECAP_NO_STMT   |   Recap No Stmt        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    MAIL_TO_OUTLET   |   Mail To Outlet        |    Available     | Optional     | Allowed |    NA |
+|   -   |    -    |    ROLLUP_TO_OUTLET   |   RollUp To Outlet   |    Available     | Optional     | Allowed |    NA   |
+|   -   |    -    |    ROLLUP_TO_CHAIN   |   RollUp To Chain   |    Available     | Optional     | Allowed |    NA   |
+|   -   |    -    |    ROLLUP_TO_CORPORATION   |   RollUp To Corporation   |    Available     | Optional     | Allowed |    NA   |
+|   -   |    -    |    DBA_RECAP_BILL_TO   |   DBA Recap Bill To   |    Available     | Optional     | Allowed |    NA   |
+|   -   |    -    |    18   |   Value - 18   |    Available     | Optional     | Allowed |    NA   |
+|   -   |    -    |    19   |   Value - 19   |    Available     | Optional     | Allowed |    NA   |
+|   -   |    -    |    20   |   Value - 20   |    Available     | Optional     | Allowed |    NA   |
 | statementTypeCode| Statement type summary or detail        |    FISERV_DETAIL   |   Fiserv Detail        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    FISERV_SUMMUARY   |   Fiserv Summuary        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    CONCORD_SUMMARY   |   Concord Summary        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    CONCORD_DETAIL   |   Concord Detail        |    Available     | Optional     | Allowed |    NA |
+|   -   |    -   |    PTI   |   PTI   |    Available     | Optional     | Allowed |    NA |
+|   -   |    -   |    FDMS   |   FDMS  |    Available     | Optional     | Allowed |    NA |
+|   -   |    -   |    BAMS_CHAIN_SUMMARY   |   BAMS Chain Summary  |    Available     | Optional     | Allowed |    NA |
 
 <!-- type: tab -->
 
@@ -6507,7 +6654,7 @@ titles: UMM, North, GMA
 | email| Statement email address        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
 | icplusStatementFormatCode| Code determining the interchange fee information the System prints on the merchant statement        |    ICPLUS_LONG_STMT   |   Icplus Long Stmt        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NONE   |   None        |    Available     | Optional     | Allowed |    NA |
-| statementDeliveryCode| Statement delivery method        |    BOTH   |   Both        |    Available     | Optional     | Allowed |    NA |
+| statementDeliveryCode| Statement delivery method        |    BULK_MAIL   |   Bulk Mail  |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    MAIL   |   Mail        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    HOLD   |   Hold        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    PRINT   |   Print        |    Available     | Optional     | Allowed |    NA |
@@ -6523,10 +6670,20 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    MAIL_TO_CORP   |   Mail To Corp        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    RECAP_NO_STMT   |   Recap No Stmt        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    MAIL_TO_OUTLET   |   Mail To Outlet        |    Available     | Optional     | Allowed |    NA |
+|   -   |    -    |    ROLLUP_TO_OUTLET   |   RollUp To Outlet   |    Available     | Optional     | Allowed |    NA   |
+|   -   |    -    |    ROLLUP_TO_CHAIN   |   RollUp To Chain   |    Available     | Optional     | Allowed |    NA   |
+|   -   |    -    |    ROLLUP_TO_CORPORATION   |   RollUp To Corporation   |    Available     | Optional     | Allowed |    NA   |
+|   -   |    -    |    DBA_RECAP_BILL_TO   |   DBA Recap Bill To   |    Available     | Optional     | Allowed |    NA   |
+|   -   |    -    |    18   |   Value - 18   |    Available     | Optional     | Allowed |    NA   |
+|   -   |    -    |    19   |   Value - 19   |    Available     | Optional     | Allowed |    NA   |
+|   -   |    -    |    20   |   Value - 20   |    Available     | Optional     | Allowed |    NA   |
 | statementTypeCode| Statement type summary or detail        |    FISERV_DETAIL   |   Fiserv Detail        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    FISERV_SUMMUARY   |   Fiserv Summuary        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    CONCORD_SUMMARY   |   Concord Summary        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    CONCORD_DETAIL   |   Concord Detail        |    Available     | Optional     | Allowed |    NA |
+|   -   |    -   |    PTI   |   PTI   |    Available     | Optional     | Allowed |    NA |
+|   -   |    -   |    FDMS   |   FDMS  |    Available     | Optional     | Allowed |    NA |
+|   -   |    -   |    BAMS_CHAIN_SUMMARY   |   BAMS Chain Summary  |    Available     | Optional     | Allowed |    NA |
 
 <!-- type: tab -->
 
@@ -7195,6 +7352,7 @@ titles: UMM, North, GMA
 | fraudFlexIndicator| Fraud Flex Detect Indicator        |    FRAUD_SCORE_PROD   |   Fraud Score Prod        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NO_FRAUD_SCORE   |   No Fraud Score        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    FRAUS_SCORE_CERT   |   Fraus Score Cert        |    Available     | Optional     | Allowed |    NA |
+|   -   |     -    |    PAYEEZY   |   Payeezy        |    Available     | Optional     | Allowed |    NA |
 | globalGatewayE4EffectiveDate| Payeezy gateway effective date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Optional     | Allowed |    NA |
 | globalGatewayE4Indicator |  Indicates if the merchant uses the Payeezy Gateway  |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    STAGED   |   Staged        |    Available     | Optional     | Allowed |    NA |
@@ -7262,6 +7420,7 @@ titles: UMM, North, GMA
 | fraudFlexIndicator| Fraud Flex Detect Indicator        |    FRAUD_SCORE_PROD   |   Fraud Score Prod        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NO_FRAUD_SCORE   |   No Fraud Score        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    FRAUS_SCORE_CERT   |   Fraus Score Cert        |    Available     | Optional     | Allowed |    NA |
+|   -   |     -    |    PAYEEZY   |   Payeezy        |    Available     | Optional     | Allowed |    NA |
 | globalGatewayE4EffectiveDate| Payeezy gateway effective date        |    STRING (max/min length - 10)   |   String (Max/Min Length: 10)        |    Available     | Optional     | Allowed |    NA |
 | globalGatewayE4Indicator |  Indicates if the merchant uses the Payeezy Gateway  |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    STAGED   |   Staged        |    Available     | Optional     | Allowed |    NA |
