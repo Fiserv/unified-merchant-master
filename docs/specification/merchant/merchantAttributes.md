@@ -52,7 +52,7 @@ titles: UMM, North, South, GMA
 **North Specification**
 | Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
 |--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
-| String |       12       |     12     |   N/A   | Required | Required |
+| String |       12       |     12     |   N/A   | Required | Required |  
 
 <!-- type: tab -->
 
@@ -274,7 +274,7 @@ titles: UMM, North, GMA
 ---
 tags: [additionalTaxInfo]
 ---
-- Description: Additional Tax Information
+- Description: Additional Tax Information.
 - List of Attributes:
 
 <!-- type: tab 
