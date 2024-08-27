@@ -846,7 +846,7 @@ titles: UMM, North, GMA
 
 <!--  type: tab-end  -->
 
-###  chargebackConfig
+### chargebackConfig
 ---
 tags: [chargebackConfig]
 ---
@@ -940,7 +940,7 @@ titles: UMM, North, GMA
 <!--  type: tab-end  -->
 
 
-###  commercialCardInterchangeService
+### commercialCardInterchangeService
 ---
 tags: [commercialCardInterchangeService]
 ---
@@ -974,7 +974,7 @@ titles: UMM, North, GMA
 
 
 
-###  compassOnNorth
+### compassOnNorth
 ---
 tags: [compassOnNorth]
 ---
@@ -1025,7 +1025,7 @@ titles: UMM, North, GMA
 
 
 
-###  compassSpecialFeatures
+### compassSpecialFeatures
 ---
 tags: [compassSpecialFeatures]
 ---
@@ -1069,7 +1069,7 @@ titles: UMM, North, GMA
 <!--  type: tab-end  -->
 
 
-###  conditionalApprovalProgram
+### conditionalApprovalProgram
 ---
 tags: [conditionalApprovalProgram]
 ---
