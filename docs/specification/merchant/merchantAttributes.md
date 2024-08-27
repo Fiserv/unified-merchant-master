@@ -208,8 +208,8 @@ titles: UMM
 ---
 tags: [acknowledgementFilePreference]
 ---
-- Description: Acknowledgement File Preference
-- List of Attributes:
+* Description: Acknowledgement File Preference
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -242,8 +242,8 @@ titles: UMM, North, GMA
 ---
 tags: [additionalBusinessInfo]
 ---
-- Description: Acknowledgement File Preference
-- List of Attributes:
+* Description: Acknowledgement File Preference
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -274,8 +274,8 @@ titles: UMM, North, GMA
 ---
 tags: [additionalTaxInfo]
 ---
-- Description: Additional Tax Information
-- List of Attributes:
+* Description: Additional Tax Information
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -309,8 +309,8 @@ titles: UMM, North, GMA
 ---
 tags: [adrp]
 ---
-- Description: Auto Decision Refund Process
-- List of Attributes:
+* Description: Auto Decision Refund Process
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -345,8 +345,8 @@ titles: UMM, North, GMA
 ---
 tags: [authMatchExclusion]
 ---
-- Description: Auth Match Exclusion
-- List of Attributes:
+* Description: Auth Match Exclusion
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -379,8 +379,8 @@ titles: UMM, North, GMA
 ---
 tags: [authSettings]
 ---
-- Description: Auth Settings
-- List of Attributes:
+* Description: Auth Settings
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -416,8 +416,8 @@ titles: UMM, North, GMA
 ---
 tags: [avsControl]
 ---
-- Description: AVS Control
-- List of Attributes:
+* Description: AVS Control
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -481,8 +481,8 @@ titles: UMM, North, GMA
 ---
 tags: [bamsDissolutionHoldingsStatus]
 ---
-- Description: Bams Dissolution Holdings Status
-- List of Attributes:
+* Description: Bams Dissolution Holdings Status
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -524,8 +524,8 @@ titles: UMM, North, GMA
 ---
 tags: [billingConfig]
 ---
-- Description: Billing cofiguration
-- List of Attributes:
+* Description: Billing cofiguration
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -573,8 +573,8 @@ titles: UMM, North, GMA
 ---
 tags: [billmatrix]
 ---
-- Description: Billmatrix
-- List of Attributes:
+* Description: Billmatrix
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -608,8 +608,8 @@ titles: UMM, North, GMA
 ---
 tags: [boardingAdditionalInfo]
 ---
-- Description: Merchant Boarding Additional Information
-- List of Attributes:
+* Description: Merchant Boarding Additional Information
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -646,8 +646,8 @@ titles: UMM, North, GMA
 ---
 tags: [cardbrandPassThruFees]
 ---
-- Description: Cardbrand Pass Thru Fees
-- List of Attributes:
+* Description: Cardbrand Pass Thru Fees
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -678,8 +678,8 @@ titles: UMM, North, GMA
 ---
 tags: [cardconnect]
 ---
-- Description: Cardconnect File Identifier
-- List of Attributes:
+* Description: Cardconnect File Identifier
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -712,8 +712,8 @@ titles: UMM, North, GMA
 ---
 tags: [cashAdvance]
 ---
-- Description: Cash Advance
-- List of Attributes:
+* Description: Cash Advance
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -775,8 +775,8 @@ titles: UMM, North, GMA
 ---
 tags: [cashAdvanceProgram]
 ---
-- Description: Cash Advance Gl Funding Program
-- List of Attributes:
+* Description: Cash Advance Gl Funding Program
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -812,8 +812,8 @@ titles: UMM, North, GMA
 ---
 tags: [channelLevelDiscoverPromotionalPvi]
 ---
-- Description: Discover Promotional Program Verification Identifier - Channel Level
-- List of Attributes:
+* Description: Discover Promotional Program Verification Identifier - Channel Level
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -850,8 +850,8 @@ titles: UMM, North, GMA
 ---
 tags: [chargebackConfig]
 ---
-- Description: chargeback Configuration
-- List of Attributes:
+* Description: chargeback Configuration
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -944,8 +944,8 @@ titles: UMM, North, GMA
 ---
 tags: [commercialCardInterchangeService]
 ---
-- Description: Commercial Card Interchange Service
-- List of Attributes:
+* Description: Commercial Card Interchange Service
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -978,8 +978,8 @@ titles: UMM, North, GMA
 ---
 tags: [compassOnNorth]
 ---
-- Description: Compass Podb Functionality On North
-- List of Attributes:
+* Description: Compass Podb Functionality On North
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1029,8 +1029,8 @@ titles: UMM, North, GMA
 ---
 tags: [compassSpecialFeatures]
 ---
-- Description: Compass Front End Generated Refund Auths
-- List of Attributes:
+* Description: Compass Front End Generated Refund Auths
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1073,8 +1073,8 @@ titles: UMM, North, GMA
 ---
 tags: [conditionalApprovalProgram]
 ---
-- Description: Conditional Approval Program
-- List of Attributes:
+* Description: Conditional Approval Program
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1119,8 +1119,8 @@ titles: UMM, North, GMA
 ---
 tags: [contract]
 ---
-- Description: Contract
-- List of Attributes:
+* Description: Contract
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1329,8 +1329,8 @@ titles: UMM, North, GMA
 ---
 tags: [contractExpirationDate]
 ---
-- Description: Contract Expiration Date Notifications/Flag
-- List of Attributes:
+* Description: Contract Expiration Date Notifications/Flag
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1367,8 +1367,8 @@ titles: UMM, North, GMA
 ---
 tags: [conversionInformation]
 ---
-- Description: Conversion  Account Source System Data
-- List of Attributes:
+* Description: Conversion  Account Source System Data
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1409,8 +1409,8 @@ titles: UMM, North, GMA
 ---
 tags: [creditSettings]
 ---
-- Description: Credit Settings
-- List of Attributes:
+* Description: Credit Settings
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1671,8 +1671,8 @@ titles: UMM, North, GMA
 ---
 tags: [crossBorderAcquiring]
 ---
-- Description: Cross Border Acquiring
-- List of Attributes:
+* Description: Cross Border Acquiring
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1711,8 +1711,8 @@ titles: UMM, North, GMA
 ---
 tags: [dccForIab]
 ---
-- Description: Dynamic Currency Conversion For International Agent Bank
-- List of Attributes:
+* Description: Dynamic Currency Conversion For International Agent Bank
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1749,8 +1749,8 @@ titles: UMM, North, GMA
 ---
 tags: [depositRequirement]
 ---
-- Description: Deposit Requirement
-- List of Attributes:
+* Description: Deposit Requirement
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1788,8 +1788,8 @@ titles: UMM, North, GMA
 ---
 tags: [disregardedEntity]
 ---
-- Description: Disregarded Entity
-- List of Attributes:
+* Description: Disregarded Entity
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1826,8 +1826,8 @@ titles: UMM, North, GMA
 ---
 tags: [earlyTerminationFee]
 ---
-- Description: Early Termination Fee
-- List of Attributes:
+* Description: Early Termination Fee
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1870,8 +1870,8 @@ titles: UMM, North, GMA
 ---
 tags: [electronicTicketCapture]
 ---
-- Description: Electronic Ticket Capture
-- List of Attributes:
+* Description: Electronic Ticket Capture
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1936,8 +1936,8 @@ titles: UMM, North, GMA
 ---
 tags: [enhanceDebitCompletionFlow]
 ---
-- Description: Enhance Debit Completion Flow For Pts Direct Send Merchants
-- List of Attributes:
+* Description: Enhance Debit Completion Flow For Pts Direct Send Merchants
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -1972,8 +1972,8 @@ titles: UMM, North, GMA
 ---
 tags: [fdggMigration]
 ---
-- Description: First Data Global Gateway Migration
-- List of Attributes:
+* Description: First Data Global Gateway Migration
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -2011,8 +2011,8 @@ titles: UMM, North, GMA
 ---
 tags: [financialBuAssignmentValues]
 ---
-- Description: Financial Bu Assignment Values
-- List of Attributes:
+* Description: Financial Bu Assignment Values
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -2075,8 +2075,8 @@ titles: UMM, North, GMA
 ---
 tags: [firstHawaiianBank]
 ---
-- Description: First Hawaiian Bank
-- List of Attributes:
+* Description: First Hawaiian Bank
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -2109,8 +2109,8 @@ titles: UMM, North, GMA
 ---
 tags: [foreignLanguageSupport]
 ---
-- Description: Foreign Language Support
-- List of Attributes:
+* Description: Foreign Language Support
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -2164,8 +2164,8 @@ titles: UMM, North, GMA
 ---
 tags: [franchise]
 ---
-- Description: Franchise
-- List of Attributes:
+* Description: Franchise
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -2199,8 +2199,8 @@ titles: UMM, North, GMA
 ---
 tags: [fraudAndAccountTakeoverRisk]
 ---
-- Description: Fraud And Account Takeover Risk
-- List of Attributes:
+* Description: Fraud And Account Takeover Risk
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -2235,8 +2235,8 @@ titles: UMM, North, GMA
 ---
 tags: [freeProcessing]
 ---
-- Description: Free Processing
-- List of Attributes:
+* Description: Free Processing
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -2273,8 +2273,8 @@ titles: UMM, North, GMA
 ---
 tags: [fundingConfig]
 ---
-- Description: Free Processing
-- List of Attributes:
+* Description: Free Processing
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -3177,8 +3177,8 @@ titles: UMM, North, GMA
 ---
 tags: [globalCurrencySolutions]
 ---
-- Description: Global Currency Solutions
-- List of Attributes:
+* Description: Global Currency Solutions
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -3220,8 +3220,8 @@ titles: UMM, North, GMA
 ---
 tags: [highRiskMonitoring]
 ---
-- Description: High Risk Monitoring
-- List of Attributes:
+* Description: High Risk Monitoring
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -3293,8 +3293,8 @@ titles: UMM, North, GMA
 ---
 tags: [inHouseAuthConfig]
 ---
-- Description: InHouse Auth Configuration
-- List of Attributes:
+* Description: InHouse Auth Configuration
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -3332,8 +3332,8 @@ titles: UMM, North, GMA
 ---
 tags: [indemnification]
 ---
-- Description: Indemnification
-- List of Attributes:
+* Description: Indemnification
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -3382,8 +3382,8 @@ titles: UMM, North, GMA
 ---
 tags: [independentSoftwareVendor]
 ---
-- Description: Independent Software Vendor (Isv) Global Indicator
-- List of Attributes:
+* Description: Independent Software Vendor (Isv) Global Indicator
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -3417,8 +3417,8 @@ titles: UMM, North, GMA
 ---
 tags: [internalItUse]
 ---
-- Description: Internal It Use - Trigger Feeds And Save Data
-- List of Attributes:
+* Description: Internal It Use - Trigger Feeds And Save Data
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -3461,8 +3461,8 @@ titles: UMM, North, GMA
 ---
 tags: [iolCanadianVatRegNumber]
 ---
-- Description: Iol Canadian Vat Reg Number
-- List of Attributes:
+* Description: Iol Canadian Vat Reg Number
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -3498,8 +3498,8 @@ titles: UMM, North, GMA
 ---
 tags: [irsSupplementalInformation]
 ---
-- Description: Irs Supplemental Information
-- List of Attributes:
+* Description: Irs Supplemental Information
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -3559,8 +3559,8 @@ titles: UMM, North, GMA
 ---
 tags: [isoServices]
 ---
-- Description: Iso Services
-- List of Attributes:
+* Description: Iso Services
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -3610,8 +3610,8 @@ titles: UMM, North, GMA
 ---
 tags: [keyReferenceNumber]
 ---
-- Description: Key Reference Number
-- List of Attributes:
+* Description: Key Reference Number
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -3649,8 +3649,8 @@ titles: UMM, North, GMA
 ---
 tags: [merchantCountryOfOrigin]
 ---
-- Description: Merchant Country Of Origin
-- List of Attributes:
+* Description: Merchant Country Of Origin
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -4178,8 +4178,8 @@ titles: UMM, North, GMA
 ---
 tags: [merchantFraudAndSecurity]
 ---
-- Description: Merchant Fraud And Security
-- List of Attributes:
+* Description: Merchant Fraud And Security
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -4217,8 +4217,8 @@ titles: UMM, North, GMA
 ---
 tags: [merchantFrontEnds]
 ---
-- Description: Merchant Front Ends
-- List of Attributes:
+* Description: Merchant Front Ends
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -4322,8 +4322,8 @@ titles: UMM, North, GMA
 ---
 tags: [merchantLiteConfig]
 ---
-- Description: Merchant Lite Configuration
-- List of Attributes:
+* Description: Merchant Lite Configuration
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -4361,8 +4361,8 @@ titles: UMM, North, GMA
 ---
 tags: [merchantMunicipality]
 ---
-- Description: Merchant Municipality
-- List of Attributes:
+* Description: Merchant Municipality
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -4401,8 +4401,8 @@ titles: UMM, North, GMA
 ---
 tags: [merchantPortfolioType]
 ---
-- Description: Merchant Portfolio Type
-- List of Attributes:
+* Description: Merchant Portfolio Type
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -4450,8 +4450,8 @@ titles: UMM, North, GMA
 ---
 tags: [merchantPricingStructure]
 ---
-- Description: Merchant Pricing Structure
-- List of Attributes:
+* Description: Merchant Pricing Structure
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -4489,8 +4489,8 @@ titles: UMM, North, GMA
 ---
 tags: [miniPromoForStationOutage]
 ---
-- Description: Mini Promo For Station Outage
-- List of Attributes:
+* Description: Mini Promo For Station Outage
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -4528,8 +4528,8 @@ titles: UMM, North, GMA
 ---
 tags: [miscReporting]
 ---
-- Description: MISC
-- List of Attributes:
+* Description: MISC
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -4704,8 +4704,8 @@ titles: UMM, North, GMA
 ---
 tags: [miscellaneous]
 ---
-- Description: miscellaneous
-- List of Attributes:
+* Description: miscellaneous
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5012,8 +5012,8 @@ titles: UMM, North, GMA
 ---
 tags: [modelAfterMerchant]
 ---
-- Description: Model After Merchant For Boarding Usage
-- List of Attributes:
+* Description: Model After Merchant For Boarding Usage
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5051,8 +5051,8 @@ titles: UMM, North, GMA
 ---
 tags: [msipDetails]
 ---
-- Description: MSIP Details
-- List of Attributes:
+* Description: MSIP Details
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5292,8 +5292,8 @@ titles: UMM, North, GMA
 ---
 tags: [mvbEmergingMarkets]
 ---
-- Description: Mvb Emerging Markets
-- List of Attributes:
+* Description: Mvb Emerging Markets
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5339,8 +5339,8 @@ titles: UMM, North, GMA
 ---
 tags: [nationalAccountId]
 ---
-- Description: National Account Underwriting Account Id
-- List of Attributes:
+* Description: National Account Underwriting Account Id
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5376,8 +5376,8 @@ titles: UMM, North, GMA
 ---
 tags: [omahaDebitSuspenseItemsRelease]
 ---
-- Description: Omaha Dd-623 Debit  Suspense Items Release - Channel Level
-- List of Attributes:
+* Description: Omaha Dd-623 Debit  Suspense Items Release - Channel Level
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5414,8 +5414,8 @@ titles: UMM, North, GMA
 ---
 tags: [onBoardingDetails]
 ---
-- Description: OnBoarding Details
-- List of Attributes:
+* Description: OnBoarding Details
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5502,8 +5502,8 @@ titles: UMM, North, GMA
 ---
 tags: [panMasking]
 ---
-- Description: Pan Masking
-- List of Attributes:
+* Description: Pan Masking
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5538,8 +5538,8 @@ titles: UMM, North, GMA
 ---
 tags: [pathwardBankwire]
 ---
-- Description: Pathward Bankwire
-- List of Attributes:
+* Description: Pathward Bankwire
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5571,8 +5571,8 @@ titles: UMM, North, GMA
 ---
 tags: [pathwardEmergingMarkets]
 ---
-- Description: Pathward Emerging Markets
-- List of Attributes:
+* Description: Pathward Emerging Markets
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5614,8 +5614,8 @@ titles: UMM, North, GMA
 ---
 tags: [paymentFacilitator]
 ---
-- Description: Payment Service Provider/Payment Facilitator
-- List of Attributes:
+* Description: Payment Service Provider/Payment Facilitator
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5701,8 +5701,8 @@ titles: UMM, North, GMA
 ---
 tags: [platformSwitch3CrossReference]
 ---
-- Description: Platform Switch 3 Cross Reference
-- List of Attributes:
+* Description: Platform Switch 3 Cross Reference
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5736,8 +5736,8 @@ titles: UMM, North, GMA
 ---
   tags: [pricingMthdDisclosures]
 ---
-- Description: Pricing Method Disclosures
-- List of Attributes:
+* Description: Pricing Method Disclosures
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5830,8 +5830,8 @@ titles: UMM, North, GMA
 ---
 tags: [promotion]
 ---
-- Description: Promotion Tracking
-- List of Attributes:
+* Description: Promotion Tracking
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5878,8 +5878,8 @@ titles: UMM, North, GMA
 ---
 tags: [prop51Conversion]
 ---
-- Description: Prop 51 Conversion
-- List of Attributes:
+* Description: Prop 51 Conversion
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5918,8 +5918,8 @@ titles: UMM, North, GMA
 ---
 tags: [purchaseReturnAuthAutomation]
 ---
-- Description: Purchase Return Authorization Automation
-- List of Attributes:
+* Description: Purchase Return Authorization Automation
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5958,8 +5958,8 @@ titles: UMM, North, GMA
 ---
 tags: [rapidDepositExceptionStatus]
 ---
-- Description: Rapid Deposit Exception Status
-- List of Attributes:
+* Description: Rapid Deposit Exception Status
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6000,8 +6000,8 @@ titles: UMM, North, GMA
 ---
 tags: [rateLock]
 ---
-- Description: Rate Lock
-- List of Attributes:
+* Description: Rate Lock
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6046,8 +6046,8 @@ titles: UMM, North, GMA
 ---
 tags: [recurringPayment]
 ---
-- Description: Recurring Payment
-- List of Attributes:
+* Description: Recurring Payment
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6100,8 +6100,8 @@ titles: UMM, North, GMA
 ---
 tags: [referencedDeposit]
 ---
-- Description: Referenced Deposit
-- List of Attributes:
+* Description: Referenced Deposit
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6142,8 +6142,8 @@ titles: UMM, North, GMA
 ---
 tags: [restrictedUseTransmatchRewards]
 ---
-- Description: Restricted Use Transmatch Rewards Program
-- List of Attributes:
+* Description: Restricted Use Transmatch Rewards Program
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6182,8 +6182,8 @@ titles: UMM, North, GMA
 ---
 tags: [retrievalConfig]
 ---
-- Description: Retrievals Config
-- List of Attributes:
+* Description: Retrievals Config
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6300,8 +6300,8 @@ titles: UMM, North, GMA
 ---
 tags: [rtp]
 ---
-- Description: Rtp
-- List of Attributes:
+* Description: Rtp
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6339,8 +6339,8 @@ titles: UMM, North, GMA
 ---
 tags: [sameDaySettlement]
 ---
-- Description: Same Day Settlement
-- List of Attributes:
+* Description: Same Day Settlement
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6387,8 +6387,8 @@ titles: UMM, North, GMA
 ---
 tags: [selectiveDivert]
 ---
-- Description: Negative Bankwire Selective Divert
-- List of Attributes:
+* Description: Negative Bankwire Selective Divert
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6427,8 +6427,8 @@ titles: UMM, North, GMA
 ---
 tags: [settlementConfig]
 ---
-- Description: Settlement Config
-- List of Attributes:
+* Description: Settlement Config
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6553,8 +6553,8 @@ titles: UMM, North, GMA
 ---
 tags: [signatureCapture]
 ---
-- Description: Signature Capture
-- List of Attributes:
+* Description: Signature Capture
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6597,8 +6597,8 @@ titles: UMM, North, GMA
 ---
 tags: [southFrontEndBridge]
 ---
-- Description: Sfe Sunset Bridge Merchant Conversions
-- List of Attributes:
+* Description: Sfe Sunset Bridge Merchant Conversions
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6637,8 +6637,8 @@ titles: UMM, North, GMA
 ---
 tags: [southHdcLateCutC]
 ---
-- Description: South Platform Hdc Late Batch Cut C
-- List of Attributes:
+* Description: South Platform Hdc Late Batch Cut C
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6677,8 +6677,8 @@ titles: UMM, North, GMA
 ---
 tags: [statementConfig]
 ---
-- Description: Statement Config
-- List of Attributes:
+* Description: Statement Config
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -6765,8 +6765,8 @@ titles: UMM, North, GMA
 ---
 tags: [stockExchange]
 ---
-- Description: Stock Exchange/Ctry Name
-- List of Attributes:
+* Description: Stock Exchange/Ctry Name
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -7362,8 +7362,8 @@ titles: UMM, North, GMA
 ---
 tags: [sunocoAutoboarding]
 ---
-- Description: Sunoco Autoboarding
-- List of Attributes:
+* Description: Sunoco Autoboarding
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -7402,8 +7402,8 @@ titles: UMM, North, GMA
 ---
 tags: [transactionControl]
 ---
-- Description: Transaction Control
-- List of Attributes:
+* Description: Transaction Control
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -7562,8 +7562,8 @@ titles: UMM, North, GMA
 ---
 tags: [trustKeeper]
 ---
-- Description: Trust Keeper
-- List of Attributes:
+* Description: Trust Keeper
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -7610,8 +7610,8 @@ titles: UMM, North, GMA
 ---
 tags: [wfbCanadaEmergingMarkets]
 ---
-- Description: Wfb Canada Emerging Markets
-- List of Attributes:
+* Description: Wfb Canada Emerging Markets
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -7650,8 +7650,8 @@ titles: UMM, North, GMA
 ---
 tags: [wfbSurcharge]
 ---
-- Description: Wfpg Surcharge Acct
-- List of Attributes:
+* Description: Wfpg Surcharge Acct
+* List of Attributes:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
