@@ -1,18 +1,18 @@
 # Merchant Attributes
 
-* **Description**: List of fields grouped under logical **Domains** and stored as key-value(s) pair as attributes.
-  * Example of a **Domain**: [chargebackConfig](#-chargebackconfig) is a **domain** that groups all fields called as **Attributes** those configures chargeback related processing for a merchant. Example of some attributes are:
-    * Chargeback Address code indicating where chargeback related information sent
-    * Chargeback Pre-note Days
-  * See [list of Domains](#list-of-domains)
-* **API section**: merchantAttributes
-* **Table Name**: UMM.MERCHANT_ATTRIBUTES
-* **How to Retrieve attributes from Snowflake Data tables?**:
-  * Master Tables: Attributes are defined using two Master tables in UMM
-    * UMM.DOMAIN_MASTER : Contains the definition of the Domain
-    * UMM.ATTRIBUTE_MASTER: Contains the definition of the attributes and tied to Domain
-  * UMM.MERCHANT_ATTRIBUTES stores the ID of the UMM.ATTRIBUTE_MASTER for each attributes
-  * Sample Query to pull the attributes:
+<ul><li> **Description**: List of fields grouped under logical **Domains** and stored as key-value(s) pair as attributes.
+<ul><li>Example of a **Domain**: [chargebackConfig](#-chargebackconfig) is a **domain** that groups all fields called as **Attributes** those configures chargeback related processing for a merchant. Example of some attributes are:
+<ul><li>Chargeback Address code indicating where chargeback related information sent</li>
+<li>Chargeback Pre-note Days</li></ul>
+<li>See [list of Domains](#list-of-domains)</li></ul></li>
+<li>**API section**: merchantAttributes</li>
+<li>**Table Name**: UMM.MERCHANT_ATTRIBUTES</li>
+<li>**How to Retrieve attributes from Snowflake Data tables?**:
+<ul><li>Master Tables: Attributes are defined using two Master tables in UMM</li>
+<li>UMM.DOMAIN_MASTER : Contains the definition of the Domain</li>
+<li>UMM.ATTRIBUTE_MASTER: Contains the definition of the attributes and tied to Domain</li>
+<li>UMM.MERCHANT_ATTRIBUTES stores the ID of the UMM.ATTRIBUTE_MASTER for each attributes</li>
+<li>Sample Query to pull the attributes:
 
   ```
   SELECT
@@ -29,14 +29,15 @@
     AND DM.DOMAIN = 'chargebackConfig'
     AND EFFECTIVE_END_DATE is NULL;
   ```
+</li></ul></li></ul>
 
 ## List of Fields
 
 ### MERCHANT_ID
 
-* Description: Backend unique identifier for a merchant.
-* API field: merchantId
-* Field Specification:
+<ul><li>Description: Backend unique identifier for a merchant.</li>
+<li>API field: merchantId</li>
+<li>Field Specification:
 
 <!-- type: tab 
 titles: UMM, North, South, GMA 
@@ -72,6 +73,7 @@ titles: UMM, North, South, GMA
 <!-- 
 type: tab-end 
 -->
+</li></ul>
 
 ---
 
