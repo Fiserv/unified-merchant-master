@@ -35,7 +35,7 @@
 ### MERCHANT_ID
 
 * Description: Backend unique identifier for a merchant.
-* API field: merchantId
+* API field: merchantId 
 * Field Specification:
 
 <!-- type: tab 
