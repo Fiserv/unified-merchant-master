@@ -185,6 +185,7 @@ titles: UMM
 ---
 
 tags: [acknowledgementFilePreference]
+
 ---
 
 * Description: Acknowledgement File Preference
@@ -2005,7 +2006,7 @@ titles: UMM, North, GMA
 | financePortfolio| Finance Portfolio        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |
 | fmgGroupCode | Fmg Group Code        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |
 | fmgMarkerBank | Fmg Marker Bank        |    STRING - Alphanumeric   |   String - Alphanumeric        |    Available     | Optional     | Allowed |    NA |
-| futureUse1 | Future Use 1        |    Available     | Optional     | Allowed |    NA |
+| futureUse1    | Future Use 1           |                            |                                |    Available     | Optional     | Allowed |    NA |
 | futureUse2 | Future Use 2        |       |           |    Available     | Optional     | Allowed |    NA |
 | globalClientDescription | Global Client Description        |    STRING   |   String        |    Available     | Optional     | Allowed |    NA |
 | globalClientId| Global Client Id        |    STRING containing digits only   |   String Containing Digits Only        |    Available     | Optional     | Allowed |    NA |
@@ -2621,12 +2622,12 @@ titles: UMM, North, GMA
 | fundingRppMinimumAmount| Revolving payment plan minimum dollar amount        |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Optional     | Allowed |    NA |
 | fundingRppMinimumReserveAmount| Revolving payment plan minimum reserve amount        |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Optional     | Allowed |    NA |
 | fundingRppPercent| Revolving payment plan percent        |    STRING - Digits only - no decimal (max length - 3, min - 1)   |   String - Digits Only - No Decimal (Max Length: 3, Min Length: 1)        |    Available     | Optional     | Allowed |    NA |
-| fundingRunCode| Merchant Funding Run        |    FUNDING_RUN6   |   Funding Run6        |    Available     | Optional     | Allowed |    NA |
-|                     |                                            |   Funding Runs        |    Available     | Optional     | Allowed |    NA |
-|                     |                                            |   Funding Run4        |    Available     | Optional     | Allowed |    NA |
-|                     |                                            |   Funding Run1        |    Available     | Optional     | Allowed |    NA |
-|                     |                                            |   Funding Run2        |    Available     | Optional     | Allowed |    NA |
-|                     |                                            |   Funding Run3        |    Available     | Optional     | Allowed |    NA |
+| fundingRunCode| Merchant Funding Run        |    FUNDING_RUN6     |   Funding Run6        |    Available     | Optional     | Allowed |    NA |
+|                     |                       |                     |   Funding Runs        |    Available     | Optional     | Allowed |    NA |
+|                     |                       |                     |   Funding Run4        |    Available     | Optional     | Allowed |    NA |
+|                     |                       |                     |   Funding Run1        |    Available     | Optional     | Allowed |    NA |
+|                     |                       |                     |   Funding Run2        |    Available     | Optional     | Allowed |    NA |
+|                     |                       |                     |   Funding Run3        |    Available     | Optional     | Allowed |    NA |
 | interchangeAssessmentsBankSequenceNumber| Funding Bank Sequence  |    REMIT   |   Remit  |    Available     | Optional     | Allowed |    NA |
 |       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
 |       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
@@ -3085,11 +3086,11 @@ titles: UMM, North, GMA
 | fundingRppMinimumReserveAmount| Revolving payment plan minimum reserve amount        |    STRING - Digits only - no decimal (max length - 9, min - 1)   |   String - Digits Only - No Decimal (Max Length: 9, Min Length: 1)        |    Available     | Optional     | Allowed |    NA |
 | fundingRppPercent| Revolving payment plan percent        |    STRING - Digits only - no decimal (max length - 3, min - 1)   |   String - Digits Only - No Decimal (Max Length: 3, Min Length: 1)        |    Available     | Optional     | Allowed |    NA |
 | fundingRunCode| Merchant Funding Run        |    FUNDING_RUN6   |   Funding Run6        |    Available     | Optional     | Allowed |    NA |
-|                     |                                            |   Funding Runs        |    Available     | Optional     | Allowed |    NA |
-|                     |                                            |   Funding Run4        |    Available     | Optional     | Allowed |    NA |
-|                     |                                            |   Funding Run1        |    Available     | Optional     | Allowed |    NA |
-|                     |                                            |   Funding Run2        |    Available     | Optional     | Allowed |    NA |
-|                     |                                            |   Funding Run3        |    Available     | Optional     | Allowed |    NA |
+|                     |                       |                     |   Funding Runs        |    Available     | Optional     | Allowed |    NA |
+|                     |                       |                    |   Funding Run4        |    Available     | Optional     | Allowed |    NA |
+|                     |                      |                      |   Funding Run1        |    Available     | Optional     | Allowed |    NA |
+|                     |                      |                      |   Funding Run2        |    Available     | Optional     | Allowed |    NA |
+|                     |                      |                      |   Funding Run3        |    Available     | Optional     | Allowed |    NA |
 | interchangeAssessmentsBankSequenceNumber| Funding Bank Sequence  |    REMIT   |   Remit  |    Available     | Optional     | Allowed |    NA |
 |       |      |    DDA1   |   DDA#1   |    Available     | Optional     | Allowed |  NA |
 |       |      |    DDA2   |   DDA#2   |    Available     | Optional     | Allowed |  NA |
@@ -5584,8 +5585,8 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    MARKETPLACE_CLIENT   |   Marketplace Client        |    Available     | Optional     | Allowed |    NA |
 | parentId| Parent ID        |       |           |    Available     | Optional     | Allowed |    NA |
 | participantType| Participant Type        |    C_PARTICIPANT   |   C Participant        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |   A Participant        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    B_PARTICIPANT   |   B Participant        |    Available     | Optional     | Allowed |    NA |
+|          -            |                 -   |                 |   A Participant        |    Available     | Optional     | Allowed |    NA |
+|          -            |                 -   |  B_PARTICIPANT   |   B Participant        |    Available     | Optional     | Allowed |    NA |
 | pfIdAmex| Payment Facilitator Id Amex        |       |           |    Available     | Optional     | Allowed |    NA |
 | pfIdDscv| Payment Facilitator Id Discover        |       |           |    Available     | Optional     | Allowed |    NA |
 | pfIdMc| Payment Facilitator Id Mc        |       |           |    Available     | Optional     | Allowed |    NA |
@@ -5614,8 +5615,8 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    MARKETPLACE_CLIENT   |   Marketplace Client        |    Available     | Optional     | Allowed |    NA |
 | parentId| Parent ID        |       |           |    Available     | Optional     | Allowed |    NA |
 | participantType| Participant Type        |    C_PARTICIPANT   |   C Participant        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |   A Participant        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    B_PARTICIPANT   |   B Participant        |    Available     | Optional     | Allowed |    NA |
+|          -            |             -    |                    |   A Participant        |    Available     | Optional     | Allowed |    NA |
+|          -            |             -    |    B_PARTICIPANT   |   B Participant        |    Available     | Optional     | Allowed |    NA |
 | pfIdAmex| Payment Facilitator Id Amex        |       |           |    Available     | Optional     | Allowed |    NA |
 | pfIdDscv| Payment Facilitator Id Discover        |       |           |    Available     | Optional     | Allowed |    NA |
 | pfIdMc| Payment Facilitator Id Mc        |       |           |    Available     | Optional     | Allowed |    NA |
