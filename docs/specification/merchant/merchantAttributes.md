@@ -14,7 +14,9 @@
   * UMM.MERCHANT_ATTRIBUTES stores the ID of the UMM.ATTRIBUTE_MASTER for each attributes
   * Sample Query to pull the attributes:
 
-  `SELECT
+  ```text
+  
+   SELECT
     DM.DOMAIN,
     DM.DESCRIPTION as DOMAIN_DESCRIPTION,
     ATTRMASTER.NAME,
@@ -26,7 +28,9 @@
   WHERE MA.MERCHANT_ID = '208201019881'
     AND MA.PLATFORM_CODE = 'NORTH'
     AND DM.DOMAIN = 'chargebackConfig'
-    AND EFFECTIVE_END_DATE is NULL;`
+    AND EFFECTIVE_END_DATE is NULL;
+
+  ```
 
 ## List of Fields
 
