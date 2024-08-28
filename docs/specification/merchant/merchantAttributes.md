@@ -76,8 +76,6 @@ titles: UMM, North, South, GMA
 * API field: platformCode
 * Field Specification: See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
 
-<!-- type: tab-end -->
-
 ---
 
 ### ATTRIBUTE_ID
