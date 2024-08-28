@@ -1,7 +1,7 @@
 ### Merchant Attributes
 
 * **Description**: List of fields grouped under logical **Domains** and stored as key-value(s) pair as attributes.
-  * Example of a **Domain**: [chargebackConfig](#-chargebackconfig) is a **domain** that groups all fields called as **Attributes** those configures chargeback related processing for a merchant. Example of some attributes are:
+  * Example of a **Domain**: chargebackConfig is a **domain** that groups all fields called as **Attributes** those configures chargeback related processing for a merchant. Example of some attributes are:
     * Chargeback Address code indicating where chargeback related information sent
     * Chargeback Pre-note Days
   * See [list of Domains](#list-of-domains)
@@ -14,8 +14,9 @@
   * UMM.MERCHANT_ATTRIBUTES stores the ID of the UMM.ATTRIBUTE_MASTER for each attributes
   * Sample Query to pull the attributes:
 
-  ```
-  SELECT
+  ```text
+  
+   SELECT
     DM.DOMAIN,
     DM.DESCRIPTION as DOMAIN_DESCRIPTION,
     ATTRMASTER.NAME,
@@ -28,6 +29,7 @@
     AND MA.PLATFORM_CODE = 'NORTH'
     AND DM.DOMAIN = 'chargebackConfig'
     AND EFFECTIVE_END_DATE is NULL;
+
   ```
 
 ## List of Fields
@@ -81,10 +83,11 @@ titles: UMM, North, South, GMA
 ### ATTRIBUTE_ID
 
 * Description: UMM defined attribute ID. See the query above for further details.
-* API field: Not applicable - domain and attribute name along with respective descriptions are returned. Sample payload shows the domain chargebackConfig and the list of attributes under that domain.
+* API field: Not applicable - domain and attribute name along with respective descriptions are returned. Sample payload shows the domain  and the list of attributes under that domain.
   * Please see [List of Domains](#list-of-domains) for available domains and attributes.
 
-  ```
+```text
+
 "merchantAttributes": {
                 "chargebackConfig": {
                     "domainDescription": "chargeback Configuration",
@@ -144,6 +147,7 @@ titles: UMM, North, South, GMA
                     }
                 }
             }                 
+
 ```
 
 * Field Specification:
@@ -844,6 +848,7 @@ titles: UMM, North, GMA
 | NA | NA  | NA | NA |  NA  |  NA  |  NA  | NA |
 
 <!-- type: tab-end -->
+
 
 ### chargebackConfig
 
