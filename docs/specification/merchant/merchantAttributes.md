@@ -225,6 +225,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [additionalBusinessInfo]
+
 ---
 
 * Description: Acknowledgement File Preference
@@ -258,6 +259,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [additionalTaxInfo]
+
 ---
 
 * Description: Additional Tax Information
@@ -295,6 +297,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [adrp]
+
 ---
 
 * Description: Auto Decision Refund Process
@@ -332,6 +335,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [authMatchExclusion]
+
 ---
 
 * Description: Auth Match Exclusion
@@ -367,6 +371,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [authSettings]
+
 ---
 
 * Description: Auth Settings
@@ -406,6 +411,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [avsControl]
+
 ---
 
 * Description: AVS Control
@@ -472,6 +478,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [bamsDissolutionHoldingsStatus]
+
 ---
 
 * Description: Bams Dissolution Holdings Status
@@ -515,6 +522,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [billingConfig]
+
 ---
 
 * Description: Billing cofiguration
@@ -568,6 +576,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [billmatrix]
+
 ---
 
 * Description: Billmatrix
@@ -603,6 +612,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [boardingAdditionalInfo]
+
 ---
 
 * Description: Merchant Boarding Additional Information
@@ -643,6 +653,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [cardbrandPassThruFees]
+
 ---
 
 * Description: Cardbrand Pass Thru Fees
@@ -676,6 +687,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [cardconnect]
+
 ---
 
 * Description: Cardconnect File Identifier
@@ -711,6 +723,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [cashAdvance]
+
 ---
 
 * Description: Cash Advance
@@ -778,6 +791,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [cashAdvanceProgram]
+
 ---
 
 * Description: Cash Advance Gl Funding Program
@@ -815,6 +829,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [channelLevelDiscoverPromotionalPvi]
+
 ---
 
 * Description: Discover Promotional Program Verification Identifier - Channel Level
@@ -855,6 +870,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [chargebackConfig]
+
 ---
 
 * Description: chargeback Configuration
@@ -948,6 +964,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [commercialCardInterchangeService]
+
 ---
 
 * Description: Commercial Card Interchange Service
@@ -981,6 +998,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [compassOnNorth]
+
 ---
 
 * Description: Compass Podb Functionality On North
@@ -1030,6 +1048,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [compassSpecialFeatures]
+
 ---
 
 * Description: Compass Front End Generated Refund Auths
@@ -1073,6 +1092,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [conditionalApprovalProgram]
+
 ---
 
 * Description: Conditional Approval Program
@@ -1120,6 +1140,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [contract]
+
 ---
 
 * Description: Contract
@@ -1337,6 +1358,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [contractExpirationDate]
+
 ---
 
 * Description: Contract Expiration Date Notifications/Flag
@@ -1372,6 +1394,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [conversionInformation]
+
 ---
 
 * Description: Conversion  Account Source System Data
@@ -1411,6 +1434,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [creditSettings]
+
 ---
 
 * Description: Credit Settings
@@ -1670,6 +1694,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [crossBorderAcquiring]
+
 ---
 
 * Description: Cross Border Acquiring
@@ -1707,6 +1732,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [dccForIab]
+
 ---
 
 * Description: Dynamic Currency Conversion For International Agent Bank
@@ -1742,6 +1768,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [depositRequirement]
+
 ---
 
 * Description: Deposit Requirement
@@ -1779,6 +1806,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [disregardedEntity]
+
 ---
 
 * Description: Disregarded Entity
@@ -1814,6 +1842,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [earlyTerminationFee]
+
 ---
 
 * Description: Early Termination Fee
@@ -1855,6 +1884,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [electronicTicketCapture]
+
 ---
 
 * Description: Electronic Ticket Capture
@@ -1920,6 +1950,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [enhanceDebitCompletionFlow]
+
 ---
 
 * Description: Enhance Debit Completion Flow For Pts Direct Send Merchants
@@ -1955,6 +1986,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [fdggMigration]
+
 ---
 
 * Description: First Data Global Gateway Migration
@@ -1992,6 +2024,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [financialBuAssignmentValues]
+
 ---
 
 * Description: Financial Bu Assignment Values
@@ -2053,6 +2086,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [firstHawaiianBank]
+
 ---
 
 * Description: First Hawaiian Bank
@@ -2086,6 +2120,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [foreignLanguageSupport]
+
 ---
 
 * Description: Foreign Language Support
@@ -2141,6 +2176,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [franchise]
+
 ---
 
 * Description: Franchise
@@ -2176,6 +2212,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [fraudAndAccountTakeoverRisk]
+
 ---
 
 * Description: Fraud And Account Takeover Risk
@@ -2211,6 +2248,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [freeProcessing]
+
 ---
 
 * Description: Free Processing
@@ -2248,6 +2286,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [fundingConfig]
+
 ---
 
 * Description: Free Processing
@@ -3195,6 +3234,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [globalCurrencySolutions]
+
 ---
 
 * Description: Global Currency Solutions
@@ -3236,6 +3276,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [highRiskMonitoring]
+
 ---
 
 * Description: High Risk Monitoring
@@ -3307,6 +3348,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [inHouseAuthConfig]
+
 ---
 
 * Description: InHouse Auth Configuration
@@ -3344,6 +3386,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [indemnification]
+
 ---
 
 * Description: Indemnification
@@ -3391,6 +3434,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [independentSoftwareVendor]
+
 ---
 
 * Description: Independent Software Vendor (Isv) Global Indicator
@@ -3424,6 +3468,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [internalItUse]
+
 ---
 
 * Description: Internal It Use - Trigger Feeds And Save Data
@@ -3465,6 +3510,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [iolCanadianVatRegNumber]
+
 ---
 
 * Description: Iol Canadian Vat Reg Number
@@ -3498,6 +3544,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [irsSupplementalInformation]
+
 ---
 
 * Description: Irs Supplemental Information
@@ -3557,6 +3604,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [isoServices]
+
 ---
 
 * Description: Iso Services
@@ -3604,6 +3652,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [keyReferenceNumber]
+
 ---
 
 * Description: Key Reference Number
@@ -3639,6 +3688,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [merchantCountryOfOrigin]
+
 ---
 
 * Description: Merchant Country Of Origin
@@ -4162,6 +4212,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [merchantFraudAndSecurity]
+
 ---
 
 * Description: Merchant Fraud And Security
@@ -4195,6 +4246,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [merchantFrontEnds]
+
 ---
 
 * Description: Merchant Front Ends
@@ -4294,6 +4346,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [merchantLiteConfig]
+
 ---
 
 * Description: Merchant Lite Configuration
@@ -4331,6 +4384,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [merchantMunicipality]
+
 ---
 
 * Description: Merchant Municipality
@@ -4366,6 +4420,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [merchantPortfolioType]
+
 ---
 
 * Description: Merchant Portfolio Type
@@ -4409,6 +4464,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [merchantPricingStructure]
+
 ---
 
 * Description: Merchant Pricing Structure
@@ -4442,6 +4498,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [miniPromoForStationOutage]
+
 ---
 
 * Description: Mini Promo For Station Outage
@@ -4475,6 +4532,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [miscReporting]
+
 ---
 
 * Description: MISC
@@ -4650,6 +4708,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [miscellaneous]
+
 ---
 
 * Description: miscellaneous
@@ -4981,6 +5040,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [modelAfterMerchant]
+
 ---
 
 * Description: Model After Merchant For Boarding Usage
@@ -5014,6 +5074,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [msipDetails]
+
 ---
 
 * Description: MSIP Details
@@ -5251,6 +5312,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [mvbEmergingMarkets]
+
 ---
 
 * Description: Mvb Emerging Markets
@@ -5294,6 +5356,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [nationalAccountId]
+
 ---
 
 * Description: National Account Underwriting Account Id
@@ -5327,6 +5390,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [omahaDebitSuspenseItemsRelease]
+
 ---
 
 * Description: Omaha Dd-623 Debit  Suspense Items Release - Channel Level
@@ -5362,6 +5426,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [onBoardingDetails]
+
 ---
 
 * Description: OnBoarding Details
@@ -5457,6 +5522,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [panMasking]
+
 ---
 
 * Description: Pan Masking
@@ -5490,6 +5556,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [pathwardBankwire]
+
 ---
 
 * Description: Pathward Bankwire
@@ -5523,6 +5590,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [pathwardEmergingMarkets]
+
 ---
 
 * Description: Pathward Emerging Markets
@@ -5565,6 +5633,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [paymentFacilitator]
+
 ---
 
 * Description: Payment Service Provider/Payment Facilitator
@@ -5650,6 +5719,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [platformSwitch3CrossReference]
+
 ---
 
 * Description: Platform Switch 3 Cross Reference
@@ -5683,6 +5753,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [pricingMthdDisclosures]
+
 ---
 
 * Description: Pricing Method Disclosures
@@ -5772,6 +5843,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [promotion]
+
 ---
 
 * Description: Promotion Tracking
@@ -5813,6 +5885,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [prop51Conversion]
+
 ---
 
 * Description: Prop 51 Conversion
@@ -5848,6 +5921,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [purchaseReturnAuthAutomation]
+
 ---
 
 * Description: Purchase Return Authorization Automation
@@ -5883,6 +5957,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [rapidDepositExceptionStatus]
+
 ---
 
 * Description: Rapid Deposit Exception Status
@@ -5920,6 +5995,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [rateLock]
+
 ---
 
 * Description: Rate Lock
@@ -5961,6 +6037,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [recurringPayment]
+
 ---
 
 * Description: Recurring Payment
@@ -6010,6 +6087,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [referencedDeposit]
+
 ---
 
 * Description: Referenced Deposit
@@ -6047,6 +6125,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [restrictedUseTransmatchRewards]
+
 ---
 
 * Description: Restricted Use Transmatch Rewards Program
@@ -6082,6 +6161,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [retrievalConfig]
+
 ---
 
 * Description: Retrievals Config
@@ -6223,6 +6303,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [rtp]
+
 ---
 
 * Description: Rtp
@@ -6258,6 +6339,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [sameDaySettlement]
+
 ---
 
 * Description: Same Day Settlement
@@ -6301,6 +6383,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [selectiveDivert]
+
 ---
 
 * Description: Negative Bankwire Selective Divert
@@ -6336,6 +6419,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [settlementConfig]
+
 ---
 
 * Description: Settlement Config
@@ -6492,6 +6576,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [signatureCapture]
+
 ---
 
 * Description: Signature Capture
@@ -6531,6 +6616,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [southFrontEndBridge]
+
 ---
 
 * Description: Sfe Sunset Bridge Merchant Conversions
@@ -6566,6 +6652,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [southHdcLateCutC]
+
 ---
 
 * Description: South Platform Hdc Late Batch Cut C
@@ -6601,6 +6688,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [statementConfig]
+
 ---
 
 * Description: Statement Config
@@ -6704,6 +6792,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [stockExchange]
+
 ---
 
 * Description: Stock Exchange/Ctry Name
@@ -7295,6 +7384,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [sunocoAutoboarding]
+
 ---
 
 * Description: Sunoco Autoboarding
@@ -7330,6 +7420,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [transactionControl]
+
 ---
 
 * Description: Transaction Control
@@ -7487,6 +7578,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [trustKeeper]
+
 ---
 
 * Description: Trust Keeper
@@ -7530,6 +7622,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [wfbCanadaEmergingMarkets]
+
 ---
 
 * Description: Wfb Canada Emerging Markets
@@ -7565,6 +7658,7 @@ titles: UMM, North, GMA
 ---
 
 tags: [wfbSurcharge]
+
 ---
 
 * Description: Wfpg Surcharge Acct
