@@ -14,7 +14,7 @@
   * UMM.MERCHANT_ATTRIBUTES stores the ID of the UMM.ATTRIBUTE_MASTER for each attributes
   * Sample Query to pull the attributes:
 
-  ```
+  ```text
   
    SELECT
     DM.DOMAIN,
