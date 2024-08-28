@@ -86,7 +86,7 @@ titles: UMM, North, South, GMA
 * API field: Not applicable - domain and attribute name along with respective descriptions are returned. Sample payload shows the domain chargebackConfig and the list of attributes under that domain.
   * Please see [List of Domains](#list-of-domains) for available domains and attributes.
 
-```
+```text
 
 "merchantAttributes": {
                 "chargebackConfig": {
