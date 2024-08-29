@@ -1,8 +1,8 @@
-# Getting Snowflake Database Access 
+# Getting Snowflake Database Access
 
 Submit Request type 'GBS Snowflake General Request' in Service now with required region and role '`UMMREAD`'.
 
-## UMM Region Details:
+## UMM Region Details
 
 > | Region | Database  Name | Schema Name |
 > | -------- | ------- | ------- |
