@@ -5577,6 +5577,17 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
+| Attribute                    | Description                                       | Values        | Value Description                                         | Inquiry  | Create   | Update   |  Delete  |
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
+| beneficiaryCity| Beneficiary City        |       |           |    Available     | Optional     | Allowed |    NA |
+| beneficiaryStateCode| Beneficiary State Code        |       |           |    Available     | Optional     | Allowed |    NA |
+| beneficiaryStreetAddress| Beneficiary Street Address(No Po Box)        |       |           |    Available     | Optional     | Allowed |    NA |
+| beneficiaryZipCode| Beneficiary Zip Code        |       |           |    Available     | Optional     | Allowed |    NA |
+| futureUse1| Future Use 1        |       |           |    Available     | Optional     | Allowed |    NA |
+| futureUse2| Future Use 2        |       |           |    Available     | Optional     | Allowed |    NA |
+| seeBnfOnFndTab| See Bnf On Fnd Tab        |    SEE_BNF_ON_FND_TAB   |   See Bnf On Fnd Tab        |    Available     | Optional     | Allowed |    NA |
+
+<!-- type: tab -->
 | Attribute | Description | Values | Value Description | Inquiry  | Create | Update |  Delete  |
 |:---------|:------------|:--------------|:------------|:--------:|:------:|:------:|:--------:|
 | NA | NA  | NA | NA |  NA  |  NA  |  NA  | NA |
