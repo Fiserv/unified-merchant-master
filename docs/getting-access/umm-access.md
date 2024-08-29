@@ -1,4 +1,4 @@
-## Accessing UMM Data
+# Accessing UMM Data
 
 UMM provides unified way to access merchant data across different platforms either through direct snowflake database access or GraphQL API call.
 

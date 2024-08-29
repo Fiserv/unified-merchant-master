@@ -8,9 +8,7 @@ The below section list the attributes grouped by **Domain**
 | -------- | ------- | ------- |
 | `chargebackPrenoteIndicator` | Chargeback Prenote Indicator | `YES`, `NO` |
 
-#### Sample:
-
-```
+```json
 "chargebackConfig": {
   "chargebackPrenoteIndicator": {
     "attributeDescription": "Chargeback Prenote Indicator",
@@ -18,6 +16,7 @@ The below section list the attributes grouped by **Domain**
   }
 }
 ```
+
 ---
 
 ## `fundingConfig`
@@ -28,9 +27,7 @@ The below section list the attributes grouped by **Domain**
 | `fundingRollupCode` | Indicates how the funding transactions will be combined on DDA statement | `DEBIT_CREDIT`, `DEPOSIT_BATCH`, `EACH_TRANSFER`, `NET_ROLLUP`, `VIA_CATGRY`, `NET_FEE_TRANS` |
 | `fundingExcludeCode` | Merchant funding exclusion code | `YES`, `NO`, '`DIVERT` |
 
-#### Sample:
-
-```
+```json
 "fundingConfig": {
   "fundingRunCode": {
     "attributeDescription": "Merchant Funding Run Code",
@@ -46,6 +43,7 @@ The below section list the attributes grouped by **Domain**
   }
 }
 ```
+
 ---
 
 ## `statementConfig`
@@ -66,9 +64,7 @@ The below section list the attributes grouped by **Domain**
 > | `MAIL_TO_CORP` | Mail to Corp |
 > | `RECAP_NO_STMT` | Recap/No Statements |
 
-#### Sample:
-
-```
+```json
 "statementConfig": {
   "icplusStatementFormatCode": {
     "attributeDescription": "Interchange Plus Long Statement",
@@ -80,4 +76,5 @@ The below section list the attributes grouped by **Domain**
   }
 }
 ```
+
 ---
