@@ -13,17 +13,15 @@ UMM also provides capability in Inquiry API to retrieve a snapshot of merchant d
 * **Description**: Stores changes happening in each entities
 * **Table Name**: `UMM.UMM_AUDIT_INFO`
 
-### List of Fields for Audit Info
+### List of Fields for UMM Audit Info
 
-#### ID
+<!-- type: tab 
+titles: ID 
+-->
 
 * Description: Unique identifier of each record in this table.
 * API field: NA
 * Field Specification:
-
-<!-- type: tab 
-titles: UMM 
--->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -31,17 +29,13 @@ titles: UMM
 
 <!-- type: tab-end -->
 
----
-
-#### TABLE_NAME
+<!-- type: tab 
+titles: TABLE_NAME 
+-->
 
 * Description: Name of the Table or entity got modified
 * API field: NA
 * Field Specification:
-
-<!-- type: tab 
-titles: UMM 
--->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -49,17 +43,13 @@ titles: UMM
 
 <!-- type: tab-end -->
 
----
-
-#### MERCHANT_ID
+<!-- type: tab 
+titles: MERCHANT_ID 
+-->
 
 * Description:  Merchant# got modified
 * API field: NA
 * Field Specification:
-
-<!-- type: tab 
-titles: UMM 
--->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -67,42 +57,32 @@ titles: UMM
 
 <!-- type: tab-end -->
 
----
-
-#### BE_PLATFORM_CODE
+<!-- type: tab 
+titles: BE_PLATFORM_CODE 
+-->
 
 * Description:  Backend Platform of the merchant  
 * API field: NA
 * Field Specification:
 
-<!-- type: tab 
-titles: UMM 
--->
-
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  |     5    |    10        |    NA     | NA     | NA |    NA     |
 
 <!-- type: tab-end -->
 
----
-
-#### ACTION
+<!-- type: tab 
+titles: ACTION 
+-->
 
 * Description:  Operation perfomred on the entity
 * API field: NA
 
-<!-- type: tab 
-titles: UMM 
--->
-
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  |     5    |    10        |    NA     | NA     | NA |    NA     |
+| Enum  |     5    |    10        |    NA     | NA     | NA |    NA     |
 
-<!-- type: tab-end -->
-
-##### Valid Values
+#### Valid Values
 
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
@@ -110,17 +90,15 @@ titles: UMM
 | UPDATE     |   Update of existing Record       |
 | DELETE     |   Deletion of existing Record|
 
----
+<!-- type: tab-end -->
 
-#### AUDIT_COLUMN_NAME
+<!-- type: tab 
+titles: AUDIT_COLUMN_NAME 
+-->
 
 * Description:  Specific column name got modified in a table
 * API field: NA
 * Applicable only for Update operation
-
-<!-- type: tab 
-titles: UMM 
--->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -128,52 +106,40 @@ titles: UMM
 
 <!-- type: tab-end -->
 
----
-
-#### OLD_VALUE
+<!-- type: tab 
+titles: OLD_VALUE 
+-->
 
 * Description:  Old Value before modification
 * API field: NA
 * Applicable only for Update operation
 
-<!-- type: tab 
-titles: UMM 
--->
-
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  |     1    |    10000        |    NA     | NA     | NA |    NA     |
 
 <!-- type: tab-end -->
 
----
-
-#### NEW_VALUE
+<!-- type: tab 
+titles: NEW_VALUE 
+-->
 
 * Description:  New Value after modification
 * API field: NA
 * Applicable only for Update operation
 
-<!-- type: tab 
-titles: UMM 
--->
-
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  |     1    |    10000        |    NA     | NA     | NA |    NA     |
 
 <!-- type: tab-end -->
 
----
-
-#### CHANGED_TIMESTAMP
+<!-- type: tab 
+titles: CHANGED_TIMESTAMP 
+-->
 
 * Description:   Date when insert/update/delete event occured  
 * API field: NA
-
-<!-- type: tab 
-titles: UMM 
--->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -181,16 +147,12 @@ titles: UMM
 
 <!-- type: tab-end -->
 
----
-
-#### CHANGED_BY
+<!-- type: tab 
+titles: CHANGED_BY 
+-->
 
 * Description:   Who performed the change  
 * API field: NA
-
-<!-- type: tab 
-titles: UMM 
--->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -205,17 +167,15 @@ titles: UMM
 * **Description**: Stores changes happening in each entities
 * **Table Name**: `UMM.UMM_AUDIT_ADDITIONAL_INFO`
 
-### List of Fields for Audit Additional Info
+### List of Fields for UMM Audit Additional Info
 
-#### ID&#x200B;
+<!-- type: tab 
+titles: ID 
+-->
 
 * Description: Unique identifier of each record in UMM_AUDIT_INFO table.
 * API field: NA
 * Field Specification:
-
-<!-- type: tab 
-titles: UMM 
--->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -223,17 +183,13 @@ titles: UMM
 
 <!-- type: tab-end -->
 
----
-
-#### TABLE_NAME&#x200B;
+<!-- type: tab 
+titles: TABLE_NAME 
+-->
 
 * Description: Name of the Table or entity got modified
 * API field: NA
 * Field Specification:
-
-<!-- type: tab 
-titles: UMM 
--->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -241,39 +197,31 @@ titles: UMM
 
 <!-- type: tab-end -->
 
----
-
-#### KEY_COLUMN_NAME
+<!-- type: tab 
+titles: KEY_COLUMN_NAME 
+-->
 
 * Description: Part of the parimay key ( apart from Merchant # and Platform code. )
 * API field: NA
 * Field Specification:
 
-<!-- type: tab 
-titles: UMM 
--->
-
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  |     1    |    100        |    NA     | NA     | NA |    NA     |
-
-<!-- type: tab-end -->
 
 * For example, `MERCHANT_ATTRIBUTES` table has primary key on Merchant#, Platform code and attribute id.
 * `UMM_AUDIT_INFO` will contain Merchant# and platform code as standard columns, where as third primary key
 * `ATTRIBUTE_ID` will be stored under `KEY_COLUMN_NAME`
 
----
+<!-- type: tab-end -->
 
-#### KEY_COLUMN_VALUE
+<!-- type: tab 
+titles: KEY_COLUMN_VALUE 
+-->
 
 * Description: Value of the KEY_COLUMN_NAME
 * API field: NA
 * Field Specification:
-
-<!-- type: tab 
-titles: UMM 
--->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
@@ -281,17 +229,13 @@ titles: UMM
 
 <!-- type: tab-end -->
 
----
-
-#### CREATED_DATE
+<!-- type: tab 
+titles: CREATED_DATE 
+-->
 
 * Description: Audit Date
 * API field: NA
 * Field Specification:
-
-<!-- type: tab 
-titles: UMM 
--->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
