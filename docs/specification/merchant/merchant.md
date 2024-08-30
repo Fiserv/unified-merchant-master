@@ -24,9 +24,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Required   | Required   | Required   | Required     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String   | 12        |    12        | Required   | Required   | Required   | Required     |
 
 <!-- type: tab -->
 
@@ -61,9 +61,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Required   | Required   | Required   | Required     |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String |     5          |     50     | Required   | Required   | Required   | Required     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -103,9 +103,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| Date   | Optional    | NA   | NA   | NA  |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date  | 10        |    10        |    Optional     | NA     | NA |    NA     |
 
 <!-- type: tab -->
 
@@ -119,7 +119,7 @@ titles: UMM, North, GMA
 ### EFFECTIVE_END_DATE
 
 * Description: This date specifies validity of the record.
-* API field: Not Applicable
+* API field: effectiveStartDate
 * Field Specification:
 
 <!-- type: tab 
@@ -132,9 +132,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| Date   | NA   | NA   | NA   | NA  |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date  | 10        |    10        |    NA     | NA     | NA |    NA     |
 
 <!-- type: tab -->
 
