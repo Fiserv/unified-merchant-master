@@ -8,9 +8,7 @@ The below section list the attributes grouped by **Domain**
 | -------- | ------- | ------- |
 | `clientRegion` | Client Region | `BY_COUNTRY`, `BY_TRANSACTION` |
 
-#### Sample:
-
-```
+```json
 "contract": {
   "clientRegion": {
     "attributeDescription": "Client Region",
@@ -18,6 +16,7 @@ The below section list the attributes grouped by **Domain**
   }
 }
 ```
+
 ---
 
 ## `settlementConfig`
@@ -26,9 +25,7 @@ The below section list the attributes grouped by **Domain**
 | -------- | ------- | ------- |
 | `settlementMethod` | Settlement Method | `DE_DAILY_CUP`, `IFS_DAILY`, `IFS_MONTHLY_NEG`, `IFS_DAILY_NEG_CUP`, `DAILY`, `IFS_DAILY_CUP`, `DAILY_CUP`, `IFS_DAILY_NEG`, `IFS_TREASURY`, `DE_DAILY` |
 
-#### Sample:
-
-```
+```json
 "settlementConfig": {
   "settlementMethod": {
     "attributeDescription": "Settlement Method",
@@ -36,4 +33,5 @@ The below section list the attributes grouped by **Domain**
   }
 }
 ```
+
 ---
