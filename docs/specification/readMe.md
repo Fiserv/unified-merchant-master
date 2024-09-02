@@ -31,15 +31,15 @@ Refer to UMM's [Auditing strategy](?path=docs/specification/merchant/merchantAud
 ## Entities
 
 * [Merchant](?path=docs/specification/merchant/merchant.md): Stores basic but critical information about the merchant. Any merchant in UMM will always have this entity
-  * [Business Information](?path=docs/specification/merchant/merchantBusinessInformation.md): This entity stores information about the business of the merchant
-  * [Attributes](?path=docs/specification/merchant/merchantAttributes.md): This entity stores various merchant attributes grouped under logical domains
-  * [Hierarchy](?path=docs/specification/merchant/MerchantHierarchy.md): Hierarchy of the merchant
-  * [Address](?path=docs/specification/merchant/MerchantAddress.md): All addresses on file for a merchant
-  * [Owner](?path=docs/specification/merchant/MerchantOwner.md): Ownership details of the merchant business
-  * [Bank Account](?path=docs/specification/merchant/MerchantBankAccount.md): This entiry stores the bank accounts for a specific merchant
-  * [Cross Reference](?path=docs/specification/merchant/Merchant_Xref.md): This entiry stores the cross references for a specific merchant
-  * [IRS Information](?path=docs/specification/merchant/Tax_Adtnl_Data_US.md): All tax related information for a merchant
-  * [Products](?path=docs/specification/merchant/merchantProduct.md): Stores all entitlements, services, equipments fees a merchant has and further segregated into following logical groups
-    * [Entitlements](?path=docs/specification/merchant/merchantProduct.md): Contains all acquiring entitlements e.g. MasterCard, VISA etc.
-    * [Fees](?path=docs/specification/merchant/merchantProduct.md): All fees for a merchant
-    * [Value Added Services](?path=docs/specification/merchant/merchantProduct.md): Example of Value Added services would be TransArmor, Auth Optimization etc.
+* [Merchant Business Information](?path=docs/specification/merchant/merchantBusinessInformation.md): This entity stores information about the business of the merchant
+* [Merchant Attributes](?path=docs/specification/merchant/merchantAttributes.md): This entity stores various merchant attributes grouped under logical domains
+* [Merchant Hierarchy](?path=docs/specification/merchant/MerchantHierarchy.md): Hierarchy of the merchant
+* [Merchant Address](?path=docs/specification/merchant/MerchantAddress.md): All addresses on file for a merchant
+* [Merchant Owner](?path=docs/specification/merchant/MerchantOwner.md): Ownership details of the merchant business
+* [Merchant Bank Account](?path=docs/specification/merchant/MerchantBankAccount.md): This entiry stores the bank accounts for a specific merchant
+* [Merchant Cross Reference](?path=docs/specification/merchant/Merchant_Xref.md): This entiry stores the cross references for a specific merchant
+* [Merchant IRS Information](?path=docs/specification/merchant/Tax_Adtnl_Data_US.md): All tax related information for a merchant
+* [Merchant Products](?path=docs/specification/merchant/merchantProduct.md): Stores all entitlements, services, equipments fees a merchant has and further segregated into following logical groups
+  * [Entitlements](?path=docs/specification/merchant/merchantProduct.md): Contains all acquiring entitlements e.g. MasterCard, VISA etc.
+  * [Fees](?path=docs/specification/merchant/merchantProduct.md): All fees for a merchant
+  * [Value Added Services](?path=docs/specification/merchant/merchantProduct.md): Example of Value Added services would be TransArmor, Auth Optimization etc.
