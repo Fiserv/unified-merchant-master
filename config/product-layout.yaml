@@ -36,11 +36,11 @@ header:
     altText: UMM™
 benefits:
   - title: Unified Data Model
-    description: Snowflake database hosts merchant, equipment, fees, and product data from across Fiserv platforms in a unified format.
-  - title: Simplified Integration
-    description: Unified  API layer to retrieve, on-board or update merchant across Fiserv platforms.
-  - title: Analytics & Reporting
-    description: Reconciliation and comprehensive analytics of merchant data across Fiserv platforms leveraging co-located unfiied data model 
+    description: UMM provides a standardized data model for the Merchant, Equipment , Fee, and Product offerings. The data model is designed to be consistent across different backend merchant master to ensures all data is stored in a unified format, simplifying data integration and analysis.
+  - title: Unified Merchant Master API Gateway
+    description: Unified  API layer to retrieve, on-board or update merchant across Fiserv platforms in user-friendly and intuitive manner for easier integration
+  - title: Real-time Bi-directional Synchronization
+    description: UMM enables real-time synchronization with backend merchant master databases to ensures consistency and accuracy of the data across all systems.
 getStarted: /docs/getting-started.md
 featuredFeatures:
   - title: Unified Merchant data
@@ -63,6 +63,26 @@ featuredFeatures:
         description: Unified GraphQL Merchant Search API
         type: "post"
         path: "/graphql⁣⁣"
+  - title: Merchant OnBoarding 
+    description: The Unified GraphQL Merchant Update API provides a simplified method to update merchant data across platforms in a unified manner, removing the need for independent integrations with multiple backend systems in diverse formats.
+    tags: ["UMM", "Merchant", "GraphQL", "Create", "Update"]
+    bullets: ["UMM", "Merchant", "GraphQL", "Create", "Update"]
+    relatedDocs:
+      - relatedDoc: 
+        title: Merchant
+        description: Merchant
+        link: ./docs/getting-started.md
+    relatedAPIs:
+      - relatedAPI: 
+        title: Merchant Create
+        description: Unified GraphQL Merchant Create API
+        type: "post"
+        path: "/graphql⁣⁣⁣⁣"
+      - relatedAPI: 
+        title: Merchant Update
+        description: Unified GraphQL Merchant Update API
+        type: "post"
+        path: "/graphql⁣⁣"      
   - title: Merchant Inquiry
     description: The Unified GraphQL Merchant Inquiry API provides a simplified method to access merchant data across platforms in a unified manner, removing the need for independent integrations with multiple backend systems in diverse formats.
     bullets: ["UMM", "Merchant", "GraphQL", "Inquiry", "Search"]
@@ -82,7 +102,7 @@ featuredFeatures:
         description: Unified GraphQL Merchant Search API
         type: "post"
         path: "/graphql⁣⁣"
-  - title: Merchant Update 
+  - title: Merchant Maintenance 
     description: The Unified GraphQL Merchant Update API provides a simplified method to update merchant data across platforms in a unified manner, removing the need for independent integrations with multiple backend systems in diverse formats.
     tags: ["UMM", "Merchant", "GraphQL", "Create", "Update"]
     bullets: ["UMM", "Merchant", "GraphQL", "Create", "Update"]
@@ -122,3 +142,23 @@ featuredFeatures:
         description: Unified Product Inquiry API
         type: "get"
         path: "/internal/v1/products"
+  - title: Auditing and Notification 
+    description: The Unified GraphQL Merchant Update API provides a simplified method to update merchant data across platforms in a unified manner, removing the need for independent integrations with multiple backend systems in diverse formats.
+    tags: ["UMM", "Merchant", "GraphQL", "Create", "Update"]
+    bullets: ["UMM", "Merchant", "GraphQL", "Create", "Update"]
+    relatedDocs:
+      - relatedDoc: 
+        title: Merchant
+        description: Merchant
+        link: ./docs/getting-started.md
+    relatedAPIs:
+      - relatedAPI: 
+        title: Merchant Create
+        description: Unified GraphQL Merchant Create API
+        type: "post"
+        path: "/graphql⁣⁣⁣⁣"
+      - relatedAPI: 
+        title: Merchant Update
+        description: Unified GraphQL Merchant Update API
+        type: "post"
+        path: "/graphql⁣⁣"      
