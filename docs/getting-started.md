@@ -10,19 +10,13 @@ UMM provides access to data through direct Snowflake access or a unified API.
 
 The unified API supports below operations for supported back-end platforms:
 
-        •Merchant Onboarding 
-        •Merchant Maintenance 
-        •Merchant Inquiry  
-
- Data is stored in multiple entities in the Snowflake database, and more information about the data layout can be found [here](?path=docs/specification/readMe.md)
+    •Merchant Onboarding 
+    •Merchant Maintenance 
+    •Merchant Inquiry  
 
 ## Supported Backend Platforms
 
 Please find list of supported Backend Platforms [here](?path=docs/specification/supportedPlatforms.md)
-
-## Getting Started using UMM
-
-Start here with UMM documentation [here](?path=docs/specification/readMe.md)
 
 ## Integration Options
 
@@ -45,3 +39,7 @@ link: ?path=docs/getting-access/database-access.md
 <!-- type: row-end -->
 
 ---
+
+## Getting Started using UMM
+
+Start here with UMM documentation [here](?path=docs/specification/readMe.md)
