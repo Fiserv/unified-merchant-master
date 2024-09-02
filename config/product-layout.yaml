@@ -36,7 +36,7 @@ header:
     altText: UMM™
 benefits:
   - title: Unified Data Model
-    description: UMM provides a standardized data model for the Merchant, Equipment , Fee, and Product offerings. The data model is designed to be consistent across different backend merchant master to ensures all data is stored in a unified format, simplifying data integration and analysis.
+    description: UMM provides a unified data model for Merchant,Equipment,Fee and Product offerings to ensures consistency across different Merchant backends.
   - title: Unified Merchant Master API Gateway
     description: Unified  API layer to retrieve, on-board or update merchant across Fiserv platforms in user-friendly and intuitive manner for easier integration
   - title: Real-time Bi-directional Synchronization
