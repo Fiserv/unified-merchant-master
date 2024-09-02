@@ -52,42 +52,27 @@
           sections:
             - title: Merchant
               link: docs/specification/merchant/merchant.md
-            - title: Merchant Owner
-              link: docs/specification/merchant/MerchantOwner.md
-            - title: Merchant Bank Account
-              link: docs/specification/merchant/MerchantBankAccount.md
-            - title: Merchant Address
-              link: docs/specification/merchant/MerchantAddress.md
-            - title: Merchant Hierarchy
-              link: docs/specification/merchant/MerchantHierarchy.md
-            - title: Merchant Xref
-              link: docs/specification/merchant/Merchant_Xref.md
-            - title: Merchant Tax Additional Data (US)
-              link: docs/specification/merchant/Tax_Adtnl_Data_US.md
-            - title: Merchant Business Information
-              link: docs/specification/merchant/MerchantBusinessInformation.md
-            - title: Merchant Product
-              link: docs/specification/merchant/merchantProduct.md
-            - title: Merchant Attributes
-              link: docs/specification/merchant/merchantAttributes.md
+              sections:
+                - title: Owner
+                  link: docs/specification/merchant/MerchantOwner.md
+                - title: Bank Account
+                  link: docs/specification/merchant/MerchantBankAccount.md
+                - title: Address
+                  link: docs/specification/merchant/MerchantAddress.md
+                - title: Hierarchy
+                  link: docs/specification/merchant/MerchantHierarchy.md
+                - title: Xref
+                  link: docs/specification/merchant/Merchant_Xref.md
+                - title: Tax Additional Data (US)
+                  link: docs/specification/merchant/Tax_Adtnl_Data_US.md
+                - title: Business Information
+                  link: docs/specification/merchant/MerchantBusinessInformation.md
+                - title: Product
+                  link: docs/specification/merchant/merchantProduct.md
+                - title: Attributes
+                  link: docs/specification/merchant/merchantAttributes.md
 - sections:
   - title: Release notes
     sections:
     - title: May 2024
       link: docs/release-notes/2024/may.md
-# - sections:
-#   - title: Working with UMM API
-#     sections:
-#     - title: Authentication
-#       link: docs/authentication.md
-#     - titlei: Attributes
-#       sectons:
-#       - title: Merchant
-#         link: docs/attribute/merchant/details.md
-# - sections:
-#     - title: UMM Specifications
-#       sections:
-#         - title: Merchant
-#           link: docs/definitions/Merchant.md
-#         - title: Merchant Business Information
-#           link: docs/definitions/MerchantBusinessInformation.md
