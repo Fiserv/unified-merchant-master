@@ -19,10 +19,10 @@ Consumers can use UMM data in two different ways -
     * Additional information about `Merchant Level Attributes` can be found [here](?path=docs/specification/merchant/merchantAttributes.md)
     * Additional information about `Product Level Attribute` can be found [here](?path=docs/specification/merchant/merchantProductAttributes.md)
 * Each entity has the below columns as part of their key
-  * MERCHANT_ID : Unique Identifier for the Merchant
-  * PLATFORM_CODE: Identifies the Backend Platform the merchant is on. Supported platforms on UMM can be found [here](?path=docs/specification/supportedPlatforms.md)
-  * EFFECTIVE_START_DATE : UMM audits and stores snapshot record of Merchant data for all entities. This date is when a record was added to the merchant.
-  * EFFECTIVE_END_DATE : When there is change in any entity record for a merchant UMM snapshots the earlier record with previous date and creates a new record with this field set to NULL. Therefore, any record which is active at this moment will have this field as NULL.
+  * `MERCHANT_ID`: Unique Identifier for the Merchant
+  * `PLATFORM_CODE`: Identifies the Backend Platform the merchant is on. Supported platforms on UMM can be found [here](?path=docs/specification/supportedPlatforms.md)
+  * `EFFECTIVE_START_DATE`: UMM audits and stores snapshot record of Merchant data for all entities. This date is when a record was added to the merchant.
+  * `EFFECTIVE_END_DATE`: When there is change in any entity record for a merchant UMM snapshots the earlier record with previous date and creates a new record with this field set to NULL. Therefore, any record which is active at this moment will have this field as NULL.
 Read [Auditing page](?path=docs/specification/merchant/merchantAuditing.md) for further information on Auditing with examples.
 
 ## Entities
