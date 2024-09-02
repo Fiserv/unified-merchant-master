@@ -6,7 +6,7 @@ Consumers can use UMM data in two different ways -
 * API
 * Snowflake Database as a Canonical data source
 
-## This documentation covers specifications for both ways and provides in depth details on what consumer needs to know to start using the UMM data
+> This documentation covers specifications for both ways and provides in depth details on what consumer needs to know to start using the UMM data
 
 ## General Construct of the UMM Data Store
 
