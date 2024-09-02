@@ -6,6 +6,20 @@ To address these issues, the Unified Merchant Master (UMM) offers a comprehensiv
  
 By unifying data and APIs, UMM simplifies the integration process, reducing complexity and the need for extensive custom development. The standardized data model and enhanced integration capabilities significantly reduce the maintenance overhead traditionally associated with managing multiple disparate systems, and the development time required for merchant onboarding and maintenance activities is considerably accelerated. With a co-located, unified data repository in Snowflake, comprehensive and accurate analytics of merchant data become feasible, driving better business insights and decision-making. This results in improved data governance, operational efficiency, and advanced analytics capabilities, ultimately ensuring consistent, accurate, and actionable merchant data across the organization.
 
+UMM provides access to data through direct Snowflake access or a unified API.
+
+The unified API supports below operations for supported back-end platforms:
+
+        •Merchant Onboarding 
+        •Merchant Maintenance 
+        •Merchant Inquiry  
+
+ Data is stored in multiple entities in the Snowflake database, and more information about the data layout can be found [here](?path=docs/specification/readMe.md)
+
+## Supported Backend Platforms
+
+Please find list of supported Backend Platforms [here](?path=docs/specification/supportedPlatforms.md)
+
 ## Getting Started using UMM
 
 Start here with UMM documentation [here](?path=docs/specification/readMe.md)
