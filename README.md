@@ -22,7 +22,7 @@ To read about how to edit these files refer to the [Tenant Documentation](https:
 - `/reference/[api-version]/openapi.yaml` : Tenant OpenAPI 3.0 Spec
 - `.docignore` : Use `.docignore` to hide markdown files from showing up in the doc explorer and from being indexed & searchable
 
-#### Configure tenant.json product-layout.yaml document-explorer-definition.yaml
+#### Configure `tenant.json` `product-layout.yaml` `document-explorer-definition.yaml`
 
 DO NOT modify the structure.
 
