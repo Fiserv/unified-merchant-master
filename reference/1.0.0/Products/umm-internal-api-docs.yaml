@@ -38,6 +38,12 @@ paths:
         schema:
           type: string
           example: VAS
+          enum:
+          - ENTITLEMENT
+          - VAS
+          - EQUIPMENT
+          - PAYMENT_FEATURE
+          - FEE
         example: VAS
       - name: productCode
         in: query
@@ -52,6 +58,8 @@ paths:
             The product code associated with the product and defined by UMM API
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
+          example: VASPAYEEZY
+        example: VASPAYEEZY
       - name: productShortDescription
         in: query
         required: false
@@ -59,19 +67,20 @@ paths:
           maxLength: 2147483647
           minLength: 4
           type: string
+          example: Payeezy
+        example: Payeezy
       - name: includeInactive
         in: query
         required: false
         schema:
-          type: string
+          type: boolean
           example: true
         example: true
       - name: pageNumber
         in: query
         required: false
         schema:
-          minLength: 1
-          type: string
+          type: number
           example: 1
         example: 1
       - name: tags
