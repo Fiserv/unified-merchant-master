@@ -52,13 +52,13 @@ One of the key benefits of the GraphQL API is its flexibility in adding new enti
 
 The unified API supports the following operations for supported back-end platforms:
 
-- Merchant Onboarding ([Explore API](?type=post&path=/graphql%E2%81%A3%E2%81%A3%E2%81%A3%E2%81%A3&branch=develop))
-- Merchant Inquiry ([Explore API](?type=post&path=/graphql&branch=develop))
-- Merchant Maintenance ([Explore API](?type=post&path=/graphql%E2%81%A3%E2%81%A3&branch=develop))
+- Merchant Onboarding ([Explore API](../api?type=post&path=/graphql%E2%81%A3%E2%81%A3%E2%81%A3%E2%81%A3&branch=develop))
+- Merchant Inquiry ([Explore API](../api?type=post&path=/graphql&branch=develop))
+- Merchant Maintenance ([Explore API](../api?type=post&path=/graphql%E2%81%A3%E2%81%A3&branch=develop))
 
 Additionally, UMM provides the following API to access all available products for supported back-end platforms:
 
-- Product Inquiry ([Explore API](?type=get&path=/internal/v1/products&branch=develop))
+- Product Inquiry ([Explore API](../api?type=get&path=/internal/v1/products&branch=develop))
 
 ## Getting Started using UMM Layout
 
