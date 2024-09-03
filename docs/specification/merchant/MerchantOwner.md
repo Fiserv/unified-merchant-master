@@ -777,7 +777,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum   |       1        |    1       |    Available     | Required     | Allowed |    NA   |
+| Enum   | NA        |    NA        |    Available     | Required     | Allowed |    NA   |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -936,7 +936,7 @@ titles: UMM, North, GMA
 
 || Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum   |       3        |     3      |    Available     | Required     | Allowed |    NA   |
+| Enum   |      NA        |    NA      |    Available     | Required     | Allowed |    NA   |
 
 **Valid Values**:
 |              Value   |                    Description                 |
