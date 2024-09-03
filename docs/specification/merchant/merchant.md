@@ -63,7 +63,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |     5          |     50     | Required   | Required   | Required   | Required     |
+| Enum |     NA          |     NA     | Required   | Required   | Required   | Required     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -174,7 +174,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum  |        3        |    3       |    Available     | Required     | NA |    NA     |
+| Enum  |       NA        |    NA      |    Available     | Required     | NA |    NA     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -378,7 +378,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum  | 1        |    1        |    Available     | Required     | Allowed |    NA     |
+| Enum  |       NA        |    NA       |    Available     | Required     | Allowed |    NA     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -526,7 +526,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum  |         2       |    2       |    Available     | Required     | Allowed |    NA        |
+| Enum  |        NA       |   NA       |    Available     | Required     | Allowed |    NA        |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -999,7 +999,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum   |       1        |    3       |    Available     | NA     | Allowed |    NA     |
+| Enum   |      NA        |    NA      |    Available     | NA     | Allowed |    NA     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -1252,7 +1252,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum  |        1        |    1        |    Available     | Required     | Allowed |    NA     |
+| Enum  |        NA       |    NA      |    Available     | Required     | Allowed |    NA     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -1293,7 +1293,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum   |       1        |    1       |    Available     | Required     | Allowed |    NA         |
+| Enum   |      NA        |    NA      |    Available     | Required     | Allowed |    NA         |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -1439,7 +1439,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum   | NA        |    NA        |    Available     | Required     |    NA   |    NA        |
+| Enum   |      NA        |    NA      |    Available     | Required     |    NA   |    NA        |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -1472,7 +1472,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Date  | 10        |    10        |    Available     | NA     | NA |    NA     |
+| Date   |      10        |    10        |    Available     | NA     | NA |    NA     |
 
 <!-- type: tab -->
 
@@ -1682,7 +1682,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String   | 3        |    3        |    Available     | Required     | Allowed |    NA        |
+| String   |     NA       |    NA      |    Available     | Required     | Allowed |    NA        |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -1894,7 +1894,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       1        |    1       |    Available     | Required     | Allowed |    NA     |
+| String |      NA        |    NA       |    Available     | Required     | Allowed |    NA     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -2045,7 +2045,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |      1         |    1       |    Available     | Required     | Allowed |    NA     |
+| Enum   |      NA         |    NA     |    Available     | Required     | Allowed |    NA     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -2106,7 +2106,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum   | NA        |    NA        |    Available     | Required     | Allowed |    NA     |
+| Enum   |      NA        |    NA      |    Available     | Required     | Allowed |    NA     |
 
 **Valid Values**:
 |         Value        |                    Description                 |
@@ -2123,7 +2123,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       1        |    1       |    Available     | Required     | Allowed |    NA     |
+| Enum   |      NA        |    NA      |    Available     | Required     | Allowed |    NA     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -2186,7 +2186,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       1        |    1       |    Available     | Required     | Allowed |    NA     |
+| Enum   |      NA        |    NA      |    Available     | Required     | Allowed |    NA     |
 
 **Valid Values**:
 |              Value   |                    Description                 |
