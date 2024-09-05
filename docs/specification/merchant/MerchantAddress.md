@@ -199,7 +199,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |                |            |    NA    |      NA      |      NA      |       NA     |
+| String |       NA       |    NA      |    NA    |      NA      |      NA      |       NA     |
 
 <!-- type: tab -->
 
@@ -228,7 +228,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |                |            |    NA    |      NA      |      NA      |       NA     |
+| String |       NA       |    NA      |    NA    |      NA      |      NA      |       NA     |
 
 <!-- type: tab -->
 
@@ -257,7 +257,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |                |            |    NA    |      NA      |      NA      |       NA     |
+| String |       NA       |    NA      |    NA    |      NA      |      NA      |       NA     |
 
 <!-- type: tab -->
 
@@ -286,7 +286,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |                |            |    NA    |      NA      |      NA      |       NA     |
+| String |       NA       |    NA      |    NA    |      NA      |      NA      |       NA     |
 
 <!-- type: tab -->
 
