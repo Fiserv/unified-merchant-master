@@ -102,8 +102,15 @@ paths:
         schema:
           type: string
           description: |
-            Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
+            Code to identify the specific backend platform. It adds the required information for the merchant
+            > For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+          enum:
+          - NORTH
+          - OMAHA
+          - SOUTH
+          - OMNIPAY26
+          - OMNIPAY21
       - name: pageNumber
         in: query
         required: true
@@ -173,8 +180,15 @@ paths:
         schema:
           type: string
           description: |
-            Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
+            Code to identify the specific backend platform. It adds the required information for the merchant
+            > For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+          enum:
+          - NORTH
+          - OMAHA
+          - SOUTH
+          - OMNIPAY26
+          - OMNIPAY21
       - name: effectiveDate
         in: query
         description: Effective date from when the user can start fetching the snapshot
