@@ -109,7 +109,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Integer  |     1        |    4       |    Available     | Required     |  Allowed  |    NA    |
+| Integer  |     1        |    1       |    Available     | Required     |  Allowed  |    NA    |
 
 * SEQUENCE_NUMBER will be used to update bank detail associated with a specific bank account for North backend platform
 
@@ -126,7 +126,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Integer  |     1        |    2       |    Available     | Required     |  Allowed  |    NA    |
+| Integer  |     1        |    1       |    Available     | Required     |  Allowed  |    NA    |
 
 **Valid Values**:
 |              Value   |                    Description                 |
@@ -1425,7 +1425,7 @@ titles: UMM, North, GMA
 
 * Description: Statement type to be generated. Allowed to provide valid value if the institution level configuration enabled to override at merchant level. If no value provided while adding a merchant account, then system will default to "900".
 
-* API field: `statementGeneration`
+* API field: `statementType`
 * Field Specification:
 
 <!-- type: tab 
