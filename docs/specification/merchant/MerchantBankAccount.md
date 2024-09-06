@@ -497,7 +497,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 9        |    22        |    Available     | Required     |  Allowed  |    NA      |
+| String  | 7        |    22        |    Available     | Required     |  Allowed  |    NA      |
 
 * Note: This field is applicable for both PAYABLE and RECEIVABLE entities for GMA.
 
@@ -756,7 +756,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    100        |    Available     | Optional |  NA  |    NA             |
+| String  | 1        |    40        |    Available     | Optional |  NA  |    NA             |
 
 * Note: This field is applicable for both PAYABLE and RECEIVABLE entities for GMA.
 
@@ -794,7 +794,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    100        |    Available     | Optional |  NA  |    NA             |
+| String  | 1        |    35        |    Available     | Optional |  NA  |    NA             |
 
 * Note: This field is applicable for both PAYABLE and RECEIVABLE entities for GMA.
 
@@ -832,7 +832,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    50        |    Available     | Optional |  NA  |    NA              |
+| String  | 1        |    35        |    Available     | Optional |  NA  |    NA              |
 
 * Note: This field is applicable for both PAYABLE and RECEIVABLE entities for GMA.
 
@@ -908,7 +908,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    80        |    Available     | Optional |  NA  |    NA              |
+| String  | 1        |    35        |    Available     | Optional |  NA  |    NA              |
 
 * Note: This field is applicable for both PAYABLE and RECEIVABLE entities for GMA.
 
@@ -946,7 +946,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    80        |    Available     | Optional |  NA  |    NA              |
+| String  | 1        |    11        |    Available     | Optional |  NA  |    NA              |
 
 * Note: This field is applicable for both PAYABLE and RECEIVABLE entities for GMA.
 
@@ -984,7 +984,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    50        |    Available     | Optional |  NA  |    NA              |
+| String  | 1        |    35        |    Available     | Optional |  NA  |    NA              |
 
 * Note: This field is applicable for both PAYABLE and RECEIVABLE entities for GMA.
 
@@ -1162,7 +1162,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 6        |    20        |    Available     | Optional |  NA   |    NA              |
+| String  | 6        |    16        |    Available     | Optional |  NA   |    NA              |
 
 * Note: This field is applicable for both PAYABLE and RECEIVABLE entities for GMA.
 
