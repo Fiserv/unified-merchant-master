@@ -175,7 +175,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Integer  | 1        |    5        |    Available     | NA     | NA |    NA |
+| Integer  | 1        |    3        |    Available     | NA     | NA |    NA |
 
 <!-- type: tab -->
 
@@ -210,7 +210,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 8        |    50        |    Available     | Required     | NA |    NA |
+| String  | 8        |    20        |    Available     | Required     | NA |    NA |
 
 <!-- type: tab -->
 
