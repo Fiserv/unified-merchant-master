@@ -142,13 +142,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    40        |    Available     | Required     | Allowed |    NA |
+| String  | 3        |    7        |    Available     | Required     | Allowed  |    NA        |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    7        |    Available     | Required     | Allowed |    NA |
+| String | 3              |    7        |    Available     | Required     | Allowed |    NA    |
 
 * North can support max 7 characters
 
@@ -179,7 +179,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    30        |    Available     | Required     | Allowed |    NA |
+| String  | 1             |    2        |    Available     | Required     | Allowed |    NA    |
 
 <!-- type: tab -->
 
@@ -216,7 +216,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    25        |    Available     | Required     | Allowed |    NA |
+| String  | 3        |    8        |    Available     | Required     | Allowed  |    NA        |
 
 <!-- type: tab -->
 
@@ -253,7 +253,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    24        |    Available     | Required     | Allowed |    NA |
+| String  | 3        |    24        |    Available     | Required     | Allowed |    NA |
 
 <!-- type: tab -->
 
@@ -288,13 +288,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    40        |    Available     | Required     | Allowed |    NA |
+| String | 3             |    24        |    Available     | Required     | Allowed |    NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  |     3        |    24       |    Available     | Required     | Allowed |    NA |
+| String  |     3        |    24       |    Available     | Required     | Allowed |    NA     |
 
 * North can support max 24 characters
 
@@ -325,13 +325,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    40        |    Available     | Required     | Allowed |    NA |
+| String  | 3             |    24        |    Available     | Required     | Allowed |    NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  |     0         |    0       |    Available     | Required     | Allowed |    NA |
+| String |     3         |    24       |    Available     | Required     | Allowed |    NA     |
 
 * North can support max 24 characters
 
@@ -362,7 +362,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    40        |    Available     | Required     | Allowed |    NA |
+| String  | 3        |    40        |    Available     | Required     | Allowed |    NA        |
 
 <!-- type: tab -->
 
@@ -387,7 +387,7 @@ titles: UMM, North, GMA
 
 ### STATE_CODE
 
-* Description: State province name as per ISO 3166-2:CA codes
+* Description: State province name
 * API field: `stateCode`
 * Field Specification:
 
@@ -402,19 +402,57 @@ titles: UMM, North, GMA
 **Valid Values**: <!--need to put entire list -->
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| BC     |     State Code   |
-| YT     |     State Code   |
-| SK     |     State Code   |
-| QC     |     State Code   |
-| PE     |     State Code   |
-| ON     |     State Code   |
-| NU     |     State Code   |
-| AB     |     State Code   |
-| MB     |     State Code   |
-| NB     |     State Code   |
-| NL     |     State Code   |
-| NT     |     State Code   |
-| NS     |     State Code   |
+| AL | Alabama |
+| AK | Alaska |
+| AZ | Arizona |
+| AR | Arkansas |
+| CA | California |
+| CO | Colorado |
+| CT | Connecticut |
+| DE | Delaware |
+| DC | District of Columbia |
+| FL | Florida |
+| GA | Georgia |
+| HI | Hawaii |
+| ID | Idaho |
+| IL | Illinois |
+| IN | Indiana |
+| IA | Iowa |
+| KS | Kansas |
+| KY | Kentucky |
+| LA | Louisiana |
+| ME | Maine |
+| MD | Maryland |
+| MA | Massachusetts |
+| MI | Michigan |
+| MN | Minnesota |
+| MS | Mississippi |
+| MO | Missouri |
+| MT | Montana |
+| NE | Nebraska |
+| NV | Nevada |
+| NH | New Hampshire |
+| NJ | New Jersey |
+| NM | New Mexico |
+| NY | New York |
+| NC | North Carolina |
+| ND | North Dakota |
+| OH | Ohio |
+| OK | Oklahoma |
+| OR | Oregon |
+| PA | Pennsylvania |
+| RI | Rhode Island |
+| SC | South Carolina |
+| SD | South Dakota |
+| TN | Tennessee |
+| TX | Texas |
+| UT | Utah |
+| VT | Vermont |
+| VA | Virginia |
+| WA | Washington |
+| WV | West Virginia |
+| WI | Wisconsin |
+| WY | Wyoming |
 
 <!-- type: tab -->
 
@@ -425,19 +463,57 @@ titles: UMM, North, GMA
 **Valid Values**:
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
-| BC     |     State Code   |
-| YT     |     State Code   |
-| SK     |     State Code   |
-| QC     |     State Code   |
-| PE     |     State Code   |
-| ON     |     State Code   |
-| NU     |     State Code   |
-| AB     |     State Code   |
-| MB     |     State Code   |
-| NB     |     State Code   |
-| NL     |     State Code   |
-| NT     |     State Code   |
-| NS     |     State Code   |
+| AL | Alabama |
+| AK | Alaska |
+| AZ | Arizona |
+| AR | Arkansas |
+| CA | California |
+| CO | Colorado |
+| CT | Connecticut |
+| DE | Delaware |
+| DC | District of Columbia |
+| FL | Florida |
+| GA | Georgia |
+| HI | Hawaii |
+| ID | Idaho |
+| IL | Illinois |
+| IN | Indiana |
+| IA | Iowa |
+| KS | Kansas |
+| KY | Kentucky |
+| LA | Louisiana |
+| ME | Maine |
+| MD | Maryland |
+| MA | Massachusetts |
+| MI | Michigan |
+| MN | Minnesota |
+| MS | Mississippi |
+| MO | Missouri |
+| MT | Montana |
+| NE | Nebraska |
+| NV | Nevada |
+| NH | New Hampshire |
+| NJ | New Jersey |
+| NM | New Mexico |
+| NY | New York |
+| NC | North Carolina |
+| ND | North Dakota |
+| OH | Ohio |
+| OK | Oklahoma |
+| OR | Oregon |
+| PA | Pennsylvania |
+| RI | Rhode Island |
+| SC | South Carolina |
+| SD | South Dakota |
+| TN | Tennessee |
+| TX | Texas |
+| UT | Utah |
+| VT | Vermont |
+| VA | Virginia |
+| WA | Washington |
+| WV | West Virginia |
+| WI | Wisconsin |
+| WY | Wyoming |
 
 <!-- type: tab -->
 
@@ -857,7 +933,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Integer  |     0        |    0       |    Available     | Required     | Allowed |    NA |
+| Integer  |     1        |    3       |    Available     | Required     | Allowed |    NA |
 
 <!-- type: tab -->
 
@@ -893,6 +969,8 @@ titles: UMM, North, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  |      3        |    3        |    Available     | Required     | Allowed |    NA |
+
+* If the percentage is less than 3 bytes, then, it will be left-padded with zeros to make it 3 bytes.
 
 <!-- type: tab -->
 
@@ -934,7 +1012,7 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-|| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Enum   |      NA        |    NA      |    Available     | Required     | Allowed |    NA   |
 
@@ -974,7 +1052,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum   |       3        |     3      |    Available     | Required     | Allowed |    NA   |
+| Enum   |       NA        |     NA      |    Available     | Required     | Allowed |    NA   |
 
 **Valid Values**:
 |         Value        |                    Description                 |
@@ -992,6 +1070,7 @@ titles: UMM, North, GMA
 |              Value   |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | VIGILENCE     |     VIGILENCE   |
+| None     |     Not known   |
 
 <!-- type: tab -->
 
