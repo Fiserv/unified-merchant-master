@@ -1430,7 +1430,7 @@ titles: UMM, North, GMA
 |WELLS_FARGO | Clearing Entity for Wells Fargo|
 |GMA_INST | Clearing Entity for GMA (Institution)|
 
-* Available values are only applicable for GMA. It can only take 3 bytes.
+* Available values are only applicable for GMA. It can only take 3 bytes for North platform.
 
 <!-- type: tab -->
 
@@ -2259,13 +2259,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1             |    24      |    Available     | Required     | Allowed |    NA     |
+| String | 3             |    24      |    Available     | Required     | Allowed  |    NA     |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  |       3       |    24        |    Available     | Required     | Allowed |    NA     |
+| String  |       3       |    24        |    Available     | Required     | Allowed |    NA   |
 
 <!-- type: tab -->
 
