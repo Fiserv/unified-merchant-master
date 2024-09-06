@@ -24,9 +24,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------:|:------------:|:------------:|:------------:|
-| String   | Required   | Required   | Required   | Required  |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  |      12       |    12      |    Required     | Required     | Required |    Required     |
 
 <!-- type: tab -->
 
@@ -635,7 +635,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal |       1        |    7        |     Available   | NA   | Allowed   | NA   |
+| BigDecimal |       3        |    3        |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
@@ -665,7 +665,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       1        |    3        |    Available   | NA   | Allowed   | NA   |  
+| String |       3        |    3        |    Available   | NA   | Allowed   | NA   |  
 
 <!-- type: tab -->
 
