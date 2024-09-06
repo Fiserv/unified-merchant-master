@@ -41,30 +41,26 @@
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, South, GMA 
+titles: UMM, North, GMA 
 -->
 
-| Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
-|--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
-| String |  BE specific   |     50     |   N/A   | Optional | Optional |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 8        |    50        |    Required     | Required     | Required |    Required     |
+
+* Merchant Id is required for carrying out any operation on a specific merchant.
 
 <!-- type: tab -->
 
-| Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
-|--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
-| String |       12       |     12     |   N/A   | Optional | Optional |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String   | 12        |    12        | Required   | Required   | Required   | Required     |
 
 <!-- type: tab -->
 
-| Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
-|--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
-| String |       11       |     11     |   N/A   | Optional | Optional |
-
-<!-- type: tab -->
-
-| Type   | Minimum Length | Max Length | Inquiry |  Create  |  Update  |
-|--------|:--------------:|:----------:|:-------:|:--------:|:--------:|
-| String |       11       |     11     |   N/A   | Optional | Optional |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 8        |    8        |    Required     | Required     | Required  |       NA     |
 
 <!-- type: tab-end -->
 
@@ -174,7 +170,7 @@ titles: UMM
 
 | Type   | Minimum Length | Max Length | Inquiry | Create | Update |
 |--------|:--------------:|:----------:|:-------:|:------:|:------:|
-| String |      N/A       |    200     |   N/A   |  N/A   |  N/A   |
+| String |      1       |    200     |   Available   |  Optional   |  Allowed   |
 
 <!-- type: tab-end -->
 

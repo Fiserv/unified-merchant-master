@@ -299,7 +299,7 @@ titles: UMM, North, GMA
 | NO | Sales Tax not exempted |
 | YES | Sales Tax  exempted |
 | UNKNOWN | Unknown Value |
-| BLANK | Blank Value |
+| BLANK | Not Specified |
 
 <!-- type: tab -->
 
@@ -313,7 +313,7 @@ titles: UMM, North, GMA
 | NO | Sales Tax not exempted |
 | YES | Sales Tax  exempted |
 | UNKNOWN | Unknown Value |
-| BLANK | Blank Value |
+| BLANK | Not Specified |
 
 <!-- type: tab -->
 
@@ -398,13 +398,13 @@ titles: UMM, North , GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal |       6        |      4      |    Available     |     NA     |   NA    |   NA   |
+| BigDecimal |       4        |      6      |    Available     |     NA     |   NA    |   NA   |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal |       6        |      4      |    Available     |     NA     |   NA    |   NA   |
+| BigDecimal |       4        |      6      |    Available     |     NA     |   NA    |   NA   |
 
 <!-- type: tab -->
 
@@ -427,13 +427,13 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal |      6     |    4        |    Available     | Optional     | Allowed |   NA     |
+| BigDecimal |      4     |    6        |    Available     | Optional     | Allowed |   NA     |
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal |      6     |    4        |    Available     | Optional     | Allowed |   NA     |
+| BigDecimal |      4     |    6        |    Available     | Optional     | Allowed |   NA     |
 
 <!-- type: tab -->
 
@@ -577,7 +577,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal |        3       |     38       |    Available     | Optional     | Allowed | NA  |
+| BigDecimal |        NA       |     NA       |    Available     | Optional     | Allowed | NA  |
 
 <!-- type: tab -->
 
@@ -764,11 +764,9 @@ titles: UMM, North, GMA
 
 ---
 
----
-
 ### ACCOUNT_SIGNED_DATE
 
-* Description: Last settlement date
+* Description: Account signature date
 
 Format: CCYY-MM-DD
 Example: 2024-05-15

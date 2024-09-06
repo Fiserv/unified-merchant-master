@@ -555,8 +555,6 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String | 5        |    11        |    Available     | Optional     | Allowed |    NA         |
 
-* Note: For addressTypeCode - LOCATION, the maximum and minimum length is 11 and 0 respectively.
-
 <!-- type: tab-end -->
 ---
 
@@ -601,7 +599,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 10        |    15        |    Available     | Required     | Allowed |    NA       |
+| String  | 10        |    16        |    Available     | Required     | Allowed |    NA       |
 
 <!-- type: tab -->
 
@@ -613,7 +611,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 10        |    15        |    Available     | Optional     | Allowed |    NA       |
+| String  | 10        |    16        |    Available     | Optional     | Allowed |    NA       |
 
 * Note: For addressTypeCode - LOCATION, the maximum and minimum length is 16 and 10 respectively.
 
