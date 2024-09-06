@@ -109,9 +109,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-| Type   | Inquiry  |  Create  |    Update    |    Delete    |
-|--------|:--------:|:--------:|:------------:|:------------:|
-| Date   | Optional    | NA   | NA   | NA  |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| Date  | 10        |    10        |    Optional     | NA     | NA |    NA     |
 
 <!-- type: tab-end -->
 ---
@@ -165,10 +165,13 @@ titles: UMM, North, GMA
 |  AGENT   |   AGENT hierarchy level     |
 |  CHAIN   |   CHAIN hierarchy level     |
 |  BANK   |    Bank  hierarchy level     |
-|  BILL_TO_ADDR   |   BILL_TO_ADDR hierarchy level     |
+|  BILL_TO_ADDR   | BILL_TO_ADDR hierarchy level (019)    |
 |  CORP   |   Corporation  hierarchy level     |
 |  BUSINESS   |  Business hierarchy level       |
 |  OUTLET   |   Outlet  hierarchy level     |
+| GROUP     |     Highest level in Omnipay Hierarchy   |
+| SUB_GROUP |     This represents the next level in Omnipay Hierarchy below Group level   |
+| MEMBER    |     This identifies the actual processing Merchant assigned to a location in Omnipay |
 
 <!-- type: tab -->
 
@@ -215,7 +218,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    10        |    Available     | Required     | Allowed |    NA     |
+| String  | 1        |    8        |    Available     | Required     | Allowed |    NA     |
 
 <!-- type: tab -->
 
@@ -244,7 +247,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    40        |    Available     | Required     | Allowed |    NA        |
+| String  | 1        |    24        |    Available     | Required     | Allowed |    NA        |
 
 <!-- type: tab -->
 
@@ -273,7 +276,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    50        |    Available     | Required     | Allowed |    NA        |
+| String  | 1        |    35        |    Available     | Required     | Allowed |    NA        |
 
 <!-- type: tab -->
 
@@ -302,7 +305,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    40        |    Available     | Required     | Allowed |    NA     |
+| String  | 10        |    40        |    Available     | Required     | Allowed |    NA     |
 
 <!-- type: tab -->
 
@@ -490,7 +493,6 @@ titles: UMM, North, GMA
 | CANCELLED_POORSERV | Closed-Poorserv |
 | CANCELLED_REASON_UNKNOWN | CLOSED-REASUNKW |
 | CANCELLED_DECEASED | Closed (Deceased) |
-| ACTIVE | Active |
 | CANCELLED_ACNTNEVRQ | CLOSED-ACNTNEVRQ |
 | CANCELLED_MRCHCHBS | CLOSED-MRCHCHBS |
 | CANCELLED_POSTECISS | Closed-Posteciss |
@@ -641,7 +643,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 8        |    8        |    Available     | Required     | NA |    NA              |
+| String | 10        |    10        |    Available     | Required     | NA     |    NA         |
 
 <!-- type: tab-end -->
 ---
@@ -722,8 +724,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  |      2        |    2        |    Available     | NA     | NA |    NA     |
-
+| String |      6        |    18        |    Available     | NA     |    NA     |    NA        |
 
 <!-- type: tab -->
 
@@ -1351,7 +1352,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    50        |    Available     | Required     | Allowed |    NA     |
+| String  | 3        |    3        |    Available     | Required     | Allowed  |    NA        |
 
 <!-- type: tab -->
 
@@ -1382,7 +1383,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 3        |    10        |    Available     | Required     | Allowed |    NA     |
+| String  | 3        |    3        |    Available     | Required     | Allowed  |    NA        |
 
 <!-- type: tab -->
 
@@ -1429,11 +1430,13 @@ titles: UMM, North, GMA
 |WELLS_FARGO | Clearing Entity for Wells Fargo|
 |GMA_INST | Clearing Entity for GMA (Institution)|
 
+* Available values are only applicable for GMA. It can only take 3 bytes.
+
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum   |       3        |    3       |    Available     | Required     | Allowed |    NA        |
+| Enum   |       3        |    3       |    Available     | Required     | Allowed |    NA     |
 
 <!-- type: tab -->
 
@@ -1888,7 +1891,7 @@ titles: UMM, North, GMA
 | YES     |Yes   |
 | NO     |No   |
 | UNKNOWN | Unknown Value |
-| BLANK | Blank Value |
+| BLANK | Not Specified |
 
 <!-- type: tab -->
 
@@ -1902,7 +1905,7 @@ titles: UMM, North, GMA
 | YES     |Yes   |
 | NO     |No   |
 | UNKNOWN | Unknown Value |
-| BLANK | Blank Value |  
+| BLANK | Not Specified |  
 
 <!-- type: tab -->
 
@@ -1985,7 +1988,29 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String   |       0        |    0        |    Available     | Required     | Allowed |    NA         |
+| Enum   |       NA       |    NA        |    Available     | Required     | Allowed |    NA   |
+
+**Valid Values**:
+|              Value   |                    Description                   |
+|:----------------------|:------------------------------------------------|
+|ARABIC | Arabic|
+|ENGLISH | English|
+|CZECH | Czech|
+|SLOVENIAN | Slovenian|
+|FRENCH | French|
+|GREEK | Greek|
+|DUTCH | Dutch|
+|DANISH | Danish|
+|RUSSIAN | Russian|
+|POLISH | Polish|
+|ROMANIAN | Romanian|
+|HUNGARIAN | Hungarian|
+|ITALIAN | Italian|
+|SPANISH | Spanish|
+|NORWEGIAN | Norwegian|
+|MALTESE | Maltese|
+|GERMAN | German|
+|SWEDISH | Swedish|
 
 <!-- type: tab -->
 
@@ -2077,7 +2102,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 9        |    100        |    Available     | Required     | Allowed |    NA       |
+| String  | 9        |    20        |    Available     | Required     | Allowed |    NA        |
 
 <!-- type: tab -->
 
@@ -2090,6 +2115,8 @@ titles: UMM, North, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 9        |    15        |    Available     | Optional     | Allowed |    NA        |
+
+* Since this is a PII field, it will encrypted.
 
 <!-- type: tab-end -->
 ---
@@ -2232,7 +2259,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1       |    50        |    Available     | Required     | Allowed |    NA     |
+| String  | 1             |    24      |    Available     | Required     | Allowed |    NA     |
 
 <!-- type: tab -->
 
