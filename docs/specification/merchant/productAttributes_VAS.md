@@ -14,7 +14,7 @@ tags: [cashAdvance]
 titles: UMM
 -->
 
-|   Product Code   | Attribute         | Description               | Values        | Value Descriptio                  | Inquiry  | Create   | Update   |  Delete  |
+|   Product Code   | Attribute         | Description               | Values        | Value Description                  | Inquiry  | Create   | Update   |  Delete  |
 |:---------------------|:---------------------|:--------------------------|:--------------|:----------------------------------|:--------:|:--------:|:--------:|:--------:|
 | VASCASHADV| activeDate   |   Cash Advance Activation Date   |       |      |         Available      |      Optional      |      Allowed       |         NA         |
 |           | advanceAmount   |   Cash Advance Amount   |       |      |         Available      |      Optional      |      Allowed       |         NA         |
@@ -69,7 +69,7 @@ tags: [lease]
 titles: UMM
 -->
 
-|   Product Code   | Attribute         | Description               | Values        | Value Descriptio                  | Inquiry  | Create   | Update   |  Delete  |
+|   Product Code   | Attribute         | Description               | Values        | Value Description                  | Inquiry  | Create   | Update   |  Delete  |
 |:---------------------|:---------------------|:--------------------------|:--------------|:----------------------------------|:--------:|:--------:|:--------:|:--------:|
 | VASLEASE| leaseActivationDate   |   The activation date of the contract. Entering this date activates the contract. InfoLease uses this date along with the Contract Term and the Payments in Arrears Code to determine the termination date of the contract.   |       |      |         Available      |      Optional      |      Allowed       |         NA         |
 | VASLEASE| leaseAdditionalMid   |   This will be the Mainframe MID for ISOs that have a 15 digit MID that contains a zero added to the infolease record for cash advance   |       |      |         Available      |      Optional      |      Allowed       |         NA         |
