@@ -13,6 +13,7 @@ tags: [cashAdvance]
   | Inquiry         |   Create      |    Update  |  Delete  |
   |:---------------:|:-------------:|:----------:|:--------:|
   |    Available    |   Optional    |  Allowed   |  NA      |
+
 ---
  
 
@@ -69,6 +70,7 @@ tags: [lease]
   | Inquiry         |   Create      |    Update  |  Delete  |
   |:---------------:|:-------------:|:----------:|:--------:|
   |    Available    |   Optional    |  Allowed   |  NA      |
+
 ---
 
 
