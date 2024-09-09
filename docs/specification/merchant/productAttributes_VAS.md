@@ -12,6 +12,9 @@ tags: [cashAdvance]
   | Inquiry         |   Create      |    Update  |  Delete  |
   |:---------------:|:-------------:|:----------:|:--------:|
   |    Available    |   Optional    |  Allowed   |  NA      |
+
+  <!-- type: tab -->
+
   
 
 |   Product Code   | Attribute         | Description               | Values        | Value Description                  |
@@ -67,6 +70,8 @@ tags: [lease]
   | Inquiry         |   Create      |    Update  |  Delete  |
   |:---------------:|:-------------:|:----------:|:--------:|
   |    Available    |   Optional    |  Allowed   |  NA      |
+  <!-- type: tab -->
+
 
 |   Product Code   | Attribute         | Description               | Values        | Value Description                  |
 |:---------------------|:---------------------|:--------------------------|:--------------|:----------------------------------|
