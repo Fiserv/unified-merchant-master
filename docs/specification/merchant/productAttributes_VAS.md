@@ -8,7 +8,7 @@
 
 tags: [cashAdvance]
 
-* List of Attributes:
+* List of Attributes: Applicable for UMM, North and UMA
 
 <!-- type: tab 
 titles: UMM
@@ -63,7 +63,7 @@ titles: UMM
 
 tags: [lease]
 
-* List of Attributes:
+* List of Attributes: Applicable for UMM, North and UMA
 
 <!-- type: tab 
 titles: UMM
