@@ -16,7 +16,7 @@ titles: UMM
 
 |   Product Code   | Attribute         | Description               | Values        | Value Descriptio                  | Inquiry  | Create   | Update   |  Delete  |
 |:---------------------|:---------------------|:--------------------------|:--------------|:----------------------------------|:--------:|:--------:|:--------:|:--------:|
-| VASCASHADV| activeDate   |   Cash Advance Activation Date   |       |      |         Available      |      Optional      |      Allowed       |         NA         |"
+| VASCASHADV| activeDate   |   Cash Advance Activation Date   |       |      |         Available      |      Optional      |      Allowed       |         NA         |
 |           | advanceAmount   |   Cash Advance Amount   |       |      |         Available      |      Optional      |      Allowed       |         NA         |
 |           | bookingDate   |   Cash advance Booking Date   |       |      |         Available      |      Optional      |      Allowed       |         NA         |
 |           | branchCode   |   Cash Advance Branch Code   |       |      |         Available      |      Optional      |      Allowed       |         NA         |
