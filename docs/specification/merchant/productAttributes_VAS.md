@@ -13,7 +13,7 @@ tags: [cashAdvance]
   |:---------------:|:-------------:|:----------:|:--------:|
   |    Available    |   Optional    |  Allowed   |  NA      |
 
-  <!-- type: tab -->
+<!-- type: tab-end -->
 
   
 
@@ -70,7 +70,7 @@ tags: [lease]
   | Inquiry         |   Create      |    Update  |  Delete  |
   |:---------------:|:-------------:|:----------:|:--------:|
   |    Available    |   Optional    |  Allowed   |  NA      |
-  <!-- type: tab -->
+<!-- type: tab-end -->
 
 
 |   Product Code   | Attribute         | Description               | Values        | Value Description                  |
