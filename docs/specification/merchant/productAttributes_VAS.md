@@ -8,11 +8,7 @@
 
 tags: [cashAdvance]
 
-* List of Attributes: Applicable for UMM, North and UMA
-
-<!-- type: tab 
-titles: UMM
--->
+* List of Attributes: Applicable for UMM, North and GMA
 
 |   Product Code   | Attribute         | Description               | Values        | Value Description                  | Inquiry  | Create   | Update   |  Delete  |
 |:---------------------|:---------------------|:--------------------------|:--------------|:----------------------------------|:--------:|:--------:|:--------:|:--------:|
@@ -63,11 +59,7 @@ titles: UMM
 
 tags: [lease]
 
-* List of Attributes: Applicable for UMM, North and UMA
-
-<!-- type: tab 
-titles: UMM
--->
+* List of Attributes: Applicable for UMM, North and GMA
 
 |   Product Code   | Attribute         | Description               | Values        | Value Description                  | Inquiry  | Create   | Update   |  Delete  |
 |:---------------------|:---------------------|:--------------------------|:--------------|:----------------------------------|:--------:|:--------:|:--------:|:--------:|
