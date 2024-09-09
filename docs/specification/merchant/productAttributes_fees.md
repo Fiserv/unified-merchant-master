@@ -1,4 +1,4 @@
-# Product Attributes
+# Product Attributes - Fees
 
 ## List of Domains
 
