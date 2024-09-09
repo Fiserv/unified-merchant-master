@@ -14,7 +14,7 @@ tags: [cashAdvance]
   |:---------------:|:-------------:|:----------:|:--------:|
   |    Available    |   Optional    |  Allowed   |  NA      |
 
----
+<br><br>
  
 
 |   Product Code   | Attribute         | Description               | Values        | Value Description                  |
