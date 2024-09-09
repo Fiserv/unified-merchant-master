@@ -175,7 +175,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Integer  | 1        |    5        |    Available     | NA     | NA |    NA |
+| Integer  | 1        |    3        |    Available     | NA     | NA |    NA |
 
 <!-- type: tab -->
 
@@ -200,7 +200,7 @@ titles: UMM, North, GMA
 
 ### HIERARCHY_MERCHANT_ID
 
-* Description: Unique identifier assigned to a merchant within a hierarchical system - e.g. Business number associated with a specific merchant
+* Description: Merchant number corresponding to HIERARCHY_LEVEL_CODE. E.g. if HIERARCHY_LEVEL_CODE is 'BUSINESS" then it will have business merchant number.
 * API field: `hierarchyMerchantId`
 * Field Specification:
 
@@ -210,7 +210,7 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 8        |    50        |    Available     | Required     | NA |    NA |
+| String  | 8        |    20        |    Available     | Required     | NA |    NA |
 
 <!-- type: tab -->
 

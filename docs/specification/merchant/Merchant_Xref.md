@@ -3,6 +3,7 @@
 * **Description**: Stores essential information about  cross reference of other platform for same merchant.
 * **API schema**: `merchantXrefs`
 * **Table Name**: `MERCHANT_XREF`
+* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to uniquely identify a cros reference record for update and delete
 
 ## List of Fields
 
@@ -99,9 +100,7 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Enum   | NA        |    NA        |    Available     | Optional      | NA |    Allowed       |
 
-* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference.
-
-**Valid Values**: --- Complete list ??
+**Valid Values**:
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |  COMPASS     |  Cross Reference platform    |
@@ -130,6 +129,9 @@ titles: UMM, North, GMA
 |  CARDNET     |  Cross Reference platform    |
 |  HBOS     |  Cross Reference platform    |
 |  NORTH     |  Cross Reference platform    |
+|  NOVUS     |  Cross Reference platform    |
+|  EXXON     |  Cross Reference platform    |
+|  CHASE     |  Cross Reference platform    |
 
 <!-- type: tab -->
 
@@ -137,7 +139,7 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Enum   | NA        |    NA        |    Available     | Optional      | NA |    Allowed       |
 
-**Valid Values**:  --- Complete list ??
+**Valid Values**:
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
 |  COMPASS     |  Cross Reference platform    |
@@ -165,6 +167,9 @@ titles: UMM, North, GMA
 |  MONERIS     |  Cross Reference platform    |
 |  CARDNET     |  Cross Reference platform    |
 |  HBOS     |  Cross Reference platform    |
+|  NOVUS     |  Cross Reference platform    |
+|  EXXON     |  Cross Reference platform    |
+|  CHASE     |  Cross Reference platform    |
 
 <!-- type: tab -->
 
@@ -182,7 +187,7 @@ titles: UMM, North, GMA
 
 ### XREF_PLATFORM_MID
 
-* Description: Unique identifier assigned to an external merchant.
+* Description: External merchant number corresponding to XREF_PLATFORM_CODE
 * API field: `xrefPlatformMid`
 * Field Specification:
 
@@ -193,9 +198,6 @@ titles: UMM, North, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 7        |    20        |    Available     | Optional     | NA |    Allowed  |
-
-* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference.
-* It will delete all fields associated with the specific cross reference
 
 <!-- type: tab -->
 
@@ -226,9 +228,6 @@ titles: UMM, North, GMA
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 4        |    4        |    Available     | Optional     | NA |    Allowed |
 
-* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference.
-* It will delete all fields associated with the specific cross reference
-
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -257,9 +256,6 @@ titles: UMM, North, GMA
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Enum   | NA        |    NA        |    Available     | Optional     | Allowed |    Allowed   |
-
-* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference.
-* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to update ALLIANCE_PLATFORM_CODE
 
 **Valid Values**:
 |         Value        |                    Description                 |
@@ -341,9 +337,6 @@ titles: UMM, North, GMA
 |:----------------------|:------------------------------------------------|
 | NO     |     No   |
 | YES     |     Yes   |
-
-* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to delete a particular cross reference.
-* Merchant id , Platform code  and XREF_PLATFORM_CODE will be used to update XREF_CORRESPONDENCE_INDICATOR
 
 <!-- type: tab -->
 

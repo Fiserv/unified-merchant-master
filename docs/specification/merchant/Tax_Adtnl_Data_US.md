@@ -629,13 +629,15 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal |       1        |    7        |     Available   | NA   | Allowed   | NA   |  
+| String |       7       |    7        |     Available   | NA   | Allowed   | NA   |  
+
+* If the length is less than 7 bytes, it is left-padded with zeroes to make it 7 bytes for North platform.
 
 <!-- type: tab -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| BigDecimal |       3        |    3        |     Available   | NA   | Allowed   | NA   |
+| String |       7        |    7        |     Available   | NA   | Allowed   | NA   |
 
 <!-- type: tab -->
 
@@ -659,7 +661,9 @@ titles: UMM, North, GMA
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |       1        |    3        |    Available   | NA   | Allowed   | NA   |  
+| String |       3        |    3        |    Available   | NA   | Allowed   | NA   |
+
+* If the length is less than 3 bytes, it is left-padded with zeroes to make it 3 bytes for North platform.
 
 <!-- type: tab -->
 
@@ -703,7 +707,7 @@ titles: UMM, North, GMA
 |W8_NO_EXPIRATIONS | W8 no expirations|
 |W9_RECEIVED_EXEMPTION | W9 received exemption|
 |W8_EXPIRATION_PENDING | W8 expiration pending|
-| NONE | Blank Value |
+| NONE | Not Specified |
 
 <!-- type: tab -->
 
@@ -724,7 +728,7 @@ titles: UMM, North, GMA
 |W8_NO_EXPIRATIONS | W8 no expirations|
 |W9_RECEIVED_EXEMPTION | W9 received exemption|
 |W8_EXPIRATION_PENDING | W8 expiration pending|
-| NONE | Blank Value |
+| NONE | Not Specified |
 
 <!-- type: tab -->
 
