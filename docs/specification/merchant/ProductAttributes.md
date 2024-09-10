@@ -5,11 +5,61 @@
 These attributes will be organized under logical **Domains** and stored as key-value(s) pair for a merchant  and product combination. 
 
 * Example of a **Domain**: feeAttr is a **domain** that groups all fields called as **Attributes** those defines how a fee will be processed. Example of some attributes associated with fee products are :
-      * Frequency Indicator - Indicates whether is a monthly or daily fee 
-      * Retail Date - When fee will be billed to merchant 
+      *Frequency Indicator - Indicates whether is a monthly or daily fee 
+      *Retail Date - When fee will be billed to merchant 
 
 * **API section**: `products.[entitlements||valueAddedServices||fees||equipments].attributes`
 * **Table Name**: UMM.MERCHANT_PRODUCT_ATTRIBUTES 
+
+* Sample Product attribute payload:
+
+```json
+  "attributes": {
+    "domain#1": {
+      "domainDescription": "domain #1 description",
+      "attribute#1": {
+        "attributeDescription": "attribute description",
+        "values": ["some value"]
+      },
+      "attribute#2": {
+        "attributeDescription": "attribute description",
+        "values": ["some value"]
+      }
+    },
+    "domain#2": {
+      "domainDescription": "domain #2 description",
+      "attribute#1": {
+        "attributeDescription": "attribute description",
+        "values": ["some value"]
+      }
+    }
+  }
+```
+
+* **Example**:Product attribute payload for fee product. 
+
+```json
+  "attributes": {
+    "feeAttr": {
+      "processingInd": {
+        "values": ["1"]
+      },
+      "isAnnualFee": {
+        "values": ["YES"]
+      },
+      "retailDate": {
+        "values": ["2024-05-29"]
+      },
+      "wholesaleDate": {
+        "values": ["2024-05-29"]
+      },
+      "frequencyInd": {
+        "values": ["MONTHLY"]
+      }
+    }
+  }
+```
+
 
 ## List of Fields
 
@@ -48,21 +98,13 @@ titles: UMM, North, GMA
 ### PLATFORM_CODE
 
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
-* API field: platformCode
-* Field Specification: See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
-
-
-<!-- type: tab 
-titles: UMM
--->
-
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Varchar |      NA       |     40      |   NA   |  NA   |  NA   |
+* API field: `platformCode`
+* Field Specification:
+* See supported platforms and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
 
 <!-- type: tab-end -->
-
 ---
+
 
 ### PRDCT_CODE
 
@@ -89,7 +131,7 @@ titles: UMM
 ### UNIQUE_IDENTIFIER
 
 * Description: This field serves as a unique identifier for a particular product
-* API field: Not Available
+* API field: `uniqueIdentifier`
 * Field Specification:
 
 <!-- type: tab 
@@ -98,7 +140,7 @@ titles: UMM
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
+| String  | 1        |    50       |    Available     | NA     |      NA       |    NA         |
 
 
 <!-- type: tab-end -->
@@ -108,7 +150,7 @@ titles: UMM
 
 
 * Description: Attribute id 
-* API field: Not applicable 
+* API field: NA
 
 <!-- type: tab 
 titles: UMM
@@ -125,7 +167,7 @@ titles: UMM
 ### VALUE
 
 * Description: Value of the Attribute
-* API field: 
+* API field: NA
 * Field Specification:
 
 <!-- type: tab 
