@@ -282,7 +282,6 @@ tags: [serviceAttr]
 |                       |    |   3DES for Transarmor    |       N        |                 NO                  | 
 |                       |    |   3DES for Transarmor    |       02        |                 NON_FDMS_POS                  | 
 |                       |    |   3DES for Transarmor    |       C        |                 CANCEL                  | 
-
 | VASADVINS| advInsightBillingEffectiveDate   |   Billing Effective Date for Advertising Insights    |               |                                   | 
 |                       | advInsightOfferingType   |   Offering Type for Advertising Insights    |       03        |                 AUTH_AND_SETTLEMENT                  | 
 |                       |    |   Offering Type for Advertising Insights    |       C54        |                 CREDIT_CARD_BILL_PMT                  | 
@@ -374,7 +373,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Advertising Insights    |       C        |                 CANCEL_SURCHARGING                  | 
 |                       |    |   Program Status for Advertising Insights    |       9        |                 CANCELLED_BY_MERCHANT                  | 
 |                       |    |   Program Status for Advertising Insights    |       N        |                 NEW_APPLICATION                  | 
-
 | VASTAP2PE| aesDukpt   |   AES DUKPT for Transarmor    |       A        |                 ANNUAL                  | 
 |                       |    |   AES DUKPT for Transarmor    |       I        |                 INITIATED                  | 
 |                       |    |   AES DUKPT for Transarmor    |       N        |                 NOT_CHECKED                  | 
@@ -384,7 +382,6 @@ tags: [serviceAttr]
 |                       |    |   AES DUKPT for Transarmor    |       P        |                 PENDING                  | 
 |                       |    |   AES DUKPT for Transarmor    |       M        |                 MONTHLY                  | 
 |                       |    |   AES DUKPT for Transarmor    |       A        |                 PROVISIONED                  | 
-
 | VASNTWKTKN| americanExpress   |   American Express Network Tokens    |       N        |                 NOT_CHECKED                  | 
 |                       |    |   American Express Network Tokens    |       Y        |                 YES                  | 
 |                       |    |   American Express Network Tokens    |       N        |                 NO                  | 
@@ -395,7 +392,6 @@ tags: [serviceAttr]
 |                       |    |   American Express Network Tokens    |       01        |                 FDMS_POS                  | 
 |                       |    |   American Express Network Tokens    |       A        |                 ACTIVE                  | 
 |                       |    |   American Express Network Tokens    |       P        |                 PENDING                  | 
-
 | VASMSTTIST| analyticsProductType   |   Product Offering That A Merchant Is Enrolled To Use.    |       03        |                 MSI_APP                  | 
 |                       |    |   Product Offering That A Merchant Is Enrolled To Use.    |       Y        |                 YES                  | 
 |                       |    |   Product Offering That A Merchant Is Enrolled To Use.    |       N        |                 ORACLE_NET_SUITE                  | 
@@ -429,7 +425,6 @@ tags: [serviceAttr]
 |                       |    |   Product Offering That A Merchant Is Enrolled To Use.    |       C        |                 CANCEL                  | 
 |                       |    |   Product Offering That A Merchant Is Enrolled To Use.    |       A        |                 ACTIVE                  | 
 |                       |    |   Product Offering That A Merchant Is Enrolled To Use.    |       Y        |                 CHECKED                  | 
-
 | VASWELLSP| bobPreference   |   Wells Bob Preference Field    |       C        |                 CLOVER                  | 
 |                       |    |   Wells Bob Preference Field    |       C        |                 CANCEL                  | 
 |                       |    |   Wells Bob Preference Field    |       Y        |                 CHECKED                  | 
@@ -463,7 +458,6 @@ tags: [serviceAttr]
 |                       |    |   Wells Bob Preference Field    |       C        |                 CENPOS                  | 
 |                       |    |   Wells Bob Preference Field    |       A        |                 ADD                  | 
 |                       |    |   Wells Bob Preference Field    |       S        |                 SNAPPAY_CARDX                  | 
-
 | VASBPMOB| bpMobiletermType   |   Mobile Terminal Type for BP Mobile    |       D        |                 DELETE                  | 
 |                       |    |   Mobile Terminal Type for BP Mobile    |       C        |                 CENPOS                  | 
 |                       |    |   Mobile Terminal Type for BP Mobile    |       03        |                 MSI_APP                  | 
@@ -497,7 +491,6 @@ tags: [serviceAttr]
 |                       |    |   Mobile Terminal Type for BP Mobile    |       01        |                 CLOVER_ONLINE_STORE                  | 
 |                       |    |   Mobile Terminal Type for BP Mobile    |       P        |                 PRINT_ONLY                  | 
 |                       |    |   Mobile Terminal Type for BP Mobile    |       B        |                 BIGCOMMERCE                  | 
-
 | VASWELLSP| ceoLPreference   |   Wells Ceo Preference Field    |       P        |                 PRINT_ONLY                  | 
 |                       |    |   Wells Ceo Preference Field    |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |   Wells Ceo Preference Field    |       N        |                 NOT_CHECKED                  | 
@@ -525,7 +518,6 @@ tags: [serviceAttr]
 |                       |    |   Wells Ceo Preference Field    |       2        |                 IAS_PRODUCT_EXCEPTION                  | 
 |                       |    |   Wells Ceo Preference Field    |       B        |                 ONLINE_AND_PRINT                  | 
 |                       |    |   Wells Ceo Preference Field    |       B        |                 BREAD                  | 
-
 | VASGBSPOSINS| channel   |   Channel for GBS POS Installments    |       C        |                 CBS                  | 
 |                       |    |   Channel for GBS POS Installments    |       Y        |                 USE_PRIMARY_EMAIL                  | 
 |                       |    |   Channel for GBS POS Installments    |       A        |                 AGENT_ISV                  | 
@@ -546,7 +538,6 @@ tags: [serviceAttr]
 |                       |    |   OEMV Chargeback Writeoff Indicator for BP Mobile    |       N        |                 NO                  | 
 |                       |    |   OEMV Chargeback Writeoff Indicator for BP Mobile    |       P        |                 PENDING                  | 
 |                       |    |   OEMV Chargeback Writeoff Indicator for BP Mobile    |       N        |                 NOT_CHECKED                  | 
-
 | VASMSTTIST| cloverInsightsEmail   |   User Provided Clover Insights Email    |       Y        |                 YES                  | 
 |                       |    |   User Provided Clover Insights Email    |       01        |                 FDMS_POS                  | 
 |                       |    |   User Provided Clover Insights Email    |       N        |                 NO                  | 
@@ -557,7 +548,6 @@ tags: [serviceAttr]
 |                       |    |   User Provided Clover Insights Email    |       C        |                 CANCEL                  | 
 |                       |    |   User Provided Clover Insights Email    |       02        |                 NON_FDMS_POS                  | 
 |                       |    |   User Provided Clover Insights Email    |       P        |                 PENDING                  | 
-
 | VASSAMSPLS| clubNum   |   SAMS Club - Club Number    |       O        |                 OTHER                  | 
 |                       |    |   SAMS Club - Club Number    |       Y        |                 CHECKED                  | 
 |                       |    |   SAMS Club - Club Number    |       SF        |                 SALESFORCE_COMMERCE                  | 
@@ -591,7 +581,6 @@ tags: [serviceAttr]
 |                       |    |   SAMS Club - Club Number    |       B        |                 BIGCOMMERCE                  | 
 |                       |    |   SAMS Club - Club Number    |       A        |                 ADD                  | 
 |                       |    |   SAMS Club - Club Number    |       NA        |                 NOT_APPLICABLE                  | 
-
 | VASWELLSP| companyId   |   Wells Company Id Field    |       N        |                 USE_USER_PROVIDED                  | 
 |                       |    |   Wells Company Id Field    |       N        |                 NOT_CHECKED                  | 
 |                       |    |   Wells Company Id Field    |       C        |                 CBS                  | 
@@ -601,7 +590,6 @@ tags: [serviceAttr]
 |                       |    |   Wells Company Id Field    |       N        |                 NO                  | 
 |                       |    |   Wells Company Id Field    |       Y        |                 YES                  | 
 |                       |    |   Wells Company Id Field    |       Y        |                 USE_PRIMARY_EMAIL                  | 
-
 | VASPERKA| contractSignDateTime   |   Date Time Contract Signed    |       T        |                 TEMPUS                  | 
 |                       |    |   Date Time Contract Signed    |       A        |                 ACTIVE                  | 
 |                       |    |   Date Time Contract Signed    |       SF        |                 SALESFORCE_COMMERCE                  | 
@@ -635,7 +623,6 @@ tags: [serviceAttr]
 |                       |    |   Date Time Contract Signed    |       W        |                 WOOCOMMERCE                  | 
 |                       |    |   Date Time Contract Signed    |       C        |                 CANCEL                  | 
 |                       |    |   Date Time Contract Signed    |       C        |                 CENPOS                  | 
-
 | VASBPMOB| convenienceFeeInd   |   Convenience Fee Indicator for BP Mobile    |       Y        |                 USE_PRIMARY_EMAIL                  | 
 |                       |    |   Convenience Fee Indicator for BP Mobile    |       CM        |                 CMM                  | 
 |                       |    |   Convenience Fee Indicator for BP Mobile    |       C        |                 CBS                  | 
@@ -645,7 +632,6 @@ tags: [serviceAttr]
 |                       |    |   Convenience Fee Indicator for BP Mobile    |       A        |                 AGENT_ISV                  | 
 |                       |    |   Convenience Fee Indicator for BP Mobile    |       N        |                 NOT_CHECKED                  | 
 |                       |    |   Convenience Fee Indicator for BP Mobile    |       Y        |                 YES                  | 
-
 | VASMSTTIST| dataRightsOptOutCode   |   Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.    |       C        |                 NEW_VRU_ID_COMPLETED                  | 
 |                       |    |   Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.    |       B        |                 BREAD                  | 
 |                       |    |   Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.    |       PFC        |                 PF_CHANGS                  | 
@@ -673,7 +659,6 @@ tags: [serviceAttr]
 |                       |    |   Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.    |       N        |                 NO_REQUEST_OF_NEW_VRU                  | 
 |                       |    |   Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.    |       USHG        |                 UNION_SQ_HOSPITAL                  | 
 |                       |    |   Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.    |       N        |                 NO                  | 
-
 | VASDBTTERMID| dbtTermIdStatus   |   Program Status for Debit Term Id    |       4        |                 PENDING_CONTACTED                  | 
 |                       |    |   Program Status for Debit Term Id    |       6        |                 NO_RESPONSE                  | 
 |                       |    |   Program Status for Debit Term Id    |       M        |                 MIX_EMV_AND_NON_EMV                  | 
@@ -702,7 +687,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Debit Term Id    |       R        |                 DENIED                  | 
 |                       |    |   Program Status for Debit Term Id    |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
 |                       |    |   Program Status for Debit Term Id    |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
-
 | VASPAYEEZY| developerEmailId   |   Developer Email ID    |       C        |                 CANCEL                  | 
 |                       |    |   Developer Email ID    |       02        |                 NON_FDMS_POS                  | 
 |                       |    |   Developer Email ID    |       P        |                 PENDING                  | 
@@ -722,7 +706,6 @@ tags: [serviceAttr]
 |                       |    |   Developer ID    |       N        |                 NOT_CHECKED                  | 
 |                       |    |   Developer ID    |       Y        |                 CHECKED                  | 
 |                       |    |   Developer ID    |       A        |                 AGENT_ISV                  | 
-
 | VASDISCDBTACP| discDbtAcpOfferingType   |   Offering Type for Discover Debit Acceptance    |       MI        |                 MNY_TRFR_MERCH_INIT                  | 
 |                       |    |   Offering Type for Discover Debit Acceptance    |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |   Offering Type for Discover Debit Acceptance    |       C52        |                 ACCOUNT_TO_ACCOUNT                  | 
@@ -813,7 +796,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Discover Debit Acceptance    |       C        |                 CANCEL                  | 
 |                       |    |   Program Status for Discover Debit Acceptance    |       4        |                 PENDING_CONTACTED                  | 
 |                       |    |   Program Status for Discover Debit Acceptance    |       A        |                 ACTIVE                  | 
-
 | VASDISCINCAUTH| discIncAuthOfferingType   |   Offering Type for Discover Inc Auth    |       02        |                 FRAUD_DETECT_SMB_TRIAL                  | 
 |                       |    |   Offering Type for Discover Inc Auth    |       MD        |                 MERCH_DISBURSEMENTS                  | 
 |                       |    |   Offering Type for Discover Inc Auth    |       C58        |                 CASH_2_ATM                  | 
@@ -904,7 +886,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Discover Inc Auth    |       C        |                 CANCELLED_BY_FD                  | 
 |                       |    |   Program Status for Discover Inc Auth    |       N        |                 NEW_APPLICATION                  | 
 |                       |    |   Program Status for Discover Inc Auth    |       9        |                 CANCELLED_BY_MERCHANT                  | 
-
 | VASDISCPROMPRG| discPrmPrgEffectiveDate   |   Effective Date for Discover Prm Prg    |       N        |                 NO                  | 
 |                       |    |   Effective Date for Discover Prm Prg    |       C        |                 NEW_VRU_ID_COMPLETED                  | 
 |                       |    |   Effective Date for Discover Prm Prg    |       Y        |                 NEW_VRU_ID_REQUESTED                  | 
@@ -1064,7 +1045,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Discover Prm Prg    |       R        |                 DENIED                  | 
 |                       |    |   Program Status for Discover Prm Prg    |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
 |                       |    |   Program Status for Discover Prm Prg    |       1        |                 SUBSCRIBED                  | 
-
 | VASNTWKTKN| discover   |   Discover Token    |       I        |                 INITIATED                  | 
 |                       |    |   Discover Token    |       A        |                 PROVISIONED                  | 
 |                       |    |   Discover Token    |       N        |                 NOT_CHECKED                  | 
@@ -1076,9 +1056,7 @@ tags: [serviceAttr]
 |                       |    |   Discover Token    |       F        |                 FAILED                  | 
 |                       |    |   Discover Token    |               |                 NONE                  | 
 |                       |    |   Discover Token    |       Y        |                 CHECKED                  | 
-
-| VASBPMOB| ebtFnsNum   |   EBT FNS Number for BP Mobile    |               |                                   | 
-
+| VASBPMOB| ebtFnsNum   |   EBT FNS Number for BP Mobile    |               |                                   |
 | VASGBSPOSINS| ecommercePlatform   |   Ecommerce Platform for GBS POS Installments    |       M        |                 MAGENTO2                  | 
 |                       |    |   Ecommerce Platform for GBS POS Installments    |       N        |                 NO                  | 
 |                       |    |   Ecommerce Platform for GBS POS Installments    |       P        |                 PRINT_ONLY                  | 
@@ -1112,10 +1090,8 @@ tags: [serviceAttr]
 |                       |    |   Ecommerce Platform for GBS POS Installments    |       O        |                 OTHER                  | 
 |                       |    |   Ecommerce Platform for GBS POS Installments    |       03        |                 MSI_APP                  | 
 |                       |    |   Ecommerce Platform for GBS POS Installments    |       X        |                 CARDX                  | 
-
 | VASEMVCMP| emvBillingEffectiveDate   |   EMV Billing Effective Date    |               |                                   | 
 |                       | emvBillingExpirationDate   |   EMV Billing Expiration Date    |               |                                   | 
-
 | VASEMVENB| emvEnablementStatus   |   Program Status for EMV Enablement    |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |   Program Status for EMV Enablement    |       A        |                 ACTIVE                  | 
 |                       |    |   Program Status for EMV Enablement    |       4        |                 PENDING_CONTACTED                  | 
@@ -1144,7 +1120,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for EMV Enablement    |       C        |                 CANCEL                  | 
 |                       |    |   Program Status for EMV Enablement    |       C        |                 CANCEL_SURCHARGING                  | 
 |                       |    |   Program Status for EMV Enablement    |       8        |                 ACTIVE                  | 
-
 | VASEMVCMP| emvOfferingType   |   EMV Offering Type    |       BI        |                 BANK_INITIATED_P2P                  | 
 |                       |    |   EMV Offering Type    |       C04        |                 GAMING_PAYMENTS                  | 
 |                       |    |   EMV Offering Type    |       01        |                 NT_ON_THE_GO                  | 
@@ -1235,7 +1210,6 @@ tags: [serviceAttr]
 |                       |    |   EMV Program Status    |       N        |                 APPLY_FALL_BACK                  | 
 |                       |    |   EMV Program Status    |       L        |                 LIVE                  | 
 |                       |    |   EMV Program Status    |       C        |                 CANCELLED_BY_FD                  | 
-
 | VASWSLENT| enrollmentStatus   |   Enrollment Status for Wisely Entitlement    |       C07        |                 PERSON_TO_PERSON                  | 
 |                       |    |   Enrollment Status for Wisely Entitlement    |       B        |                 BLACK_LISTED                  | 
 |                       |    |   Enrollment Status for Wisely Entitlement    |       01        |                 STANDARD_OFFERING                  | 
@@ -1298,7 +1272,6 @@ tags: [serviceAttr]
 |                       |    |   Enrollment Status for Wisely Entitlement    |       03        |                 NT_HYBRID                  | 
 |                       |    |   Enrollment Status for Wisely Entitlement    |       BP        |                 NON-CARD_BILL_PAY                  | 
 |                       |    |   Enrollment Status for Wisely Entitlement    |       BI        |                 BANK_INITIATED_TRANS                  | 
-
 | VASENTINSB| entInsightBenchBillingEffectiveDate   |   Billing Effective Date for Enterprise Insights Bench    |               |                                   | 
 |                       | entInsightBenchStatus   |   Program Status for Enterprise Insights Bench    |       A        |                 ACTIVE                  | 
 |                       |    |   Program Status for Enterprise Insights Bench    |       A        |                 ACTIVE_SURCHARGING                  | 
@@ -1390,9 +1363,7 @@ tags: [serviceAttr]
 |                       |    |   Offering Type for Enterprise Insights Bench    |       MI        |                 MNY_TRFR_MERCH_INIT                  | 
 |                       |    |   Offering Type for Enterprise Insights Bench    |       F54        |                 PYMNT_OF_OWN_CC_BILL                  | 
 |                       |    |   Offering Type for Enterprise Insights Bench    |       04        |                 ADVANCED                  | 
-
 | VASENTINS| entInsightBillingEffectiveDate   |   Billing Effective Date for Enterprise Insights    |               |                                   | 
-
 | VASENTINSD| entInsightDemographicOfferingType   |   Offering Type for Enterprise Insights Demographic    |       F64        |                 TR_OWN_DB_OR_PP_CARD                  | 
 |                       |    |   Offering Type for Enterprise Insights Demographic    |       03        |                 AUTH_AND_SETTLEMENT                  | 
 |                       |    |   Offering Type for Enterprise Insights Demographic    |       01        |                 CUP_ELIGIBLE                  | 
@@ -1484,7 +1455,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Enterprise Insights Demographic    |       N        |                 APPLY_FALL_BACK                  | 
 |                       |    |   Program Status for Enterprise Insights Demographic    |       C        |                 CANCEL_SURCHARGING                  | 
 |                       | entInsightDemographicbillingEffectiveDate   |   Billing Effective Date for Enterprise Insights Demographic    |               |                                   | 
-
 | VASENTINSL| entInsightLobbyBillingEffectiveDate   |   Billing Effective Date for Enterprise Insights Lobby    |               |                                   | 
 |                       | entInsightLobbyOfferingType   |   Offering Type for Enterprise Insights Lobby    |       FT        |                 FUNDS_TRANSFER                  | 
 |                       |    |   Offering Type for Enterprise Insights Lobby    |       OG        |                 ONLINE_GAMBLING                  | 
@@ -1576,7 +1546,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Enterprise Insights Lobby    |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
 |                       |    |   Program Status for Enterprise Insights Lobby    |       3        |                 PENDING_UNCONTACTED                  | 
 |                       |    |   Program Status for Enterprise Insights Lobby    |       Y        |                 DISCOVER_REVIEW                  | 
-
 | VASENTINS| entInsightOfferingType   |   Offering Type for Enterprise Insights    |       WT        |                 WALLET_TRANSFER                  | 
 |                       |    |   Offering Type for Enterprise Insights    |       F55        |                 BUS_DISBURS_TO_CARD                  | 
 |                       |    |   Offering Type for Enterprise Insights    |       FD        |                 FUNDS_DISBURSEMENTS                  | 
@@ -1667,7 +1636,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Enterprise Insights    |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
 |                       |    |   Program Status for Enterprise Insights    |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |   Program Status for Enterprise Insights    |       I        |                 IN_PROGRESS                  | 
-
 | VASNTWKTKN| fiservTokenRequesterId   |   Fiserv Token Requester ID for Network Tokens    |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |   Fiserv Token Requester ID for Network Tokens    |       UJUL        |                 UNCLE_JULIO                  | 
 |                       |    |   Fiserv Token Requester ID for Network Tokens    |       P        |                 PRINT_ONLY                  | 
@@ -1695,7 +1663,6 @@ tags: [serviceAttr]
 |                       |    |   Fiserv Token Requester ID for Network Tokens    |       00        |                 NONE                  | 
 |                       |    |   Fiserv Token Requester ID for Network Tokens    |       N        |                 NO                  | 
 |                       |    |   Fiserv Token Requester ID for Network Tokens    |       1        |                 OPTED_OUT                  | 
-
 | VASFRDDTCT| fraudDetectBillingEffectiveDate   |   Billing Effective Date for Fraud Detect    |               |                                   | 
 |                       | fraudDetectofferingType   |   Offering Type for Fraud Detect    |       FD        |                 FUNDS_DISBURSEMENTS                  | 
 |                       |    |   Offering Type for Fraud Detect    |       01        |                 STANDARD_OFFERING                  | 
@@ -1787,7 +1754,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Fraud Detect    |       N        |                 NEW_APPLICATION                  | 
 |                       |    |   Program Status for Fraud Detect    |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |   Program Status for Fraud Detect    |       Y        |                 DISCOVER_REVIEW                  | 
-
 | VASFRDFLX| fraudFlexBillingEffectiveDate   |   Billing Effective Date for Fraud Flex    |               |                                   | 
 |                       | fraudFlexOfferingType   |   Offering Type for Fraud Flex    |       W        |                 WHITE_LISTED                  | 
 |                       |    |   Offering Type for Fraud Flex    |       BP        |                 NON-CARD_BILL_PAY                  | 
@@ -1879,7 +1845,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Fraud Flex    |       Y        |                 DO_NOT_APPLY_FALLBACK                  | 
 |                       |    |   Program Status for Fraud Flex    |       7        |                 FREE_TRIAL                  | 
 |                       |    |   Program Status for Fraud Flex    |       3        |                 PENDING_UNCONTACTED                  | 
-
 | VASFRDDTCT| gatewayApi   |   Fraud Detect Entry Point    |       FIBD        |                 FIREBIRDS                  | 
 |                       |    |   Fraud Detect Entry Point    |       SBBQ        |                 SONNYS_BBQ                  | 
 |                       |    |   Fraud Detect Entry Point    |       B        |                 BREAD                  | 
@@ -1907,7 +1872,6 @@ tags: [serviceAttr]
 |                       |    |   Fraud Detect Entry Point    |       SPKL        |                 SPRINKLES                  | 
 |                       |    |   Fraud Detect Entry Point    |       N        |                 NO                  | 
 |                       |    |   Fraud Detect Entry Point    |       N        |                 NO_REQUEST_OF_NEW_VRU                  | 
-
 | VASGBSPOSINS| gbsPosInsStatus   |   Program Status for GBS POS Installment    |       6        |                 NO_RESPONSE                  | 
 |                       |    |   Program Status for GBS POS Installment    |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |   Program Status for GBS POS Installment    |       Y        |                 DO_NOT_APPLY_FALLBACK                  | 
@@ -1998,7 +1962,6 @@ tags: [serviceAttr]
 |                       |    |   Offering Type for GBS POS Installment    |       01        |                 EMV_CAMPAIGN                  | 
 |                       |    |   Offering Type for GBS POS Installment    |       F53        |                 AGENT_CASH_OUT                  | 
 |                       |    |   Offering Type for GBS POS Installment    |       03        |                 ESSENTIALS                  | 
-
 | VASTAP2PE| ingenicoOnguard   |   Ingenico On-Guard for Transarmor    |       N        |                 NO                  | 
 |                       |    |   Ingenico On-Guard for Transarmor    |       Y        |                 CHECKED                  | 
 |                       |    |   Ingenico On-Guard for Transarmor    |       A        |                 PROVISIONED                  | 
@@ -2010,7 +1973,6 @@ tags: [serviceAttr]
 |                       |    |   Ingenico On-Guard for Transarmor    |       U        |                 UPGRADE                  | 
 |                       |    |   Ingenico On-Guard for Transarmor    |       R        |                 RENEWAL                  | 
 |                       |    |   Ingenico On-Guard for Transarmor    |       Y        |                 YES                  | 
-
 | VASLCRDBT| lcrDebitStatus   |   Program Status for LCR Debit Flags (Optional)    |       Y        |                 DISCOVER_REVIEW                  | 
 |                       |    |   Program Status for LCR Debit Flags (Optional)    |       C        |                 CANCEL_SURCHARGING                  | 
 |                       |    |   Program Status for LCR Debit Flags (Optional)    |       M        |                 MIX_EMV_AND_NON_EMV                  | 
@@ -2039,7 +2001,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for LCR Debit Flags (Optional)    |       N        |                 ALLOW_DEBIT_FLAGS                  | 
 |                       |    |   Program Status for LCR Debit Flags (Optional)    |       C        |                 CANCELLED_BY_FD                  | 
 |                       |    |   Program Status for LCR Debit Flags (Optional)    |       A        |                 ACTIVE_SURCHARGING                  | 
-
 | VASLCRFB| lcrStatus   |   Program Status of LCR Fallback    |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |   Program Status of LCR Fallback    |       C        |                 CANCEL                  | 
 |                       |    |   Program Status of LCR Fallback    |       5        |                 PENDING_UPGRADE                  | 
@@ -2068,7 +2029,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status of LCR Fallback    |       8        |                 ACTIVE                  | 
 |                       |    |   Program Status of LCR Fallback    |       4        |                 PENDING_CONTACTED                  | 
 |                       |    |   Program Status of LCR Fallback    |       I        |                 IN_PROGRESS                  | 
-
 | VASMSTTIST| mainStreetProgramstatus   |   Program Status    |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
 |                       |    |   Program Status    |       A        |                 ACTIVE                  | 
 |                       |    |   Program Status    |       N        |                 ALLOW_DEBIT_FLAGS                  | 
@@ -2098,7 +2058,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status    |       Y        |                 DISCOVER_REVIEW                  | 
 |                       |    |   Program Status    |       4        |                 PENDING_CONTACTED                  | 
 |                       | mainStreetbillingEffectiveDate   |   Billing Effective Date     |               |                                   | 
-
 | VASNTWKTKN| masterCard   |   Master Card Network Tokens    |       CM        |                 CMM                  | 
 |                       |    |   Master Card Network Tokens    |       N        |                 USE_USER_PROVIDED                  | 
 |                       |    |   Master Card Network Tokens    |       N        |                 NO                  | 
@@ -2108,7 +2067,6 @@ tags: [serviceAttr]
 |                       |    |   Master Card Network Tokens    |       C        |                 CBS                  | 
 |                       |    |   Master Card Network Tokens    |       Y        |                 CHECKED                  | 
 |                       |    |   Master Card Network Tokens    |       Y        |                 USE_PRIMARY_EMAIL                  | 
-
 | VASMSTPWLT| masterpassofferingType   |   Masterpass Offering Type    |       06        |                 STANDARD                  | 
 |                       |    |   Masterpass Offering Type    |       B        |                 BLACK_LISTED                  | 
 |                       |    |   Masterpass Offering Type    |       03        |                 AUTH_AND_SETTLEMENT                  | 
@@ -2199,7 +2157,6 @@ tags: [serviceAttr]
 |                       |    |   Masterpass Status    |       N        |                 ALLOW_DEBIT_FLAGS                  | 
 |                       |    |   Masterpass Status    |       C        |                 CANCEL_SURCHARGING                  | 
 |                       |    |   Masterpass Status    |       Y        |                 DISCOVER_REVIEW                  | 
-
 | VASMCMONEYSEND| mcMoneySendOfferingType   |   Offering Type for MC Moneysend    |       01        |                 EMV_CAMPAIGN                  | 
 |                       |    |   Offering Type for MC Moneysend    |       F54        |                 PYMNT_OF_OWN_CC_BILL                  | 
 |                       |    |   Offering Type for MC Moneysend    |       C56        |                 GOV-NPROF_DISBRMTS                  | 
@@ -2290,7 +2247,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for MC Moneysend    |       4        |                 PENDING_CONTACTED                  | 
 |                       |    |   Program Status for MC Moneysend    |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
 |                       |    |   Program Status for MC Moneysend    |       D        |                 DECLINED                  | 
-
 | VASSAMSPLS| memberShipId   |   SAMS Club Membership ID    |       00        |                 NONE                  | 
 |                       |    |   SAMS Club Membership ID    |       02        |                 IPG                  | 
 |                       |    |   SAMS Club Membership ID    |       Y        |                 NEW_VRU_ID_REQUESTED                  | 
@@ -2318,7 +2274,6 @@ tags: [serviceAttr]
 |                       |    |   SAMS Club Membership ID    |       UJUL        |                 UNCLE_JULIO                  | 
 |                       |    |   SAMS Club Membership ID    |       P        |                 PRINT_ONLY                  | 
 |                       |    |   SAMS Club Membership ID    |       04        |                 UCOMM                  | 
-
 | VASMERSRCH| merchSurchargeProgEffectiveDate   |   Surcharge Effective Date for Merchant Surcharge Program    |       N        |                 NO                  | 
 |                       |    |   Surcharge Effective Date for Merchant Surcharge Program    |       N        |                 NOT_CHECKED                  | 
 |                       |    |   Surcharge Effective Date for Merchant Surcharge Program    |       CM        |                 CMM                  | 
@@ -2455,7 +2410,6 @@ tags: [serviceAttr]
 |                       |    |   Surcharge Rate for Merchant Surcharge Program    |       B        |                 ONLINE_AND_PRINT                  | 
 |                       |    |   Surcharge Rate for Merchant Surcharge Program    |       ABLS        |                 ABUELOS                  | 
 |                       |    |   Surcharge Rate for Merchant Surcharge Program    |       SPKL        |                 SPRINKLES                  | 
-
 | VASWSLENT| merchantIdentifier   |   Merchant Identifier for Wisely Entitlement    |       3        |                 PENDING_UNCONTACTED                  | 
 |                       |    |   Merchant Identifier for Wisely Entitlement    |       8        |                 ACTIVE                  | 
 |                       |    |   Merchant Identifier for Wisely Entitlement    |       D        |                 DECLINED                  | 
@@ -2484,7 +2438,6 @@ tags: [serviceAttr]
 |                       |    |   Merchant Identifier for Wisely Entitlement    |       I        |                 IN_PROGRESS                  | 
 |                       |    |   Merchant Identifier for Wisely Entitlement    |       N        |                 APPLY_FALL_BACK                  | 
 |                       |    |   Merchant Identifier for Wisely Entitlement    |       N        |                 ALLOW_DEBIT_FLAGS                  | 
-
 | VASBPMOB| mobInd   |   Mobile Indicator for BP Mobile    |       ABLS        |                 ABUELOS                  | 
 |                       |    |   Mobile Indicator for BP Mobile    |       SPKL        |                 SPRINKLES                  | 
 |                       |    |   Mobile Indicator for BP Mobile    |       02        |                 IPG                  | 
@@ -2512,7 +2465,6 @@ tags: [serviceAttr]
 |                       |    |   Mobile Indicator for BP Mobile    |       2        |                 IAS_PRODUCT_EXCEPTION                  | 
 |                       |    |   Mobile Indicator for BP Mobile    |       B        |                 BREAD                  | 
 |                       |    |   Mobile Indicator for BP Mobile    |       00        |                 NONE                  | 
-
 | VASNTWKTKN| networkTokenBillingEffectiveDate   |   Billing Effective Date for Network Tokens    |               |                                   | 
 |                       | networkTokenOfferingType   |   Offering Type for Network Tokens    |       PP        |                 PERSON_TO_PERSON                  | 
 |                       |    |   Offering Type for Network Tokens    |       01        |                 STANDARD_OFFERING                  | 
@@ -2604,7 +2556,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Network Tokens    |       5        |                 PENDING_UPGRADE                  | 
 |                       |    |   Program Status for Network Tokens    |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |   Program Status for Network Tokens    |       6        |                 NO_RESPONSE                  | 
-
 | VASSAMSPLS| newUpgRnwlInd   |   SAMS Club New/Upgrade/Renewal Indicator    |       N        |                 NEW                  | 
 |                       |    |   SAMS Club New/Upgrade/Renewal Indicator    |       N        |                 NO                  | 
 |                       |    |   SAMS Club New/Upgrade/Renewal Indicator    |       U        |                 UPGRADE                  | 
@@ -2625,7 +2576,6 @@ tags: [serviceAttr]
 |                       |    |   SAMS Club Next Renewal Date    |       CM        |                 CMM                  | 
 |                       |    |   SAMS Club Next Renewal Date    |       Y        |                 CHECKED                  | 
 |                       |    |   SAMS Club Next Renewal Date    |       Y        |                 YES                  | 
-
 | VASGBSPOSINS| partner   |   Partner for GBS POS Installments    |       01        |                 FIRST_API                  | 
 |                       |    |   Partner for GBS POS Installments    |       SPKL        |                 SPRINKLES                  | 
 |                       |    |   Partner for GBS POS Installments    |       B        |                 ONLINE_AND_PRINT                  | 
@@ -2653,7 +2603,6 @@ tags: [serviceAttr]
 |                       |    |   Partner for GBS POS Installments    |       USHG        |                 UNION_SQ_HOSPITAL                  | 
 |                       |    |   Partner for GBS POS Installments    |       2        |                 IAS_PRODUCT_EXCEPTION                  | 
 |                       |    |   Partner for GBS POS Installments    |       N        |                 NO_REQUEST_OF_NEW_VRU                  | 
-
 | VASPAYEEZY| payezeeyBillingEffectiveDate   |   Billing Effective Date    |               |                                   | 
 |                       | payezeeyOfferingType   |   Payeezy Offering Type    |       C04        |                 GAMING_PAYMENTS                  | 
 |                       |    |   Payeezy Offering Type    |       02        |                 FRAUD_DETECT_SMB_TRIAL                  | 
@@ -2745,7 +2694,6 @@ tags: [serviceAttr]
 |                       |    |   Payeezy Program Status    |       L        |                 LIVE                  | 
 |                       |    |   Payeezy Program Status    |       2        |                 UNSUBSCRIBED                  | 
 |                       |    |   Payeezy Program Status    |       A        |                 APPROVED                  | 
-
 | VASPERKA| perkaAccountNum   |   Perka Account Number    |       Y        |                 CHECKED                  | 
 |                       |    |   Perka Account Number    |       Y        |                 USE_PRIMARY_EMAIL                  | 
 |                       |    |   Perka Account Number    |       N        |                 USE_USER_PROVIDED                  | 
@@ -2796,7 +2744,6 @@ tags: [serviceAttr]
 |                       | perkaTrainInd   |   Perka Training Indicator    |       Y        |                 TRAINING_REQUESTED                  | 
 |                       |    |   Perka Training Indicator    |       N        |                 TRAINING_NOT_REQUESTED                  | 
 |                       | perkaUniqueId   |   Perka Unique Identifier    |               |                                   | 
-
 | VASPDATAPRT| personalDataProtectionBillingEffectiveDate   |   Billing Effective Date for Personal Data Protection    |               |                                   | 
 |                       | personalDataProtectionOfferingType   |   Offering Type for Personal Data Protection    |       F54        |                 PYMNT_OF_OWN_CC_BILL                  | 
 |                       |    |   Offering Type for Personal Data Protection    |       AA        |                 ACCOUNT_TO_ACCOUNT                  | 
@@ -2888,7 +2835,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Personal Data Protection    |       N        |                 ALLOW_DEBIT_FLAGS                  | 
 |                       |    |   Program Status for Personal Data Protection    |       3        |                 PENDING_UNCONTACTED                  | 
 |                       |    |   Program Status for Personal Data Protection    |       C        |                 CANCEL                  | 
-
 | VASPINLESSECOM| pinlessEcomStatus   |   Program Status for Pinless Ecomm    |       Y        |                 DISCOVER_REVIEW                  | 
 |                       |    |   Program Status for Pinless Ecomm    |       L        |                 LIVE                  | 
 |                       |    |   Program Status for Pinless Ecomm    |       5        |                 PENDING_UPGRADE                  | 
@@ -2917,7 +2863,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Pinless Ecomm    |       C        |                 CANCELLED_BY_FD                  | 
 |                       |    |   Program Status for Pinless Ecomm    |       4        |                 PENDING_CONTACTED                  | 
 |                       |    |   Program Status for Pinless Ecomm    |       9        |                 CANCELLED_BY_MERCHANT                  | 
-
 | VASMSTTIST| primaryEmailInd   |   Primary Email Indicator    |       N        |                 USE_USER_PROVIDED                  | 
 |                       |    |   Primary Email Indicator    |       N        |                 NO                  | 
 |                       |    |   Primary Email Indicator    |       CM        |                 CMM                  | 
@@ -2927,7 +2872,6 @@ tags: [serviceAttr]
 |                       |    |   Primary Email Indicator    |       Y        |                 USE_PRIMARY_EMAIL                  | 
 |                       |    |   Primary Email Indicator    |       Y        |                 CHECKED                  | 
 |                       |    |   Primary Email Indicator    |       Y        |                 YES                  | 
-
 | VASEMVCMP| rebateAmount   |   EMV Rebate Amount    |       04        |                 UCOMM                  | 
 |                       |    |   EMV Rebate Amount    |       B        |                 ONLINE_AND_PRINT                  | 
 |                       |    |   EMV Rebate Amount    |       O        |                 ONLINE_ONLY                  | 
@@ -2955,7 +2899,6 @@ tags: [serviceAttr]
 |                       |    |   EMV Rebate Amount    |       PFC        |                 PF_CHANGS                  | 
 |                       |    |   EMV Rebate Amount    |       Y        |                 CHECKED                  | 
 |                       |    |   EMV Rebate Amount    |       P        |                 PRINT_ONLY                  | 
-
 | VASPERKA| reccuringCharge   |   Recurring Charge    |       R        |                 RENEWAL                  | 
 |                       |    |   Recurring Charge    |       U        |                 UPGRADE                  | 
 |                       |    |   Recurring Charge    |               |                 NONE                  | 
@@ -2967,7 +2910,6 @@ tags: [serviceAttr]
 |                       |    |   Recurring Charge    |       N        |                 NOT_CHECKED                  | 
 |                       |    |   Recurring Charge    |       F        |                 FAILED                  | 
 |                       |    |   Recurring Charge    |       I        |                 INITIATED                  | 
-
 | VASPAYEEZY| referralCode   |   Referral Code    |       N        |                 NO                  | 
 |                       |    |   Referral Code    |       04        |                 UCOMM                  | 
 |                       |    |   Referral Code    |       01        |                 STANDARD_OFFERING                  | 
@@ -2995,7 +2937,6 @@ tags: [serviceAttr]
 |                       |    |   Referral Code    |       UJUL        |                 UNCLE_JULIO                  | 
 |                       |    |   Referral Code    |       PFC        |                 PF_CHANGS                  | 
 |                       |    |   Referral Code    |       00        |                 NONE                  | 
-
 | VASVRUSRV| requestNewVruIdCd   |   Request New VRU Id For Compromised One    |       UJUL        |                 UNCLE_JULIO                  | 
 |                       |    |   Request New VRU Id For Compromised One    |       Y        |                 CHECKED                  | 
 |                       |    |   Request New VRU Id For Compromised One    |       Y        |                 YES                  | 
@@ -3023,7 +2964,6 @@ tags: [serviceAttr]
 |                       |    |   Request New VRU Id For Compromised One    |       O        |                 ONLINE_ONLY                  | 
 |                       |    |   Request New VRU Id For Compromised One    |       FIBD        |                 FIREBIRDS                  | 
 |                       |    |   Request New VRU Id For Compromised One    |       Y        |                 NEW_VRU_ID_REQUESTED                  | 
-
 | VASSAMSPLS| rnwlAmtPaid   |   SAMS Club Renewal Amount Paid    |       01        |                 FDMS_POS                  | 
 |                       |    |   SAMS Club Renewal Amount Paid    |       Y        |                 CHECKED                  | 
 |                       |    |   SAMS Club Renewal Amount Paid    |       P        |                 PENDING                  | 
@@ -3034,7 +2974,6 @@ tags: [serviceAttr]
 |                       |    |   SAMS Club Renewal Amount Paid    |       C        |                 CANCEL                  | 
 |                       |    |   SAMS Club Renewal Amount Paid    |       Y        |                 YES                  | 
 |                       |    |   SAMS Club Renewal Amount Paid    |       N        |                 NO                  | 
-
 | VASTAP2PE| rsavpki   |   rsavpki for Transarmor    |       C        |                 NEW_VRU_ID_COMPLETED                  | 
 |                       |    |   rsavpki for Transarmor    |       Y        |                 YES                  | 
 |                       |    |   rsavpki for Transarmor    |       01        |                 FIRST_API                  | 
@@ -3062,7 +3001,6 @@ tags: [serviceAttr]
 |                       |    |   rsavpki for Transarmor    |       04        |                 UCOMM                  | 
 |                       |    |   rsavpki for Transarmor    |       B        |                 BREAD                  | 
 |                       |    |   rsavpki for Transarmor    |       P        |                 PRINT_ONLY                  | 
-
 | VASTCKCP| tckCpPrcsInd   |   Process Indicator Telecheck CP    |       N        |                 USE_USER_PROVIDED                  | 
 |                       |    |   Process Indicator Telecheck CP    |       A        |                 AGENT_ISV                  | 
 |                       |    |   Process Indicator Telecheck CP    |       C        |                 CBS                  | 
@@ -3170,7 +3108,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Telecheck CP    |       1        |                 SUBSCRIBED                  | 
 |                       |    |   Program Status for Telecheck CP    |       R        |                 DENIED                  | 
 |                       |    |   Program Status for Telecheck CP    |       5        |                 PENDING_UPGRADE                  | 
-
 | VASTEMPUS| tempusProgramStatus   |   Tempus Program Status    |       Y        |                 DISCOVER_REVIEW                  | 
 |                       |    |   Tempus Program Status    |       I        |                 IN_PROGRESS                  | 
 |                       |    |   Tempus Program Status    |       3        |                 PENDING_UNCONTACTED                  | 
@@ -3199,7 +3136,6 @@ tags: [serviceAttr]
 |                       |    |   Tempus Program Status    |       C        |                 CANCELLED_BY_FD                  | 
 |                       |    |   Tempus Program Status    |       R        |                 DENIED                  | 
 |                       |    |   Tempus Program Status    |       A        |                 ACTIVE_SURCHARGING                  | 
-
 | VASPERKA| term   |   Term    |       M        |                 MONTHLY                  | 
 |                       |    |   Term    |       O        |                 OPTED_OUT                  | 
 |                       |    |   Term    |       N        |                 NOT_CHECKED                  | 
@@ -3209,7 +3145,6 @@ tags: [serviceAttr]
 |                       |    |   Term    |       P        |                 PENDING                  | 
 |                       |    |   Term    |       I        |                 INITIATED                  | 
 |                       |    |   Term    |       F        |                 FAILED                  | 
-
 | VASBPMOB| terminalType01   |   Terminal Type 01 for BP Mobile    |       F        |                 FAILED                  | 
 |                       |    |   Terminal Type 01 for BP Mobile    |       A        |                 PROVISIONED                  | 
 |                       |    |   Terminal Type 01 for BP Mobile    |       U        |                 UPGRADE                  | 
@@ -3230,7 +3165,6 @@ tags: [serviceAttr]
 |                       |    |   Terminal Type 03 for BP Mobile    |       Y        |                 CHECKED                  | 
 |                       |    |   Terminal Type 03 for BP Mobile    |       I        |                 INITIATED                  | 
 |                       |    |   Terminal Type 03 for BP Mobile    |       A        |                 PROVISIONED                  | 
-
 | VASMERSRCH| thirdParty   |   Third Party for Merchant Surcharge Program    |       O        |                 OTHER                  | 
 |                       |    |   Third Party for Merchant Surcharge Program    |       B        |                 ONLINE_AND_PRINT                  | 
 |                       |    |   Third Party for Merchant Surcharge Program    |       P        |                 PRINT_ONLY                  | 
@@ -3264,7 +3198,6 @@ tags: [serviceAttr]
 |                       |    |   Third Party for Merchant Surcharge Program    |       A        |                 ACTIVE                  | 
 |                       |    |   Third Party for Merchant Surcharge Program    |       V        |                 MIVA                  | 
 |                       |    |   Third Party for Merchant Surcharge Program    |       C        |                 CLOVER                  | 
-
 | VASTXNINS| transactionInsightBillingEffectiveDate   |   Billing Effective Date for Transaction Insights    |               |                                   | 
 |                       | transactionInsightOfferingType   |   Offering Type for Transaction Insights    |       PP        |                 PERSON_TO_PERSON                  | 
 |                       |    |   Offering Type for Transaction Insights    |       F52        |                 ACCOUNT_TO_ACCOUNT                  | 
@@ -3356,7 +3289,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Transaction Insights    |       A        |                 ACTIVE                  | 
 |                       |    |   Program Status for Transaction Insights    |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
 |                       |    |   Program Status for Transaction Insights    |       7        |                 FREE_TRIAL                  | 
-
 | VASTAP2PE| transarmorP2peStatus   |   Transrmor P2PE Pragram Status    |       2        |                 UNSUBSCRIBED                  | 
 |                       |    |   Transrmor P2PE Pragram Status    |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |   Transrmor P2PE Pragram Status    |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
@@ -3385,7 +3317,6 @@ tags: [serviceAttr]
 |                       |    |   Transrmor P2PE Pragram Status    |       R        |                 DENIED                  | 
 |                       |    |   Transrmor P2PE Pragram Status    |       A        |                 APPROVED                  | 
 |                       |    |   Transrmor P2PE Pragram Status    |       N        |                 ALLOW_DEBIT_FLAGS                  | 
-
 | VASTRNSARM| transarmorProgramstatus   |   Transarmor Program Status    |       N        |                 APPLY_FALL_BACK                  | 
 |                       |    |   Transarmor Program Status    |       N        |                 NEW_APPLICATION                  | 
 |                       |    |   Transarmor Program Status    |       9        |                 CANCELLED_BY_MERCHANT                  | 
@@ -3476,7 +3407,6 @@ tags: [serviceAttr]
 |                       |    |   Transarmor Offering Type    |       01        |                 AUTHORIZATION_DATA                  | 
 |                       |    |   Transarmor Offering Type    |       00        |                 NOT_APPLICABLE                  | 
 |                       |    |   Transarmor Offering Type    |       MI        |                 MNY_TRFR_MERCH_INIT                  | 
-
 | VASTAP2PE| verifoneProtect   |   Verifone Protect for Transarmor    |       02        |                 MSI_EXPRESS                  | 
 |                       |    |   Verifone Protect for Transarmor    |       S        |                 SHOPIFY                  | 
 |                       |    |   Verifone Protect for Transarmor    |       N        |                 NOT_CHECKED                  | 
@@ -3519,7 +3449,6 @@ tags: [serviceAttr]
 |                       |    |   Verifone Protect W/SP for  Transarmor    |       N        |                 NOT_CHECKED                  | 
 |                       |    |   Verifone Protect W/SP for  Transarmor    |       N        |                 USE_USER_PROVIDED                  | 
 |                       |    |   Verifone Protect W/SP for  Transarmor    |       C        |                 CBS                  | 
-
 | VASVETPRG| veteransProgramType   |   Veterans Program Offering Type    |       ABLS        |                 ABUELOS                  | 
 |                       |    |   Veterans Program Offering Type    |       UJUL        |                 UNCLE_JULIO                  | 
 |                       |    |   Veterans Program Offering Type    |       BOJA        |                 BO_JANGLES                  | 
@@ -3580,7 +3509,6 @@ tags: [serviceAttr]
 |                       |    |   Veterans Program Account Status    |       S        |                 SHOPIFY                  | 
 |                       |    |   Veterans Program Account Status    |       02        |                 MSI_EXPRESS                  | 
 |                       |    |   Veterans Program Account Status    |       D        |                 DELETE                  | 
-
 | VASNTWKTKN| visa   |   Visa Network Tokens    |       C        |                 CENPOS                  | 
 |                       |    |   Visa Network Tokens    |       V        |                 MIVA                  | 
 |                       |    |   Visa Network Tokens    |       N        |                 NOT_CHECKED                  | 
@@ -3614,7 +3542,6 @@ tags: [serviceAttr]
 |                       |    |   Visa Network Tokens    |       SF        |                 SALESFORCE_COMMERCE                  | 
 |                       |    |   Visa Network Tokens    |       N        |                 ORACLE_NET_SUITE                  | 
 |                       |    |   Visa Network Tokens    |       01        |                 CLOVER_ONLINE_STORE                  | 
-
 | VASVISAACTUPD| visaAcctUpdStatus   |   Program Status for VISA Account Update    |       N        |                 APPLY_FALL_BACK                  | 
 |                       |    |   Program Status for VISA Account Update    |       N        |                 NEW_APPLICATION                  | 
 |                       |    |   Program Status for VISA Account Update    |       A        |                 APPROVED                  | 
@@ -3643,7 +3570,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for VISA Account Update    |       Y        |                 DO_NOT_APPLY_FALLBACK                  | 
 |                       |    |   Program Status for VISA Account Update    |       6        |                 NO_RESPONSE                  | 
 |                       |    |   Program Status for VISA Account Update    |       C        |                 CANCEL                  | 
-
 | VASVISAACTFNDTRX| visaActFndOfferingType   |   Offering Type for Visa Account Funding    |       F65        |                 GEN_B2B_TRAN_TO_CARD                  | 
 |                       |    |   Offering Type for Visa Account Funding    |       F54        |                 PYMNT_OF_OWN_CC_BILL                  | 
 |                       |    |   Offering Type for Visa Account Funding    |       C65        |                 BUS_TO_BUS_TRANSFER                  | 
@@ -3734,7 +3660,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Visa Account Funding    |       9        |                 CANCELLED_BY_MERCHANT                  | 
 |                       |    |   Program Status for Visa Account Funding    |       A        |                 ACTIVE_SURCHARGING                  | 
 |                       |    |   Program Status for Visa Account Funding    |       A        |                 ACTIVE                  | 
-
 | VASVISACHKOUT| visaChkOutStatus   |   Program Sttatus for Visa Check Out    |       5        |                 PENDING_UPGRADE                  | 
 |                       |    |   Program Sttatus for Visa Check Out    |       A        |                 ACTIVE_SURCHARGING                  | 
 |                       |    |   Program Sttatus for Visa Check Out    |       8        |                 ACTIVE                  | 
@@ -3763,7 +3688,6 @@ tags: [serviceAttr]
 |                       |    |   Program Sttatus for Visa Check Out    |       9        |                 CANCELLED_BY_MERCHANT                  | 
 |                       |    |   Program Sttatus for Visa Check Out    |       C        |                 CANCEL_SURCHARGING                  | 
 |                       |    |   Program Sttatus for Visa Check Out    |       N        |                 APPLY_FALL_BACK                  | 
-
 | VASVISAOCT| visaOctOfferingType   |   Offering Type for Visa Oct    |       01        |                 ELIGIBLE                  | 
 |                       |    |   Offering Type for Visa Oct    |       TU        |                 PREPAID_LOADS                  | 
 |                       |    |   Offering Type for Visa Oct    |       LO        |                 LOYALTY_N_OFFERS                  | 
@@ -3854,7 +3778,6 @@ tags: [serviceAttr]
 |                       |    |   Program Status for Visa Oct    |       Y        |                 DO_NOT_APPLY_FALLBACK                  | 
 |                       |    |   Program Status for Visa Oct    |       N        |                 ALLOW_DEBIT_FLAGS                  | 
 |                       |    |   Program Status for Visa Oct    |       5        |                 PENDING_UPGRADE                  | 
-
 | VASVRUSRV| vruServiceofferingType   |   VRU Services Offering Type    |       C04        |                 GAMING_PAYMENTS                  | 
 |                       |    |   VRU Services Offering Type    |       BI        |                 BANK_INITIATED_P2P                  | 
 |                       |    |   VRU Services Offering Type    |       MI        |                 MNY_TRFR_MERCH_INIT                  | 
@@ -3917,7 +3840,6 @@ tags: [serviceAttr]
 |                       |    |   VRU Services Offering Type    |       WT        |                 WALLET_TRANSFER                  | 
 |                       |    |   VRU Services Offering Type    |       01        |                 EMV_CAMPAIGN                  | 
 |                       |    |   VRU Services Offering Type    |       00        |                 NOT_APPLICABLE                  | 
-
 | VASPAYEEZY| webStore   |   Web Store    |       P        |                 PRINT_ONLY                  | 
 |                       |    |   Web Store    |       Y        |                 CHECKED                  | 
 |                       |    |   Web Store    |       V        |                 MIVA                  | 
