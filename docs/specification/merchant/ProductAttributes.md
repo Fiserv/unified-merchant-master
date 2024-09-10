@@ -17,7 +17,9 @@
 
   ```text
 
- _< $ Sample - to be updated >_
+ 
+             < Code Sample, if any - to be updated >
+
 
   ```
 
@@ -118,12 +120,6 @@ titles: UMM
 * API field: Not applicable - domain and attribute name along with respective descriptions are returned. Sample payload shows the domain  and the list of attributes under that domain.
   * Please see [List of Domains](#list-of-domains) for available domains and attributes.
 
-```text
-
-_< $ sample - to be updated/checked>_
-              
-
-```
 <!-- type: tab 
 titles: UMM
 -->
