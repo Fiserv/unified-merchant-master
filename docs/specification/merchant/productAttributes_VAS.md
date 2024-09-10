@@ -16,7 +16,7 @@ tags: [cashAdvance]Cash Advance Activation Date
 
 ---
 
-|   Product Code   | Attribute         | Description               | Values        | Value Descriptio                  |
+|   Product Code   | Attribute         | Description               | North Values        | Umm Value                  |
 |:---------------------|:---------------------|:--------------------------|:--------------|:----------------------------------|
 | VASCASHADV   | activeDate   |   Cash Advance Activation Date   |       |      |   
 |                       | advanceAmount   |   Cash Advance Amount    |               |                                   | 
@@ -73,7 +73,7 @@ tags: [lease]
 
 ---
 
-|   Product Code       | Attribute            | Description                    | Values        | Value Descriptio                  |
+|   Product Code   | Attribute         | Description               | North Values        | Umm Value                  |
 |:---------------------|:---------------------|:-------------------------------|:--------------|:----------------------------------|
 | VASLEASE| leaseActivationDate   |   The activation date of the contract. Entering this date activates the contract. InfoLease uses this date along with the Contract Term and the Payments in Arrears Code to determine the termination date of the contract.    |               |                                   | 
 |                       | leaseAdditionalMid   |   This will be the Mainframe MID for ISOs that have a 15 digit MID that contains a zero added to the infolease record for cash advance    |               |                                   | 
@@ -246,7 +246,7 @@ tags: [serviceAttr]
 
 ---
 
-|   Product Code       | Attribute            | Description                    | Values        | Value Descriptio                  |
+|   Product Code   | Attribute         | Description               | North Values        | Umm Value                  |
 |:---------------------|:---------------------|:-------------------------------|:--------------|:----------------------------------|
 | VASTRNSARM| encryptExceptionKeyId   |   Encryption exception key ID    |               |                                   | 
 |                       | encryptServiceLevelCode   |   Encryption security level code    |       00        |                 NONE                  | 
