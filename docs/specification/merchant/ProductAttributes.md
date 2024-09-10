@@ -1,26 +1,15 @@
 # Product Attributes
 
-* **Description**: <**$ Sample - to be updated**....>
- List of fields grouped under logical **Domains** and stored as key-value(s) pair as attributes.
-  * Example of a **Domain**: chargebackConfig is a **domain** that groups all fields called as **Attributes** those configures chargeback related processing for a merchant. Example of some attributes are:
-    * Chargeback Address code indicating where chargeback related information sent
-    * Chargeback Pre-note Days
+* **Description**: Merchant may have multiple products, with  each product containing unique details represented by specific attributes. For example, a merchant could have a Mastercard product with associated values for various fields like Merchant Category Code (with a value of 5521), Service Type Code (with a value of F), and Floor Limit Amount (with a value of 15.00). By assigning attribute ID 1 to Merchant Category Code, ID 2 to Service Type Code, and ID 3 to Floor Limit Amount, the merchant would have attribute ID 1 with a value of 5521, attribute ID 2 with a value of F, and attribute ID 3 with a value of 15.00 for Master Card product.
+
+These attributes will be organized under logical **Domains** and stored as key-value(s) pair for a merchant  and product combination. 
+
+* Example of a **Domain**: feeAttr is a **domain** that groups all fields called as **Attributes** those defines how a fee will be processed. Example of some attributes associated with fee products are :
+      * Frequency Indicator - Indicates whether is a monthly or daily fee 
+      * Retail Date - When fee will be billed to merchant 
+
 * **API section**: productAttributes
-* **Table Name**: UMM.MERCHANT_PRODUCT
-* **How to Retrieve attributes from Snowflake Data tables?**: **<$ sample - to be updated>**
-  * Master Tables: Attributes are defined using two Master tables in UMM
-    * UMM.DOMAIN_MASTER : Contains the definition of the Domain
-    * UMM.ATTRIBUTE_MASTER: Contains the definition of the attributes and tied to Domain
-  * UMM.MERCHANT_ATTRIBUTES stores the ID of the UMM.ATTRIBUTE_MASTER for each attributes
-  * Sample Query to pull the attributes:
-
-  ```text
-
- 
-             < Code Sample, if any - to be updated >
-
-
-  ```
+* **Table Name**: UMM.MERCHANT_PRODUCT_ATTRIBUTES 
 
 ## List of Fields
 
@@ -77,7 +66,7 @@ titles: UMM
 
 ### PRDCT_CODE
 
-* Description: Unique identifier assigned to a specific product for tracking and inventory purposes.
+* Description: Unique identifier assigned to a specific product .
 * API field: productCode
 * Field Specification: _< $ sample - to be updated/checked>_  See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
 
@@ -96,7 +85,7 @@ titles: UMM
 
 ### UNIQUE_IDENTIFIER
 
-* Description: Distinct code to uniquely identify an entity within a system.
+* Description: This field serves as a unique identifier for a particular product
 * API field: < _Not known / NA _ >
 * Field Specification: _< $ sample - to be updated/checked>_  See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
 
@@ -125,58 +114,6 @@ titles: UMM
 | Type    | Minimum Length | Max Length | Inquiry | Create | Update |
 |---------|:--------------:|:----------:|:-------:|:------:|:------:|
 | Number  |      0         |     38     |   NA   |  NA   |  NA   |
-
-<!-- type: tab-end -->
-
----
-
-### EFFECTIVE_START_DATE
-
-* Description: Date from which a particular product attribute becomes valid and applicable, used to manage changes and track historical data.
-* API field: effectiveStartDate
-* Field Specification:
-
-<!-- type: tab 
-titles: UMM
--->
-
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Date    |      N/A       |     NA      |   NA   |  NA   |  NA   |
-
-<!-- type: tab-end -->
-
----
-
-
-### EFFECTIVE_END_DATE
-
-* Description: Date on which a particular product attribute or record is no longer valid or applicable.
-* API field: effectiveEndDate
-* Field Specification: 
-
-<!-- type: tab 
-titles: UMM
--->
-
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Date    |      N/A       |     NA      |   NA   |  NA   |  NA   |
-
-<!-- type: tab-end -->
-
-
----
-
-* Field Specification:
-
-<!-- type: tab 
-titles: UMM
--->
-
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Numeric |      N/A       |     6      |   N/A   |  N/A   |  N/A   |
 
 <!-- type: tab-end -->
 
