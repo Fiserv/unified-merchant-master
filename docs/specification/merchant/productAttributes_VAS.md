@@ -272,7 +272,6 @@ tags: [serviceAttr]
 |                       |    |   Encryption type code    |       02        |                 VERIFONE_PROTECT                  | 
 |                       | vspBrand   |   VSP brand indicates the TransArmor VeriFone VSP Brand    |               |                                   | 
 |                       | vspDomain   |   VSP domain Indicates the Corporate Identifier for TransArmor VeriFone Edition    |               |                                   | 
-
 | VASTAP2PE| 3des   |   3DES for Transarmor    |       P        |                 PENDING                  | 
 |                       |    |   3DES for Transarmor    |       Y        |                 YES                  | 
 |                       |    |   3DES for Transarmor    |       03        |                 BLANK                  | 
