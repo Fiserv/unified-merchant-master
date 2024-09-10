@@ -75,6 +75,7 @@ tags: [lease]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
+
 | VASLEASE   | leaseActivationDate   |   The activation date of the contract. Entering this date activates the contract. InfoLease uses this date along with the Contract Term and the Payments in Arrears Code to determine the termination date of the contract.   |      |   
 |       | leaseAdditionalMid   |   This will be the Mainframe MID for ISOs that have a 15 digit MID that contains a zero added to the infolease record for cash advance   |      |   
 |       | leaseAmortizableResidualAmount   |   The calculation for amortizable residual is as follows.~ ~ Gross Residual~ - Residual Writedown ~ - Discount Residual~ - Present Value Amount~ = Amount of Residual Amortized~ ~ This field usually projects a conservative amount for residual. The Managers Residual field generally projects a more optimistic figure.   |      |   
