@@ -66,46 +66,66 @@ titles: UMM
 
 ### PRDCT_CODE
 
-* Description: Unique identifier assigned to a specific product .
+* Description: The product code associated with the product and defined by UMM API.
 * API field: productCode
-* Field Specification: _< $ sample - to be updated/checked>_  See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
-
+* Field Specification:
 
 <!-- type: tab 
 titles: UMM
 -->
 
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Varchar |      NA       |    100      |   NA   |  NA   |  NA   |
+| Type   | Minimum Length | Max Length | Inquiry | Create | Update | Delete |
+|--------|:--------------:|:----------:|:-------:|:------:|:------:|:------:|
+| Enum   |   NA   |   NA  |  Available |  Required   |     NA      |   NA   |
+
+* See supported Entitlements [here](?path=docs/specification/products_entitlements.md)
+* See supported Value Added Services [here](?path=docs/specification/products_vas.md)
+* See supported Fees [here](?path=docs/specification/products_fees.md)
+* See supported Equipments [here](?path=docs/specification/products_equipments.md)
 
 <!-- type: tab-end -->
-
 ---
 
 ### UNIQUE_IDENTIFIER
 
 * Description: This field serves as a unique identifier for a particular product
-* API field: < _Not known / NA _ >
-* Field Specification: _< $ sample - to be updated/checked>_  See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
+* API field: Not Available
+* Field Specification:
 
 <!-- type: tab 
-titles: UMM
+titles: UMM, North, GMA 
 -->
 
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Varchar |      NA       |     50      |   NA   |  NA   |  NA   |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
+
+<!-- type: tab -->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
+
+<!-- type: tab -->
+
+<!--##### South Specification -->
+
+<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
+<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
+<!--| String |     -    |          |              |       NA     |-->
+
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
 
 <!-- type: tab-end -->
-
 ---
 
 ### ATTRIBUTE_ID 
 
-* _< $ sample - to be updated/checked>_
-* Description: UMM defined attribute ID. See the query above for further details.
-* API field: Not applicable - domain and attribute name along with respective descriptions are returned. Sample payload shows the domain  and the list of attributes under that domain.
+
+* Description: UMM defined attribute ID. 
+* API field: Not applicable 
 
 <!-- type: tab 
 titles: UMM
@@ -138,6 +158,7 @@ titles: UMM
 <!-- type: tab-end -->
 
 ---
+
 
 ### Product Attributes
 
