@@ -10,7 +10,7 @@
 
 ---
 
-tags: [cashAdvance]Cash Advance Activation Date
+tags: [cashAdvance]
 
 * **List of Attributes**: Applicable for UMM, North and GMA
   
@@ -22,43 +22,43 @@ tags: [cashAdvance]Cash Advance Activation Date
 
 |   Product Code   | Attribute         | Description               | Values        | Value Descriptio                  |
 |:---------------------|:---------------------|:--------------------------|:--------------|:----------------------------------|
-| VASCASHADV   | activeDate   |   Cash Advance Activation Date   |       |      |   
-|                       | advanceAmount   |   Cash Advance Amount    |               |                                   | 
-|                       | bookingDate   |   Cash advance Booking Date    |               |                                   | 
-|                       | branchCode   |   Cash Advance Branch Code    |               |                                   | 
-|                       | businessSegment   |   Cash Advance Business Segment    |               |                                   | 
-|                       | cashAdvanceBankSequenceNumber   |   Cash Advance Bank Sequence Number added to Merchant Bank Account    |               |                                   | 
-|                       | contractTerm   |   Cash Advance Contract Term    |               |                                   | 
-|                       | dailyWithholdPercentage   |   Cash Advance Daily Withhold Percentage    |               |                                   | 
-|                       | estPaybackPeriod   |   Cash Advance EST Payback Period    |               |                                   | 
-|                       | finalPaymentDate   |   Cash Advance Final Payment Date    |               |                                   | 
-|                       | firstPaymentDate   |   Cash Advance First Payment Date    |               |                                   | 
-|                       | fundingDate   |   Cash Advance Funding Date    |               |                                   | 
-|                       | grossIncome   |   Cash Advance Gross Income    |               |                                   | 
-|                       | invDueDate   |   Cash Advance Invoice Due Date    |               |                                   | 
-|                       | lastPaymentDate   |   Cash Advance Last Payment Date    |               |                                   | 
-|                       | legalStatus   |   Lease Legal Status    |       013        |                 PIF_MERCH_KEEP_EQUIP                  | 
-|                       |                  |                       |       017        |                 RECOURSE_PIF                  | 
-|                       |                  |                       |       011        |                 WRITEOFF_REVERSAL                  | 
-|                       |                  |                       |       016        |                 END_OF_LEASE_W_RTN_EQUIP                  | 
-|                       |                  |                       |       008        |                 WRITEOFF_DEAD                  | 
-|                       |                  |                       |       015        |                 PIF_MERCH_RETURN_EQUIP                  | 
-|                       |                  |                       |       005        |                 WRITEOFF                  | 
-|                       |                  |                       |       007        |                 CANCELLED                  | 
-|                       |                  |                       |       014        |                 SIF_MERCH_KEEP_EQUIP                  | 
-|                       |                  |                       |       004        |                 BUYBACK                  | 
-|                       |                  |                       |       020        |                 EQUIP_RETURNED_TO_TASQ                  | 
-|                       |                  |                       |       001        |                 ATTORNEY_NEGOTIATION                  | 
-|                       |                  |                       |       019        |                 SIF_MERCH_RETURN_EQUIP                  | 
-|                       |                  |                       |       012        |                 UPGRADE_BUYOUT                  | 
-|                       | netIncome   |   Cash Advance Net Income    |               |                                   | 
-|                       | payBackAmount   |   Cash Advance Pay Back Amount    |               |                                   | 
-|                       | priorCashAdvanceId   |   Prior Cash Advance ID    |               |                                   | 
-|                       | receivedAmount   |   Cash Advance Received Amount    |               |                                   | 
-|                       | relationshipCode   |   Cash Advance Relationship Code    |               |                                   | 
-|                       | remainingAmount   |   Cash Advance Remaining Amount    |               |                                   | 
-|                       | terminationDate   |   Cash Advance Termination Date    |               |                                   | 
-| VASLEASE| leaseActivationDate   |   The activation date of the contract. Entering this date activates the contract. InfoLease uses this date along with the Contract Term and the Payments in Arrears Code to determine the termination date of the contract.    |               |                                   | 
+| VASCASHADV   | activeDate   |      |       |      |   
+|                       | advanceAmount   |       |               |                                   | 
+|                       | bookingDate   |       |               |                                   | 
+|                       | branchCode   |       |               |                                   | 
+|                       | businessSegment   |       |               |                                   | 
+|                       | cashAdvanceBankSequenceNumber   |       |               |                                   | 
+|                       | contractTerm   |       |               |                                   | 
+|                       | dailyWithholdPercentage   |       |               |                                   | 
+|                       | estPaybackPeriod   |       |               |                                   | 
+|                       | finalPaymentDate   |       |               |                                   | 
+|                       | firstPaymentDate   |       |               |                                   | 
+|                       | fundingDate   |       |               |                                   | 
+|                       | grossIncome   |       |               |                                   | 
+|                       | invDueDate   |       |               |                                   | 
+|                       | lastPaymentDate   |       |               |                                   | 
+|                       | legalStatus   |       |       013        |                 PIF_MERCH_KEEP_EQUIP                  | 
+|                       |    |       |       017        |                 RECOURSE_PIF                  | 
+|                       |    |       |       011        |                 WRITEOFF_REVERSAL                  | 
+|                       |    |       |       016        |                 END_OF_LEASE_W_RTN_EQUIP                  | 
+|                       |    |       |       008        |                 WRITEOFF_DEAD                  | 
+|                       |    |       |       015        |                 PIF_MERCH_RETURN_EQUIP                  | 
+|                       |    |       |       005        |                 WRITEOFF                  | 
+|                       |    |       |       007        |                 CANCELLED                  | 
+|                       |    |       |       014        |                 SIF_MERCH_KEEP_EQUIP                  | 
+|                       |    |       |       004        |                 BUYBACK                  | 
+|                       |    |       |       020        |                 EQUIP_RETURNED_TO_TASQ                  | 
+|                       |    |       |       001        |                 ATTORNEY_NEGOTIATION                  | 
+|                       |    |       |       019        |                 SIF_MERCH_RETURN_EQUIP                  | 
+|                       |    |       |       012        |                 UPGRADE_BUYOUT                  | 
+|                       | netIncome   |       |               |                                   | 
+|                       | payBackAmount   |       |               |                                   | 
+|                       | priorCashAdvanceId   |       |               |                                   | 
+|                       | receivedAmount   |       |               |                                   | 
+|                       | relationshipCode   |       |               |                                   | 
+|                       | remainingAmount   |       |               |                                   | 
+|                       | terminationDate   |       |               |                                   | 
+| VASLEASE| leaseActivationDate   |       |               |                                   | 
 
 <!-- type: tab -->
 
@@ -79,46 +79,45 @@ tags: [lease]
 
 |   Product Code       | Attribute            | Description                    | Values        | Value Descriptio                  |
 |:---------------------|:---------------------|:-------------------------------|:--------------|:----------------------------------|
-
-|                       | leaseAdditionalMid   |   This will be the Mainframe MID for ISOs that have a 15 digit MID that contains a zero added to the infolease record for cash advance    |               |                                   | 
-|                       | leaseAmortizableResidualAmount   |   The calculation for amortizable residual is as follows.~ ~ Gross Residual~ - Residual Writedown ~ - Discount Residual~ - Present Value Amount~ = Amount of Residual Amortized~ ~ This field usually projects a conservative amount for residual. The Managers Residual field generally projects a more optimistic figure.    |               |                                   | 
-|                       | leaseApproverSignatoryName   |   The name of the person who signs the contract. This field defaults to the name entered in the Contact Name field.    |               |                                   | 
-|                       | leaseBankSequenceNumber   |   Lease Bank Sequence Number added to Merchant Bank Account    |               |                                   | 
-|                       | leaseBillingCycle   |   Billing Cycle of a lease    |       S        |                 SEMI_ANNUAL                  | 
+|                       | leaseAdditionalMid   |       |               |                                   | 
+|                       | leaseAmortizableResidualAmount   |       |               |                                   | 
+|                       | leaseApproverSignatoryName   |       |               |                                   | 
+|                       | leaseBankSequenceNumber   |       |               |                                   | 
+|                       | leaseBillingCycle   |       |       S        |                 SEMI_ANNUAL                  | 
 |                       |    |       |       Q        |                 QUARTERLY                  | 
 |                       |    |       |       M        |                 MONTHLY                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       A        |                 ANNUAL                  | 
-|                       | leaseBranchCode   |   This 5-character code indicates the branch associated with the contract. You can use the branch as a sort sequence when requesting reports.    |               |                                   | 
-|                       | leaseBusinessSegment   |   This 6-digit table code indicates the relationships business segment. If you modify the default, InfoLease verifies the code entered is valid for the relationship.    |               |                                   | 
+|                       | leaseBranchCode   |       |               |                                   | 
+|                       | leaseBusinessSegment   |       |               |                                   | 
 |                       | leaseBusinessSegmentCode   |       |               |                                   | 
-|                       | leaseBuyoutQuoteCode   |   This yes/no field indicates whether the lessor has access to the Buyout Quotes Screen for this contract. Refer to the Buyout Quotes Module documentation.    |       NO        |                 NO                  | 
+|                       | leaseBuyoutQuoteCode   |       |       NO        |                 NO                  | 
 |                       |    |       |       YES        |                 YES                  | 
-|                       | leaseCollateralCode   |   This code identifies additional collateral (other than the actual equipment) assigned to a contract.    |               |                                   | 
-|                       | leaseCompanyName   |   UATB.LEASING.COMPANY    |               |                                   | 
-|                       | leaseContractBalanceAmount   |   Contract balance remaining after all payments received are applied to the gross contract. This amount is system-calculated.    |               |                                   | 
-|                       | leaseContractStatus   |   The status of the contract.     |       YES        |                 YES                  | 
+|                       | leaseCollateralCode   |       |               |                                   | 
+|                       | leaseCompanyName   |       |               |                                   | 
+|                       | leaseContractBalanceAmount   |       |               |                                   | 
+|                       | leaseContractStatus   |       |       YES        |                 YES                  | 
 |                       |    |       |       NO        |                 NO                  | 
-|                       | leaseContractStatusDate   |   The date the status was assigned to the contract.    |               |                                   | 
-|                       | leaseContractStatusDesc   |   Contract Status Description    |               |                                   | 
-|                       | leaseContractTerm   |   The term of the contract in months. If a commencement date was entered, this field is mandatory.The maximum term is 400 months.    |               |                                   | 
-|                       | leaseContractTotalReceivedAmount   |   The total contract payment amount received from the beginning of the contract. This is a system-calculated amount.~ ~ Note: If a partial disposition has taken place, this represents the payments on the active portion of the contract only.    |               |                                   | 
-|                       | leaseCustomerAccountReceivableName   |   The accounts receivable name. This name prints on the customers invoice.    |               |                                   | 
-|                       | leaseCustomerArAddressAttentionName   |   Information entered in this field prints on the invoice, i.e., the name of the person to whom you are mailing the invoice.    |               |                                   | 
-|                       | leaseCustomerArAddressCityName   |   The city for the accounts receivable address.    |               |                                   | 
-|                       | leaseCustomerArAddressCountryCode   |   The country code for the accounts receivable address.    |               |                                   | 
-|                       | leaseCustomerArAddressLine1   |   The first line of the accounts receivable address. This address prints on the customers invoice.    |               |                                   | 
-|                       | leaseCustomerArAddressLine2   |   The second line of the accounts receivable address. This address prints on the customers invoice.    |               |                                   | 
-|                       | leaseCustomerArAddressLine3   |   The third line of the accounts receivable address. This address prints on the customers invoice.    |               |                                   | 
-|                       | leaseCustomerArAddressPostalCode   |   The zip code of the city for the accounts receivable address.    |               |                                   | 
-|                       | leaseCustomerArAddressStateName   |   The state for accounts receivable address.    |               |                                   | 
-|                       | leaseCustomerCreditScore   |   A user-defined score given by the leasing company extending credit to the lessee. A credit score is based on certain factors, such as age, marital status, length of employment, etc. Each of these factors is assigned a certain point value with the total being the credit score. Based on this score, the lessee is approved for the credit.    |               |                                   | 
-|                       | leaseCustomerDoingBusinessName   |   The Customerdoing business name    |               |                                   | 
-|                       | leaseCustomerFedSsnId   |   The appropriate identification number.  The ability to modify this field depends on your security settings.    |               |                                   | 
-|                       | leaseCustomerName   |   The customer name. Use the customer name to create alphabetical listings and locate a name when using Soundex.    |               |                                   | 
-|                       | leaseCustomerShortName   |   The Short Name is another name to use when referring to the customer. The Short Name cannot be the same as the Customer Name. This field defaults to the Short Name previously entered for the customer.    |               |                                   | 
-|                       | leaseDelinquentStatusCode   |   The delinquent status of the contract. This is a system-calculated field.     |       151        |                 PAST_DUE_151_180_DAYS                  | 
+|                       | leaseContractStatusDate   |       |               |                                   | 
+|                       | leaseContractStatusDesc   |       |               |                                   | 
+|                       | leaseContractTerm   |       |               |                                   | 
+|                       | leaseContractTotalReceivedAmount   |       |               |                                   | 
+|                       | leaseCustomerAccountReceivableName   |       |               |                                   | 
+|                       | leaseCustomerArAddressAttentionName   |       |               |                                   | 
+|                       | leaseCustomerArAddressCityName   |       |               |                                   | 
+|                       | leaseCustomerArAddressCountryCode   |       |               |                                   | 
+|                       | leaseCustomerArAddressLine1   |       |               |                                   | 
+|                       | leaseCustomerArAddressLine2   |       |               |                                   | 
+|                       | leaseCustomerArAddressLine3   |       |               |                                   | 
+|                       | leaseCustomerArAddressPostalCode   |       |               |                                   | 
+|                       | leaseCustomerArAddressStateName   |       |               |                                   | 
+|                       | leaseCustomerCreditScore   |       |               |                                   | 
+|                       | leaseCustomerDoingBusinessName   |       |               |                                   | 
+|                       | leaseCustomerFedSsnId   |       |               |                                   | 
+|                       | leaseCustomerName   |       |               |                                   | 
+|                       | leaseCustomerShortName   |       |               |                                   | 
+|                       | leaseDelinquentStatusCode   |       |       151        |                 PAST_DUE_151_180_DAYS                  | 
 |                       |    |       |       91        |                 PAST_DUE_91_120_DAYS                  | 
 |                       |    |       |       61        |                 PAST_DUE_61_90_DAYS                  | 
 |                       |    |       |       31        |                 PAST_DUE_31_60_DAYS                  | 
@@ -126,25 +125,25 @@ tags: [lease]
 |                       |    |       |       00        |                 NOT_DELINQUENT                  | 
 |                       |    |       |       121        |                 PAST_DUE_121_150_DAYS                  | 
 |                       |    |       |       181        |                 PAST_DUE_181_DAYS_AND_MORE                  | 
-|                       | leaseDispositionDate   |   The last date any disposition or inventory occurred on the contract. InfoLease updates this field at the time of a disposition.    |               |                                   | 
-|                       | leaseEarlyBuyoutAmount   |   You can enter buyout amounts for the contract in this field. You must first fill in the Date field. The information in this field does not default to the Buyout Quotes module.    |               |                                   | 
-|                       | leaseEarlyBuyoutDate   |   You can enter the buyout date for the contract in this field. Entering information here does not default to the Buyout Quotes module.    |               |                                   | 
-|                       | leaseFacilityScore   |   This score represents the credit score of the deal, not the credit score of the customer.    |               |                                   | 
-|                       | leaseFdmsDecisionDate   |   UATB.DATE.FDMS.DECISION    |               |                                   | 
-|                       | leaseFdmsDecisionInd   |   UATB.FDMS.DECISION    |               |                                   | 
-|                       | leaseFinalPaymentDate   |   This field identifies the date the last contract payment is due. This is a system-calculated field using the contract term, the number of advance payments, the number of payments in arrears, the commencement date, and the billing cycle.    |               |                                   | 
-|                       | leaseFirstPaymentAmount   |   If the first payment is different from the regular scheduled payments, enter the amount here; otherwise, InfoLease defaults the regular contract payment. If no payment is due in the first month, enter zero.    |               |                                   | 
-|                       | leaseFirstPaymentDate   |   The first payment date. This is a required field. InfoLease calculates the default date based on the commencement date, billing cycle, variable payment schedule, and the payments in arrears code.    |               |                                   | 
-|                       | leaseFloatingRateIndicator   |   This yes/no field indicates whether this is a floating rate contract.    |       N        |                 NO                  | 
+|                       | leaseDispositionDate   |       |               |                                   | 
+|                       | leaseEarlyBuyoutAmount   |       |               |                                   | 
+|                       | leaseEarlyBuyoutDate   |       |               |                                   | 
+|                       | leaseFacilityScore   |       |               |                                   | 
+|                       | leaseFdmsDecisionDate   |       |               |                                   | 
+|                       | leaseFdmsDecisionInd   |       |               |                                   | 
+|                       | leaseFinalPaymentDate   |       |               |                                   | 
+|                       | leaseFirstPaymentAmount   |       |               |                                   | 
+|                       | leaseFirstPaymentDate   |       |               |                                   | 
+|                       | leaseFloatingRateIndicator   |       |       N        |                 NO                  | 
 |                       |    |       |       Y        |                 YES                  | 
-|                       | leaseFollowUpDays   |   The number of days after the payment due date that you need to contact the customer. InfoLease uses the number of follow-up days to generate follow-up lists for payment collections. This field is used with the Customer Service Module.    |               |                                   | 
-|                       | leaseGeneralLedgerBookingDate   |   Lease General Booking Date    |               |                                   | 
-|                       | leaseGrossAssetAmount   |   The total equipment cost for all assets (not including disposed assets) on the contract.    |               |                                   | 
-|                       | leaseGrossFinanceAmount   |   The total amount of finance or interest income (difference between the gross contract amount and the equipment cost). If a commencement date was entered, this field is mandatory.    |               |                                   | 
-|                       | leaseGrossPaymentAmount   |   The total amount of payments due on the contract. If a commencement date was entered, this field is mandatory.    |               |                                   | 
-|                       | leaseIncomeStartDate   |   The date the income on the contract begins to amortize. This date affects how InfoLease calculates the IRR. This date defaults to the commencement date of the contract; however, in cases where interest free periods exist, you can modify this date.    |               |                                   | 
-|                       | leaseInterimRentAmount   |   The amount of interest payments received prior to the commencement of the contract.    |               |                                   | 
-|                       | leaseInvoiceCode   |   The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen.  Use this invoice code when selling a stream of contract payments.    |       N        |                 NO_MORE_INVOICING                  | 
+|                       | leaseFollowUpDays   |       |               |                                   | 
+|                       | leaseGeneralLedgerBookingDate   |       |               |                                   | 
+|                       | leaseGrossAssetAmount   |       |               |                                   | 
+|                       | leaseGrossFinanceAmount   |       |               |                                   | 
+|                       | leaseGrossPaymentAmount   |       |               |                                   | 
+|                       | leaseIncomeStartDate   |       |               |                                   | 
+|                       | leaseInterimRentAmount   |       |               |                                   | 
+|                       | leaseInvoiceCode   |       |       N        |                 NO_MORE_INVOICING                  | 
 |                       |    |       |       M        |                 MANUAL_INVOICING                  | 
 |                       |    |       |       S        |                 INVOICE_SUPRESSED                  | 
 |                       |    |       |       D        |                 SEPARATED_BY_NOTE_DATE                  | 
@@ -152,9 +151,9 @@ tags: [lease]
 |                       |    |       |       A        |                 INVOICE_BY_CUSTOMER                  | 
 |                       |    |       |       R        |                 RENTALS_SEPARATED                  | 
 |                       |    |       |       B        |                 CONTRACT_SEPARATED_INDIVIDUAL_INVOICES                  | 
-|                       | leaseInvoiceDueDate   |   The day of the month the payment is due. If you do not enter the invoicing due day, the field defaults to the due day on the Customer Default Data Screen.     |               |                                   | 
-|                       | leaseLastPaymentDate   |   The date you received the last payment.    |               |                                   | 
-|                       | leaseLegalStatus   |   Lease Legal Status    |       015        |                 PIF_MERCH_RETURN_EQUIP                  | 
+|                       | leaseInvoiceDueDate   |       |               |                                   | 
+|                       | leaseLastPaymentDate   |       |               |                                   | 
+|                       | leaseLegalStatus   |       |       015        |                 PIF_MERCH_RETURN_EQUIP                  | 
 |                       |    |       |       005        |                 WRITEOFF                  | 
 |                       |    |       |       007        |                 CANCELLED                  | 
 |                       |    |       |       014        |                 SIF_MERCH_KEEP_EQUIP                  | 
@@ -168,29 +167,29 @@ tags: [lease]
 |                       |    |       |       019        |                 SIF_MERCH_RETURN_EQUIP                  | 
 |                       |    |       |       008        |                 WRITEOFF_DEAD                  | 
 |                       |    |       |       016        |                 END_OF_LEASE_W_RTN_EQUIP                  | 
-|                       | leaseManagerResidualAmount   |   An alternate residual amount that you can select when calculating a buyout quote. Managers residual does not accrue income.This field usually projects an optimistic figure for residual. The Amortizable Residual field usually projects a more conservative figure.    |               |                                   | 
-|                       | leaseMerchantId   |   Lease Merchant ID    |               |                                   | 
-|                       | leaseMonthlyPaymentAmount   |   The amount of the contract payment. If this is a variable payment contract, do not enter a contract payment here.    |               |                                   | 
-|                       | leaseNetFinanceAmount   |   Net finance is the difference between the gross finance income and the setup income. If Prov Loss Fr Fin = (Y)es, InfoLease also subtracts Provision for Loss from net finance. This amount is system-calculated and you cannot modify it.     |               |                                   | 
-|                       | leaseNetInvestmentAmount   |   The net investment of the contract. The net investment is the loss the lessor would incur if the lessee stopped payment today.    |               |                                   | 
-|                       | leaseNextAgingDate   |   The next date InfoLease will age the contract. You cannot modify this field.     |               |                                   | 
-|                       | leaseNextChargeDate   |   The next date InfoLease will assess the appropriate late charges during the aging process. You cannot modify this field. InfoLease updates this field whenever you run aging.    |               |                                   | 
-|                       | leaseNumberOfAsset   |   The number of active assets associated with the contract.    |               |                                   | 
-|                       | leasePaymentInvoicedCount   |   The number of payments billed to the customer.    |               |                                   | 
-|                       | leasePaymentOptionCode   |   This field depicts different options of Lease Payment.    |       T        |                 TAPE                  | 
+|                       | leaseManagerResidualAmount   |       |               |                                   | 
+|                       | leaseMerchantId   |       |               |                                   | 
+|                       | leaseMonthlyPaymentAmount   |       |               |                                   | 
+|                       | leaseNetFinanceAmount   |       |               |                                   | 
+|                       | leaseNetInvestmentAmount   |       |               |                                   | 
+|                       | leaseNextAgingDate   |       |               |                                   | 
+|                       | leaseNextChargeDate   |       |               |                                   | 
+|                       | leaseNumberOfAsset   |       |               |                                   | 
+|                       | leasePaymentInvoicedCount   |       |               |                                   | 
+|                       | leasePaymentOptionCode   |       |       T        |                 TAPE                  | 
 |                       |    |       |       N        |                 NORMAL_PAY                  | 
 |                       |    |       |       A        |                 ASSUMED_PAY                  | 
 |                       |    |       |       P        |                 POST_DATED_CHEQUE                  | 
 |                       |    |       |       C        |                 COUPON                  | 
 |                       |    |       |       U        |                 UNDISCOUNTED_PAYMENT                  | 
 |                       |    |       |       D        |                 DISCOUNTED_PAYMENT                  | 
-|                       | leasePaymentPaidToDate   |   Contract payments are paid up to, but not including, this date. This field is based on the due dates of unpaid open items or the next due date (invoicing date plus lead invoicing days) if there are no unpaid open items.     |               |                                   | 
-|                       | leasePaymentUpfrontAmount   |   The number of beginning payments paid in advance by the customer at contract commencement. Without the Customer Service Module, this field is informational only.    |               |                                   | 
-|                       | leasePendingCode   |   This field identifies outstanding information, e.g., paperwork, correspondence, you expect to receive for the contract.    |               |                                   | 
-|                       | leasePlatformCode   |   PLATFORM    |               |                                   | 
-|                       | leasePreviousContractNumber   |   Lease Previous Contract Number    |               |                                   | 
-|                       | leasePreviousDelinquentStatusCode   |   The previous delinquent status of the contract. If the Delinquent Status Code changes, the previous status is moved to the Previous Delinquent Status field.    |               |                                   | 
-|                       | leaseProgramTypeCode   |   A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.    |       0012        |                 VAPP                  | 
+|                       | leasePaymentPaidToDate   |       |               |                                   | 
+|                       | leasePaymentUpfrontAmount   |       |               |                                   | 
+|                       | leasePendingCode   |       |               |                                   | 
+|                       | leasePlatformCode   |       |               |                                   | 
+|                       | leasePreviousContractNumber   |       |               |                                   | 
+|                       | leasePreviousDelinquentStatusCode   |       |               |                                   | 
+|                       | leaseProgramTypeCode   |       |       0012        |                 VAPP                  | 
 |                       |    |       |       0004        |                 CROSS_SALES_LARGE_LEASE                  | 
 |                       |    |       |       0019        |                 MCA_FDIS_ISO                  | 
 |                       |    |       |       0099        |                 IMS_PORTFOLIO_PURCHASE                  | 
@@ -208,18 +207,18 @@ tags: [lease]
 |                       |    |       |       0018        |                 MCA_TELESALES                  | 
 |                       |    |       |       0008        |                 RSA_SEVEN_DAY                  | 
 |                       |    |       |       0001        |                 LARGE_LEASE                  | 
-|                       | leaseProvisionForLossAmount   |   The amount set aside to record in the first month for bad debt expense. Enter an amount or default to the system-calculated amount. Gross Contract x Provision for Loss Percentage (lessor file) = Provision for Loss Enter the provision for loss percentage in the Prov for Loss field accessed via the Lessor Parameter Maintenance Screen and the Lessor Default Fields Screen.    |               |                                   | 
-|                       | leaseRelationCode   |   Lease Relationship code    |               |                                   | 
-|                       | leaseRenewalStatusCode   |   Lease Renewal status code    |               |                                   | 
-|                       | leaseResidualAmount   |   This field displays once information is entered in residual amount at the asset level. This field cannot be entered or maintained at the contract level. However, a residual change at the asset level affects the gross residual.    |               |                                   | 
-|                       | leaseSaleLeasebackInd   |   Enter yes if the contract is a sale/leaseback. A sale/leaseback agreement involves two separate transactions: the sale of the asset to the prospective lessor and the subsequent lease of the asset to the original owner. This field is informational only.    |       N        |                 NO                  | 
+|                       | leaseProvisionForLossAmount   |       |               |                                   | 
+|                       | leaseRelationCode   |       |               |                                   | 
+|                       | leaseRenewalStatusCode   |       |               |                                   | 
+|                       | leaseResidualAmount   |       |               |                                   | 
+|                       | leaseSaleLeasebackInd   |       |       N        |                 NO                  | 
 |                       |    |       |       Y        |                 YES                  | 
-|                       | leaseSecurityDepositAmount   |   This window displays the Security Deposit and the Down Payment fields.The Security Deposit field represents the amount received from the lessee. The Down Payment field represents the amount received from the lessee.     |               |                                   | 
-|                       | leaseTaxExemptIndicator   |   This field indicates whether the contract has interest income that is exempt from federal income tax. The default is (N)o.    |       N        |                 NO                  | 
+|                       | leaseSecurityDepositAmount   |       |               |                                   | 
+|                       | leaseTaxExemptIndicator   |       |       N        |                 NO                  | 
 |                       |    |       |       Y        |                 YES                  | 
-|                       | leaseTermDate   |   The date the contract expires.This date is system-generated and you cannot enter or maintain it at the contract level. However, a new date is generated if the Commencement Date, Contract Term, or the Payments In Arrears code is changed.    |               |                                   | 
-|                       | leaseTotalRentalPaymentNumber   |   Total number of rental payments made to date.    |               |                                   | 
-|                       | leaseTypeCode   |   A 2-digit contract type. Once you enter this code, you cannot change it without deleting and re-entering the contract.    |       RL        |                 RENTAL_LEASE                  | 
+|                       | leaseTermDate   |       |               |                                   | 
+|                       | leaseTotalRentalPaymentNumber   |       |               |                                   | 
+|                       | leaseTypeCode   |       |       RL        |                 RENTAL_LEASE                  | 
 |                       |    |       |       RA        |                 REVOLVING_ACCOUNT                  | 
 |                       |    |       |       TL        |                 TRUE_LEASE                  | 
 |                       |    |       |       LL        |                 LEVERAGED_LEASE                  | 
@@ -227,11 +226,11 @@ tags: [lease]
 |                       |    |       |       LN        |                 TERM_LOAN                  | 
 |                       |    |       |       OL        |                 OPERATING_LEASE                  | 
 |                       |    |       |       CS        |                 CONDITIONAL_SALE                  | 
-|                       | leaseVariablePaymentAmount   |   Variable Payment Amount of the lease    |               |                                   | 
-|                       | leaseVariablePaymentIndicator   |   This yes/no field indicates whether this contract has a variable payment schedule.     |       Y        |                 YES                  | 
+|                       | leaseVariablePaymentAmount   |       |               |                                   | 
+|                       | leaseVariablePaymentIndicator   |       |       Y        |                 YES                  | 
 |                       |    |       |       N        |                 NO                  | 
-|                       | leaseWriteOffAmount   |   The income used to offset the initial expense associated with a new lease. The amount is calculated by multiplying the setup income percentage on the Lessor Parameter File by the gross finance income.    |               |                                   | 
-| VASTRNSARM| encryptExceptionKeyId   |   Encryption exception key ID    |               |                                   | 
+|                       | leaseWriteOffAmount   |       |               |                                   | 
+| VASTRNSARM| encryptExceptionKeyId   |       |               |                                   | 
 
 <!-- type: tab -->
 
@@ -252,31 +251,30 @@ tags: [serviceAttr]
 
 |   Product Code       | Attribute            | Description                    | Values        | Value Descriptio                  |
 |:---------------------|:---------------------|:-------------------------------|:--------------|:----------------------------------|
-
-|                       | encryptServiceLevelCode   |   Encryption security level code    |       00        |                 NONE                  | 
+|                       | encryptServiceLevelCode   |       |       00        |                 NONE                  | 
 |                       |    |       |       02        |                 ENCRP_ONLY                  | 
 |                       |    |       |       03        |                 TOKEN_ONLY                  | 
 |                       |    |       |       01        |                 BOTH                  | 
-|                       | encryptTokenCode   |   Encryption token type code    |               |                                   | 
-|                       | encryptTokenHierarchyCode   |   Encryption multipay token hierarchy level code    |       04        |                 AGENT                  | 
+|                       | encryptTokenCode   |       |               |                                   | 
+|                       | encryptTokenHierarchyCode   |       |       04        |                 AGENT                  | 
 |                       |    |       |       03        |                 CORP                  | 
 |                       |    |       |       06        |                 BUSINESS                  | 
 |                       |    |       |       01        |                 OUTLET                  | 
 |                       |    |       |       02        |                 CHAIN                  | 
 |                       |    |       |       00        |                 NONE                  | 
 |                       |    |       |       05        |                 BANK                  | 
-|                       | encryptTokenOverrideIndicator   |   Encryption multipay token override indicator    |       N        |                 NO                  | 
+|                       | encryptTokenOverrideIndicator   |       |       N        |                 NO                  | 
 |                       |    |       |       Y        |                 YES                  | 
-|                       | encryptTypeCode   |   Encryption type code    |       05        |                 INGENICO_ONGUARD                  | 
+|                       | encryptTypeCode   |       |       05        |                 INGENICO_ONGUARD                  | 
 |                       |    |       |       01        |                 RSA_PKI                  | 
 |                       |    |       |       04        |                 3DES                  | 
 |                       |    |       |       06        |                 AES_DUKPT                  | 
 |                       |    |       |       03        |                 VERIFONE_PROTECT_WITH_SP                  | 
 |                       |    |       |       00        |                 NONE                  | 
 |                       |    |       |       02        |                 VERIFONE_PROTECT                  | 
-|                       | vspBrand   |   VSP brand indicates the TransArmor VeriFone VSP Brand    |               |                                   | 
-|                       | vspDomain   |   VSP domain Indicates the Corporate Identifier for TransArmor VeriFone Edition    |               |                                   | 
-| VASTAP2PE| 3des   |   3DES for Transarmor    |       P        |                 PENDING                  | 
+|                       | vspBrand   |       |               |                                   | 
+|                       | vspDomain   |       |               |                                   | 
+| VASTAP2PE| 3des   |       |       P        |                 PENDING                  | 
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       03        |                 BLANK                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
@@ -286,8 +284,8 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       02        |                 NON_FDMS_POS                  | 
 |                       |    |       |       C        |                 CANCEL                  | 
-| VASADVINS| advInsightBillingEffectiveDate   |   Billing Effective Date for Advertising Insights    |               |                                   | 
-|                       | advInsightOfferingType   |   Offering Type for Advertising Insights    |       03        |                 AUTH_AND_SETTLEMENT                  | 
+| VASADVINS| advInsightBillingEffectiveDate   |       |               |                                   | 
+|                       | advInsightOfferingType   |       |       03        |                 AUTH_AND_SETTLEMENT                  | 
 |                       |    |       |       C54        |                 CREDIT_CARD_BILL_PMT                  | 
 |                       |    |       |       04        |                 ADVANCED                  | 
 |                       |    |       |       F52        |                 ACCOUNT_TO_ACCOUNT                  | 
@@ -349,7 +347,7 @@ tags: [serviceAttr]
 |                       |    |       |       02        |                 SETTLEMENT_DATA                  | 
 |                       |    |       |       CD        |                 CASH_DEPOSIT                  | 
 |                       |    |       |       C58        |                 CASH_2_ATM                  | 
-|                       | advInsightStatus   |   Program Status for Advertising Insights    |       2        |                 UNSUBSCRIBED                  | 
+|                       | advInsightStatus   |       |       2        |                 UNSUBSCRIBED                  | 
 |                       |    |       |       L        |                 LIVE                  | 
 |                       |    |       |       A        |                 APPROVED                  | 
 |                       |    |       |       R        |                 DENIED                  | 
@@ -377,7 +375,7 @@ tags: [serviceAttr]
 |                       |    |       |       C        |                 CANCEL_SURCHARGING                  | 
 |                       |    |       |       9        |                 CANCELLED_BY_MERCHANT                  | 
 |                       |    |       |       N        |                 NEW_APPLICATION                  | 
-| VASTAP2PE| aesDukpt   |   AES DUKPT for Transarmor    |       A        |                 ANNUAL                  | 
+| VASTAP2PE| aesDukpt   |       |       A        |                 ANNUAL                  | 
 |                       |    |       |       I        |                 INITIATED                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
@@ -386,7 +384,7 @@ tags: [serviceAttr]
 |                       |    |       |       P        |                 PENDING                  | 
 |                       |    |       |       M        |                 MONTHLY                  | 
 |                       |    |       |       A        |                 PROVISIONED                  | 
-| VASNTWKTKN| americanExpress   |   American Express Network Tokens    |       N        |                 NOT_CHECKED                  | 
+| VASNTWKTKN| americanExpress   |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       02        |                 NON_FDMS_POS                  | 
@@ -396,7 +394,7 @@ tags: [serviceAttr]
 |                       |    |       |       01        |                 FDMS_POS                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       P        |                 PENDING                  | 
-| VASMSTTIST| analyticsProductType   |   Product Offering That A Merchant Is Enrolled To Use.    |       03        |                 MSI_APP                  | 
+| VASMSTTIST| analyticsProductType   |       |       03        |                 MSI_APP                  | 
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       N        |                 ORACLE_NET_SUITE                  | 
 |                       |    |       |       O        |                 ONLINE_ONLY                  | 
@@ -429,7 +427,7 @@ tags: [serviceAttr]
 |                       |    |       |       C        |                 CANCEL                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
-| VASWELLSP| bobPreference   |   Wells Bob Preference Field    |       C        |                 CLOVER                  | 
+| VASWELLSP| bobPreference   |       |       C        |                 CLOVER                  | 
 |                       |    |       |       C        |                 CANCEL                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       O        |                 ONLINE_ONLY                  | 
@@ -462,7 +460,7 @@ tags: [serviceAttr]
 |                       |    |       |       C        |                 CENPOS                  | 
 |                       |    |       |       A        |                 ADD                  | 
 |                       |    |       |       S        |                 SNAPPAY_CARDX                  | 
-| VASBPMOB| bpMobiletermType   |   Mobile Terminal Type for BP Mobile    |       D        |                 DELETE                  | 
+| VASBPMOB| bpMobiletermType   |       |       D        |                 DELETE                  | 
 |                       |    |       |       C        |                 CENPOS                  | 
 |                       |    |       |       03        |                 MSI_APP                  | 
 |                       |    |       |       O        |                 ONLINE_ONLY                  | 
@@ -495,7 +493,7 @@ tags: [serviceAttr]
 |                       |    |       |       01        |                 CLOVER_ONLINE_STORE                  | 
 |                       |    |       |       P        |                 PRINT_ONLY                  | 
 |                       |    |       |       B        |                 BIGCOMMERCE                  | 
-| VASWELLSP| ceoLPreference   |   Wells Ceo Preference Field    |       P        |                 PRINT_ONLY                  | 
+| VASWELLSP| ceoLPreference   |       |       P        |                 PRINT_ONLY                  | 
 |                       |    |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       FIBD        |                 FIREBIRDS                  | 
@@ -522,7 +520,7 @@ tags: [serviceAttr]
 |                       |    |       |       2        |                 IAS_PRODUCT_EXCEPTION                  | 
 |                       |    |       |       B        |                 ONLINE_AND_PRINT                  | 
 |                       |    |       |       B        |                 BREAD                  | 
-| VASGBSPOSINS| channel   |   Channel for GBS POS Installments    |       C        |                 CBS                  | 
+| VASGBSPOSINS| channel   |       |       C        |                 CBS                  | 
 |                       |    |       |       Y        |                 USE_PRIMARY_EMAIL                  | 
 |                       |    |       |       A        |                 AGENT_ISV                  | 
 |                       |    |       |       Y        |                 YES                  | 
@@ -531,7 +529,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       CM        |                 CMM                  | 
-| VASBPMOB| chargebackInd   |   OEMV Chargeback Writeoff Indicator for BP Mobile    |       Y        |                 CHECKED                  | 
+| VASBPMOB| chargebackInd   |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       C        |                 CANCEL                  | 
@@ -541,7 +539,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       P        |                 PENDING                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
-| VASMSTTIST| cloverInsightsEmail   |   User Provided Clover Insights Email    |       Y        |                 YES                  | 
+| VASMSTTIST| cloverInsightsEmail   |       |       Y        |                 YES                  | 
 |                       |    |       |       01        |                 FDMS_POS                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
@@ -551,7 +549,7 @@ tags: [serviceAttr]
 |                       |    |       |       C        |                 CANCEL                  | 
 |                       |    |       |       02        |                 NON_FDMS_POS                  | 
 |                       |    |       |       P        |                 PENDING                  | 
-| VASSAMSPLS| clubNum   |   SAMS Club - Club Number    |       O        |                 OTHER                  | 
+| VASSAMSPLS| clubNum   |       |       O        |                 OTHER                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       SF        |                 SALESFORCE_COMMERCE                  | 
 |                       |    |       |       K        |                 KIBO                  | 
@@ -584,7 +582,7 @@ tags: [serviceAttr]
 |                       |    |       |       B        |                 BIGCOMMERCE                  | 
 |                       |    |       |       A        |                 ADD                  | 
 |                       |    |       |       NA        |                 NOT_APPLICABLE                  | 
-| VASWELLSP| companyId   |   Wells Company Id Field    |       N        |                 USE_USER_PROVIDED                  | 
+| VASWELLSP| companyId   |       |       N        |                 USE_USER_PROVIDED                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       C        |                 CBS                  | 
 |                       |    |       |       A        |                 AGENT_ISV                  | 
@@ -593,7 +591,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       Y        |                 USE_PRIMARY_EMAIL                  | 
-| VASPERKA| contractSignDateTime   |   Date Time Contract Signed    |       T        |                 TEMPUS                  | 
+| VASPERKA| contractSignDateTime   |       |       T        |                 TEMPUS                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       SF        |                 SALESFORCE_COMMERCE                  | 
 |                       |    |       |       S        |                 SNAPPAY_CARDX                  | 
@@ -626,7 +624,7 @@ tags: [serviceAttr]
 |                       |    |       |       W        |                 WOOCOMMERCE                  | 
 |                       |    |       |       C        |                 CANCEL                  | 
 |                       |    |       |       C        |                 CENPOS                  | 
-| VASBPMOB| convenienceFeeInd   |   Convenience Fee Indicator for BP Mobile    |       Y        |                 USE_PRIMARY_EMAIL                  | 
+| VASBPMOB| convenienceFeeInd   |       |       Y        |                 USE_PRIMARY_EMAIL                  | 
 |                       |    |       |       CM        |                 CMM                  | 
 |                       |    |       |       C        |                 CBS                  | 
 |                       |    |       |       N        |                 USE_USER_PROVIDED                  | 
@@ -635,7 +633,7 @@ tags: [serviceAttr]
 |                       |    |       |       A        |                 AGENT_ISV                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       Y        |                 YES                  | 
-| VASMSTTIST| dataRightsOptOutCode   |   Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.    |       C        |                 NEW_VRU_ID_COMPLETED                  | 
+| VASMSTTIST| dataRightsOptOutCode   |       |       C        |                 NEW_VRU_ID_COMPLETED                  | 
 |                       |    |       |       B        |                 BREAD                  | 
 |                       |    |       |       PFC        |                 PF_CHANGS                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
@@ -662,7 +660,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 NO_REQUEST_OF_NEW_VRU                  | 
 |                       |    |       |       USHG        |                 UNION_SQ_HOSPITAL                  | 
 |                       |    |       |       N        |                 NO                  | 
-| VASDBTTERMID| dbtTermIdStatus   |   Program Status for Debit Term Id    |       4        |                 PENDING_CONTACTED                  | 
+| VASDBTTERMID| dbtTermIdStatus   |       |       4        |                 PENDING_CONTACTED                  | 
 |                       |    |       |       6        |                 NO_RESPONSE                  | 
 |                       |    |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |       |       1        |                 SUBSCRIBED                  | 
@@ -690,7 +688,7 @@ tags: [serviceAttr]
 |                       |    |       |       R        |                 DENIED                  | 
 |                       |    |       |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
 |                       |    |       |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
-| VASPAYEEZY| developerEmailId   |   Developer Email ID    |       C        |                 CANCEL                  | 
+| VASPAYEEZY| developerEmailId   |       |       C        |                 CANCEL                  | 
 |                       |    |       |       02        |                 NON_FDMS_POS                  | 
 |                       |    |       |       P        |                 PENDING                  | 
 |                       |    |       |       Y        |                 YES                  | 
@@ -700,7 +698,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       01        |                 FDMS_POS                  | 
-|                       | developerId   |   Developer ID    |       N        |                 USE_USER_PROVIDED                  | 
+|                       | developerId   |       |       N        |                 USE_USER_PROVIDED                  | 
 |                       |    |       |       Y        |                 USE_PRIMARY_EMAIL                  | 
 |                       |    |       |       CM        |                 CMM                  | 
 |                       |    |       |       N        |                 NO                  | 
@@ -709,7 +707,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       A        |                 AGENT_ISV                  | 
-| VASDISCDBTACP| discDbtAcpOfferingType   |   Offering Type for Discover Debit Acceptance    |       MI        |                 MNY_TRFR_MERCH_INIT                  | 
+| VASDISCDBTACP| discDbtAcpOfferingType   |       |       MI        |                 MNY_TRFR_MERCH_INIT                  | 
 |                       |    |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       C52        |                 ACCOUNT_TO_ACCOUNT                  | 
 |                       |    |       |       03        |                 ESSENTIALS                  | 
@@ -771,7 +769,7 @@ tags: [serviceAttr]
 |                       |    |       |       02        |                 FRAUD_DETECT_SMB_TRIAL                  | 
 |                       |    |       |       P1        |                 FD_DSCV_PROMO                  | 
 |                       |    |       |       01        |                 FRAUD_DETECT_SMB                  | 
-|                       | discDbtAcpStatus   |   Program Status for Discover Debit Acceptance    |       N        |                 ALLOW_DEBIT_FLAGS                  | 
+|                       | discDbtAcpStatus   |       |       N        |                 ALLOW_DEBIT_FLAGS                  | 
 |                       |    |       |       D        |                 DECLINED                  | 
 |                       |    |       |       C        |                 CANCEL_SURCHARGING                  | 
 |                       |    |       |       Y        |                 DISCOVER_REVIEW                  | 
@@ -799,7 +797,7 @@ tags: [serviceAttr]
 |                       |    |       |       C        |                 CANCEL                  | 
 |                       |    |       |       4        |                 PENDING_CONTACTED                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
-| VASDISCINCAUTH| discIncAuthOfferingType   |   Offering Type for Discover Inc Auth    |       02        |                 FRAUD_DETECT_SMB_TRIAL                  | 
+| VASDISCINCAUTH| discIncAuthOfferingType   |       |       02        |                 FRAUD_DETECT_SMB_TRIAL                  | 
 |                       |    |       |       MD        |                 MERCH_DISBURSEMENTS                  | 
 |                       |    |       |       C58        |                 CASH_2_ATM                  | 
 |                       |    |       |       F65        |                 GEN_B2B_TRAN_TO_CARD                  | 
@@ -861,7 +859,7 @@ tags: [serviceAttr]
 |                       |    |       |       WT        |                 WALLET_TRANSFER                  | 
 |                       |    |       |       C07        |                 PERSON_TO_PERSON                  | 
 |                       |    |       |       01        |                 EMV_CAMPAIGN                  | 
-|                       | discIncAuthStatus   |   Program Status for Discover Inc Auth    |       L        |                 LIVE                  | 
+|                       | discIncAuthStatus   |       |       L        |                 LIVE                  | 
 |                       |    |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       C        |                 CANCEL                  | 
@@ -889,7 +887,7 @@ tags: [serviceAttr]
 |                       |    |       |       C        |                 CANCELLED_BY_FD                  | 
 |                       |    |       |       N        |                 NEW_APPLICATION                  | 
 |                       |    |       |       9        |                 CANCELLED_BY_MERCHANT                  | 
-| VASDISCPROMPRG| discPrmPrgEffectiveDate   |   Effective Date for Discover Prm Prg    |       N        |                 NO                  | 
+| VASDISCPROMPRG| discPrmPrgEffectiveDate   |       |       N        |                 NO                  | 
 |                       |    |       |       C        |                 NEW_VRU_ID_COMPLETED                  | 
 |                       |    |       |       Y        |                 NEW_VRU_ID_REQUESTED                  | 
 |                       |    |       |       04        |                 UCOMM                  | 
@@ -916,7 +914,7 @@ tags: [serviceAttr]
 |                       |    |       |       1        |                 OPTED_OUT                  | 
 |                       |    |       |       BOJA        |                 BO_JANGLES                  | 
 |                       |    |       |       B        |                 ONLINE_AND_PRINT                  | 
-|                       | discPrmPrgExpiryDate   |   Expiry Date for Discover Prm Prg    |       D        |                 DELETE                  | 
+|                       | discPrmPrgExpiryDate   |       |       D        |                 DELETE                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       T        |                 TEMPUS                  | 
 |                       |    |       |       V        |                 MIVA                  | 
@@ -949,7 +947,7 @@ tags: [serviceAttr]
 |                       |    |       |       C        |                 CLOVER                  | 
 |                       |    |       |       SF        |                 SALESFORCE_COMMERCE                  | 
 |                       |    |       |       N        |                 NO                  | 
-|                       | discPrmPrgOfferingType   |   offering Type for Discover Prm Prg    |       03        |                 ESSENTIALS                  | 
+|                       | discPrmPrgOfferingType   |       |       03        |                 ESSENTIALS                  | 
 |                       |    |       |       01        |                 AUTHORIZATION_DATA                  | 
 |                       |    |       |       01        |                 ELIGIBLE                  | 
 |                       |    |       |       F07        |                 P2P_TRANSFER                  | 
@@ -1011,7 +1009,7 @@ tags: [serviceAttr]
 |                       |    |       |       C58        |                 CASH_2_ATM                  | 
 |                       |    |       |       C53        |                 AGENT_CASH_OUT                  | 
 |                       |    |       |       C55        |                 MERCH_DISBURSEMENTS                  | 
-|                       | discPrmPrgPVI   |   PVI for Discover Prm Prg    |       A        |                 AGENT_ISV                  | 
+|                       | discPrmPrgPVI   |       |       A        |                 AGENT_ISV                  | 
 |                       |    |       |       C        |                 CBS                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       N        |                 USE_USER_PROVIDED                  | 
@@ -1020,7 +1018,7 @@ tags: [serviceAttr]
 |                       |    |       |       Y        |                 USE_PRIMARY_EMAIL                  | 
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       CM        |                 CMM                  | 
-|                       | discPrmPrgStatus   |   Program Status for Discover Prm Prg    |       9        |                 CANCELLED_BY_MERCHANT                  | 
+|                       | discPrmPrgStatus   |       |       9        |                 CANCELLED_BY_MERCHANT                  | 
 |                       |    |       |       C        |                 CANCEL                  | 
 |                       |    |       |       2        |                 UNSUBSCRIBED                  | 
 |                       |    |       |       7        |                 FREE_TRIAL                  | 
@@ -1048,7 +1046,7 @@ tags: [serviceAttr]
 |                       |    |       |       R        |                 DENIED                  | 
 |                       |    |       |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
 |                       |    |       |       1        |                 SUBSCRIBED                  | 
-| VASNTWKTKN| discover   |   Discover Token    |       I        |                 INITIATED                  | 
+| VASNTWKTKN| discover   |       |       I        |                 INITIATED                  | 
 |                       |    |       |       A        |                 PROVISIONED                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       Y        |                 YES                  | 
@@ -1059,8 +1057,8 @@ tags: [serviceAttr]
 |                       |    |       |       F        |                 FAILED                  | 
 |                       |    |       |               |                 NONE                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
-| VASBPMOB| ebtFnsNum   |   EBT FNS Number for BP Mobile    |               |                                   | 
-| VASGBSPOSINS| ecommercePlatform   |   Ecommerce Platform for GBS POS Installments    |       M        |                 MAGENTO2                  | 
+| VASBPMOB| ebtFnsNum   |       |               |                                   | 
+| VASGBSPOSINS| ecommercePlatform   |       |       M        |                 MAGENTO2                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       P        |                 PRINT_ONLY                  | 
 |                       |    |       |       Y        |                 YES                  | 
@@ -1093,9 +1091,9 @@ tags: [serviceAttr]
 |                       |    |       |       O        |                 OTHER                  | 
 |                       |    |       |       03        |                 MSI_APP                  | 
 |                       |    |       |       X        |                 CARDX                  | 
-| VASEMVCMP| emvBillingEffectiveDate   |   EMV Billing Effective Date    |               |                                   | 
-|                       | emvBillingExpirationDate   |   EMV Billing Expiration Date    |               |                                   | 
-| VASEMVENB| emvEnablementStatus   |   Program Status for EMV Enablement    |       01        |                 STANDARD_OFFERING                  | 
+| VASEMVCMP| emvBillingEffectiveDate   |       |               |                                   | 
+|                       | emvBillingExpirationDate   |       |               |                                   | 
+| VASEMVENB| emvEnablementStatus   |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       4        |                 PENDING_CONTACTED                  | 
 |                       |    |       |       L        |                 LIVE                  | 
@@ -1123,7 +1121,7 @@ tags: [serviceAttr]
 |                       |    |       |       C        |                 CANCEL                  | 
 |                       |    |       |       C        |                 CANCEL_SURCHARGING                  | 
 |                       |    |       |       8        |                 ACTIVE                  | 
-| VASEMVCMP| emvOfferingType   |   EMV Offering Type    |       BI        |                 BANK_INITIATED_P2P                  | 
+| VASEMVCMP| emvOfferingType   |       |       BI        |                 BANK_INITIATED_P2P                  | 
 |                       |    |       |       C04        |                 GAMING_PAYMENTS                  | 
 |                       |    |       |       01        |                 NT_ON_THE_GO                  | 
 |                       |    |       |       PD        |                 PAYRL_PNSN_DISBRSMNT                  | 
@@ -1185,7 +1183,7 @@ tags: [serviceAttr]
 |                       |    |       |       BB        |                 BUSINESS_TO_BUSINESS                  | 
 |                       |    |       |       GP        |                 GAMBLING_PAYOUT                  | 
 |                       |    |       |       02        |                 NOT_ELIGIBLE_ACQ_ON                  | 
-|                       | emvProgramStatus   |   EMV Program Status    |       7        |                 FREE_TRIAL                  | 
+|                       | emvProgramStatus   |       |       7        |                 FREE_TRIAL                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
 |                       |    |       |       5        |                 PENDING_UPGRADE                  | 
@@ -1213,7 +1211,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 APPLY_FALL_BACK                  | 
 |                       |    |       |       L        |                 LIVE                  | 
 |                       |    |       |       C        |                 CANCELLED_BY_FD                  | 
-| VASWSLENT| enrollmentStatus   |   Enrollment Status for Wisely Entitlement    |       C07        |                 PERSON_TO_PERSON                  | 
+| VASWSLENT| enrollmentStatus   |       |       C07        |                 PERSON_TO_PERSON                  | 
 |                       |    |       |       B        |                 BLACK_LISTED                  | 
 |                       |    |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       C53        |                 AGENT_CASH_OUT                  | 
@@ -1275,8 +1273,8 @@ tags: [serviceAttr]
 |                       |    |       |       03        |                 NT_HYBRID                  | 
 |                       |    |       |       BP        |                 NON-CARD_BILL_PAY                  | 
 |                       |    |       |       BI        |                 BANK_INITIATED_TRANS                  | 
-| VASENTINSB| entInsightBenchBillingEffectiveDate   |   Billing Effective Date for Enterprise Insights Bench    |               |                                   | 
-|                       | entInsightBenchStatus   |   Program Status for Enterprise Insights Bench    |       A        |                 ACTIVE                  | 
+| VASENTINSB| entInsightBenchBillingEffectiveDate   |       |               |                                   | 
+|                       | entInsightBenchStatus   |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       A        |                 ACTIVE_SURCHARGING                  | 
 |                       |    |       |       8        |                 ACTIVE                  | 
 |                       |    |       |       I        |                 IN_PROGRESS                  | 
@@ -1304,7 +1302,7 @@ tags: [serviceAttr]
 |                       |    |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |       |       6        |                 NO_RESPONSE                  | 
-|                       | entInsightBenchofferingType   |   Offering Type for Enterprise Insights Bench    |       WT        |                 WALLET_TRANSFER                  | 
+|                       | entInsightBenchofferingType   |       |       WT        |                 WALLET_TRANSFER                  | 
 |                       |    |       |       02        |                 NT_STANDARD                  | 
 |                       |    |       |       BI        |                 BANK_INITIATED_P2P                  | 
 |                       |    |       |       BI        |                 BANK_INITIATED_TRANS                  | 
@@ -1366,8 +1364,8 @@ tags: [serviceAttr]
 |                       |    |       |       MI        |                 MNY_TRFR_MERCH_INIT                  | 
 |                       |    |       |       F54        |                 PYMNT_OF_OWN_CC_BILL                  | 
 |                       |    |       |       04        |                 ADVANCED                  | 
-| VASENTINS| entInsightBillingEffectiveDate   |   Billing Effective Date for Enterprise Insights    |               |                                   | 
-| VASENTINSD| entInsightDemographicOfferingType   |   Offering Type for Enterprise Insights Demographic    |       F64        |                 TR_OWN_DB_OR_PP_CARD                  | 
+| VASENTINS| entInsightBillingEffectiveDate   |       |               |                                   | 
+| VASENTINSD| entInsightDemographicOfferingType   |       |       F64        |                 TR_OWN_DB_OR_PP_CARD                  | 
 |                       |    |       |       03        |                 AUTH_AND_SETTLEMENT                  | 
 |                       |    |       |       01        |                 CUP_ELIGIBLE                  | 
 |                       |    |       |       CB        |                 CREDIT_CARD_BILL_PAY                  | 
@@ -1429,7 +1427,7 @@ tags: [serviceAttr]
 |                       |    |       |       02        |                 NT_STANDARD                  | 
 |                       |    |       |       02        |                 SETTLEMENT_DATA                  | 
 |                       |    |       |       01        |                 ALIPAY_ELIGIBLE                  | 
-|                       | entInsightDemographicStatus   |   Program Status for Enterprise Insights Demographic    |       L        |                 LIVE                  | 
+|                       | entInsightDemographicStatus   |       |       L        |                 LIVE                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
 |                       |    |       |       3        |                 PENDING_UNCONTACTED                  | 
@@ -1457,9 +1455,9 @@ tags: [serviceAttr]
 |                       |    |       |       A        |                 ACTIVE_SURCHARGING                  | 
 |                       |    |       |       N        |                 APPLY_FALL_BACK                  | 
 |                       |    |       |       C        |                 CANCEL_SURCHARGING                  | 
-|                       | entInsightDemographicbillingEffectiveDate   |   Billing Effective Date for Enterprise Insights Demographic    |               |                                   | 
-| VASENTINSL| entInsightLobbyBillingEffectiveDate   |   Billing Effective Date for Enterprise Insights Lobby    |               |                                   | 
-|                       | entInsightLobbyOfferingType   |   Offering Type for Enterprise Insights Lobby    |       FT        |                 FUNDS_TRANSFER                  | 
+|                       | entInsightDemographicbillingEffectiveDate   |       |               |                                   | 
+| VASENTINSL| entInsightLobbyBillingEffectiveDate   |       |               |                                   | 
+|                       | entInsightLobbyOfferingType   |       |       FT        |                 FUNDS_TRANSFER                  | 
 |                       |    |       |       OG        |                 ONLINE_GAMBLING                  | 
 |                       |    |       |       AA        |                 ACCOUNT_TO_ACCOUNT                  | 
 |                       |    |       |       02        |                 NT_STANDARD                  | 
@@ -1521,7 +1519,7 @@ tags: [serviceAttr]
 |                       |    |       |       PD        |                 PAYRL_PNSN_DISBRSMNT                  | 
 |                       |    |       |       C53        |                 AGENT_CASH_OUT                  | 
 |                       |    |       |       05        |                 PREMIUM                  | 
-|                       | entInsightLobbyStatus   |   Program Status for Enterprise Insights Lobby    |       8        |                 ACTIVE                  | 
+|                       | entInsightLobbyStatus   |       |       8        |                 ACTIVE                  | 
 |                       |    |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |       |       Y        |                 DO_NOT_APPLY_FALLBACK                  | 
 |                       |    |       |       I        |                 IN_PROGRESS                  | 
@@ -1549,7 +1547,7 @@ tags: [serviceAttr]
 |                       |    |       |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
 |                       |    |       |       3        |                 PENDING_UNCONTACTED                  | 
 |                       |    |       |       Y        |                 DISCOVER_REVIEW                  | 
-| VASENTINS| entInsightOfferingType   |   Offering Type for Enterprise Insights    |       WT        |                 WALLET_TRANSFER                  | 
+| VASENTINS| entInsightOfferingType   |       |       WT        |                 WALLET_TRANSFER                  | 
 |                       |    |       |       F55        |                 BUS_DISBURS_TO_CARD                  | 
 |                       |    |       |       FD        |                 FUNDS_DISBURSEMENTS                  | 
 |                       |    |       |       PD        |                 PAYRL_PNSN_DISBRSMNT                  | 
@@ -1611,7 +1609,7 @@ tags: [serviceAttr]
 |                       |    |       |       C59        |                 CASH_2_CARD                  | 
 |                       |    |       |       C56        |                 GOV-NPROF_DISBRMTS                  | 
 |                       |    |       |       FT        |                 FUNDS_TRANSFER                  | 
-|                       | entInsightStatus   |   Program Status for Enterprise Insights    |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
+|                       | entInsightStatus   |       |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
 |                       |    |       |       5        |                 PENDING_UPGRADE                  | 
 |                       |    |       |       C        |                 CANCEL_SURCHARGING                  | 
 |                       |    |       |       6        |                 NO_RESPONSE                  | 
@@ -1639,7 +1637,7 @@ tags: [serviceAttr]
 |                       |    |       |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
 |                       |    |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |       |       I        |                 IN_PROGRESS                  | 
-| VASNTWKTKN| fiservTokenRequesterId   |   Fiserv Token Requester ID for Network Tokens    |       01        |                 STANDARD_OFFERING                  | 
+| VASNTWKTKN| fiservTokenRequesterId   |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       UJUL        |                 UNCLE_JULIO                  | 
 |                       |    |       |       P        |                 PRINT_ONLY                  | 
 |                       |    |       |       B        |                 ONLINE_AND_PRINT                  | 
@@ -1666,8 +1664,8 @@ tags: [serviceAttr]
 |                       |    |       |       00        |                 NONE                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       1        |                 OPTED_OUT                  | 
-| VASFRDDTCT| fraudDetectBillingEffectiveDate   |   Billing Effective Date for Fraud Detect    |               |                                   | 
-|                       | fraudDetectofferingType   |   Offering Type for Fraud Detect    |       FD        |                 FUNDS_DISBURSEMENTS                  | 
+| VASFRDDTCT| fraudDetectBillingEffectiveDate   |       |               |                                   | 
+|                       | fraudDetectofferingType   |       |       FD        |                 FUNDS_DISBURSEMENTS                  | 
 |                       |    |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       F08        |                 P2P_TRANSFER_TO_CARD                  | 
 |                       |    |       |       GD        |                 GOVT_DISBURSEMENTS                  | 
@@ -1729,7 +1727,7 @@ tags: [serviceAttr]
 |                       |    |       |       F53        |                 AGENT_CASH_OUT                  | 
 |                       |    |       |       03        |                 ESSENTIALS                  | 
 |                       |    |       |       01        |                 NT_ON_THE_GO                  | 
-|                       | fraudDetectstatus   |   Program Status for Fraud Detect    |       3        |                 PENDING_UNCONTACTED                  | 
+|                       | fraudDetectstatus   |       |       3        |                 PENDING_UNCONTACTED                  | 
 |                       |    |       |       6        |                 NO_RESPONSE                  | 
 |                       |    |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
@@ -1757,8 +1755,8 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 NEW_APPLICATION                  | 
 |                       |    |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |       |       Y        |                 DISCOVER_REVIEW                  | 
-| VASFRDFLX| fraudFlexBillingEffectiveDate   |   Billing Effective Date for Fraud Flex    |               |                                   | 
-|                       | fraudFlexOfferingType   |   Offering Type for Fraud Flex    |       W        |                 WHITE_LISTED                  | 
+| VASFRDFLX| fraudFlexBillingEffectiveDate   |       |               |                                   | 
+|                       | fraudFlexOfferingType   |       |       W        |                 WHITE_LISTED                  | 
 |                       |    |       |       BP        |                 NON-CARD_BILL_PAY                  | 
 |                       |    |       |       PP        |                 PERSON_TO_PERSON                  | 
 |                       |    |       |       01        |                 AUTHORIZATION_DATA                  | 
@@ -1820,7 +1818,7 @@ tags: [serviceAttr]
 |                       |    |       |       01        |                 NT_ON_THE_GO                  | 
 |                       |    |       |       F54        |                 PYMNT_OF_OWN_CC_BILL                  | 
 |                       |    |       |       C65        |                 BUS_TO_BUS_TRANSFER                  | 
-|                       | fraudFlexStatus   |   Program Status for Fraud Flex    |       C        |                 CANCEL                  | 
+|                       | fraudFlexStatus   |       |       C        |                 CANCEL                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       8        |                 ACTIVE                  | 
 |                       |    |       |       1        |                 SUBSCRIBED                  | 
@@ -1848,7 +1846,7 @@ tags: [serviceAttr]
 |                       |    |       |       Y        |                 DO_NOT_APPLY_FALLBACK                  | 
 |                       |    |       |       7        |                 FREE_TRIAL                  | 
 |                       |    |       |       3        |                 PENDING_UNCONTACTED                  | 
-| VASFRDDTCT| gatewayApi   |   Fraud Detect Entry Point    |       FIBD        |                 FIREBIRDS                  | 
+| VASFRDDTCT| gatewayApi   |       |       FIBD        |                 FIREBIRDS                  | 
 |                       |    |       |       SBBQ        |                 SONNYS_BBQ                  | 
 |                       |    |       |       B        |                 BREAD                  | 
 |                       |    |       |       PFC        |                 PF_CHANGS                  | 
@@ -1875,7 +1873,7 @@ tags: [serviceAttr]
 |                       |    |       |       SPKL        |                 SPRINKLES                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       N        |                 NO_REQUEST_OF_NEW_VRU                  | 
-| VASGBSPOSINS| gbsPosInsStatus   |   Program Status for GBS POS Installment    |       6        |                 NO_RESPONSE                  | 
+| VASGBSPOSINS| gbsPosInsStatus   |       |       6        |                 NO_RESPONSE                  | 
 |                       |    |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       Y        |                 DO_NOT_APPLY_FALLBACK                  | 
 |                       |    |       |       I        |                 IN_PROGRESS                  | 
@@ -1903,7 +1901,7 @@ tags: [serviceAttr]
 |                       |    |       |       9        |                 CANCELLED_BY_MERCHANT                  | 
 |                       |    |       |       D        |                 DECLINED                  | 
 |                       |    |       |       8        |                 ACTIVE                  | 
-|                       | gbsPosInsofferingType   |   Offering Type for GBS POS Installment    |       BB        |                 BUSINESS_TO_BUSINESS                  | 
+|                       | gbsPosInsofferingType   |       |       BB        |                 BUSINESS_TO_BUSINESS                  | 
 |                       |    |       |       05        |                 PREMIUM                  | 
 |                       |    |       |       F08        |                 P2P_TRANSFER_TO_CARD                  | 
 |                       |    |       |       02        |                 FRAUD_DETECT_SMB_TRIAL                  | 
@@ -1965,7 +1963,7 @@ tags: [serviceAttr]
 |                       |    |       |       01        |                 EMV_CAMPAIGN                  | 
 |                       |    |       |       F53        |                 AGENT_CASH_OUT                  | 
 |                       |    |       |       03        |                 ESSENTIALS                  | 
-| VASTAP2PE| ingenicoOnguard   |   Ingenico On-Guard for Transarmor    |       N        |                 NO                  | 
+| VASTAP2PE| ingenicoOnguard   |       |       N        |                 NO                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       A        |                 PROVISIONED                  | 
 |                       |    |       |       N        |                 NEW                  | 
@@ -1976,7 +1974,7 @@ tags: [serviceAttr]
 |                       |    |       |       U        |                 UPGRADE                  | 
 |                       |    |       |       R        |                 RENEWAL                  | 
 |                       |    |       |       Y        |                 YES                  | 
-| VASLCRDBT| lcrDebitStatus   |   Program Status for LCR Debit Flags (Optional)    |       Y        |                 DISCOVER_REVIEW                  | 
+| VASLCRDBT| lcrDebitStatus   |       |       Y        |                 DISCOVER_REVIEW                  | 
 |                       |    |       |       C        |                 CANCEL_SURCHARGING                  | 
 |                       |    |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |       |       D        |                 DECLINED                  | 
@@ -2004,7 +2002,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 ALLOW_DEBIT_FLAGS                  | 
 |                       |    |       |       C        |                 CANCELLED_BY_FD                  | 
 |                       |    |       |       A        |                 ACTIVE_SURCHARGING                  | 
-| VASLCRFB| lcrStatus   |   Program Status of LCR Fallback    |       01        |                 STANDARD_OFFERING                  | 
+| VASLCRFB| lcrStatus   |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       C        |                 CANCEL                  | 
 |                       |    |       |       5        |                 PENDING_UPGRADE                  | 
 |                       |    |       |       3        |                 PENDING_UNCONTACTED                  | 
@@ -2032,7 +2030,7 @@ tags: [serviceAttr]
 |                       |    |       |       8        |                 ACTIVE                  | 
 |                       |    |       |       4        |                 PENDING_CONTACTED                  | 
 |                       |    |       |       I        |                 IN_PROGRESS                  | 
-| VASMSTTIST| mainStreetProgramstatus   |   Program Status    |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
+| VASMSTTIST| mainStreetProgramstatus   |       |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       N        |                 ALLOW_DEBIT_FLAGS                  | 
 |                       |    |       |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
@@ -2060,8 +2058,8 @@ tags: [serviceAttr]
 |                       |    |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |       |       Y        |                 DISCOVER_REVIEW                  | 
 |                       |    |       |       4        |                 PENDING_CONTACTED                  | 
-|                       | mainStreetbillingEffectiveDate   |   Billing Effective Date     |               |                                   | 
-| VASNTWKTKN| masterCard   |   Master Card Network Tokens    |       CM        |                 CMM                  | 
+|                       | mainStreetbillingEffectiveDate   |       |               |                                   | 
+| VASNTWKTKN| masterCard   |       |       CM        |                 CMM                  | 
 |                       |    |       |       N        |                 USE_USER_PROVIDED                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       A        |                 AGENT_ISV                  | 
@@ -2070,7 +2068,7 @@ tags: [serviceAttr]
 |                       |    |       |       C        |                 CBS                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       Y        |                 USE_PRIMARY_EMAIL                  | 
-| VASMSTPWLT| masterpassofferingType   |   Masterpass Offering Type    |       06        |                 STANDARD                  | 
+| VASMSTPWLT| masterpassofferingType   |       |       06        |                 STANDARD                  | 
 |                       |    |       |       B        |                 BLACK_LISTED                  | 
 |                       |    |       |       03        |                 AUTH_AND_SETTLEMENT                  | 
 |                       |    |       |       01        |                 CUP_ELIGIBLE                  | 
@@ -2132,7 +2130,7 @@ tags: [serviceAttr]
 |                       |    |       |       00        |                 NOT_APPLICABLE                  | 
 |                       |    |       |       F53        |                 AGENT_CASH_OUT                  | 
 |                       |    |       |       01        |                 FRAUD_DETECT_SMB                  | 
-|                       | masterpassstatus   |   Masterpass Status    |       5        |                 PENDING_UPGRADE                  | 
+|                       | masterpassstatus   |       |       5        |                 PENDING_UPGRADE                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |       |       Y        |                 DO_NOT_APPLY_FALLBACK                  | 
@@ -2160,7 +2158,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 ALLOW_DEBIT_FLAGS                  | 
 |                       |    |       |       C        |                 CANCEL_SURCHARGING                  | 
 |                       |    |       |       Y        |                 DISCOVER_REVIEW                  | 
-| VASMCMONEYSEND| mcMoneySendOfferingType   |   Offering Type for MC Moneysend    |       01        |                 EMV_CAMPAIGN                  | 
+| VASMCMONEYSEND| mcMoneySendOfferingType   |       |       01        |                 EMV_CAMPAIGN                  | 
 |                       |    |       |       F54        |                 PYMNT_OF_OWN_CC_BILL                  | 
 |                       |    |       |       C56        |                 GOV-NPROF_DISBRMTS                  | 
 |                       |    |       |       PD        |                 PAYRL_PNSN_DISBRSMNT                  | 
@@ -2222,7 +2220,7 @@ tags: [serviceAttr]
 |                       |    |       |       BB        |                 BUSINESS_TO_BUSINESS                  | 
 |                       |    |       |       02        |                 SETTLEMENT_DATA                  | 
 |                       |    |       |       MI        |                 MNY_TRFR_MERCH_INIT                  | 
-|                       | mcMoneySendStatus   |   Program Status for MC Moneysend    |       M        |                 MIX_EMV_AND_NON_EMV                  | 
+|                       | mcMoneySendStatus   |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |       |       A        |                 APPROVED                  | 
 |                       |    |       |       A        |                 ACTIVE_SURCHARGING                  | 
 |                       |    |       |       I        |                 IN_PROGRESS                  | 
@@ -2250,7 +2248,7 @@ tags: [serviceAttr]
 |                       |    |       |       4        |                 PENDING_CONTACTED                  | 
 |                       |    |       |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
 |                       |    |       |       D        |                 DECLINED                  | 
-| VASSAMSPLS| memberShipId   |   SAMS Club Membership ID    |       00        |                 NONE                  | 
+| VASSAMSPLS| memberShipId   |       |       00        |                 NONE                  | 
 |                       |    |       |       02        |                 IPG                  | 
 |                       |    |       |       Y        |                 NEW_VRU_ID_REQUESTED                  | 
 |                       |    |       |       03        |                 PAYEEZY                  | 
@@ -2277,7 +2275,7 @@ tags: [serviceAttr]
 |                       |    |       |       UJUL        |                 UNCLE_JULIO                  | 
 |                       |    |       |       P        |                 PRINT_ONLY                  | 
 |                       |    |       |       04        |                 UCOMM                  | 
-| VASMERSRCH| merchSurchargeProgEffectiveDate   |   Surcharge Effective Date for Merchant Surcharge Program    |       N        |                 NO                  | 
+| VASMERSRCH| merchSurchargeProgEffectiveDate   |       |       N        |                 NO                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       CM        |                 CMM                  | 
 |                       |    |       |       N        |                 USE_USER_PROVIDED                  | 
@@ -2286,7 +2284,7 @@ tags: [serviceAttr]
 |                       |    |       |       Y        |                 USE_PRIMARY_EMAIL                  | 
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
-|                       | merchSurchargeProgOfferingType   |   Offering Type for Merchant Surcharge Program    |       02        |                 NOT_ELIGIBLE_ACQ_ON                  | 
+|                       | merchSurchargeProgOfferingType   |       |       02        |                 NOT_ELIGIBLE_ACQ_ON                  | 
 |                       |    |       |       01        |                 CUP_ELIGIBLE                  | 
 |                       |    |       |       FD        |                 FUNDS_DISBURSEMENTS                  | 
 |                       |    |       |       F52        |                 ACCOUNT_TO_ACCOUNT                  | 
@@ -2348,7 +2346,7 @@ tags: [serviceAttr]
 |                       |    |       |       F61        |                 STAGED_WALLET_LOAD                  | 
 |                       |    |       |       03        |                 AUTH_AND_SETTLEMENT                  | 
 |                       |    |       |       P1        |                 FD_DSCV_PROMO                  | 
-|                       | merchSurchargeProgSolutionType   |   Solution Type for Merchant Surcharge Program    |       01        |                 FDMS_POS                  | 
+|                       | merchSurchargeProgSolutionType   |       |       01        |                 FDMS_POS                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
@@ -2358,7 +2356,7 @@ tags: [serviceAttr]
 |                       |    |       |       P        |                 PENDING                  | 
 |                       |    |       |       C        |                 CANCEL                  | 
 |                       |    |       |       N        |                 NO                  | 
-|                       | merchSurchargeProgStatus   |   Program Status for Merchant Surcharge Program    |       D        |                 DECLINED                  | 
+|                       | merchSurchargeProgStatus   |       |       D        |                 DECLINED                  | 
 |                       |    |       |       A        |                 APPROVED                  | 
 |                       |    |       |       I        |                 IN_PROGRESS                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
@@ -2386,7 +2384,7 @@ tags: [serviceAttr]
 |                       |    |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       C        |                 CANCELLED_BY_FD                  | 
 |                       |    |       |       8        |                 ACTIVE                  | 
-|                       | merchSurchargeProgSurchargeRate   |   Surcharge Rate for Merchant Surcharge Program    |       Y        |                 CHECKED                  | 
+|                       | merchSurchargeProgSurchargeRate   |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       UJUL        |                 UNCLE_JULIO                  | 
 |                       |    |       |       04        |                 UCOMM                  | 
 |                       |    |       |       SBBQ        |                 SONNYS_BBQ                  | 
@@ -2413,7 +2411,7 @@ tags: [serviceAttr]
 |                       |    |       |       B        |                 ONLINE_AND_PRINT                  | 
 |                       |    |       |       ABLS        |                 ABUELOS                  | 
 |                       |    |       |       SPKL        |                 SPRINKLES                  | 
-| VASWSLENT| merchantIdentifier   |   Merchant Identifier for Wisely Entitlement    |       3        |                 PENDING_UNCONTACTED                  | 
+| VASWSLENT| merchantIdentifier   |       |       3        |                 PENDING_UNCONTACTED                  | 
 |                       |    |       |       8        |                 ACTIVE                  | 
 |                       |    |       |       D        |                 DECLINED                  | 
 |                       |    |       |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
@@ -2441,7 +2439,7 @@ tags: [serviceAttr]
 |                       |    |       |       I        |                 IN_PROGRESS                  | 
 |                       |    |       |       N        |                 APPLY_FALL_BACK                  | 
 |                       |    |       |       N        |                 ALLOW_DEBIT_FLAGS                  | 
-| VASBPMOB| mobInd   |   Mobile Indicator for BP Mobile    |       ABLS        |                 ABUELOS                  | 
+| VASBPMOB| mobInd   |       |       ABLS        |                 ABUELOS                  | 
 |                       |    |       |       SPKL        |                 SPRINKLES                  | 
 |                       |    |       |       02        |                 IPG                  | 
 |                       |    |       |       UJUL        |                 UNCLE_JULIO                  | 
@@ -2468,8 +2466,8 @@ tags: [serviceAttr]
 |                       |    |       |       2        |                 IAS_PRODUCT_EXCEPTION                  | 
 |                       |    |       |       B        |                 BREAD                  | 
 |                       |    |       |       00        |                 NONE                  | 
-| VASNTWKTKN| networkTokenBillingEffectiveDate   |   Billing Effective Date for Network Tokens    |               |                                   | 
-|                       | networkTokenOfferingType   |   Offering Type for Network Tokens    |       PP        |                 PERSON_TO_PERSON                  | 
+| VASNTWKTKN| networkTokenBillingEffectiveDate   |       |               |                                   | 
+|                       | networkTokenOfferingType   |       |       PP        |                 PERSON_TO_PERSON                  | 
 |                       |    |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       01        |                 EMV_CAMPAIGN                  | 
 |                       |    |       |       C07        |                 PERSON_TO_PERSON                  | 
@@ -2531,7 +2529,7 @@ tags: [serviceAttr]
 |                       |    |       |       BB        |                 BUSINESS_TO_BUSINESS                  | 
 |                       |    |       |       02        |                 NOT_ELIGIBLE_ACQ_ON                  | 
 |                       |    |       |       01        |                 ELIGIBLE                  | 
-|                       | networkTokenStatus   |   Program Status for Network Tokens    |       C        |                 CANCEL                  | 
+|                       | networkTokenStatus   |       |       C        |                 CANCEL                  | 
 |                       |    |       |       Y        |                 DISCOVER_REVIEW                  | 
 |                       |    |       |       9        |                 CANCELLED_BY_MERCHANT                  | 
 |                       |    |       |       N        |                 ALLOW_DEBIT_FLAGS                  | 
@@ -2559,7 +2557,7 @@ tags: [serviceAttr]
 |                       |    |       |       5        |                 PENDING_UPGRADE                  | 
 |                       |    |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |       |       6        |                 NO_RESPONSE                  | 
-| VASSAMSPLS| newUpgRnwlInd   |   SAMS Club New/Upgrade/Renewal Indicator    |       N        |                 NEW                  | 
+| VASSAMSPLS| newUpgRnwlInd   |       |       N        |                 NEW                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       U        |                 UPGRADE                  | 
 |                       |    |       |       F        |                 FAILED                  | 
@@ -2570,7 +2568,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       R        |                 RENEWAL                  | 
-|                       | nxtRnwlDt   |   SAMS Club Next Renewal Date    |       N        |                 USE_USER_PROVIDED                  | 
+|                       | nxtRnwlDt   |       |       N        |                 USE_USER_PROVIDED                  | 
 |                       |    |       |       A        |                 AGENT_ISV                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       N        |                 NO                  | 
@@ -2579,7 +2577,7 @@ tags: [serviceAttr]
 |                       |    |       |       CM        |                 CMM                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       Y        |                 YES                  | 
-| VASGBSPOSINS| partner   |   Partner for GBS POS Installments    |       01        |                 FIRST_API                  | 
+| VASGBSPOSINS| partner   |       |       01        |                 FIRST_API                  | 
 |                       |    |       |       SPKL        |                 SPRINKLES                  | 
 |                       |    |       |       B        |                 ONLINE_AND_PRINT                  | 
 |                       |    |       |       P        |                 PRINT_ONLY                  | 
@@ -2606,8 +2604,8 @@ tags: [serviceAttr]
 |                       |    |       |       USHG        |                 UNION_SQ_HOSPITAL                  | 
 |                       |    |       |       2        |                 IAS_PRODUCT_EXCEPTION                  | 
 |                       |    |       |       N        |                 NO_REQUEST_OF_NEW_VRU                  | 
-| VASPAYEEZY| payezeeyBillingEffectiveDate   |   Billing Effective Date    |               |                                   | 
-|                       | payezeeyOfferingType   |   Payeezy Offering Type    |       C04        |                 GAMING_PAYMENTS                  | 
+| VASPAYEEZY| payezeeyBillingEffectiveDate   |       |               |                                   | 
+|                       | payezeeyOfferingType   |       |       C04        |                 GAMING_PAYMENTS                  | 
 |                       |    |       |       02        |                 FRAUD_DETECT_SMB_TRIAL                  | 
 |                       |    |       |       B        |                 BLACK_LISTED                  | 
 |                       |    |       |       01        |                 CUP_ELIGIBLE                  | 
@@ -2669,7 +2667,7 @@ tags: [serviceAttr]
 |                       |    |       |       GP        |                 GAMBLING_PAYOUT                  | 
 |                       |    |       |       C56        |                 GOV-NPROF_DISBRMTS                  | 
 |                       |    |       |       FD        |                 FUNDS_DISBURSEMENTS                  | 
-|                       | payezeeyProgramStatus   |   Payeezy Program Status    |       Y        |                 DO_NOT_APPLY_FALLBACK                  | 
+|                       | payezeeyProgramStatus   |       |       Y        |                 DO_NOT_APPLY_FALLBACK                  | 
 |                       |    |       |       N        |                 NEW_APPLICATION                  | 
 |                       |    |       |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
 |                       |    |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
@@ -2697,7 +2695,7 @@ tags: [serviceAttr]
 |                       |    |       |       L        |                 LIVE                  | 
 |                       |    |       |       2        |                 UNSUBSCRIBED                  | 
 |                       |    |       |       A        |                 APPROVED                  | 
-| VASPERKA| perkaAccountNum   |   Perka Account Number    |       Y        |                 CHECKED                  | 
+| VASPERKA| perkaAccountNum   |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       Y        |                 USE_PRIMARY_EMAIL                  | 
 |                       |    |       |       N        |                 USE_USER_PROVIDED                  | 
 |                       |    |       |       N        |                 NO                  | 
@@ -2706,7 +2704,7 @@ tags: [serviceAttr]
 |                       |    |       |       C        |                 CBS                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       CM        |                 CMM                  | 
-|                       | perkaAccountStatus   |   Account Status    |       C        |                 CANCEL                  | 
+|                       | perkaAccountStatus   |       |       C        |                 CANCEL                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       01        |                 FDMS_POS                  | 
@@ -2716,8 +2714,8 @@ tags: [serviceAttr]
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       P        |                 PENDING                  | 
 |                       |    |       |       02        |                 NON_FDMS_POS                  | 
-|                       | perkaBillingEffectiveDate   |   Billing Effective Date for Perka    |               |                                   | 
-|                       | perkaProductType   |   Perka Product Type    |       2        |                 IAS_PRODUCT_EXCEPTION                  | 
+|                       | perkaBillingEffectiveDate   |       |               |                                   | 
+|                       | perkaProductType   |       |       2        |                 IAS_PRODUCT_EXCEPTION                  | 
 |                       |    |       |       N        |                 NO_REQUEST_OF_NEW_VRU                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       FIBD        |                 FIREBIRDS                  | 
@@ -2744,11 +2742,11 @@ tags: [serviceAttr]
 |                       |    |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       SBBQ        |                 SONNYS_BBQ                  | 
 |                       |    |       |       UJUL        |                 UNCLE_JULIO                  | 
-|                       | perkaTrainInd   |   Perka Training Indicator    |       Y        |                 TRAINING_REQUESTED                  | 
+|                       | perkaTrainInd   |       |       Y        |                 TRAINING_REQUESTED                  | 
 |                       |    |       |       N        |                 TRAINING_NOT_REQUESTED                  | 
-|                       | perkaUniqueId   |   Perka Unique Identifier    |               |                                   | 
-| VASPDATAPRT| personalDataProtectionBillingEffectiveDate   |   Billing Effective Date for Personal Data Protection    |               |                                   | 
-|                       | personalDataProtectionOfferingType   |   Offering Type for Personal Data Protection    |       F54        |                 PYMNT_OF_OWN_CC_BILL                  | 
+|                       | perkaUniqueId   |       |               |                                   | 
+| VASPDATAPRT| personalDataProtectionBillingEffectiveDate   |       |               |                                   | 
+|                       | personalDataProtectionOfferingType   |       |       F54        |                 PYMNT_OF_OWN_CC_BILL                  | 
 |                       |    |       |       AA        |                 ACCOUNT_TO_ACCOUNT                  | 
 |                       |    |       |       F64        |                 TR_OWN_DB_OR_PP_CARD                  | 
 |                       |    |       |       01        |                 NT_ON_THE_GO                  | 
@@ -2810,7 +2808,7 @@ tags: [serviceAttr]
 |                       |    |       |       CB        |                 CREDIT_CARD_BILL_PAY                  | 
 |                       |    |       |       PD        |                 PAYRL_PNSN_DISBRSMNT                  | 
 |                       |    |       |       F55        |                 BUS_DISBURS_TO_CARD                  | 
-|                       | personalDataProtectionStatus   |   Program Status for Personal Data Protection    |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
+|                       | personalDataProtectionStatus   |       |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
 |                       |    |       |       D        |                 DECLINED                  | 
 |                       |    |       |       N        |                 NEW_APPLICATION                  | 
 |                       |    |       |       C        |                 CANCEL_SURCHARGING                  | 
@@ -2838,7 +2836,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 ALLOW_DEBIT_FLAGS                  | 
 |                       |    |       |       3        |                 PENDING_UNCONTACTED                  | 
 |                       |    |       |       C        |                 CANCEL                  | 
-| VASPINLESSECOM| pinlessEcomStatus   |   Program Status for Pinless Ecomm    |       Y        |                 DISCOVER_REVIEW                  | 
+| VASPINLESSECOM| pinlessEcomStatus   |       |       Y        |                 DISCOVER_REVIEW                  | 
 |                       |    |       |       L        |                 LIVE                  | 
 |                       |    |       |       5        |                 PENDING_UPGRADE                  | 
 |                       |    |       |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
@@ -2866,7 +2864,7 @@ tags: [serviceAttr]
 |                       |    |       |       C        |                 CANCELLED_BY_FD                  | 
 |                       |    |       |       4        |                 PENDING_CONTACTED                  | 
 |                       |    |       |       9        |                 CANCELLED_BY_MERCHANT                  | 
-| VASMSTTIST| primaryEmailInd   |   Primary Email Indicator    |       N        |                 USE_USER_PROVIDED                  | 
+| VASMSTTIST| primaryEmailInd   |       |       N        |                 USE_USER_PROVIDED                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       CM        |                 CMM                  | 
 |                       |    |       |       A        |                 AGENT_ISV                  | 
@@ -2875,7 +2873,7 @@ tags: [serviceAttr]
 |                       |    |       |       Y        |                 USE_PRIMARY_EMAIL                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       Y        |                 YES                  | 
-| VASEMVCMP| rebateAmount   |   EMV Rebate Amount    |       04        |                 UCOMM                  | 
+| VASEMVCMP| rebateAmount   |       |       04        |                 UCOMM                  | 
 |                       |    |       |       B        |                 ONLINE_AND_PRINT                  | 
 |                       |    |       |       O        |                 ONLINE_ONLY                  | 
 |                       |    |       |       02        |                 IPG                  | 
@@ -2902,7 +2900,7 @@ tags: [serviceAttr]
 |                       |    |       |       PFC        |                 PF_CHANGS                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       P        |                 PRINT_ONLY                  | 
-| VASPERKA| reccuringCharge   |   Recurring Charge    |       R        |                 RENEWAL                  | 
+| VASPERKA| reccuringCharge   |       |       R        |                 RENEWAL                  | 
 |                       |    |       |       U        |                 UPGRADE                  | 
 |                       |    |       |               |                 NONE                  | 
 |                       |    |       |       N        |                 NEW                  | 
@@ -2913,7 +2911,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       F        |                 FAILED                  | 
 |                       |    |       |       I        |                 INITIATED                  | 
-| VASPAYEEZY| referralCode   |   Referral Code    |       N        |                 NO                  | 
+| VASPAYEEZY| referralCode   |       |       N        |                 NO                  | 
 |                       |    |       |       04        |                 UCOMM                  | 
 |                       |    |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       N        |                 NO_REQUEST_OF_NEW_VRU                  | 
@@ -2940,7 +2938,7 @@ tags: [serviceAttr]
 |                       |    |       |       UJUL        |                 UNCLE_JULIO                  | 
 |                       |    |       |       PFC        |                 PF_CHANGS                  | 
 |                       |    |       |       00        |                 NONE                  | 
-| VASVRUSRV| requestNewVruIdCd   |   Request New VRU Id For Compromised One    |       UJUL        |                 UNCLE_JULIO                  | 
+| VASVRUSRV| requestNewVruIdCd   |       |       UJUL        |                 UNCLE_JULIO                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       PFC        |                 PF_CHANGS                  | 
@@ -2967,7 +2965,7 @@ tags: [serviceAttr]
 |                       |    |       |       O        |                 ONLINE_ONLY                  | 
 |                       |    |       |       FIBD        |                 FIREBIRDS                  | 
 |                       |    |       |       Y        |                 NEW_VRU_ID_REQUESTED                  | 
-| VASSAMSPLS| rnwlAmtPaid   |   SAMS Club Renewal Amount Paid    |       01        |                 FDMS_POS                  | 
+| VASSAMSPLS| rnwlAmtPaid   |       |       01        |                 FDMS_POS                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       P        |                 PENDING                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
@@ -2977,7 +2975,7 @@ tags: [serviceAttr]
 |                       |    |       |       C        |                 CANCEL                  | 
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       N        |                 NO                  | 
-| VASTAP2PE| rsavpki   |   rsavpki for Transarmor    |       C        |                 NEW_VRU_ID_COMPLETED                  | 
+| VASTAP2PE| rsavpki   |       |       C        |                 NEW_VRU_ID_COMPLETED                  | 
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       01        |                 FIRST_API                  | 
 |                       |    |       |       SPKL        |                 SPRINKLES                  | 
@@ -3004,7 +3002,7 @@ tags: [serviceAttr]
 |                       |    |       |       04        |                 UCOMM                  | 
 |                       |    |       |       B        |                 BREAD                  | 
 |                       |    |       |       P        |                 PRINT_ONLY                  | 
-| VASTCKCP| tckCpPrcsInd   |   Process Indicator Telecheck CP    |       N        |                 USE_USER_PROVIDED                  | 
+| VASTCKCP| tckCpPrcsInd   |       |       N        |                 USE_USER_PROVIDED                  | 
 |                       |    |       |       A        |                 AGENT_ISV                  | 
 |                       |    |       |       C        |                 CBS                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
@@ -3013,7 +3011,7 @@ tags: [serviceAttr]
 |                       |    |       |       CM        |                 CMM                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       N        |                 NO                  | 
-|                       | tckCpPrdct   |   Product for Telecheck CP    |       SPKL        |                 SPRINKLES                  | 
+|                       | tckCpPrdct   |       |       SPKL        |                 SPRINKLES                  | 
 |                       |    |       |       01        |                 STANDARD_OFFERING                  | 
 |                       |    |       |       O        |                 ONLINE_ONLY                  | 
 |                       |    |       |       03        |                 PAYEEZY                  | 
@@ -3040,7 +3038,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 NO_REQUEST_OF_NEW_VRU                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       00        |                 NONE                  | 
-|                       | tckCpServEntl   |   Service Entitlement for Telecheck CP    |       01        |                 CLOVER_ONLINE_STORE                  | 
+|                       | tckCpServEntl   |       |       01        |                 CLOVER_ONLINE_STORE                  | 
 |                       |    |       |       O        |                 ONLINE_ONLY                  | 
 |                       |    |       |       W        |                 WOOCOMMERCE                  | 
 |                       |    |       |       N        |                 NON_SURCHARGE_SNAPPAY_CARDX                  | 
@@ -3073,7 +3071,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       K        |                 KIBO                  | 
 |                       |    |       |       Y        |                 YES                  | 
-|                       | tckCpSettlInd   |   Settlement Indicator for Telecheck CP    |       N        |                 NOT_CHECKED                  | 
+|                       | tckCpSettlInd   |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       01        |                 FDMS_POS                  | 
@@ -3083,7 +3081,7 @@ tags: [serviceAttr]
 |                       |    |       |       P        |                 PENDING                  | 
 |                       |    |       |       02        |                 NON_FDMS_POS                  | 
 |                       |    |       |       C        |                 CANCEL                  | 
-|                       | tckCpStatus   |   Program Status for Telecheck CP    |       D        |                 DECLINED                  | 
+|                       | tckCpStatus   |       |       D        |                 DECLINED                  | 
 |                       |    |       |       N        |                 NEW_APPLICATION                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
@@ -3111,7 +3109,7 @@ tags: [serviceAttr]
 |                       |    |       |       1        |                 SUBSCRIBED                  | 
 |                       |    |       |       R        |                 DENIED                  | 
 |                       |    |       |       5        |                 PENDING_UPGRADE                  | 
-| VASTEMPUS| tempusProgramStatus   |   Tempus Program Status    |       Y        |                 DISCOVER_REVIEW                  | 
+| VASTEMPUS| tempusProgramStatus   |       |       Y        |                 DISCOVER_REVIEW                  | 
 |                       |    |       |       I        |                 IN_PROGRESS                  | 
 |                       |    |       |       3        |                 PENDING_UNCONTACTED                  | 
 |                       |    |       |       1        |                 SUBSCRIBED                  | 
@@ -3139,7 +3137,7 @@ tags: [serviceAttr]
 |                       |    |       |       C        |                 CANCELLED_BY_FD                  | 
 |                       |    |       |       R        |                 DENIED                  | 
 |                       |    |       |       A        |                 ACTIVE_SURCHARGING                  | 
-| VASPERKA| term   |   Term    |       M        |                 MONTHLY                  | 
+| VASPERKA| term   |       |       M        |                 MONTHLY                  | 
 |                       |    |       |       O        |                 OPTED_OUT                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
@@ -3148,7 +3146,7 @@ tags: [serviceAttr]
 |                       |    |       |       P        |                 PENDING                  | 
 |                       |    |       |       I        |                 INITIATED                  | 
 |                       |    |       |       F        |                 FAILED                  | 
-| VASBPMOB| terminalType01   |   Terminal Type 01 for BP Mobile    |       F        |                 FAILED                  | 
+| VASBPMOB| terminalType01   |       |       F        |                 FAILED                  | 
 |                       |    |       |       A        |                 PROVISIONED                  | 
 |                       |    |       |       U        |                 UPGRADE                  | 
 |                       |    |       |       I        |                 INITIATED                  | 
@@ -3159,7 +3157,7 @@ tags: [serviceAttr]
 |                       |    |       |       R        |                 RENEWAL                  | 
 |                       |    |       |               |                 NONE                  | 
 |                       |    |       |       N        |                 NEW                  | 
-|                       | terminalType03   |   Terminal Type 03 for BP Mobile    |       P        |                 PENDING                  | 
+|                       | terminalType03   |       |       P        |                 PENDING                  | 
 |                       |    |       |       O        |                 OPTED_OUT                  | 
 |                       |    |       |       A        |                 ANNUAL                  | 
 |                       |    |       |       M        |                 MONTHLY                  | 
@@ -3168,7 +3166,7 @@ tags: [serviceAttr]
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       I        |                 INITIATED                  | 
 |                       |    |       |       A        |                 PROVISIONED                  | 
-| VASMERSRCH| thirdParty   |   Third Party for Merchant Surcharge Program    |       O        |                 OTHER                  | 
+| VASMERSRCH| thirdParty   |       |       O        |                 OTHER                  | 
 |                       |    |       |       B        |                 ONLINE_AND_PRINT                  | 
 |                       |    |       |       P        |                 PRINT_ONLY                  | 
 |                       |    |       |       D        |                 DELETE                  | 
@@ -3201,8 +3199,8 @@ tags: [serviceAttr]
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       V        |                 MIVA                  | 
 |                       |    |       |       C        |                 CLOVER                  | 
-| VASTXNINS| transactionInsightBillingEffectiveDate   |   Billing Effective Date for Transaction Insights    |               |                                   | 
-|                       | transactionInsightOfferingType   |   Offering Type for Transaction Insights    |       PP        |                 PERSON_TO_PERSON                  | 
+| VASTXNINS| transactionInsightBillingEffectiveDate   |       |               |                                   | 
+|                       | transactionInsightOfferingType   |       |       PP        |                 PERSON_TO_PERSON                  | 
 |                       |    |       |       F52        |                 ACCOUNT_TO_ACCOUNT                  | 
 |                       |    |       |       C52        |                 ACCOUNT_TO_ACCOUNT                  | 
 |                       |    |       |       F65        |                 GEN_B2B_TRAN_TO_CARD                  | 
@@ -3264,7 +3262,7 @@ tags: [serviceAttr]
 |                       |    |       |       P1        |                 FD_DSCV_PROMO                  | 
 |                       |    |       |       F08        |                 P2P_TRANSFER_TO_CARD                  | 
 |                       |    |       |       BI        |                 BANK_INITIATED_TRANS                  | 
-|                       | transactionInsightStatus   |   Program Status for Transaction Insights    |       6        |                 NO_RESPONSE                  | 
+|                       | transactionInsightStatus   |       |       6        |                 NO_RESPONSE                  | 
 |                       |    |       |       8        |                 ACTIVE                  | 
 |                       |    |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |       |       N        |                 APPLY_FALL_BACK                  | 
@@ -3292,7 +3290,7 @@ tags: [serviceAttr]
 |                       |    |       |       A        |                 ACTIVE                  | 
 |                       |    |       |       Y        |                 DONT_APPLY_DEBIT_FLAGS                  | 
 |                       |    |       |       7        |                 FREE_TRIAL                  | 
-| VASTAP2PE| transarmorP2peStatus   |   Transrmor P2PE Pragram Status    |       2        |                 UNSUBSCRIBED                  | 
+| VASTAP2PE| transarmorP2peStatus   |       |       2        |                 UNSUBSCRIBED                  | 
 |                       |    |       |       M        |                 MIX_EMV_AND_NON_EMV                  | 
 |                       |    |       |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
 |                       |    |       |       8        |                 ACTIVE                  | 
@@ -3320,7 +3318,7 @@ tags: [serviceAttr]
 |                       |    |       |       R        |                 DENIED                  | 
 |                       |    |       |       A        |                 APPROVED                  | 
 |                       |    |       |       N        |                 ALLOW_DEBIT_FLAGS                  | 
-| VASTRNSARM| transarmorProgramstatus   |   Transarmor Program Status    |       N        |                 APPLY_FALL_BACK                  | 
+| VASTRNSARM| transarmorProgramstatus   |       |       N        |                 APPLY_FALL_BACK                  | 
 |                       |    |       |       N        |                 NEW_APPLICATION                  | 
 |                       |    |       |       9        |                 CANCELLED_BY_MERCHANT                  | 
 |                       |    |       |       C        |                 CANCELLED_BY_FD                  | 
@@ -3348,7 +3346,7 @@ tags: [serviceAttr]
 |                       |    |       |       A        |                 APPROVED                  | 
 |                       |    |       |       N        |                 ALLOW_DEBIT_FLAGS                  | 
 |                       |    |       |       Y        |                 DISCOVER_REVIEW                  | 
-|                       | transarmorofferingType   |   Transarmor Offering Type    |       02        |                 NT_STANDARD                  | 
+|                       | transarmorofferingType   |       |       02        |                 NT_STANDARD                  | 
 |                       |    |       |       BP        |                 NON-CARD_BILL_PAY                  | 
 |                       |    |       |       GP        |                 GAMBLING_PAYOUT                  | 
 |                       |    |       |       CD        |                 CASH_DEPOSIT                  | 
@@ -3410,7 +3408,7 @@ tags: [serviceAttr]
 |                       |    |       |       01        |                 AUTHORIZATION_DATA                  | 
 |                       |    |       |       00        |                 NOT_APPLICABLE                  | 
 |                       |    |       |       MI        |                 MNY_TRFR_MERCH_INIT                  | 
-| VASTAP2PE| verifoneProtect   |   Verifone Protect for Transarmor    |       02        |                 MSI_EXPRESS                  | 
+| VASTAP2PE| verifoneProtect   |       |       02        |                 MSI_EXPRESS                  | 
 |                       |    |       |       S        |                 SHOPIFY                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       W        |                 WOOCOMMERCE                  | 
@@ -3443,7 +3441,7 @@ tags: [serviceAttr]
 |                       |    |       |       O        |                 ONLINE_ONLY                  | 
 |                       |    |       |       K        |                 KIBO                  | 
 |                       |    |       |       O        |                 OTHER                  | 
-|                       | verifoneProtectWsp   |   Verifone Protect W/SP for  Transarmor    |       A        |                 AGENT_ISV                  | 
+|                       | verifoneProtectWsp   |       |       A        |                 AGENT_ISV                  | 
 |                       |    |       |       Y        |                 USE_PRIMARY_EMAIL                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       Y        |                 YES                  | 
@@ -3452,7 +3450,7 @@ tags: [serviceAttr]
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       N        |                 USE_USER_PROVIDED                  | 
 |                       |    |       |       C        |                 CBS                  | 
-| VASVETPRG| veteransProgramType   |   Veterans Program Offering Type    |       ABLS        |                 ABUELOS                  | 
+| VASVETPRG| veteransProgramType   |       |       ABLS        |                 ABUELOS                  | 
 |                       |    |       |       UJUL        |                 UNCLE_JULIO                  | 
 |                       |    |       |       BOJA        |                 BO_JANGLES                  | 
 |                       |    |       |       N        |                 NO_REQUEST_OF_NEW_VRU                  | 
@@ -3479,7 +3477,7 @@ tags: [serviceAttr]
 |                       |    |       |       FIBD        |                 FIREBIRDS                  | 
 |                       |    |       |       N        |                 NO                  | 
 |                       |    |       |       B        |                 BREAD                  | 
-|                       | veteransProgramstatus   |   Veterans Program Account Status    |       01        |                 MAIN_STREET_INSIGHTS                  | 
+|                       | veteransProgramstatus   |       |       01        |                 MAIN_STREET_INSIGHTS                  | 
 |                       |    |       |       Y        |                 YES                  | 
 |                       |    |       |       B        |                 BIGCOMMERCE                  | 
 |                       |    |       |       S        |                 SNAPPAY_CARDX                  | 
@@ -3512,7 +3510,7 @@ tags: [serviceAttr]
 |                       |    |       |       S        |                 SHOPIFY                  | 
 |                       |    |       |       02        |                 MSI_EXPRESS                  | 
 |                       |    |       |       D        |                 DELETE                  | 
-| VASNTWKTKN| visa   |   Visa Network Tokens    |       C        |                 CENPOS                  | 
+| VASNTWKTKN| visa   |       |       C        |                 CENPOS                  | 
 |                       |    |       |       V        |                 MIVA                  | 
 |                       |    |       |       N        |                 NOT_CHECKED                  | 
 |                       |    |       |       S        |                 SNAPPAY_CARDX                  | 
@@ -3545,7 +3543,7 @@ tags: [serviceAttr]
 |                       |    |       |       SF        |                 SALESFORCE_COMMERCE                  | 
 |                       |    |       |       N        |                 ORACLE_NET_SUITE                  | 
 |                       |    |       |       01        |                 CLOVER_ONLINE_STORE                  | 
-| VASVISAACTUPD| visaAcctUpdStatus   |   Program Status for VISA Account Update    |       N        |                 APPLY_FALL_BACK                  | 
+| VASVISAACTUPD| visaAcctUpdStatus   |       |       N        |                 APPLY_FALL_BACK                  | 
 |                       |    |       |       N        |                 NEW_APPLICATION                  | 
 |                       |    |       |       A        |                 APPROVED                  | 
 |                       |    |       |       8        |                 ACTIVE                  | 
@@ -3573,7 +3571,7 @@ tags: [serviceAttr]
 |                       |    |       |       Y        |                 DO_NOT_APPLY_FALLBACK                  | 
 |                       |    |       |       6        |                 NO_RESPONSE                  | 
 |                       |    |       |       C        |                 CANCEL                  | 
-| VASVISAACTFNDTRX| visaActFndOfferingType   |   Offering Type for Visa Account Funding    |       F65        |                 GEN_B2B_TRAN_TO_CARD                  | 
+| VASVISAACTFNDTRX| visaActFndOfferingType   |       |       F65        |                 GEN_B2B_TRAN_TO_CARD                  | 
 |                       |    |       |       F54        |                 PYMNT_OF_OWN_CC_BILL                  | 
 |                       |    |       |       C65        |                 BUS_TO_BUS_TRANSFER                  | 
 |                       |    |       |       C54        |                 CREDIT_CARD_BILL_PMT                  | 
@@ -3635,7 +3633,7 @@ tags: [serviceAttr]
 |                       |    |       |       FT        |                 FUNDS_TRANSFER                  | 
 |                       |    |       |       01        |                 AUTHORIZATION_DATA                  | 
 |                       |    |       |       RD        |                 RAPID_DEPOSIT                  | 
-|                       | visaActFndStatus   |   Program Status for Visa Account Funding    |       1        |                 SUBSCRIBED                  | 
+|                       | visaActFndStatus   |       |       1        |                 SUBSCRIBED                  | 
 |                       |    |       |       Y        |                 MERCH_EQ_EMV_CAPABLE                  | 
 |                       |    |       |       R        |                 DENIED                  | 
 |                       |    |       |       7        |                 FREE_TRIAL                  | 
@@ -3663,7 +3661,7 @@ tags: [serviceAttr]
 |                       |    |       |       9        |                 CANCELLED_BY_MERCHANT                  | 
 |                       |    |       |       A        |                 ACTIVE_SURCHARGING                  | 
 |                       |    |       |       A        |                 ACTIVE                  | 
-| VASVISACHKOUT| visaChkOutStatus   |   Program Sttatus for Visa Check Out    |       5        |                 PENDING_UPGRADE                  | 
+| VASVISACHKOUT| visaChkOutStatus   |       |       5        |                 PENDING_UPGRADE                  | 
 |                       |    |       |       A        |                 ACTIVE_SURCHARGING                  | 
 |                       |    |       |       8        |                 ACTIVE                  | 
 |                       |    |       |       N        |                 ALLOW_DEBIT_FLAGS                  | 
@@ -3691,7 +3689,7 @@ tags: [serviceAttr]
 |                       |    |       |       9        |                 CANCELLED_BY_MERCHANT                  | 
 |                       |    |       |       C        |                 CANCEL_SURCHARGING                  | 
 |                       |    |       |       N        |                 APPLY_FALL_BACK                  | 
-| VASVISAOCT| visaOctOfferingType   |   Offering Type for Visa Oct    |       01        |                 ELIGIBLE                  | 
+| VASVISAOCT| visaOctOfferingType   |       |       01        |                 ELIGIBLE                  | 
 |                       |    |       |       TU        |                 PREPAID_LOADS                  | 
 |                       |    |       |       LO        |                 LOYALTY_N_OFFERS                  | 
 |                       |    |       |       01        |                 FRAUD_DETECT_SMB                  | 
@@ -3753,7 +3751,7 @@ tags: [serviceAttr]
 |                       |    |       |       BI        |                 BANK_INITIATED_P2P                  | 
 |                       |    |       |       FD        |                 FUNDS_DISBURSEMENTS                  | 
 |                       |    |       |       RD        |                 RAPID_DEPOSIT                  | 
-|                       | visaOctStatus   |   Program Status for Visa Oct    |       Y        |                 DISCOVER_REVIEW                  | 
+|                       | visaOctStatus   |       |       Y        |                 DISCOVER_REVIEW                  | 
 |                       |    |       |       1        |                 SUBSCRIBED                  | 
 |                       |    |       |       N        |                 NEW_APPLICATION                  | 
 |                       |    |       |       C        |                 CANCEL                  | 
@@ -3781,7 +3779,7 @@ tags: [serviceAttr]
 |                       |    |       |       Y        |                 DO_NOT_APPLY_FALLBACK                  | 
 |                       |    |       |       N        |                 ALLOW_DEBIT_FLAGS                  | 
 |                       |    |       |       5        |                 PENDING_UPGRADE                  | 
-| VASVRUSRV| vruServiceofferingType   |   VRU Services Offering Type    |       C04        |                 GAMING_PAYMENTS                  | 
+| VASVRUSRV| vruServiceofferingType   |       |       C04        |                 GAMING_PAYMENTS                  | 
 |                       |    |       |       BI        |                 BANK_INITIATED_P2P                  | 
 |                       |    |       |       MI        |                 MNY_TRFR_MERCH_INIT                  | 
 |                       |    |       |       01        |                 AUTHORIZATION_DATA                  | 
@@ -3843,7 +3841,7 @@ tags: [serviceAttr]
 |                       |    |       |       WT        |                 WALLET_TRANSFER                  | 
 |                       |    |       |       01        |                 EMV_CAMPAIGN                  | 
 |                       |    |       |       00        |                 NOT_APPLICABLE                  | 
-| VASPAYEEZY| webStore   |   Web Store    |       P        |                 PRINT_ONLY                  | 
+| VASPAYEEZY| webStore   |       |       P        |                 PRINT_ONLY                  | 
 |                       |    |       |       Y        |                 CHECKED                  | 
 |                       |    |       |       V        |                 MIVA                  | 
 |                       |    |       |       S        |                 SHOPIFY                  | 
