@@ -75,7 +75,6 @@ tags: [lease]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-
 | VASLEASE   | leaseActivationDate   |   The activation date of the contract. Entering this date activates the contract. InfoLease uses this date along with the Contract Term and the Payments in Arrears Code to determine the termination date of the contract.   |      |   
 |       | leaseAdditionalMid   |   This will be the Mainframe MID for ISOs that have a 15 digit MID that contains a zero added to the infolease record for cash advance   |      |   
 |       | leaseAmortizableResidualAmount   |   The calculation for amortizable residual is as follows.~ ~ Gross Residual~ - Residual Writedown ~ - Discount Residual~ - Present Value Amount~ = Amount of Residual Amortized~ ~ This field usually projects a conservative amount for residual. The Managers Residual field generally projects a more optimistic figure.   |      |   
@@ -123,6 +122,7 @@ tags: [lease]
 |                       |                  |                       |   NOT_DELINQUENT   |   
 |                       |                  |                       |   PAST_DUE_121_150_DAYS   |   
 |                       |                  |                       |   PAST_DUE_181_DAYS_AND_MORE   |   
+
 |       | leaseDispositionDate   |   The last date any disposition or inventory occurred on the contract. InfoLease updates this field at the time of a disposition.   |      |   
 |       | leaseEarlyBuyoutAmount   |   You can enter buyout amounts for the contract in this field. You must first fill in the Date field. The information in this field does not default to the Buyout Quotes module.   |      |   
 |       | leaseEarlyBuyoutDate   |   You can enter the buyout date for the contract in this field. Entering information here does not default to the Buyout Quotes module.   |      |   
