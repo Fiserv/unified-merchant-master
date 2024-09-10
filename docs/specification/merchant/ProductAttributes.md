@@ -8,7 +8,7 @@ These attributes will be organized under logical **Domains** and stored as key-v
       * Frequency Indicator - Indicates whether is a monthly or daily fee 
       * Retail Date - When fee will be billed to merchant 
 
-* **API section**: productAttributes
+* **API section**: `products.[entitlements||valueAddedServices||fees||equipments].attributes`
 * **Table Name**: UMM.MERCHANT_PRODUCT_ATTRIBUTES 
 
 ## List of Fields
@@ -93,30 +93,13 @@ titles: UMM
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, GMA 
+titles: UMM 
 -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
 
-<!-- type: tab -->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
-
-<!-- type: tab -->
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
 
 <!-- type: tab-end -->
 ---
@@ -124,7 +107,7 @@ titles: UMM, North, GMA
 ### ATTRIBUTE_ID 
 
 
-* Description: UMM defined attribute ID. 
+* Description: Attribute id 
 * API field: Not applicable 
 
 <!-- type: tab 
@@ -142,7 +125,7 @@ titles: UMM
 ### VALUE
 
 * Description: Value of the Attribute
-* API field: values[0]  _< $ sample - to be updated/checked>_
+* API field: 
 * Field Specification:
 
 <!-- type: tab 
@@ -153,7 +136,6 @@ titles: UMM
 |----------|:--------------:|:----------:|:-------:|:------:|:------:|
 | Varchar  |      1       |    200     |   Available   |  Optional   |  Allowed   |
 
-*  _< $ sample - to be updated/checked>_
   
 <!-- type: tab-end -->
 

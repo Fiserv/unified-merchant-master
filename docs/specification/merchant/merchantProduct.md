@@ -50,7 +50,7 @@ titles: UMM, North, GMA
 ### PRDCT_CODE
 
 * Description: The product code associated with the product and defined by UMM API.
-* API field: productCode
+* API field: `productCode`
 * Field Specification:
 
 <!-- type: tab 
@@ -59,7 +59,9 @@ titles: UMM
 
 | Type   | Minimum Length | Max Length | Inquiry | Create | Update | Delete |
 |--------|:--------------:|:----------:|:-------:|:------:|:------:|:------:|
-| Enum   |   NA   |   NA  |  Available |  Required   |     NA      |   NA   |
+| Enum   |   NA   |   NA  |  Available |  Required   |     Required      |   Required   |
+
+** PRDCT_CODE is required to update or delete corresponding product 
 
 * See supported Entitlements [here](?path=docs/specification/products_entitlements.md)
 * See supported Value Added Services [here](?path=docs/specification/products_vas.md)
@@ -76,7 +78,7 @@ titles: UMM
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, GMA 
+titles: UMM 
 -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
@@ -89,64 +91,23 @@ titles: UMM, North, GMA
 | N | Flag to indicate that product is inactive |
 | Y | Flag to indicate that product is active |
 
-<!-- type: tab -->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Enum   | NA        |    NA        |    Available     | Required     | Allowed |    NA        |
-
-<!-- type: tab -->
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| Boolean  |    4     |    5    |    Available     |   Required     |  Allowed |     NA        |
-
-**Valid Values**:
-|              Value   |                    Description                 |
-|:----------------------|:------------------------------------------------|
-| N | Flag to indicate that product is inactive |
-| Y | Flag to indicate that product is active |
-
 <!-- type: tab-end -->
 ---
 
 ### UNIQUE_IDENTIFIER
 
 * Description: This field serves as a unique identifier for a particular product
-* API field: Not Available
+* API field: `uniqueIdentifier`
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, GMA 
+titles: UMM 
 -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
+| String  | 1        |    50        |    Available     | NA     |      Allowed       |    NA         |
 
-<!-- type: tab -->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
-
-<!-- type: tab -->
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    3        |    Available     | NA     |      NA       |    NA         |
 
 <!-- type: tab-end -->
 ---
@@ -158,30 +119,13 @@ titles: UMM, North, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, GMA 
+titles: UMM 
 -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    16        |    Available     | Optional  |  Allowed   |    NA        |
 
-<!-- type: tab -->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    16        |    Available     | Optional  |  Allowed   |    NA        |
-
-<!-- type: tab -->
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    16        |    Available     | Optional  |  Allowed   |    NA        |
 
 <!-- type: tab-end -->
 ---
@@ -193,30 +137,13 @@ titles: UMM, North, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, GMA 
+titles: UMM
 -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | BigDecimal  | NA       |    NA        |    Available   | Optional  |  Allowed   |    NA      |
 
-<!-- type: tab -->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 4        |    11    |    Available     | Optional  |  Allowed   |        NA        |
-
-<!-- type: tab -->
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String |        4       |    11    |    Available    |      NA      |       NA     |  NA     |
 
 <!-- type: tab-end -->
 ---
@@ -228,29 +155,12 @@ titles: UMM, North, GMA
 * Field Specification:
 
 <!-- type: tab 
-titles: UMM, North, GMA 
+titles: UMM
 -->
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | BigDecimal  | NA       |    NA        |    Available   | Optional  |  Allowed   |    NA      |
 
-<!-- type: tab -->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 4        |    11    |    Available     | Optional  |  Allowed   |    NA        |
-
-<!-- type: tab -->
-
-<!--##### South Specification -->
-
-<!--| Type   | Inquiry  |  Create  |    Update    |    Delete    |-->
-<!--|--------|:--------:|:--------:|:------------:|:------------:|-->
-<!--| String |     -    |          |              |       NA     |-->
-
-| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
-|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 4        |    11    |    Available     | NA  |  NA   |    NA        |
 
 <!-- type: tab-end -->
