@@ -134,6 +134,7 @@ titles: UMM
 
 <!-- type: tab-end -->
 
+---
 
 ### EFFECTIVE_START_DATE
 
@@ -208,9 +209,7 @@ titles: UMM
 ---
 
 ### Product Attributes
+
 * See **Entitlements** attribute [here](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
 * See **Fees** attrubute [here](?path=docs/specification/merchant/productAttributes_fees.md)
 * See **Value Added Services (VAS)** attribute [here](?path=docs/specification/merchant/productAttributes_VAS.md)
-
-## List of Domains
-
