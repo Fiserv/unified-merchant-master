@@ -5,7 +5,6 @@
   * Example of a **Domain**: chargebackConfig is a **domain** that groups all fields called as **Attributes** those configures chargeback related processing for a merchant. Example of some attributes are:
     * Chargeback Address code indicating where chargeback related information sent
     * Chargeback Pre-note Days
-  * See [list of Domains](#list-of-domains)
 * **API section**: productAttributes
 * **Table Name**: UMM.MERCHANT_PRODUCT
 * **How to Retrieve attributes from Snowflake Data tables?**: **<$ sample - to be updated>**
@@ -118,7 +117,6 @@ titles: UMM
 * _< $ sample - to be updated/checked>_
 * Description: UMM defined attribute ID. See the query above for further details.
 * API field: Not applicable - domain and attribute name along with respective descriptions are returned. Sample payload shows the domain  and the list of attributes under that domain.
-  * Please see [List of Domains](#list-of-domains) for available domains and attributes.
 
 <!-- type: tab 
 titles: UMM
