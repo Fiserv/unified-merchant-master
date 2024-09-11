@@ -55,7 +55,6 @@ tags: [cashAdvance]Cash Advance Activation Date
 |       | remainingAmount   |   Cash Advance Remaining Amount   |      |   
 |       | terminationDate   |   Cash Advance Termination Date   |      |   
 
-
 <!-- type: tab -->
 
 
@@ -122,7 +121,6 @@ tags: [lease]
 |                       |                  |                       |   NOT_DELINQUENT   |   
 |                       |                  |                       |   PAST_DUE_121_150_DAYS   |   
 |                       |                  |                       |   PAST_DUE_181_DAYS_AND_MORE   |   
-
 |       | leaseDispositionDate   |   The last date any disposition or inventory occurred on the contract. InfoLease updates this field at the time of a disposition.   |      |   
 |       | leaseEarlyBuyoutAmount   |   You can enter buyout amounts for the contract in this field. You must first fill in the Date field. The information in this field does not default to the Buyout Quotes module.   |      |   
 |       | leaseEarlyBuyoutDate   |   You can enter the buyout date for the contract in this field. Entering information here does not default to the Buyout Quotes module.   |      |   
