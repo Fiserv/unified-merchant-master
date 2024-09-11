@@ -47,6 +47,7 @@ tags: [cashAdvance]Cash Advance Activation Date
 |                       |                  |                       |   ATTORNEY_NEGOTIATION   |   
 |                       |                  |                       |   SIF_MERCH_RETURN_EQUIP   |   
 |                       |                  |                       |   UPGRADE_BUYOUT   |   
+
 |       | netIncome   |   Cash Advance Net Income   |      |   
 |       | payBackAmount   |   Cash Advance Pay Back Amount   |      |   
 |       | priorCashAdvanceId   |   Prior Cash Advance ID   |      |   
@@ -55,7 +56,7 @@ tags: [cashAdvance]Cash Advance Activation Date
 |       | remainingAmount   |   Cash Advance Remaining Amount   |      |   
 |       | terminationDate   |   Cash Advance Termination Date   |      |   
 
-<!-- type: tab -->
+<!-- type: tab-end -->
 
 
 ### lease
@@ -203,6 +204,7 @@ tags: [lease]
 |                       |                  |                       |   MCA_TELESALES   |   
 |                       |                  |                       |   RSA_SEVEN_DAY   |   
 |                       |                  |                       |   LARGE_LEASE   |   
+
 |       | leaseProvisionForLossAmount   |   The amount set aside to record in the first month for bad debt expense. Enter an amount or default to the system-calculated amount. Gross Contract x Provision for Loss Percentage (lessor file) = Provision for Loss Enter the provision for loss percentage in the Prov for Loss field accessed via the Lessor Parameter Maintenance Screen and the Lessor Default Fields Screen.   |      |   
 |       | leaseRelationCode   |   Lease Relationship code   |      |   
 |       | leaseRenewalStatusCode   |   Lease Renewal status code   |      |   
@@ -228,7 +230,7 @@ tags: [lease]
 |       | leaseWriteOffAmount   |   The income used to offset the initial expense associated with a new lease. The amount is calculated by multiplying the setup income percentage on the Lessor Parameter File by the gross finance income.   |      |   
 
 
-<!-- type: tab -->
+<!-- type: tab-end -->
 
 
 ### serviceAttr
@@ -391,6 +393,7 @@ tags: [serviceAttr]
 |                       |                  |                       |   FDMS_POS   |   
 |                       |                  |                       |   ACTIVE   |   
 |                       |                  |                       |   PENDING   |   
+
 | VASMSTTIST   | analyticsProductType   |   Product Offering That A Merchant Is Enrolled To Use.   |   MSI_APP   |   
 |                       |                  |                       |   YES   |   
 |                       |                  |                       |   ORACLE_NET_SUITE   |   
