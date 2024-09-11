@@ -69,19 +69,20 @@
                   link: docs/specification/merchant/MerchantBusinessInformation.md
                 - title: Product
                   link: docs/specification/merchant/merchantProduct.md
-                  sections:
-                    - title: Entitlements
-                      link: docs/specification/products_entitlements.md
-                    - title: Value Addes Services
-                      link: docs/specification/products_vas.md
-                    - title: Fees
-                      link: docs/specification/products_feess.md
-                    - title: Equipment
-                      link: docs/specification/products_equipments.md
                 - title: Product Attribute
                   link: docs/specification/merchant/ProductAttributes.md  
                 - title: Merchant Attributes
                   link: docs/specification/merchant/merchantAttributes.md
+            - title: Product
+              sections:
+                - title: Entitlements
+                  link: docs/specification/products_entitlements.md
+                - title: Value Addes Services
+                  link: docs/specification/products_vas.md
+                - title: Fees
+                  link: docs/specification/products_feess.md
+                - title: Equipment
+                  link: docs/specification/products_equipments.md
 - sections:
   - title: Release notes
     sections:
