@@ -20,6 +20,24 @@ UMM provides access to data through direct Snowflake access or a unified API.
 
 Please find list of supported Backend Platforms [here](?path=docs/specification/supportedPlatforms.md)
 
+## Unified API Layer
+
+UMM offers a platform-agnostic Unified GraphQL CRUD API for creating and maintaining merchant information. This API is hosted through the Developer Studio, providing a seamless integration experience.
+
+The GraphQL API brings several advantages, including a single endpoint for all data requests. It allows consumers to precisely specify the data they need, eliminating the issue of over-fetching unnecessary data. This efficient data retrieval optimizes performance and reduces bandwidth usage.
+
+One of the key benefits of the GraphQL API is its flexibility in adding new entities and enhancing the data model without impacting existing consumers. This means that as the UMM evolves and new features are introduced, the API remains backward-compatible, making it easier to adapt and extend the system without disrupting existing integrations.
+
+The unified API supports the following operations for supported back-end platforms:
+
+- Merchant Onboarding
+- Merchant Inquiry
+- Merchant Maintenance
+
+Additionally, UMM provides the following API to access all available products for supported back-end platforms:
+
+- Product Inquiry
+
 ## Integration Options
 
 UMM supports two ways to integrate:
@@ -42,24 +60,6 @@ link: ?path=docs/getting-access/database-access.md
 
 ---
 
-## Unified API Layer
+## UMM Layout
 
-UMM offers a platform-agnostic Unified GraphQL CRUD API for creating and maintaining merchant information. This API is hosted through the Developer Studio, providing a seamless integration experience.
-
-The GraphQL API brings several advantages, including a single endpoint for all data requests. It allows consumers to precisely specify the data they need, eliminating the issue of over-fetching unnecessary data. This efficient data retrieval optimizes performance and reduces bandwidth usage.
-
-One of the key benefits of the GraphQL API is its flexibility in adding new entities and enhancing the data model without impacting existing consumers. This means that as the UMM evolves and new features are introduced, the API remains backward-compatible, making it easier to adapt and extend the system without disrupting existing integrations.
-
-The unified API supports the following operations for supported back-end platforms:
-
-- Merchant Onboarding
-- Merchant Inquiry
-- Merchant Maintenance
-
-Additionally, UMM provides the following API to access all available products for supported back-end platforms:
-
-- Product Inquiry
-
-## Getting Started using UMM Layout
-
-Start here with UMM documentation [here](?path=docs/specification/readMe.md)
+Explore UMM documentation [here](?path=docs/specification/readMe.md)

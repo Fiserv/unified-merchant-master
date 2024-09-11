@@ -1,26 +1,65 @@
 # Product Attributes
 
-* **Description**: <**$ Sample - to be updated**....>
- List of fields grouped under logical **Domains** and stored as key-value(s) pair as attributes.
-  * Example of a **Domain**: chargebackConfig is a **domain** that groups all fields called as **Attributes** those configures chargeback related processing for a merchant. Example of some attributes are:
-    * Chargeback Address code indicating where chargeback related information sent
-    * Chargeback Pre-note Days
-* **API section**: productAttributes
-* **Table Name**: UMM.MERCHANT_PRODUCT
-* **How to Retrieve attributes from Snowflake Data tables?**: **<$ sample - to be updated>**
-  * Master Tables: Attributes are defined using two Master tables in UMM
-    * UMM.DOMAIN_MASTER : Contains the definition of the Domain
-    * UMM.ATTRIBUTE_MASTER: Contains the definition of the attributes and tied to Domain
-  * UMM.MERCHANT_ATTRIBUTES stores the ID of the UMM.ATTRIBUTE_MASTER for each attributes
-  * Sample Query to pull the attributes:
+* **Description**: Merchant may have multiple products, with  each product containing unique details represented by specific attributes. For example, a merchant could have a Mastercard product with associated values for various fields like Merchant Category Code (with a value of 5521), Service Type Code (with a value of F), and Floor Limit Amount (with a value of 15.00). By assigning attribute ID 1 to Merchant Category Code, ID 2 to Service Type Code, and ID 3 to Floor Limit Amount, the merchant would have attribute ID 1 with a value of 5521, attribute ID 2 with a value of F, and attribute ID 3 with a value of 15.00 for Master Card product.
 
-  ```text
+These attributes will be organized under logical **Domains** and stored as key-value(s) pair for a merchant  and product combination. 
 
- 
-             < Code Sample, if any - to be updated >
+* Example of a **Domain**: feeAttr is a **domain** that groups all fields called as **Attributes** those defines how a fee will be processed. Example of some attributes associated with fee products are :
+      *Frequency Indicator - Indicates whether is a monthly or daily fee 
+      *Retail Date - When fee will be billed to merchant 
 
+* **API section**: `products.[entitlements||valueAddedServices||fees||equipments].attributes`
+* **Table Name**: UMM.MERCHANT_PRODUCT_ATTRIBUTES 
 
-  ```
+* Sample Product attribute payload:
+
+```json
+  "attributes": {
+    "domain#1": {
+      "domainDescription": "domain #1 description",
+      "attribute#1": {
+        "attributeDescription": "attribute description",
+        "values": ["some value"]
+      },
+      "attribute#2": {
+        "attributeDescription": "attribute description",
+        "values": ["some value"]
+      }
+    },
+    "domain#2": {
+      "domainDescription": "domain #2 description",
+      "attribute#1": {
+        "attributeDescription": "attribute description",
+        "values": ["some value"]
+      }
+    }
+  }
+```
+
+* **Example**:Product attribute payload for fee product. 
+
+```json
+  "attributes": {
+    "feeAttr": {
+      "processingInd": {
+        "values": ["1"]
+      },
+      "isAnnualFee": {
+        "values": ["YES"]
+      },
+      "retailDate": {
+        "values": ["2024-05-29"]
+      },
+      "wholesaleDate": {
+        "values": ["2024-05-29"]
+      },
+      "frequencyInd": {
+        "values": ["MONTHLY"]
+      }
+    }
+  }
+```
+
 
 ## List of Fields
 
@@ -59,64 +98,59 @@ titles: UMM, North, GMA
 ### PLATFORM_CODE
 
 * Description: Code to identify the specific backend platform. It adds the required information for the merchant.
-* API field: platformCode
-* Field Specification: See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
-
-
-<!-- type: tab 
-titles: UMM
--->
-
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Varchar |      NA       |     40      |   NA   |  NA   |  NA   |
+* API field: `platformCode`
+* Field Specification:
+* See supported platforms and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
 
 <!-- type: tab-end -->
-
 ---
+
 
 ### PRDCT_CODE
 
-* Description: Unique identifier assigned to a specific product for tracking and inventory purposes.
+* Description: The product code associated with the product and defined by UMM API.
 * API field: productCode
-* Field Specification: _< $ sample - to be updated/checked>_  See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
-
+* Field Specification:
 
 <!-- type: tab 
 titles: UMM
 -->
 
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Varchar |      NA       |    100      |   NA   |  NA   |  NA   |
+| Type   | Minimum Length | Max Length | Inquiry | Create | Update | Delete |
+|--------|:--------------:|:----------:|:-------:|:------:|:------:|:------:|
+| Enum   |   NA   |   NA  |  Available |  Required   |     NA      |   NA   |
+
+* See supported Entitlements [here](?path=docs/specification/products_entitlements.md)
+* See supported Value Added Services [here](?path=docs/specification/products_vas.md)
+* See supported Fees [here](?path=docs/specification/products_fees.md)
+* See supported Equipments [here](?path=docs/specification/products_equipments.md)
 
 <!-- type: tab-end -->
-
 ---
 
 ### UNIQUE_IDENTIFIER
 
-* Description: Distinct code to uniquely identify an entity within a system.
-* API field: < _Not known / NA _ >
-* Field Specification: _< $ sample - to be updated/checked>_  See supported platform and values of the enum [here](?path=docs/specification/supportedPlatforms.md)
+* Description: This field serves as a unique identifier for a particular product
+* API field: `uniqueIdentifier`
+* Field Specification:
 
 <!-- type: tab 
-titles: UMM
+titles: UMM 
 -->
 
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Varchar |      NA       |     50      |   NA   |  NA   |  NA   |
+| Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
+|--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
+| String  | 1        |    50       |    Available     | NA     |      NA       |    NA         |
+
 
 <!-- type: tab-end -->
-
 ---
 
 ### ATTRIBUTE_ID 
 
-* _< $ sample - to be updated/checked>_
-* Description: UMM defined attribute ID. See the query above for further details.
-* API field: Not applicable - domain and attribute name along with respective descriptions are returned. Sample payload shows the domain  and the list of attributes under that domain.
+
+* Description: Attribute id 
+* API field: NA
 
 <!-- type: tab 
 titles: UMM
@@ -130,62 +164,10 @@ titles: UMM
 
 ---
 
-### EFFECTIVE_START_DATE
-
-* Description: Date from which a particular product attribute becomes valid and applicable, used to manage changes and track historical data.
-* API field: effectiveStartDate
-* Field Specification:
-
-<!-- type: tab 
-titles: UMM
--->
-
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Date    |      N/A       |     NA      |   NA   |  NA   |  NA   |
-
-<!-- type: tab-end -->
-
----
-
-
-### EFFECTIVE_END_DATE
-
-* Description: Date on which a particular product attribute or record is no longer valid or applicable.
-* API field: effectiveEndDate
-* Field Specification: 
-
-<!-- type: tab 
-titles: UMM
--->
-
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Date    |      N/A       |     NA      |   NA   |  NA   |  NA   |
-
-<!-- type: tab-end -->
-
-
----
-
-* Field Specification:
-
-<!-- type: tab 
-titles: UMM
--->
-
-| Type    | Minimum Length | Max Length | Inquiry | Create | Update |
-|---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Numeric |      N/A       |     6      |   N/A   |  N/A   |  N/A   |
-
-<!-- type: tab-end -->
-
----
-
 ### VALUE
 
 * Description: Value of the Attribute
-* API field: values[0]  _< $ sample - to be updated/checked>_
+* API field: NA
 * Field Specification:
 
 <!-- type: tab 
@@ -196,11 +178,11 @@ titles: UMM
 |----------|:--------------:|:----------:|:-------:|:------:|:------:|
 | Varchar  |      1       |    200     |   Available   |  Optional   |  Allowed   |
 
-*  _< $ sample - to be updated/checked>_
   
 <!-- type: tab-end -->
 
 ---
+
 
 ### Product Attributes
 
