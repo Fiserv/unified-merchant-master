@@ -33,20 +33,7 @@ tags: [cashAdvance]Cash Advance Activation Date
 |       | grossIncome   |   Cash Advance Gross Income   |      |   
 |       | invDueDate   |   Cash Advance Invoice Due Date   |      |   
 |       | lastPaymentDate   |   Cash Advance Last Payment Date   |      |   
-|       | legalStatus   |   Lease Legal Status   |   PIF_MERCH_KEEP_EQUIP<BR>
-RECOURSE_PIF<BR>
-WRITEOFF_REVERSAL<BR>
-END_OF_LEASE_W_RTN_EQUIP<BR>
-WRITEOFF_DEAD<BR>
-PIF_MERCH_RETURN_EQUIP<BR>
-WRITEOFF<BR>
-CANCELLED<BR>
-SIF_MERCH_KEEP_EQUIP<BR>
-BUYBACK<BR>
-EQUIP_RETURNED_TO_TASQ<BR>
-ATTORNEY_NEGOTIATION<BR>
-SIF_MERCH_RETURN_EQUIP<BR>
-UPGRADE_BUYOUT   |   
+|       | legalStatus   |   Lease Legal Status   |   PIF_MERCH_KEEP_EQUIP<BR>RECOURSE_PIF<BR>WRITEOFF_REVERSAL<BR>END_OF_LEASE_W_RTN_EQUIP<BR>WRITEOFF_DEAD<BR>PIF_MERCH_RETURN_EQUIP<BR>WRITEOFF<BR>CANCELLED<BR>SIF_MERCH_KEEP_EQUIP<BR>BUYBACK<BR>EQUIP_RETURNED_TO_TASQ<BR>ATTORNEY_NEGOTIATION<BR>SIF_MERCH_RETURN_EQUIP<BR>UPGRADE_BUYOUT   |   
 |       | netIncome   |   Cash Advance Net Income   |      |   
 |       | payBackAmount   |   Cash Advance Pay Back Amount   |      |   
 |       | priorCashAdvanceId   |   Prior Cash Advance ID   |      |   
