@@ -6,7 +6,7 @@
 
 ---
 
-tags: [cashAdvance]
+tags: [cashAdvance]Cash Advance Activation Date
 
 * **List of Attributes**: Applicable for UMM, North and GMA
   
@@ -15,47 +15,44 @@ tags: [cashAdvance]
   |    Available    |   Optional    |  Allowed   |  NA      |
 
 ---
- 
 
-|   Product Code   | Attribute         | Description               | Values        | Value Description                  |
-|:---------------------|:---------------------|:--------------------------|:--------------|:----------------------------------|
-| VASCASHADV| activeDate   |   Cash Advance Activation Date   |       |      |
-|           | advanceAmount   |   Cash Advance Amount   |       |      |
-|           | bookingDate   |   Cash advance Booking Date   |       |      |
-|           | branchCode   |   Cash Advance Branch Code   |       |      |
-|           | businessSegment   |   Cash Advance Business Segment   |       |      |
-|           | cashAdvanceBankSequenceNumber   |   Cash Advance Bank Sequence Number added to Merchant Bank Account   |       |      |
-|           | contractTerm   |   Cash Advance Contract Term   |       |      |
-|           | dailyWithholdPercentage   |   Cash Advance Daily Withhold Percentage   |       |      |
-|           | estPaybackPeriod   |   Cash Advance EST Payback Period   |       |      |
-|           | finalPaymentDate   |   Cash Advance Final Payment Date   |       |      |
-|           | firstPaymentDate   |   Cash Advance First Payment Date   |       |      |
-|           | fundingDate   |   Cash Advance Funding Date   |       |      |
-|           | grossIncome   |   Cash Advance Gross Income   |       |      |
-|           | invDueDate   |   Cash Advance Invoice Due Date   |       |      |
-|           | lastPaymentDate   |   Cash Advance Last Payment Date   |       |      |
-|           | legalStatus   |   Lease Legal Status   |    013   |   PIF_MERCH_KEEP_EQUIP   |
-|           |           |                    |    017   |   RECOURSE_PIF   |
-|           |           |                    |    011   |   WRITEOFF_REVERSAL   |
-|           |           |                    |    016   |   END_OF_LEASE_W_RTN_EQUIP   |
-|           |           |                    |    008   |   WRITEOFF_DEAD   |
-|           |           |                    |    015   |   PIF_MERCH_RETURN_EQUIP   |
-|           |           |                    |    005   |   WRITEOFF   |
-|           |           |                    |    007   |   CANCELLED   |
-|           |           |                    |    014   |   SIF_MERCH_KEEP_EQUIP   |
-|           |           |                    |    004   |   BUYBACK   |
-|           |           |                    |    020   |   EQUIP_RETURNED_TO_TASQ   |
-|           |           |                    |    001   |   ATTORNEY_NEGOTIATION   |
-|           |           |                    |    019   |   SIF_MERCH_RETURN_EQUIP   |
-|           |           |                    |    012   |   UPGRADE_BUYOUT   |
-|           | netIncome   |   Cash Advance Net Income   |       |      |
-|           | payBackAmount   |   Cash Advance Pay Back Amount   |       |      |
-|           | priorCashAdvanceId   |   Prior Cash Advance ID   |       |      |
-|           | receivedAmount   |   Cash Advance Received Amount   |       |      |
-|           | relationshipCode   |   Cash Advance Relationship Code   |       |      |
-|           | remainingAmount   |   Cash Advance Remaining Amount   |       |      |
-|           | terminationDate   |   Cash Advance Termination Date   |       |      |
-
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| VASCASHADV   | activeDate   |   Cash Advance Activation Date   |      |   
+|       | advanceAmount   |   Cash Advance Amount   |      |   
+|       | bookingDate   |   Cash advance Booking Date   |      |   
+|       | branchCode   |   Cash Advance Branch Code   |      |   
+|       | businessSegment   |   Cash Advance Business Segment   |      |   
+|       | cashAdvanceBankSequenceNumber   |   Cash Advance Bank Sequence Number added to Merchant Bank Account   |      |   
+|       | contractTerm   |   Cash Advance Contract Term   |      |   
+|       | dailyWithholdPercentage   |   Cash Advance Daily Withhold Percentage   |      |   
+|       | estPaybackPeriod   |   Cash Advance EST Payback Period   |      |   
+|       | finalPaymentDate   |   Cash Advance Final Payment Date   |      |   
+|       | firstPaymentDate   |   Cash Advance First Payment Date   |      |   
+|       | fundingDate   |   Cash Advance Funding Date   |      |   
+|       | grossIncome   |   Cash Advance Gross Income   |      |   
+|       | invDueDate   |   Cash Advance Invoice Due Date   |      |   
+|       | lastPaymentDate   |   Cash Advance Last Payment Date   |      |   
+|       | legalStatus   |   Lease Legal Status   |   PIF_MERCH_KEEP_EQUIP   |   
+|                       |                  |                       |   RECOURSE_PIF   |   
+|                       |                  |                       |   WRITEOFF_REVERSAL   |   
+|                       |                  |                       |   END_OF_LEASE_W_RTN_EQUIP   |   
+|                       |                  |                       |   WRITEOFF_DEAD   |   
+|                       |                  |                       |   PIF_MERCH_RETURN_EQUIP   |   
+|                       |                  |                       |   WRITEOFF   |   
+|                       |                  |                       |   CANCELLED   |   
+|                       |                  |                       |   SIF_MERCH_KEEP_EQUIP   |   
+|                       |                  |                       |   BUYBACK   |   
+|                       |                  |                       |   EQUIP_RETURNED_TO_TASQ   |   
+|                       |                  |                       |   ATTORNEY_NEGOTIATION   |   
+|                       |                  |                       |   SIF_MERCH_RETURN_EQUIP   |   
+|                       |                  |                       |   UPGRADE_BUYOUT   |   
+|       | payBackAmount   |   Cash Advance Pay Back Amount   |      |   
+|       | priorCashAdvanceId   |   Prior Cash Advance ID   |      |   
+|       | receivedAmount   |   Cash Advance Received Amount   |      |   
+|       | relationshipCode   |   Cash Advance Relationship Code   |      |   
+|       | remainingAmount   |   Cash Advance Remaining Amount   |      |   
+|       | terminationDate   |   Cash Advance Termination Date   |      |   
 
 <!-- type: tab-end -->
 
@@ -74,160 +71,3804 @@ tags: [lease]
 
 ---
 
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| VASLEASE   | leaseActivationDate   |   The activation date of the contract. Entering this date activates the contract. InfoLease uses this date along with the Contract Term and the Payments in Arrears Code to determine the termination date of the contract.   |      |   
+|       | leaseAdditionalMid   |   This will be the Mainframe MID for ISOs that have a 15 digit MID that contains a zero added to the infolease record for cash advance   |      |   
+|       | leaseAmortizableResidualAmount   |   The calculation for amortizable residual is as follows.~ ~ Gross Residual~ - Residual Writedown ~ - Discount Residual~ - Present Value Amount~ = Amount of Residual Amortized~ ~ This field usually projects a conservative amount for residual. The Managers Residual field generally projects a more optimistic figure.   |      |   
+|       | leaseApproverSignatoryName   |   The name of the person who signs the contract. This field defaults to the name entered in the Contact Name field.   |      |   
+|       | leaseBankSequenceNumber   |   Lease Bank Sequence Number added to Merchant Bank Account   |      |   
+|       | leaseBillingCycle   |   Billing Cycle of a lease   |   SEMI_ANNUAL   |   
+|                       |                  |                       |   QUARTERLY   |   
+|                       |                  |                       |   MONTHLY   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   ANNUAL   |   
+|       | leaseBranchCode   |   This 5-character code indicates the branch associated with the contract. You can use the branch as a sort sequence when requesting reports.   |      |   
+|       | leaseBusinessSegment   |   This 6-digit table code indicates the relationships business segment. If you modify the default, InfoLease verifies the code entered is valid for the relationship.   |      |   
+|       | leaseBusinessSegmentCode   |      |      |   
+|       | leaseBuyoutQuoteCode   |   This yes/no field indicates whether the lessor has access to the Buyout Quotes Screen for this contract. Refer to the Buyout Quotes Module documentation.   |   NO   |   
+|                       |                  |                       |   YES   |   
+|       | leaseCollateralCode   |   This code identifies additional collateral (other than the actual equipment) assigned to a contract.   |      |   
+|       | leaseCompanyName   |   UATB.LEASING.COMPANY   |      |   
+|       | leaseContractBalanceAmount   |   Contract balance remaining after all payments received are applied to the gross contract. This amount is system-calculated.   |      |   
+|       | leaseContractStatus   |   The status of the contract.    |   YES   |   
+|                       |                  |                       |   NO   |   
+|       | leaseContractStatusDate   |   The date the status was assigned to the contract.   |      |   
+|       | leaseContractStatusDesc   |   Contract Status Description   |      |   
+|       | leaseContractTerm   |   The term of the contract in months. If a commencement date was entered, this field is mandatory.The maximum term is 400 months.   |      |   
+|       | leaseContractTotalReceivedAmount   |   The total contract payment amount received from the beginning of the contract. This is a system-calculated amount.~ ~ Note: If a partial disposition has taken place, this represents the payments on the active portion of the contract only.   |      |   
+|       | leaseCustomerAccountReceivableName   |   The accounts receivable name. This name prints on the customers invoice.   |      |   
+|       | leaseCustomerArAddressAttentionName   |   Information entered in this field prints on the invoice, i.e., the name of the person to whom you are mailing the invoice.   |      |   
+|       | leaseCustomerArAddressCityName   |   The city for the accounts receivable address.   |      |   
+|       | leaseCustomerArAddressCountryCode   |   The country code for the accounts receivable address.   |      |   
+|       | leaseCustomerArAddressLine1   |   The first line of the accounts receivable address. This address prints on the customers invoice.   |      |   
+|       | leaseCustomerArAddressLine2   |   The second line of the accounts receivable address. This address prints on the customers invoice.   |      |   
+|       | leaseCustomerArAddressLine3   |   The third line of the accounts receivable address. This address prints on the customers invoice.   |      |   
+|       | leaseCustomerArAddressPostalCode   |   The zip code of the city for the accounts receivable address.   |      |   
+|       | leaseCustomerArAddressStateName   |   The state for accounts receivable address.   |      |   
+|       | leaseCustomerCreditScore   |   A user-defined score given by the leasing company extending credit to the lessee. A credit score is based on certain factors, such as age, marital status, length of employment, etc. Each of these factors is assigned a certain point value with the total being the credit score. Based on this score, the lessee is approved for the credit.   |      |   
+|       | leaseCustomerDoingBusinessName   |   The Customerdoing business name   |      |   
+|       | leaseCustomerFedSsnId   |   The appropriate identification number.  The ability to modify this field depends on your security settings.   |      |   
+|       | leaseCustomerName   |   The customer name. Use the customer name to create alphabetical listings and locate a name when using Soundex.   |      |   
+|       | leaseCustomerShortName   |   The Short Name is another name to use when referring to the customer. The Short Name cannot be the same as the Customer Name. This field defaults to the Short Name previously entered for the customer.   |      |   
+|       | leaseDelinquentStatusCode   |   The delinquent status of the contract. This is a system-calculated field.    |   PAST_DUE_151_180_DAYS   |   
+|                       |                  |                       |   PAST_DUE_91_120_DAYS   |   
+|                       |                  |                       |   PAST_DUE_61_90_DAYS   |   
+|                       |                  |                       |   PAST_DUE_31_60_DAYS   |   
+|                       |                  |                       |   PAST_DUE_01_30_DAYS   |   
+|                       |                  |                       |   NOT_DELINQUENT   |   
+|                       |                  |                       |   PAST_DUE_121_150_DAYS   |   
+|                       |                  |                       |   PAST_DUE_181_DAYS_AND_MORE   |   
+|       | leaseDispositionDate   |   The last date any disposition or inventory occurred on the contract. InfoLease updates this field at the time of a disposition.   |      |   
+|       | leaseEarlyBuyoutAmount   |   You can enter buyout amounts for the contract in this field. You must first fill in the Date field. The information in this field does not default to the Buyout Quotes module.   |      |   
+|       | leaseEarlyBuyoutDate   |   You can enter the buyout date for the contract in this field. Entering information here does not default to the Buyout Quotes module.   |      |   
+|       | leaseFacilityScore   |   This score represents the credit score of the deal, not the credit score of the customer.   |      |   
+|       | leaseFdmsDecisionDate   |   UATB.DATE.FDMS.DECISION   |      |   
+|       | leaseFdmsDecisionInd   |   UATB.FDMS.DECISION   |      |   
+|       | leaseFinalPaymentDate   |   This field identifies the date the last contract payment is due. This is a system-calculated field using the contract term, the number of advance payments, the number of payments in arrears, the commencement date, and the billing cycle.   |      |   
+|       | leaseFirstPaymentAmount   |   If the first payment is different from the regular scheduled payments, enter the amount here; otherwise, InfoLease defaults the regular contract payment. If no payment is due in the first month, enter zero.   |      |   
+|       | leaseFirstPaymentDate   |   The first payment date. This is a required field. InfoLease calculates the default date based on the commencement date, billing cycle, variable payment schedule, and the payments in arrears code.   |      |   
+|       | leaseFloatingRateIndicator   |   This yes/no field indicates whether this is a floating rate contract.   |   NO   |   
+|                       |                  |                       |   YES   |   
+|       | leaseFollowUpDays   |   The number of days after the payment due date that you need to contact the customer. InfoLease uses the number of follow-up days to generate follow-up lists for payment collections. This field is used with the Customer Service Module.   |      |   
+|       | leaseGeneralLedgerBookingDate   |   Lease General Booking Date   |      |   
+|       | leaseGrossAssetAmount   |   The total equipment cost for all assets (not including disposed assets) on the contract.   |      |   
+|       | leaseGrossFinanceAmount   |   The total amount of finance or interest income (difference between the gross contract amount and the equipment cost). If a commencement date was entered, this field is mandatory.   |      |   
+|       | leaseGrossPaymentAmount   |   The total amount of payments due on the contract. If a commencement date was entered, this field is mandatory.   |      |   
+|       | leaseIncomeStartDate   |   The date the income on the contract begins to amortize. This date affects how InfoLease calculates the IRR. This date defaults to the commencement date of the contract; however, in cases where interest free periods exist, you can modify this date.   |      |   
+|       | leaseInterimRentAmount   |   The amount of interest payments received prior to the commencement of the contract.   |      |   
+|       | leaseInvoiceCode   |   The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen.  Use this invoice code when selling a stream of contract payments.   |   NO_MORE_INVOICING   |   
+|                       |                  |                       |   MANUAL_INVOICING   |   
+|                       |                  |                       |   INVOICE_SUPRESSED   |   
+|                       |                  |                       |   SEPARATED_BY_NOTE_DATE   |   
+|                       |                  |                       |   INVOICE_BY_CONTRACT   |   
+|                       |                  |                       |   INVOICE_BY_CUSTOMER   |   
+|                       |                  |                       |   RENTALS_SEPARATED   |   
+|                       |                  |                       |   CONTRACT_SEPARATED_INDIVIDUAL_INVOICES   |   
+|       | leaseInvoiceDueDate   |   The day of the month the payment is due. If you do not enter the invoicing due day, the field defaults to the due day on the Customer Default Data Screen.    |      |   
+|       | leaseLastPaymentDate   |   The date you received the last payment.   |      |   
+|       | leaseLegalStatus   |   Lease Legal Status   |   PIF_MERCH_RETURN_EQUIP   |   
+|                       |                  |                       |   WRITEOFF   |   
+|                       |                  |                       |   CANCELLED   |   
+|                       |                  |                       |   SIF_MERCH_KEEP_EQUIP   |   
+|                       |                  |                       |   BUYBACK   |   
+|                       |                  |                       |   EQUIP_RETURNED_TO_TASQ   |   
+|                       |                  |                       |   PIF_MERCH_KEEP_EQUIP   |   
+|                       |                  |                       |   ATTORNEY_NEGOTIATION   |   
+|                       |                  |                       |   RECOURSE_PIF   |   
+|                       |                  |                       |   UPGRADE_BUYOUT   |   
+|                       |                  |                       |   WRITEOFF_REVERSAL   |   
+|                       |                  |                       |   SIF_MERCH_RETURN_EQUIP   |   
+|                       |                  |                       |   WRITEOFF_DEAD   |   
+|                       |                  |                       |   END_OF_LEASE_W_RTN_EQUIP   |   
+|       | leaseManagerResidualAmount   |   An alternate residual amount that you can select when calculating a buyout quote. Managers residual does not accrue income.This field usually projects an optimistic figure for residual. The Amortizable Residual field usually projects a more conservative figure.   |      |   
+|       | leaseMerchantId   |   Lease Merchant ID   |      |   
+|       | leaseMonthlyPaymentAmount   |   The amount of the contract payment. If this is a variable payment contract, do not enter a contract payment here.   |      |   
+|       | leaseNetFinanceAmount   |   Net finance is the difference between the gross finance income and the setup income. If Prov Loss Fr Fin = (Y)es, InfoLease also subtracts Provision for Loss from net finance. This amount is system-calculated and you cannot modify it.    |      |   
+|       | leaseNetInvestmentAmount   |   The net investment of the contract. The net investment is the loss the lessor would incur if the lessee stopped payment today.   |      |   
+|       | leaseNextAgingDate   |   The next date InfoLease will age the contract. You cannot modify this field.    |      |   
+|       | leaseNextChargeDate   |   The next date InfoLease will assess the appropriate late charges during the aging process. You cannot modify this field. InfoLease updates this field whenever you run aging.   |      |   
+|       | leaseNumberOfAsset   |   The number of active assets associated with the contract.   |      |   
+|       | leasePaymentInvoicedCount   |   The number of payments billed to the customer.   |      |   
+|       | leasePaymentOptionCode   |   This field depicts different options of Lease Payment.   |   TAPE   |   
+|                       |                  |                       |   NORMAL_PAY   |   
+|                       |                  |                       |   ASSUMED_PAY   |   
+|                       |                  |                       |   POST_DATED_CHEQUE   |   
+|                       |                  |                       |   COUPON   |   
+|                       |                  |                       |   UNDISCOUNTED_PAYMENT   |   
+|                       |                  |                       |   DISCOUNTED_PAYMENT   |   
+|       | leasePaymentPaidToDate   |   Contract payments are paid up to, but not including, this date. This field is based on the due dates of unpaid open items or the next due date (invoicing date plus lead invoicing days) if there are no unpaid open items.    |      |   
+|       | leasePaymentUpfrontAmount   |   The number of beginning payments paid in advance by the customer at contract commencement. Without the Customer Service Module, this field is informational only.   |      |   
+|       | leasePendingCode   |   This field identifies outstanding information, e.g., paperwork, correspondence, you expect to receive for the contract.   |      |   
+|       | leasePlatformCode   |   PLATFORM   |      |   
+|       | leasePreviousContractNumber   |   Lease Previous Contract Number   |      |   
+|       | leasePreviousDelinquentStatusCode   |   The previous delinquent status of the contract. If the Delinquent Status Code changes, the previous status is moved to the Previous Delinquent Status field.   |      |   
+|       | leaseProgramTypeCode   |   A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.   |   VAPP   |   
+|                       |                  |                       |   CROSS_SALES_LARGE_LEASE   |   
+|                       |                  |                       |   MCA_FDIS_ISO   |   
+|                       |                  |                       |   IMS_PORTFOLIO_PURCHASE   |   
+|                       |                  |                       |   CASH_ADVANCE   |   
+|                       |                  |                       |   ATLANTA_TELESALES   |   
+|                       |                  |                       |   RSA_RECOURSE_PROJECT   |   
+|                       |                  |                       |   CROSS_SALES   |   
+|                       |                  |                       |   DBG_RECOURSE   |   
+|                       |                  |                       |   MCA_REGIONAL_SALES   |   
+|                       |                  |                       |   SAMS_NY_TELESALES   |   
+|                       |                  |                       |   PAPERLESS_LEASE   |   
+|                       |                  |                       |   MCA_FDIS_AGENT   |   
+|                       |                  |                       |   RSA_SEVEN_DAY_NO_PPWK   |   
+|                       |                  |                       |   CLOVER   |   
+|                       |                  |                       |   MCA_TELESALES   |   
+|                       |                  |                       |   RSA_SEVEN_DAY   |   
+|                       |                  |                       |   LARGE_LEASE   |   
+|       | leaseProvisionForLossAmount   |   The amount set aside to record in the first month for bad debt expense. Enter an amount or default to the system-calculated amount. Gross Contract x Provision for Loss Percentage (lessor file) = Provision for Loss Enter the provision for loss percentage in the Prov for Loss field accessed via the Lessor Parameter Maintenance Screen and the Lessor Default Fields Screen.   |      |   
+|       | leaseRelationCode   |   Lease Relationship code   |      |   
+|       | leaseRenewalStatusCode   |   Lease Renewal status code   |      |   
+|       | leaseResidualAmount   |   This field displays once information is entered in residual amount at the asset level. This field cannot be entered or maintained at the contract level. However, a residual change at the asset level affects the gross residual.   |      |   
+|       | leaseSaleLeasebackInd   |   Enter yes if the contract is a sale/leaseback. A sale/leaseback agreement involves two separate transactions: the sale of the asset to the prospective lessor and the subsequent lease of the asset to the original owner. This field is informational only.   |   NO   |   
+|                       |                  |                       |   YES   |   
+|       | leaseSecurityDepositAmount   |   This window displays the Security Deposit and the Down Payment fields.The Security Deposit field represents the amount received from the lessee. The Down Payment field represents the amount received from the lessee.    |      |   
+|       | leaseTaxExemptIndicator   |   This field indicates whether the contract has interest income that is exempt from federal income tax. The default is (N)o.   |   NO   |   
+|                       |                  |                       |   YES   |   
+|       | leaseTermDate   |   The date the contract expires.This date is system-generated and you cannot enter or maintain it at the contract level. However, a new date is generated if the Commencement Date, Contract Term, or the Payments In Arrears code is changed.   |      |   
+|       | leaseTotalRentalPaymentNumber   |   Total number of rental payments made to date.   |      |   
+|       | leaseTypeCode   |   A 2-digit contract type. Once you enter this code, you cannot change it without deleting and re-entering the contract.   |   RENTAL_LEASE   |   
+|                       |                  |                       |   REVOLVING_ACCOUNT   |   
+|                       |                  |                       |   TRUE_LEASE   |   
+|                       |                  |                       |   LEVERAGED_LEASE   |   
+|                       |                  |                       |   LEASE_PURCHASE   |   
+|                       |                  |                       |   TERM_LOAN   |   
+|                       |                  |                       |   OPERATING_LEASE   |   
+|                       |                  |                       |   CONDITIONAL_SALE   |   
+|       | leaseVariablePaymentAmount   |   Variable Payment Amount of the lease   |      |   
+|       | leaseVariablePaymentIndicator   |   This yes/no field indicates whether this contract has a variable payment schedule.    |   YES   |   
+|                       |                  |                       |   NO   |   
+|       | leaseWriteOffAmount   |   The income used to offset the initial expense associated with a new lease. The amount is calculated by multiplying the setup income percentage on the Lessor Parameter File by the gross finance income.   |      |   
 
-|   Product Code   | Attribute         | Description               | Values        | Value Description                  |
-|:---------------------|:---------------------|:--------------------------|:--------------|:----------------------------------|
-| VASLEASE| leaseActivationDate   |   The activation date of the contract. Entering this date activates the contract. InfoLease uses this date along with the Contract Term and the Payments in Arrears Code to determine the termination date of the contract.   |       |      |
-|         | leaseAdditionalMid   |   This will be the Mainframe MID for ISOs that have a 15 digit MID that contains a zero added to the infolease record for cash advance   |       |      |
-|         | leaseAmortizableResidualAmount   |   The calculation for amortizable residual is as follows.~ ~ Gross Residual~ - Residual Writedown ~ - Discount Residual~ - Present Value Amount~ = Amount of Residual Amortized~ ~ This field usually projects a conservative amount for residual. The Managers Residual field generally projects a more optimistic figure.   |       |      |
-|         | leaseApproverSignatoryName   |   The name of the person who signs the contract. This field defaults to the name entered in the Contact Name field.   |       |      |
-|         | leaseBankSequenceNumber   |   Lease Bank Sequence Number added to Merchant Bank Account   |       |      |
-|         | leaseBillingCycle   |   Billing Cycle of a lease   |    S   |   SEMI_ANNUAL   |
-|         |           |                    |    Q   |   QUARTERLY   |
-|         |           |                    |    M   |   MONTHLY   |
-|         |           |                    |    N   |   NO   |
-|         |           |                    |    Y   |   YES   |
-|         |           |                    |    A   |   ANNUAL   |
-|         | leaseBranchCode   |   This 5-character code indicates the branch associated with the contract. You can use the branch as a sort sequence when requesting reports.   |       |      |
-|         | leaseBusinessSegment   |   This 6-digit table code indicates the relationships business segment. If you modify the default, InfoLease verifies the code entered is valid for the relationship.   |       |      |
-|         | leaseBusinessSegmentCode   |   This 6-digit table code indicates the relationships business segment. If you modify the default, InfoLease verifies the code entered is valid for the relationship.   |       |      |
-|         | leaseBuyoutQuoteCode   |   This yes/no field indicates whether the lessor has access to the Buyout Quotes Screen for this contract. Refer to the Buyout Quotes Module documentation.   |    NO   |   NO   |
-|         |           |                    |    YES   |   YES   |
-|         | leaseCollateralCode   |   This code identifies additional collateral (other than the actual equipment) assigned to a contract.   |       |      |
-|         | leaseCompanyName   |   UATB.LEASING.COMPANY   |       |      |
-|         | leaseContractBalanceAmount   |   Contract balance remaining after all payments received are applied to the gross contract. This amount is system-calculated.   |       |      |
-|         | leaseContractStatus   |   The status of the contract.    |    YES   |   YES   |
-|         |           |                    |    NO   |   NO   |
-|         | leaseContractStatusDate   |   The date the status was assigned to the contract.   |       |      |
-|         | leaseContractStatusDesc   |   Contract Status Description   |       |      |
-|         | leaseContractTerm   |   The term of the contract in months. If a commencement date was entered, this field is mandatory.The maximum term is 400 months.   |       |      |
-|         | leaseContractTotalReceivedAmount   |   The total contract payment amount received from the beginning of the contract. This is a system-calculated amount.~ ~ Note: If a partial disposition has taken place, this represents the payments on the active portion of the contract only.   |       |      |
-|         | leaseCustomerAccountReceivableName   |   The accounts receivable name. This name prints on the customers invoice.   |       |      |
-|         | leaseCustomerArAddressAttentionName   |   Information entered in this field prints on the invoice, i.e., the name of the person to whom you are mailing the invoice.   |       |      |
-|         | leaseCustomerArAddressCityName   |   The city for the accounts receivable address.   |       |      |
-|         | leaseCustomerArAddressCountryCode   |   The country code for the accounts receivable address.   |       |      |
-|         | leaseCustomerArAddressLine1   |   The first line of the accounts receivable address. This address prints on the customers invoice.   |       |      |
-|         | leaseCustomerArAddressLine2   |   The second line of the accounts receivable address. This address prints on the customers invoice.   |       |      |
-|         | leaseCustomerArAddressLine3   |   The third line of the accounts receivable address. This address prints on the customers invoice.   |       |      |
-|         | leaseCustomerArAddressPostalCode   |   The zip code of the city for the accounts receivable address.   |       |      |
-|         | leaseCustomerArAddressStateName   |   The state for accounts receivable address.   |       |      |
-|         | leaseCustomerCreditScore   |   A user-defined score given by the leasing company extending credit to the lessee. A credit score is based on certain factors, such as age, marital status, length of employment, etc. Each of these factors is assigned a certain point value with the total being the credit score. Based on this score, the lessee is approved for the credit.   |       |      |
-|         | leaseCustomerDoingBusinessName   |   The Customerdoing business name   |       |      |
-|         | leaseCustomerFedSsnId   |   The appropriate identification number.  The ability to modify this field depends on your security settings.   |       |      |
-|         | leaseCustomerName   |   The customer name. Use the customer name to create alphabetical listings and locate a name when using Soundex.   |       |      |
-|         | leaseCustomerShortName   |   The Short Name is another name to use when referring to the customer. The Short Name cannot be the same as the Customer Name. This field defaults to the Short Name previously entered for the customer.   |       |      |
-|         | leaseDelinquentStatusCode   |   The delinquent status of the contract. This is a system-calculated field.    |    151   |   PAST_DUE_151_180_DAYS   |
-|         |           |                    |    91   |   PAST_DUE_91_120_DAYS   |
-|         |           |                    |    61   |   PAST_DUE_61_90_DAYS   |
-|         |           |                    |    31   |   PAST_DUE_31_60_DAYS   |
-|         |           |                    |    01   |   PAST_DUE_01_30_DAYS   |
-|         |           |                    |    00   |   NOT_DELINQUENT   |
-|         |           |                    |    121   |   PAST_DUE_121_150_DAYS   |
-|         |           |                    |    181   |   PAST_DUE_181_DAYS_AND_MORE   |
-|         | leaseDispositionDate   |   The last date any disposition or inventory occurred on the contract. InfoLease updates this field at the time of a disposition.   |       |      |
-|         | leaseEarlyBuyoutAmount   |   You can enter buyout amounts for the contract in this field. You must first fill in the Date field. The information in this field does not default to the Buyout Quotes module.   |       |      |
-|         | leaseEarlyBuyoutDate   |   You can enter the buyout date for the contract in this field. Entering information here does not default to the Buyout Quotes module.   |       |      |
-|         | leaseFacilityScore   |   This score represents the credit score of the deal, not the credit score of the customer.   |       |      |
-|         | leaseFdmsDecisionDate   |   UATB.DATE.FDMS.DECISION   |       |      |
-|         | leaseFdmsDecisionInd   |   UATB.FDMS.DECISION   |       |      |
-|         | leaseFinalPaymentDate   |   This field identifies the date the last contract payment is due. This is a system-calculated field using the contract term, the number of advance payments, the number of payments in arrears, the commencement date, and the billing cycle.   |       |      |
-|         | leaseFirstPaymentAmount   |   If the first payment is different from the regular scheduled payments, enter the amount here; otherwise, InfoLease defaults the regular contract payment. If no payment is due in the first month, enter zero.   |       |      |
-|         | leaseFirstPaymentDate   |   The first payment date. This is a required field. InfoLease calculates the default date based on the commencement date, billing cycle, variable payment schedule, and the payments in arrears code.   |       |      |
-|         | leaseFloatingRateIndicator   |   This yes/no field indicates whether this is a floating rate contract.   |    N   |   NO   |
-|         |           |                    |    Y   |   YES   |
-|         | leaseFollowUpDays   |   The number of days after the payment due date that you need to contact the customer. InfoLease uses the number of follow-up days to generate follow-up lists for payment collections. This field is used with the Customer Service Module.   |       |      |
-|         | leaseGeneralLedgerBookingDate   |   Lease General Booking Date   |       |      |
-|         | leaseGrossAssetAmount   |   The total equipment cost for all assets (not including disposed assets) on the contract.   |       |      |
-|         | leaseGrossFinanceAmount   |   The total amount of finance or interest income (difference between the gross contract amount and the equipment cost). If a commencement date was entered, this field is mandatory.   |       |      |
-|         | leaseGrossPaymentAmount   |   The total amount of payments due on the contract. If a commencement date was entered, this field is mandatory.   |       |      |
-|         | leaseIncomeStartDate   |   The date the income on the contract begins to amortize. This date affects how InfoLease calculates the IRR. This date defaults to the commencement date of the contract; however, in cases where interest free periods exist, you can modify this date.   |       |      |
-|         | leaseInterimRentAmount   |   The amount of interest payments received prior to the commencement of the contract.   |       |      |
-|         | leaseInvoiceCode   |   The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen.  Use this invoice code when selling a stream of contract payments.   |    N   |   NO_MORE_INVOICING   |
-|         |           |                    |    M   |   MANUAL_INVOICING   |
-|         |           |                    |    S   |   INVOICE_SUPRESSED   |
-|         |           |                    |    D   |   SEPARATED_BY_NOTE_DATE   |
-|         |           |                    |    C   |   INVOICE_BY_CONTRACT   |
-|         |           |                    |    A   |   INVOICE_BY_CUSTOMER   |
-|         |           |                    |    R   |   RENTALS_SEPARATED   |
-|         |           |                    |    B   |   CONTRACT_SEPARATED_INDIVIDUAL_INVOICES   |
-|         | leaseInvoiceDueDate   |   The day of the month the payment is due. If you do not enter the invoicing due day, the field defaults to the due day on the Customer Default Data Screen.    |       |      |
-|         | leaseLastPaymentDate   |   The date you received the last payment.   |       |      |
-|         | leaseLegalStatus   |   Lease Legal Status   |    015   |   PIF_MERCH_RETURN_EQUIP   |
-|         |           |                    |    005   |   WRITEOFF   |
-|         |           |                    |    007   |   CANCELLED   |
-|         |           |                    |    014   |   SIF_MERCH_KEEP_EQUIP   |
-|         |           |                    |    004   |   BUYBACK   |
-|         |           |                    |    020   |   EQUIP_RETURNED_TO_TASQ   |
-|         |           |                    |    013   |   PIF_MERCH_KEEP_EQUIP   |
-|         |           |                    |    001   |   ATTORNEY_NEGOTIATION   |
-|         |           |                    |    017   |   RECOURSE_PIF   |
-|         |           |                    |    012   |   UPGRADE_BUYOUT   |
-|         |           |                    |    011   |   WRITEOFF_REVERSAL   |
-|         |           |                    |    019   |   SIF_MERCH_RETURN_EQUIP   |
-|         |           |                    |    008   |   WRITEOFF_DEAD   |
-|         |           |                    |    016   |   END_OF_LEASE_W_RTN_EQUIP   |
-|         | leaseManagerResidualAmount   |   An alternate residual amount that you can select when calculating a buyout quote. Managers residual does not accrue income.This field usually projects an optimistic figure for residual. The Amortizable Residual field usually projects a more conservative figure.   |       |      |
-|         | leaseMerchantId   |   Lease Merchant ID   |       |      |
-|         | leaseMonthlyPaymentAmount   |   The amount of the contract payment. If this is a variable payment contract, do not enter a contract payment here.   |       |      |
-|         | leaseNetFinanceAmount   |   Net finance is the difference between the gross finance income and the setup income. If Prov Loss Fr Fin = (Y)es, InfoLease also subtracts Provision for Loss from net finance. This amount is system-calculated and you cannot modify it.    |       |      |
-|         | leaseNetInvestmentAmount   |   The net investment of the contract. The net investment is the loss the lessor would incur if the lessee stopped payment today.   |       |      |
-|         | leaseNextAgingDate   |   The next date InfoLease will age the contract. You cannot modify this field.    |       |      |
-|         | leaseNextChargeDate   |   The next date InfoLease will assess the appropriate late charges during the aging process. You cannot modify this field. InfoLease updates this field whenever you run aging.   |       |      |
-|         | leaseNumberOfAsset   |   The number of active assets associated with the contract.   |       |      |
-|         | leasePaymentInvoicedCount   |   The number of payments billed to the customer.   |       |      |
-|         | leasePaymentOptionCode   |   This field depicts different options of Lease Payment.   |    T   |   TAPE   |
-|         |           |                    |    N   |   NORMAL_PAY   |
-|         |           |                    |    A   |   ASSUMED_PAY   |
-|         |           |                    |    P   |   POST_DATED_CHEQUE   |
-|         |           |                    |    C   |   COUPON   |
-|         |           |                    |    U   |   UNDISCOUNTED_PAYMENT   |
-|         |           |                    |    D   |   DISCOUNTED_PAYMENT   |
-|         | leasePaymentPaidToDate   |   Contract payments are paid up to, but not including, this date. This field is based on the due dates of unpaid open items or the next due date (invoicing date plus lead invoicing days) if there are no unpaid open items.    |       |      |
-|         | leasePaymentUpfrontAmount   |   The number of beginning payments paid in advance by the customer at contract commencement. Without the Customer Service Module, this field is informational only.   |       |      |
-|         | leasePendingCode   |   This field identifies outstanding information, e.g., paperwork, correspondence, you expect to receive for the contract.   |       |      |
-|         | leasePlatformCode   |   PLATFORM   |       |      |
-|         | leasePreviousContractNumber   |   Lease Previous Contract Number   |       |      |
-|         | leasePreviousDelinquentStatusCode   |   The previous delinquent status of the contract. If the Delinquent Status Code changes, the previous status is moved to the Previous Delinquent Status field.   |       |      |
-|         | leaseProgramTypeCode   |   A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.   |    0012   |   VAPP   |
-|         |           |                    |    0004   |   CROSS_SALES_LARGE_LEASE   |
-|         |           |                    |    0019   |   MCA_FDIS_ISO   |
-|         |           |                    |    0099   |   IMS_PORTFOLIO_PURCHASE   |
-|         |           |                    |    0016   |   CASH_ADVANCE   |
-|         |           |                    |    0007   |   ATLANTA_TELESALES   |
-|         |           |                    |    0015   |   RSA_RECOURSE_PROJECT   |
-|         |           |                    |    0003   |   CROSS_SALES   |
-|         |           |                    |    0006   |   DBG_RECOURSE   |
-|         |           |                    |    0021   |   MCA_REGIONAL_SALES   |
-|         |           |                    |    0011   |   SAMS_NY_TELESALES   |
-|         |           |                    |    0005   |   PAPERLESS_LEASE   |
-|         |           |                    |    0020   |   MCA_FDIS_AGENT   |
-|         |           |                    |    0009   |   RSA_SEVEN_DAY_NO_PPWK   |
-|         |           |                    |    0022   |   CLOVER   |
-|         |           |                    |    0018   |   MCA_TELESALES   |
-|         |           |                    |    0008   |   RSA_SEVEN_DAY   |
-|         |           |                    |    0001   |   LARGE_LEASE   |
-|         | leaseProvisionForLossAmount   |   The amount set aside to record in the first month for bad debt expense. Enter an amount or default to the system-calculated amount. Gross Contract x Provision for Loss Percentage (lessor file) = Provision for Loss Enter the provision for loss percentage in the Prov for Loss field accessed via the Lessor Parameter Maintenance Screen and the Lessor Default Fields Screen.   |       |      |
-|         | leaseRelationCode   |   Lease Relationship code   |       |      |
-|         | leaseRenewalStatusCode   |   Lease Renewal status code   |       |      |
-|         | leaseResidualAmount   |   This field displays once information is entered in residual amount at the asset level. This field cannot be entered or maintained at the contract level. However, a residual change at the asset level affects the gross residual.   |       |      |
-|         | leaseSaleLeasebackInd   |   Enter yes if the contract is a sale/leaseback. A sale/leaseback agreement involves two separate transactions: the sale of the asset to the prospective lessor and the subsequent lease of the asset to the original owner. This field is informational only.   |    N   |   NO   |
-|         |           |                    |    Y   |   YES   |
-|         | leaseSecurityDepositAmount   |   This window displays the Security Deposit and the Down Payment fields.The Security Deposit field represents the amount received from the lessee. The Down Payment field represents the amount received from the lessee.    |       |      |
-|         | leaseTaxExemptIndicator   |   This field indicates whether the contract has interest income that is exempt from federal income tax. The default is (N)o.   |    N   |   NO   |
-|         |                           |                     |    Y   |   YES   |
-|         | leaseTermDate   |   The date the contract expires.This date is system-generated and you cannot enter or maintain it at the contract level. However, a new date is generated if the Commencement Date, Contract Term, or the Payments In Arrears code is changed.   |       |      |
-|         | leaseTotalRentalPaymentNumber   |   Total number of rental payments made to date.   |       |      |
-|         | leaseTypeCode   |   A 2-digit contract type. Once you enter this code, you cannot change it without deleting and re-entering the contract.   |    RL   |   RENTAL_LEASE   |
-|         |           |                    |    RA   |   REVOLVING_ACCOUNT   |
-|         |           |                    |    TL   |   TRUE_LEASE   |
-|         |           |                    |    LL   |   LEVERAGED_LEASE   |
-|         |           |                    |    LP   |   LEASE_PURCHASE   |
-|         |           |                    |    LN   |   TERM_LOAN   |
-|         |           |                    |    OL   |   OPERATING_LEASE   |
-|         |           |                    |    CS   |   CONDITIONAL_SALE   |
-|         | leaseVariablePaymentAmount   |   Variable Payment Amount of the lease   |       |      |
-|         | leaseVariablePaymentIndicator   |   This yes/no field indicates whether this contract has a variable payment schedule.    |    Y   |   YES   |
-|         |           |                    |    N   |   NO   |
-|         | leaseWriteOffAmount   |   The income used to offset the initial expense associated with a new lease. The amount is calculated by multiplying the setup income percentage on the Lessor Parameter File by the gross finance income.   |       |      |
+
+<!-- type: tab-end -->
+
+
+### serviceAttr
+
+---
+
+tags: [serviceAttr]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| VASTRNSARM   | encryptExceptionKeyId   |   Encryption exception key ID   |      |   
+|       | encryptServiceLevelCode   |   Encryption security level code   |   NONE   |   
+|                       |                  |                       |   ENCRP_ONLY   |   
+|                       |                  |                       |   TOKEN_ONLY   |   
+|                       |                  |                       |   BOTH   |   
+|       | encryptTokenCode   |   Encryption token type code   |      |   
+|       | encryptTokenHierarchyCode   |   Encryption multipay token hierarchy level code   |   AGENT   |   
+|                       |                  |                       |   CORP   |   
+|                       |                  |                       |   BUSINESS   |   
+|                       |                  |                       |   OUTLET   |   
+|                       |                  |                       |   CHAIN   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   BANK   |   
+|       | encryptTokenOverrideIndicator   |   Encryption multipay token override indicator   |   NO   |   
+|                       |                  |                       |   YES   |   
+|       | encryptTypeCode   |   Encryption type code   |   INGENICO_ONGUARD   |   
+|                       |                  |                       |   RSA_PKI   |   
+|                       |                  |                       |   3DES   |   
+|                       |                  |                       |   AES_DUKPT   |   
+|                       |                  |                       |   VERIFONE_PROTECT_WITH_SP   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   VERIFONE_PROTECT   |   
+|       | vspBrand   |   VSP brand indicates the TransArmor VeriFone VSP Brand   |      |   
+|       | vspDomain   |   VSP domain Indicates the Corporate Identifier for TransArmor VeriFone Edition   |      |   
+| VASTAP2PE   | 3des   |   3DES for Transarmor   |   PENDING   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   BLANK   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   FDMS_POS   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   NON_FDMS_POS   |   
+|                       |                  |                       |   CANCEL   |   
+| VASADVINS   | advInsightBillingEffectiveDate   |   Billing Effective Date for Advertising Insights   |      |   
+|       | advInsightOfferingType   |   Offering Type for Advertising Insights   |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|       | advInsightStatus   |   Program Status for Advertising Insights   |   UNSUBSCRIBED   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+| VASTAP2PE   | aesDukpt   |   AES DUKPT for Transarmor   |   ANNUAL   |   
+|                       |                  |                       |   INITIATED   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   FAILED   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   PENDING   |   
+|                       |                  |                       |   MONTHLY   |   
+|                       |                  |                       |   PROVISIONED   |   
+| VASNTWKTKN   | americanExpress   |   American Express Network Tokens   |   NOT_CHECKED   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   NON_FDMS_POS   |   
+|                       |                  |                       |   BLANK   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   FDMS_POS   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   PENDING   |   
+| VASMSTTIST   | analyticsProductType   |   Product Offering That A Merchant Is Enrolled To Use.   |   MSI_APP   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   ORACLE_NET_SUITE   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   MSI_EXPRESS   |   
+|                       |                  |                       |   CARDX   |   
+|                       |                  |                       |   NON_SURCHARGE_SNAPPAY_CARDX   |   
+|                       |                  |                       |   KIBO   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   TEMPUS   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   VALUELINK   |   
+|                       |                  |                       |   DELETE   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   CENPOS   |   
+|                       |                  |                       |   SNAPPAY_CARDX   |   
+|                       |                  |                       |   BIGCOMMERCE   |   
+|                       |                  |                       |   CLOVER   |   
+|                       |                  |                       |   SHOPIFY   |   
+|                       |                  |                       |   CLOVER_ONLINE_STORE   |   
+|                       |                  |                       |   SALESFORCE_COMMERCE   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   ADD   |   
+|                       |                  |                       |   OTHER   |   
+|                       |                  |                       |   MAGENTO2   |   
+|                       |                  |                       |   WOOCOMMERCE   |   
+|                       |                  |                       |   MAIN_STREET_INSIGHTS   |   
+|                       |                  |                       |   MIVA   |   
+|                       |                  |                       |   3DCART   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   CHECKED   |   
+| VASWELLSP   | bobPreference   |   Wells Bob Preference Field   |   CLOVER   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   MIVA   |   
+|                       |                  |                       |   TEMPUS   |   
+|                       |                  |                       |   ORACLE_NET_SUITE   |   
+|                       |                  |                       |   WOOCOMMERCE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   SALESFORCE_COMMERCE   |   
+|                       |                  |                       |   CLOVER_ONLINE_STORE   |   
+|                       |                  |                       |   3DCART   |   
+|                       |                  |                       |   MAIN_STREET_INSIGHTS   |   
+|                       |                  |                       |   DELETE   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   BIGCOMMERCE   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   VALUELINK   |   
+|                       |                  |                       |   NON_SURCHARGE_SNAPPAY_CARDX   |   
+|                       |                  |                       |   SHOPIFY   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   MSI_EXPRESS   |   
+|                       |                  |                       |   KIBO   |   
+|                       |                  |                       |   CARDX   |   
+|                       |                  |                       |   OTHER   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   MAGENTO2   |   
+|                       |                  |                       |   MSI_APP   |   
+|                       |                  |                       |   CENPOS   |   
+|                       |                  |                       |   ADD   |   
+|                       |                  |                       |   SNAPPAY_CARDX   |   
+| VASBPMOB   | bpMobiletermType   |   Mobile Terminal Type for BP Mobile   |   DELETE   |   
+|                       |                  |                       |   CENPOS   |   
+|                       |                  |                       |   MSI_APP   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   MSI_EXPRESS   |   
+|                       |                  |                       |   KIBO   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   SHOPIFY   |   
+|                       |                  |                       |   TEMPUS   |   
+|                       |                  |                       |   3DCART   |   
+|                       |                  |                       |   WOOCOMMERCE   |   
+|                       |                  |                       |   MIVA   |   
+|                       |                  |                       |   SNAPPAY_CARDX   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   CARDX   |   
+|                       |                  |                       |   OTHER   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   MAGENTO2   |   
+|                       |                  |                       |   MAIN_STREET_INSIGHTS   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   ADD   |   
+|                       |                  |                       |   ORACLE_NET_SUITE   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   NON_SURCHARGE_SNAPPAY_CARDX   |   
+|                       |                  |                       |   VALUELINK   |   
+|                       |                  |                       |   SALESFORCE_COMMERCE   |   
+|                       |                  |                       |   CLOVER   |   
+|                       |                  |                       |   CLOVER_ONLINE_STORE   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   BIGCOMMERCE   |   
+| VASWELLSP   | ceoLPreference   |   Wells Ceo Preference Field   |   PRINT_ONLY   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   BREAD   |   
+| VASGBSPOSINS   | channel   |   Channel for GBS POS Installments   |   CBS   |   
+|                       |                  |                       |   USE_PRIMARY_EMAIL   |   
+|                       |                  |                       |   AGENT_ISV   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   USE_USER_PROVIDED   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   CMM   |   
+| VASBPMOB   | chargebackInd   |   OEMV Chargeback Writeoff Indicator for BP Mobile   |   CHECKED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   NON_FDMS_POS   |   
+|                       |                  |                       |   FDMS_POS   |   
+|                       |                  |                       |   BLANK   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   PENDING   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+| VASMSTTIST   | cloverInsightsEmail   |   User Provided Clover Insights Email   |   YES   |   
+|                       |                  |                       |   FDMS_POS   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   BLANK   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   NON_FDMS_POS   |   
+|                       |                  |                       |   PENDING   |   
+| VASSAMSPLS   | clubNum   |   SAMS Club - Club Number   |   OTHER   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   SALESFORCE_COMMERCE   |   
+|                       |                  |                       |   KIBO   |   
+|                       |                  |                       |   MSI_APP   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   CLOVER_ONLINE_STORE   |   
+|                       |                  |                       |   CENPOS   |   
+|                       |                  |                       |   MAIN_STREET_INSIGHTS   |   
+|                       |                  |                       |   MAGENTO2   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   SHOPIFY   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   SNAPPAY_CARDX   |   
+|                       |                  |                       |   VALUELINK   |   
+|                       |                  |                       |   DELETE   |   
+|                       |                  |                       |   ORACLE_NET_SUITE   |   
+|                       |                  |                       |   WOOCOMMERCE   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   CARDX   |   
+|                       |                  |                       |   3DCART   |   
+|                       |                  |                       |   TEMPUS   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   MIVA   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   NON_SURCHARGE_SNAPPAY_CARDX   |   
+|                       |                  |                       |   CLOVER   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   MSI_EXPRESS   |   
+|                       |                  |                       |   BIGCOMMERCE   |   
+|                       |                  |                       |   ADD   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+| VASWELLSP   | companyId   |   Wells Company Id Field   |   USE_USER_PROVIDED   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   CBS   |   
+|                       |                  |                       |   AGENT_ISV   |   
+|                       |                  |                       |   CMM   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   USE_PRIMARY_EMAIL   |   
+| VASPERKA   | contractSignDateTime   |   Date Time Contract Signed   |   TEMPUS   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   SALESFORCE_COMMERCE   |   
+|                       |                  |                       |   SNAPPAY_CARDX   |   
+|                       |                  |                       |   BIGCOMMERCE   |   
+|                       |                  |                       |   SHOPIFY   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   3DCART   |   
+|                       |                  |                       |   MAIN_STREET_INSIGHTS   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   MSI_EXPRESS   |   
+|                       |                  |                       |   MSI_APP   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   CLOVER   |   
+|                       |                  |                       |   ORACLE_NET_SUITE   |   
+|                       |                  |                       |   CLOVER_ONLINE_STORE   |   
+|                       |                  |                       |   NON_SURCHARGE_SNAPPAY_CARDX   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   DELETE   |   
+|                       |                  |                       |   OTHER   |   
+|                       |                  |                       |   ADD   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   KIBO   |   
+|                       |                  |                       |   MIVA   |   
+|                       |                  |                       |   CARDX   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   VALUELINK   |   
+|                       |                  |                       |   MAGENTO2   |   
+|                       |                  |                       |   WOOCOMMERCE   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   CENPOS   |   
+| VASBPMOB   | convenienceFeeInd   |   Convenience Fee Indicator for BP Mobile   |   USE_PRIMARY_EMAIL   |   
+|                       |                  |                       |   CMM   |   
+|                       |                  |                       |   CBS   |   
+|                       |                  |                       |   USE_USER_PROVIDED   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   AGENT_ISV   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   YES   |   
+| VASMSTTIST   | dataRightsOptOutCode   |   Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.   |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   NO   |   
+| VASDBTTERMID   | dbtTermIdStatus   |   Program Status for Debit Term Id   |   PENDING_CONTACTED   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+| VASPAYEEZY   | developerEmailId   |   Developer Email ID   |   CANCEL   |   
+|                       |                  |                       |   NON_FDMS_POS   |   
+|                       |                  |                       |   PENDING   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   BLANK   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   FDMS_POS   |   
+|       | developerId   |   Developer ID   |   USE_USER_PROVIDED   |   
+|                       |                  |                       |   USE_PRIMARY_EMAIL   |   
+|                       |                  |                       |   CMM   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   CBS   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   AGENT_ISV   |   
+| VASDISCDBTACP   | discDbtAcpOfferingType   |   Offering Type for Discover Debit Acceptance   |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|       | discDbtAcpStatus   |   Program Status for Discover Debit Acceptance   |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   ACTIVE   |   
+| VASDISCINCAUTH   | discIncAuthOfferingType   |   Offering Type for Discover Inc Auth   |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|       | discIncAuthStatus   |   Program Status for Discover Inc Auth   |   LIVE   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+| VASDISCPROMPRG   | discPrmPrgEffectiveDate   |   Effective Date for Discover Prm Prg   |   NO   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|       | discPrmPrgExpiryDate   |   Expiry Date for Discover Prm Prg   |   DELETE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   TEMPUS   |   
+|                       |                  |                       |   MIVA   |   
+|                       |                  |                       |   SHOPIFY   |   
+|                       |                  |                       |   MSI_EXPRESS   |   
+|                       |                  |                       |   NON_SURCHARGE_SNAPPAY_CARDX   |   
+|                       |                  |                       |   CLOVER_ONLINE_STORE   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   VALUELINK   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   MAIN_STREET_INSIGHTS   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   ORACLE_NET_SUITE   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   ADD   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   CENPOS   |   
+|                       |                  |                       |   BIGCOMMERCE   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   SNAPPAY_CARDX   |   
+|                       |                  |                       |   WOOCOMMERCE   |   
+|                       |                  |                       |   KIBO   |   
+|                       |                  |                       |   OTHER   |   
+|                       |                  |                       |   MAGENTO2   |   
+|                       |                  |                       |   CARDX   |   
+|                       |                  |                       |   3DCART   |   
+|                       |                  |                       |   MSI_APP   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   CLOVER   |   
+|                       |                  |                       |   SALESFORCE_COMMERCE   |   
+|                       |                  |                       |   NO   |   
+|       | discPrmPrgOfferingType   |   offering Type for Discover Prm Prg   |   ESSENTIALS   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|       | discPrmPrgPVI   |   PVI for Discover Prm Prg   |   AGENT_ISV   |   
+|                       |                  |                       |   CBS   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   USE_USER_PROVIDED   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   USE_PRIMARY_EMAIL   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   CMM   |   
+|       | discPrmPrgStatus   |   Program Status for Discover Prm Prg   |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+| VASNTWKTKN   | discover   |   Discover Token   |   INITIATED   |   
+|                       |                  |                       |   PROVISIONED   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   RENEWAL   |   
+|                       |                  |                       |   NEW   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   UPGRADE   |   
+|                       |                  |                       |   FAILED   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   CHECKED   |   
+| VASBPMOB   | ebtFnsNum   |   EBT FNS Number for BP Mobile   |      |   
+| VASGBSPOSINS   | ecommercePlatform   |   Ecommerce Platform for GBS POS Installments   |   MAGENTO2   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   CLOVER_ONLINE_STORE   |   
+|                       |                  |                       |   SHOPIFY   |   
+|                       |                  |                       |   SNAPPAY_CARDX   |   
+|                       |                  |                       |   CENPOS   |   
+|                       |                  |                       |   TEMPUS   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   BIGCOMMERCE   |   
+|                       |                  |                       |   WOOCOMMERCE   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   NON_SURCHARGE_SNAPPAY_CARDX   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   VALUELINK   |   
+|                       |                  |                       |   ADD   |   
+|                       |                  |                       |   MSI_EXPRESS   |   
+|                       |                  |                       |   KIBO   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   MAIN_STREET_INSIGHTS   |   
+|                       |                  |                       |   DELETE   |   
+|                       |                  |                       |   3DCART   |   
+|                       |                  |                       |   SALESFORCE_COMMERCE   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   ORACLE_NET_SUITE   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   MIVA   |   
+|                       |                  |                       |   CLOVER   |   
+|                       |                  |                       |   OTHER   |   
+|                       |                  |                       |   MSI_APP   |   
+|                       |                  |                       |   CARDX   |   
+| VASEMVCMP   | emvBillingEffectiveDate   |   EMV Billing Effective Date   |      |   
+|       | emvBillingExpirationDate   |   EMV Billing Expiration Date   |      |   
+| VASEMVENB   | emvEnablementStatus   |   Program Status for EMV Enablement   |   STANDARD_OFFERING   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   ACTIVE   |   
+| VASEMVCMP   | emvOfferingType   |   EMV Offering Type   |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|       | emvProgramStatus   |   EMV Program Status   |   FREE_TRIAL   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+| VASWSLENT   | enrollmentStatus   |   Enrollment Status for Wisely Entitlement   |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+| VASENTINSB   | entInsightBenchBillingEffectiveDate   |   Billing Effective Date for Enterprise Insights Bench   |      |   
+|       | entInsightBenchStatus   |   Program Status for Enterprise Insights Bench   |   ACTIVE   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|       | entInsightBenchofferingType   |   Offering Type for Enterprise Insights Bench   |   WALLET_TRANSFER   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   ADVANCED   |   
+| VASENTINS   | entInsightBillingEffectiveDate   |   Billing Effective Date for Enterprise Insights   |      |   
+| VASENTINSD   | entInsightDemographicOfferingType   |   Offering Type for Enterprise Insights Demographic   |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|       | entInsightDemographicStatus   |   Program Status for Enterprise Insights Demographic   |   LIVE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|       | entInsightDemographicbillingEffectiveDate   |   Billing Effective Date for Enterprise Insights Demographic   |      |   
+| VASENTINSL   | entInsightLobbyBillingEffectiveDate   |   Billing Effective Date for Enterprise Insights Lobby   |      |   
+|       | entInsightLobbyOfferingType   |   Offering Type for Enterprise Insights Lobby   |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   PREMIUM   |   
+|       | entInsightLobbyStatus   |   Program Status for Enterprise Insights Lobby   |   ACTIVE   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+| VASENTINS   | entInsightOfferingType   |   Offering Type for Enterprise Insights   |   WALLET_TRANSFER   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|       | entInsightStatus   |   Program Status for Enterprise Insights   |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+| VASNTWKTKN   | fiservTokenRequesterId   |   Fiserv Token Requester ID for Network Tokens   |   STANDARD_OFFERING   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   OPTED_OUT   |   
+| VASFRDDTCT   | fraudDetectBillingEffectiveDate   |   Billing Effective Date for Fraud Detect   |      |   
+|       | fraudDetectofferingType   |   Offering Type for Fraud Detect   |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|       | fraudDetectstatus   |   Program Status for Fraud Detect   |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+| VASFRDFLX   | fraudFlexBillingEffectiveDate   |   Billing Effective Date for Fraud Flex   |      |   
+|       | fraudFlexOfferingType   |   Offering Type for Fraud Flex   |   WHITE_LISTED   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|       | fraudFlexStatus   |   Program Status for Fraud Flex   |   CANCEL   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+| VASFRDDTCT   | gatewayApi   |   Fraud Detect Entry Point   |   FIREBIRDS   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+| VASGBSPOSINS   | gbsPosInsStatus   |   Program Status for GBS POS Installment   |   NO_RESPONSE   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   ACTIVE   |   
+|       | gbsPosInsofferingType   |   Offering Type for GBS POS Installment   |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   ESSENTIALS   |   
+| VASTAP2PE   | ingenicoOnguard   |   Ingenico On-Guard for Transarmor   |   NO   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   PROVISIONED   |   
+|                       |                  |                       |   NEW   |   
+|                       |                  |                       |   INITIATED   |   
+|                       |                  |                       |   FAILED   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   UPGRADE   |   
+|                       |                  |                       |   RENEWAL   |   
+|                       |                  |                       |   YES   |   
+| VASLCRDBT   | lcrDebitStatus   |   Program Status for LCR Debit Flags (Optional)   |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+| VASLCRFB   | lcrStatus   |   Program Status of LCR Fallback   |   STANDARD_OFFERING   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+| VASMSTTIST   | mainStreetProgramstatus   |   Program Status   |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|       | mainStreetbillingEffectiveDate   |   Billing Effective Date    |      |   
+| VASNTWKTKN   | masterCard   |   Master Card Network Tokens   |   CMM   |   
+|                       |                  |                       |   USE_USER_PROVIDED   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   AGENT_ISV   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   CBS   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   USE_PRIMARY_EMAIL   |   
+| VASMSTPWLT   | masterpassofferingType   |   Masterpass Offering Type   |   STANDARD   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|       | masterpassstatus   |   Masterpass Status   |   PENDING_UPGRADE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+| VASMCMONEYSEND   | mcMoneySendOfferingType   |   Offering Type for MC Moneysend   |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|       | mcMoneySendStatus   |   Program Status for MC Moneysend   |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   DECLINED   |   
+| VASSAMSPLS   | memberShipId   |   SAMS Club Membership ID   |   NONE   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   UCOMM   |   
+| VASMERSRCH   | merchSurchargeProgEffectiveDate   |   Surcharge Effective Date for Merchant Surcharge Program   |   NO   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   CMM   |   
+|                       |                  |                       |   USE_USER_PROVIDED   |   
+|                       |                  |                       |   AGENT_ISV   |   
+|                       |                  |                       |   CBS   |   
+|                       |                  |                       |   USE_PRIMARY_EMAIL   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   CHECKED   |   
+|       | merchSurchargeProgOfferingType   |   Offering Type for Merchant Surcharge Program   |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|       | merchSurchargeProgSolutionType   |   Solution Type for Merchant Surcharge Program   |   FDMS_POS   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   NON_FDMS_POS   |   
+|                       |                  |                       |   BLANK   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   PENDING   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   NO   |   
+|       | merchSurchargeProgStatus   |   Program Status for Merchant Surcharge Program   |   DECLINED   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   ACTIVE   |   
+|       | merchSurchargeProgSurchargeRate   |   Surcharge Rate for Merchant Surcharge Program   |   CHECKED   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   SPRINKLES   |   
+| VASWSLENT   | merchantIdentifier   |   Merchant Identifier for Wisely Entitlement   |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+| VASBPMOB   | mobInd   |   Mobile Indicator for BP Mobile   |   ABUELOS   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   NONE   |   
+| VASNTWKTKN   | networkTokenBillingEffectiveDate   |   Billing Effective Date for Network Tokens   |      |   
+|       | networkTokenOfferingType   |   Offering Type for Network Tokens   |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|       | networkTokenStatus   |   Program Status for Network Tokens   |   CANCEL   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+| VASSAMSPLS   | newUpgRnwlInd   |   SAMS Club New/Upgrade/Renewal Indicator   |   NEW   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   UPGRADE   |   
+|                       |                  |                       |   FAILED   |   
+|                       |                  |                       |   PROVISIONED   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   INITIATED   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   RENEWAL   |   
+|       | nxtRnwlDt   |   SAMS Club Next Renewal Date   |   USE_USER_PROVIDED   |   
+|                       |                  |                       |   AGENT_ISV   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   USE_PRIMARY_EMAIL   |   
+|                       |                  |                       |   CBS   |   
+|                       |                  |                       |   CMM   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   YES   |   
+| VASGBSPOSINS   | partner   |   Partner for GBS POS Installments   |   FIRST_API   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+| VASPAYEEZY   | payezeeyBillingEffectiveDate   |   Billing Effective Date   |      |   
+|       | payezeeyOfferingType   |   Payeezy Offering Type   |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|       | payezeeyProgramStatus   |   Payeezy Program Status   |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   APPROVED   |   
+| VASPERKA   | perkaAccountNum   |   Perka Account Number   |   CHECKED   |   
+|                       |                  |                       |   USE_PRIMARY_EMAIL   |   
+|                       |                  |                       |   USE_USER_PROVIDED   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   AGENT_ISV   |   
+|                       |                  |                       |   CBS   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   CMM   |   
+|       | perkaAccountStatus   |   Account Status   |   CANCEL   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   FDMS_POS   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   BLANK   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   PENDING   |   
+|                       |                  |                       |   NON_FDMS_POS   |   
+|       | perkaBillingEffectiveDate   |   Billing Effective Date for Perka   |      |   
+|       | perkaProductType   |   Perka Product Type   |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|       | perkaTrainInd   |   Perka Training Indicator   |   TRAINING_REQUESTED   |   
+|                       |                  |                       |   TRAINING_NOT_REQUESTED   |   
+|       | perkaUniqueId   |   Perka Unique Identifier   |      |   
+| VASPDATAPRT   | personalDataProtectionBillingEffectiveDate   |   Billing Effective Date for Personal Data Protection   |      |   
+|       | personalDataProtectionOfferingType   |   Offering Type for Personal Data Protection   |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|       | personalDataProtectionStatus   |   Program Status for Personal Data Protection   |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   CANCEL   |   
+| VASPINLESSECOM   | pinlessEcomStatus   |   Program Status for Pinless Ecomm   |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+| VASMSTTIST   | primaryEmailInd   |   Primary Email Indicator   |   USE_USER_PROVIDED   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   CMM   |   
+|                       |                  |                       |   AGENT_ISV   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   CBS   |   
+|                       |                  |                       |   USE_PRIMARY_EMAIL   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   YES   |   
+| VASEMVCMP   | rebateAmount   |   EMV Rebate Amount   |   UCOMM   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+| VASPERKA   | reccuringCharge   |   Recurring Charge   |   RENEWAL   |   
+|                       |                  |                       |   UPGRADE   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   NEW   |   
+|                       |                  |                       |   PROVISIONED   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   FAILED   |   
+|                       |                  |                       |   INITIATED   |   
+| VASPAYEEZY   | referralCode   |   Referral Code   |   NO   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   NONE   |   
+| VASVRUSRV   | requestNewVruIdCd   |   Request New VRU Id For Compromised One   |   UNCLE_JULIO   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+| VASSAMSPLS   | rnwlAmtPaid   |   SAMS Club Renewal Amount Paid   |   FDMS_POS   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   PENDING   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   NON_FDMS_POS   |   
+|                       |                  |                       |   BLANK   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   NO   |   
+| VASTAP2PE   | rsavpki   |   rsavpki for Transarmor   |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+| VASTCKCP   | tckCpPrcsInd   |   Process Indicator Telecheck CP   |   USE_USER_PROVIDED   |   
+|                       |                  |                       |   AGENT_ISV   |   
+|                       |                  |                       |   CBS   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   USE_PRIMARY_EMAIL   |   
+|                       |                  |                       |   CMM   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   NO   |   
+|       | tckCpPrdct   |   Product for Telecheck CP   |   SPRINKLES   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   BREAD   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   ABUELOS   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   NONE   |   
+|       | tckCpServEntl   |   Service Entitlement for Telecheck CP   |   CLOVER_ONLINE_STORE   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   WOOCOMMERCE   |   
+|                       |                  |                       |   NON_SURCHARGE_SNAPPAY_CARDX   |   
+|                       |                  |                       |   MIVA   |   
+|                       |                  |                       |   ADD   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   VALUELINK   |   
+|                       |                  |                       |   MSI_EXPRESS   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   MSI_APP   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   CENPOS   |   
+|                       |                  |                       |   CLOVER   |   
+|                       |                  |                       |   SHOPIFY   |   
+|                       |                  |                       |   SALESFORCE_COMMERCE   |   
+|                       |                  |                       |   CARDX   |   
+|                       |                  |                       |   TEMPUS   |   
+|                       |                  |                       |   MAIN_STREET_INSIGHTS   |   
+|                       |                  |                       |   BIGCOMMERCE   |   
+|                       |                  |                       |   DELETE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   SNAPPAY_CARDX   |   
+|                       |                  |                       |   OTHER   |   
+|                       |                  |                       |   3DCART   |   
+|                       |                  |                       |   MAGENTO2   |   
+|                       |                  |                       |   ORACLE_NET_SUITE   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   KIBO   |   
+|                       |                  |                       |   YES   |   
+|       | tckCpSettlInd   |   Settlement Indicator for Telecheck CP   |   NOT_CHECKED   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   FDMS_POS   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   BLANK   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   PENDING   |   
+|                       |                  |                       |   NON_FDMS_POS   |   
+|                       |                  |                       |   CANCEL   |   
+|       | tckCpStatus   |   Program Status for Telecheck CP   |   DECLINED   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+| VASTEMPUS   | tempusProgramStatus   |   Tempus Program Status   |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+| VASPERKA   | term   |   Term   |   MONTHLY   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   PROVISIONED   |   
+|                       |                  |                       |   ANNUAL   |   
+|                       |                  |                       |   PENDING   |   
+|                       |                  |                       |   INITIATED   |   
+|                       |                  |                       |   FAILED   |   
+| VASBPMOB   | terminalType01   |   Terminal Type 01 for BP Mobile   |   FAILED   |   
+|                       |                  |                       |   PROVISIONED   |   
+|                       |                  |                       |   UPGRADE   |   
+|                       |                  |                       |   INITIATED   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   RENEWAL   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   NEW   |   
+|       | terminalType03   |   Terminal Type 03 for BP Mobile   |   PENDING   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   ANNUAL   |   
+|                       |                  |                       |   MONTHLY   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   FAILED   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   INITIATED   |   
+|                       |                  |                       |   PROVISIONED   |   
+| VASMERSRCH   | thirdParty   |   Third Party for Merchant Surcharge Program   |   OTHER   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   DELETE   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   KIBO   |   
+|                       |                  |                       |   SNAPPAY_CARDX   |   
+|                       |                  |                       |   CARDX   |   
+|                       |                  |                       |   MSI_APP   |   
+|                       |                  |                       |   CENPOS   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   MAGENTO2   |   
+|                       |                  |                       |   MSI_EXPRESS   |   
+|                       |                  |                       |   BIGCOMMERCE   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   WOOCOMMERCE   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   ADD   |   
+|                       |                  |                       |   VALUELINK   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   MAIN_STREET_INSIGHTS   |   
+|                       |                  |                       |   3DCART   |   
+|                       |                  |                       |   SALESFORCE_COMMERCE   |   
+|                       |                  |                       |   NON_SURCHARGE_SNAPPAY_CARDX   |   
+|                       |                  |                       |   CLOVER_ONLINE_STORE   |   
+|                       |                  |                       |   TEMPUS   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   SHOPIFY   |   
+|                       |                  |                       |   ORACLE_NET_SUITE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   MIVA   |   
+|                       |                  |                       |   CLOVER   |   
+| VASTXNINS   | transactionInsightBillingEffectiveDate   |   Billing Effective Date for Transaction Insights   |      |   
+|       | transactionInsightOfferingType   |   Offering Type for Transaction Insights   |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|       | transactionInsightStatus   |   Program Status for Transaction Insights   |   NO_RESPONSE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+| VASTAP2PE   | transarmorP2peStatus   |   Transrmor P2PE Pragram Status   |   UNSUBSCRIBED   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+| VASTRNSARM   | transarmorProgramstatus   |   Transarmor Program Status   |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|       | transarmorofferingType   |   Transarmor Offering Type   |   NT_STANDARD   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+| VASTAP2PE   | verifoneProtect   |   Verifone Protect for Transarmor   |   MSI_EXPRESS   |   
+|                       |                  |                       |   SHOPIFY   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   WOOCOMMERCE   |   
+|                       |                  |                       |   MIVA   |   
+|                       |                  |                       |   TEMPUS   |   
+|                       |                  |                       |   MAGENTO2   |   
+|                       |                  |                       |   CARDX   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   MAIN_STREET_INSIGHTS   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   CLOVER_ONLINE_STORE   |   
+|                       |                  |                       |   CENPOS   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   NON_SURCHARGE_SNAPPAY_CARDX   |   
+|                       |                  |                       |   SALESFORCE_COMMERCE   |   
+|                       |                  |                       |   BIGCOMMERCE   |   
+|                       |                  |                       |   VALUELINK   |   
+|                       |                  |                       |   SNAPPAY_CARDX   |   
+|                       |                  |                       |   CLOVER   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   MSI_APP   |   
+|                       |                  |                       |   ORACLE_NET_SUITE   |   
+|                       |                  |                       |   DELETE   |   
+|                       |                  |                       |   ADD   |   
+|                       |                  |                       |   3DCART   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   KIBO   |   
+|                       |                  |                       |   OTHER   |   
+|       | verifoneProtectWsp   |   Verifone Protect W/SP for  Transarmor   |   AGENT_ISV   |   
+|                       |                  |                       |   USE_PRIMARY_EMAIL   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   CMM   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   USE_USER_PROVIDED   |   
+|                       |                  |                       |   CBS   |   
+| VASVETPRG   | veteransProgramType   |   Veterans Program Offering Type   |   ABUELOS   |   
+|                       |                  |                       |   UNCLE_JULIO   |   
+|                       |                  |                       |   BO_JANGLES   |   
+|                       |                  |                       |   NO_REQUEST_OF_NEW_VRU   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   PF_CHANGS   |   
+|                       |                  |                       |   NEW_VRU_ID_REQUESTED   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   FIRST_API   |   
+|                       |                  |                       |   IAS_PRODUCT_EXCEPTION   |   
+|                       |                  |                       |   SPRINKLES   |   
+|                       |                  |                       |   PAYEEZY   |   
+|                       |                  |                       |   NEW_VRU_ID_COMPLETED   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   NONE   |   
+|                       |                  |                       |   OPTED_OUT   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   SONNYS_BBQ   |   
+|                       |                  |                       |   UCOMM   |   
+|                       |                  |                       |   IPG   |   
+|                       |                  |                       |   UNION_SQ_HOSPITAL   |   
+|                       |                  |                       |   FIREBIRDS   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   BREAD   |   
+|       | veteransProgramstatus   |   Veterans Program Account Status   |   MAIN_STREET_INSIGHTS   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   BIGCOMMERCE   |   
+|                       |                  |                       |   SNAPPAY_CARDX   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   TEMPUS   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   WOOCOMMERCE   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   NON_SURCHARGE_SNAPPAY_CARDX   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   3DCART   |   
+|                       |                  |                       |   SALESFORCE_COMMERCE   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   CARDX   |   
+|                       |                  |                       |   MIVA   |   
+|                       |                  |                       |   ORACLE_NET_SUITE   |   
+|                       |                  |                       |   VALUELINK   |   
+|                       |                  |                       |   ADD   |   
+|                       |                  |                       |   OTHER   |   
+|                       |                  |                       |   CENPOS   |   
+|                       |                  |                       |   MSI_APP   |   
+|                       |                  |                       |   KIBO   |   
+|                       |                  |                       |   MAGENTO2   |   
+|                       |                  |                       |   CLOVER_ONLINE_STORE   |   
+|                       |                  |                       |   CLOVER   |   
+|                       |                  |                       |   SHOPIFY   |   
+|                       |                  |                       |   MSI_EXPRESS   |   
+|                       |                  |                       |   DELETE   |   
+| VASNTWKTKN   | visa   |   Visa Network Tokens   |   CENPOS   |   
+|                       |                  |                       |   MIVA   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   SNAPPAY_CARDX   |   
+|                       |                  |                       |   SHOPIFY   |   
+|                       |                  |                       |   VALUELINK   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   PRINT_ONLY   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   WOOCOMMERCE   |   
+|                       |                  |                       |   DELETE   |   
+|                       |                  |                       |   MAIN_STREET_INSIGHTS   |   
+|                       |                  |                       |   MSI_EXPRESS   |   
+|                       |                  |                       |   KIBO   |   
+|                       |                  |                       |   MSI_APP   |   
+|                       |                  |                       |   ADD   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   NON_SURCHARGE_SNAPPAY_CARDX   |   
+|                       |                  |                       |   CLOVER   |   
+|                       |                  |                       |   TEMPUS   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   CARDX   |   
+|                       |                  |                       |   3DCART   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   BIGCOMMERCE   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   OTHER   |   
+|                       |                  |                       |   MAGENTO2   |   
+|                       |                  |                       |   SALESFORCE_COMMERCE   |   
+|                       |                  |                       |   ORACLE_NET_SUITE   |   
+|                       |                  |                       |   CLOVER_ONLINE_STORE   |   
+| VASVISAACTUPD   | visaAcctUpdStatus   |   Program Status for VISA Account Update   |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   CANCEL   |   
+| VASVISAACTFNDTRX   | visaActFndOfferingType   |   Offering Type for Visa Account Funding   |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|       | visaActFndStatus   |   Program Status for Visa Account Funding   |   SUBSCRIBED   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   ACTIVE   |   
+| VASVISACHKOUT   | visaChkOutStatus   |   Program Sttatus for Visa Check Out   |   PENDING_UPGRADE   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+| VASVISAOCT   | visaOctOfferingType   |   Offering Type for Visa Oct   |   ELIGIBLE   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|       | visaOctStatus   |   Program Status for Visa Oct   |   DISCOVER_REVIEW   |   
+|                       |                  |                       |   SUBSCRIBED   |   
+|                       |                  |                       |   NEW_APPLICATION   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   PENDING_UNCONTACTED   |   
+|                       |                  |                       |   ACTIVE_SURCHARGING   |   
+|                       |                  |                       |   MERCH_EQ_EMV_CAPABLE   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   CANCEL_SURCHARGING   |   
+|                       |                  |                       |   MIX_EMV_AND_NON_EMV   |   
+|                       |                  |                       |   IN_PROGRESS   |   
+|                       |                  |                       |   CANCELLED_BY_MERCHANT   |   
+|                       |                  |                       |   CANCELLED_BY_FD   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   NO_RESPONSE   |   
+|                       |                  |                       |   UNSUBSCRIBED   |   
+|                       |                  |                       |   PENDING_CONTACTED   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   DONT_APPLY_DEBIT_FLAGS   |   
+|                       |                  |                       |   LIVE   |   
+|                       |                  |                       |   DECLINED   |   
+|                       |                  |                       |   APPLY_FALL_BACK   |   
+|                       |                  |                       |   FREE_TRIAL   |   
+|                       |                  |                       |   APPROVED   |   
+|                       |                  |                       |   DENIED   |   
+|                       |                  |                       |   DO_NOT_APPLY_FALLBACK   |   
+|                       |                  |                       |   ALLOW_DEBIT_FLAGS   |   
+|                       |                  |                       |   PENDING_UPGRADE   |   
+| VASVRUSRV   | vruServiceofferingType   |   VRU Services Offering Type   |   GAMING_PAYMENTS   |   
+|                       |                  |                       |   BANK_INITIATED_P2P   |   
+|                       |                  |                       |   MNY_TRFR_MERCH_INIT   |   
+|                       |                  |                       |   AUTHORIZATION_DATA   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB_TRIAL   |   
+|                       |                  |                       |   STANDARD_OFFERING   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   GOVT_DISBURSEMENTS   |   
+|                       |                  |                       |   PAYRL_PNSN_DISBRSMNT   |   
+|                       |                  |                       |   CASH_2_ATM   |   
+|                       |                  |                       |   TR_OWN_DB_OR_PP_CARD   |   
+|                       |                  |                       |   FRAUD_DETECT_SMB   |   
+|                       |                  |                       |   SETTLEMENT_DATA   |   
+|                       |                  |                       |   ESSENTIALS   |   
+|                       |                  |                       |   FUNDS_TRANSFER   |   
+|                       |                  |                       |   PYMNT_OF_OWN_CC_BILL   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   PREPAID_LOADS   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   BANK_INITIATED_TRANS   |   
+|                       |                  |                       |   ELIGIBLE   |   
+|                       |                  |                       |   NT_HYBRID   |   
+|                       |                  |                       |   STANDARD   |   
+|                       |                  |                       |   CUP_ELIGIBLE   |   
+|                       |                  |                       |   P2P_TRANSFER_TO_CARD   |   
+|                       |                  |                       |   BUS_DISBURS_TO_CARD   |   
+|                       |                  |                       |   NT_ON_THE_GO   |   
+|                       |                  |                       |   ALIPAY_ELIGIBLE   |   
+|                       |                  |                       |   WHITE_LISTED   |   
+|                       |                  |                       |   PREMIUM   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   NON-CARD_BILL_PAY   |   
+|                       |                  |                       |   BLACK_LISTED   |   
+|                       |                  |                       |   FD_DSCV_PROMO   |   
+|                       |                  |                       |   CASH_2_CARD   |   
+|                       |                  |                       |   FUNDS_DISBURSEMENTS   |   
+|                       |                  |                       |   ONLINE_GAMBLING   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PAY   |   
+|                       |                  |                       |   NT_STANDARD   |   
+|                       |                  |                       |   PERSON_TO_PERSON   |   
+|                       |                  |                       |   STAGED_WALLET_LOAD   |   
+|                       |                  |                       |   NOT_ELIGIBLE_ACQ_ON   |   
+|                       |                  |                       |   CASH_DEPOSIT   |   
+|                       |                  |                       |   MERCH_DISBURSEMENTS   |   
+|                       |                  |                       |   ACCOUNT_TO_ACCOUNT   |   
+|                       |                  |                       |   BUSINESS_TO_BUSINESS   |   
+|                       |                  |                       |   LOYALTY_N_OFFERS   |   
+|                       |                  |                       |   P2P_TRANSFER   |   
+|                       |                  |                       |   GOV-NPROF_DISBRMTS   |   
+|                       |                  |                       |   GAMBLING_PAYOUT   |   
+|                       |                  |                       |   AGENT_CASH_OUT   |   
+|                       |                  |                       |   ADVANCED   |   
+|                       |                  |                       |   CREDIT_CARD_BILL_PMT   |   
+|                       |                  |                       |   BUS_TO_BUS_TRANSFER   |   
+|                       |                  |                       |   AUTH_AND_SETTLEMENT   |   
+|                       |                  |                       |   GEN_B2B_TRAN_TO_CARD   |   
+|                       |                  |                       |   RAPID_DEPOSIT   |   
+|                       |                  |                       |   WALLET_TRANSFER   |   
+|                       |                  |                       |   EMV_CAMPAIGN   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+| VASPAYEEZY   | webStore   |   Web Store   |   PRINT_ONLY   |   
+|                       |                  |                       |   CHECKED   |   
+|                       |                  |                       |   MIVA   |   
+|                       |                  |                       |   SHOPIFY   |   
+|                       |                  |                       |   3DCART   |   
+|                       |                  |                       |   ONLINE_AND_PRINT   |   
+|                       |                  |                       |   OTHER   |   
+|                       |                  |                       |   SNAPPAY_CARDX   |   
+|                       |                  |                       |   MAGENTO2   |   
+|                       |                  |                       |   MSI_EXPRESS   |   
+|                       |                  |                       |   KIBO   |   
+|                       |                  |                       |   CARDX   |   
+|                       |                  |                       |   ONLINE_ONLY   |   
+|                       |                  |                       |   DELETE   |   
+|                       |                  |                       |   SALESFORCE_COMMERCE   |   
+|                       |                  |                       |   BIGCOMMERCE   |   
+|                       |                  |                       |   NOT_APPLICABLE   |   
+|                       |                  |                       |   MAIN_STREET_INSIGHTS   |   
+|                       |                  |                       |   NO   |   
+|                       |                  |                       |   TEMPUS   |   
+|                       |                  |                       |   NOT_CHECKED   |   
+|                       |                  |                       |   YES   |   
+|                       |                  |                       |   ACTIVE   |   
+|                       |                  |                       |   MSI_APP   |   
+|                       |                  |                       |   CENPOS   |   
+|                       |                  |                       |   CLOVER_ONLINE_STORE   |   
+|                       |                  |                       |   ADD   |   
+|                       |                  |                       |   VALUELINK   |   
+|                       |                  |                       |   CLOVER   |   
+|                       |                  |                       |   CANCEL   |   
+|                       |                  |                       |   ORACLE_NET_SUITE   |   
+|                       |                  |                       |   WOOCOMMERCE   |   
+|                       |                  |                       |   NON_SURCHARGE_SNAPPAY_CARDX   |   
 
 <!-- type: tab-end -->
