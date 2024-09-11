@@ -589,7 +589,7 @@ components:
               Will contain one or more attributes in the format shown below
               ```json
               {
-                "attributeType#1": {
+                "domain#1": {
                   "attribute#1": {
                     "values": [ "some value" ]
                   },
@@ -603,7 +603,7 @@ components:
             Will contain one or more attributes in the format shown below
             ```json
             {
-              "attributeType#1": {
+              "domain#1": {
                 "attribute#1": {
                   "values": [ "some value" ]
                 },
@@ -624,6 +624,9 @@ components:
           description: |
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#fee_table_id">specification</a>
+      description: |
+        > For more details refer to
+        <a href="../docs?path=docs/specification/products_entitlements.md&branch=develop">specification</a>
     FeeProductRequest:
       type: object
       properties:
@@ -641,7 +644,7 @@ components:
               Will contain one or more attributes in the format shown below
               ```json
               {
-                "attributeType#1": {
+                "domain#1": {
                   "attribute#1": {
                     "values": [ "some value" ]
                   },
@@ -655,7 +658,7 @@ components:
             Will contain one or more attributes in the format shown below
             ```json
             {
-              "attributeType#1": {
+              "domain#1": {
                 "attribute#1": {
                   "values": [ "some value" ]
                 },
@@ -673,6 +676,9 @@ components:
             <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
         wholesaleAmountOrPercent:
           type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#wholesale_charge">specification</a>
         retailAmountOrPercent:
           type: number
           description: |
@@ -683,6 +689,9 @@ components:
           description: |
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#fee_table_id">specification</a>
+      description: |
+        > For more details refer to
+        <a href="../docs?path=docs/specification/products_fees.md&branch=develop">specification</a>
     MerchantAccountBoardingRequest:
       type: object
       properties:
@@ -1365,14 +1374,23 @@ components:
       properties:
         entitlements:
           type: array
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/products_entitlements.md&branch=develop">specification</a>
           items:
             $ref: "#/components/schemas/EntitlementProductRequest"
         fees:
           type: array
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/products_fees.md&branch=develop">specification</a>
           items:
             $ref: "#/components/schemas/FeeProductRequest"
         valueAddedServices:
           type: array
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/products_vas.md&branch=develop">specification</a>
           items:
             $ref: "#/components/schemas/ValueAddedServicesRequest"
       description: |
@@ -1605,7 +1623,7 @@ components:
               Will contain one or more attributes in the format shown below
               ```json
               {
-                "attributeType#1": {
+                "domain#1": {
                   "attribute#1": {
                     "values": [ "some value" ]
                   },
@@ -1619,7 +1637,7 @@ components:
             Will contain one or more attributes in the format shown below
             ```json
             {
-              "attributeType#1": {
+              "domain#1": {
                 "attribute#1": {
                   "values": [ "some value" ]
                 },
@@ -1635,6 +1653,9 @@ components:
             This field indicates whether the product is active or not
             > For more details refer to
             <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
+      description: |
+        > For more details refer to
+        <a href="../docs?path=docs/specification/products_vas.md&branch=develop">specification</a>
     Address:
       type: object
       properties:
@@ -2904,18 +2925,30 @@ components:
       properties:
         entitlements:
           type: array
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/products_entitlements.md&branch=develop">specification</a>
           items:
             $ref: "#/components/schemas/Product"
         valueAddedServices:
           type: array
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/products_vas.md&branch=develop">specification</a>
           items:
             $ref: "#/components/schemas/Product"
         fees:
           type: array
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/products_fees.md&branch=develop">specification</a>
           items:
             $ref: "#/components/schemas/Product"
         equipments:
           type: array
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/products_equipments.md&branch=develop">specification</a>
           items:
             $ref: "#/components/schemas/Product"
       description: |
@@ -3190,9 +3223,6 @@ components:
           type: string
         wholesaleCharge:
           type: number
-          description: |
-            > For more details refer to
-            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#wholesale_charge">specification</a>
         retailCharge:
           type: number
         terminalFrontEnds:
@@ -3207,7 +3237,7 @@ components:
               Will contain one or more attributes in the format shown below
               ```json
               {
-                "attributeType#1": {
+                "domain#1": {
                   "attribute#1": {
                     "values": [ "some value" ]
                   },
@@ -3221,7 +3251,7 @@ components:
             Will contain one or more attributes in the format shown below
             ```json
             {
-              "attributeType#1": {
+              "domain#1": {
                 "attribute#1": {
                   "values": [ "some value" ]
                 },
@@ -3235,6 +3265,9 @@ components:
           $ref: "#/components/schemas/ProductAssociation"
         wholesaleAmountOrPercent:
           type: number
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#wholesale_charge">specification</a>
         retailAmountOrPercent:
           type: number
           description: |
@@ -3263,6 +3296,9 @@ components:
           format: int64
         totalCost:
           type: number
+      description: |
+        > For more details refer to
+        <a href="../docs?path=docs/specification/products_equipments.md&branch=develop">specification</a>
     ProductAssociation:
       type: object
       properties:
