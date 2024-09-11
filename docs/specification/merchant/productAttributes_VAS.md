@@ -55,7 +55,7 @@ tags: [cashAdvance]Cash Advance Activation Date
 |       | remainingAmount   |   Cash Advance Remaining Amount   |      |   
 |       | terminationDate   |   Cash Advance Termination Date   |      |   
 
-<!-- type: tab-end -->
+<!-- type: tab -->
 
 
 ### lease
@@ -228,7 +228,7 @@ tags: [lease]
 |       | leaseWriteOffAmount   |   The income used to offset the initial expense associated with a new lease. The amount is calculated by multiplying the setup income percentage on the Lessor Parameter File by the gross finance income.   |      |   
 
 
-<!-- type: tab-end -->
+<!-- type: tab -->
 
 
 ### serviceAttr
