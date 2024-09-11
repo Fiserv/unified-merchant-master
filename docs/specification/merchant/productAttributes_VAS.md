@@ -33,21 +33,7 @@ tags: [cashAdvance]Cash Advance Activation Date
 |       | grossIncome   |   Cash Advance Gross Income   |      |   
 |       | invDueDate   |   Cash Advance Invoice Due Date   |      |   
 |       | lastPaymentDate   |   Cash Advance Last Payment Date   |      |   
-|       | legalStatus   |   Lease Legal Status   |   PIF_MERCH_KEEP_EQUIP   |   
-|                       |                  |                       |   RECOURSE_PIF   |   
-|                       |                  |                       |   WRITEOFF_REVERSAL   |   
-|                       |                  |                       |   END_OF_LEASE_W_RTN_EQUIP   |   
-|                       |                  |                       |   WRITEOFF_DEAD   |   
-|                       |                  |                       |   PIF_MERCH_RETURN_EQUIP   |   
-|                       |                  |                       |   WRITEOFF   |   
-|                       |                  |                       |   CANCELLED   |   
-|                       |                  |                       |   SIF_MERCH_KEEP_EQUIP   |   
-|                       |                  |                       |   BUYBACK   |   
-|                       |                  |                       |   EQUIP_RETURNED_TO_TASQ   |   
-|                       |                  |                       |   ATTORNEY_NEGOTIATION   |   
-|                       |                  |                       |   SIF_MERCH_RETURN_EQUIP   |   
-|                       |                  |                       |   UPGRADE_BUYOUT   |   
-|       | netIncome   |   Cash Advance Net Income   |      |   
+|       | legalStatus   |   Lease Legal Status   |   PIF_MERCH_KEEP_EQUIP <br> RECOURSE_PIF <br> WRITEOFF_REVERSAL <br> END_OF_LEASE_W_RTN_EQUIP <br> WRITEOFF_DEAD <br> PIF_MERCH_RETURN_EQUIP <br> WRITEOFF <br> CANCELLED <br> SIF_MERCH_KEEP_EQUIP <br> BUYBACK <br> EQUIP_RETURNED_TO_TASQ <br> ATTORNEY_NEGOTIATION <br> SIF_MERCH_RETURN_EQUIP <br> UPGRADE_BUYOUT   |   |       | netIncome   |   Cash Advance Net Income   |      |   
 |       | payBackAmount   |   Cash Advance Pay Back Amount   |      |   
 |       | priorCashAdvanceId   |   Prior Cash Advance ID   |      |   
 |       | receivedAmount   |   Cash Advance Received Amount   |      |   
