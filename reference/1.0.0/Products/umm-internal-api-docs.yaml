@@ -165,6 +165,13 @@ components:
             <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
         productCategory:
           type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/products_entitlements.md&branch=develop">entitlements</a>,
+            <a href="../docs?path=docs/specification/products_vas.md&branch=develop">vas</a>,
+            <a href="../docs?path=docs/specification/products_fees.md&branch=develop">fee</a>,
+            <a href="../docs?path=docs/specification/products_equipments.md&branch=develop">equipment</a>
+            specifications
         crossReference:
           type: array
           items:
@@ -179,7 +186,7 @@ components:
                 Will contain one or more attributes in the format shown below
                 ```json
                 {
-                  "attributeType#1": {
+                  "domain#1": {
                     "attribute#1": {
                       "values": [ "some value" ]
                     },
@@ -193,7 +200,7 @@ components:
               Will contain one or more attributes in the format shown below
               ```json
               {
-                "attributeType#1": {
+                "domain#1": {
                   "attribute#1": {
                     "values": [ "some value" ]
                   },
@@ -207,7 +214,7 @@ components:
             Will contain one or more attributes in the format shown below
             ```json
             {
-              "attributeType#1": {
+              "domain#1": {
                 "attribute#1": {
                   "values": [ "some value" ]
                 },
