@@ -1,4 +1,4 @@
-# Merchant Product - Entitlements
+# Product Attribute - Entitlements
 
 ## List of Domains
 
