@@ -67,13 +67,10 @@
                   link: docs/specification/merchant/Tax_Adtnl_Data_US.md
                 - title: Business Information
                   link: docs/specification/merchant/MerchantBusinessInformation.md
-                - title: Product
-                  link: docs/specification/merchant/merchantProduct.md
-                - title: Product Attribute
-                  link: docs/specification/merchant/ProductAttributes.md  
-                - title: Merchant Attributes
+                - title: Attributes
                   link: docs/specification/merchant/merchantAttributes.md
             - title: Product
+              link: docs/specification/merchant/merchantProduct.md
               sections:
                 - title: Entitlements
                   link: docs/specification/products_entitlements.md
@@ -84,6 +81,7 @@
                 - title: Equipment
                   link: docs/specification/products_equipments.md
             - title: Product Attributes
+              link: docs/specification/merchant/ProductAttributes.md  
               sections:
                 - title: Entitlements
                   link: docs/specification/merchant/prodAttributes_Entitlements.md
