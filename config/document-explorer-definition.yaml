@@ -77,10 +77,19 @@
               sections:
                 - title: Entitlements
                   link: docs/specification/products_entitlements.md
-                - title: Value Addes Services
+                  sections:
+                    - title: Attributes
+                      link: docs/specification/merchant/prodAttributes_Entitlements.md
+                - title: Value Added Services
                   link: docs/specification/products_vas.md
+                  sections:
+                    - title: Attributes
+                      link: docs/specification/merchant/productAttributes_VAS.md
                 - title: Fees
                   link: docs/specification/products_fees.md
+                  sections:
+                    - title: Attributes
+                      link: docs/specification/merchant/productAttributes_fees.md
                 - title: Equipment
                   link: docs/specification/products_equipments.md
 - sections:
