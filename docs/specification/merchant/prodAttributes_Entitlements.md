@@ -273,19 +273,19 @@ tags: [entitlementAttr]
 |       |    |      |   AUTH_ONLY   |   
 |       |    |      |   NOT_ENTITLED   |   
 |       | signedVolumeAmount   |   Signed Volume Amount   |      |   
-| ENTLDINER   | clearingPlanCode   |   Clearing Plan Code   |      |   
-|       | edcCode   |   EDC Code   |   NO_SERVICE   |   
-|       |    |      |   FISERV_HOLDS_PAPER   |   
-|       |    |      |   NO_SERVICE   |   
-|       |    |      |   MERCHANT_HOLDS_PAPER   |   
-|       |    |      |   MERCHANT_HOLDS_PAPER   |   
-|       |    |      |   FISERV_HOLDS_PAPER   |   
-|       | effectiveDate   |   Effective Date   |      |   
-|       | floorLimitAmount   |   Floor Limit Amount   |      |   
-|       | mccCode   |   Merchant Category Code   |      |   
-|       | pricingPlanCode   |   Pricing Plan Code   |      |   
-|       | serviceEstablishmentNumber   |   Service Establishment Number   |      |   
-|       | serviceTypeCode   |   Service Type Code   |   NOT_ENTITLED   |   
+| ENTLDINER   | clearingPlanCode   |   Clearing Plan Code   |                |   
+|             | edcCode            |   EDC Code             |   NO_SERVICE           |   
+|             |                    |                        |   FISERV_HOLDS_PAPER   |   
+|             |                    |                        |   NO_SERVICE           |   
+|             |                    |                        |   MERCHANT_HOLDS_PAPER |   
+|             |                    |                        |   MERCHANT_HOLDS_PAPER |   
+|             |                    |                        |   FISERV_HOLDS_PAPER   |   
+|             |                    | effectiveDate          |   Effective Date       |    
+|             |                    | floorLimitAmount       |   Floor Limit Amount   |     
+|             |                    | mccCode                |   Merchant Category Code   |   
+|             |                    | pricingPlanCode        |   Pricing Plan Code   |
+|             |                    | serviceEstablishmentNumber   |   Service Establishment Number   |   
+|             | serviceTypeCode    | Service Type Code      |   NOT_ENTITLED   |   
 |       |                   |                       |   AUTH_ONLY   |   
 |       |                   |                       |   DEPOSIT_AND_AUTH_CAPTURE   |   
 |       |    |      |   MEMO_POST   |   
