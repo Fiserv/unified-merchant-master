@@ -16,7 +16,7 @@ tags: [entitlementAttr]
 
 ---
 
-|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|   Product Code       | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLALIPAY   | alipayOfferingType   |   Alipay Entitlement   |   ALIPAY_ELIGIBLE   |   
 |       | effectiveDate   |   Effective Date   |      |   
@@ -286,8 +286,8 @@ tags: [entitlementAttr]
 |       | pricingPlanCode   |   Pricing Plan Code   |      |   
 |       | serviceEstablishmentNumber   |   Service Establishment Number   |      |   
 |       | serviceTypeCode   |   Service Type Code   |   NOT_ENTITLED   |   
-|       |    |      |   AUTH_ONLY   |   
-|       |    |      |   DEPOSIT_AND_AUTH_CAPTURE   |   
+|       |                   |                       |   AUTH_ONLY   |   
+|       |                   |                       |   DEPOSIT_AND_AUTH_CAPTURE   |   
 |       |    |      |   MEMO_POST   |   
 |       |    |      |   FULL_SERVICE   |   
 |       |    |      |   INFO_ONLY_SPLIT_DIAL   |   
