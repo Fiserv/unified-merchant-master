@@ -1175,3 +1175,1329 @@ tags: [entitlementAttr]
 |       | signedVolumeAmount   |   Signed Volume Amount   |      |   
 
 <!-- type: tab-end -->
+
+### accentIntermedia
+
+---
+
+tags: [accentIntermedia]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code       | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLUFNDSV           | effectiveDate     |   Effective Date             |            |   
+|                      | isEnabled         |   Is Enabled                 |                         |   
+|                      | miscInfoText      |   Misc Info Text             |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### amexSourceCode
+
+---
+
+tags: [amexSourceCode]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLAMEXPT   | effectiveDate   |   Effective Date   |                         |   
+|                         | sourceCode   |   Amex SourceCode   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### blackhawk
+
+---
+
+tags: [blackhawk]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### checkAcceptanceMethod
+
+---
+
+tags: [checkAcceptanceMethod]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLTCK   | checkCashingVerification   |   Check Cashing Verification   |                         |   
+|                         | checkCashingWarranty   |   Check Cashing Warranty   |                         |   
+|                         | cloverGoSettle   |   Clover Go Settle   |                         |   
+|                         | cloverGoWarranty   |   Clover Go Warranty   |                         |   
+|                         | codWarranty   |   Cod Warranty   |                         |   
+|                         | holdCheckWarranty   |   Hold Check Warranty   |                         |   
+|                         | inPersonECAVerification   |   InPerson ECA Verification   |                         |   
+|                         | inPersonECAVerificationTRS   |   InPerson ECA Verification TRS   |                         |   
+|                         | inPersonECAWarranty   |   InPerson ECA Warranty   |                         |   
+|                         | inPersonPaperVerification   |   InPerson Paper Verification   |                         |   
+|                         | inPersonPaperWarranty   |   InPerson Paper Warranty   |                         |   
+|                         | lockboxVerification   |   Lockbox Verification   |                         |   
+|                         | lockboxWarranty   |   Lockbox Warranty   |                         |   
+|                         | mailDropboxVerification   |   Mail Dropbox Verification   |                         |   
+|                         | mailDropboxWarranty   |   Mail Dropbox Warranty   |                         |   
+|                         | mailOrderWarranty   |   Mail Order Warranty   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         | mobileAppSettle   |   Mobile App Settle   |                         |   
+|                         | mobileAppWarranty   |   Mobile App Warranty   |                         |   
+|                         | onlineVerification   |   Online Verification   |                         |   
+|                         | onlineVerificationTRS   |   Online Verification TRS   |                         |   
+|                         | onlineWarranty   |   Online Warranty   |                         |   
+|                         | phoneVerification   |   Phone Verification   |                         |   
+|                         | phoneVerificationTRS   |   Phone Verification TRS   |                         |   
+|                         | phoneWarranty   |   Phone Warranty   |                         |   
+|                         | recurringPaymentsVerification   |   Recurring Payments Verification   |                         |   
+|                         | recurringPaymentsVerificationTRS   |   Recurring Payments Verification TRS   |                         |   
+|                         | recurringPaymentsWarranty   |   Recurring Payments Warranty   |                         |   
+|                         | specialtyItemsSettle   |   Specialty Items Settle   |                         |   
+|                         | specialtyItemsWarranty   |   Specialty Items Warranty   |                         |   
+|                         | trsCollections   |   Trs Collections   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### coinstarar
+
+---
+
+tags: [coinstarar]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### dataOnly
+
+---
+
+tags: [dataOnly]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### disbursementssements
+
+---
+
+tags: [disbursementssements]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   |                         |                         |      |   
+|                         | pinEntryMethods   |   Pin Entry Methods   |   YES   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   PINLESS   |   
+
+
+<!-- type: tab-end -->
+
+
+### duguesneUniv
+
+---
+
+tags: [duguesneUniv]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### ecommercerce
+
+---
+
+tags: [ecommercerce]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   |                         |                         |      |   
+|                         | pinEntryMethods   |   Pin Entry Methods   |   PINLESS   |   
+|                         |                         |                         |   YES   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+
+
+<!-- type: tab-end -->
+
+
+### egiftSocial
+
+---
+
+tags: [egiftSocial]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### flexCache
+
+---
+
+tags: [flexCache]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         | serviceEntlNumber   |   Service Entl Number   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### franchiseEnabled
+
+---
+
+tags: [franchiseEnabled]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### fraudWatch
+
+---
+
+tags: [fraudWatch]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### giftangogo
+
+---
+
+tags: [giftangogo]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### greatLakesScript
+
+---
+
+tags: [greatLakesScript]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcAccel
+
+---
+
+tags: [hcAccel]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   PIN_ONLY   |   
+|                         |                         |                         |   YES   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_ONLY   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   YES   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcAffn
+
+---
+
+tags: [hcAffn]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   PINLESS   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   YES   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   YES   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcAth
+
+---
+
+tags: [hcAth]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   PIN_ONLY   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   YES   |   
+|                         |                         |                         |   PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_ONLY   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   YES   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcAts
+
+---
+
+tags: [hcAts]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   YES   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   YES   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcCu24
+
+---
+
+tags: [hcCu24]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   PINLESS   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   YES   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   YES   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcInterlink
+
+---
+
+tags: [hcInterlink]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   YES   |   
+|                         |                         |                         |   PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   PINLESS   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   YES   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcJeanie
+
+---
+
+tags: [hcJeanie]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   YES   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_ONLY   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   YES   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcMaestro
+
+---
+
+tags: [hcMaestro]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   YES   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   YES   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcNyce
+
+---
+
+tags: [hcNyce]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   YES   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   YES   |   
+|                         |                         |                         |   PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcPulse
+
+---
+
+tags: [hcPulse]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   PIN_ONLY   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   YES   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   PINLESS   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   YES   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcShazam
+
+---
+
+tags: [hcShazam]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   PINLESS   |   
+|                         |                         |                         |   YES   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_ONLY   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   YES   |   
+|                         |                         |                         |   PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcStarEast
+
+---
+
+tags: [hcStarEast]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   PIN_ONLY   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   YES   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   YES   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcStarNortheast
+
+---
+
+tags: [hcStarNortheast]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   PINLESS   |   
+|                         |                         |                         |   YES   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   YES   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### hcStarWest
+
+---
+
+tags: [hcStarWest]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | healthcare   |   Healthcare   |   YES   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLDBTGTW   | healthcare   |   Healthcare   |   YES   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### incomm
+
+---
+
+tags: [incomm]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### jet
+
+---
+
+tags: [jet]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### lcrBillPayment
+
+---
+
+tags: [lcrBillPayment]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   |                         |                         |      |   
+|                         | pinEntryMethods   |   Pin Entry Methods   |   YES   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   PIN_ONLY   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+
+
+<!-- type: tab-end -->
+
+
+### lsn
+
+---
+
+tags: [lsn]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### mondex
+
+---
+
+tags: [mondex]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### moneyTransfers
+
+---
+
+tags: [moneyTransfers]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   |                         |                         |      |   
+|                         | pinEntryMethods   |   Pin Entry Methods   |   PINLESS   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   YES   |   
+|                         |                         |                         |   PIN_ONLY   |   
+
+
+<!-- type: tab-end -->
+
+
+### nearRealTimeMessaging
+
+---
+
+tags: [nearRealTimeMessaging]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### paypalOptOutReason
+
+---
+
+tags: [paypalOptOutReason]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDISC   | effectiveDate   |   Effective Date   |                         |   
+|                         | reasonCode   |   Opt Out Reason Code   |   NOT_INTERESTED   |   
+|                         |                         |                         |   OTHER   |   
+|                         |                         |                         |   RATE_CONCERNS   |   
+|                         |                         |                         |   NOT_SOLICITED   |   
+|                         |                         |                         |   PREV_BAN_EXPERIENCE   |   
+|                         |                         |                         |   NOT_ELIGIBLE   |   
+
+
+<!-- type: tab-end -->
+
+
+### pos
+
+---
+
+tags: [pos]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLDBTEDS   | miscInfoText   |   Misc Info Text   |                         |   
+|                         | pinEntryMethods   |   Pin Entry Methods   |   PIN_ONLY   |   
+|                         |                         |                         |   PINLESS   |   
+|                         |                         |                         |   PIN_AND_PINLESS   |   
+|                         |                         |                         |   YES   |   
+
+
+<!-- type: tab-end -->
+
+
+### premiumPrepaid
+
+---
+
+tags: [premiumPrepaid]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         | serviceEntlNumber   |   Service Entl Number   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### robertMorrisCollege
+
+---
+
+tags: [robertMorrisCollege]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### settlementSwitch
+
+---
+
+tags: [settlementSwitch]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### specialProgramIndicators
+
+---
+
+tags: [specialProgramIndicators]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLAMEXMA   | chase   |   Chase   |                         |   
+|                         | chaseNet   |   Chase Net   |                         |   
+| ENTLAMEXOB   | amexMarketing   |   Amex Marketing   |                         |   
+|                         | walmartKotak   |   Walmart Kotak   |                         |   
+| ENTLAMEXPT   | amexFranchise   |   Amex Franchise   |                         |   
+|                         | walmartKotak   |   Walmart Kotak   |                         |   
+| ENTLDBTMA   | chase   |   Chase   |                         |   
+|                         | chaseNet   |   Chase Net   |                         |   
+| ENTLDINER   | walmartKotak   |   Walmart Kotak   |                         |   
+| ENTLDISC   | upi   |   Upi   |                         |   
+|                         | walmartKotak   |   Walmart Kotak   |                         |   
+| ENTLDISCMA   | chase   |   Chase   |                         |   
+|                         | chaseNet   |   Chase Net   |                         |   
+| ENTLFNDSV   | duguesneUniv   |   Duguesne Univ   |                         |   
+|                         | mondex   |   Mondex   |                         |   
+|                         | robertMorrisCollege   |   Robert Morris College   |                         |   
+|                         | univofPenn   |   Univof Penn   |                         |   
+|                         | valueLink   |   Value Link   |                         |   
+|                         | visaCash   |   Visa Cash   |                         |   
+| ENTLJCB   | walmartKotak   |   Walmart Kotak   |                         |   
+| ENTLMC   | canadaDebit   |   Canada Debit   |                         |   
+|                         | dicksSporting   |   Dicks Sporting   |                         |   
+|                         | lbrandss   |   Lbrandss   |                         |   
+|                         | toysUs   |   Toys Us   |                         |   
+|                         | walmartKotak   |   Walmart Kotak   |                         |   
+| ENTLMCMA   | chase   |   Chase   |                         |   
+|                         | chaseNet   |   Chase Net   |                         |   
+| ENTLPVTLBL   | syncronyPL   |   Syncrony PL   |                         |   
+|                         | walmartBusiness   |   Walmart Business   |                         |   
+|                         | walmartCobranded   |   Walmart Cobranded   |                         |   
+|                         | walmartCommercial   |   Walmart Commercial   |                         |   
+|                         | walmartSamsClub   |   Walmart SamsClub   |                         |   
+| ENTLSIGDBT   | star   |   Star   |                         |   
+| ENTLVI   | visaAEO   |   visa AEO   |                         |   
+|                         | walmartKotak   |   Walmart Kotak   |                         |   
+| ENTLVIMA   | chase   |   Chase   |                         |   
+|                         | chaseNet   |   Chase Net   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### standardGCMisc
+
+---
+
+tags: [standardGCMisc]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### standardGCProject
+
+---
+
+tags: [standardGCProject]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### standardGCReport
+
+---
+
+tags: [standardGCReport]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### univofPenn
+
+---
+
+tags: [univofPenn]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         | serviceEntlNumber   |   Service Entl Number   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### valueLink
+
+---
+
+tags: [valueLink]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+
+<!-- type: tab-end -->
+
+
+### visaCash
+
+---
+
+tags: [visaCash]
+
+* **List of Attributes**: Applicable for UMM, North and GMA
+  
+  | Inquiry         |   Create      |    Update  |  Delete  |
+  |:---------------:|:-------------:|:----------:|:--------:|
+  |    Available    |   Optional    |  Allowed   |  NA      |
+
+---
+
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
+|:---------------------|:---------------------|:--------------------------|:----------------------------------|
+|                         | effectiveDate   |   Effective Date   |                         |   
+|                         | isEnabled   |   Is Enabled   |                         |   
+|                         | miscInfoText   |   Misc Info Text   |                         |   
+
+<!-- type: tab-end -->
