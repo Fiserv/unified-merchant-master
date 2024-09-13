@@ -1,43 +1,3 @@
-| Product Code | Attribute                     | Description                   | UMM Value                  |
-|:-------------|:------------------------------|:------------------------------|:---------------------------|
-| ENTLDBTMA    | clearingPlanCode              | Clearing Plan Code            |                            |   
-|              | edcCode                       | EDC Code                      | NO_SERVICE                 |   
-|              |                                |                               | MERCHANT_HOLDS_PAPER       |   
-|              |                                |                               | FISERV_HOLDS_PAPER         |   
-|              |                                |                               | NO_SERVICE                 |   
-|              |                                |                               | FISERV_HOLDS_PAPER         |   
-|              |                                |                               | MERCHANT_HOLDS_PAPER       |   
-|              | effectiveDate                 | Effective Date                |                            |   
-|              | floorLimitAmount              | Floor Limit Amount            |                            |   
-|              | mccCode                       | Merchant Category Code        |                            |   
-|              | pricingPlanCode               | Pricing Plan Code             |                            |   
-|              | serviceEstablishmentNumber    | Service Establishment Number  |                            |   
-|              | serviceTypeCode               | Service Type Code             | MEMO_POST                  |   
-|              |                                |                               | INFO_ONLY_SPLIT_DIAL       |   
-|              |                                |                               | FULL_SERVICE               |   
-|              |                                |                               | DEPOSIT_AND_AUTH_CAPTURE   |   
-|              |                                |                               | AUTH_ONLY                  |   
-|              |                                |                               | NOT_ENTITLED               |   
-|              | signedVolumeAmount            | Signed Volume Amount          |                            |   
-| ENTLDINER    | clearingPlanCode              | Clearing Plan Code            |                            |   
-|              | edcCode                       | EDC Code                      | NO_SERVICE                 |   
-|              |                                |                               | FISERV_HOLDS_PAPER         |   
-|              |                                |                               | NO_SERVICE                 |   
-|              |                                |                               | MERCHANT_HOLDS_PAPER       |   
-|              |                                |                               | MERCHANT_HOLDS_PAPER       |   
-|              |                                |                               | FISERV_HOLDS_PAPER         |   
-|              | effectiveDate                 | Effective Date                |                            |   
-|              | floorLimitAmount              | Floor Limit Amount            |                            |   
-|              | mccCode                       | Merchant Category Code        |                            |   
-|              | pricingPlanCode               | Pricing Plan Code             |                            |   
-|              | serviceEstablishmentNumber    | Service Establishment Number  |                            |   
-|              | serviceTypeCode               | Service Type Code             | NOT_ENTITLED               |   
-|              |                                |                               | AUTH_ONLY                  |   
-|              |                                |                               | DEPOSIT_AND_AUTH_CAPTURE   |   
-|              |                                |                               | MEMO_POST                  |   
-|              |                                |                               | FULL_SERVICE               |   
-|              |                                |                               | INFO_ONLY_SPLIT_DIAL       |   
-|              | signedVolumeAmount            | Signed Volume Amount          |                            |   
 # Product Attribute - Entitlements
 
 ## List of Domains
@@ -1230,15 +1190,13 @@ tags: [accentIntermedia]
 
 ---
 
-|   Product Code       | Attribute         | Description                   | UMM Value                  |
+|   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLUFNDSV           | effectiveDate     |   Effective Date             |            |   
-|                      | isEnabled         |   Is Enabled                 |                         |   
-|                      | miscInfoText      |   Misc Info Text             |                         |   
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |      |   
+|       | isEnabled   |   Is Enabled   |      |   
+|       | miscInfoText   |   Misc Info Text   |      |   
 
 <!-- type: tab-end -->
-
 
 ### amexSourceCode
 
@@ -1256,12 +1214,10 @@ tags: [amexSourceCode]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLAMEXPT   | effectiveDate   |   Effective Date   |                         |   
-|                         | sourceCode   |   Amex SourceCode   |                         |   
-
+| ENTLAMEXPT   | effectiveDate   |   Effective Date   |      |   
+|       | sourceCode   |   Amex SourceCode   |      |   
 
 <!-- type: tab-end -->
-
 
 ### blackhawk
 
@@ -1279,13 +1235,11 @@ tags: [blackhawk]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |      |   
+|       | isEnabled   |   Is Enabled   |      |   
+|       | miscInfoText   |   Misc Info Text   |      |   
 
 <!-- type: tab-end -->
-
 
 ### checkAcceptanceMethod
 
@@ -1303,41 +1257,39 @@ tags: [checkAcceptanceMethod]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLTCK   | checkCashingVerification   |   Check Cashing Verification   |                         |   
-|                         | checkCashingWarranty   |   Check Cashing Warranty   |                         |   
-|                         | cloverGoSettle   |   Clover Go Settle   |                         |   
-|                         | cloverGoWarranty   |   Clover Go Warranty   |                         |   
-|                         | codWarranty   |   Cod Warranty   |                         |   
-|                         | holdCheckWarranty   |   Hold Check Warranty   |                         |   
-|                         | inPersonECAVerification   |   InPerson ECA Verification   |                         |   
-|                         | inPersonECAVerificationTRS   |   InPerson ECA Verification TRS   |                         |   
-|                         | inPersonECAWarranty   |   InPerson ECA Warranty   |                         |   
-|                         | inPersonPaperVerification   |   InPerson Paper Verification   |                         |   
-|                         | inPersonPaperWarranty   |   InPerson Paper Warranty   |                         |   
-|                         | lockboxVerification   |   Lockbox Verification   |                         |   
-|                         | lockboxWarranty   |   Lockbox Warranty   |                         |   
-|                         | mailDropboxVerification   |   Mail Dropbox Verification   |                         |   
-|                         | mailDropboxWarranty   |   Mail Dropbox Warranty   |                         |   
-|                         | mailOrderWarranty   |   Mail Order Warranty   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-|                         | mobileAppSettle   |   Mobile App Settle   |                         |   
-|                         | mobileAppWarranty   |   Mobile App Warranty   |                         |   
-|                         | onlineVerification   |   Online Verification   |                         |   
-|                         | onlineVerificationTRS   |   Online Verification TRS   |                         |   
-|                         | onlineWarranty   |   Online Warranty   |                         |   
-|                         | phoneVerification   |   Phone Verification   |                         |   
-|                         | phoneVerificationTRS   |   Phone Verification TRS   |                         |   
-|                         | phoneWarranty   |   Phone Warranty   |                         |   
-|                         | recurringPaymentsVerification   |   Recurring Payments Verification   |                         |   
-|                         | recurringPaymentsVerificationTRS   |   Recurring Payments Verification TRS   |                         |   
-|                         | recurringPaymentsWarranty   |   Recurring Payments Warranty   |                         |   
-|                         | specialtyItemsSettle   |   Specialty Items Settle   |                         |   
-|                         | specialtyItemsWarranty   |   Specialty Items Warranty   |                         |   
-|                         | trsCollections   |   Trs Collections   |                         |   
-
+| ENTLTCK   | checkCashingVerification   |   Check Cashing Verification   |      |   
+|       | checkCashingWarranty   |   Check Cashing Warranty   |      |   
+|       | cloverGoSettle   |   Clover Go Settle   |      |   
+|       | cloverGoWarranty   |   Clover Go Warranty   |      |   
+|       | codWarranty   |   Cod Warranty   |      |   
+|       | holdCheckWarranty   |   Hold Check Warranty   |      |   
+|       | inPersonECAVerification   |   InPerson ECA Verification   |      |   
+|       | inPersonECAVerificationTRS   |   InPerson ECA Verification TRS   |      |   
+|       | inPersonECAWarranty   |   InPerson ECA Warranty   |      |   
+|       | inPersonPaperVerification   |   InPerson Paper Verification   |      |   
+|       | inPersonPaperWarranty   |   InPerson Paper Warranty   |      |   
+|       | lockboxVerification   |   Lockbox Verification   |      |   
+|       | lockboxWarranty   |   Lockbox Warranty   |      |   
+|       | mailDropboxVerification   |   Mail Dropbox Verification   |      |   
+|       | mailDropboxWarranty   |   Mail Dropbox Warranty   |      |   
+|       | mailOrderWarranty   |   Mail Order Warranty   |      |   
+|       | miscInfoText   |   Misc Info Text   |      |   
+|       | mobileAppSettle   |   Mobile App Settle   |      |   
+|       | mobileAppWarranty   |   Mobile App Warranty   |      |   
+|       | onlineVerification   |   Online Verification   |      |   
+|       | onlineVerificationTRS   |   Online Verification TRS   |      |   
+|       | onlineWarranty   |   Online Warranty   |      |   
+|       | phoneVerification   |   Phone Verification   |      |   
+|       | phoneVerificationTRS   |   Phone Verification TRS   |      |   
+|       | phoneWarranty   |   Phone Warranty   |      |   
+|       | recurringPaymentsVerification   |   Recurring Payments Verification   |      |   
+|       | recurringPaymentsVerificationTRS   |   Recurring Payments Verification TRS   |      |   
+|       | recurringPaymentsWarranty   |   Recurring Payments Warranty   |      |   
+|       | specialtyItemsSettle   |   Specialty Items Settle   |      |   
+|                         |  specialtyItemsWarranty   |   Specialty Items Warranty   |      |   
+|                         |  trsCollections   |   Trs Collections   |      |   
 
 <!-- type: tab-end -->
-
 
 ### coinstarar
 
@@ -1355,13 +1307,11 @@ tags: [coinstarar]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |      |   
+|                         |  isEnabled   |   Is Enabled   |      |   
+|                         |  miscInfoText   |   Misc Info Text   |      |   
 
 <!-- type: tab-end -->
-
 
 ### dataOnly
 
@@ -1379,13 +1329,11 @@ tags: [dataOnly]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |      |   
+|                         |  isEnabled   |   Is Enabled   |      |   
+|                         |  miscInfoText   |   Misc Info Text   |      |   
 
 <!-- type: tab-end -->
-
 
 ### disbursementssements
 
@@ -1403,15 +1351,13 @@ tags: [disbursementssements]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLDBTEDS   |                         |                         |      |   
-|                         | pinEntryMethods   |   Pin Entry Methods   |   YES   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   PINLESS   |   
-
+| ENTLDBTEDS   |    |   Misc Info Text   |      |   
+|                         |  pinEntryMethods   |   Pin Entry Methods   |   YES   |   
+|                         |     |      |   PIN_AND_PINLESS   |   
+|                         |     |      |   PIN_ONLY   |   
+|                         |     |      |   PINLESS   |   
 
 <!-- type: tab-end -->
-
 
 ### duguesneUniv
 
@@ -1429,13 +1375,11 @@ tags: [duguesneUniv]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |      |   
+|                         |  isEnabled   |   Is Enabled   |      |   
+|                         |  miscInfoText   |   Misc Info Text   |      |   
 
 <!-- type: tab-end -->
-
 
 ### ecommercerce
 
@@ -1453,15 +1397,13 @@ tags: [ecommercerce]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLDBTEDS   |                         |                         |      |   
-|                         | pinEntryMethods   |   Pin Entry Methods   |   PINLESS   |   
-|                         |                         |                         |   YES   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-
+| ENTLDBTEDS   |    |   Misc Info Text   |      |   
+|                         |  pinEntryMethods   |   Pin Entry Methods   |   PINLESS   |   
+|                         |     |      |   YES   |   
+|                         |     |      |   PIN_ONLY   |   
+|                         |     |      |   PIN_AND_PINLESS   |   
 
 <!-- type: tab-end -->
-
 
 ### egiftSocial
 
@@ -1479,13 +1421,11 @@ tags: [egiftSocial]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |      |   
+|                         |  isEnabled   |   Is Enabled   |      |   
+|                         |  miscInfoText   |   Misc Info Text   |      |   
 
 <!-- type: tab-end -->
-
 
 ### flexCache
 
@@ -1503,14 +1443,12 @@ tags: [flexCache]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-|                         | serviceEntlNumber   |   Service Entl Number   |                         |   
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |      |   
+|                         |  isEnabled   |   Is Enabled   |      |   
+|                         |  miscInfoText   |   Misc Info Text   |      |   
+|                         |  serviceEntlNumber   |   Service Entl Number   |      |   
 
 <!-- type: tab-end -->
-
 
 ### franchiseEnabled
 
@@ -1528,13 +1466,11 @@ tags: [franchiseEnabled]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |      |   
+|                         |  isEnabled   |   Is Enabled   |      |   
+|                         |  miscInfoText   |   Misc Info Text   |      |   
 
 <!-- type: tab-end -->
-
 
 ### fraudWatch
 
@@ -1552,13 +1488,11 @@ tags: [fraudWatch]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |      |   
+|                         |  isEnabled   |   Is Enabled   |      |   
+|                         |  miscInfoText   |   Misc Info Text   |      |   
 
 <!-- type: tab-end -->
-
 
 ### giftangogo
 
@@ -1576,13 +1510,11 @@ tags: [giftangogo]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |      |   
+|                         |  isEnabled   |   Is Enabled   |      |   
+|                         |  miscInfoText   |   Misc Info Text   |      |   
 
 <!-- type: tab-end -->
-
 
 ### greatLakesScript
 
@@ -1600,13 +1532,11 @@ tags: [greatLakesScript]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |      |   
+|                         |  isEnabled   |   Is Enabled   |      |   
+|                         |  miscInfoText   |   Misc Info Text   |      |   
 
 <!-- type: tab-end -->
-
 
 ### hcAccel
 
@@ -1625,19 +1555,17 @@ tags: [hcAccel]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   PIN_ONLY   |   
-|                         |                         |                         |   YES   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   YES   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_ONLY   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   YES   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   YES   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 
 <!-- type: tab-end -->
-
 
 ### hcAffn
 
@@ -1656,19 +1584,17 @@ tags: [hcAffn]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   PINLESS   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   YES   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   YES   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   YES   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   YES   |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 
 <!-- type: tab-end -->
-
 
 ### hcAth
 
@@ -1687,19 +1613,17 @@ tags: [hcAth]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   PIN_ONLY   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   YES   |   
-|                         |                         |                         |   PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   YES   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_ONLY   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   YES   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   YES   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 
 <!-- type: tab-end -->
-
 
 ### hcAts
 
@@ -1718,19 +1642,17 @@ tags: [hcAts]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   YES   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   YES   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 
 <!-- type: tab-end -->
-
 
 ### hcCu24
 
@@ -1749,19 +1671,17 @@ tags: [hcCu24]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   PINLESS   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   YES   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   YES   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   YES   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 
 <!-- type: tab-end -->
-
 
 ### hcInterlink
 
@@ -1780,19 +1700,17 @@ tags: [hcInterlink]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   YES   |   
-|                         |                         |                         |   PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   YES   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   PINLESS   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   YES   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   YES   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 
 <!-- type: tab-end -->
-
 
 ### hcJeanie
 
@@ -1811,19 +1729,17 @@ tags: [hcJeanie]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   YES   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_ONLY   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   YES   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   YES   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 
 <!-- type: tab-end -->
-
 
 ### hcMaestro
 
@@ -1842,19 +1758,17 @@ tags: [hcMaestro]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   YES   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   YES   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   YES   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 
 <!-- type: tab-end -->
-
 
 ### hcNyce
 
@@ -1873,19 +1787,17 @@ tags: [hcNyce]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   YES   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   YES   |   
-|                         |                         |                         |   PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   YES   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 
 <!-- type: tab-end -->
-
 
 ### hcPulse
 
@@ -1904,19 +1816,17 @@ tags: [hcPulse]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   PIN_ONLY   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   YES   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   YES   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   PINLESS   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   YES   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   YES   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 
 <!-- type: tab-end -->
-
 
 ### hcShazam
 
@@ -1935,19 +1845,15 @@ tags: [hcShazam]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   PINLESS   |   
-|                         |                         |                         |   YES   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   YES   |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_ONLY   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   YES   |   
-|                         |                         |                         |   PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   YES   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### hcStarEast
 
@@ -1966,19 +1872,15 @@ tags: [hcStarEast]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   PIN_ONLY   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   YES   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   YES   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   YES   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   YES   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### hcStarNortheast
 
@@ -1997,19 +1899,15 @@ tags: [hcStarNortheast]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   PINLESS   |   
-|                         |                         |                         |   YES   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   YES   |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   YES   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### hcStarWest
 
@@ -2028,19 +1926,15 @@ tags: [hcStarWest]
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
 | ENTLDBTEDS   | healthcare   |   Healthcare   |   YES   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
 | ENTLDBTGTW   | healthcare   |   Healthcare   |   YES   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### incomm
 
@@ -2058,13 +1952,9 @@ tags: [incomm]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### jet
 
@@ -2082,13 +1972,9 @@ tags: [jet]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### lcrBillPayment
 
@@ -2106,15 +1992,11 @@ tags: [lcrBillPayment]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLDBTEDS   |                         |                         |      |   
-|                         | pinEntryMethods   |   Pin Entry Methods   |   YES   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   PIN_ONLY   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-
-
-<!-- type: tab-end -->
-
+| ENTLDBTEDS   |    |                               |      |   
+|                         |  pinEntryMethods   |   Pin Entry Methods   |   YES   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   PIN_ONLY   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   <!-- type: tab-end -->
 
 ### lsn
 
@@ -2132,13 +2014,9 @@ tags: [lsn]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### mondex
 
@@ -2156,13 +2034,9 @@ tags: [mondex]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### moneyTransfers
 
@@ -2180,15 +2054,11 @@ tags: [moneyTransfers]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLDBTEDS   |                         |                         |      |   
-|                         | pinEntryMethods   |   Pin Entry Methods   |   PINLESS   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   YES   |   
-|                         |                         |                         |   PIN_ONLY   |   
-
-
-<!-- type: tab-end -->
-
+| ENTLDBTEDS   |    |                               |      |   
+|                         |  pinEntryMethods   |   Pin Entry Methods   |   PINLESS   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   YES   |   
+|                         |                                         |                                      |   PIN_ONLY   |   <!-- type: tab-end -->
 
 ### nearRealTimeMessaging
 
@@ -2206,13 +2076,9 @@ tags: [nearRealTimeMessaging]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### paypalOptOutReason
 
@@ -2230,17 +2096,13 @@ tags: [paypalOptOutReason]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLDISC   | effectiveDate   |   Effective Date   |                         |   
-|                         | reasonCode   |   Opt Out Reason Code   |   NOT_INTERESTED   |   
-|                         |                         |                         |   OTHER   |   
-|                         |                         |                         |   RATE_CONCERNS   |   
-|                         |                         |                         |   NOT_SOLICITED   |   
-|                         |                         |                         |   PREV_BAN_EXPERIENCE   |   
-|                         |                         |                         |   NOT_ELIGIBLE   |   
-
-
-<!-- type: tab-end -->
-
+| ENTLDISC   | effectiveDate   |   Effective Date   |                               |   
+|                         |  reasonCode   |   Opt Out Reason Code   |   NOT_INTERESTED   |   
+|                         |                                         |                                      |   OTHER   |   
+|                         |                                         |                                      |   RATE_CONCERNS   |   
+|                         |                                         |                                      |   NOT_SOLICITED   |   
+|                         |                                         |                                      |   PREV_BAN_EXPERIENCE   |   
+|                         |                                         |                                      |   NOT_ELIGIBLE   |   <!-- type: tab-end -->
 
 ### pos
 
@@ -2258,15 +2120,11 @@ tags: [pos]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLDBTEDS   | miscInfoText   |   Misc Info Text   |                         |   
-|                         | pinEntryMethods   |   Pin Entry Methods   |   PIN_ONLY   |   
-|                         |                         |                         |   PINLESS   |   
-|                         |                         |                         |   PIN_AND_PINLESS   |   
-|                         |                         |                         |   YES   |   
-
-
-<!-- type: tab-end -->
-
+| ENTLDBTEDS   | miscInfoText   |   Misc Info Text   |                               |   
+|                         |  pinEntryMethods   |   Pin Entry Methods   |   PIN_ONLY   |   
+|                         |                                         |                                      |   PINLESS   |   
+|                         |                                         |                                      |   PIN_AND_PINLESS   |   
+|                         |                                         |                                      |   YES   |   <!-- type: tab-end -->
 
 ### premiumPrepaid
 
@@ -2284,14 +2142,10 @@ tags: [premiumPrepaid]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-|                         | serviceEntlNumber   |   Service Entl Number   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
+|                         |  serviceEntlNumber   |   Service Entl Number   |                               |   <!-- type: tab-end -->
 
 ### robertMorrisCollege
 
@@ -2309,13 +2163,9 @@ tags: [robertMorrisCollege]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### settlementSwitch
 
@@ -2333,13 +2183,9 @@ tags: [settlementSwitch]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### specialProgramIndicators
 
@@ -2357,47 +2203,43 @@ tags: [specialProgramIndicators]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLAMEXMA   | chase   |   Chase   |                         |   
-|                         | chaseNet   |   Chase Net   |                         |   
-| ENTLAMEXOB   | amexMarketing   |   Amex Marketing   |                         |   
-|                         | walmartKotak   |   Walmart Kotak   |                         |   
-| ENTLAMEXPT   | amexFranchise   |   Amex Franchise   |                         |   
-|                         | walmartKotak   |   Walmart Kotak   |                         |   
-| ENTLDBTMA   | chase   |   Chase   |                         |   
-|                         | chaseNet   |   Chase Net   |                         |   
-| ENTLDINER   | walmartKotak   |   Walmart Kotak   |                         |   
-| ENTLDISC   | upi   |   Upi   |                         |   
-|                         | walmartKotak   |   Walmart Kotak   |                         |   
-| ENTLDISCMA   | chase   |   Chase   |                         |   
-|                         | chaseNet   |   Chase Net   |                         |   
-| ENTLFNDSV   | duguesneUniv   |   Duguesne Univ   |                         |   
-|                         | mondex   |   Mondex   |                         |   
-|                         | robertMorrisCollege   |   Robert Morris College   |                         |   
-|                         | univofPenn   |   Univof Penn   |                         |   
-|                         | valueLink   |   Value Link   |                         |   
-|                         | visaCash   |   Visa Cash   |                         |   
-| ENTLJCB   | walmartKotak   |   Walmart Kotak   |                         |   
-| ENTLMC   | canadaDebit   |   Canada Debit   |                         |   
-|                         | dicksSporting   |   Dicks Sporting   |                         |   
-|                         | lbrandss   |   Lbrandss   |                         |   
-|                         | toysUs   |   Toys Us   |                         |   
-|                         | walmartKotak   |   Walmart Kotak   |                         |   
-| ENTLMCMA   | chase   |   Chase   |                         |   
-|                         | chaseNet   |   Chase Net   |                         |   
-| ENTLPVTLBL   | syncronyPL   |   Syncrony PL   |                         |   
-|                         | walmartBusiness   |   Walmart Business   |                         |   
-|                         | walmartCobranded   |   Walmart Cobranded   |                         |   
-|                         | walmartCommercial   |   Walmart Commercial   |                         |   
-|                         | walmartSamsClub   |   Walmart SamsClub   |                         |   
-| ENTLSIGDBT   | star   |   Star   |                         |   
-| ENTLVI   | visaAEO   |   visa AEO   |                         |   
-|                         | walmartKotak   |   Walmart Kotak   |                         |   
-| ENTLVIMA   | chase   |   Chase   |                         |   
-|                         | chaseNet   |   Chase Net   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLAMEXMA   | chase   |   Chase   |                               |   
+|                         |  chaseNet   |   Chase Net   |                               |   
+| ENTLAMEXOB   | amexMarketing   |   Amex Marketing   |                               |   
+|                         |  walmartKotak   |   Walmart Kotak   |                               |   
+| ENTLAMEXPT   | amexFranchise   |   Amex Franchise   |                               |   
+|                         |  walmartKotak   |   Walmart Kotak   |                               |   
+| ENTLDBTMA   | chase   |   Chase   |                               |   
+|                         |  chaseNet   |   Chase Net   |                               |   
+| ENTLDINER   | walmartKotak   |   Walmart Kotak   |                               |   
+| ENTLDISC   | upi   |   Upi   |                               |   
+|                         |  walmartKotak   |   Walmart Kotak   |                               |   
+| ENTLDISCMA   | chase   |   Chase   |                               |   
+|                         |  chaseNet   |   Chase Net   |                               |   
+| ENTLFNDSV   | duguesneUniv   |   Duguesne Univ   |                               |   
+|                         |  mondex   |   Mondex   |                               |   
+|                         |  robertMorrisCollege   |   Robert Morris College   |                               |   
+|                         |  univofPenn   |   Univof Penn   |                               |   
+|                         |  valueLink   |   Value Link   |                               |   
+|                         |  visaCash   |   Visa Cash   |                               |   
+| ENTLJCB   | walmartKotak   |   Walmart Kotak   |                               |   
+| ENTLMC   | canadaDebit   |   Canada Debit   |                               |   
+|                         |  dicksSporting   |   Dicks Sporting   |                               |   
+|                         |  lbrandss   |   Lbrandss   |                               |   
+|                         |  toysUs   |   Toys Us   |                               |   
+|                         |  walmartKotak   |   Walmart Kotak   |                               |   
+| ENTLMCMA   | chase   |   Chase   |                               |   
+|                         |  chaseNet   |   Chase Net   |                               |   
+| ENTLPVTLBL   | syncronyPL   |   Syncrony PL   |                               |   
+|                         |  walmartBusiness   |   Walmart Business   |                               |   
+|                         |  walmartCobranded   |   Walmart Cobranded   |                               |   
+|                         |  walmartCommercial   |   Walmart Commercial   |                               |   
+|                         |  walmartSamsClub   |   Walmart SamsClub   |                               |   
+| ENTLSIGDBT   | star   |   Star   |                               |   
+| ENTLVI   | visaAEO   |   visa AEO   |                               |   
+|                         |  walmartKotak   |   Walmart Kotak   |                               |   
+| ENTLVIMA   | chase   |   Chase   |                               |   
+|                         |  chaseNet   |   Chase Net   |                               |   <!-- type: tab-end -->
 
 ### standardGCMisc
 
@@ -2415,13 +2257,9 @@ tags: [standardGCMisc]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### standardGCProject
 
@@ -2439,13 +2277,9 @@ tags: [standardGCProject]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### standardGCReport
 
@@ -2463,13 +2297,9 @@ tags: [standardGCReport]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### univofPenn
 
@@ -2487,14 +2317,10 @@ tags: [univofPenn]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-|                         | serviceEntlNumber   |   Service Entl Number   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   
+|                         |  serviceEntlNumber   |   Service Entl Number   |                               |   <!-- type: tab-end -->
 
 ### valueLink
 
@@ -2512,13 +2338,9 @@ tags: [valueLink]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
-
-
-<!-- type: tab-end -->
-
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 ### visaCash
 
@@ -2536,8 +2358,8 @@ tags: [visaCash]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-|                         | effectiveDate   |   Effective Date   |                         |   
-|                         | isEnabled   |   Is Enabled   |                         |   
-|                         | miscInfoText   |   Misc Info Text   |                         |   
+| ENTLUFNDSV   | effectiveDate   |   Effective Date   |                               |   
+|                         |  isEnabled   |   Is Enabled   |                               |   
+|                         |  miscInfoText   |   Misc Info Text   |                               |   <!-- type: tab-end -->
 
 <!-- type: tab-end -->
