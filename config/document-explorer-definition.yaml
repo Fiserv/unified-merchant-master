@@ -44,9 +44,12 @@
     link: docs/specification/supportedPlatforms.md
 - sections:
   - title: Auditing
+    link: docs/specification/merchant/audit/merchantAuditing.md
     sections:
-    - title: Merchant Data Auditing
-      link: docs/specification/merchant/merchantAuditing.md
+    - title: Audit Info
+      link: docs/specification/merchant/audit/umm-audit-info.md
+    - title: Audit Additional Info
+      link: docs/specification/merchant/audit/umm-audit-additional-info.md
 - sections:
   - title: UMM Data Specification
     link: docs/specification/readMe.md

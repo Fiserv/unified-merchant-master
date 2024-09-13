@@ -116,4 +116,4 @@ featuredFeatures:
       - relatedDoc: 
         title: Merchant
         description: Merchant
-        link: /docs/specification/merchant/merchantAuditing.md
+        link: /docs/specification/merchant/audit/merchantAuditing.md
