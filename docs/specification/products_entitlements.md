@@ -5,9 +5,6 @@
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-
-<!-- type: tab -->
-
 ## List of Entitlements
 
 |  Value    |     Description |
