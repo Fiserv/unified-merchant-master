@@ -1992,8 +1992,7 @@ tags: [lcrBillPayment]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLDBTEDS   |    |                               |      |   
-|                         |  pinEntryMethods   |   Pin Entry Methods   |   YES   |   
+| ENTLDBTEDS           |  pinEntryMethods   |   Pin Entry Methods   |   YES   |   
 |                         |                                         |                                      |   PINLESS   |   
 |                         |                                         |                                      |   PIN_ONLY   |   
 |                         |                                         |                                      |   PIN_AND_PINLESS   |   <!-- type: tab-end -->
@@ -2054,8 +2053,7 @@ tags: [moneyTransfers]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLDBTEDS   |    |                               |      |   
-|                         |  pinEntryMethods   |   Pin Entry Methods   |   PINLESS   |   
+| ENTLDBTEDS   |  pinEntryMethods   |   Pin Entry Methods   |   PINLESS   |   
 |                         |                                         |                                      |   PIN_AND_PINLESS   |   
 |                         |                                         |                                      |   YES   |   
 |                         |                                         |                                      |   PIN_ONLY   |   <!-- type: tab-end -->
