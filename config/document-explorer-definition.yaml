@@ -31,48 +31,65 @@
 - sections:
   - title: Getting Started
     link: docs/getting-started.md
-    sections:
-    - title: Getting Access
-      link: docs/getting-access/umm-access.md
-      sections:
-      - title: API Access
-        link: docs/getting-access/api-access.md
-      - title: Snowflake Access
-        link: docs/getting-access/database-access.md
 - sections:
-    - title: UMM Merchant Data Specification
+  - title: Getting Access
+    link: docs/getting-access/umm-access.md
+    sections:
+    - title: API Access
+      link: docs/getting-access/api-access.md
+    - title: Snowflake Access
+      link: docs/getting-access/database-access.md
+- sections:
+  - title: Supported Backend Platforms
+    link: docs/specification/supportedPlatforms.md
+- sections:
+  - title: Auditing
+    sections:
+    - title: Merchant Data Auditing
+      link: docs/specification/merchant/merchantAuditing.md
+- sections:
+  - title: UMM Data Specification
+    link: docs/specification/readMe.md
+    sections:
+    - title: Merchant
+      link: docs/specification/merchant/merchant.md
       sections:
-        - title: Read Me
-          link: docs/specification/readMe.md
-        - title: Supported Backend Platforms
-          link: docs/specification/supportedPlatforms.md
-        - title: Merchant Data Auditing
-          link: docs/specification/merchant/merchantAuditing.md
-        - title: UMM Entities
-          sections:
-            - title: Merchant
-              link: docs/specification/merchant/merchant.md
-              sections:
-                - title: Owner
-                  link: docs/specification/merchant/MerchantOwner.md
-                - title: Bank Account
-                  link: docs/specification/merchant/MerchantBankAccount.md
-                - title: Address
-                  link: docs/specification/merchant/MerchantAddress.md
-                - title: Hierarchy
-                  link: docs/specification/merchant/MerchantHierarchy.md
-                - title: Xref
-                  link: docs/specification/merchant/Merchant_Xref.md
-                - title: Tax Additional Data (US)
-                  link: docs/specification/merchant/Tax_Adtnl_Data_US.md
-                - title: Business Information
-                  link: docs/specification/merchant/MerchantBusinessInformation.md
-                - title: Product
-                  link: docs/specification/merchant/merchantProduct.md
-                - title: Product Attribute
-                  link: docs/specification/merchant/ProductAttributes.md  
-                - title: Merchant Attributes
-                  link: docs/specification/merchant/merchantAttributes.md
+      - title: Owner
+        link: docs/specification/merchant/MerchantOwner.md
+      - title: Bank Account
+        link: docs/specification/merchant/MerchantBankAccount.md
+      - title: Address
+        link: docs/specification/merchant/MerchantAddress.md
+      - title: Hierarchy
+        link: docs/specification/merchant/MerchantHierarchy.md
+      - title: Xref
+        link: docs/specification/merchant/Merchant_Xref.md
+      - title: Tax Additional Data (US)
+        link: docs/specification/merchant/Tax_Adtnl_Data_US.md
+      - title: Business Information
+        link: docs/specification/merchant/MerchantBusinessInformation.md
+      - title: Attributes
+        link: docs/specification/merchant/merchantAttributes.md
+    - title: Product
+      link: docs/specification/merchant/merchantProduct.md
+      sections:
+      - title: Entitlements
+        link: docs/specification/products_entitlements.md
+      - title: Value Added Services
+        link: docs/specification/products_vas.md
+      - title: Fees
+        link: docs/specification/products_fees.md
+      - title: Equipment
+        link: docs/specification/products_equipments.md
+    - title: Product Attributes
+      link: docs/specification/merchant/ProductAttributes.md  
+      sections:
+      - title: Entitlements
+        link: docs/specification/merchant/prodAttributes_Entitlements.md
+      - title: Value Added Services
+        link: docs/specification/merchant/productAttributes_VAS.md
+      - title: Fees
+        link: docs/specification/merchant/productAttributes_fees.md
 - sections:
   - title: Release notes
     sections:
