@@ -1351,7 +1351,7 @@ tags: [disbursementssements]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLDBTEDS   |    |   Misc Info Text   |      |   
+| ENTLDBTEDS   | miscInfoText   |   Misc Info Text   |      |   
 |                         |  pinEntryMethods   |   Pin Entry Methods   |   YES   |   
 |                         |     |      |   PIN_AND_PINLESS   |   
 |                         |     |      |   PIN_ONLY   |   
@@ -1397,7 +1397,7 @@ tags: [ecommercerce]
 
 |   Product Code   | Attribute         | Description                   | UMM Value                  |
 |:---------------------|:---------------------|:--------------------------|:----------------------------------|
-| ENTLDBTEDS   |    |   Misc Info Text   |      |   
+| ENTLDBTEDS   | miscInfoText   |   Misc Info Text   |      |   
 |                         |  pinEntryMethods   |   Pin Entry Methods   |   PINLESS   |   
 |                         |     |      |   YES   |   
 |                         |     |      |   PIN_ONLY   |   
