@@ -70,26 +70,26 @@
         link: docs/specification/merchant/MerchantBusinessInformation.md
       - title: Attributes
         link: docs/specification/merchant/merchantAttributes.md
-  - title: Product
-    link: docs/specification/merchant/merchantProduct.md
-    sections:
-    - title: Entitlements
-      link: docs/specification/products_entitlements.md
-    - title: Value Added Services
-      link: docs/specification/products_vas.md
-    - title: Fees
-      link: docs/specification/products_fees.md
-    - title: Equipment
-      link: docs/specification/products_equipments.md
-  - title: Product Attributes
-    link: docs/specification/merchant/ProductAttributes.md  
-    sections:
-    - title: Entitlements
-      link: docs/specification/merchant/prodAttributes_Entitlements.md
-    - title: Value Added Services
-      link: docs/specification/merchant/productAttributes_VAS.md
-    - title: Fees
-      link: docs/specification/merchant/productAttributes_fees.md
+    - title: Product
+      link: docs/specification/merchant/merchantProduct.md
+      sections:
+      - title: Entitlements
+        link: docs/specification/products_entitlements.md
+      - title: Value Added Services
+        link: docs/specification/products_vas.md
+      - title: Fees
+        link: docs/specification/products_fees.md
+      - title: Equipment
+        link: docs/specification/products_equipments.md
+    - title: Product Attributes
+      link: docs/specification/merchant/ProductAttributes.md  
+      sections:
+      - title: Entitlements
+        link: docs/specification/merchant/prodAttributes_Entitlements.md
+      - title: Value Added Services
+        link: docs/specification/merchant/productAttributes_VAS.md
+      - title: Fees
+        link: docs/specification/merchant/productAttributes_fees.md
 - sections:
   - title: Release notes
     sections:
