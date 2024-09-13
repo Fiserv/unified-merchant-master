@@ -31,7 +31,7 @@ Each entity will provide a comprehensive list of all fields/columns it has , inc
 Moreover, each field will have tabs for UMM and specific backend , providing detailed information on the data type, restrictions, and allowable values for both UMM and the respective backend systems. For instance, the UMM tab will include allowable values specific to UMM, regardless of the backend system, while the backend-specific tab will list allowable values tailored to that particular backend. For instance, if a field can support values 'a' and 'b' for the North backend, and value 'C' for Omnipay GMA, UMM will list values 'a', 'b', and 'c' under the UMM tab. In contrast, the North backend tab will display values 'a' and 'b', while the GMA tab will list value 'C' only.
 
 
-Refer to UMM's [Auditing strategy](?path=docs/specification/merchant/merchantAuditing.md) for additional information.
+Refer to UMM's [Auditing strategy](?path=docs/specification/merchant/audit/merchantAuditing.md) for additional information.
 
 ## Entities
 
