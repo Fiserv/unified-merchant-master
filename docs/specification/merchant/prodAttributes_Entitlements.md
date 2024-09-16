@@ -2370,7 +2370,7 @@ titles: UMM, North, GMA
 
 tags: [accentIntermedia]
 
-* **List of Attributes**: Applicable for UMM, North and GMA
+* **List of Attributes**: Applicable for UMM and North
 
 <!-- type: tab 
 titles: UMM, North 
