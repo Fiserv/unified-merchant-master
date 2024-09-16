@@ -1,14 +1,14 @@
 # Product Attribute - Entitlements
 
-## List of Domains
-
-### entitlementAttr
-
-#### Operations listed for product attributes
+## Operations listed for product attributes under each domain
 
 | Inquiry         |   Create      |    Update  |  Delete  |
 |:---------------:|:-------------:|:----------:|:--------:|
 |    Available    |   Optional    |  Allowed   |  NA      |
+
+### List of Domains
+
+#### entitlementAttr
 
 ---
 
