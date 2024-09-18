@@ -8,6 +8,71 @@
 
 ### List of Domains
 
+#### ENTLAMEXMA
+
+* Product Code: ENTLAMEXMA
+* Product Description: American Express Multi Acquirer Entitlement
+* Attribute Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
+|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
+|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
+|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|entitlementAttr | effectiveDate | Effective Date| ||
+|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
+|entitlementAttr | mccCode | Merchant Category Code| ||
+|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
+|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
+|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|specialProgramIndicators | chase | Chase| ||
+|specialProgramIndicators | chaseNet | Chase Net| ||
+
+<!-- type: tab -->
+
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
+|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
+|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
+|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|entitlementAttr | effectiveDate | Effective Date| ||
+|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
+|entitlementAttr | mccCode | Merchant Category Code| ||
+|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
+|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
+|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|specialProgramIndicators | chase | Chase| ||
+|specialProgramIndicators | chaseNet | Chase Net| ||
+
+<!-- type: tab -->
+
+<!-- type: tab-end -->
+---
+
+
 #### entitlementAttr
 
 ---
