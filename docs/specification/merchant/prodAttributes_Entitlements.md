@@ -6,6 +6,7 @@
 |:---------------:|:-------------:|:----------:|:--------:|
 |    Available    |   Optional    |  Allowed   |  NA      |
 
+
 ## Alipay Eligibility Program
 
 * Product Code: `ENTLALIPAY`
@@ -24,6 +25,8 @@ titles: UMM, North, GMA
 |entitlementAttr | effectiveDate | Effective Date| ||
 |entitlementAttr | mccCode | Merchant Category Code| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | alipayOfferingType | Alipay Entitlement| ALIPAY_ELIGIBLE|ALIPAY_ELIGIBLE|
 |entitlementAttr | effectiveDate | Effective Date| ||
 |entitlementAttr | mccCode | Merchant Category Code| ||
@@ -101,6 +104,8 @@ titles: UMM, North, GMA
 |specialProgramIndicators | chase | Chase| ||
 |specialProgramIndicators | chaseNet | Chase Net| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | chase | Chase| ||
 |specialProgramIndicators | chaseNet | Chase Net| ||
 <!-- type: tab -->
@@ -285,6 +290,8 @@ titles: UMM, North, GMA
 |specialProgramIndicators | amexMarketing | Amex Marketing| ||
 |specialProgramIndicators | walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | amexMarketing | Amex Marketing| ||
 |specialProgramIndicators | walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
@@ -380,6 +387,8 @@ titles: UMM, North, GMA
 |specialProgramIndicators | amexFranchise | Amex Franchise| ||
 |specialProgramIndicators | walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | amexFranchise | Amex Franchise| ||
 |specialProgramIndicators | walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
@@ -420,6 +429,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
@@ -477,6 +488,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
@@ -517,6 +530,8 @@ titles: UMM, North, GMA
 |entitlementAttr | bentoBoxStatus | Bento Box Program Status| CANCEL|CANCEL|
 |entitlementAttr | bentoBoxStatus | Bento Box Program Status| ACTIVE|ACTIVE|
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | bentoBoxStatus | Bento Box Program Status| CANCEL|CANCEL|
 |entitlementAttr | bentoBoxStatus | Bento Box Program Status| ACTIVE|ACTIVE|
 <!-- type: tab -->
@@ -557,6 +572,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
@@ -614,6 +631,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
@@ -655,6 +674,8 @@ titles: UMM, North, GMA
 |entitlementAttr | clovergoStatus | Program Status for Clover Go| CANCEL|CANCEL|
 |entitlementAttr | clovergoStatus | Program Status for Clover Go| ACTIVE|ACTIVE|
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clovergoOfferingType | Offering Type for Clover Go| STANDARD_OFFERING|STANDARD_OFFERING|
 |entitlementAttr | clovergoStatus | Program Status for Clover Go| CANCEL|CANCEL|
 |entitlementAttr | clovergoStatus | Program Status for Clover Go| ACTIVE|ACTIVE|
@@ -680,6 +701,8 @@ titles: UMM, North, GMA
 |entitlementAttr | effectiveDate | Effective Date| ||
 |entitlementAttr | mccCode | Merchant Category Code| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | chinaUnionOfferingType | China Union Pay Entitlement| CUP_ELIGIBLE|CUP_ELIGIBLE|
 |entitlementAttr | effectiveDate | Effective Date| ||
 |entitlementAttr | mccCode | Merchant Category Code| ||
@@ -1210,6 +1233,8 @@ titles: UMM, North, GMA
 |pos | pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
 |pos | pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |pos | miscInfoText | Misc Info Text| ||
 |pos | pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
 |pos | pinEntryMethods | Pin Entry Methods| YES|VALUE|
@@ -1617,6 +1642,8 @@ titles: UMM, North, GMA
 |hcStarWest | healthcare | Healthcare| PINLESS|VALUE|
 |hcStarWest | miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |hcStarWest | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
 |hcStarWest | healthcare | Healthcare| YES|VALUE|
 |hcStarWest | healthcare | Healthcare| PIN_ONLY|VALUE|
@@ -1696,6 +1723,8 @@ titles: UMM, North, GMA
 |specialProgramIndicators | chase | Chase| ||
 |specialProgramIndicators | chaseNet | Chase Net| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | chase | Chase| ||
 |specialProgramIndicators | chaseNet | Chase Net| ||
 <!-- type: tab -->
@@ -1771,6 +1800,8 @@ titles: UMM, North, GMA
 |:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
@@ -1983,6 +2014,8 @@ titles: UMM, North, GMA
 |specialProgramIndicators | upi | Upi| ||
 |specialProgramIndicators | walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | upi | Upi| ||
 |specialProgramIndicators | walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
@@ -2059,6 +2092,8 @@ titles: UMM, North, GMA
 |specialProgramIndicators | chase | Chase| ||
 |specialProgramIndicators | chaseNet | Chase Net| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | chase | Chase| ||
 |specialProgramIndicators | chaseNet | Chase Net| ||
 <!-- type: tab -->
@@ -2099,6 +2134,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
@@ -2156,6 +2193,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
@@ -2213,6 +2252,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -2270,6 +2311,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
@@ -2327,6 +2370,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
@@ -2384,6 +2429,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -2441,6 +2488,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
@@ -2538,6 +2587,8 @@ titles: UMM, North, GMA
 |specialProgramIndicators | valueLink | Value Link| ||
 |specialProgramIndicators | visaCash | Visa Cash| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | duguesneUniv | Duguesne Univ| ||
 |specialProgramIndicators | mondex | Mondex| ||
 |specialProgramIndicators | robertMorrisCollege | Robert Morris College| ||
@@ -2582,6 +2633,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
@@ -2639,6 +2692,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
@@ -2696,6 +2751,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
@@ -2753,6 +2810,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -2810,6 +2869,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
@@ -2867,6 +2928,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
@@ -2907,6 +2970,8 @@ titles: UMM, North, GMA
 |entitlementAttr | interacContactStatus | Program Status for Interac Contact Entitlement| ACTIVE|ACTIVE|
 |entitlementAttr | interacContactStatus | Program Status for Interac Contact Entitlement| CANCEL|CANCEL|
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | interacContactStatus | Program Status for Interac Contact Entitlement| ACTIVE|ACTIVE|
 |entitlementAttr | interacContactStatus | Program Status for Interac Contact Entitlement| CANCEL|CANCEL|
 <!-- type: tab -->
@@ -2931,6 +2996,8 @@ titles: UMM, North, GMA
 |entitlementAttr | interacFlashStatus | Program Status for Interac Flash Entitlementg| ACTIVE|ACTIVE|
 |entitlementAttr | interacFlashStatus | Program Status for Interac Flash Entitlementg| CANCEL|CANCEL|
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | interacFlashMVV | MVV for Interac Flash Entitlement| ||
 |entitlementAttr | interacFlashStatus | Program Status for Interac Flash Entitlementg| ACTIVE|ACTIVE|
 |entitlementAttr | interacFlashStatus | Program Status for Interac Flash Entitlementg| CANCEL|CANCEL|
@@ -2955,6 +3022,8 @@ titles: UMM, North, GMA
 |entitlementAttr | interacInAppStatus | Program Status for Interac In App Entitlement| CANCEL|CANCEL|
 |entitlementAttr | interacInAppStatus | Program Status for Interac In App Entitlement| ACTIVE|ACTIVE|
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | interacInAppStatus | Program Status for Interac In App Entitlement| CANCEL|CANCEL|
 |entitlementAttr | interacInAppStatus | Program Status for Interac In App Entitlement| ACTIVE|ACTIVE|
 <!-- type: tab -->
@@ -2995,6 +3064,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
@@ -3052,6 +3123,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -3144,6 +3217,8 @@ titles: UMM, North, GMA
 |:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
@@ -3183,6 +3258,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
@@ -3387,6 +3464,8 @@ titles: UMM, North, GMA
 |specialProgramIndicators | toysUs | Toys Us| ||
 |specialProgramIndicators | walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | canadaDebit | Canada Debit| ||
 |specialProgramIndicators | dicksSporting | Dicks Sporting| ||
 |specialProgramIndicators | lbrandss | Lbrandss| ||
@@ -3466,6 +3545,8 @@ titles: UMM, North, GMA
 |specialProgramIndicators | chase | Chase| ||
 |specialProgramIndicators | chaseNet | Chase Net| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | chase | Chase| ||
 |specialProgramIndicators | chaseNet | Chase Net| ||
 <!-- type: tab -->
@@ -3506,6 +3587,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -3563,6 +3646,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -3620,6 +3705,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
@@ -3660,6 +3747,8 @@ titles: UMM, North, GMA
 |entitlementAttr | paypalEnblOfferingType | offering Type for Paypal Enablement for Discover| ELIGIBLE|ELIGIBLE|
 |entitlementAttr | paypalEnblOfferingType | offering Type for Paypal Enablement for Discover| NOT_ELIGIBLE_ACQ_ON|NOT_ELIGIBLE_ACQ_ON|
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | paypalEnblOfferingType | offering Type for Paypal Enablement for Discover| ELIGIBLE|ELIGIBLE|
 |entitlementAttr | paypalEnblOfferingType | offering Type for Paypal Enablement for Discover| NOT_ELIGIBLE_ACQ_ON|NOT_ELIGIBLE_ACQ_ON|
 <!-- type: tab -->
@@ -3694,6 +3783,8 @@ titles: UMM, North, GMA
 |entitlementAttr | paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| INITIATED|INITIATED|
 |entitlementAttr | paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| FAILED|FAILED|
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | paypalVenmoErrorMessage | Paypal/Venmo Error Message| ||
 |entitlementAttr | paypalVenmoLatitude | Paypal/Venmo Latitude for Merchant Location| ||
 |entitlementAttr | paypalVenmoLocationID | Paypal/Venmo Location ID| ||
@@ -3728,6 +3819,8 @@ titles: UMM, North, GMA
 |entitlementAttr | effectiveDate | Effective Date| ||
 |entitlementAttr | mccCode | Merchant Category Code| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | effectiveDate | Effective Date| ||
 |entitlementAttr | mccCode | Merchant Category Code| ||
 <!-- type: tab -->
@@ -3768,6 +3861,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
@@ -3864,6 +3959,8 @@ titles: UMM, North, GMA
 |specialProgramIndicators | walmartCommercial | Walmart Commercial| ||
 |specialProgramIndicators | walmartSamsClub | Walmart SamsClub| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | syncronyPL | Syncrony PL| ||
 |specialProgramIndicators | walmartBusiness | Walmart Business| ||
 |specialProgramIndicators | walmartCobranded | Walmart Cobranded| ||
@@ -3942,6 +4039,8 @@ titles: UMM, North, GMA
 |:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | star | Star| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | star | Star| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
@@ -3981,6 +4080,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -4115,6 +4216,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
@@ -4172,6 +4275,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -4776,6 +4881,8 @@ titles: UMM, North, GMA
 |visaCash | isEnabled | Is Enabled| ||
 |visaCash | miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |visaCash | effectiveDate | Effective Date| ||
 |visaCash | isEnabled | Is Enabled| ||
 |visaCash | miscInfoText | Misc Info Text| ||
@@ -4800,6 +4907,8 @@ titles: UMM, North, GMA
 |entitlementAttr | upiCreditStatus | Program Status for UPI Credit Entitlement| CANCEL|CANCEL|
 |entitlementAttr | upiCreditStatus | Program Status for UPI Credit Entitlement| ACTIVE|ACTIVE|
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | upiCreditStatus | Program Status for UPI Credit Entitlement| CANCEL|CANCEL|
 |entitlementAttr | upiCreditStatus | Program Status for UPI Credit Entitlement| ACTIVE|ACTIVE|
 <!-- type: tab -->
@@ -4823,6 +4932,8 @@ titles: UMM, North, GMA
 |entitlementAttr | upiDebitStatus | Program Status for UPI Debit Entitlement| CANCEL|CANCEL|
 |entitlementAttr | upiDebitStatus | Program Status for UPI Debit Entitlement| ACTIVE|ACTIVE|
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | upiDebitStatus | Program Status for UPI Debit Entitlement| CANCEL|CANCEL|
 |entitlementAttr | upiDebitStatus | Program Status for UPI Debit Entitlement| ACTIVE|ACTIVE|
 <!-- type: tab -->
@@ -4845,6 +4956,8 @@ titles: UMM, North, GMA
 |:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | valuelinkSeNumber | Value Link SE Number| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | valuelinkSeNumber | Value Link SE Number| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
@@ -4869,6 +4982,8 @@ titles: UMM, North, GMA
 |entitlementAttr | gyftStatus | Program Status for GYFT| ACTIVE|ACTIVE|
 |entitlementAttr | gyftStatus | Program Status for GYFT| CANCEL|CANCEL|
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | gyftBillingMethod | Billing Method for GYFT| CLOVER|CLOVER|
 |entitlementAttr | gyftBillingMethod | Billing Method for GYFT| VALUELINK|VALUELINK|
 |entitlementAttr | gyftStatus | Program Status for GYFT| ACTIVE|ACTIVE|
@@ -5055,6 +5170,8 @@ titles: UMM, North, GMA
 |specialProgramIndicators | visaAEO | visa AEO| ||
 |specialProgramIndicators | walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | visaAEO | visa AEO| ||
 |specialProgramIndicators | walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
@@ -5131,6 +5248,8 @@ titles: UMM, North, GMA
 |specialProgramIndicators | chase | Chase| ||
 |specialProgramIndicators | chaseNet | Chase Net| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |specialProgramIndicators | chase | Chase| ||
 |specialProgramIndicators | chaseNet | Chase Net| ||
 <!-- type: tab -->
@@ -5171,6 +5290,8 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
 |entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
@@ -5211,6 +5332,8 @@ titles: UMM, North, GMA
 |entitlementAttr | effectiveDate | Effective Date| ||
 |entitlementAttr | mccCode | Merchant Category Code| ||
 <!-- type: tab -->
+|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |entitlementAttr | effectiveDate | Effective Date| ||
 |entitlementAttr | mccCode | Merchant Category Code| ||
 <!-- type: tab -->
