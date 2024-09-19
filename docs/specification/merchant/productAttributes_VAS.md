@@ -3,11 +3,13 @@
 ## List of Products
 
 
-
-### Advertising Insights
+## Advertising Insights
 
 * Product Code: `VASADVINS`
 * Product Description: Advertising Insights
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -30,10 +32,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### BP Mobile Program
+## BP Mobile Program
 
 * Product Code: `VASBPMOB`
 * Product Description: BP Mobile Program
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -68,10 +73,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Cash Advance Product
+## Cash Advance Product
 
 * Product Code: `VASCASHADV`
 * Product Description: Cash Advance Product
+
+### cashAdvance
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -158,10 +166,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Debit Term ID
+## Debit Term ID
 
 * Product Code: `VASDBTTERMID`
 * Product Description: Debit Term ID
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -180,10 +191,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### DISCOVER DEBIT ACCEPTANCE - DEBT REPAYMENT
+## DISCOVER DEBIT ACCEPTANCE - DEBT REPAYMENT
 
 * Product Code: `VASDISCDBTACP`
 * Product Description: DISCOVER DEBIT ACCEPTANCE - DEBT REPAYMENT
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -204,10 +218,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### DISCOVER INCREMENTAL AUTHORIZATION - IRAM INDICATOR
+## DISCOVER INCREMENTAL AUTHORIZATION - IRAM INDICATOR
 
 * Product Code: `VASDISCINCAUTH`
 * Product Description: DISCOVER INCREMENTAL AUTHORIZATION - IRAM INDICATOR
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -228,10 +245,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### DISCOVER PROMOTIONAL PROGRAM VERIFICATION IDENTIFIER
+## DISCOVER PROMOTIONAL PROGRAM VERIFICATION IDENTIFIER
 
 * Product Code: `VASDISCPROMPRG`
 * Product Description: DISCOVER PROMOTIONAL PROGRAM VERIFICATION IDENTIFIER
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -260,10 +280,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### EMV Campaign
+## EMV Campaign
 
 * Product Code: `VASEMVCMP`
 * Product Description: EMV Campaign
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -290,10 +313,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### EMV Enablement
+## EMV Enablement
 
 * Product Code: `VASEMVENB`
 * Product Description: EMV Enablement
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -312,10 +338,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Enterprise Insights
+## Enterprise Insights
 
 * Product Code: `VASENTINS`
 * Product Description: Enterprise Insights
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -338,10 +367,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Enterprise Insights Bench
+## Enterprise Insights Bench
 
 * Product Code: `VASENTINSB`
 * Product Description: Enterprise Insights Bench
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -364,10 +396,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Enterprise Insights Demographic
+## Enterprise Insights Demographic
 
 * Product Code: `VASENTINSD`
 * Product Description: Enterprise Insights Demographic
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -390,10 +425,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Enterprise Insights Lobby
+## Enterprise Insights Lobby
 
 * Product Code: `VASENTINSL`
 * Product Description: Enterprise Insights Lobby
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -416,10 +454,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Fraud Detect
+## Fraud Detect
 
 * Product Code: `VASFRDDTCT`
 * Product Description: Fraud Detect
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -464,10 +505,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Fraud Flex Detect
+## Fraud Flex Detect
 
 * Product Code: `VASFRDFLX`
 * Product Description: Fraud Flex Detect
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -490,10 +534,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### GBS POS Installments
+## GBS POS Installments
 
 * Product Code: `VASGBSPOSINS`
 * Product Description: GBS POS Installments
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -554,10 +601,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### LCR Debit Flag Optional
+## LCR Debit Flag Optional
 
 * Product Code: `VASLCRDBT`
 * Product Description: LCR Debit Flag Optional
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -576,10 +626,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### LCR Fall Back
+## LCR Fall Back
 
 * Product Code: `VASLCRFB`
 * Product Description: LCR Fall Back
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -598,10 +651,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Lease Product
+## Lease Product
 
 * Product Code: `VASLEASE`
 * Product Description: Lease Product
+
+### lease
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -868,10 +924,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### MASTERCARD MONEYSEND
+## MASTERCARD MONEYSEND
 
 * Product Code: `VASMCMONEYSEND`
 * Product Description: MASTERCARD MONEYSEND
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -930,10 +989,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Merchant Surcharge Program
+## Merchant Surcharge Program
 
 * Product Code: `VASMERSRCH`
 * Product Description: Merchant Surcharge Program
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -976,10 +1038,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Masterpass Digital Wallet
+## Masterpass Digital Wallet
 
 * Product Code: `VASMSTPWLT`
 * Product Description: Masterpass Digital Wallet
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1000,10 +1065,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Small Medium Businesses Analytics
+## Small Medium Businesses Analytics
 
 * Product Code: `VASMSTTIST`
 * Product Description: Small Medium Businesses Analytics
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1056,10 +1124,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Network Tokens
+## Network Tokens
 
 * Product Code: `VASNTWKTKN`
 * Product Description: Network Tokens
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1104,10 +1175,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Payeezy
+## Payeezy
 
 * Product Code: `VASPAYEEZY`
 * Product Description: Payeezy
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1138,10 +1212,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Personal Data Protection
+## Personal Data Protection
 
 * Product Code: `VASPDATAPRT`
 * Product Description: Personal Data Protection
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1164,10 +1241,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Perka Is A Mobile Loyalty Application
+## Perka Is A Mobile Loyalty Application
 
 * Product Code: `VASPERKA`
 * Product Description: Perka Is A Mobile Loyalty Application
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1208,10 +1288,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### PINLESS ECOMM DEBIT
+## PINLESS ECOMM DEBIT
 
 * Product Code: `VASPINLESSECOM`
 * Product Description: PINLESS ECOMM DEBIT
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1230,10 +1313,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Sams Plus Membership Program
+## Sams Plus Membership Program
 
 * Product Code: `VASSAMSPLS`
 * Product Description: Sams Plus Membership Program
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1264,10 +1350,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Transarmor P2PE
+## Transarmor P2PE
 
 * Product Code: `VASTAP2PE`
 * Product Description: Transarmor P2PE
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1310,10 +1399,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### TELECHECK CP ENTITLEMENT
+## TELECHECK CP ENTITLEMENT
 
 * Product Code: `VASTCKCP`
 * Product Description: TELECHECK CP ENTITLEMENT
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1340,10 +1432,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Tempus
+## Tempus
 
 * Product Code: `VASTEMPUS`
 * Product Description: Tempus
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1362,10 +1457,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Transarmor Token File
+## Transarmor Token File
 
 * Product Code: `VASTRNSARM`
 * Product Description: Transarmor Token File
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1438,10 +1536,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Transactions Insights
+## Transactions Insights
 
 * Product Code: `VASTXNINS`
 * Product Description: Transactions Insights
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1464,10 +1565,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Veterans Program
+## Veterans Program
 
 * Product Code: `VASVETPRG`
 * Product Description: Veterans Program
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1488,10 +1592,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### VISA ACCOUNT FUNDING TRANSACTION
+## VISA ACCOUNT FUNDING TRANSACTION
 
 * Product Code: `VASVISAACTFNDTRX`
 * Product Description: VISA ACCOUNT FUNDING TRANSACTION
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1528,10 +1635,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### VISA ACCOUNT UPDATER
+## VISA ACCOUNT UPDATER
 
 * Product Code: `VASVISAACTUPD`
 * Product Description: VISA ACCOUNT UPDATER
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1550,10 +1660,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### VISA CHECKOUT
+## VISA CHECKOUT
 
 * Product Code: `VASVISACHKOUT`
 * Product Description: VISA CHECKOUT
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1572,10 +1685,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### VISA OCT
+## VISA OCT
 
 * Product Code: `VASVISAOCT`
 * Product Description: VISA OCT
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1626,10 +1742,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### VRU Services
+## VRU Services
 
 * Product Code: `VASVRUSRV`
 * Product Description: VRU Services
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1654,10 +1773,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Wells Statement And Notice Preferences
+## Wells Statement And Notice Preferences
 
 * Product Code: `VASWELLSP`
 * Product Description: Wells Statement And Notice Preferences
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1686,10 +1808,13 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-### Wisely Entitlement
+## Wisely Entitlement
 
 * Product Code: `VASWSLENT`
 * Product Description: Wisely Entitlement
+
+### serviceAttr
+
 * Attribute Specification:
 
 <!-- type: tab 
@@ -1706,5 +1831,4 @@ titles: UMM, North, GMA
 |serviceAttr | merchantIdentifier | Merchant Identifier for Wisely Entitlement| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 ---
