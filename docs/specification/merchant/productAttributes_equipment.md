@@ -2,7 +2,7 @@
 
 ## List of Equipment  product - Attributes 
 
-* Product Code: Any Fee Product  [Supported Fee Product List ](?path=docs/specification/products_equipments.md)
+* Product Code: Any Fee Product  [Supported Equipment Product List ](?path=docs/specification/products_equipments.md)
 
 ### equipmentFeatures
 
