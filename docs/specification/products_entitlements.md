@@ -8,7 +8,7 @@ titles: UMM, North, GMA
 
 |  Value    |     Description |
 |-----------|:----------------:|
-| ENTLVI | Visa Entitlement |
+| [ENTLVI](?path=docs/specification/merchant/prodAttributes_Entitlements.md#visa-entitlement) | Visa Entitlement |
 | ENTLPVTLBL | Private Label Multicard Entitlement |
 | ENTLAMEXPT | Amex Pass Through Entitlement |
 | ENTLJCB | Jcb Entitlement |
