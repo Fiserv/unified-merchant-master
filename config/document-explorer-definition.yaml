@@ -93,6 +93,8 @@
         link: docs/specification/merchant/productAttributes_VAS.md
       - title: Fees
         link: docs/specification/merchant/productAttributes_fees.md
+      - title: Equipment
+        link: docs/specification/merchant/productAttributes_equipment.md        
 - sections:
   - title: Release notes
     sections:
