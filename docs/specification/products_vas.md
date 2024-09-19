@@ -29,30 +29,29 @@ titles: UMM, North, GMA
 |VASLCRDBT|LCR Debit Flag Optional|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#lcr-debit-flag-optional)|
 |VASLCRFB|LCR Fall Back|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#lcr-fall-back)|
 |VASLEASE|Lease Product|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#lease-product)|
-|VASMCMONEYSEND|MASTERCARD MONEYSEND|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#mastercard-moneysend)|
-|VASMERSRCH|Merchant Surcharge Program|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#merchant-surcharge-program)|
-|VASMSTPWLT|Masterpass Digital Wallet|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#masterpass-digital-wallet)|
-|VASMSTTIST|Small Medium Businesses Analytics|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#small-medium-businesses-analytics)|
-|VASNTWKTKN|Network Tokens|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#network-tokens)|
-|VASPAYEEZY|Payeezy|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#payeezy)|
-|VASPDATAPRT|Personal Data Protection|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#personal-data-protection)|
-|VASPERKA|Perka Is A Mobile Loyalty Application|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#perka-is-a-mobile-loyalty-application)|
-|VASPINLESSECOM|PINLESS ECOMM DEBIT|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#pinless-ecomm-debit)|
-|VASSAMSPLS|Sams Plus Membership Program|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#sams-plus-membership-program)|
-|VASTAP2PE|Transarmor P2PE|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#transarmor-p2pe)|
-|VASTCKCP|TELECHECK CP ENTITLEMENT|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#telecheck-cp-entitlement)|
-|VASTEMPUS|Tempus|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#tempus)|
-|VASTRNSARM|Transarmor Token|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#transarmor-token-file)|
-|VASTXNINS|Transactions Insights|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#transactions-insights)|
-|VASVETPRG|Veterans Program|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#veterans-program)|
-|VASVISAACTFNDTRX|VISA ACCOUNT FUNDING TRANSACTION|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#visa-account-funding-transaction)|
-|VASVISAACTUPD|VISA ACCOUNT UPDATER|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#visa-account-updater)|
-|VASVISACHKOUT|VISA CHECKOUT|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#visa-checkout)|
-|VASVISAOCT|VISA OCT|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#visa-oct)|
-|VASVRUSRV|VRU Services|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#vru-services)|
-|VASWELLSP|Wells Statement And Notice Preferences|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#wells-statement-and-notice-preferences)|
-|VASWSLENT|Wisely Entitlement|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#wisely-entitlement)|
-
+|VASMCMONEYSEND|MASTERCARD MONEYSEND|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#mastercard-moneysend)|
+|VASMERSRCH|Merchant Surcharge Program|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#merchant-surcharge-program)|
+|VASMSTPWLT|Masterpass Digital Wallet|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#masterpass-digital-wallet)|
+|VASMSTTIST|Small Medium Businesses Analytics|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#small-medium-businesses-analytics)|
+|VASNTWKTKN|Network Tokens|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#network-tokens)|
+|VASPAYEEZY|Payeezy|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#payeezy)|
+|VASPDATAPRT|Personal Data Protection|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#personal-data-protection)|
+|VASPERKA|Perka Is A Mobile Loyalty Application|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#perka-is-a-mobile-loyalty-application)|
+|VASPINLESSECOM|PINLESS ECOMM DEBIT|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#pinless-ecomm-debit)|
+|VASSAMSPLS|Sams Plus Membership Program|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#sams-plus-membership-program)|
+|VASTAP2PE|Transarmor P2PE|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#transarmor-p2pe)|
+|VASTCKCP|TELECHECK CP ENTITLEMENT|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#telecheck-cp-entitlement)|
+|VASTEMPUS|Tempus|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#tempus)|
+|VASTRNSARM|Transarmor Token|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#transarmor-token-file)|
+|VASTXNINS|Transactions Insights|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#transactions-insights)|
+|VASVETPRG|Veterans Program|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#veterans-program)|
+|VASVISAACTFNDTRX|VISA ACCOUNT FUNDING TRANSACTION|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#visa-account-funding-transaction)|
+|VASVISAACTUPD|VISA ACCOUNT UPDATER|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#visa-account-updater)|
+|VASVISACHKOUT|VISA CHECKOUT|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#visa-checkout)|
+|VASVISAOCT|VISA OCT|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#visa-oct)|
+|VASVRUSRV|VRU Services|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#vru-services)|
+|VASWELLSP|Wells Statement And Notice Preferences|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#wells-statement-and-notice-preferences)|
+|VASWSLENT|Wisely Entitlement|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#wisely-entitlement)|
 
 <!-- type: tab -->
 ## List of Value Added Services (VAS) under North
