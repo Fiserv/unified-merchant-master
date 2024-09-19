@@ -10,25 +10,25 @@ titles: UMM, North, GMA
 
 |  Value    |     Description  |Attribute Link                  |
 |-----------|:----------------:|:-------------------------------|
-|VASADVINS|Advertising Insights|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#advertising-insights)|
-|VASBPMOB|BP Mobile Program|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#bp-mobile-program)|
-|VASCASHADV|Cash Advance Product|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#cash-advance-product)|
-|VASDBTTERMID|Debit Term ID|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#debit-term-id)|
-|VASDISCDBTACP|DISCOVER DEBIT ACCEPTANCE - DEBT REPAYMENT|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#discover-debit-acceptance---debt-repayment)|
-|VASDISCINCAUTH|DISCOVER INCREMENTAL AUTHORIZATION - IRAM INDICATOR|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#discover-incremental-authorization---iram-indicator)|
-|VASDISCPROMPRG|DISCOVER PROMOTIONAL PROGRAM VERIFICATION IDENTIFIER|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#discover-promotional-program-verification-identifier)|
-|VASEMVCMP|EMV Campaign|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#emv-campaign)|
-|VASEMVENB|EMV Enablement|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#emv-enablement)|
-|VASENTINS|Enterprise Insights|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#enterprise-insights)|
-|VASENTINSB|Enterprise Insights Bench|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#enterprise-insights-bench)|
-|VASENTINSD|Enterprise Insights Demographic|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#enterprise-insights-demographic)|
-|VASENTINSL|Enterprise Insights Lobby|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#enterprise-insights-lobby)|
-|VASFRDDTCT|Fraud Detect|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#fraud-detect)|
-|VASFRDFLX|Fraud Flex Detect|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#fraud-flex-detect)|
-|VASGBSPOSINS|GBS POS Installments|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#gbs-pos-installments)|
-|VASLCRDBT|LCR Debit Flag Optional|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#lcr-debit-flag-optional)|
-|VASLCRFB|LCR Fall Back|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#lcr-fall-back)|
-|VASLEASE|Lease Product|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#lease-product)|
+|VASADVINS|Advertising Insights|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#advertising-insights)|
+|VASBPMOB|BP Mobile Program|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#bp-mobile-program)|
+|VASCASHADV|Cash Advance Product|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#cash-advance-product)|
+|VASDBTTERMID|Debit Term ID|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#debit-term-id)|
+|VASDISCDBTACP|DISCOVER DEBIT ACCEPTANCE - DEBT REPAYMENT|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#discover-debit-acceptance---debt-repayment)|
+|VASDISCINCAUTH|DISCOVER INCREMENTAL AUTHORIZATION - IRAM INDICATOR|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#discover-incremental-authorization---iram-indicator)|
+|VASDISCPROMPRG|DISCOVER PROMOTIONAL PROGRAM VERIFICATION IDENTIFIER|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#discover-promotional-program-verification-identifier)|
+|VASEMVCMP|EMV Campaign|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#emv-campaign)|
+|VASEMVENB|EMV Enablement|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#emv-enablement)|
+|VASENTINS|Enterprise Insights|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#enterprise-insights)|
+|VASENTINSB|Enterprise Insights Bench|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#enterprise-insights-bench)|
+|VASENTINSD|Enterprise Insights Demographic|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#enterprise-insights-demographic)|
+|VASENTINSL|Enterprise Insights Lobby|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#enterprise-insights-lobby)|
+|VASFRDDTCT|Fraud Detect|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#fraud-detect)|
+|VASFRDFLX|Fraud Flex Detect|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#fraud-flex-detect)|
+|VASGBSPOSINS|GBS POS Installments|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#gbs-pos-installments)|
+|VASLCRDBT|LCR Debit Flag Optional|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#lcr-debit-flag-optional)|
+|VASLCRFB|LCR Fall Back|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#lcr-fall-back)|
+|VASLEASE|Lease Product|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#lease-product)|
 |VASMCMONEYSEND|MASTERCARD MONEYSEND|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#mastercard-moneysend)|
 |VASMERSRCH|Merchant Surcharge Program|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#merchant-surcharge-program)|
 |VASMSTPWLT|Masterpass Digital Wallet|To check associated AttributesClick [ Here ](?path=docs/specification/merchant/productAttributes_VAS.md#masterpass-digital-wallet)|
