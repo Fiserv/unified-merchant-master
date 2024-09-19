@@ -1,41 +1,52 @@
 # Product Attributes - Fees
 
-## List of Domains
+## List of Fee product - Attributes 
+
+* Product Code: Any Fee Product  [Supported Fee Product List ](?path=docs/specification/products_fees.md)
 
 ### feeAttr
 
----
+* Attribute Specification:
 
-tags: [feeAttr]
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
----
+|Domain        | Attribute                    | Description                                       | Values        | Value Description                                         | 
+|:-------------|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|
+|feeAttr       | frequencyInd                 | Frequency Indicator                               | S             |  Special                                                  |
+|feeAttr       | frequencyInd                 | Frequency Indicator                               | B             |  BI_WEEKLY                                                |
+|feeAttr       | frequencyInd                 |Frequency Indicator                                | M             |  MONTHLY                                                  |
+|feeAttr       | frequencyInd                 |Frequency Indicator                                | D             |  DAILY                                                    |
+|feeAttr       | frequencyInd                 |Frequency Indicator                                | X             |   DELAYED_BILLING                                         |
+|feeAttr       | processingInd                | Processing Indicator                              | 1             |  Processing Indicator 1                                   |
+|feeAttr       | processingInd                | Processing Indicator                              | 2             |  Processing Indicator 2                                   |
+|feeAttr       | processingInd                | Processing Indicator                              | 3             |  Processing Indicator 3                                   |
+|feeAttr       | processingInd                | Processing Indicator                              | 4             |  Processing Indicator 4                                   |
+|feeAttr       | processingInd                | Processing Indicator                              | 5             |  Processing Indicator 5                                   |
+|feeAttr       | retailDate                   | Retail Date                                       | -             |  -                                                        |
+|feeAttr       | wholesaleDate                | Wholesale Date                                    | -             |  -                                                        |
 
-* Description: Fee Attributes
+<!-- type: tab -->
 
-* **List of Attributes**: Applicable for UMM, North and GMA
-  
-  | Inquiry         |   Create      |    Update  |  Delete  |
-  |:---------------:|:-------------:|:----------:|:--------:|
-  |    Available    |   Optional    |  Allowed   |  NA      |
+|Domain        | Attribute                    | Description                                       | Values        | Value Description                                         | 
+|:-------------|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|
+|feeAttr       | frequencyInd                 | Frequency Indicator                               | S             |  Special                                                  |
+|feeAttr       | frequencyInd                 | Frequency Indicator                               | B             |  BI_WEEKLY                                                |
+|feeAttr       | frequencyInd                 |Frequency Indicator                                | M             |  MONTHLY                                                  |
+|feeAttr       | frequencyInd                 |Frequency Indicator                                | D             |  DAILY                                                    |
+|feeAttr       | frequencyInd                 |Frequency Indicator                                | X             |   DELAYED_BILLING                                         |
+|feeAttr       | processingInd                | Processing Indicator                              | 1             |  Processing Indicator 1                                   |
+|feeAttr       | processingInd                | Processing Indicator                              | 2             |  Processing Indicator 2                                   |
+|feeAttr       | processingInd                | Processing Indicator                              | 3             |  Processing Indicator 3                                   |
+|feeAttr       | processingInd                | Processing Indicator                              | 4             |  Processing Indicator 4                                   |
+|feeAttr       | processingInd                | Processing Indicator                              | 5             |  Processing Indicator 5                                   |
+|feeAttr       | retailDate                   | Retail Date                                       | -             |  -                                                        |
+|feeAttr       | wholesaleDate                | Wholesale Date                                    | -             |  -                                                        |
 
----
-
-| Attribute                    | Description                                       | Values        | Value Description                                         | 
-|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|
-| frequencyInd                 | Frequency Indicator                               | S             |  Special                                                  |
-|                              |                                                   | B             |  BI_WEEKLY                                                |
-|                              |                                                   | M             |  MONTHLY                                                  |
-|                              |                                                   | D             |  DAILY                                                    |
-|                              |                                                   | X             |   DELAYED_BILLING                                         |
-| processingInd                | Processing Indicator                              | 1             |  1                                                        |
-|                              |                                                   | 2             |  2                                                        |
-|                              |                                                   | 3             |  3                                                        |
-|                              |                                                   | 4             |  4                                                        |
-|                              |                                                   | 5             |  5                                                        |
-| retailDate                   | Retail Date                                       | -             |  -                                                        |
-| wholesaleDate                | Wholesale Date                                    | -             |  -                                                        |
-
-* See supported Fees [here](?path=docs/specification/products_fees.md)
-
+<!-- type: tab -->
 <!-- type: tab-end -->
+---
+
+
 
