@@ -1,11 +1,6 @@
 # Product Attribute - Entitlements
 
-## Operations listed for product attributes under each domain
-
-| Inquiry         |   Create      |    Update  |  Delete  |
-|:---------------:|:-------------:|:----------:|:--------:|
-|    Available    |   Optional    |  Allowed   |  NA      |
-
+## List of Entitlement product - Attributes 
 
 ## Alipay Eligibility Program
 

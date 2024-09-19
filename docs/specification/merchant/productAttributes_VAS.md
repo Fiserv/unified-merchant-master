@@ -1,7 +1,6 @@
 # Product Attributes - VAS
 
-## List of Products
-
+## List of VAS product - Attributes 
 
 ## Advertising Insights
 
