@@ -5616,7 +5616,6 @@ titles: UMM, North, GMA
 
 |  Value    |     Description | Attribute Link                                                                                                                                                     |
 |-----------|:----------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
 |FPCIQRTRLYSVCFY83|Pci Quarterly Srvc Fee|[ View Attributes ](?path=docs/specification/merchant/productAttributes_fees.md)|
 |FCRDPNTTKN|Cardpointe Tokenization Fee|[ View Attributes ](?path=docs/specification/merchant/productAttributes_fees.md)|
 |FANNUALMNTNCFY95|Annual Maintenance Fee|[ View Attributes ](?path=docs/specification/merchant/productAttributes_fees.md)|
@@ -11221,3 +11220,5 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 
 <!-- type: tab-end -->
+
+---
