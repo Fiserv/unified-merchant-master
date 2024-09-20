@@ -1,13 +1,13 @@
 # Product Attribute - Entitlements
 
-## List of Entitlement product - Attributes 
+* List of attributes for a specific product. 
 
 ## Alipay Eligibility Program
 
 * Product Code: `ENTLALIPAY`
 * Product Description: Alipay Eligibility Program
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -34,7 +34,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLAMEXMA`
 * Product Description: American Express Multi Acquirer Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -87,7 +87,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -112,7 +112,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLAMEXOB`
 * Product Description: Amex Opt Blue Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -273,7 +273,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -298,7 +298,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLAMEXPT`
 * Product Description: Amex Pass Through Entitlement
 
-### amexSourceCode
+### domain:amexSourceCode
 
 * Attribute Specification:
 
@@ -317,7 +317,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -370,7 +370,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -395,7 +395,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLARVEOL`
 * Product Description: Arvato Eold Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -454,7 +454,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLBILLAT`
 * Product Description: Bill Me Later Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -513,7 +513,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLBNTBOX`
 * Product Description: BentoBox
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -538,7 +538,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLCHKNWR`
 * Product Description: Check Non Warranty Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -597,7 +597,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLCHKWAR`
 * Product Description: Check Warranty Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -656,7 +656,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLCLOVERGO`
 * Product Description: Clover Go
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -683,7 +683,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLCUP`
 * Product Description: China Union Pay Eligibilty Program
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -710,7 +710,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLDBTEDS`
 * Product Description: Debit Eds Entitlement
 
-### disbursementssements
+### domain:disbursementssements
 
 * Attribute Specification:
 
@@ -735,7 +735,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### ecommercerce
+### domain:ecommercerce
 
 * Attribute Specification:
 
@@ -760,7 +760,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -813,7 +813,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcAccel
+### domain:hcAccel
 
 * Attribute Specification:
 
@@ -838,7 +838,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcAffn
+### domain:hcAffn
 
 * Attribute Specification:
 
@@ -863,7 +863,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcAth
+### domain:hcAth
 
 * Attribute Specification:
 
@@ -888,7 +888,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcAts
+### domain:hcAts
 
 * Attribute Specification:
 
@@ -913,7 +913,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcCu24
+### domain:hcCu24
 
 * Attribute Specification:
 
@@ -938,7 +938,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcInterlink
+### domain:hcInterlink
 
 * Attribute Specification:
 
@@ -963,7 +963,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcJeanie
+### domain:hcJeanie
 
 * Attribute Specification:
 
@@ -988,7 +988,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcMaestro
+### domain:hcMaestro
 
 * Attribute Specification:
 
@@ -1013,7 +1013,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcNyce
+### domain:hcNyce
 
 * Attribute Specification:
 
@@ -1038,7 +1038,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcPulse
+### domain:hcPulse
 
 * Attribute Specification:
 
@@ -1063,7 +1063,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcShazam
+### domain:hcShazam
 
 * Attribute Specification:
 
@@ -1088,7 +1088,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcStarEast
+### domain:hcStarEast
 
 * Attribute Specification:
 
@@ -1113,7 +1113,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcStarNortheast
+### domain:hcStarNortheast
 
 * Attribute Specification:
 
@@ -1138,7 +1138,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcStarWest
+### domain:hcStarWest
 
 * Attribute Specification:
 
@@ -1163,7 +1163,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### lcrBillPayment
+### domain:lcrBillPayment
 
 * Attribute Specification:
 
@@ -1188,7 +1188,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### moneyTransfers
+### domain:moneyTransfers
 
 * Attribute Specification:
 
@@ -1213,7 +1213,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### pos
+### domain:pos
 
 * Attribute Specification:
 
@@ -1244,7 +1244,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLDBTGTW`
 * Product Description: Debit Gateway Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -1297,7 +1297,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcAccel
+### domain:hcAccel
 
 * Attribute Specification:
 
@@ -1322,7 +1322,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcAffn
+### domain:hcAffn
 
 * Attribute Specification:
 
@@ -1347,7 +1347,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcAth
+### domain:hcAth
 
 * Attribute Specification:
 
@@ -1372,7 +1372,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcAts
+### domain:hcAts
 
 * Attribute Specification:
 
@@ -1397,7 +1397,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcCu24
+### domain:hcCu24
 
 * Attribute Specification:
 
@@ -1422,7 +1422,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcInterlink
+### domain:hcInterlink
 
 * Attribute Specification:
 
@@ -1447,7 +1447,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcJeanie
+### domain:hcJeanie
 
 * Attribute Specification:
 
@@ -1472,7 +1472,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcMaestro
+### domain:hcMaestro
 
 * Attribute Specification:
 
@@ -1497,7 +1497,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcNyce
+### domain:hcNyce
 
 * Attribute Specification:
 
@@ -1522,7 +1522,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcPulse
+### domain:hcPulse
 
 * Attribute Specification:
 
@@ -1547,7 +1547,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcShazam
+### domain:hcShazam
 
 * Attribute Specification:
 
@@ -1572,7 +1572,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcStarEast
+### domain:hcStarEast
 
 * Attribute Specification:
 
@@ -1597,7 +1597,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcStarNortheast
+### domain:hcStarNortheast
 
 * Attribute Specification:
 
@@ -1622,7 +1622,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### hcStarWest
+### domain:hcStarWest
 
 * Attribute Specification:
 
@@ -1653,7 +1653,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLDBTMA`
 * Product Description: Debit Multi Acquirer Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -1706,7 +1706,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -1731,7 +1731,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLDINER`
 * Product Description: Diners Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -1784,7 +1784,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -1807,7 +1807,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLDISC`
 * Product Description: Discover Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -1968,7 +1968,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### paypalOptOutReason
+### domain:paypalOptOutReason
 
 * Attribute Specification:
 
@@ -1997,7 +1997,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -2022,7 +2022,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLDISCMA`
 * Product Description: Discover Multi Acquirer Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2075,7 +2075,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -2100,7 +2100,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLEBT`
 * Product Description: Ebt Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2159,7 +2159,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLENCORE`
 * Product Description: Encore Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2218,7 +2218,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLERNLYT`
 * Product Description: Earn Loyalty Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2277,7 +2277,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLETC`
 * Product Description: Etc Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2336,7 +2336,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLEXPLR`
 * Product Description: Explore Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2395,7 +2395,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLFLTCOR`
 * Product Description: Fleetcore Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2454,7 +2454,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLFLTONE`
 * Product Description: Fleetone Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2513,7 +2513,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLFNDSV`
 * Product Description: Funded Stored Value Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2566,7 +2566,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -2599,7 +2599,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLFRPET1`
 * Product Description: Future Petroleum 1 Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2658,7 +2658,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLFRPET2`
 * Product Description: Future Petroleum 2 Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2717,7 +2717,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLFRPET3`
 * Product Description: Future Petroleum 3 Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2776,7 +2776,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLGGLCKT`
 * Product Description: Google Checkout Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2835,7 +2835,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLGLALTM`
 * Product Description: Global Alternate Mops Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2894,7 +2894,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLGNPVLB`
 * Product Description: Generic Private Label Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2953,7 +2953,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLINTERACCNT`
 * Product Description: Interac Contact Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -2978,7 +2978,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLINTERACFLS`
 * Product Description: Interac Flash Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3005,7 +3005,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLINTERACINAPP`
 * Product Description: Interac In App Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3030,7 +3030,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLINTLNK`
 * Product Description: Interlink Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3089,7 +3089,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLJBS`
 * Product Description: Jbs Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3148,7 +3148,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLJCB`
 * Product Description: Jcb Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3201,7 +3201,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -3224,7 +3224,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLMASTRO`
 * Product Description: Maestro Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3283,7 +3283,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLMC`
 * Product Description: Mastercard Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3444,7 +3444,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -3475,7 +3475,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLMCMA`
 * Product Description: Mastercard Multi Acquirer Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3528,7 +3528,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -3553,7 +3553,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLMSTROI`
 * Product Description: Maestro International Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3612,7 +3612,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLOFRWSE`
 * Product Description: Offerwise Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3671,7 +3671,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLPAYPAL`
 * Product Description: Paypal Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3730,7 +3730,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLPPALDIS`
 * Product Description: Paypal Enablement For Discover Full Service Merchant
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3755,7 +3755,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLPPLVNMO`
 * Product Description: Merchants Participating In The Paypal/Venmo Qrc Program
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3802,7 +3802,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLPPRO`
 * Product Description: PPRO
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3827,7 +3827,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLPURCRD`
 * Product Description: Purchase Card Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3886,7 +3886,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLPVTLBL`
 * Product Description: Pvt Label Multicard Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -3939,7 +3939,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -3970,7 +3970,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLSIGDBT`
 * Product Description: Signature Debit Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -4023,7 +4023,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -4046,7 +4046,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLT2CRD`
 * Product Description: Tier Ii Credit Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -4105,7 +4105,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLTCK`
 * Product Description: Telecheck Entitlement
 
-### checkAcceptanceMethod
+### domain:checkAcceptanceMethod
 
 * Attribute Specification:
 
@@ -4182,7 +4182,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -4241,7 +4241,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLTELCRD`
 * Product Description: Telecredit Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -4300,7 +4300,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLUFNDSV`
 * Product Description: Unfunded Stored Value Entitlement
 
-### accentIntermedia
+### domain:accentIntermedia
 
 * Attribute Specification:
 
@@ -4321,7 +4321,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### blackhawk
+### domain:blackhawk
 
 * Attribute Specification:
 
@@ -4342,7 +4342,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### coinstarar
+### domain:coinstarar
 
 * Attribute Specification:
 
@@ -4363,7 +4363,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### dataOnly
+### domain:dataOnly
 
 * Attribute Specification:
 
@@ -4384,7 +4384,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### duguesneUniv
+### domain:duguesneUniv
 
 * Attribute Specification:
 
@@ -4405,7 +4405,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### egiftSocial
+### domain:egiftSocial
 
 * Attribute Specification:
 
@@ -4426,7 +4426,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -4479,7 +4479,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### flexCache
+### domain:flexCache
 
 * Attribute Specification:
 
@@ -4502,7 +4502,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### franchiseEnabled
+### domain:franchiseEnabled
 
 * Attribute Specification:
 
@@ -4523,7 +4523,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### fraudWatch
+### domain:fraudWatch
 
 * Attribute Specification:
 
@@ -4544,7 +4544,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### giftangogo
+### domain:giftangogo
 
 * Attribute Specification:
 
@@ -4565,7 +4565,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### greatLakesScript
+### domain:greatLakesScript
 
 * Attribute Specification:
 
@@ -4586,7 +4586,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### incomm
+### domain:incomm
 
 * Attribute Specification:
 
@@ -4607,7 +4607,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### jet
+### domain:jet
 
 * Attribute Specification:
 
@@ -4628,7 +4628,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### lsn
+### domain:lsn
 
 * Attribute Specification:
 
@@ -4649,7 +4649,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### mondex
+### domain:mondex
 
 * Attribute Specification:
 
@@ -4670,7 +4670,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### nearRealTimeMessaging
+### domain:nearRealTimeMessaging
 
 * Attribute Specification:
 
@@ -4691,7 +4691,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### premiumPrepaid
+### domain:premiumPrepaid
 
 * Attribute Specification:
 
@@ -4714,7 +4714,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### robertMorrisCollege
+### domain:robertMorrisCollege
 
 * Attribute Specification:
 
@@ -4735,7 +4735,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### settlementSwitch
+### domain:settlementSwitch
 
 * Attribute Specification:
 
@@ -4756,7 +4756,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### standardGCMisc
+### domain:standardGCMisc
 
 * Attribute Specification:
 
@@ -4777,7 +4777,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### standardGCProject
+### domain:standardGCProject
 
 * Attribute Specification:
 
@@ -4798,7 +4798,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### standardGCReport
+### domain:standardGCReport
 
 * Attribute Specification:
 
@@ -4819,7 +4819,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### univofPenn
+### domain:univofPenn
 
 * Attribute Specification:
 
@@ -4842,7 +4842,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### valueLink
+### domain:valueLink
 
 * Attribute Specification:
 
@@ -4863,7 +4863,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### visaCash
+### domain:visaCash
 
 * Attribute Specification:
 
@@ -4890,7 +4890,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLUPICRD`
 * Product Description: UPI Credit Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -4915,7 +4915,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLUPIDBT`
 * Product Description: UPI Debit Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -4940,7 +4940,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLVALLNK`
 * Product Description: Valuelink Premium Autoboard
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -4963,7 +4963,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLVASGYFT`
 * Product Description: GYFT
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -4992,7 +4992,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLVI`
 * Product Description: Visa Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -5153,7 +5153,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -5178,7 +5178,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLVIMA`
 * Product Description: Visa Multi Acquirer Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -5231,7 +5231,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-### specialProgramIndicators
+### domain:specialProgramIndicators
 
 * Attribute Specification:
 
@@ -5256,7 +5256,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLVOYGER`
 * Product Description: Voyager Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -5315,7 +5315,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLWECHATPAY`
 * Product Description: We Chat Pay
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 
@@ -5340,7 +5340,7 @@ titles: UMM, North, GMA
 * Product Code: `ENTLWRTEXP`
 * Product Description: Wright Express Entitlement
 
-### entitlementAttr
+### domain:entitlementAttr
 
 * Attribute Specification:
 

@@ -1,10 +1,10 @@
 # Product Attributes - Equipment 
 
-## List of Equipment  product - Attributes 
+* List of attributes for equipment product.
 
-* Product Code: Any Fee Product  [Supported Equipment Product List ](?path=docs/specification/products_equipments.md)
+* Product Code: Any Equipment Product  [Supported Equipment Product List ](?path=docs/specification/products_equipments.md)
 
-### equipmentFeatures
+### domain:equipmentFeatures
 
 * Attribute Specification:
 
