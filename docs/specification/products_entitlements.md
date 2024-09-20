@@ -143,8 +143,8 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-|  Value    |     Description  |
-|-----------|:----------------:|
+|  Value    |     Description | Attribute Link                                                                                                                                                     |
+|-----------|:----------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ENTLMC | Mastercard Entitlement |[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#mastercard-entitlement)|
 |ENTLVI|Visa Entitlement|[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#visa-entitlement)|
 |ENTLMASTRO|Maestro Entitlement|[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#maestro-entitlement)|
