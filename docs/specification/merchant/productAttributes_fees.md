@@ -1,10 +1,10 @@
 # Product Attributes - Fees
 
-## List of Fee product - Attributes 
+* List of attributes for Fee product.
 
 * Product Code: Any Fee Product  [Supported Fee Product List ](?path=docs/specification/products_fees.md)
 
-### feeAttr
+### domain:feeAttr
 
 * Attribute Specification:
 
