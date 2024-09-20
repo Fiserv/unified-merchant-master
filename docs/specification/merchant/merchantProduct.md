@@ -1,8 +1,37 @@
 # Merchant Products
 
-* **Description**:
+* **Description**: Merchant may have a variety of products. In UMM Fee, Equipment , Entitlement and Value added service everything is csondidered as a product. Products are grouped  into four different categories :
+  * Equipment: Includes processing devices owned by the merchant, denoted by the product code prefix "EQ."
+  * Entitlement: Encompasses the range of cards supported by the merchant, identified by the product code prefix "ENTL."
+  * Value Added Services (VAS): Consists of additional services consumed by the merchant, such as Transarmor, distinguished by the product code prefix "VAS."
+  * Fee: Represents the fees that apply to the merchant, labeled with the product code prefix "F."
+
+Every product is defined by a group of attributes, with each attribute representing a specific aspect of the product.Explore more about product attribute [here] (path=docs\specification\merchant\ProductAttributes.md).
+
+* Sample Query to pull all products for a merchant :
+
+```text
+
+    select *
+    from umm.merchant_product p 
+    where effective_end_date is null 
+    and merchant_id = '302246063994' 
+    and status = 'Y'
+
+```
+* Sample Query to fetch available products in UMM:
+
+```text
+
+      select *  
+      from umm.prdct_master 
+      where is_active = 'Y'
+
+```
+
+* **Table Name**: UMM.MERCHANT_PRODUCT  
+* **Description**: Stores all the products a merchant has.
 * **API section**: `products`
-* **Table Name**: UMM.MERCHANT_PRODUCT
 
 ## List of Fields
 
@@ -86,6 +115,7 @@ titles: UMM
 | Enum   | NA        |    NA        |    Available     | Required     | Allowed |    NA        |
 
 **Valid Values**:
+
 |         Value        |                    Description                 |
 |:----------------------|:------------------------------------------------|
 | N | Flag to indicate that product is inactive |
@@ -134,7 +164,7 @@ titles: UMM
 
 * Description: TBD
 * API field: `wholesaleAmountOrPercent`
-* Field Specification:
+* Field Specification: Wholesale charge associated with a Fee product.
 
 <!-- type: tab 
 titles: UMM
@@ -152,7 +182,7 @@ titles: UMM
 
 * Description: TBD
 * API field: `retailAmountOrPercent`
-* Field Specification:
+* Field Specification: Retail  charge associated with a Fee product.
 
 <!-- type: tab 
 titles: UMM
