@@ -70,8 +70,8 @@ titles: UMM, North, GMA
 |ENTLVOYGER|Voyager Entitlement|[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#voyager-entitlement)|
 |ENTLWECHATPAY|We Chat Pay|[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#we-chat-pay)|
 |ENTLWRTEXP|Wright Express Entitlement|[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#wright-express-entitlement)|
-|ENTLEFTPOS | EFTPOS Eligibility Program |(?path=docs/specification/merchant/prodAttributes_Entitlements.md#eftpos-eligibility-program)|
-|ENTLAPM | ACQ APM Eligibility Program |(?path=docs/specification/merchant/prodAttributes_Entitlements.md#acq-apm-eligibility-program)|
+|ENTLEFTPOS | EFTPOS Eligibility Program |[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#eftpos-eligibility-program)|
+|ENTLAPM | ACQ APM Eligibility Program |[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#acq-apm-eligibility-program)|
 
 <!-- type: tab -->
 
@@ -157,3 +157,5 @@ titles: UMM, North, GMA
 |ENTLAMEXPT|Amex Pass Through Entitlement|[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#amex-pass-through-entitlement)|
 
 <!-- type: tab-end -->
+
+---
