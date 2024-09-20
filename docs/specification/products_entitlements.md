@@ -149,10 +149,10 @@ titles: UMM, North, GMA
 |ENTLVI|Visa Entitlement|[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#visa-entitlement)|
 |ENTLMASTRO|Maestro Entitlement|[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#maestro-entitlement)|
 |ENTLJCB|Jcb Entitlement|[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#jcb-entitlement)|
-|ENTLEFTPOS | EFTPOS Eligibility Program |(?path=docs/specification/merchant/prodAttributes_Entitlements.md#eftpos-eligibility-program)|
+|ENTLEFTPOS | EFTPOS Eligibility Program |[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#eftpos-eligibility-program)|
 |ENTLPAYPAL|Paypal Entitlement|[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#paypal-entitlement)|
 |ENTLCUP|China Union Pay Eligibilty Program|[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#china-union-pay-eligibilty-program)|
-|ENTLAPM | ACQ APM Eligibility Program |(?path=docs/specification/merchant/prodAttributes_Entitlements.md#acq-apm-eligibility-program)|
+|ENTLAPM | ACQ APM Eligibility Program |[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#acq-apm-eligibility-program)|
 |ENTLDINER|Diners Entitlement|[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#diners-entitlement)|
 |ENTLAMEXPT|Amex Pass Through Entitlement|[ View Attributes ](?path=docs/specification/merchant/prodAttributes_Entitlements.md#amex-pass-through-entitlement)|
 
