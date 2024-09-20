@@ -309,12 +309,14 @@ titles: UMM, North, GMA
 |:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |amexSourceCode | effectiveDate | Effective Date| ||
 |amexSourceCode | sourceCode | Amex SourceCode| ||
+
 <!-- type: tab -->
 |Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |amexSourceCode | effectiveDate | Effective Date| ||
 |amexSourceCode | sourceCode | Amex SourceCode| ||
 <!-- type: tab -->
+
 <!-- type: tab-end -->
 
 ### entitlementAttr
@@ -368,6 +370,12 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
+|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number |           |                |
+|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
+
 <!-- type: tab-end -->
 
 ### specialProgramIndicators
@@ -702,6 +710,11 @@ titles: UMM, North, GMA
 |entitlementAttr | effectiveDate | Effective Date| ||
 |entitlementAttr | mccCode | Merchant Category Code| ||
 <!-- type: tab -->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
+|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
+
 <!-- type: tab-end -->
 ---
 
@@ -3199,6 +3212,11 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
+|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
+
 <!-- type: tab-end -->
 
 ### specialProgramIndicators
@@ -3275,6 +3293,11 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
+|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
+
 <!-- type: tab-end -->
 ---
 
@@ -3365,6 +3388,10 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
 |entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|entitlementAttr | mcIpQualification | Mastercard IP Qualification |           |                |
+|entitlementAttr | mcIpValue | Mastercard IP Value |           |                |
+|entitlementAttr | isoId | ISO_ID as assigned by Mastercard |           |                |
+
 <!-- type: tab -->
 |Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
@@ -3442,6 +3469,14 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|entitlementAttr | mcIpQualification | Mastercard IP Qualification |           |                |
+|entitlementAttr | mcIpValue | Mastercard IP Value |           |                |
+|entitlementAttr | isoId | ISO_ID as assigned by Mastercard |           |                |
+|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
+
 <!-- type: tab-end -->
 
 ### specialProgramIndicators
@@ -3722,6 +3757,11 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
+|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
+
 <!-- type: tab-end -->
 ---
 
@@ -5074,6 +5114,10 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
 |entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|entitlementAttr | visaIpQualification | Visa IP Qualification |           |                |
+|entitlementAttr | visaIpValue | Visa IP Value |           |                |
+|entitlementAttr | apfAuthFee | APF Auth Fee for Omnipay Visa Entitlement |           |                |
+
 <!-- type: tab -->
 |Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
@@ -5151,6 +5195,14 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
+|entitlementAttr | visaIpQualification | Visa IP Qualification |           |                |
+|entitlementAttr | visaIpValue | Visa IP Value |           |                |
+|entitlementAttr | apfAuthFee | APF Auth Fee for Omnipay Visa Entitlement |           |                |
+|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
+
 <!-- type: tab-end -->
 
 ### specialProgramIndicators
@@ -5392,4 +5444,63 @@ titles: UMM, North, GMA
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
+
 ---
+
+### EFTPOS Eligibility Program
+
+* Product Code: `ENTLEFTPOS`
+* Product Description: Electronic Funds Transfer at Point of Sale Entitlement
+* Attribute Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
+|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
+
+<!-- type: tab -->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:-----------------|:------------------------|
+| NA | NA | NA | NA | NA |
+
+<!-- type: tab -->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
+|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
+
+<!-- type: tab-end -->
+
+---
+
+### ACQ APM Eligibility Program
+
+* Product Code: `ENTLAPM`
+* Product Description: ACQ APM Entitlement
+* Attribute Specification:
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
+|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
+
+<!-- type: tab -->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:-----------------|:------------------------|
+| NA | NA | NA | NA | NA |
+
+<!-- type: tab -->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
+|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
+
+<!-- type: tab-end -->
