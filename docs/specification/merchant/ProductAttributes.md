@@ -1,15 +1,15 @@
 # Product Attributes
 
-* **Description**: Merchant may have multiple products, with  each product containing unique details represented by specific attributes. For example, a merchant could have a Mastercard product with associated values for various fields like Merchant Category Code (with a value of 5521), Service Type Code (with a value of F), and Floor Limit Amount (with a value of 15.00). By assigning attribute ID 1 to Merchant Category Code, ID 2 to Service Type Code, and ID 3 to Floor Limit Amount, the merchant would have attribute ID 1 with a value of 5521, attribute ID 2 with a value of F, and attribute ID 3 with a value of 15.00 for Master Card product.
+* **Description**: Merchant may have multiple products ( Fees, Equipment , Entitlement , Value added Products etc).Each product has its own unique characteristic represented by a specific attribute ID. For instance, a merchant could have a Mastercard product with  Merchant Category Code  5521, Service Type Code 'F', and Floor Limit Amount 15.00. When we assign attribute ID 1 to the Merchant Category Code, ID 2 to the Service Type Code, and ID 3 to the Floor Limit Amount, Merchant will have attribute ID 1 set to 5521, attribute ID 2 set to 'F', and attribute ID 3 set to 15.00 for the Mastercard product. This means, product attributes are stored as key-value pairs for that specific Merchant and product combination.
 
-These attributes will be organized under logical **Domains** and stored as key-value(s) pair for a merchant  and product combination. 
+Further, these attributes will be organized under logical **Domains**. Refer [List of Domains with  attriburtes here] (?path=docs/specification/domain_attribute_list.csv)
 
-* Example of a **Domain**: feeAttr is a **domain** that groups all fields called as **Attributes** those defines how a fee will be processed. Example of some attributes associated with fee products are :
+* Example of a **Domain**: `feeAttr` is a **domain** that groups all  **Attributes** which  determine how a fee will be processed. Here are some attributes linked to fee products:
+
       *Frequency Indicator - Indicates whether is a monthly or daily fee 
       *Retail Date - When fee will be billed to merchant 
 
 * **API section**: `products.[entitlements||valueAddedServices||fees||equipments].attributes`
-* **Table Name**: UMM.MERCHANT_PRODUCT_ATTRIBUTES 
 
 * Sample Product attribute payload:
 
@@ -36,30 +36,138 @@ These attributes will be organized under logical **Domains** and stored as key-v
   }
 ```
 
-* **Example**:Product attribute payload for fee product. 
+* **Example**:Product attribute payload for Value added product.
 
 ```json
+{
+  "productCode": "VASTRNSARM",
+  "productLongDesc": "This Program Enables Pci Compliance By Allowing A Merchant To Receive A Daily File Of Transarmor Tokenized Transaction Data.  The Data Included May Contain Authorization Data, Settlement Data, Or Both.",
   "attributes": {
-    "feeAttr": {
-      "processingInd": {
-        "values": ["1"]
+    "serviceAttr": {
+      "encryptServiceLevelCode": {
+        "values": [
+          "NONE"
+        ]
       },
-      "isAnnualFee": {
-        "values": ["YES"]
+      "encryptTokenOverrideIndicator": {
+        "values": [
+          "NO"
+        ]
       },
-      "retailDate": {
-        "values": ["2024-05-29"]
+      "encryptTokenHierarchyCode": {
+        "values": [
+          "NONE"
+        ]
       },
-      "wholesaleDate": {
-        "values": ["2024-05-29"]
-      },
-      "frequencyInd": {
-        "values": ["MONTHLY"]
+      "encryptTypeCode": {
+        "values": [
+          "NONE"
+        ]
       }
     }
   }
+}
 ```
 
+* **Example**:Product attribute payload for Entitlement product.
+
+```json
+{
+  {
+  "productCode": "ENTLVI",
+  "productLongDesc": "Visa Entitlement",
+  "attributes": {
+    "entitlementAttr": {
+      "mccCode": {
+        "values": [
+          "5411"
+        ]
+      },
+      "discountMethodCode": {
+        "values": [
+          "NONE"
+        ]
+      },
+      "pricingPlanCode": {
+        "values": [
+          "000"
+        ]
+      },
+      "clearingPlanCode": {
+        "values": [
+          "000"
+        ]
+      },
+      "edcCode": {
+        "values": [
+          "NO_SERVICE"
+        ]
+      },
+      "effectiveDate": {
+        "values": [
+          "2023-09-30"
+        ]
+      },
+      "serviceTypeCode": {
+        "values": [
+          "FULL_SERVICE"
+        ]
+      }
+    }
+  }
+}
+}
+```
+
+* **Example**:Product attribute payload for Fee product.
+
+```json
+{
+  "productCode": "FNONSWIPEDDSCNT",
+  "productLongDesc": "Non Swiped Discount",
+  "attributes": {
+    "feeAttr": {
+      "processingInd": {
+        "values": [
+          "1"
+        ]
+      },
+      "retailDate": {
+        "values": [
+          "2024-07-16"
+        ]
+      },
+      "wholesaleDate": {
+        "values": [
+          "2024-07-16"
+        ]
+      },
+      "frequencyInd": {
+        "values": [
+          "DAILY"
+        ]
+      }
+    }
+  }
+}
+```
+
+* Sample Query to pull the attributes  for a merchant and product :
+
+```text
+
+select merchant_id , prdct_code, attribute_id , name attribute_name  , value  
+from umm.merchant_product_attribute p , umm.attribute_master am
+where effective_end_date is null
+and prdct_code = 'ENTLVI'
+and merchant_id = '255341441889'
+and p.attribute_id = am.id
+order by name
+
+```
+
+* **Table Name**: UMM.MERCHANT_PRODUCT_ATTRIBUTES
+* **Description**: Stores attributes associated with a product for a merchant.
 
 ## List of Fields
 
@@ -105,7 +213,6 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-
 ### PRDCT_CODE
 
 * Description: The product code associated with the product and defined by UMM API.
@@ -142,14 +249,12 @@ titles: UMM
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  | 1        |    50       |    Available     | NA     |      NA       |    NA         |
 
-
 <!-- type: tab-end -->
 ---
 
-### ATTRIBUTE_ID 
+### ATTRIBUTE_ID
 
-
-* Description: Attribute id 
+* Description: Attribute ID that represents a specific characteristic of a product.
 * API field: NA
 
 <!-- type: tab 
@@ -158,15 +263,20 @@ titles: UMM
 
 | Type    | Minimum Length | Max Length | Inquiry | Create | Update |
 |---------|:--------------:|:----------:|:-------:|:------:|:------:|
-| Number  |      0         |     38     |   NA   |  NA   |  NA   |
+| Number  |      NA         |     38     |   NA   |  NA   |  NA   |
 
 <!-- type: tab-end -->
+
+* See **Entitlements** attribute [here](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
+* See **Fees** attrubute [here](?path=docs/specification/merchant/productAttributes_fees.md)
+* See **Value Added Services (VAS)** attribute [here](?path=docs/specification/merchant/productAttributes_VAS.md)
+* See **Equipment** attribute [here](?path=docs/specification/merchant/productAttributes_equipment.md)
 
 ---
 
 ### VALUE
 
-* Description: Value of the Attribute
+* Description: Value of the specific Attribute
 * API field: NA
 * Field Specification:
 
@@ -178,14 +288,6 @@ titles: UMM
 |----------|:--------------:|:----------:|:-------:|:------:|:------:|
 | Varchar  |      1       |    200     |   Available   |  Optional   |  Allowed   |
 
-  
 <!-- type: tab-end -->
 
 ---
-
-
-### Product Attributes
-
-* See **Entitlements** attribute [here](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
-* See **Fees** attrubute [here](?path=docs/specification/merchant/productAttributes_fees.md)
-* See **Value Added Services (VAS)** attribute [here](?path=docs/specification/merchant/productAttributes_VAS.md)
