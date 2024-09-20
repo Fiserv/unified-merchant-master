@@ -309,8 +309,6 @@ titles: UMM, North, GMA
 |:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
 |amexSourceCode | effectiveDate | Effective Date| ||
 |amexSourceCode | sourceCode | Amex SourceCode| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number |           |                |
-|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
 
 <!-- type: tab -->
 |Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
@@ -318,11 +316,6 @@ titles: UMM, North, GMA
 |amexSourceCode | effectiveDate | Effective Date| ||
 |amexSourceCode | sourceCode | Amex SourceCode| ||
 <!-- type: tab -->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number |           |                |
-|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
 
 <!-- type: tab-end -->
 
@@ -377,6 +370,12 @@ titles: UMM, North, GMA
 |entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
+| Domain | Attribute  | Description | UMM Value | Value Description |
+|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
+|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number |           |                |
+|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
+
 <!-- type: tab-end -->
 
 ### specialProgramIndicators
