@@ -1,10 +1,10 @@
 # Merchant Products
 
 * **Description**: Merchant may have a variety of products. In UMM Fee, Equipment , Entitlement and Value added service everything is csondidered as a product. Products are grouped  into four different categories :
-  * Equipment: Includes processing devices owned by the merchant, denoted by the product code prefix "EQ."
-  * Entitlement: Encompasses the range of cards supported by the merchant, identified by the product code prefix "ENTL."
-  * Value Added Services (VAS): Consists of additional services consumed by the merchant, such as Transarmor, distinguished by the product code prefix "VAS."
-  * Fee: Represents the fees that apply to the merchant, labeled with the product code prefix "F."
+  * Equipment: Includes processing devices owned by the merchant, denoted by the product code prefix "EQ". See supported Equipments [here](?path=docs/specification/products_equipments.md)
+  * Entitlement: Encompasses the range of cards supported by the merchant, identified by the product code prefix "ENTL". See supported Entitlements [here](?path=docs/specification/products_entitlements.md)
+  * Value Added Services (VAS): Consists of additional services consumed by the merchant, such as Transarmor, distinguished by the product code prefix "VAS". See supported Value Added Services [here](?path=docs/specification/products_vas.md)
+  * Fee: Represents the fees that apply to the merchant, labeled with the product code prefix "F". Se supported Fees [here](?path=docs/specification/products_fees.md)
 
 Every product is defined by a group of attributes, with each attribute representing a specific aspect of the product.Explore more about product attribute [here] (path=docs\specification\merchant\ProductAttributes.md).
 
