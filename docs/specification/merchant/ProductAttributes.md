@@ -3,7 +3,7 @@
 
 * **Description**: Merchant may have multiple products ( Fees, Equipment , Entitlement , Value added Products etc).Each product has its own unique characteristic represented by a specific attribute. For instance, a merchant could have a Mastercard product with  Merchant Category Code  5521, Service Type Code 'F', and Floor Limit Amount 15.00. When we assign attribute ID 1 to the Merchant Category Code, ID 2 to the Service Type Code, and ID 3 to the Floor Limit Amount, Merchant will have attribute ID 1 set to 5521, attribute ID 2 set to 'F', and attribute ID 3 set to 15.00 for the Mastercard product. This means, product attributes are stored as key-value pairs for that specific Merchant and product combination.
 
-Further, these attributes will be organized under logical **Domains**. Refer to the list of Domains with attribrutes [here](?path=docs/specification/domain_attribute_list.csv)
+Further, these attributes will be organized under logical **Domains**. Refer to the list of Domains with attribrutes [here](?path=docs/specification/domain_attribute_list.md)
 
 * Example of a **Domain**: `feeAttr` is a **domain** that groups all  **Attributes** which  determine how a fee will be processed. Here are some attributes linked to fee products:
   * Frequency Indicator - Indicates whether is a monthly or daily fee
