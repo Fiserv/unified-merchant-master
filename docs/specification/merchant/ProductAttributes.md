@@ -2,7 +2,7 @@
 
 * **Description**: Merchant may have multiple products ( Fees, Equipment , Entitlement , Value added Products etc).Each product has its own unique characteristic represented by a specific attribute ID. For instance, a merchant could have a Mastercard product with  Merchant Category Code  5521, Service Type Code 'F', and Floor Limit Amount 15.00. When we assign attribute ID 1 to the Merchant Category Code, ID 2 to the Service Type Code, and ID 3 to the Floor Limit Amount, Merchant will have attribute ID 1 set to 5521, attribute ID 2 set to 'F', and attribute ID 3 set to 15.00 for the Mastercard product. This means, product attributes are stored as key-value pairs for that specific Merchant and product combination.
 
-Further, these attributes will be organized under logical **Domains**. Refer [List of Domains with  attriburtes here] (?path=docs/specification/domain_attribute_list.csv)
+Further, these attributes will be organized under logical **Domains**. Refer to the list of Domains with attribrutes <a href="../domain_attribute_list.csv" target="_blank">here</a>
 
 * Example of a **Domain**: `feeAttr` is a **domain** that groups all  **Attributes** which  determine how a fee will be processed. Here are some attributes linked to fee products:
 
@@ -11,9 +11,12 @@ Further, these attributes will be organized under logical **Domains**. Refer [Li
 
 * **API section**: `products.[entitlements||valueAddedServices||fees||equipments].attributes`
 
-* Sample Product attribute payload:
+**Sample Product attribute payload layout:**
 
 ```json
+{
+  "productCode#1": "some product code",
+  "productLongDesc": "some description",
   "attributes": {
     "domain#1": {
       "domainDescription": "domain #1 description",
@@ -34,9 +37,10 @@ Further, these attributes will be organized under logical **Domains**. Refer [Li
       }
     }
   }
+}
 ```
 
-* **Example**:Product attribute payload for Value added product.
+**Sample payload for Value Added Services (VAS) product:**
 
 ```json
 {
@@ -69,7 +73,7 @@ Further, these attributes will be organized under logical **Domains**. Refer [Li
 }
 ```
 
-* **Example**:Product attribute payload for Entitlement product.
+**Sample payload for Entitlement product:**
 
 ```json
 {
@@ -119,7 +123,7 @@ Further, these attributes will be organized under logical **Domains**. Refer [Li
 }
 ```
 
-* **Example**:Product attribute payload for Fee product.
+**Sample payload for Fee product:**
 
 ```json
 {
@@ -152,10 +156,9 @@ Further, these attributes will be organized under logical **Domains**. Refer [Li
 }
 ```
 
-* Sample Query to pull the attributes  for a merchant and product :
+**Sample Query to pull the attributes for a merchant and product:**
 
-```text
-
+```sql
 select merchant_id , prdct_code, attribute_id , name attribute_name  , value  
 from umm.merchant_product_attribute p , umm.attribute_master am
 where effective_end_date is null
@@ -163,10 +166,9 @@ and prdct_code = 'ENTLVI'
 and merchant_id = '255341441889'
 and p.attribute_id = am.id
 order by name
-
 ```
 
-* **Table Name**: UMM.MERCHANT_PRODUCT_ATTRIBUTES
+* **Table Name**: `UMM.MERCHANT_PRODUCT_ATTRIBUTES`
 * **Description**: Stores attributes associated with a product for a merchant.
 
 ## List of Fields
