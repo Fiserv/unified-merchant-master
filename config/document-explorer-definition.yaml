@@ -39,16 +39,17 @@
       link: docs/getting-access/api-access.md
     - title: Snowflake Access
       link: docs/getting-access/database-access.md
-  - sections:
+- sections:
   - title: About UMM
-    sections:
-    - title: UMM Overview
-      link: docs/getting-access/umm-overview.md
+    link: docs/about-umm/umm-overview.md
+    # sections:
+    # - title: UMM Overview
+    #   link: docs/getting-access/umm-overview.md
     # - title: Snowflake Access
     #   link: docs/getting-access/database-access.md
 - sections:
   - title: Supported Backend Platforms
-    link: docs/specification/supportedPlatforms.md
+    link: docs/specification/supportedPlatforms.md   
 - sections:
   - title: Auditing
     link: docs/specification/merchant/audit/merchantAuditing.md
