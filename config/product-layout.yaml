@@ -29,7 +29,7 @@
 ################################################################################
 header:
   productName: Unified Merchant Master
-  productionDescription: UMM aims to offer a developer friendly and unified/canonical data model for GBS Merchant Account & product offerings, backed by Snowflake data store along with a standard CRUD interface and real time bi-directional synchronization with multiple backend merchant master databases (North, Optis, South, Memphis and OmniPay). With unification in data and API, it promotes ease of integration, low maintenance and easy consumption of change and reduce development time for merchant onboarding and maintenance. It serves as a comprehensive analytical platform for merchant data
+  productionDescription: Unified Merchant Master (UMM) aims to offer a developer friendly and unified/canonical data model for GBS Merchant Account & product offerings, backed by Snowflake data store along with a standard CRUD interface and real time bi-directional synchronization with multiple backend merchant master databases (North, Optis, South, Memphis and OmniPay). With unification in data and API, it promotes ease of integration, low maintenance and easy consumption of change and reduce development time for merchant onboarding and maintenance. It serves as a comprehensive analytical platform for merchant data
   whoIsItFor: Internal
   image: 
     link: "/assets/images/Fiserv_Logo.jpg"
@@ -37,8 +37,8 @@ header:
 benefits:
   - title: Unified Data Model
     description: UMM provides a unified data model for Merchant,Equipment,Fee and Product offerings to ensures consistency across different Merchant backends.
-  - title: Unified Merchant Master API Gateway
-    description: Unified  API layer to retrieve, on-board or update merchant across Fiserv platforms in user-friendly and intuitive manner for easier integration
+  - title: Unified API Gateway
+    description: Unified API layer to retrieve, on-board or update merchant across Fiserv platforms in user-friendly and intuitive manner for easier integration
   - title: Real-time Bi-directional Synchronization
     description: UMM enables real-time synchronization with backend merchant master databases to ensures consistency and accuracy of the data across all systems.
 getStarted: /docs/getting-started.md

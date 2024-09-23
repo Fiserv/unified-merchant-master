@@ -2,24 +2,24 @@
 
 May 2022
 
-## v1.0.0 (api version)
+## v1.0.0
 
 ## What's New
 
-- Something new that was added or introduced like a documents or a services.  [Possible link to the doc](?path=/docs/getting-started.md)
+- UMM data models is generally available [🔗](?path=/docs/specification/readMe.md)
 
 ## Enhancements
 
-- Description of an improvement or a change
+N/A
 
 ## Fixed
 
-- github issue that was fixed. [Possible github issue link ](https://github.com/Fiserv/Support/issues)
+N/A
 
 ## Known Issues
 
-- persistent issue that's not fixed.
+N/A
 
 ## Deprecated
 
-- regarded as obsolete and best avoided
+N/A

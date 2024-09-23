@@ -29,6 +29,9 @@
 ################################################################################
 
 - sections:
+  - title: About
+    link: docs/about-umm/umm-overview.md
+- sections:
   - title: Getting Started
     link: docs/getting-started.md
 # - sections:
@@ -39,9 +42,6 @@
       link: docs/getting-access/api-access.md
     - title: Snowflake Access
       link: docs/getting-access/database-access.md
-- sections:
-  - title: About UMM
-    link: docs/about-umm/umm-overview.md
     # sections:
     # - title: UMM Overview
     #   link: docs/getting-access/umm-overview.md
@@ -59,50 +59,50 @@
     - title: Audit Additional Info
       link: docs/specification/merchant/audit/umm-audit-additional-info.md
 - sections:
-  - title: UMM Data Specification
+  - title: Data Specification
     link: docs/specification/readMe.md
     sections:
     - title: Merchant
       link: docs/specification/merchant/merchant.md
       sections:
-      - title: Owner
-        link: docs/specification/merchant/MerchantOwner.md
-      - title: Bank Account
-        link: docs/specification/merchant/MerchantBankAccount.md
       - title: Address
         link: docs/specification/merchant/MerchantAddress.md
-      - title: Hierarchy
-        link: docs/specification/merchant/MerchantHierarchy.md
-      - title: Xref
-        link: docs/specification/merchant/Merchant_Xref.md
-      - title: Tax Additional Data (US)
-        link: docs/specification/merchant/Tax_Adtnl_Data_US.md
-      - title: Business Information
-        link: docs/specification/merchant/MerchantBusinessInformation.md
       - title: Attributes
         link: docs/specification/merchant/merchantAttributes.md
+      - title: Bank Account
+        link: docs/specification/merchant/MerchantBankAccount.md
+      - title: Business Information
+        link: docs/specification/merchant/MerchantBusinessInformation.md
+      - title: Hierarchy
+        link: docs/specification/merchant/MerchantHierarchy.md
+      - title: Owner
+        link: docs/specification/merchant/MerchantOwner.md
+      - title: Tax Additional Data (US)
+        link: docs/specification/merchant/Tax_Adtnl_Data_US.md
+      - title: Xref
+        link: docs/specification/merchant/Merchant_Xref.md
     - title: Product
       link: docs/specification/merchant/merchantProduct.md
       sections:
       - title: Entitlements
         link: docs/specification/products_entitlements.md
-      - title: Value Added Services
-        link: docs/specification/products_vas.md
-      - title: Fees
-        link: docs/specification/products_fees.md
       - title: Equipment
         link: docs/specification/products_equipments.md
+      - title: Fees
+        link: docs/specification/products_fees.md
+      - title: Value Added Services
+        link: docs/specification/products_vas.md
     - title: Product Attributes
       link: docs/specification/merchant/ProductAttributes.md  
       sections:
       - title: Entitlements
         link: docs/specification/merchant/prodAttributes_Entitlements.md
-      - title: Value Added Services
-        link: docs/specification/merchant/productAttributes_VAS.md
+      - title: Equipment
+        link: docs/specification/merchant/productAttributes_equipment.md
       - title: Fees
         link: docs/specification/merchant/productAttributes_fees.md
-      - title: Equipment
-        link: docs/specification/merchant/productAttributes_equipment.md        
+      - title: Value Added Services
+        link: docs/specification/merchant/productAttributes_VAS.md
 - sections:
   - title: Release notes
     sections:
