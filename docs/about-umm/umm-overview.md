@@ -1,6 +1,6 @@
 # UMM Overview
 
-## Motivation behind UMM
+## Motivation
 
 > Fiserv has multiple diverse and complex back-end merchant data stores that lack a uniform definition for products, fees, pricing, merchant accounts and acquiring hierarchy across platforms.
 
@@ -10,7 +10,7 @@ The disparity in data taxonomy and conflicting semantics among different systems
 
 > To address these issues, the Unified Merchant Master (UMM) offers Single Unified Definition of products and offerings, fees, equipment and merchant demographic information.
 
-## Solution Golas
+## Goals
 
 * Unified/canonical data model for GBS Merchant Account and product offerings, hosted on a Snowflake Database
 * CRUD Interface integrated with  Developer Studio with single Taxonomy and Metadata to simplify Integration using platform-agnostic  GraphQL API
@@ -22,8 +22,40 @@ By unifying data and APIs, UMM simplifies the integration process, reducing comp
 
 ## Functionality
 
-* Merchant Onboarding
-* Merchant Maintenance
-* Merchant Inquiry
-* Product Catalog
-* Audit and Change notification
+<!-- type: row -->
+
+<!-- type: card
+title: Merchant Onboarding
+description:
+link:
+-->
+
+<!-- type: card
+title: Merchant Maintenance
+description:
+link:
+-->
+
+<!-- type: card
+title: Merchant Inquiry
+description:
+link:
+-->
+
+<!-- type: row-end -->
+
+<!-- type: row -->
+
+<!-- type: card
+title: Product Catalog
+description:
+link:
+-->
+
+<!-- type: card
+title: Audit and Change notification
+description:
+link:
+-->
+
+<!-- type: row-end -->
