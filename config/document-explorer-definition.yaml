@@ -41,7 +41,7 @@
       link: docs/getting-access/database-access.md
   - sections:
   - title: About UMM
-      link: docs/umm-overview.md
+      link: docs/about-umm/umm-overview.md
     # sections:
     # - title: UMM Overview
     #   link: docs/getting-access/umm-overview.md
