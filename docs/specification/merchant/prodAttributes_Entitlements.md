@@ -2,88 +2,105 @@
 
 **List of attributes for a specific Entitlement product.**
 
+
 ## Alipay Eligibility Program
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLALIPAY`
-* Product Description: Alipay Eligibility Program
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLALIPAY  |: Alipay Eligibility Program :|
+<!-- type: tab -->
+|: ENTLALIPAY  |: Alipay Eligibility Program :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | alipayOfferingType | Alipay Entitlement| ALIPAY_ELIGIBLE|ALIPAY_ELIGIBLE|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|alipayOfferingType | Alipay Entitlement| ALIPAY_ELIGIBLE|ALIPAY_ELIGIBLE|
+|effectiveDate | Effective Date| ||
+|mccCode | Merchant Category Code| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | alipayOfferingType | Alipay Entitlement| ALIPAY_ELIGIBLE|ALIPAY_ELIGIBLE|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|alipayOfferingType | Alipay Entitlement| ALIPAY_ELIGIBLE|ALIPAY_ELIGIBLE|
+|effectiveDate | Effective Date| ||
+|mccCode | Merchant Category Code| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## American Express Multi Acquirer Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLAMEXMA`
-* Product Description: American Express Multi Acquirer Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLAMEXMA  |: American Express Multi Acquirer Entitlement :|
+<!-- type: tab -->
+|: ENTLAMEXMA  |: American Express Multi Acquirer Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -94,182 +111,190 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | chase | Chase| ||
-|specialProgramIndicators | chaseNet | Chase Net| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | chase | Chase| ||
-|specialProgramIndicators | chaseNet | Chase Net| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Amex Opt Blue Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLAMEXOB`
-* Product Description: Amex Opt Blue Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLAMEXOB  |: Amex Opt Blue Entitlement :|
+<!-- type: tab -->
+|: ENTLAMEXOB  |: Amex Opt Blue Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -280,43 +305,49 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | amexMarketing | Amex Marketing| ||
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|amexMarketing | Amex Marketing| ||
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | amexMarketing | Amex Marketing| ||
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|amexMarketing | Amex Marketing| ||
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Amex Pass Through Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLAMEXPT`
-* Product Description: Amex Pass Through Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLAMEXPT  |: Amex Pass Through Entitlement :|
+<!-- type: tab -->
+|: ENTLAMEXPT  |: Amex Pass Through Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### amexSourceCode
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|amexSourceCode | effectiveDate | Effective Date| ||
-|amexSourceCode | sourceCode | Amex SourceCode| ||
-
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|sourceCode | Amex SourceCode| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|amexSourceCode | effectiveDate | Effective Date| ||
-|amexSourceCode | sourceCode | Amex SourceCode| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|sourceCode | Amex SourceCode| ||
 <!-- type: tab -->
-
 <!-- type: tab-end -->
 
 ### entitlementAttr
@@ -326,56 +357,50 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number |           |                |
-|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
-
 <!-- type: tab-end -->
 
 ### specialProgramIndicators
@@ -385,366 +410,425 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | amexFranchise | Amex Franchise| ||
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|amexFranchise | Amex Franchise| ||
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | amexFranchise | Amex Franchise| ||
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|amexFranchise | Amex Franchise| ||
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Arvato Eold Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLARVEOL`
-* Product Description: Arvato Eold Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLARVEOL  |: Arvato Eold Entitlement :|
+<!-- type: tab -->
+|: ENTLARVEOL  |: Arvato Eold Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Bill Me Later Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLBILLAT`
-* Product Description: Bill Me Later Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLBILLAT  |: Bill Me Later Entitlement :|
+<!-- type: tab -->
+|: ENTLBILLAT  |: Bill Me Later Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## BentoBox
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLBNTBOX`
-* Product Description: BentoBox
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLBNTBOX  |: BentoBox :|
+<!-- type: tab -->
+|: ENTLBNTBOX  |: BentoBox :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | bentoBoxStatus | Bento Box Program Status| CANCEL|CANCEL|
-|entitlementAttr | bentoBoxStatus | Bento Box Program Status| ACTIVE|ACTIVE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|bentoBoxStatus | Bento Box Program Status| CANCEL|CANCEL|
+|bentoBoxStatus | Bento Box Program Status| ACTIVE|ACTIVE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | bentoBoxStatus | Bento Box Program Status| CANCEL|CANCEL|
-|entitlementAttr | bentoBoxStatus | Bento Box Program Status| ACTIVE|ACTIVE|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|bentoBoxStatus | Bento Box Program Status| CANCEL|CANCEL|
+|bentoBoxStatus | Bento Box Program Status| ACTIVE|ACTIVE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Check Non Warranty Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLCHKNWR`
-* Product Description: Check Non Warranty Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLCHKNWR  |: Check Non Warranty Entitlement :|
+<!-- type: tab -->
+|: ENTLCHKNWR  |: Check Non Warranty Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Check Warranty Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLCHKWAR`
-* Product Description: Check Warranty Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLCHKWAR  |: Check Warranty Entitlement :|
+<!-- type: tab -->
+|: ENTLCHKWAR  |: Check Warranty Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Clover Go
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLCLOVERGO`
-* Product Description: Clover Go
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLCLOVERGO  |: Clover Go :|
+<!-- type: tab -->
+|: ENTLCLOVERGO  |: Clover Go :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clovergoOfferingType | Offering Type for Clover Go| STANDARD_OFFERING|STANDARD_OFFERING|
-|entitlementAttr | clovergoStatus | Program Status for Clover Go| CANCEL|CANCEL|
-|entitlementAttr | clovergoStatus | Program Status for Clover Go| ACTIVE|ACTIVE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clovergoOfferingType | Offering Type for Clover Go| STANDARD_OFFERING|STANDARD_OFFERING|
+|clovergoStatus | Program Status for Clover Go| CANCEL|CANCEL|
+|clovergoStatus | Program Status for Clover Go| ACTIVE|ACTIVE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clovergoOfferingType | Offering Type for Clover Go| STANDARD_OFFERING|STANDARD_OFFERING|
-|entitlementAttr | clovergoStatus | Program Status for Clover Go| CANCEL|CANCEL|
-|entitlementAttr | clovergoStatus | Program Status for Clover Go| ACTIVE|ACTIVE|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clovergoOfferingType | Offering Type for Clover Go| STANDARD_OFFERING|STANDARD_OFFERING|
+|clovergoStatus | Program Status for Clover Go| CANCEL|CANCEL|
+|clovergoStatus | Program Status for Clover Go| ACTIVE|ACTIVE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## China Union Pay Eligibilty Program
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLCUP`
-* Product Description: China Union Pay Eligibilty Program
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLCUP  |: China Union Pay Eligibilty Program :|
+<!-- type: tab -->
+|: ENTLCUP  |: China Union Pay Eligibilty Program :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | chinaUnionOfferingType | China Union Pay Entitlement| CUP_ELIGIBLE|CUP_ELIGIBLE|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chinaUnionOfferingType | China Union Pay Entitlement| CUP_ELIGIBLE|CUP_ELIGIBLE|
+|effectiveDate | Effective Date| ||
+|mccCode | Merchant Category Code| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | chinaUnionOfferingType | China Union Pay Entitlement| CUP_ELIGIBLE|CUP_ELIGIBLE|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chinaUnionOfferingType | China Union Pay Entitlement| CUP_ELIGIBLE|CUP_ELIGIBLE|
+|effectiveDate | Effective Date| ||
+|mccCode | Merchant Category Code| ||
 <!-- type: tab -->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
-|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
-
 <!-- type: tab-end -->
 ---
 
 ## Debit Eds Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLDBTEDS`
-* Product Description: Debit Eds Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLDBTEDS  |: Debit Eds Entitlement :|
+<!-- type: tab -->
+|: ENTLDBTEDS  |: Debit Eds Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### disbursementssements
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|disbursementssements | miscInfoText | Misc Info Text| ||
-|disbursementssements | pinEntryMethods | Pin Entry Methods| YES|VALUE|
-|disbursementssements | pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
-|disbursementssements | pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
-|disbursementssements | pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|miscInfoText | Misc Info Text| ||
+|pinEntryMethods | Pin Entry Methods| YES|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
+|pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|disbursementssements | miscInfoText | Misc Info Text| ||
-|disbursementssements | pinEntryMethods | Pin Entry Methods| YES|VALUE|
-|disbursementssements | pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
-|disbursementssements | pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
-|disbursementssements | pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|miscInfoText | Misc Info Text| ||
+|pinEntryMethods | Pin Entry Methods| YES|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
+|pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -755,21 +839,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|ecommercerce | miscInfoText | Misc Info Text| ||
-|ecommercerce | pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
-|ecommercerce | pinEntryMethods | Pin Entry Methods| YES|VALUE|
-|ecommercerce | pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
-|ecommercerce | pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|miscInfoText | Misc Info Text| ||
+|pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
+|pinEntryMethods | Pin Entry Methods| YES|VALUE|
+|pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|ecommercerce | miscInfoText | Misc Info Text| ||
-|ecommercerce | pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
-|ecommercerce | pinEntryMethods | Pin Entry Methods| YES|VALUE|
-|ecommercerce | pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
-|ecommercerce | pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|miscInfoText | Misc Info Text| ||
+|pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
+|pinEntryMethods | Pin Entry Methods| YES|VALUE|
+|pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -780,49 +864,49 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -833,21 +917,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAccel | healthcare | Healthcare| PINLESS|VALUE|
-|hcAccel | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAccel | healthcare | Healthcare| YES|VALUE|
-|hcAccel | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAccel | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAccel | healthcare | Healthcare| PINLESS|VALUE|
-|hcAccel | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAccel | healthcare | Healthcare| YES|VALUE|
-|hcAccel | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAccel | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -858,21 +942,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAffn | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAffn | healthcare | Healthcare| YES|VALUE|
-|hcAffn | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAffn | healthcare | Healthcare| PINLESS|VALUE|
-|hcAffn | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAffn | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAffn | healthcare | Healthcare| YES|VALUE|
-|hcAffn | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAffn | healthcare | Healthcare| PINLESS|VALUE|
-|hcAffn | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -883,21 +967,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAth | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAth | healthcare | Healthcare| PINLESS|VALUE|
-|hcAth | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAth | healthcare | Healthcare| YES|VALUE|
-|hcAth | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAth | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAth | healthcare | Healthcare| PINLESS|VALUE|
-|hcAth | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAth | healthcare | Healthcare| YES|VALUE|
-|hcAth | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -908,21 +992,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAts | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAts | healthcare | Healthcare| YES|VALUE|
-|hcAts | healthcare | Healthcare| PINLESS|VALUE|
-|hcAts | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAts | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAts | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAts | healthcare | Healthcare| YES|VALUE|
-|hcAts | healthcare | Healthcare| PINLESS|VALUE|
-|hcAts | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAts | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -933,21 +1017,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcCu24 | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcCu24 | healthcare | Healthcare| YES|VALUE|
-|hcCu24 | healthcare | Healthcare| PINLESS|VALUE|
-|hcCu24 | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcCu24 | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcCu24 | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcCu24 | healthcare | Healthcare| YES|VALUE|
-|hcCu24 | healthcare | Healthcare| PINLESS|VALUE|
-|hcCu24 | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcCu24 | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -958,21 +1042,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcInterlink | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcInterlink | healthcare | Healthcare| PINLESS|VALUE|
-|hcInterlink | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcInterlink | healthcare | Healthcare| YES|VALUE|
-|hcInterlink | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcInterlink | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcInterlink | healthcare | Healthcare| PINLESS|VALUE|
-|hcInterlink | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcInterlink | healthcare | Healthcare| YES|VALUE|
-|hcInterlink | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -983,21 +1067,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcJeanie | healthcare | Healthcare| YES|VALUE|
-|hcJeanie | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcJeanie | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcJeanie | healthcare | Healthcare| PINLESS|VALUE|
-|hcJeanie | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcJeanie | healthcare | Healthcare| YES|VALUE|
-|hcJeanie | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcJeanie | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcJeanie | healthcare | Healthcare| PINLESS|VALUE|
-|hcJeanie | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1008,21 +1092,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcMaestro | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcMaestro | healthcare | Healthcare| YES|VALUE|
-|hcMaestro | healthcare | Healthcare| PINLESS|VALUE|
-|hcMaestro | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcMaestro | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcMaestro | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcMaestro | healthcare | Healthcare| YES|VALUE|
-|hcMaestro | healthcare | Healthcare| PINLESS|VALUE|
-|hcMaestro | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcMaestro | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1033,21 +1117,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcNyce | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcNyce | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcNyce | healthcare | Healthcare| YES|VALUE|
-|hcNyce | healthcare | Healthcare| PINLESS|VALUE|
-|hcNyce | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcNyce | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcNyce | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcNyce | healthcare | Healthcare| YES|VALUE|
-|hcNyce | healthcare | Healthcare| PINLESS|VALUE|
-|hcNyce | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1058,21 +1142,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcPulse | healthcare | Healthcare| PINLESS|VALUE|
-|hcPulse | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcPulse | healthcare | Healthcare| YES|VALUE|
-|hcPulse | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcPulse | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcPulse | healthcare | Healthcare| PINLESS|VALUE|
-|hcPulse | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcPulse | healthcare | Healthcare| YES|VALUE|
-|hcPulse | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcPulse | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1083,21 +1167,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcShazam | healthcare | Healthcare| YES|VALUE|
-|hcShazam | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcShazam | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcShazam | healthcare | Healthcare| PINLESS|VALUE|
-|hcShazam | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcShazam | healthcare | Healthcare| YES|VALUE|
-|hcShazam | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcShazam | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcShazam | healthcare | Healthcare| PINLESS|VALUE|
-|hcShazam | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1108,21 +1192,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcStarEast | healthcare | Healthcare| PINLESS|VALUE|
-|hcStarEast | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcStarEast | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcStarEast | healthcare | Healthcare| YES|VALUE|
-|hcStarEast | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcStarEast | healthcare | Healthcare| PINLESS|VALUE|
-|hcStarEast | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcStarEast | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcStarEast | healthcare | Healthcare| YES|VALUE|
-|hcStarEast | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1133,21 +1217,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcStarNortheast | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcStarNortheast | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcStarNortheast | healthcare | Healthcare| YES|VALUE|
-|hcStarNortheast | healthcare | Healthcare| PINLESS|VALUE|
-|hcStarNortheast | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcStarNortheast | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcStarNortheast | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcStarNortheast | healthcare | Healthcare| YES|VALUE|
-|hcStarNortheast | healthcare | Healthcare| PINLESS|VALUE|
-|hcStarNortheast | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1158,21 +1242,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcStarWest | healthcare | Healthcare| YES|VALUE|
-|hcStarWest | healthcare | Healthcare| PINLESS|VALUE|
-|hcStarWest | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcStarWest | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcStarWest | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcStarWest | healthcare | Healthcare| YES|VALUE|
-|hcStarWest | healthcare | Healthcare| PINLESS|VALUE|
-|hcStarWest | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcStarWest | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcStarWest | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1183,21 +1267,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|lcrBillPayment | miscInfoText | Misc Info Text| ||
-|lcrBillPayment | pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
-|lcrBillPayment | pinEntryMethods | Pin Entry Methods| YES|VALUE|
-|lcrBillPayment | pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
-|lcrBillPayment | pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|miscInfoText | Misc Info Text| ||
+|pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
+|pinEntryMethods | Pin Entry Methods| YES|VALUE|
+|pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|lcrBillPayment | miscInfoText | Misc Info Text| ||
-|lcrBillPayment | pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
-|lcrBillPayment | pinEntryMethods | Pin Entry Methods| YES|VALUE|
-|lcrBillPayment | pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
-|lcrBillPayment | pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|miscInfoText | Misc Info Text| ||
+|pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
+|pinEntryMethods | Pin Entry Methods| YES|VALUE|
+|pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1208,21 +1292,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|moneyTransfers | miscInfoText | Misc Info Text| ||
-|moneyTransfers | pinEntryMethods | Pin Entry Methods| YES|VALUE|
-|moneyTransfers | pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
-|moneyTransfers | pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
-|moneyTransfers | pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|miscInfoText | Misc Info Text| ||
+|pinEntryMethods | Pin Entry Methods| YES|VALUE|
+|pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|moneyTransfers | miscInfoText | Misc Info Text| ||
-|moneyTransfers | pinEntryMethods | Pin Entry Methods| YES|VALUE|
-|moneyTransfers | pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
-|moneyTransfers | pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
-|moneyTransfers | pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|miscInfoText | Misc Info Text| ||
+|pinEntryMethods | Pin Entry Methods| YES|VALUE|
+|pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1233,80 +1317,88 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|pos | miscInfoText | Misc Info Text| ||
-|pos | pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
-|pos | pinEntryMethods | Pin Entry Methods| YES|VALUE|
-|pos | pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
-|pos | pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|miscInfoText | Misc Info Text| ||
+|pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
+|pinEntryMethods | Pin Entry Methods| YES|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
+|pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|pos | miscInfoText | Misc Info Text| ||
-|pos | pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
-|pos | pinEntryMethods | Pin Entry Methods| YES|VALUE|
-|pos | pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
-|pos | pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|miscInfoText | Misc Info Text| ||
+|pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
+|pinEntryMethods | Pin Entry Methods| YES|VALUE|
+|pinEntryMethods | Pin Entry Methods| PIN_ONLY|VALUE|
+|pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Debit Gateway Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLDBTGTW`
-* Product Description: Debit Gateway Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLDBTGTW  |: Debit Gateway Entitlement :|
+<!-- type: tab -->
+|: ENTLDBTGTW  |: Debit Gateway Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1317,21 +1409,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAccel | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAccel | healthcare | Healthcare| YES|VALUE|
-|hcAccel | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAccel | healthcare | Healthcare| PINLESS|VALUE|
-|hcAccel | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAccel | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAccel | healthcare | Healthcare| YES|VALUE|
-|hcAccel | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAccel | healthcare | Healthcare| PINLESS|VALUE|
-|hcAccel | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1342,21 +1434,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAffn | healthcare | Healthcare| YES|VALUE|
-|hcAffn | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAffn | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAffn | healthcare | Healthcare| PINLESS|VALUE|
-|hcAffn | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAffn | healthcare | Healthcare| YES|VALUE|
-|hcAffn | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAffn | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAffn | healthcare | Healthcare| PINLESS|VALUE|
-|hcAffn | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1367,21 +1459,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAth | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAth | healthcare | Healthcare| PINLESS|VALUE|
-|hcAth | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAth | healthcare | Healthcare| YES|VALUE|
-|hcAth | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAth | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAth | healthcare | Healthcare| PINLESS|VALUE|
-|hcAth | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAth | healthcare | Healthcare| YES|VALUE|
-|hcAth | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1392,21 +1484,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAts | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAts | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAts | healthcare | Healthcare| YES|VALUE|
-|hcAts | healthcare | Healthcare| PINLESS|VALUE|
-|hcAts | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcAts | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcAts | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcAts | healthcare | Healthcare| YES|VALUE|
-|hcAts | healthcare | Healthcare| PINLESS|VALUE|
-|hcAts | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1417,21 +1509,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcCu24 | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcCu24 | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcCu24 | healthcare | Healthcare| PINLESS|VALUE|
-|hcCu24 | healthcare | Healthcare| YES|VALUE|
-|hcCu24 | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcCu24 | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcCu24 | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcCu24 | healthcare | Healthcare| PINLESS|VALUE|
-|hcCu24 | healthcare | Healthcare| YES|VALUE|
-|hcCu24 | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1442,21 +1534,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcInterlink | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcInterlink | healthcare | Healthcare| PINLESS|VALUE|
-|hcInterlink | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcInterlink | healthcare | Healthcare| YES|VALUE|
-|hcInterlink | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcInterlink | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcInterlink | healthcare | Healthcare| PINLESS|VALUE|
-|hcInterlink | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcInterlink | healthcare | Healthcare| YES|VALUE|
-|hcInterlink | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1467,21 +1559,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcJeanie | healthcare | Healthcare| YES|VALUE|
-|hcJeanie | healthcare | Healthcare| PINLESS|VALUE|
-|hcJeanie | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcJeanie | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcJeanie | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcJeanie | healthcare | Healthcare| YES|VALUE|
-|hcJeanie | healthcare | Healthcare| PINLESS|VALUE|
-|hcJeanie | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcJeanie | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcJeanie | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1492,21 +1584,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcMaestro | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcMaestro | healthcare | Healthcare| YES|VALUE|
-|hcMaestro | healthcare | Healthcare| PINLESS|VALUE|
-|hcMaestro | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcMaestro | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcMaestro | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcMaestro | healthcare | Healthcare| YES|VALUE|
-|hcMaestro | healthcare | Healthcare| PINLESS|VALUE|
-|hcMaestro | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcMaestro | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1517,21 +1609,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcNyce | healthcare | Healthcare| PINLESS|VALUE|
-|hcNyce | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcNyce | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcNyce | healthcare | Healthcare| YES|VALUE|
-|hcNyce | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcNyce | healthcare | Healthcare| PINLESS|VALUE|
-|hcNyce | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcNyce | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcNyce | healthcare | Healthcare| YES|VALUE|
-|hcNyce | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1542,21 +1634,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcPulse | healthcare | Healthcare| PINLESS|VALUE|
-|hcPulse | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcPulse | healthcare | Healthcare| YES|VALUE|
-|hcPulse | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcPulse | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcPulse | healthcare | Healthcare| PINLESS|VALUE|
-|hcPulse | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcPulse | healthcare | Healthcare| YES|VALUE|
-|hcPulse | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcPulse | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1567,21 +1659,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcShazam | healthcare | Healthcare| PINLESS|VALUE|
-|hcShazam | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcShazam | healthcare | Healthcare| YES|VALUE|
-|hcShazam | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcShazam | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcShazam | healthcare | Healthcare| PINLESS|VALUE|
-|hcShazam | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcShazam | healthcare | Healthcare| YES|VALUE|
-|hcShazam | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcShazam | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1592,21 +1684,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcStarEast | healthcare | Healthcare| YES|VALUE|
-|hcStarEast | healthcare | Healthcare| PINLESS|VALUE|
-|hcStarEast | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcStarEast | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcStarEast | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcStarEast | healthcare | Healthcare| YES|VALUE|
-|hcStarEast | healthcare | Healthcare| PINLESS|VALUE|
-|hcStarEast | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcStarEast | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcStarEast | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1617,21 +1709,21 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcStarNortheast | healthcare | Healthcare| YES|VALUE|
-|hcStarNortheast | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcStarNortheast | healthcare | Healthcare| PINLESS|VALUE|
-|hcStarNortheast | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcStarNortheast | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcStarNortheast | healthcare | Healthcare| YES|VALUE|
-|hcStarNortheast | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcStarNortheast | healthcare | Healthcare| PINLESS|VALUE|
-|hcStarNortheast | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcStarNortheast | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1642,80 +1734,88 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcStarWest | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcStarWest | healthcare | Healthcare| YES|VALUE|
-|hcStarWest | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcStarWest | healthcare | Healthcare| PINLESS|VALUE|
-|hcStarWest | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|hcStarWest | healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
-|hcStarWest | healthcare | Healthcare| YES|VALUE|
-|hcStarWest | healthcare | Healthcare| PIN_ONLY|VALUE|
-|hcStarWest | healthcare | Healthcare| PINLESS|VALUE|
-|hcStarWest | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
+|healthcare | Healthcare| YES|VALUE|
+|healthcare | Healthcare| PIN_ONLY|VALUE|
+|healthcare | Healthcare| PINLESS|VALUE|
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Debit Multi Acquirer Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLDBTMA`
-* Product Description: Debit Multi Acquirer Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLDBTMA  |: Debit Multi Acquirer Entitlement :|
+<!-- type: tab -->
+|: ENTLDBTMA  |: Debit Multi Acquirer Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1726,74 +1826,82 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | chase | Chase| ||
-|specialProgramIndicators | chaseNet | Chase Net| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | chase | Chase| ||
-|specialProgramIndicators | chaseNet | Chase Net| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Diners Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLDINER`
-* Product Description: Diners Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLDINER  |: Diners Entitlement :|
+<!-- type: tab -->
+|: ENTLDINER  |: Diners Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1804,180 +1912,188 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Discover Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLDISC`
-* Product Description: Discover Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLDISC  |: Discover Entitlement :|
+<!-- type: tab -->
+|: ENTLDISC  |: Discover Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -1988,25 +2104,25 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|paypalOptOutReason | effectiveDate | Effective Date| ||
-|paypalOptOutReason | reasonCode | Opt Out Reason Code| OTHER|VALUE|
-|paypalOptOutReason | reasonCode | Opt Out Reason Code| NOT_INTERESTED|VALUE|
-|paypalOptOutReason | reasonCode | Opt Out Reason Code| NOT_SOLICITED|VALUE|
-|paypalOptOutReason | reasonCode | Opt Out Reason Code| NOT_ELIGIBLE|VALUE|
-|paypalOptOutReason | reasonCode | Opt Out Reason Code| PREV_BAN_EXPERIENCE|VALUE|
-|paypalOptOutReason | reasonCode | Opt Out Reason Code| RATE_CONCERNS|VALUE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|reasonCode | Opt Out Reason Code| OTHER|VALUE|
+|reasonCode | Opt Out Reason Code| NOT_INTERESTED|VALUE|
+|reasonCode | Opt Out Reason Code| NOT_SOLICITED|VALUE|
+|reasonCode | Opt Out Reason Code| NOT_ELIGIBLE|VALUE|
+|reasonCode | Opt Out Reason Code| PREV_BAN_EXPERIENCE|VALUE|
+|reasonCode | Opt Out Reason Code| RATE_CONCERNS|VALUE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|paypalOptOutReason | effectiveDate | Effective Date| ||
-|paypalOptOutReason | reasonCode | Opt Out Reason Code| OTHER|VALUE|
-|paypalOptOutReason | reasonCode | Opt Out Reason Code| NOT_INTERESTED|VALUE|
-|paypalOptOutReason | reasonCode | Opt Out Reason Code| NOT_SOLICITED|VALUE|
-|paypalOptOutReason | reasonCode | Opt Out Reason Code| NOT_ELIGIBLE|VALUE|
-|paypalOptOutReason | reasonCode | Opt Out Reason Code| PREV_BAN_EXPERIENCE|VALUE|
-|paypalOptOutReason | reasonCode | Opt Out Reason Code| RATE_CONCERNS|VALUE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|reasonCode | Opt Out Reason Code| OTHER|VALUE|
+|reasonCode | Opt Out Reason Code| NOT_INTERESTED|VALUE|
+|reasonCode | Opt Out Reason Code| NOT_SOLICITED|VALUE|
+|reasonCode | Opt Out Reason Code| NOT_ELIGIBLE|VALUE|
+|reasonCode | Opt Out Reason Code| PREV_BAN_EXPERIENCE|VALUE|
+|reasonCode | Opt Out Reason Code| RATE_CONCERNS|VALUE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -2017,74 +2133,82 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | upi | Upi| ||
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|upi | Upi| ||
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | upi | Upi| ||
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|upi | Upi| ||
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Discover Multi Acquirer Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLDISCMA`
-* Product Description: Discover Multi Acquirer Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLDISCMA  |: Discover Multi Acquirer Entitlement :|
+<!-- type: tab -->
+|: ENTLDISCMA  |: Discover Multi Acquirer Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -2095,487 +2219,551 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | chase | Chase| ||
-|specialProgramIndicators | chaseNet | Chase Net| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | chase | Chase| ||
-|specialProgramIndicators | chaseNet | Chase Net| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Ebt Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLEBT`
-* Product Description: Ebt Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLEBT  |: Ebt Entitlement :|
+<!-- type: tab -->
+|: ENTLEBT  |: Ebt Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Encore Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLENCORE`
-* Product Description: Encore Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLENCORE  |: Encore Entitlement :|
+<!-- type: tab -->
+|: ENTLENCORE  |: Encore Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Earn Loyalty Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLERNLYT`
-* Product Description: Earn Loyalty Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLERNLYT  |: Earn Loyalty Entitlement :|
+<!-- type: tab -->
+|: ENTLERNLYT  |: Earn Loyalty Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Etc Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLETC`
-* Product Description: Etc Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLETC  |: Etc Entitlement :|
+<!-- type: tab -->
+|: ENTLETC  |: Etc Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Explore Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLEXPLR`
-* Product Description: Explore Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLEXPLR  |: Explore Entitlement :|
+<!-- type: tab -->
+|: ENTLEXPLR  |: Explore Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Fleetcore Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLFLTCOR`
-* Product Description: Fleetcore Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLFLTCOR  |: Fleetcore Entitlement :|
+<!-- type: tab -->
+|: ENTLFLTCOR  |: Fleetcore Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Fleetone Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLFLTONE`
-* Product Description: Fleetone Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLFLTONE  |: Fleetone Entitlement :|
+<!-- type: tab -->
+|: ENTLFLTONE  |: Fleetone Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Funded Stored Value Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLFNDSV`
-* Product Description: Funded Stored Value Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLFNDSV  |: Funded Stored Value Entitlement :|
+<!-- type: tab -->
+|: ENTLFNDSV  |: Funded Stored Value Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -2586,637 +2774,728 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | duguesneUniv | Duguesne Univ| ||
-|specialProgramIndicators | mondex | Mondex| ||
-|specialProgramIndicators | robertMorrisCollege | Robert Morris College| ||
-|specialProgramIndicators | univofPenn | Univof Penn| ||
-|specialProgramIndicators | valueLink | Value Link| ||
-|specialProgramIndicators | visaCash | Visa Cash| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|duguesneUniv | Duguesne Univ| ||
+|mondex | Mondex| ||
+|robertMorrisCollege | Robert Morris College| ||
+|univofPenn | Univof Penn| ||
+|valueLink | Value Link| ||
+|visaCash | Visa Cash| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | duguesneUniv | Duguesne Univ| ||
-|specialProgramIndicators | mondex | Mondex| ||
-|specialProgramIndicators | robertMorrisCollege | Robert Morris College| ||
-|specialProgramIndicators | univofPenn | Univof Penn| ||
-|specialProgramIndicators | valueLink | Value Link| ||
-|specialProgramIndicators | visaCash | Visa Cash| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|duguesneUniv | Duguesne Univ| ||
+|mondex | Mondex| ||
+|robertMorrisCollege | Robert Morris College| ||
+|univofPenn | Univof Penn| ||
+|valueLink | Value Link| ||
+|visaCash | Visa Cash| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Future Petroleum 1 Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLFRPET1`
-* Product Description: Future Petroleum 1 Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLFRPET1  |: Future Petroleum 1 Entitlement :|
+<!-- type: tab -->
+|: ENTLFRPET1  |: Future Petroleum 1 Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Future Petroleum 2 Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLFRPET2`
-* Product Description: Future Petroleum 2 Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLFRPET2  |: Future Petroleum 2 Entitlement :|
+<!-- type: tab -->
+|: ENTLFRPET2  |: Future Petroleum 2 Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Future Petroleum 3 Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLFRPET3`
-* Product Description: Future Petroleum 3 Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLFRPET3  |: Future Petroleum 3 Entitlement :|
+<!-- type: tab -->
+|: ENTLFRPET3  |: Future Petroleum 3 Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Google Checkout Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLGGLCKT`
-* Product Description: Google Checkout Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLGGLCKT  |: Google Checkout Entitlement :|
+<!-- type: tab -->
+|: ENTLGGLCKT  |: Google Checkout Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Global Alternate Mops Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLGLALTM`
-* Product Description: Global Alternate Mops Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLGLALTM  |: Global Alternate Mops Entitlement :|
+<!-- type: tab -->
+|: ENTLGLALTM  |: Global Alternate Mops Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Generic Private Label Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLGNPVLB`
-* Product Description: Generic Private Label Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLGNPVLB  |: Generic Private Label Entitlement :|
+<!-- type: tab -->
+|: ENTLGNPVLB  |: Generic Private Label Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Interac Contact Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLINTERACCNT`
-* Product Description: Interac Contact Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLINTERACCNT  |: Interac Contact Entitlement :|
+<!-- type: tab -->
+|: ENTLINTERACCNT  |: Interac Contact Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | interacContactStatus | Program Status for Interac Contact Entitlement| ACTIVE|ACTIVE|
-|entitlementAttr | interacContactStatus | Program Status for Interac Contact Entitlement| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|interacContactStatus | Program Status for Interac Contact Entitlement| ACTIVE|ACTIVE|
+|interacContactStatus | Program Status for Interac Contact Entitlement| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | interacContactStatus | Program Status for Interac Contact Entitlement| ACTIVE|ACTIVE|
-|entitlementAttr | interacContactStatus | Program Status for Interac Contact Entitlement| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|interacContactStatus | Program Status for Interac Contact Entitlement| ACTIVE|ACTIVE|
+|interacContactStatus | Program Status for Interac Contact Entitlement| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Interac Flash Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLINTERACFLS`
-* Product Description: Interac Flash Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLINTERACFLS  |: Interac Flash Entitlement :|
+<!-- type: tab -->
+|: ENTLINTERACFLS  |: Interac Flash Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | interacFlashMVV | MVV for Interac Flash Entitlement| ||
-|entitlementAttr | interacFlashStatus | Program Status for Interac Flash Entitlementg| ACTIVE|ACTIVE|
-|entitlementAttr | interacFlashStatus | Program Status for Interac Flash Entitlementg| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|interacFlashMVV | MVV for Interac Flash Entitlement| ||
+|interacFlashStatus | Program Status for Interac Flash Entitlementg| ACTIVE|ACTIVE|
+|interacFlashStatus | Program Status for Interac Flash Entitlementg| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | interacFlashMVV | MVV for Interac Flash Entitlement| ||
-|entitlementAttr | interacFlashStatus | Program Status for Interac Flash Entitlementg| ACTIVE|ACTIVE|
-|entitlementAttr | interacFlashStatus | Program Status for Interac Flash Entitlementg| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|interacFlashMVV | MVV for Interac Flash Entitlement| ||
+|interacFlashStatus | Program Status for Interac Flash Entitlementg| ACTIVE|ACTIVE|
+|interacFlashStatus | Program Status for Interac Flash Entitlementg| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Interac In App Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLINTERACINAPP`
-* Product Description: Interac In App Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLINTERACINAPP  |: Interac In App Entitlement :|
+<!-- type: tab -->
+|: ENTLINTERACINAPP  |: Interac In App Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | interacInAppStatus | Program Status for Interac In App Entitlement| CANCEL|CANCEL|
-|entitlementAttr | interacInAppStatus | Program Status for Interac In App Entitlement| ACTIVE|ACTIVE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|interacInAppStatus | Program Status for Interac In App Entitlement| CANCEL|CANCEL|
+|interacInAppStatus | Program Status for Interac In App Entitlement| ACTIVE|ACTIVE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | interacInAppStatus | Program Status for Interac In App Entitlement| CANCEL|CANCEL|
-|entitlementAttr | interacInAppStatus | Program Status for Interac In App Entitlement| ACTIVE|ACTIVE|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|interacInAppStatus | Program Status for Interac In App Entitlement| CANCEL|CANCEL|
+|interacInAppStatus | Program Status for Interac In App Entitlement| ACTIVE|ACTIVE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Interlink Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLINTLNK`
-* Product Description: Interlink Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLINTLNK  |: Interlink Entitlement :|
+<!-- type: tab -->
+|: ENTLINTLNK  |: Interlink Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Jbs Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLJBS`
-* Product Description: Jbs Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLJBS  |: Jbs Entitlement :|
+<!-- type: tab -->
+|: ENTLJBS  |: Jbs Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Jcb Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLJCB`
-* Product Description: Jcb Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLJCB  |: Jcb Entitlement :|
+<!-- type: tab -->
+|: ENTLJCB  |: Jcb Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
-|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
-
 <!-- type: tab-end -->
 
 ### specialProgramIndicators
@@ -3226,257 +3505,256 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Maestro Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLMASTRO`
-* Product Description: Maestro Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLMASTRO  |: Maestro Entitlement :|
+<!-- type: tab -->
+|: ENTLMASTRO  |: Maestro Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
-|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
-
 <!-- type: tab-end -->
 ---
 
 ## Mastercard Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLMC`
-* Product Description: Mastercard Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLMC  |: Mastercard Entitlement :|
+<!-- type: tab -->
+|: ENTLMC  |: Mastercard Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
-|entitlementAttr | mcIpQualification | Mastercard IP Qualification |           |                |
-|entitlementAttr | mcIpValue | Mastercard IP Value |           |                |
-|entitlementAttr | isoId | ISO_ID as assigned by Mastercard |           |                |
-
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | mcIpQualification | Mastercard IP Qualification |           |                |
-|entitlementAttr | mcIpValue | Mastercard IP Value |           |                |
-|entitlementAttr | isoId | ISO_ID as assigned by Mastercard |           |                |
-|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
-
 <!-- type: tab-end -->
 
 ### specialProgramIndicators
@@ -3486,80 +3764,88 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | canadaDebit | Canada Debit| ||
-|specialProgramIndicators | dicksSporting | Dicks Sporting| ||
-|specialProgramIndicators | lbrandss | Lbrandss| ||
-|specialProgramIndicators | toysUs | Toys Us| ||
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|canadaDebit | Canada Debit| ||
+|dicksSporting | Dicks Sporting| ||
+|lbrandss | Lbrandss| ||
+|toysUs | Toys Us| ||
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | canadaDebit | Canada Debit| ||
-|specialProgramIndicators | dicksSporting | Dicks Sporting| ||
-|specialProgramIndicators | lbrandss | Lbrandss| ||
-|specialProgramIndicators | toysUs | Toys Us| ||
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|canadaDebit | Canada Debit| ||
+|dicksSporting | Dicks Sporting| ||
+|lbrandss | Lbrandss| ||
+|toysUs | Toys Us| ||
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Mastercard Multi Acquirer Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLMCMA`
-* Product Description: Mastercard Multi Acquirer Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLMCMA  |: Mastercard Multi Acquirer Entitlement :|
+<!-- type: tab -->
+|: ENTLMCMA  |: Mastercard Multi Acquirer Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -3570,412 +3856,471 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | chase | Chase| ||
-|specialProgramIndicators | chaseNet | Chase Net| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | chase | Chase| ||
-|specialProgramIndicators | chaseNet | Chase Net| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Maestro International Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLMSTROI`
-* Product Description: Maestro International Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLMSTROI  |: Maestro International Entitlement :|
+<!-- type: tab -->
+|: ENTLMSTROI  |: Maestro International Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Offerwise Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLOFRWSE`
-* Product Description: Offerwise Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLOFRWSE  |: Offerwise Entitlement :|
+<!-- type: tab -->
+|: ENTLOFRWSE  |: Offerwise Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Paypal Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLPAYPAL`
-* Product Description: Paypal Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLPAYPAL  |: Paypal Entitlement :|
+<!-- type: tab -->
+|: ENTLPAYPAL  |: Paypal Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
-|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
-
 <!-- type: tab-end -->
 ---
 
 ## Paypal Enablement For Discover Full Service Merchant
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLPPALDIS`
-* Product Description: Paypal Enablement For Discover Full Service Merchant
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLPPALDIS  |: Paypal Enablement For Discover Full Service Merchant :|
+<!-- type: tab -->
+|: ENTLPPALDIS  |: Paypal Enablement For Discover Full Service Merchant :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | paypalEnblOfferingType | offering Type for Paypal Enablement for Discover| ELIGIBLE|ELIGIBLE|
-|entitlementAttr | paypalEnblOfferingType | offering Type for Paypal Enablement for Discover| NOT_ELIGIBLE_ACQ_ON|NOT_ELIGIBLE_ACQ_ON|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|paypalEnblOfferingType | offering Type for Paypal Enablement for Discover| ELIGIBLE|ELIGIBLE|
+|paypalEnblOfferingType | offering Type for Paypal Enablement for Discover| NOT_ELIGIBLE_ACQ_ON|NOT_ELIGIBLE_ACQ_ON|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | paypalEnblOfferingType | offering Type for Paypal Enablement for Discover| ELIGIBLE|ELIGIBLE|
-|entitlementAttr | paypalEnblOfferingType | offering Type for Paypal Enablement for Discover| NOT_ELIGIBLE_ACQ_ON|NOT_ELIGIBLE_ACQ_ON|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|paypalEnblOfferingType | offering Type for Paypal Enablement for Discover| ELIGIBLE|ELIGIBLE|
+|paypalEnblOfferingType | offering Type for Paypal Enablement for Discover| NOT_ELIGIBLE_ACQ_ON|NOT_ELIGIBLE_ACQ_ON|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Merchants Participating In The Paypal/Venmo Qrc Program
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLPPLVNMO`
-* Product Description: Merchants Participating In The Paypal/Venmo Qrc Program
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLPPLVNMO  |: Merchants Participating In The Paypal/Venmo Qrc Program :|
+<!-- type: tab -->
+|: ENTLPPLVNMO  |: Merchants Participating In The Paypal/Venmo Qrc Program :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | paypalVenmoErrorMessage | Paypal/Venmo Error Message| ||
-|entitlementAttr | paypalVenmoLatitude | Paypal/Venmo Latitude for Merchant Location| ||
-|entitlementAttr | paypalVenmoLocationID | Paypal/Venmo Location ID| ||
-|entitlementAttr | paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| PROVISIONED|PROVISIONED|
-|entitlementAttr | paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| INITIATED|INITIATED|
-|entitlementAttr | paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| OPTED_OUT|OPTED_OUT|
-|entitlementAttr | paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| FAILED|FAILED|
-|entitlementAttr | paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| PENDING|PENDING|
-|entitlementAttr | paypalVenmoLongitude | Paypal/Venmo Longitude for Merchant Location| ||
-|entitlementAttr | paypalVenmoPayerId | Paypal/Venmo Payer ID| ||
-|entitlementAttr | paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| PROVISIONED|PROVISIONED|
-|entitlementAttr | paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| INITIATED|INITIATED|
-|entitlementAttr | paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| FAILED|FAILED|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|paypalVenmoErrorMessage | Paypal/Venmo Error Message| ||
+|paypalVenmoLatitude | Paypal/Venmo Latitude for Merchant Location| ||
+|paypalVenmoLocationID | Paypal/Venmo Location ID| ||
+|paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| PROVISIONED|PROVISIONED|
+|paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| INITIATED|INITIATED|
+|paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| OPTED_OUT|OPTED_OUT|
+|paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| FAILED|FAILED|
+|paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| PENDING|PENDING|
+|paypalVenmoLongitude | Paypal/Venmo Longitude for Merchant Location| ||
+|paypalVenmoPayerId | Paypal/Venmo Payer ID| ||
+|paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| PROVISIONED|PROVISIONED|
+|paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| INITIATED|INITIATED|
+|paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| FAILED|FAILED|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | paypalVenmoErrorMessage | Paypal/Venmo Error Message| ||
-|entitlementAttr | paypalVenmoLatitude | Paypal/Venmo Latitude for Merchant Location| ||
-|entitlementAttr | paypalVenmoLocationID | Paypal/Venmo Location ID| ||
-|entitlementAttr | paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| PROVISIONED|PROVISIONED|
-|entitlementAttr | paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| INITIATED|INITIATED|
-|entitlementAttr | paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| OPTED_OUT|OPTED_OUT|
-|entitlementAttr | paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| FAILED|FAILED|
-|entitlementAttr | paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| PENDING|PENDING|
-|entitlementAttr | paypalVenmoLongitude | Paypal/Venmo Longitude for Merchant Location| ||
-|entitlementAttr | paypalVenmoPayerId | Paypal/Venmo Payer ID| ||
-|entitlementAttr | paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| PROVISIONED|PROVISIONED|
-|entitlementAttr | paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| INITIATED|INITIATED|
-|entitlementAttr | paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| FAILED|FAILED|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|paypalVenmoErrorMessage | Paypal/Venmo Error Message| ||
+|paypalVenmoLatitude | Paypal/Venmo Latitude for Merchant Location| ||
+|paypalVenmoLocationID | Paypal/Venmo Location ID| ||
+|paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| PROVISIONED|PROVISIONED|
+|paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| INITIATED|INITIATED|
+|paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| OPTED_OUT|OPTED_OUT|
+|paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| FAILED|FAILED|
+|paypalVenmoLocationIDStatus | Paypal/Venmo Location ID Status| PENDING|PENDING|
+|paypalVenmoLongitude | Paypal/Venmo Longitude for Merchant Location| ||
+|paypalVenmoPayerId | Paypal/Venmo Payer ID| ||
+|paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| PROVISIONED|PROVISIONED|
+|paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| INITIATED|INITIATED|
+|paypalVenmoPayerIdStatus | Paypal/Venmo Payer ID Status| FAILED|FAILED|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## PPRO
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLPPRO`
-* Product Description: PPRO
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLPPRO  |: PPRO :|
+<!-- type: tab -->
+|: ENTLPPRO  |: PPRO :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|mccCode | Merchant Category Code| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|mccCode | Merchant Category Code| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Purchase Card Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLPURCRD`
-* Product Description: Purchase Card Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLPURCRD  |: Purchase Card Entitlement :|
+<!-- type: tab -->
+|: ENTLPURCRD  |: Purchase Card Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Pvt Label Multicard Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLPVTLBL`
-* Product Description: Pvt Label Multicard Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLPVTLBL  |: Pvt Label Multicard Entitlement :|
+<!-- type: tab -->
+|: ENTLPVTLBL  |: Pvt Label Multicard Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -3986,80 +4331,88 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | syncronyPL | Syncrony PL| ||
-|specialProgramIndicators | walmartBusiness | Walmart Business| ||
-|specialProgramIndicators | walmartCobranded | Walmart Cobranded| ||
-|specialProgramIndicators | walmartCommercial | Walmart Commercial| ||
-|specialProgramIndicators | walmartSamsClub | Walmart SamsClub| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|syncronyPL | Syncrony PL| ||
+|walmartBusiness | Walmart Business| ||
+|walmartCobranded | Walmart Cobranded| ||
+|walmartCommercial | Walmart Commercial| ||
+|walmartSamsClub | Walmart SamsClub| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | syncronyPL | Syncrony PL| ||
-|specialProgramIndicators | walmartBusiness | Walmart Business| ||
-|specialProgramIndicators | walmartCobranded | Walmart Cobranded| ||
-|specialProgramIndicators | walmartCommercial | Walmart Commercial| ||
-|specialProgramIndicators | walmartSamsClub | Walmart SamsClub| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|syncronyPL | Syncrony PL| ||
+|walmartBusiness | Walmart Business| ||
+|walmartCobranded | Walmart Cobranded| ||
+|walmartCommercial | Walmart Commercial| ||
+|walmartSamsClub | Walmart SamsClub| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Signature Debit Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLSIGDBT`
-* Product Description: Signature Debit Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLSIGDBT  |: Signature Debit Entitlement :|
+<!-- type: tab -->
+|: ENTLSIGDBT  |: Signature Debit Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4070,155 +4423,171 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | star | Star| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|star | Star| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | star | Star| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|star | Star| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Tier Ii Credit Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLT2CRD`
-* Product Description: Tier Ii Credit Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLT2CRD  |: Tier Ii Credit Entitlement :|
+<!-- type: tab -->
+|: ENTLT2CRD  |: Tier Ii Credit Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Telecheck Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLTCK`
-* Product Description: Telecheck Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLTCK  |: Telecheck Entitlement :|
+<!-- type: tab -->
+|: ENTLTCK  |: Telecheck Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### checkAcceptanceMethod
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|checkAcceptanceMethod | checkCashingVerification | Check Cashing Verification| ||
-|checkAcceptanceMethod | checkCashingWarranty | Check Cashing Warranty| ||
-|checkAcceptanceMethod | cloverGoSettle | Clover Go Settle| ||
-|checkAcceptanceMethod | cloverGoWarranty | Clover Go Warranty| ||
-|checkAcceptanceMethod | codWarranty | Cod Warranty| ||
-|checkAcceptanceMethod | holdCheckWarranty | Hold Check Warranty| ||
-|checkAcceptanceMethod | inPersonECAVerification | InPerson ECA Verification| ||
-|checkAcceptanceMethod | inPersonECAVerificationTRS | InPerson ECA Verification TRS| ||
-|checkAcceptanceMethod | inPersonECAWarranty | InPerson ECA Warranty| ||
-|checkAcceptanceMethod | inPersonPaperVerification | InPerson Paper Verification| ||
-|checkAcceptanceMethod | inPersonPaperWarranty | InPerson Paper Warranty| ||
-|checkAcceptanceMethod | lockboxVerification | Lockbox Verification| ||
-|checkAcceptanceMethod | lockboxWarranty | Lockbox Warranty| ||
-|checkAcceptanceMethod | mailDropboxVerification | Mail Dropbox Verification| ||
-|checkAcceptanceMethod | mailDropboxWarranty | Mail Dropbox Warranty| ||
-|checkAcceptanceMethod | mailOrderWarranty | Mail Order Warranty| ||
-|checkAcceptanceMethod | miscInfoText | Misc Info Text| ||
-|checkAcceptanceMethod | mobileAppSettle | Mobile App Settle| ||
-|checkAcceptanceMethod | mobileAppWarranty | Mobile App Warranty| ||
-|checkAcceptanceMethod | onlineVerification | Online Verification| ||
-|checkAcceptanceMethod | onlineVerificationTRS | Online Verification TRS| ||
-|checkAcceptanceMethod | onlineWarranty | Online Warranty| ||
-|checkAcceptanceMethod | phoneVerification | Phone Verification| ||
-|checkAcceptanceMethod | phoneVerificationTRS | Phone Verification TRS| ||
-|checkAcceptanceMethod | phoneWarranty | Phone Warranty| ||
-|checkAcceptanceMethod | recurringPaymentsVerification | Recurring Payments Verification| ||
-|checkAcceptanceMethod | recurringPaymentsVerificationTRS | Recurring Payments Verification TRS| ||
-|checkAcceptanceMethod | recurringPaymentsWarranty | Recurring Payments Warranty| ||
-|checkAcceptanceMethod | specialtyItemsSettle | Specialty Items Settle| ||
-|checkAcceptanceMethod | specialtyItemsWarranty | Specialty Items Warranty| ||
-|checkAcceptanceMethod | trsCollections | Trs Collections| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|checkCashingVerification | Check Cashing Verification| ||
+|checkCashingWarranty | Check Cashing Warranty| ||
+|cloverGoSettle | Clover Go Settle| ||
+|cloverGoWarranty | Clover Go Warranty| ||
+|codWarranty | Cod Warranty| ||
+|holdCheckWarranty | Hold Check Warranty| ||
+|inPersonECAVerification | InPerson ECA Verification| ||
+|inPersonECAVerificationTRS | InPerson ECA Verification TRS| ||
+|inPersonECAWarranty | InPerson ECA Warranty| ||
+|inPersonPaperVerification | InPerson Paper Verification| ||
+|inPersonPaperWarranty | InPerson Paper Warranty| ||
+|lockboxVerification | Lockbox Verification| ||
+|lockboxWarranty | Lockbox Warranty| ||
+|mailDropboxVerification | Mail Dropbox Verification| ||
+|mailDropboxWarranty | Mail Dropbox Warranty| ||
+|mailOrderWarranty | Mail Order Warranty| ||
+|miscInfoText | Misc Info Text| ||
+|mobileAppSettle | Mobile App Settle| ||
+|mobileAppWarranty | Mobile App Warranty| ||
+|onlineVerification | Online Verification| ||
+|onlineVerificationTRS | Online Verification TRS| ||
+|onlineWarranty | Online Warranty| ||
+|phoneVerification | Phone Verification| ||
+|phoneVerificationTRS | Phone Verification TRS| ||
+|phoneWarranty | Phone Warranty| ||
+|recurringPaymentsVerification | Recurring Payments Verification| ||
+|recurringPaymentsVerificationTRS | Recurring Payments Verification TRS| ||
+|recurringPaymentsWarranty | Recurring Payments Warranty| ||
+|specialtyItemsSettle | Specialty Items Settle| ||
+|specialtyItemsWarranty | Specialty Items Warranty| ||
+|trsCollections | Trs Collections| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|checkAcceptanceMethod | checkCashingVerification | Check Cashing Verification| ||
-|checkAcceptanceMethod | checkCashingWarranty | Check Cashing Warranty| ||
-|checkAcceptanceMethod | cloverGoSettle | Clover Go Settle| ||
-|checkAcceptanceMethod | cloverGoWarranty | Clover Go Warranty| ||
-|checkAcceptanceMethod | codWarranty | Cod Warranty| ||
-|checkAcceptanceMethod | holdCheckWarranty | Hold Check Warranty| ||
-|checkAcceptanceMethod | inPersonECAVerification | InPerson ECA Verification| ||
-|checkAcceptanceMethod | inPersonECAVerificationTRS | InPerson ECA Verification TRS| ||
-|checkAcceptanceMethod | inPersonECAWarranty | InPerson ECA Warranty| ||
-|checkAcceptanceMethod | inPersonPaperVerification | InPerson Paper Verification| ||
-|checkAcceptanceMethod | inPersonPaperWarranty | InPerson Paper Warranty| ||
-|checkAcceptanceMethod | lockboxVerification | Lockbox Verification| ||
-|checkAcceptanceMethod | lockboxWarranty | Lockbox Warranty| ||
-|checkAcceptanceMethod | mailDropboxVerification | Mail Dropbox Verification| ||
-|checkAcceptanceMethod | mailDropboxWarranty | Mail Dropbox Warranty| ||
-|checkAcceptanceMethod | mailOrderWarranty | Mail Order Warranty| ||
-|checkAcceptanceMethod | miscInfoText | Misc Info Text| ||
-|checkAcceptanceMethod | mobileAppSettle | Mobile App Settle| ||
-|checkAcceptanceMethod | mobileAppWarranty | Mobile App Warranty| ||
-|checkAcceptanceMethod | onlineVerification | Online Verification| ||
-|checkAcceptanceMethod | onlineVerificationTRS | Online Verification TRS| ||
-|checkAcceptanceMethod | onlineWarranty | Online Warranty| ||
-|checkAcceptanceMethod | phoneVerification | Phone Verification| ||
-|checkAcceptanceMethod | phoneVerificationTRS | Phone Verification TRS| ||
-|checkAcceptanceMethod | phoneWarranty | Phone Warranty| ||
-|checkAcceptanceMethod | recurringPaymentsVerification | Recurring Payments Verification| ||
-|checkAcceptanceMethod | recurringPaymentsVerificationTRS | Recurring Payments Verification TRS| ||
-|checkAcceptanceMethod | recurringPaymentsWarranty | Recurring Payments Warranty| ||
-|checkAcceptanceMethod | specialtyItemsSettle | Specialty Items Settle| ||
-|checkAcceptanceMethod | specialtyItemsWarranty | Specialty Items Warranty| ||
-|checkAcceptanceMethod | trsCollections | Trs Collections| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|checkCashingVerification | Check Cashing Verification| ||
+|checkCashingWarranty | Check Cashing Warranty| ||
+|cloverGoSettle | Clover Go Settle| ||
+|cloverGoWarranty | Clover Go Warranty| ||
+|codWarranty | Cod Warranty| ||
+|holdCheckWarranty | Hold Check Warranty| ||
+|inPersonECAVerification | InPerson ECA Verification| ||
+|inPersonECAVerificationTRS | InPerson ECA Verification TRS| ||
+|inPersonECAWarranty | InPerson ECA Warranty| ||
+|inPersonPaperVerification | InPerson Paper Verification| ||
+|inPersonPaperWarranty | InPerson Paper Warranty| ||
+|lockboxVerification | Lockbox Verification| ||
+|lockboxWarranty | Lockbox Warranty| ||
+|mailDropboxVerification | Mail Dropbox Verification| ||
+|mailDropboxWarranty | Mail Dropbox Warranty| ||
+|mailOrderWarranty | Mail Order Warranty| ||
+|miscInfoText | Misc Info Text| ||
+|mobileAppSettle | Mobile App Settle| ||
+|mobileAppWarranty | Mobile App Warranty| ||
+|onlineVerification | Online Verification| ||
+|onlineVerificationTRS | Online Verification TRS| ||
+|onlineWarranty | Online Warranty| ||
+|phoneVerification | Phone Verification| ||
+|phoneVerificationTRS | Phone Verification TRS| ||
+|phoneWarranty | Phone Warranty| ||
+|recurringPaymentsVerification | Recurring Payments Verification| ||
+|recurringPaymentsVerificationTRS | Recurring Payments Verification TRS| ||
+|recurringPaymentsWarranty | Recurring Payments Warranty| ||
+|specialtyItemsSettle | Specialty Items Settle| ||
+|specialtyItemsWarranty | Specialty Items Warranty| ||
+|trsCollections | Trs Collections| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4229,135 +4598,151 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Telecredit Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLTELCRD`
-* Product Description: Telecredit Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLTELCRD  |: Telecredit Entitlement :|
+<!-- type: tab -->
+|: ENTLTELCRD  |: Telecredit Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Unfunded Stored Value Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLUFNDSV`
-* Product Description: Unfunded Stored Value Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLUFNDSV  |: Unfunded Stored Value Entitlement :|
+<!-- type: tab -->
+|: ENTLUFNDSV  |: Unfunded Stored Value Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### accentIntermedia
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|accentIntermedia | effectiveDate | Effective Date| ||
-|accentIntermedia | isEnabled | Is Enabled| ||
-|accentIntermedia | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|accentIntermedia | effectiveDate | Effective Date| ||
-|accentIntermedia | isEnabled | Is Enabled| ||
-|accentIntermedia | miscInfoText | Misc Info Text| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4368,17 +4753,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|blackhawk | effectiveDate | Effective Date| ||
-|blackhawk | isEnabled | Is Enabled| ||
-|blackhawk | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|blackhawk | effectiveDate | Effective Date| ||
-|blackhawk | isEnabled | Is Enabled| ||
-|blackhawk | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4389,17 +4774,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|coinstarar | effectiveDate | Effective Date| ||
-|coinstarar | isEnabled | Is Enabled| ||
-|coinstarar | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|coinstarar | effectiveDate | Effective Date| ||
-|coinstarar | isEnabled | Is Enabled| ||
-|coinstarar | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4410,17 +4795,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|dataOnly | effectiveDate | Effective Date| ||
-|dataOnly | isEnabled | Is Enabled| ||
-|dataOnly | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|dataOnly | effectiveDate | Effective Date| ||
-|dataOnly | isEnabled | Is Enabled| ||
-|dataOnly | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4431,17 +4816,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|duguesneUniv | effectiveDate | Effective Date| ||
-|duguesneUniv | isEnabled | Is Enabled| ||
-|duguesneUniv | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|duguesneUniv | effectiveDate | Effective Date| ||
-|duguesneUniv | isEnabled | Is Enabled| ||
-|duguesneUniv | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4452,17 +4837,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|egiftSocial | effectiveDate | Effective Date| ||
-|egiftSocial | isEnabled | Is Enabled| ||
-|egiftSocial | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|egiftSocial | effectiveDate | Effective Date| ||
-|egiftSocial | isEnabled | Is Enabled| ||
-|egiftSocial | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4473,49 +4858,49 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4526,19 +4911,19 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|flexCache | effectiveDate | Effective Date| ||
-|flexCache | isEnabled | Is Enabled| ||
-|flexCache | miscInfoText | Misc Info Text| ||
-|flexCache | serviceEntlNumber | Service Entl Number| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
+|serviceEntlNumber | Service Entl Number| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|flexCache | effectiveDate | Effective Date| ||
-|flexCache | isEnabled | Is Enabled| ||
-|flexCache | miscInfoText | Misc Info Text| ||
-|flexCache | serviceEntlNumber | Service Entl Number| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
+|serviceEntlNumber | Service Entl Number| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4549,17 +4934,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|franchiseEnabled | effectiveDate | Effective Date| ||
-|franchiseEnabled | isEnabled | Is Enabled| ||
-|franchiseEnabled | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|franchiseEnabled | effectiveDate | Effective Date| ||
-|franchiseEnabled | isEnabled | Is Enabled| ||
-|franchiseEnabled | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4570,17 +4955,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|fraudWatch | effectiveDate | Effective Date| ||
-|fraudWatch | isEnabled | Is Enabled| ||
-|fraudWatch | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|fraudWatch | effectiveDate | Effective Date| ||
-|fraudWatch | isEnabled | Is Enabled| ||
-|fraudWatch | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4591,17 +4976,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|giftangogo | effectiveDate | Effective Date| ||
-|giftangogo | isEnabled | Is Enabled| ||
-|giftangogo | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|giftangogo | effectiveDate | Effective Date| ||
-|giftangogo | isEnabled | Is Enabled| ||
-|giftangogo | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4612,17 +4997,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|greatLakesScript | effectiveDate | Effective Date| ||
-|greatLakesScript | isEnabled | Is Enabled| ||
-|greatLakesScript | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|greatLakesScript | effectiveDate | Effective Date| ||
-|greatLakesScript | isEnabled | Is Enabled| ||
-|greatLakesScript | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4633,17 +5018,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|incomm | effectiveDate | Effective Date| ||
-|incomm | isEnabled | Is Enabled| ||
-|incomm | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|incomm | effectiveDate | Effective Date| ||
-|incomm | isEnabled | Is Enabled| ||
-|incomm | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4654,17 +5039,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|jet | effectiveDate | Effective Date| ||
-|jet | isEnabled | Is Enabled| ||
-|jet | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|jet | effectiveDate | Effective Date| ||
-|jet | isEnabled | Is Enabled| ||
-|jet | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4675,17 +5060,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|lsn | effectiveDate | Effective Date| ||
-|lsn | isEnabled | Is Enabled| ||
-|lsn | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|lsn | effectiveDate | Effective Date| ||
-|lsn | isEnabled | Is Enabled| ||
-|lsn | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4696,17 +5081,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|mondex | effectiveDate | Effective Date| ||
-|mondex | isEnabled | Is Enabled| ||
-|mondex | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|mondex | effectiveDate | Effective Date| ||
-|mondex | isEnabled | Is Enabled| ||
-|mondex | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4717,17 +5102,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|nearRealTimeMessaging | effectiveDate | Effective Date| ||
-|nearRealTimeMessaging | isEnabled | Is Enabled| ||
-|nearRealTimeMessaging | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|nearRealTimeMessaging | effectiveDate | Effective Date| ||
-|nearRealTimeMessaging | isEnabled | Is Enabled| ||
-|nearRealTimeMessaging | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4738,19 +5123,19 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|premiumPrepaid | effectiveDate | Effective Date| ||
-|premiumPrepaid | isEnabled | Is Enabled| ||
-|premiumPrepaid | miscInfoText | Misc Info Text| ||
-|premiumPrepaid | serviceEntlNumber | Service Entl Number| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
+|serviceEntlNumber | Service Entl Number| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|premiumPrepaid | effectiveDate | Effective Date| ||
-|premiumPrepaid | isEnabled | Is Enabled| ||
-|premiumPrepaid | miscInfoText | Misc Info Text| ||
-|premiumPrepaid | serviceEntlNumber | Service Entl Number| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
+|serviceEntlNumber | Service Entl Number| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4761,17 +5146,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|robertMorrisCollege | effectiveDate | Effective Date| ||
-|robertMorrisCollege | isEnabled | Is Enabled| ||
-|robertMorrisCollege | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|robertMorrisCollege | effectiveDate | Effective Date| ||
-|robertMorrisCollege | isEnabled | Is Enabled| ||
-|robertMorrisCollege | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4782,17 +5167,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|settlementSwitch | effectiveDate | Effective Date| ||
-|settlementSwitch | isEnabled | Is Enabled| ||
-|settlementSwitch | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|settlementSwitch | effectiveDate | Effective Date| ||
-|settlementSwitch | isEnabled | Is Enabled| ||
-|settlementSwitch | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4803,17 +5188,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|standardGCMisc | effectiveDate | Effective Date| ||
-|standardGCMisc | isEnabled | Is Enabled| ||
-|standardGCMisc | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|standardGCMisc | effectiveDate | Effective Date| ||
-|standardGCMisc | isEnabled | Is Enabled| ||
-|standardGCMisc | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4824,17 +5209,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|standardGCProject | effectiveDate | Effective Date| ||
-|standardGCProject | isEnabled | Is Enabled| ||
-|standardGCProject | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|standardGCProject | effectiveDate | Effective Date| ||
-|standardGCProject | isEnabled | Is Enabled| ||
-|standardGCProject | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4845,17 +5230,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|standardGCReport | effectiveDate | Effective Date| ||
-|standardGCReport | isEnabled | Is Enabled| ||
-|standardGCReport | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|standardGCReport | effectiveDate | Effective Date| ||
-|standardGCReport | isEnabled | Is Enabled| ||
-|standardGCReport | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4866,19 +5251,19 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|univofPenn | effectiveDate | Effective Date| ||
-|univofPenn | isEnabled | Is Enabled| ||
-|univofPenn | miscInfoText | Misc Info Text| ||
-|univofPenn | serviceEntlNumber | Service Entl Number| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
+|serviceEntlNumber | Service Entl Number| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|univofPenn | effectiveDate | Effective Date| ||
-|univofPenn | isEnabled | Is Enabled| ||
-|univofPenn | miscInfoText | Misc Info Text| ||
-|univofPenn | serviceEntlNumber | Service Entl Number| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
+|serviceEntlNumber | Service Entl Number| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4889,17 +5274,17 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|valueLink | effectiveDate | Effective Date| ||
-|valueLink | isEnabled | Is Enabled| ||
-|valueLink | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|valueLink | effectiveDate | Effective Date| ||
-|valueLink | isEnabled | Is Enabled| ||
-|valueLink | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -4910,299 +5295,327 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|visaCash | effectiveDate | Effective Date| ||
-|visaCash | isEnabled | Is Enabled| ||
-|visaCash | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|visaCash | effectiveDate | Effective Date| ||
-|visaCash | isEnabled | Is Enabled| ||
-|visaCash | miscInfoText | Misc Info Text| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|isEnabled | Is Enabled| ||
+|miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## UPI Credit Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLUPICRD`
-* Product Description: UPI Credit Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLUPICRD  |: UPI Credit Entitlement :|
+<!-- type: tab -->
+|: ENTLUPICRD  |: UPI Credit Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | upiCreditStatus | Program Status for UPI Credit Entitlement| CANCEL|CANCEL|
-|entitlementAttr | upiCreditStatus | Program Status for UPI Credit Entitlement| ACTIVE|ACTIVE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|upiCreditStatus | Program Status for UPI Credit Entitlement| CANCEL|CANCEL|
+|upiCreditStatus | Program Status for UPI Credit Entitlement| ACTIVE|ACTIVE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | upiCreditStatus | Program Status for UPI Credit Entitlement| CANCEL|CANCEL|
-|entitlementAttr | upiCreditStatus | Program Status for UPI Credit Entitlement| ACTIVE|ACTIVE|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|upiCreditStatus | Program Status for UPI Credit Entitlement| CANCEL|CANCEL|
+|upiCreditStatus | Program Status for UPI Credit Entitlement| ACTIVE|ACTIVE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## UPI Debit Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLUPIDBT`
-* Product Description: UPI Debit Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLUPIDBT  |: UPI Debit Entitlement :|
+<!-- type: tab -->
+|: ENTLUPIDBT  |: UPI Debit Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | upiDebitStatus | Program Status for UPI Debit Entitlement| CANCEL|CANCEL|
-|entitlementAttr | upiDebitStatus | Program Status for UPI Debit Entitlement| ACTIVE|ACTIVE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|upiDebitStatus | Program Status for UPI Debit Entitlement| CANCEL|CANCEL|
+|upiDebitStatus | Program Status for UPI Debit Entitlement| ACTIVE|ACTIVE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | upiDebitStatus | Program Status for UPI Debit Entitlement| CANCEL|CANCEL|
-|entitlementAttr | upiDebitStatus | Program Status for UPI Debit Entitlement| ACTIVE|ACTIVE|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|upiDebitStatus | Program Status for UPI Debit Entitlement| CANCEL|CANCEL|
+|upiDebitStatus | Program Status for UPI Debit Entitlement| ACTIVE|ACTIVE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Valuelink Premium Autoboard
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLVALLNK`
-* Product Description: Valuelink Premium Autoboard
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLVALLNK  |: Valuelink Premium Autoboard :|
+<!-- type: tab -->
+|: ENTLVALLNK  |: Valuelink Premium Autoboard :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | valuelinkSeNumber | Value Link SE Number| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|valuelinkSeNumber | Value Link SE Number| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | valuelinkSeNumber | Value Link SE Number| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|valuelinkSeNumber | Value Link SE Number| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## GYFT
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLVASGYFT`
-* Product Description: GYFT
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLVASGYFT  |: GYFT :|
+<!-- type: tab -->
+|: ENTLVASGYFT  |: GYFT :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | gyftBillingMethod | Billing Method for GYFT| CLOVER|CLOVER|
-|entitlementAttr | gyftBillingMethod | Billing Method for GYFT| VALUELINK|VALUELINK|
-|entitlementAttr | gyftStatus | Program Status for GYFT| ACTIVE|ACTIVE|
-|entitlementAttr | gyftStatus | Program Status for GYFT| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|gyftBillingMethod | Billing Method for GYFT| CLOVER|CLOVER|
+|gyftBillingMethod | Billing Method for GYFT| VALUELINK|VALUELINK|
+|gyftStatus | Program Status for GYFT| ACTIVE|ACTIVE|
+|gyftStatus | Program Status for GYFT| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | gyftBillingMethod | Billing Method for GYFT| CLOVER|CLOVER|
-|entitlementAttr | gyftBillingMethod | Billing Method for GYFT| VALUELINK|VALUELINK|
-|entitlementAttr | gyftStatus | Program Status for GYFT| ACTIVE|ACTIVE|
-|entitlementAttr | gyftStatus | Program Status for GYFT| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|gyftBillingMethod | Billing Method for GYFT| CLOVER|CLOVER|
+|gyftBillingMethod | Billing Method for GYFT| VALUELINK|VALUELINK|
+|gyftStatus | Program Status for GYFT| ACTIVE|ACTIVE|
+|gyftStatus | Program Status for GYFT| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Visa Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLVI`
-* Product Description: Visa Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLVI  |: Visa Entitlement :|
+<!-- type: tab -->
+|: ENTLVI  |: Visa Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
-|entitlementAttr | visaIpQualification | Visa IP Qualification |           |                |
-|entitlementAttr | visaIpValue | Visa IP Value |           |                |
-|entitlementAttr | apfAuthFee | APF Auth Fee for Omnipay Visa Entitlement |           |                |
-
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|entitlementAttr | discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
-|entitlementAttr | visaIpQualification | Visa IP Qualification |           |                |
-|entitlementAttr | visaIpValue | Visa IP Value |           |                |
-|entitlementAttr | apfAuthFee | APF Auth Fee for Omnipay Visa Entitlement |           |                |
-|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
-
 <!-- type: tab-end -->
 
 ### specialProgramIndicators
@@ -5212,74 +5625,82 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | visaAEO | visa AEO| ||
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|visaAEO | visa AEO| ||
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | visaAEO | visa AEO| ||
-|specialProgramIndicators | walmartKotak | Walmart Kotak| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|visaAEO | visa AEO| ||
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Visa Multi Acquirer Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLVIMA`
-* Product Description: Visa Multi Acquirer Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLVIMA  |: Visa Multi Acquirer Entitlement :|
+<!-- type: tab -->
+|: ENTLVIMA  |: Visa Multi Acquirer Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 
@@ -5290,217 +5711,182 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | chase | Chase| ||
-|specialProgramIndicators | chaseNet | Chase Net| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|specialProgramIndicators | chase | Chase| ||
-|specialProgramIndicators | chaseNet | Chase Net| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Voyager Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLVOYGER`
-* Product Description: Voyager Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLVOYGER  |: Voyager Entitlement :|
+<!-- type: tab -->
+|: ENTLVOYGER  |: Voyager Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## We Chat Pay
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLWECHATPAY`
-* Product Description: We Chat Pay
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLWECHATPAY  |: We Chat Pay :|
+<!-- type: tab -->
+|: ENTLWECHATPAY  |: We Chat Pay :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
-
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|mccCode | Merchant Category Code| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|mccCode | Merchant Category Code| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Wright Express Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `ENTLWRTEXP`
-* Product Description: Wright Express Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+|: ENTLWRTEXP  |: Wright Express Entitlement :|
+<!-- type: tab -->
+|: ENTLWRTEXP  |: Wright Express Entitlement :|
 
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
 ### entitlementAttr
 
-* Attribute Specification:
-
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|entitlementAttr | clearingPlanCode | Clearing Plan Code| ||
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| NO_SERVICE|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|entitlementAttr | effectiveDate | Effective Date| ||
-|entitlementAttr | floorLimitAmount | Floor Limit Amount| ||
-|entitlementAttr | mccCode | Merchant Category Code| ||
-|entitlementAttr | pricingPlanCode | Pricing Plan Code| ||
-|entitlementAttr | serviceEstablishmentNumber | Service Establishment Number| ||
-|entitlementAttr | serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|entitlementAttr | serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|entitlementAttr | signedVolumeAmount | Signed Volume Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 ---
-
-### EFTPOS Eligibility Program
-
-* Product Code: `ENTLEFTPOS`
-* Product Description: Electronic Funds Transfer at Point of Sale Entitlement
-* Attribute Specification:
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
-|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
-
-<!-- type: tab -->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:-----------------|:------------------------|
-| NA | NA | NA | NA | NA |
-
-<!-- type: tab -->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
-|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
-
-<!-- type: tab-end -->
-
----
-
-### ACQ APM Eligibility Program
-
-* Product Code: `ENTLAPM`
-* Product Description: ACQ APM Entitlement
-* Attribute Specification:
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
-|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
-
-<!-- type: tab -->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:-----------------|:------------------------|
-| NA | NA | NA | NA | NA |
-
-<!-- type: tab -->
-
-| Domain | Attribute  | Description | UMM Value | Value Description |
-|:---------------------|:---------------------|:------------------------------|:-----------------|------------------------|
-|entitlementAttr | floorLimitAmount | Floor Limit Amount |           |                |
-
-<!-- type: tab-end -->
