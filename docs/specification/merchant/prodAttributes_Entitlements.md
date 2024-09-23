@@ -1,7 +1,4 @@
-# Product Attribute - Entitlements
-
-**List of attributes for a specific Entitlement product.**
-
+# Entitlement Product List
 
 ## Alipay Eligibility Program
 <!-- type: tab 
@@ -9,15 +6,20 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLALIPAY  |: Alipay Eligibility Program :|
+|:-----------|:----------------|
+| ENTLALIPAY  | Alipay Eligibility Program |
 <!-- type: tab -->
-|: ENTLALIPAY  |: Alipay Eligibility Program :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLALIPAY  | Alipay Eligibility Program |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
-* Attribute List by Domain:
+** Attribute List by Domain:
+
 ### entitlementAttr
 
 <!-- type: tab 
@@ -44,12 +46,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLAMEXMA  |: American Express Multi Acquirer Entitlement :|
+|:-----------|:----------------|
+| ENTLAMEXMA  | American Express Multi Acquirer Entitlement |
 <!-- type: tab -->
-|: ENTLAMEXMA  |: American Express Multi Acquirer Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLAMEXMA  | American Express Multi Acquirer Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -130,12 +136,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLAMEXOB  |: Amex Opt Blue Entitlement :|
+|:-----------|:----------------|
+| ENTLAMEXOB  | Amex Opt Blue Entitlement |
 <!-- type: tab -->
-|: ENTLAMEXOB  |: Amex Opt Blue Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLAMEXOB  | Amex Opt Blue Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -324,12 +334,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLAMEXPT  |: Amex Pass Through Entitlement :|
+|:-----------|:----------------|
+| ENTLAMEXPT  | Amex Pass Through Entitlement |
 <!-- type: tab -->
-|: ENTLAMEXPT  |: Amex Pass Through Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLAMEXPT  | Amex Pass Through Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -429,12 +443,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLARVEOL  |: Arvato Eold Entitlement :|
+|:-----------|:----------------|
+| ENTLARVEOL  | Arvato Eold Entitlement |
 <!-- type: tab -->
-|: ENTLARVEOL  |: Arvato Eold Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLARVEOL  | Arvato Eold Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -496,12 +514,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLBILLAT  |: Bill Me Later Entitlement :|
+|:-----------|:----------------|
+| ENTLBILLAT  | Bill Me Later Entitlement |
 <!-- type: tab -->
-|: ENTLBILLAT  |: Bill Me Later Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLBILLAT  | Bill Me Later Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -563,12 +585,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLBNTBOX  |: BentoBox :|
+|:-----------|:----------------|
+| ENTLBNTBOX  | BentoBox |
 <!-- type: tab -->
-|: ENTLBNTBOX  |: BentoBox :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLBNTBOX  | BentoBox |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -596,12 +622,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLCHKNWR  |: Check Non Warranty Entitlement :|
+|:-----------|:----------------|
+| ENTLCHKNWR  | Check Non Warranty Entitlement |
 <!-- type: tab -->
-|: ENTLCHKNWR  |: Check Non Warranty Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLCHKNWR  | Check Non Warranty Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -663,12 +693,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLCHKWAR  |: Check Warranty Entitlement :|
+|:-----------|:----------------|
+| ENTLCHKWAR  | Check Warranty Entitlement |
 <!-- type: tab -->
-|: ENTLCHKWAR  |: Check Warranty Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLCHKWAR  | Check Warranty Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -730,12 +764,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLCLOVERGO  |: Clover Go :|
+|:-----------|:----------------|
+| ENTLCLOVERGO  | Clover Go |
 <!-- type: tab -->
-|: ENTLCLOVERGO  |: Clover Go :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLCLOVERGO  | Clover Go |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -765,12 +803,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLCUP  |: China Union Pay Eligibilty Program :|
+|:-----------|:----------------|
+| ENTLCUP  | China Union Pay Eligibilty Program |
 <!-- type: tab -->
-|: ENTLCUP  |: China Union Pay Eligibilty Program :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLCUP  | China Union Pay Eligibilty Program |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -800,12 +842,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLDBTEDS  |: Debit Eds Entitlement :|
+|:-----------|:----------------|
+| ENTLDBTEDS  | Debit Eds Entitlement |
 <!-- type: tab -->
-|: ENTLDBTEDS  |: Debit Eds Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLDBTEDS  | Debit Eds Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -1342,12 +1388,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLDBTGTW  |: Debit Gateway Entitlement :|
+|:-----------|:----------------|
+| ENTLDBTGTW  | Debit Gateway Entitlement |
 <!-- type: tab -->
-|: ENTLDBTGTW  |: Debit Gateway Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLDBTGTW  | Debit Gateway Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -1759,12 +1809,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLDBTMA  |: Debit Multi Acquirer Entitlement :|
+|:-----------|:----------------|
+| ENTLDBTMA  | Debit Multi Acquirer Entitlement |
 <!-- type: tab -->
-|: ENTLDBTMA  |: Debit Multi Acquirer Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLDBTMA  | Debit Multi Acquirer Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -1845,12 +1899,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLDINER  |: Diners Entitlement :|
+|:-----------|:----------------|
+| ENTLDINER  | Diners Entitlement |
 <!-- type: tab -->
-|: ENTLDINER  |: Diners Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLDINER  | Diners Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -1929,12 +1987,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLDISC  |: Discover Entitlement :|
+|:-----------|:----------------|
+| ENTLDISC  | Discover Entitlement |
 <!-- type: tab -->
-|: ENTLDISC  |: Discover Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLDISC  | Discover Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -2152,12 +2214,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLDISCMA  |: Discover Multi Acquirer Entitlement :|
+|:-----------|:----------------|
+| ENTLDISCMA  | Discover Multi Acquirer Entitlement |
 <!-- type: tab -->
-|: ENTLDISCMA  |: Discover Multi Acquirer Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLDISCMA  | Discover Multi Acquirer Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -2238,12 +2304,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLEBT  |: Ebt Entitlement :|
+|:-----------|:----------------|
+| ENTLEBT  | Ebt Entitlement |
 <!-- type: tab -->
-|: ENTLEBT  |: Ebt Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLEBT  | Ebt Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -2305,12 +2375,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLENCORE  |: Encore Entitlement :|
+|:-----------|:----------------|
+| ENTLENCORE  | Encore Entitlement |
 <!-- type: tab -->
-|: ENTLENCORE  |: Encore Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLENCORE  | Encore Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -2372,12 +2446,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLERNLYT  |: Earn Loyalty Entitlement :|
+|:-----------|:----------------|
+| ENTLERNLYT  | Earn Loyalty Entitlement |
 <!-- type: tab -->
-|: ENTLERNLYT  |: Earn Loyalty Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLERNLYT  | Earn Loyalty Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -2439,12 +2517,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLETC  |: Etc Entitlement :|
+|:-----------|:----------------|
+| ENTLETC  | Etc Entitlement |
 <!-- type: tab -->
-|: ENTLETC  |: Etc Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLETC  | Etc Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -2506,12 +2588,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLEXPLR  |: Explore Entitlement :|
+|:-----------|:----------------|
+| ENTLEXPLR  | Explore Entitlement |
 <!-- type: tab -->
-|: ENTLEXPLR  |: Explore Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLEXPLR  | Explore Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -2573,12 +2659,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLFLTCOR  |: Fleetcore Entitlement :|
+|:-----------|:----------------|
+| ENTLFLTCOR  | Fleetcore Entitlement |
 <!-- type: tab -->
-|: ENTLFLTCOR  |: Fleetcore Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLFLTCOR  | Fleetcore Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -2640,12 +2730,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLFLTONE  |: Fleetone Entitlement :|
+|:-----------|:----------------|
+| ENTLFLTONE  | Fleetone Entitlement |
 <!-- type: tab -->
-|: ENTLFLTONE  |: Fleetone Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLFLTONE  | Fleetone Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -2707,12 +2801,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLFNDSV  |: Funded Stored Value Entitlement :|
+|:-----------|:----------------|
+| ENTLFNDSV  | Funded Stored Value Entitlement |
 <!-- type: tab -->
-|: ENTLFNDSV  |: Funded Stored Value Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLFNDSV  | Funded Stored Value Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -2801,12 +2899,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLFRPET1  |: Future Petroleum 1 Entitlement :|
+|:-----------|:----------------|
+| ENTLFRPET1  | Future Petroleum 1 Entitlement |
 <!-- type: tab -->
-|: ENTLFRPET1  |: Future Petroleum 1 Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLFRPET1  | Future Petroleum 1 Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -2868,12 +2970,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLFRPET2  |: Future Petroleum 2 Entitlement :|
+|:-----------|:----------------|
+| ENTLFRPET2  | Future Petroleum 2 Entitlement |
 <!-- type: tab -->
-|: ENTLFRPET2  |: Future Petroleum 2 Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLFRPET2  | Future Petroleum 2 Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -2935,12 +3041,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLFRPET3  |: Future Petroleum 3 Entitlement :|
+|:-----------|:----------------|
+| ENTLFRPET3  | Future Petroleum 3 Entitlement |
 <!-- type: tab -->
-|: ENTLFRPET3  |: Future Petroleum 3 Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLFRPET3  | Future Petroleum 3 Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3002,12 +3112,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLGGLCKT  |: Google Checkout Entitlement :|
+|:-----------|:----------------|
+| ENTLGGLCKT  | Google Checkout Entitlement |
 <!-- type: tab -->
-|: ENTLGGLCKT  |: Google Checkout Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLGGLCKT  | Google Checkout Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3069,12 +3183,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLGLALTM  |: Global Alternate Mops Entitlement :|
+|:-----------|:----------------|
+| ENTLGLALTM  | Global Alternate Mops Entitlement |
 <!-- type: tab -->
-|: ENTLGLALTM  |: Global Alternate Mops Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLGLALTM  | Global Alternate Mops Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3136,12 +3254,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLGNPVLB  |: Generic Private Label Entitlement :|
+|:-----------|:----------------|
+| ENTLGNPVLB  | Generic Private Label Entitlement |
 <!-- type: tab -->
-|: ENTLGNPVLB  |: Generic Private Label Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLGNPVLB  | Generic Private Label Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3203,12 +3325,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLINTERACCNT  |: Interac Contact Entitlement :|
+|:-----------|:----------------|
+| ENTLINTERACCNT  | Interac Contact Entitlement |
 <!-- type: tab -->
-|: ENTLINTERACCNT  |: Interac Contact Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLINTERACCNT  | Interac Contact Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3236,12 +3362,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLINTERACFLS  |: Interac Flash Entitlement :|
+|:-----------|:----------------|
+| ENTLINTERACFLS  | Interac Flash Entitlement |
 <!-- type: tab -->
-|: ENTLINTERACFLS  |: Interac Flash Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLINTERACFLS  | Interac Flash Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3271,12 +3401,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLINTERACINAPP  |: Interac In App Entitlement :|
+|:-----------|:----------------|
+| ENTLINTERACINAPP  | Interac In App Entitlement |
 <!-- type: tab -->
-|: ENTLINTERACINAPP  |: Interac In App Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLINTERACINAPP  | Interac In App Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3304,12 +3438,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLINTLNK  |: Interlink Entitlement :|
+|:-----------|:----------------|
+| ENTLINTLNK  | Interlink Entitlement |
 <!-- type: tab -->
-|: ENTLINTLNK  |: Interlink Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLINTLNK  | Interlink Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3371,12 +3509,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLJBS  |: Jbs Entitlement :|
+|:-----------|:----------------|
+| ENTLJBS  | Jbs Entitlement |
 <!-- type: tab -->
-|: ENTLJBS  |: Jbs Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLJBS  | Jbs Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3438,12 +3580,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLJCB  |: Jcb Entitlement :|
+|:-----------|:----------------|
+| ENTLJCB  | Jcb Entitlement |
 <!-- type: tab -->
-|: ENTLJCB  |: Jcb Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLJCB  | Jcb Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3522,12 +3668,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLMASTRO  |: Maestro Entitlement :|
+|:-----------|:----------------|
+| ENTLMASTRO  | Maestro Entitlement |
 <!-- type: tab -->
-|: ENTLMASTRO  |: Maestro Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLMASTRO  | Maestro Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3589,12 +3739,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLMC  |: Mastercard Entitlement :|
+|:-----------|:----------------|
+| ENTLMC  | Mastercard Entitlement |
 <!-- type: tab -->
-|: ENTLMC  |: Mastercard Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLMC  | Mastercard Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3789,12 +3943,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLMCMA  |: Mastercard Multi Acquirer Entitlement :|
+|:-----------|:----------------|
+| ENTLMCMA  | Mastercard Multi Acquirer Entitlement |
 <!-- type: tab -->
-|: ENTLMCMA  |: Mastercard Multi Acquirer Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLMCMA  | Mastercard Multi Acquirer Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3875,12 +4033,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLMSTROI  |: Maestro International Entitlement :|
+|:-----------|:----------------|
+| ENTLMSTROI  | Maestro International Entitlement |
 <!-- type: tab -->
-|: ENTLMSTROI  |: Maestro International Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLMSTROI  | Maestro International Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -3942,12 +4104,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLOFRWSE  |: Offerwise Entitlement :|
+|:-----------|:----------------|
+| ENTLOFRWSE  | Offerwise Entitlement |
 <!-- type: tab -->
-|: ENTLOFRWSE  |: Offerwise Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLOFRWSE  | Offerwise Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -4009,12 +4175,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLPAYPAL  |: Paypal Entitlement :|
+|:-----------|:----------------|
+| ENTLPAYPAL  | Paypal Entitlement |
 <!-- type: tab -->
-|: ENTLPAYPAL  |: Paypal Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLPAYPAL  | Paypal Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -4076,12 +4246,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLPPALDIS  |: Paypal Enablement For Discover Full Service Merchant :|
+|:-----------|:----------------|
+| ENTLPPALDIS  | Paypal Enablement For Discover Full Service Merchant |
 <!-- type: tab -->
-|: ENTLPPALDIS  |: Paypal Enablement For Discover Full Service Merchant :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLPPALDIS  | Paypal Enablement For Discover Full Service Merchant |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -4109,12 +4283,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLPPLVNMO  |: Merchants Participating In The Paypal/Venmo Qrc Program :|
+|:-----------|:----------------|
+| ENTLPPLVNMO  | Merchants Participating In The Paypal/Venmo Qrc Program |
 <!-- type: tab -->
-|: ENTLPPLVNMO  |: Merchants Participating In The Paypal/Venmo Qrc Program :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLPPLVNMO  | Merchants Participating In The Paypal/Venmo Qrc Program |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -4164,12 +4342,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLPPRO  |: PPRO :|
+|:-----------|:----------------|
+| ENTLPPRO  | PPRO |
 <!-- type: tab -->
-|: ENTLPPRO  |: PPRO :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLPPRO  | PPRO |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -4197,12 +4379,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLPURCRD  |: Purchase Card Entitlement :|
+|:-----------|:----------------|
+| ENTLPURCRD  | Purchase Card Entitlement |
 <!-- type: tab -->
-|: ENTLPURCRD  |: Purchase Card Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLPURCRD  | Purchase Card Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -4264,12 +4450,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLPVTLBL  |: Pvt Label Multicard Entitlement :|
+|:-----------|:----------------|
+| ENTLPVTLBL  | Pvt Label Multicard Entitlement |
 <!-- type: tab -->
-|: ENTLPVTLBL  |: Pvt Label Multicard Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLPVTLBL  | Pvt Label Multicard Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -4356,12 +4546,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLSIGDBT  |: Signature Debit Entitlement :|
+|:-----------|:----------------|
+| ENTLSIGDBT  | Signature Debit Entitlement |
 <!-- type: tab -->
-|: ENTLSIGDBT  |: Signature Debit Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLSIGDBT  | Signature Debit Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -4440,12 +4634,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLT2CRD  |: Tier Ii Credit Entitlement :|
+|:-----------|:----------------|
+| ENTLT2CRD  | Tier Ii Credit Entitlement |
 <!-- type: tab -->
-|: ENTLT2CRD  |: Tier Ii Credit Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLT2CRD  | Tier Ii Credit Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -4507,12 +4705,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLTCK  |: Telecheck Entitlement :|
+|:-----------|:----------------|
+| ENTLTCK  | Telecheck Entitlement |
 <!-- type: tab -->
-|: ENTLTCK  |: Telecheck Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLTCK  | Telecheck Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -4651,12 +4853,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLTELCRD  |: Telecredit Entitlement :|
+|:-----------|:----------------|
+| ENTLTELCRD  | Telecredit Entitlement |
 <!-- type: tab -->
-|: ENTLTELCRD  |: Telecredit Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLTELCRD  | Telecredit Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -4718,12 +4924,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLUFNDSV  |: Unfunded Stored Value Entitlement :|
+|:-----------|:----------------|
+| ENTLUFNDSV  | Unfunded Stored Value Entitlement |
 <!-- type: tab -->
-|: ENTLUFNDSV  |: Unfunded Stored Value Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLUFNDSV  | Unfunded Stored Value Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -5316,12 +5526,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLUPICRD  |: UPI Credit Entitlement :|
+|:-----------|:----------------|
+| ENTLUPICRD  | UPI Credit Entitlement |
 <!-- type: tab -->
-|: ENTLUPICRD  |: UPI Credit Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLUPICRD  | UPI Credit Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -5349,12 +5563,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLUPIDBT  |: UPI Debit Entitlement :|
+|:-----------|:----------------|
+| ENTLUPIDBT  | UPI Debit Entitlement |
 <!-- type: tab -->
-|: ENTLUPIDBT  |: UPI Debit Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLUPIDBT  | UPI Debit Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -5382,12 +5600,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLVALLNK  |: Valuelink Premium Autoboard :|
+|:-----------|:----------------|
+| ENTLVALLNK  | Valuelink Premium Autoboard |
 <!-- type: tab -->
-|: ENTLVALLNK  |: Valuelink Premium Autoboard :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLVALLNK  | Valuelink Premium Autoboard |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -5413,12 +5635,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLVASGYFT  |: GYFT :|
+|:-----------|:----------------|
+| ENTLVASGYFT  | GYFT |
 <!-- type: tab -->
-|: ENTLVASGYFT  |: GYFT :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLVASGYFT  | GYFT |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -5450,12 +5676,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLVI  |: Visa Entitlement :|
+|:-----------|:----------------|
+| ENTLVI  | Visa Entitlement |
 <!-- type: tab -->
-|: ENTLVI  |: Visa Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLVI  | Visa Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -5644,12 +5874,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLVIMA  |: Visa Multi Acquirer Entitlement :|
+|:-----------|:----------------|
+| ENTLVIMA  | Visa Multi Acquirer Entitlement |
 <!-- type: tab -->
-|: ENTLVIMA  |: Visa Multi Acquirer Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLVIMA  | Visa Multi Acquirer Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -5730,12 +5964,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLVOYGER  |: Voyager Entitlement :|
+|:-----------|:----------------|
+| ENTLVOYGER  | Voyager Entitlement |
 <!-- type: tab -->
-|: ENTLVOYGER  |: Voyager Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLVOYGER  | Voyager Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -5797,12 +6035,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLWECHATPAY  |: We Chat Pay :|
+|:-----------|:----------------|
+| ENTLWECHATPAY  | We Chat Pay |
 <!-- type: tab -->
-|: ENTLWECHATPAY  |: We Chat Pay :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLWECHATPAY  | We Chat Pay |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -5830,12 +6072,16 @@ titles: UMM, North, GMA
 -->
 
 |  Value    |     Description  |
-|:-----------|:----------------:|
-|: ENTLWRTEXP  |: Wright Express Entitlement :|
+|:-----------|:----------------|
+| ENTLWRTEXP  | Wright Express Entitlement |
 <!-- type: tab -->
-|: ENTLWRTEXP  |: Wright Express Entitlement :|
+|  Value    |     Description  |
+|:-----------|:----------------|
+| ENTLWRTEXP  | Wright Express Entitlement |
 
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
 
 * Attribute List by Domain:
@@ -5888,5 +6134,8 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------|
 <!-- type: tab-end -->
+
 ---
