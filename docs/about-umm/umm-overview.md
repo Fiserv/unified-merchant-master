@@ -1,39 +1,29 @@
 # UMM Overview
 
-## About
+## Motivation behind UMM
 
 > Fiserv has multiple diverse and complex back-end merchant data stores that lack a uniform definition for products, fees, pricing, merchant accounts and acquiring hierarchy across platforms.
 
 The disparity in data taxonomy and conflicting semantics among different systems has resulted in substantial gaps in documentation and the absence of a single source of truth about a merchant. Additionally, the reliance on the availability of back-end services to access necessary data, combined with the distinct formats utilized by each backend system, complicates efficient data utilization. The presence of multiple copies of merchant data in downstream systems, tailored for specific purposes, further adds to the complexity, creating significant friction in processes like onboarding, account maintenance, offering management, and product rollout. Reconciling data and conducting comprehensive analytics of merchant information is also extremely challenging due to the lack of a co-located, unified data repository.
 
-> To address these issues, the Unified Merchant Master (UMM) offers a comprehensive solution by providing a Single Unified Definition of products and offerings, fees, equipment, and merchant demographic information
+## Solution
 
-UMM establishes a unified or canonical data model for GBS Merchant Account and product offerings, hosted on a Snowflake Database and enhanced with a CRUD interface. It ensures real-time bi-directional synchronization with five back-end merchant master databases (North, Optis, South, Memphis, and OmniPay). This standardization of data and APIs facilitates seamless integration, reduces maintenance overhead, and enables the easy adoption of changes, thereby significantly cutting down the development time for merchant onboarding and maintenance activities.
+> To address these issues, the Unified Merchant Master (UMM) offers Single Unified Definition of products and offerings, fees, equipment and merchant demographic information.
 
-By unifying data and APIs, UMM simplifies the integration process, reducing complexity and the need for extensive custom development. The standardized data model and enhanced integration capabilities significantly reduce the maintenance overhead traditionally associated with managing multiple disparate systems, and the development time required for merchant onboarding and maintenance activities is considerably accelerated. With a co-located, unified data repository in Snowflake, comprehensive and accurate analytics of merchant data become feasible, driving better business insights and decision-making.
+## Solution Golas
 
-> This allows UMM to provide improved data governance, operational efficiency and advanced analytics capabilities, ultimately ensuring consistent, accurate, and actionable merchant data across the organization
+* Unified/canonical data model for GBS Merchant Account and product offerings, hosted on a Snowflake Database
+* CRUD Interface integrated with  Developer Studio with single Taxonomy and Metadata to simplify Integration using platform-agnostic  GraphQL API
+* Realtime/batc bi-directional data Synch with Backend Merchant Masters to keep UMM in sync with backends
+* Auditing and Notification for change events
+* Low Maintenance through efficient framework and Management Portal to manage metadata definition
 
-UMM provides access to data through direct Snowflake access or a unified API.
+By unifying data and APIs, UMM simplifies the integration process, reducing complexity and the need for extensive custom development. The standardized data model and enhanced integration capabilities significantly reduce the maintenance overhead traditionally associated with managing multiple disparate systems. With a co-located, unified data repository in Snowflake, comprehensive and accurate analytics of merchant data become feasible, driving better business insights and decision-making.
 
-## Supported Backend Platforms
+## Functionality
 
-Please find list of supported Backend Platforms [here](?path=docs/specification/supportedPlatforms.md)
-
-## Unified API Layer
-
-UMM offers a platform-agnostic Unified GraphQL CRUD API for creating and maintaining merchant information. This API is hosted through the Developer Studio, providing a seamless integration experience.
-
-The GraphQL API brings several advantages, including a single endpoint for all data requests. It allows consumers to precisely specify the data they need, eliminating the issue of over-fetching unnecessary data. This efficient data retrieval optimizes performance and reduces bandwidth usage.
-
-One of the key benefits of the GraphQL API is its flexibility in adding new entities and enhancing the data model without impacting existing consumers. This means that as the UMM evolves and new features are introduced, the API remains backward-compatible, making it easier to adapt and extend the system without disrupting existing integrations.
-
-The unified API supports the following operations for supported back-end platforms:
-
-- Merchant Onboarding
-- Merchant Inquiry
-- Merchant Maintenance
-
-Additionally, UMM provides the following API to access all available products for supported back-end platforms:
-
-- Product Inquiry
+* Merchant Onboarding
+* Merchant Maintenance
+* Merchant Inquiry
+* Product Catalog
+* Audit and Change notification
