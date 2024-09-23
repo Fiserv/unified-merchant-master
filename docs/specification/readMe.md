@@ -9,7 +9,7 @@ Consumers can use UMM data in two different ways -
 
 > This documentation covers specifications for both way and provides in depth details on what any consumer needs to know in order to start using the UMM data
 
-## General Construct of the UMM Data Store
+## General construct of the data store
 
 Three Fundamental Models used by UMM to store merchant data
 
@@ -30,7 +30,6 @@ Each entity will provide a comprehensive list of all fields/columns it has , inc
 
 Moreover, each field will have tabs for UMM and specific backend , providing detailed information on the data type, restrictions, and allowable values for both UMM and the respective backend systems. For instance, the UMM tab will include allowable values specific to UMM, regardless of the backend system, while the backend-specific tab will list allowable values tailored to that particular backend. For instance, if a field can support values 'a' and 'b' for the North backend, and value 'C' for Omnipay GMA, UMM will list values 'a', 'b', and 'c' under the UMM tab. In contrast, the North backend tab will display values 'a' and 'b', while the GMA tab will list value 'C' only.
 
-
 Refer to UMM's [Auditing strategy](?path=docs/specification/merchant/audit/merchantAuditing.md) for additional information.
 
 ## Entities
@@ -45,6 +44,11 @@ Refer to UMM's [Auditing strategy](?path=docs/specification/merchant/audit/merch
 * [Merchant Cross Reference](?path=docs/specification/merchant/Merchant_Xref.md): This entiry stores the cross references for a specific merchant
 * [Merchant IRS Information](?path=docs/specification/merchant/Tax_Adtnl_Data_US.md): All tax related information for a merchant
 * [Merchant Products](?path=docs/specification/merchant/merchantProduct.md): Stores all entitlements, services, equipments fees a merchant has and further segregated into following logical groups
-  * [Entitlements](?path=docs/specification/merchant/merchantProduct.md): Contains all acquiring entitlements e.g. MasterCard, VISA etc.
-  * [Fees](?path=docs/specification/merchant/merchantProduct.md): All fees for a merchant
-  * [Value Added Services](?path=docs/specification/merchant/merchantProduct.md): Example of Value Added services would be TransArmor, Auth Optimization etc.
+  * [Entitlements](?path=docs/specification/products_entitlements.md): Contains all acquiring entitlements e.g. MasterCard, VISA etc.
+    * [Attributes](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
+  * [Equipment](?path=docs/specification/products_equipments.md): Contains all acquiring entitlements e.g. MasterCard, VISA etc.
+    * [Attributes](?path=docs/specification/merchant/productAttributes_equipment.md)
+  * [Fees](?path=docs/specification/products_fees.md): All fees for a merchant
+    * [Attributes](?path=docs/specification/merchant/productAttributes_fees.md)
+  * [Value Added Services](?path=docs/specification/products_vas.md): Example of Value Added services would be TransArmor, Auth Optimization etc.
+    * [Attributes](?path=docs/specification/merchant/productAttributes_VAS.md)
