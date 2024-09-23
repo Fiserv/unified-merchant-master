@@ -41,9 +41,10 @@
       link: docs/getting-access/database-access.md
   - sections:
   - title: About UMM
-    sections:
-    - title: UMM Overview
-      link: docs/getting-access/umm-overview.md
+      link: docs/umm-overview.md
+    # sections:
+    # - title: UMM Overview
+    #   link: docs/getting-access/umm-overview.md
     # - title: Snowflake Access
     #   link: docs/getting-access/database-access.md
 - sections:
