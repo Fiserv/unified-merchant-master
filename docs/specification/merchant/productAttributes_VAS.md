@@ -1,1833 +1,2632 @@
-# Product Attributes - VAS
-
-**List of attributes for a specific Value Added  product.**
+# Value Added  Product List
 
 ## Advertising Insights
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASADVINS`
-* Product Description: Advertising Insights
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASADVINS  | Advertising Insights  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASADVINS  | Advertising Insights  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | advInsightBillingEffectiveDate | Billing Effective Date for Advertising Insights| ||
-|serviceAttr | advInsightOfferingType | Offering Type for Advertising Insights| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | advInsightStatus | Program Status for Advertising Insights| ACTIVE|ACTIVE|
-|serviceAttr | advInsightStatus | Program Status for Advertising Insights| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|advInsightBillingEffectiveDate | Billing Effective Date for Advertising Insights| ||
+|advInsightOfferingType | Offering Type for Advertising Insights| STANDARD_OFFERING|STANDARD_OFFERING|
+|advInsightStatus | Program Status for Advertising Insights| ACTIVE|ACTIVE|
+|advInsightStatus | Program Status for Advertising Insights| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | advInsightBillingEffectiveDate | Billing Effective Date for Advertising Insights| ||
-|serviceAttr | advInsightOfferingType | Offering Type for Advertising Insights| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | advInsightStatus | Program Status for Advertising Insights| ACTIVE|ACTIVE|
-|serviceAttr | advInsightStatus | Program Status for Advertising Insights| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|advInsightBillingEffectiveDate | Billing Effective Date for Advertising Insights| ||
+|advInsightOfferingType | Offering Type for Advertising Insights| STANDARD_OFFERING|STANDARD_OFFERING|
+|advInsightStatus | Program Status for Advertising Insights| ACTIVE|ACTIVE|
+|advInsightStatus | Program Status for Advertising Insights| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## BP Mobile Program
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASBPMOB`
-* Product Description: BP Mobile Program
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASBPMOB  | BP Mobile Program  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASBPMOB  | BP Mobile Program  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | bpMobiletermType | Mobile Terminal Type for BP Mobile| ||
-|serviceAttr | chargebackInd | OEMV Chargeback Writeoff Indicator for BP Mobile| YES|YES|
-|serviceAttr | chargebackInd | OEMV Chargeback Writeoff Indicator for BP Mobile| NO|NO|
-|serviceAttr | convenienceFeeInd | Convenience Fee Indicator for BP Mobile| YES|YES|
-|serviceAttr | convenienceFeeInd | Convenience Fee Indicator for BP Mobile| NO|NO|
-|serviceAttr | ebtFnsNum | EBT FNS Number for BP Mobile| ||
-|serviceAttr | mobInd | Mobile Indicator for BP Mobile| NO|NO|
-|serviceAttr | mobInd | Mobile Indicator for BP Mobile| YES|YES|
-|serviceAttr | terminalType01 | Terminal Type 01 for BP Mobile| ||
-|serviceAttr | terminalType03 | Terminal Type 03 for BP Mobile| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|bpMobiletermType | Mobile Terminal Type for BP Mobile| ||
+|chargebackInd | OEMV Chargeback Writeoff Indicator for BP Mobile| YES|YES|
+|chargebackInd | OEMV Chargeback Writeoff Indicator for BP Mobile| NO|NO|
+|convenienceFeeInd | Convenience Fee Indicator for BP Mobile| YES|YES|
+|convenienceFeeInd | Convenience Fee Indicator for BP Mobile| NO|NO|
+|ebtFnsNum | EBT FNS Number for BP Mobile| ||
+|mobInd | Mobile Indicator for BP Mobile| NO|NO|
+|mobInd | Mobile Indicator for BP Mobile| YES|YES|
+|terminalType01 | Terminal Type 01 for BP Mobile| ||
+|terminalType03 | Terminal Type 03 for BP Mobile| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | bpMobiletermType | Mobile Terminal Type for BP Mobile| ||
-|serviceAttr | chargebackInd | OEMV Chargeback Writeoff Indicator for BP Mobile| YES|YES|
-|serviceAttr | chargebackInd | OEMV Chargeback Writeoff Indicator for BP Mobile| NO|NO|
-|serviceAttr | convenienceFeeInd | Convenience Fee Indicator for BP Mobile| YES|YES|
-|serviceAttr | convenienceFeeInd | Convenience Fee Indicator for BP Mobile| NO|NO|
-|serviceAttr | ebtFnsNum | EBT FNS Number for BP Mobile| ||
-|serviceAttr | mobInd | Mobile Indicator for BP Mobile| NO|NO|
-|serviceAttr | mobInd | Mobile Indicator for BP Mobile| YES|YES|
-|serviceAttr | terminalType01 | Terminal Type 01 for BP Mobile| ||
-|serviceAttr | terminalType03 | Terminal Type 03 for BP Mobile| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|bpMobiletermType | Mobile Terminal Type for BP Mobile| ||
+|chargebackInd | OEMV Chargeback Writeoff Indicator for BP Mobile| YES|YES|
+|chargebackInd | OEMV Chargeback Writeoff Indicator for BP Mobile| NO|NO|
+|convenienceFeeInd | Convenience Fee Indicator for BP Mobile| YES|YES|
+|convenienceFeeInd | Convenience Fee Indicator for BP Mobile| NO|NO|
+|ebtFnsNum | EBT FNS Number for BP Mobile| ||
+|mobInd | Mobile Indicator for BP Mobile| NO|NO|
+|mobInd | Mobile Indicator for BP Mobile| YES|YES|
+|terminalType01 | Terminal Type 01 for BP Mobile| ||
+|terminalType03 | Terminal Type 03 for BP Mobile| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Cash Advance Product
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASCASHADV`
-* Product Description: Cash Advance Product
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASCASHADV  | Cash Advance Product  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASCASHADV  | Cash Advance Product  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### cashAdvance
 
-* Attribute Specification:
+---
+
+ tags: [cashAdvance]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|cashAdvance | activeDate | Cash Advance Activation Date| ||
-|cashAdvance | advanceAmount | Cash Advance Amount| ||
-|cashAdvance | bookingDate | Cash advance Booking Date| ||
-|cashAdvance | branchCode | Cash Advance Branch Code| ||
-|cashAdvance | businessSegment | Cash Advance Business Segment| ||
-|cashAdvance | cashAdvanceBankSequenceNumber | Cash Advance Bank Sequence Number added to Merchant Bank Account| ||
-|cashAdvance | contractTerm | Cash Advance Contract Term| ||
-|cashAdvance | dailyWithholdPercentage | Cash Advance Daily Withhold Percentage| ||
-|cashAdvance | estPaybackPeriod | Cash Advance EST Payback Period| ||
-|cashAdvance | finalPaymentDate | Cash Advance Final Payment Date| ||
-|cashAdvance | firstPaymentDate | Cash Advance First Payment Date| ||
-|cashAdvance | fundingDate | Cash Advance Funding Date| ||
-|cashAdvance | grossIncome | Cash Advance Gross Income| ||
-|cashAdvance | invDueDate | Cash Advance Invoice Due Date| ||
-|cashAdvance | lastPaymentDate | Cash Advance Last Payment Date| ||
-|cashAdvance | legalStatus | Lease Legal Status| WRITEOFF|WRITEOFF|
-|cashAdvance | legalStatus | Lease Legal Status| ATTORNEY_NEGOTIATION|ATTORNEY_NEGOTIATION|
-|cashAdvance | legalStatus | Lease Legal Status| BUYBACK|BUYBACK|
-|cashAdvance | legalStatus | Lease Legal Status| SIF_MERCH_KEEP_EQUIP|SIF_MERCH_KEEP_EQUIP|
-|cashAdvance | legalStatus | Lease Legal Status| WRITEOFF_DEAD|WRITEOFF_DEAD|
-|cashAdvance | legalStatus | Lease Legal Status| WRITEOFF_REVERSAL|WRITEOFF_REVERSAL|
-|cashAdvance | legalStatus | Lease Legal Status| UPGRADE_BUYOUT|UPGRADE_BUYOUT|
-|cashAdvance | legalStatus | Lease Legal Status| PIF_MERCH_KEEP_EQUIP|PIF_MERCH_KEEP_EQUIP|
-|cashAdvance | legalStatus | Lease Legal Status| END_OF_LEASE_W_RTN_EQUIP|END_OF_LEASE_W_RTN_EQUIP|
-|cashAdvance | legalStatus | Lease Legal Status| PIF_MERCH_RETURN_EQUIP|PIF_MERCH_RETURN_EQUIP|
-|cashAdvance | legalStatus | Lease Legal Status| CANCELLED|CANCELLED|
-|cashAdvance | legalStatus | Lease Legal Status| EQUIP_RETURNED_TO_TASQ|EQUIP_RETURNED_TO_TASQ|
-|cashAdvance | legalStatus | Lease Legal Status| SIF_MERCH_RETURN_EQUIP|SIF_MERCH_RETURN_EQUIP|
-|cashAdvance | legalStatus | Lease Legal Status| RECOURSE_PIF|RECOURSE_PIF|
-|cashAdvance | netIncome | Cash Advance Net Income| ||
-|cashAdvance | payBackAmount | Cash Advance Pay Back Amount| ||
-|cashAdvance | priorCashAdvanceId | Prior Cash Advance ID| ||
-|cashAdvance | receivedAmount | Cash Advance Received Amount| ||
-|cashAdvance | relationshipCode | Cash Advance Relationship Code| ||
-|cashAdvance | remainingAmount | Cash Advance Remaining Amount| ||
-|cashAdvance | terminationDate | Cash Advance Termination Date| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|activeDate | Cash Advance Activation Date| ||
+|advanceAmount | Cash Advance Amount| ||
+|bookingDate | Cash advance Booking Date| ||
+|branchCode | Cash Advance Branch Code| ||
+|businessSegment | Cash Advance Business Segment| ||
+|cashAdvanceBankSequenceNumber | Cash Advance Bank Sequence Number added to Merchant Bank Account| ||
+|contractTerm | Cash Advance Contract Term| ||
+|dailyWithholdPercentage | Cash Advance Daily Withhold Percentage| ||
+|estPaybackPeriod | Cash Advance EST Payback Period| ||
+|finalPaymentDate | Cash Advance Final Payment Date| ||
+|firstPaymentDate | Cash Advance First Payment Date| ||
+|fundingDate | Cash Advance Funding Date| ||
+|grossIncome | Cash Advance Gross Income| ||
+|invDueDate | Cash Advance Invoice Due Date| ||
+|lastPaymentDate | Cash Advance Last Payment Date| ||
+|legalStatus | Lease Legal Status| WRITEOFF|WRITEOFF|
+|legalStatus | Lease Legal Status| ATTORNEY_NEGOTIATION|ATTORNEY_NEGOTIATION|
+|legalStatus | Lease Legal Status| BUYBACK|BUYBACK|
+|legalStatus | Lease Legal Status| SIF_MERCH_KEEP_EQUIP|SIF_MERCH_KEEP_EQUIP|
+|legalStatus | Lease Legal Status| WRITEOFF_DEAD|WRITEOFF_DEAD|
+|legalStatus | Lease Legal Status| WRITEOFF_REVERSAL|WRITEOFF_REVERSAL|
+|legalStatus | Lease Legal Status| UPGRADE_BUYOUT|UPGRADE_BUYOUT|
+|legalStatus | Lease Legal Status| PIF_MERCH_KEEP_EQUIP|PIF_MERCH_KEEP_EQUIP|
+|legalStatus | Lease Legal Status| END_OF_LEASE_W_RTN_EQUIP|END_OF_LEASE_W_RTN_EQUIP|
+|legalStatus | Lease Legal Status| PIF_MERCH_RETURN_EQUIP|PIF_MERCH_RETURN_EQUIP|
+|legalStatus | Lease Legal Status| CANCELLED|CANCELLED|
+|legalStatus | Lease Legal Status| EQUIP_RETURNED_TO_TASQ|EQUIP_RETURNED_TO_TASQ|
+|legalStatus | Lease Legal Status| SIF_MERCH_RETURN_EQUIP|SIF_MERCH_RETURN_EQUIP|
+|legalStatus | Lease Legal Status| RECOURSE_PIF|RECOURSE_PIF|
+|netIncome | Cash Advance Net Income| ||
+|payBackAmount | Cash Advance Pay Back Amount| ||
+|priorCashAdvanceId | Prior Cash Advance ID| ||
+|receivedAmount | Cash Advance Received Amount| ||
+|relationshipCode | Cash Advance Relationship Code| ||
+|remainingAmount | Cash Advance Remaining Amount| ||
+|terminationDate | Cash Advance Termination Date| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|cashAdvance | activeDate | Cash Advance Activation Date| ||
-|cashAdvance | advanceAmount | Cash Advance Amount| ||
-|cashAdvance | bookingDate | Cash advance Booking Date| ||
-|cashAdvance | branchCode | Cash Advance Branch Code| ||
-|cashAdvance | businessSegment | Cash Advance Business Segment| ||
-|cashAdvance | cashAdvanceBankSequenceNumber | Cash Advance Bank Sequence Number added to Merchant Bank Account| ||
-|cashAdvance | contractTerm | Cash Advance Contract Term| ||
-|cashAdvance | dailyWithholdPercentage | Cash Advance Daily Withhold Percentage| ||
-|cashAdvance | estPaybackPeriod | Cash Advance EST Payback Period| ||
-|cashAdvance | finalPaymentDate | Cash Advance Final Payment Date| ||
-|cashAdvance | firstPaymentDate | Cash Advance First Payment Date| ||
-|cashAdvance | fundingDate | Cash Advance Funding Date| ||
-|cashAdvance | grossIncome | Cash Advance Gross Income| ||
-|cashAdvance | invDueDate | Cash Advance Invoice Due Date| ||
-|cashAdvance | lastPaymentDate | Cash Advance Last Payment Date| ||
-|cashAdvance | legalStatus | Lease Legal Status| WRITEOFF|WRITEOFF|
-|cashAdvance | legalStatus | Lease Legal Status| ATTORNEY_NEGOTIATION|ATTORNEY_NEGOTIATION|
-|cashAdvance | legalStatus | Lease Legal Status| BUYBACK|BUYBACK|
-|cashAdvance | legalStatus | Lease Legal Status| SIF_MERCH_KEEP_EQUIP|SIF_MERCH_KEEP_EQUIP|
-|cashAdvance | legalStatus | Lease Legal Status| WRITEOFF_DEAD|WRITEOFF_DEAD|
-|cashAdvance | legalStatus | Lease Legal Status| WRITEOFF_REVERSAL|WRITEOFF_REVERSAL|
-|cashAdvance | legalStatus | Lease Legal Status| UPGRADE_BUYOUT|UPGRADE_BUYOUT|
-|cashAdvance | legalStatus | Lease Legal Status| PIF_MERCH_KEEP_EQUIP|PIF_MERCH_KEEP_EQUIP|
-|cashAdvance | legalStatus | Lease Legal Status| END_OF_LEASE_W_RTN_EQUIP|END_OF_LEASE_W_RTN_EQUIP|
-|cashAdvance | legalStatus | Lease Legal Status| PIF_MERCH_RETURN_EQUIP|PIF_MERCH_RETURN_EQUIP|
-|cashAdvance | legalStatus | Lease Legal Status| CANCELLED|CANCELLED|
-|cashAdvance | legalStatus | Lease Legal Status| EQUIP_RETURNED_TO_TASQ|EQUIP_RETURNED_TO_TASQ|
-|cashAdvance | legalStatus | Lease Legal Status| SIF_MERCH_RETURN_EQUIP|SIF_MERCH_RETURN_EQUIP|
-|cashAdvance | legalStatus | Lease Legal Status| RECOURSE_PIF|RECOURSE_PIF|
-|cashAdvance | netIncome | Cash Advance Net Income| ||
-|cashAdvance | payBackAmount | Cash Advance Pay Back Amount| ||
-|cashAdvance | priorCashAdvanceId | Prior Cash Advance ID| ||
-|cashAdvance | receivedAmount | Cash Advance Received Amount| ||
-|cashAdvance | relationshipCode | Cash Advance Relationship Code| ||
-|cashAdvance | remainingAmount | Cash Advance Remaining Amount| ||
-|cashAdvance | terminationDate | Cash Advance Termination Date| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|activeDate | Cash Advance Activation Date| ||
+|advanceAmount | Cash Advance Amount| ||
+|bookingDate | Cash advance Booking Date| ||
+|branchCode | Cash Advance Branch Code| ||
+|businessSegment | Cash Advance Business Segment| ||
+|cashAdvanceBankSequenceNumber | Cash Advance Bank Sequence Number added to Merchant Bank Account| ||
+|contractTerm | Cash Advance Contract Term| ||
+|dailyWithholdPercentage | Cash Advance Daily Withhold Percentage| ||
+|estPaybackPeriod | Cash Advance EST Payback Period| ||
+|finalPaymentDate | Cash Advance Final Payment Date| ||
+|firstPaymentDate | Cash Advance First Payment Date| ||
+|fundingDate | Cash Advance Funding Date| ||
+|grossIncome | Cash Advance Gross Income| ||
+|invDueDate | Cash Advance Invoice Due Date| ||
+|lastPaymentDate | Cash Advance Last Payment Date| ||
+|legalStatus | Lease Legal Status| WRITEOFF|WRITEOFF|
+|legalStatus | Lease Legal Status| ATTORNEY_NEGOTIATION|ATTORNEY_NEGOTIATION|
+|legalStatus | Lease Legal Status| BUYBACK|BUYBACK|
+|legalStatus | Lease Legal Status| SIF_MERCH_KEEP_EQUIP|SIF_MERCH_KEEP_EQUIP|
+|legalStatus | Lease Legal Status| WRITEOFF_DEAD|WRITEOFF_DEAD|
+|legalStatus | Lease Legal Status| WRITEOFF_REVERSAL|WRITEOFF_REVERSAL|
+|legalStatus | Lease Legal Status| UPGRADE_BUYOUT|UPGRADE_BUYOUT|
+|legalStatus | Lease Legal Status| PIF_MERCH_KEEP_EQUIP|PIF_MERCH_KEEP_EQUIP|
+|legalStatus | Lease Legal Status| END_OF_LEASE_W_RTN_EQUIP|END_OF_LEASE_W_RTN_EQUIP|
+|legalStatus | Lease Legal Status| PIF_MERCH_RETURN_EQUIP|PIF_MERCH_RETURN_EQUIP|
+|legalStatus | Lease Legal Status| CANCELLED|CANCELLED|
+|legalStatus | Lease Legal Status| EQUIP_RETURNED_TO_TASQ|EQUIP_RETURNED_TO_TASQ|
+|legalStatus | Lease Legal Status| SIF_MERCH_RETURN_EQUIP|SIF_MERCH_RETURN_EQUIP|
+|legalStatus | Lease Legal Status| RECOURSE_PIF|RECOURSE_PIF|
+|netIncome | Cash Advance Net Income| ||
+|payBackAmount | Cash Advance Pay Back Amount| ||
+|priorCashAdvanceId | Prior Cash Advance ID| ||
+|receivedAmount | Cash Advance Received Amount| ||
+|relationshipCode | Cash Advance Relationship Code| ||
+|remainingAmount | Cash Advance Remaining Amount| ||
+|terminationDate | Cash Advance Termination Date| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Debit Term ID
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASDBTTERMID`
-* Product Description: Debit Term ID
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASDBTTERMID  | Debit Term ID  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASDBTTERMID  | Debit Term ID  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | dbtTermIdStatus | Program Status for Debit Term Id| ACTIVE|ACTIVE|
-|serviceAttr | dbtTermIdStatus | Program Status for Debit Term Id| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|dbtTermIdStatus | Program Status for Debit Term Id| ACTIVE|ACTIVE|
+|dbtTermIdStatus | Program Status for Debit Term Id| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | dbtTermIdStatus | Program Status for Debit Term Id| ACTIVE|ACTIVE|
-|serviceAttr | dbtTermIdStatus | Program Status for Debit Term Id| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|dbtTermIdStatus | Program Status for Debit Term Id| ACTIVE|ACTIVE|
+|dbtTermIdStatus | Program Status for Debit Term Id| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## DISCOVER DEBIT ACCEPTANCE - DEBT REPAYMENT
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASDISCDBTACP`
-* Product Description: DISCOVER DEBIT ACCEPTANCE - DEBT REPAYMENT
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASDISCDBTACP  | DISCOVER DEBIT ACCEPTANCE - DEBT REPAYMENT  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASDISCDBTACP  | DISCOVER DEBIT ACCEPTANCE - DEBT REPAYMENT  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | discDbtAcpOfferingType | Offering Type for Discover Debit Acceptance| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | discDbtAcpStatus | Program Status for Discover Debit Acceptance| ACTIVE|ACTIVE|
-|serviceAttr | discDbtAcpStatus | Program Status for Discover Debit Acceptance| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|discDbtAcpOfferingType | Offering Type for Discover Debit Acceptance| STANDARD_OFFERING|STANDARD_OFFERING|
+|discDbtAcpStatus | Program Status for Discover Debit Acceptance| ACTIVE|ACTIVE|
+|discDbtAcpStatus | Program Status for Discover Debit Acceptance| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | discDbtAcpOfferingType | Offering Type for Discover Debit Acceptance| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | discDbtAcpStatus | Program Status for Discover Debit Acceptance| ACTIVE|ACTIVE|
-|serviceAttr | discDbtAcpStatus | Program Status for Discover Debit Acceptance| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|discDbtAcpOfferingType | Offering Type for Discover Debit Acceptance| STANDARD_OFFERING|STANDARD_OFFERING|
+|discDbtAcpStatus | Program Status for Discover Debit Acceptance| ACTIVE|ACTIVE|
+|discDbtAcpStatus | Program Status for Discover Debit Acceptance| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## DISCOVER INCREMENTAL AUTHORIZATION - IRAM INDICATOR
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASDISCINCAUTH`
-* Product Description: DISCOVER INCREMENTAL AUTHORIZATION - IRAM INDICATOR
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASDISCINCAUTH  | DISCOVER INCREMENTAL AUTHORIZATION - IRAM INDICATOR  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASDISCINCAUTH  | DISCOVER INCREMENTAL AUTHORIZATION - IRAM INDICATOR  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | discIncAuthOfferingType | Offering Type for Discover Inc Auth| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | discIncAuthStatus | Program Status for Discover Inc Auth| ACTIVE|ACTIVE|
-|serviceAttr | discIncAuthStatus | Program Status for Discover Inc Auth| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|discIncAuthOfferingType | Offering Type for Discover Inc Auth| STANDARD_OFFERING|STANDARD_OFFERING|
+|discIncAuthStatus | Program Status for Discover Inc Auth| ACTIVE|ACTIVE|
+|discIncAuthStatus | Program Status for Discover Inc Auth| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | discIncAuthOfferingType | Offering Type for Discover Inc Auth| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | discIncAuthStatus | Program Status for Discover Inc Auth| ACTIVE|ACTIVE|
-|serviceAttr | discIncAuthStatus | Program Status for Discover Inc Auth| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|discIncAuthOfferingType | Offering Type for Discover Inc Auth| STANDARD_OFFERING|STANDARD_OFFERING|
+|discIncAuthStatus | Program Status for Discover Inc Auth| ACTIVE|ACTIVE|
+|discIncAuthStatus | Program Status for Discover Inc Auth| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## DISCOVER PROMOTIONAL PROGRAM VERIFICATION IDENTIFIER
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASDISCPROMPRG`
-* Product Description: DISCOVER PROMOTIONAL PROGRAM VERIFICATION IDENTIFIER
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASDISCPROMPRG  | DISCOVER PROMOTIONAL PROGRAM VERIFICATION IDENTIFIER  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASDISCPROMPRG  | DISCOVER PROMOTIONAL PROGRAM VERIFICATION IDENTIFIER  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | discPrmPrgEffectiveDate | Effective Date for Discover Prm Prg| ||
-|serviceAttr | discPrmPrgExpiryDate | Expiry Date for Discover Prm Prg| ||
-|serviceAttr | discPrmPrgOfferingType | offering Type for Discover Prm Prg| ||
-|serviceAttr | discPrmPrgPVI | PVI for Discover Prm Prg| ||
-|serviceAttr | discPrmPrgStatus | Program Status for Discover Prm Prg| DISCOVER_REVIEW|DISCOVER_REVIEW|
-|serviceAttr | discPrmPrgStatus | Program Status for Discover Prm Prg| APPROVED|APPROVED|
-|serviceAttr | discPrmPrgStatus | Program Status for Discover Prm Prg| DENIED|DENIED|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|discPrmPrgEffectiveDate | Effective Date for Discover Prm Prg| ||
+|discPrmPrgExpiryDate | Expiry Date for Discover Prm Prg| ||
+|discPrmPrgOfferingType | offering Type for Discover Prm Prg| ||
+|discPrmPrgPVI | PVI for Discover Prm Prg| ||
+|discPrmPrgStatus | Program Status for Discover Prm Prg| DISCOVER_REVIEW|DISCOVER_REVIEW|
+|discPrmPrgStatus | Program Status for Discover Prm Prg| APPROVED|APPROVED|
+|discPrmPrgStatus | Program Status for Discover Prm Prg| DENIED|DENIED|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | discPrmPrgEffectiveDate | Effective Date for Discover Prm Prg| ||
-|serviceAttr | discPrmPrgExpiryDate | Expiry Date for Discover Prm Prg| ||
-|serviceAttr | discPrmPrgOfferingType | offering Type for Discover Prm Prg| ||
-|serviceAttr | discPrmPrgPVI | PVI for Discover Prm Prg| ||
-|serviceAttr | discPrmPrgStatus | Program Status for Discover Prm Prg| DISCOVER_REVIEW|DISCOVER_REVIEW|
-|serviceAttr | discPrmPrgStatus | Program Status for Discover Prm Prg| APPROVED|APPROVED|
-|serviceAttr | discPrmPrgStatus | Program Status for Discover Prm Prg| DENIED|DENIED|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|discPrmPrgEffectiveDate | Effective Date for Discover Prm Prg| ||
+|discPrmPrgExpiryDate | Expiry Date for Discover Prm Prg| ||
+|discPrmPrgOfferingType | offering Type for Discover Prm Prg| ||
+|discPrmPrgPVI | PVI for Discover Prm Prg| ||
+|discPrmPrgStatus | Program Status for Discover Prm Prg| DISCOVER_REVIEW|DISCOVER_REVIEW|
+|discPrmPrgStatus | Program Status for Discover Prm Prg| APPROVED|APPROVED|
+|discPrmPrgStatus | Program Status for Discover Prm Prg| DENIED|DENIED|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## EMV Campaign
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASEMVCMP`
-* Product Description: EMV Campaign
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASEMVCMP  | EMV Campaign  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASEMVCMP  | EMV Campaign  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | emvBillingEffectiveDate | EMV Billing Effective Date| ||
-|serviceAttr | emvBillingExpirationDate | EMV Billing Expiration Date| ||
-|serviceAttr | emvOfferingType | EMV Offering Type| EMV_CAMPAIGN|EMV_CAMPAIGN|
-|serviceAttr | emvProgramStatus | EMV Program Status| CANCEL|CANCEL|
-|serviceAttr | emvProgramStatus | EMV Program Status| ACTIVE|ACTIVE|
-|serviceAttr | rebateAmount | EMV Rebate Amount| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|emvBillingEffectiveDate | EMV Billing Effective Date| ||
+|emvBillingExpirationDate | EMV Billing Expiration Date| ||
+|emvOfferingType | EMV Offering Type| EMV_CAMPAIGN|EMV_CAMPAIGN|
+|emvProgramStatus | EMV Program Status| CANCEL|CANCEL|
+|emvProgramStatus | EMV Program Status| ACTIVE|ACTIVE|
+|rebateAmount | EMV Rebate Amount| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | emvBillingEffectiveDate | EMV Billing Effective Date| ||
-|serviceAttr | emvBillingExpirationDate | EMV Billing Expiration Date| ||
-|serviceAttr | emvOfferingType | EMV Offering Type| EMV_CAMPAIGN|EMV_CAMPAIGN|
-|serviceAttr | emvProgramStatus | EMV Program Status| CANCEL|CANCEL|
-|serviceAttr | emvProgramStatus | EMV Program Status| ACTIVE|ACTIVE|
-|serviceAttr | rebateAmount | EMV Rebate Amount| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|emvBillingEffectiveDate | EMV Billing Effective Date| ||
+|emvBillingExpirationDate | EMV Billing Expiration Date| ||
+|emvOfferingType | EMV Offering Type| EMV_CAMPAIGN|EMV_CAMPAIGN|
+|emvProgramStatus | EMV Program Status| CANCEL|CANCEL|
+|emvProgramStatus | EMV Program Status| ACTIVE|ACTIVE|
+|rebateAmount | EMV Rebate Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## EMV Enablement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASEMVENB`
-* Product Description: EMV Enablement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASEMVENB  | EMV Enablement  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASEMVENB  | EMV Enablement  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | emvEnablementStatus | Program Status for EMV Enablement| MERCH_EQ_EMV_CAPABLE|MERCH_EQ_EMV_CAPABLE|
-|serviceAttr | emvEnablementStatus | Program Status for EMV Enablement| MIX_EMV_AND_NON_EMV|MIX_EMV_AND_NON_EMV|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|emvEnablementStatus | Program Status for EMV Enablement| MERCH_EQ_EMV_CAPABLE|MERCH_EQ_EMV_CAPABLE|
+|emvEnablementStatus | Program Status for EMV Enablement| MIX_EMV_AND_NON_EMV|MIX_EMV_AND_NON_EMV|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | emvEnablementStatus | Program Status for EMV Enablement| MERCH_EQ_EMV_CAPABLE|MERCH_EQ_EMV_CAPABLE|
-|serviceAttr | emvEnablementStatus | Program Status for EMV Enablement| MIX_EMV_AND_NON_EMV|MIX_EMV_AND_NON_EMV|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|emvEnablementStatus | Program Status for EMV Enablement| MERCH_EQ_EMV_CAPABLE|MERCH_EQ_EMV_CAPABLE|
+|emvEnablementStatus | Program Status for EMV Enablement| MIX_EMV_AND_NON_EMV|MIX_EMV_AND_NON_EMV|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Enterprise Insights
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASENTINS`
-* Product Description: Enterprise Insights
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASENTINS  | Enterprise Insights  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASENTINS  | Enterprise Insights  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | entInsightBillingEffectiveDate | Billing Effective Date for Enterprise Insights| ||
-|serviceAttr | entInsightOfferingType | Offering Type for Enterprise Insights| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | entInsightStatus | Program Status for Enterprise Insights| ACTIVE|ACTIVE|
-|serviceAttr | entInsightStatus | Program Status for Enterprise Insights| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|entInsightBillingEffectiveDate | Billing Effective Date for Enterprise Insights| ||
+|entInsightOfferingType | Offering Type for Enterprise Insights| STANDARD_OFFERING|STANDARD_OFFERING|
+|entInsightStatus | Program Status for Enterprise Insights| ACTIVE|ACTIVE|
+|entInsightStatus | Program Status for Enterprise Insights| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | entInsightBillingEffectiveDate | Billing Effective Date for Enterprise Insights| ||
-|serviceAttr | entInsightOfferingType | Offering Type for Enterprise Insights| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | entInsightStatus | Program Status for Enterprise Insights| ACTIVE|ACTIVE|
-|serviceAttr | entInsightStatus | Program Status for Enterprise Insights| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|entInsightBillingEffectiveDate | Billing Effective Date for Enterprise Insights| ||
+|entInsightOfferingType | Offering Type for Enterprise Insights| STANDARD_OFFERING|STANDARD_OFFERING|
+|entInsightStatus | Program Status for Enterprise Insights| ACTIVE|ACTIVE|
+|entInsightStatus | Program Status for Enterprise Insights| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Enterprise Insights Bench
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASENTINSB`
-* Product Description: Enterprise Insights Bench
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASENTINSB  | Enterprise Insights Bench  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASENTINSB  | Enterprise Insights Bench  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | entInsightBenchBillingEffectiveDate | Billing Effective Date for Enterprise Insights Bench| ||
-|serviceAttr | entInsightBenchStatus | Program Status for Enterprise Insights Bench| ACTIVE|ACTIVE|
-|serviceAttr | entInsightBenchStatus | Program Status for Enterprise Insights Bench| CANCEL|CANCEL|
-|serviceAttr | entInsightBenchofferingType | Offering Type for Enterprise Insights Bench| STANDARD_OFFERING|STANDARD_OFFERING|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|entInsightBenchBillingEffectiveDate | Billing Effective Date for Enterprise Insights Bench| ||
+|entInsightBenchStatus | Program Status for Enterprise Insights Bench| ACTIVE|ACTIVE|
+|entInsightBenchStatus | Program Status for Enterprise Insights Bench| CANCEL|CANCEL|
+|entInsightBenchofferingType | Offering Type for Enterprise Insights Bench| STANDARD_OFFERING|STANDARD_OFFERING|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | entInsightBenchBillingEffectiveDate | Billing Effective Date for Enterprise Insights Bench| ||
-|serviceAttr | entInsightBenchStatus | Program Status for Enterprise Insights Bench| ACTIVE|ACTIVE|
-|serviceAttr | entInsightBenchStatus | Program Status for Enterprise Insights Bench| CANCEL|CANCEL|
-|serviceAttr | entInsightBenchofferingType | Offering Type for Enterprise Insights Bench| STANDARD_OFFERING|STANDARD_OFFERING|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|entInsightBenchBillingEffectiveDate | Billing Effective Date for Enterprise Insights Bench| ||
+|entInsightBenchStatus | Program Status for Enterprise Insights Bench| ACTIVE|ACTIVE|
+|entInsightBenchStatus | Program Status for Enterprise Insights Bench| CANCEL|CANCEL|
+|entInsightBenchofferingType | Offering Type for Enterprise Insights Bench| STANDARD_OFFERING|STANDARD_OFFERING|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Enterprise Insights Demographic
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASENTINSD`
-* Product Description: Enterprise Insights Demographic
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASENTINSD  | Enterprise Insights Demographic  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASENTINSD  | Enterprise Insights Demographic  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | entInsightDemographicOfferingType | Offering Type for Enterprise Insights Demographic| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | entInsightDemographicStatus | Program Status for Enterprise Insights Demographic| ACTIVE|ACTIVE|
-|serviceAttr | entInsightDemographicStatus | Program Status for Enterprise Insights Demographic| CANCEL|CANCEL|
-|serviceAttr | entInsightDemographicbillingEffectiveDate | Billing Effective Date for Enterprise Insights Demographic| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|entInsightDemographicOfferingType | Offering Type for Enterprise Insights Demographic| STANDARD_OFFERING|STANDARD_OFFERING|
+|entInsightDemographicStatus | Program Status for Enterprise Insights Demographic| ACTIVE|ACTIVE|
+|entInsightDemographicStatus | Program Status for Enterprise Insights Demographic| CANCEL|CANCEL|
+|entInsightDemographicbillingEffectiveDate | Billing Effective Date for Enterprise Insights Demographic| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | entInsightDemographicOfferingType | Offering Type for Enterprise Insights Demographic| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | entInsightDemographicStatus | Program Status for Enterprise Insights Demographic| ACTIVE|ACTIVE|
-|serviceAttr | entInsightDemographicStatus | Program Status for Enterprise Insights Demographic| CANCEL|CANCEL|
-|serviceAttr | entInsightDemographicbillingEffectiveDate | Billing Effective Date for Enterprise Insights Demographic| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|entInsightDemographicOfferingType | Offering Type for Enterprise Insights Demographic| STANDARD_OFFERING|STANDARD_OFFERING|
+|entInsightDemographicStatus | Program Status for Enterprise Insights Demographic| ACTIVE|ACTIVE|
+|entInsightDemographicStatus | Program Status for Enterprise Insights Demographic| CANCEL|CANCEL|
+|entInsightDemographicbillingEffectiveDate | Billing Effective Date for Enterprise Insights Demographic| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Enterprise Insights Lobby
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASENTINSL`
-* Product Description: Enterprise Insights Lobby
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASENTINSL  | Enterprise Insights Lobby  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASENTINSL  | Enterprise Insights Lobby  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | entInsightLobbyBillingEffectiveDate | Billing Effective Date for Enterprise Insights Lobby| ||
-|serviceAttr | entInsightLobbyOfferingType | Offering Type for Enterprise Insights Lobby| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | entInsightLobbyStatus | Program Status for Enterprise Insights Lobby| CANCEL|CANCEL|
-|serviceAttr | entInsightLobbyStatus | Program Status for Enterprise Insights Lobby| ACTIVE|ACTIVE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|entInsightLobbyBillingEffectiveDate | Billing Effective Date for Enterprise Insights Lobby| ||
+|entInsightLobbyOfferingType | Offering Type for Enterprise Insights Lobby| STANDARD_OFFERING|STANDARD_OFFERING|
+|entInsightLobbyStatus | Program Status for Enterprise Insights Lobby| CANCEL|CANCEL|
+|entInsightLobbyStatus | Program Status for Enterprise Insights Lobby| ACTIVE|ACTIVE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | entInsightLobbyBillingEffectiveDate | Billing Effective Date for Enterprise Insights Lobby| ||
-|serviceAttr | entInsightLobbyOfferingType | Offering Type for Enterprise Insights Lobby| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | entInsightLobbyStatus | Program Status for Enterprise Insights Lobby| CANCEL|CANCEL|
-|serviceAttr | entInsightLobbyStatus | Program Status for Enterprise Insights Lobby| ACTIVE|ACTIVE|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|entInsightLobbyBillingEffectiveDate | Billing Effective Date for Enterprise Insights Lobby| ||
+|entInsightLobbyOfferingType | Offering Type for Enterprise Insights Lobby| STANDARD_OFFERING|STANDARD_OFFERING|
+|entInsightLobbyStatus | Program Status for Enterprise Insights Lobby| CANCEL|CANCEL|
+|entInsightLobbyStatus | Program Status for Enterprise Insights Lobby| ACTIVE|ACTIVE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Fraud Detect
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASFRDDTCT`
-* Product Description: Fraud Detect
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASFRDDTCT  | Fraud Detect  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASFRDDTCT  | Fraud Detect  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | fraudDetectBillingEffectiveDate | Billing Effective Date for Fraud Detect| ||
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| FRAUD_DETECT_SMB|FRAUD_DETECT_SMB|
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| STANDARD|STANDARD|
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| PREMIUM|PREMIUM|
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| ADVANCED|ADVANCED|
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| NOT_APPLICABLE|NOT_APPLICABLE|
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| ESSENTIALS|ESSENTIALS|
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| FRAUD_DETECT_SMB_TRIAL|FRAUD_DETECT_SMB_TRIAL|
-|serviceAttr | fraudDetectstatus | Program Status for Fraud Detect| CANCEL|CANCEL|
-|serviceAttr | fraudDetectstatus | Program Status for Fraud Detect| ACTIVE|ACTIVE|
-|serviceAttr | gatewayApi | Fraud Detect Entry Point| NONE|NONE|
-|serviceAttr | gatewayApi | Fraud Detect Entry Point| PAYEEZY|PAYEEZY|
-|serviceAttr | gatewayApi | Fraud Detect Entry Point| UCOMM|UCOMM|
-|serviceAttr | gatewayApi | Fraud Detect Entry Point| FIRST_API|FIRST_API|
-|serviceAttr | gatewayApi | Fraud Detect Entry Point| IPG|IPG|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|fraudDetectBillingEffectiveDate | Billing Effective Date for Fraud Detect| ||
+|fraudDetectofferingType | Offering Type for Fraud Detect| FRAUD_DETECT_SMB|FRAUD_DETECT_SMB|
+|fraudDetectofferingType | Offering Type for Fraud Detect| STANDARD|STANDARD|
+|fraudDetectofferingType | Offering Type for Fraud Detect| PREMIUM|PREMIUM|
+|fraudDetectofferingType | Offering Type for Fraud Detect| ADVANCED|ADVANCED|
+|fraudDetectofferingType | Offering Type for Fraud Detect| NOT_APPLICABLE|NOT_APPLICABLE|
+|fraudDetectofferingType | Offering Type for Fraud Detect| ESSENTIALS|ESSENTIALS|
+|fraudDetectofferingType | Offering Type for Fraud Detect| FRAUD_DETECT_SMB_TRIAL|FRAUD_DETECT_SMB_TRIAL|
+|fraudDetectstatus | Program Status for Fraud Detect| CANCEL|CANCEL|
+|fraudDetectstatus | Program Status for Fraud Detect| ACTIVE|ACTIVE|
+|gatewayApi | Fraud Detect Entry Point| NONE|NONE|
+|gatewayApi | Fraud Detect Entry Point| PAYEEZY|PAYEEZY|
+|gatewayApi | Fraud Detect Entry Point| UCOMM|UCOMM|
+|gatewayApi | Fraud Detect Entry Point| FIRST_API|FIRST_API|
+|gatewayApi | Fraud Detect Entry Point| IPG|IPG|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | fraudDetectBillingEffectiveDate | Billing Effective Date for Fraud Detect| ||
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| FRAUD_DETECT_SMB|FRAUD_DETECT_SMB|
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| STANDARD|STANDARD|
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| PREMIUM|PREMIUM|
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| ADVANCED|ADVANCED|
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| NOT_APPLICABLE|NOT_APPLICABLE|
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| ESSENTIALS|ESSENTIALS|
-|serviceAttr | fraudDetectofferingType | Offering Type for Fraud Detect| FRAUD_DETECT_SMB_TRIAL|FRAUD_DETECT_SMB_TRIAL|
-|serviceAttr | fraudDetectstatus | Program Status for Fraud Detect| CANCEL|CANCEL|
-|serviceAttr | fraudDetectstatus | Program Status for Fraud Detect| ACTIVE|ACTIVE|
-|serviceAttr | gatewayApi | Fraud Detect Entry Point| NONE|NONE|
-|serviceAttr | gatewayApi | Fraud Detect Entry Point| PAYEEZY|PAYEEZY|
-|serviceAttr | gatewayApi | Fraud Detect Entry Point| UCOMM|UCOMM|
-|serviceAttr | gatewayApi | Fraud Detect Entry Point| FIRST_API|FIRST_API|
-|serviceAttr | gatewayApi | Fraud Detect Entry Point| IPG|IPG|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|fraudDetectBillingEffectiveDate | Billing Effective Date for Fraud Detect| ||
+|fraudDetectofferingType | Offering Type for Fraud Detect| FRAUD_DETECT_SMB|FRAUD_DETECT_SMB|
+|fraudDetectofferingType | Offering Type for Fraud Detect| STANDARD|STANDARD|
+|fraudDetectofferingType | Offering Type for Fraud Detect| PREMIUM|PREMIUM|
+|fraudDetectofferingType | Offering Type for Fraud Detect| ADVANCED|ADVANCED|
+|fraudDetectofferingType | Offering Type for Fraud Detect| NOT_APPLICABLE|NOT_APPLICABLE|
+|fraudDetectofferingType | Offering Type for Fraud Detect| ESSENTIALS|ESSENTIALS|
+|fraudDetectofferingType | Offering Type for Fraud Detect| FRAUD_DETECT_SMB_TRIAL|FRAUD_DETECT_SMB_TRIAL|
+|fraudDetectstatus | Program Status for Fraud Detect| CANCEL|CANCEL|
+|fraudDetectstatus | Program Status for Fraud Detect| ACTIVE|ACTIVE|
+|gatewayApi | Fraud Detect Entry Point| NONE|NONE|
+|gatewayApi | Fraud Detect Entry Point| PAYEEZY|PAYEEZY|
+|gatewayApi | Fraud Detect Entry Point| UCOMM|UCOMM|
+|gatewayApi | Fraud Detect Entry Point| FIRST_API|FIRST_API|
+|gatewayApi | Fraud Detect Entry Point| IPG|IPG|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Fraud Flex Detect
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASFRDFLX`
-* Product Description: Fraud Flex Detect
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASFRDFLX  | Fraud Flex Detect  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASFRDFLX  | Fraud Flex Detect  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | fraudFlexBillingEffectiveDate | Billing Effective Date for Fraud Flex| ||
-|serviceAttr | fraudFlexOfferingType | Offering Type for Fraud Flex| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | fraudFlexStatus | Program Status for Fraud Flex| ACTIVE|ACTIVE|
-|serviceAttr | fraudFlexStatus | Program Status for Fraud Flex| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|fraudFlexBillingEffectiveDate | Billing Effective Date for Fraud Flex| ||
+|fraudFlexOfferingType | Offering Type for Fraud Flex| STANDARD_OFFERING|STANDARD_OFFERING|
+|fraudFlexStatus | Program Status for Fraud Flex| ACTIVE|ACTIVE|
+|fraudFlexStatus | Program Status for Fraud Flex| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | fraudFlexBillingEffectiveDate | Billing Effective Date for Fraud Flex| ||
-|serviceAttr | fraudFlexOfferingType | Offering Type for Fraud Flex| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | fraudFlexStatus | Program Status for Fraud Flex| ACTIVE|ACTIVE|
-|serviceAttr | fraudFlexStatus | Program Status for Fraud Flex| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|fraudFlexBillingEffectiveDate | Billing Effective Date for Fraud Flex| ||
+|fraudFlexOfferingType | Offering Type for Fraud Flex| STANDARD_OFFERING|STANDARD_OFFERING|
+|fraudFlexStatus | Program Status for Fraud Flex| ACTIVE|ACTIVE|
+|fraudFlexStatus | Program Status for Fraud Flex| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## GBS POS Installments
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASGBSPOSINS`
-* Product Description: GBS POS Installments
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASGBSPOSINS  | GBS POS Installments  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASGBSPOSINS  | GBS POS Installments  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | channel | Channel for GBS POS Installments| AGENT_ISV|AGENT_ISV|
-|serviceAttr | channel | Channel for GBS POS Installments| CMM|CMM|
-|serviceAttr | channel | Channel for GBS POS Installments| CBS|CBS|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| MIVA|MIVA|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| ORACLE_NET_SUITE|ORACLE_NET_SUITE|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| OTHER|OTHER|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| KIBO|KIBO|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| MAGENTO2|MAGENTO2|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| NOT_APPLICABLE|NOT_APPLICABLE|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| BIGCOMMERCE|BIGCOMMERCE|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| SALESFORCE_COMMERCE|SALESFORCE_COMMERCE|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| 3DCART|3DCART|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| SHOPIFY|SHOPIFY|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| WOOCOMMERCE|WOOCOMMERCE|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| APPROVED|APPROVED|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| NEW_APPLICATION|NEW_APPLICATION|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| CANCEL|CANCEL|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| IN_PROGRESS|IN_PROGRESS|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| DECLINED|DECLINED|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| LIVE|LIVE|
-|serviceAttr | gbsPosInsofferingType | Offering Type for GBS POS Installment| ||
-|serviceAttr | partner | Partner for GBS POS Installments| BREAD|BREAD|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|channel | Channel for GBS POS Installments| AGENT_ISV|AGENT_ISV|
+|channel | Channel for GBS POS Installments| CMM|CMM|
+|channel | Channel for GBS POS Installments| CBS|CBS|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| MIVA|MIVA|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| ORACLE_NET_SUITE|ORACLE_NET_SUITE|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| OTHER|OTHER|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| KIBO|KIBO|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| MAGENTO2|MAGENTO2|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| NOT_APPLICABLE|NOT_APPLICABLE|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| BIGCOMMERCE|BIGCOMMERCE|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| SALESFORCE_COMMERCE|SALESFORCE_COMMERCE|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| 3DCART|3DCART|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| SHOPIFY|SHOPIFY|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| WOOCOMMERCE|WOOCOMMERCE|
+|gbsPosInsStatus | Program Status for GBS POS Installment| APPROVED|APPROVED|
+|gbsPosInsStatus | Program Status for GBS POS Installment| NEW_APPLICATION|NEW_APPLICATION|
+|gbsPosInsStatus | Program Status for GBS POS Installment| STANDARD_OFFERING|STANDARD_OFFERING|
+|gbsPosInsStatus | Program Status for GBS POS Installment| CANCEL|CANCEL|
+|gbsPosInsStatus | Program Status for GBS POS Installment| IN_PROGRESS|IN_PROGRESS|
+|gbsPosInsStatus | Program Status for GBS POS Installment| DECLINED|DECLINED|
+|gbsPosInsStatus | Program Status for GBS POS Installment| LIVE|LIVE|
+|gbsPosInsofferingType | Offering Type for GBS POS Installment| ||
+|partner | Partner for GBS POS Installments| BREAD|BREAD|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | channel | Channel for GBS POS Installments| AGENT_ISV|AGENT_ISV|
-|serviceAttr | channel | Channel for GBS POS Installments| CMM|CMM|
-|serviceAttr | channel | Channel for GBS POS Installments| CBS|CBS|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| MIVA|MIVA|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| ORACLE_NET_SUITE|ORACLE_NET_SUITE|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| OTHER|OTHER|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| KIBO|KIBO|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| MAGENTO2|MAGENTO2|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| NOT_APPLICABLE|NOT_APPLICABLE|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| BIGCOMMERCE|BIGCOMMERCE|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| SALESFORCE_COMMERCE|SALESFORCE_COMMERCE|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| 3DCART|3DCART|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| SHOPIFY|SHOPIFY|
-|serviceAttr | ecommercePlatform | Ecommerce Platform for GBS POS Installments| WOOCOMMERCE|WOOCOMMERCE|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| APPROVED|APPROVED|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| NEW_APPLICATION|NEW_APPLICATION|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| CANCEL|CANCEL|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| IN_PROGRESS|IN_PROGRESS|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| DECLINED|DECLINED|
-|serviceAttr | gbsPosInsStatus | Program Status for GBS POS Installment| LIVE|LIVE|
-|serviceAttr | gbsPosInsofferingType | Offering Type for GBS POS Installment| ||
-|serviceAttr | partner | Partner for GBS POS Installments| BREAD|BREAD|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|channel | Channel for GBS POS Installments| AGENT_ISV|AGENT_ISV|
+|channel | Channel for GBS POS Installments| CMM|CMM|
+|channel | Channel for GBS POS Installments| CBS|CBS|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| MIVA|MIVA|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| ORACLE_NET_SUITE|ORACLE_NET_SUITE|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| OTHER|OTHER|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| KIBO|KIBO|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| MAGENTO2|MAGENTO2|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| NOT_APPLICABLE|NOT_APPLICABLE|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| BIGCOMMERCE|BIGCOMMERCE|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| SALESFORCE_COMMERCE|SALESFORCE_COMMERCE|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| 3DCART|3DCART|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| SHOPIFY|SHOPIFY|
+|ecommercePlatform | Ecommerce Platform for GBS POS Installments| WOOCOMMERCE|WOOCOMMERCE|
+|gbsPosInsStatus | Program Status for GBS POS Installment| APPROVED|APPROVED|
+|gbsPosInsStatus | Program Status for GBS POS Installment| NEW_APPLICATION|NEW_APPLICATION|
+|gbsPosInsStatus | Program Status for GBS POS Installment| STANDARD_OFFERING|STANDARD_OFFERING|
+|gbsPosInsStatus | Program Status for GBS POS Installment| CANCEL|CANCEL|
+|gbsPosInsStatus | Program Status for GBS POS Installment| IN_PROGRESS|IN_PROGRESS|
+|gbsPosInsStatus | Program Status for GBS POS Installment| DECLINED|DECLINED|
+|gbsPosInsStatus | Program Status for GBS POS Installment| LIVE|LIVE|
+|gbsPosInsofferingType | Offering Type for GBS POS Installment| ||
+|partner | Partner for GBS POS Installments| BREAD|BREAD|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## LCR Debit Flag Optional
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASLCRDBT`
-* Product Description: LCR Debit Flag Optional
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASLCRDBT  | LCR Debit Flag Optional  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASLCRDBT  | LCR Debit Flag Optional  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | lcrDebitStatus | Program Status for LCR Debit Flags (Optional)| DONT_APPLY_DEBIT_FLAGS|DONT_APPLY_DEBIT_FLAGS|
-|serviceAttr | lcrDebitStatus | Program Status for LCR Debit Flags (Optional)| ALLOW_DEBIT_FLAGS|ALLOW_DEBIT_FLAGS|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|lcrDebitStatus | Program Status for LCR Debit Flags (Optional)| DONT_APPLY_DEBIT_FLAGS|DONT_APPLY_DEBIT_FLAGS|
+|lcrDebitStatus | Program Status for LCR Debit Flags (Optional)| ALLOW_DEBIT_FLAGS|ALLOW_DEBIT_FLAGS|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | lcrDebitStatus | Program Status for LCR Debit Flags (Optional)| DONT_APPLY_DEBIT_FLAGS|DONT_APPLY_DEBIT_FLAGS|
-|serviceAttr | lcrDebitStatus | Program Status for LCR Debit Flags (Optional)| ALLOW_DEBIT_FLAGS|ALLOW_DEBIT_FLAGS|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|lcrDebitStatus | Program Status for LCR Debit Flags (Optional)| DONT_APPLY_DEBIT_FLAGS|DONT_APPLY_DEBIT_FLAGS|
+|lcrDebitStatus | Program Status for LCR Debit Flags (Optional)| ALLOW_DEBIT_FLAGS|ALLOW_DEBIT_FLAGS|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## LCR Fall Back
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASLCRFB`
-* Product Description: LCR Fall Back
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASLCRFB  | LCR Fall Back  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASLCRFB  | LCR Fall Back  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | lcrStatus | Program Status of LCR Fallback| DO_NOT_APPLY_FALLBACK|DO_NOT_APPLY_FALLBACK|
-|serviceAttr | lcrStatus | Program Status of LCR Fallback| APPLY_FALL_BACK|APPLY_FALL_BACK|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|lcrStatus | Program Status of LCR Fallback| DO_NOT_APPLY_FALLBACK|DO_NOT_APPLY_FALLBACK|
+|lcrStatus | Program Status of LCR Fallback| APPLY_FALL_BACK|APPLY_FALL_BACK|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | lcrStatus | Program Status of LCR Fallback| DO_NOT_APPLY_FALLBACK|DO_NOT_APPLY_FALLBACK|
-|serviceAttr | lcrStatus | Program Status of LCR Fallback| APPLY_FALL_BACK|APPLY_FALL_BACK|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|lcrStatus | Program Status of LCR Fallback| DO_NOT_APPLY_FALLBACK|DO_NOT_APPLY_FALLBACK|
+|lcrStatus | Program Status of LCR Fallback| APPLY_FALL_BACK|APPLY_FALL_BACK|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Lease Product
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASLEASE`
-* Product Description: Lease Product
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASLEASE  | Lease Product  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASLEASE  | Lease Product  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### lease
 
-* Attribute Specification:
+---
+
+ tags: [lease]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|lease | billMethodDescription | Description of the type of lease| ||
-|lease | leaseActivationDate | The activation date of the contract. Entering this date activates the contract. InfoLease uses this date along with the Contract Term and the Payments in Arrears Code to determine the termination date of the contract.| ||
-|lease | leaseAdditionalMid | This will be the Mainframe MID for ISOs that have a 15 digit MID that contains a zero added to the infolease record for cash advance| ||
-|lease | leaseAmortizableResidualAmount | The calculation for amortizable residual is as follows.~ ~ Gross Residual~ - Residual Writedown ~ - Discount Residual~ - Present Value Amount~ = Amount of Residual Amortized~ ~ This field usually projects a conservative amount for residual. The Managers Residual field generally projects a more optimistic figure.| ||
-|lease | leaseApproverSignatoryName | The name of the person who signs the contract. This field defaults to the name entered in the Contact Name field.| ||
-|lease | leaseAssetSerialNumber | Lease Asset Serial Number| ||
-|lease | leaseBankSequenceNumber | Lease Bank Sequence Number added to Merchant Bank Account| ||
-|lease | leaseBillingCycle | Billing Cycle of a lease| MONTHLY|MONTHLY|
-|lease | leaseBillingCycle | Billing Cycle of a lease| NO|NO|
-|lease | leaseBillingCycle | Billing Cycle of a lease| YES|YES|
-|lease | leaseBillingCycle | Billing Cycle of a lease| QUARTERLY|QUARTERLY|
-|lease | leaseBillingCycle | Billing Cycle of a lease| SEMI_ANNUAL|SEMI_ANNUAL|
-|lease | leaseBillingCycle | Billing Cycle of a lease| ANNUAL|ANNUAL|
-|lease | leaseBranchCode | This 5-character code indicates the branch associated with the contract. You can use the branch as a sort sequence when requesting reports.| ||
-|lease | leaseBuyoutQuoteCode | This yes/no field indicates whether the lessor has access to the Buyout Quotes Screen for this contract. Refer to the Buyout Quotes Module documentation.| NO|NO|
-|lease | leaseBuyoutQuoteCode | This yes/no field indicates whether the lessor has access to the Buyout Quotes Screen for this contract. Refer to the Buyout Quotes Module documentation.| YES|YES|
-|lease | leaseCollateralCode | This code identifies additional collateral (other than the actual equipment) assigned to a contract.| ||
-|lease | leaseCompanyName | UATB.LEASING.COMPANY| ||
-|lease | leaseContractBalanceAmount | Contract balance remaining after all payments received are applied to the gross contract. This amount is system-calculated.| ||
-|lease | leaseContractStatus | The status of the contract. | NO|NO|
-|lease | leaseContractStatus | The status of the contract. | YES|YES|
-|lease | leaseContractStatusDate | The date the status was assigned to the contract.| ||
-|lease | leaseContractStatusDesc | Contract Status Description| ||
-|lease | leaseCustomerAccountReceivableName | The accounts receivable name. This name prints on the customers invoice.| ||
-|lease | leaseCustomerArAddressCityName | The city for the accounts receivable address.| ||
-|lease | leaseCustomerArAddressCountryCode | The country code for the accounts receivable address.| ||
-|lease | leaseCustomerArAddressLine1 | The first line of the accounts receivable address. This address prints on the customers invoice.| ||
-|lease | leaseCustomerArAddressLine2 | The second line of the accounts receivable address. This address prints on the customers invoice.| ||
-|lease | leaseCustomerArAddressLine3 | The third line of the accounts receivable address. This address prints on the customers invoice.| ||
-|lease | leaseCustomerArAddressPostalCode | The zip code of the city for the accounts receivable address.| ||
-|lease | leaseCustomerArAddressStateName | The state for accounts receivable address.| ||
-|lease | leaseCustomerDoingBusinessName | The Customerdoing business name| ||
-|lease | leaseCustomerFedSsnId | The appropriate identification number. The ability to modify this field depends on your security settings.| ||
-|lease | leaseCustomerName | The customer name. Use the customer name to create alphabetical listings and locate a name when using Soundex.| ||
-|lease | leaseCustomerShortName | The Short Name is another name to use when referring to the customer. The Short Name cannot be the same as the Customer Name. This field defaults to the Short Name previously entered for the customer.| ||
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_01_30_DAYS|PAST_DUE_01_30_DAYS|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | NOT_DELINQUENT|NOT_DELINQUENT|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_121_150_DAYS|PAST_DUE_121_150_DAYS|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_91_120_DAYS|PAST_DUE_91_120_DAYS|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_61_90_DAYS|PAST_DUE_61_90_DAYS|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_31_60_DAYS|PAST_DUE_31_60_DAYS|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_151_180_DAYS|PAST_DUE_151_180_DAYS|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_181_DAYS_AND_MORE|PAST_DUE_181_DAYS_AND_MORE|
-|lease | leaseDispositionDate | The last date any disposition or inventory occurred on the contract. InfoLease updates this field at the time of a disposition.| ||
-|lease | leaseEarlyBuyoutAmount | You can enter buyout amounts for the contract in this field. You must first fill in the Date field. The information in this field does not default to the Buyout Quotes module.| ||
-|lease | leaseEarlyBuyoutDate | You can enter the buyout date for the contract in this field. Entering information here does not default to the Buyout Quotes module.| ||
-|lease | leaseFdmsDecisionDate | UATB.DATE.FDMS.DECISION| ||
-|lease | leaseFdmsDecisionInd | UATB.FDMS.DECISION| ||
-|lease | leaseFloatingRateIndicator | This yes/no field indicates whether this is a floating rate contract.| NO|NO|
-|lease | leaseFloatingRateIndicator | This yes/no field indicates whether this is a floating rate contract.| YES|YES|
-|lease | leaseFollowUpDays | The number of days after the payment due date that you need to contact the customer. InfoLease uses the number of follow-up days to generate follow-up lists for payment collections. This field is used with the Customer Service Module.| ||
-|lease | leaseGeneralLedgerBookingDate | Lease General Booking Date| ||
-|lease | leaseGrossAssetAmount | The total equipment cost for all assets (not including disposed assets) on the contract.| ||
-|lease | leaseInterimRentAmount | The amount of interest payments received prior to the commencement of the contract.| ||
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| NO_MORE_INVOICING|NO_MORE_INVOICING|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| INVOICE_BY_CONTRACT|INVOICE_BY_CONTRACT|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| MANUAL_INVOICING|MANUAL_INVOICING|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| RENTALS_SEPARATED|RENTALS_SEPARATED|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| SEPARATED_BY_NOTE_DATE|SEPARATED_BY_NOTE_DATE|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| INVOICE_SUPRESSED|INVOICE_SUPRESSED|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| INVOICE_BY_CUSTOMER|INVOICE_BY_CUSTOMER|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| CONTRACT_SEPARATED_INDIVIDUAL_INVOICES|CONTRACT_SEPARATED_INDIVIDUAL_INVOICES|
-|lease | leaseLastPaymentDate | The date you received the last payment.| ||
-|lease | leaseLegalStatus | Lease Legal Status| RECOURSE_PIF|RECOURSE_PIF|
-|lease | leaseLegalStatus | Lease Legal Status| ATTORNEY_NEGOTIATION|ATTORNEY_NEGOTIATION|
-|lease | leaseLegalStatus | Lease Legal Status| SIF_MERCH_KEEP_EQUIP|SIF_MERCH_KEEP_EQUIP|
-|lease | leaseLegalStatus | Lease Legal Status| PIF_MERCH_RETURN_EQUIP|PIF_MERCH_RETURN_EQUIP|
-|lease | leaseLegalStatus | Lease Legal Status| SIF_MERCH_RETURN_EQUIP|SIF_MERCH_RETURN_EQUIP|
-|lease | leaseLegalStatus | Lease Legal Status| END_OF_LEASE_W_RTN_EQUIP|END_OF_LEASE_W_RTN_EQUIP|
-|lease | leaseLegalStatus | Lease Legal Status| CANCELLED|CANCELLED|
-|lease | leaseLegalStatus | Lease Legal Status| PIF_MERCH_KEEP_EQUIP|PIF_MERCH_KEEP_EQUIP|
-|lease | leaseLegalStatus | Lease Legal Status| UPGRADE_BUYOUT|UPGRADE_BUYOUT|
-|lease | leaseLegalStatus | Lease Legal Status| EQUIP_RETURNED_TO_TASQ|EQUIP_RETURNED_TO_TASQ|
-|lease | leaseLegalStatus | Lease Legal Status| BUYBACK|BUYBACK|
-|lease | leaseLegalStatus | Lease Legal Status| WRITEOFF|WRITEOFF|
-|lease | leaseLegalStatus | Lease Legal Status| WRITEOFF_DEAD|WRITEOFF_DEAD|
-|lease | leaseLegalStatus | Lease Legal Status| WRITEOFF_REVERSAL|WRITEOFF_REVERSAL|
-|lease | leaseManagerResidualAmount | An alternate residual amount that you can select when calculating a buyout quote. Managers residual does not accrue income.This field usually projects an optimistic figure for residual. The Amortizable Residual field usually projects a more conservative figure.| ||
-|lease | leaseMerchantId | Lease Merchant ID| ||
-|lease | leaseNetInvestmentAmount | The net investment of the contract. The net investment is the loss the lessor would incur if the lessee stopped payment today.| ||
-|lease | leaseNextAgingDate | The next date InfoLease will age the contract. You cannot modify this field. | ||
-|lease | leaseNextChargeDate | The next date InfoLease will assess the appropriate late charges during the aging process. You cannot modify this field. InfoLease updates this field whenever you run aging.| ||
-|lease | leaseNumberOfAsset | The number of active assets associated with the contract.| ||
-|lease | leasePaymentInvoicedCount | The number of payments billed to the customer.| ||
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| TAPE|TAPE|
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| DISCOUNTED_PAYMENT|DISCOUNTED_PAYMENT|
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| POST_DATED_CHEQUE|POST_DATED_CHEQUE|
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| UNDISCOUNTED_PAYMENT|UNDISCOUNTED_PAYMENT|
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| ASSUMED_PAY|ASSUMED_PAY|
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| NORMAL_PAY|NORMAL_PAY|
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| COUPON|COUPON|
-|lease | leasePlatformCode | PLATFORM| ||
-|lease | leasePreviousContractNumber | Lease Previous Contract Number| ||
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| SAMS_NY_TELESALES|SAMS_NY_TELESALES|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| RSA_SEVEN_DAY_NO_PPWK|RSA_SEVEN_DAY_NO_PPWK|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| ATLANTA_TELESALES|ATLANTA_TELESALES|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| LARGE_LEASE|LARGE_LEASE|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| DBG_RECOURSE|DBG_RECOURSE|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| PAPERLESS_LEASE|PAPERLESS_LEASE|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| IMS_PORTFOLIO_PURCHASE|IMS_PORTFOLIO_PURCHASE|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CLOVER|CLOVER|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CROSS_SALES_LARGE_LEASE|CROSS_SALES_LARGE_LEASE|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_REGIONAL_SALES|MCA_REGIONAL_SALES|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_FDIS_AGENT|MCA_FDIS_AGENT|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| RSA_SEVEN_DAY|RSA_SEVEN_DAY|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_FDIS_ISO|MCA_FDIS_ISO|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_TELESALES|MCA_TELESALES|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CROSS_SALES|CROSS_SALES|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CASH_ADVANCE|CASH_ADVANCE|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| RSA_RECOURSE_PROJECT|RSA_RECOURSE_PROJECT|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| VAPP|VAPP|
-|lease | leaseProvisionForLossAmount | The amount set aside to record in the first month for bad debt expense. Enter an amount or default to the system-calculated amount. Gross Contract x Provision for Loss Percentage (lessor file) = Provision for Loss Enter the provision for loss percentage in the Prov for Loss field accessed via the Lessor Parameter Maintenance Screen and the Lessor Default Fields Screen.| ||
-|lease | leaseRelationCode | Lease Relationship code| ||
-|lease | leaseRenewalStatusCode | Lease Renewal status code| ||
-|lease | leaseSaleLeasebackInd | Enter yes if the contract is a sale/leaseback. A sale/leaseback agreement involves two separate transactions: the sale of the asset to the prospective lessor and the subsequent lease of the asset to the original owner. This field is informational only.| YES|YES|
-|lease | leaseSaleLeasebackInd | Enter yes if the contract is a sale/leaseback. A sale/leaseback agreement involves two separate transactions: the sale of the asset to the prospective lessor and the subsequent lease of the asset to the original owner. This field is informational only.| NO|NO|
-|lease | leaseSecurityDepositAmount | This window displays the Security Deposit and the Down Payment fields.The Security Deposit field represents the amount received from the lessee. The Down Payment field represents the amount received from the lessee. | ||
-|lease | leaseTaxExemptIndicator | This field indicates whether the contract has interest income that is exempt from federal income tax. The default is (N)o.| YES|YES|
-|lease | leaseTaxExemptIndicator | This field indicates whether the contract has interest income that is exempt from federal income tax. The default is (N)o.| NO|NO|
-|lease | leaseTotalRentalPaymentNumber | Total number of rental payments made to date.| ||
-|lease | leaseVariablePaymentAmount | Variable Payment Amount of the lease| ||
-|lease | leaseVariablePaymentIndicator | This yes/no field indicates whether this contract has a variable payment schedule. | NO|NO|
-|lease | leaseVariablePaymentIndicator | This yes/no field indicates whether this contract has a variable payment schedule. | YES|YES|
-|lease | leaseWriteOffAmount | The income used to offset the initial expense associated with a new lease. The amount is calculated by multiplying the setup income percentage on the Lessor Parameter File by the gross finance income.| ||
-|lease | protectionPlan | Type of protection plan/program on devices on lease| ||
-|lease | rentalAmountWithInsurance | Rental Amount including Device Protection Plan(Insurance)| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|billMethodDescription | Description of the type of lease| ||
+|leaseActivationDate | The activation date of the contract. Entering this date activates the contract. InfoLease uses this date along with the Contract Term and the Payments in Arrears Code to determine the termination date of the contract.| ||
+|leaseAdditionalMid | This will be the Mainframe MID for ISOs that have a 15 digit MID that contains a zero added to the infolease record for cash advance| ||
+|leaseAmortizableResidualAmount | The calculation for amortizable residual is as follows.~ ~ Gross Residual~ - Residual Writedown ~ - Discount Residual~ - Present Value Amount~ = Amount of Residual Amortized~ ~ This field usually projects a conservative amount for residual. The Managers Residual field generally projects a more optimistic figure.| ||
+|leaseApproverSignatoryName | The name of the person who signs the contract. This field defaults to the name entered in the Contact Name field.| ||
+|leaseAssetSerialNumber | Lease Asset Serial Number| ||
+|leaseBankSequenceNumber | Lease Bank Sequence Number added to Merchant Bank Account| ||
+|leaseBillingCycle | Billing Cycle of a lease| MONTHLY|MONTHLY|
+|leaseBillingCycle | Billing Cycle of a lease| NO|NO|
+|leaseBillingCycle | Billing Cycle of a lease| YES|YES|
+|leaseBillingCycle | Billing Cycle of a lease| QUARTERLY|QUARTERLY|
+|leaseBillingCycle | Billing Cycle of a lease| SEMI_ANNUAL|SEMI_ANNUAL|
+|leaseBillingCycle | Billing Cycle of a lease| ANNUAL|ANNUAL|
+|leaseBranchCode | This 5-character code indicates the branch associated with the contract. You can use the branch as a sort sequence when requesting reports.| ||
+|leaseBuyoutQuoteCode | This yes/no field indicates whether the lessor has access to the Buyout Quotes Screen for this contract. Refer to the Buyout Quotes Module documentation.| NO|NO|
+|leaseBuyoutQuoteCode | This yes/no field indicates whether the lessor has access to the Buyout Quotes Screen for this contract. Refer to the Buyout Quotes Module documentation.| YES|YES|
+|leaseCollateralCode | This code identifies additional collateral (other than the actual equipment) assigned to a contract.| ||
+|leaseCompanyName | UATB.LEASING.COMPANY| ||
+|leaseContractBalanceAmount | Contract balance remaining after all payments received are applied to the gross contract. This amount is system-calculated.| ||
+|leaseContractStatus | The status of the contract. | NO|NO|
+|leaseContractStatus | The status of the contract. | YES|YES|
+|leaseContractStatusDate | The date the status was assigned to the contract.| ||
+|leaseContractStatusDesc | Contract Status Description| ||
+|leaseCustomerAccountReceivableName | The accounts receivable name. This name prints on the customers invoice.| ||
+|leaseCustomerArAddressCityName | The city for the accounts receivable address.| ||
+|leaseCustomerArAddressCountryCode | The country code for the accounts receivable address.| ||
+|leaseCustomerArAddressLine1 | The first line of the accounts receivable address. This address prints on the customers invoice.| ||
+|leaseCustomerArAddressLine2 | The second line of the accounts receivable address. This address prints on the customers invoice.| ||
+|leaseCustomerArAddressLine3 | The third line of the accounts receivable address. This address prints on the customers invoice.| ||
+|leaseCustomerArAddressPostalCode | The zip code of the city for the accounts receivable address.| ||
+|leaseCustomerArAddressStateName | The state for accounts receivable address.| ||
+|leaseCustomerDoingBusinessName | The Customerdoing business name| ||
+|leaseCustomerFedSsnId | The appropriate identification number. The ability to modify this field depends on your security settings.| ||
+|leaseCustomerName | The customer name. Use the customer name to create alphabetical listings and locate a name when using Soundex.| ||
+|leaseCustomerShortName | The Short Name is another name to use when referring to the customer. The Short Name cannot be the same as the Customer Name. This field defaults to the Short Name previously entered for the customer.| ||
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_01_30_DAYS|PAST_DUE_01_30_DAYS|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | NOT_DELINQUENT|NOT_DELINQUENT|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_121_150_DAYS|PAST_DUE_121_150_DAYS|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_91_120_DAYS|PAST_DUE_91_120_DAYS|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_61_90_DAYS|PAST_DUE_61_90_DAYS|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_31_60_DAYS|PAST_DUE_31_60_DAYS|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_151_180_DAYS|PAST_DUE_151_180_DAYS|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_181_DAYS_AND_MORE|PAST_DUE_181_DAYS_AND_MORE|
+|leaseDispositionDate | The last date any disposition or inventory occurred on the contract. InfoLease updates this field at the time of a disposition.| ||
+|leaseEarlyBuyoutAmount | You can enter buyout amounts for the contract in this field. You must first fill in the Date field. The information in this field does not default to the Buyout Quotes module.| ||
+|leaseEarlyBuyoutDate | You can enter the buyout date for the contract in this field. Entering information here does not default to the Buyout Quotes module.| ||
+|leaseFdmsDecisionDate | UATB.DATE.FDMS.DECISION| ||
+|leaseFdmsDecisionInd | UATB.FDMS.DECISION| ||
+|leaseFloatingRateIndicator | This yes/no field indicates whether this is a floating rate contract.| NO|NO|
+|leaseFloatingRateIndicator | This yes/no field indicates whether this is a floating rate contract.| YES|YES|
+|leaseFollowUpDays | The number of days after the payment due date that you need to contact the customer. InfoLease uses the number of follow-up days to generate follow-up lists for payment collections. This field is used with the Customer Service Module.| ||
+|leaseGeneralLedgerBookingDate | Lease General Booking Date| ||
+|leaseGrossAssetAmount | The total equipment cost for all assets (not including disposed assets) on the contract.| ||
+|leaseInterimRentAmount | The amount of interest payments received prior to the commencement of the contract.| ||
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| NO_MORE_INVOICING|NO_MORE_INVOICING|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| INVOICE_BY_CONTRACT|INVOICE_BY_CONTRACT|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| MANUAL_INVOICING|MANUAL_INVOICING|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| RENTALS_SEPARATED|RENTALS_SEPARATED|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| SEPARATED_BY_NOTE_DATE|SEPARATED_BY_NOTE_DATE|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| INVOICE_SUPRESSED|INVOICE_SUPRESSED|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| INVOICE_BY_CUSTOMER|INVOICE_BY_CUSTOMER|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| CONTRACT_SEPARATED_INDIVIDUAL_INVOICES|CONTRACT_SEPARATED_INDIVIDUAL_INVOICES|
+|leaseLastPaymentDate | The date you received the last payment.| ||
+|leaseLegalStatus | Lease Legal Status| RECOURSE_PIF|RECOURSE_PIF|
+|leaseLegalStatus | Lease Legal Status| ATTORNEY_NEGOTIATION|ATTORNEY_NEGOTIATION|
+|leaseLegalStatus | Lease Legal Status| SIF_MERCH_KEEP_EQUIP|SIF_MERCH_KEEP_EQUIP|
+|leaseLegalStatus | Lease Legal Status| PIF_MERCH_RETURN_EQUIP|PIF_MERCH_RETURN_EQUIP|
+|leaseLegalStatus | Lease Legal Status| SIF_MERCH_RETURN_EQUIP|SIF_MERCH_RETURN_EQUIP|
+|leaseLegalStatus | Lease Legal Status| END_OF_LEASE_W_RTN_EQUIP|END_OF_LEASE_W_RTN_EQUIP|
+|leaseLegalStatus | Lease Legal Status| CANCELLED|CANCELLED|
+|leaseLegalStatus | Lease Legal Status| PIF_MERCH_KEEP_EQUIP|PIF_MERCH_KEEP_EQUIP|
+|leaseLegalStatus | Lease Legal Status| UPGRADE_BUYOUT|UPGRADE_BUYOUT|
+|leaseLegalStatus | Lease Legal Status| EQUIP_RETURNED_TO_TASQ|EQUIP_RETURNED_TO_TASQ|
+|leaseLegalStatus | Lease Legal Status| BUYBACK|BUYBACK|
+|leaseLegalStatus | Lease Legal Status| WRITEOFF|WRITEOFF|
+|leaseLegalStatus | Lease Legal Status| WRITEOFF_DEAD|WRITEOFF_DEAD|
+|leaseLegalStatus | Lease Legal Status| WRITEOFF_REVERSAL|WRITEOFF_REVERSAL|
+|leaseManagerResidualAmount | An alternate residual amount that you can select when calculating a buyout quote. Managers residual does not accrue income.This field usually projects an optimistic figure for residual. The Amortizable Residual field usually projects a more conservative figure.| ||
+|leaseMerchantId | Lease Merchant ID| ||
+|leaseNetInvestmentAmount | The net investment of the contract. The net investment is the loss the lessor would incur if the lessee stopped payment today.| ||
+|leaseNextAgingDate | The next date InfoLease will age the contract. You cannot modify this field. | ||
+|leaseNextChargeDate | The next date InfoLease will assess the appropriate late charges during the aging process. You cannot modify this field. InfoLease updates this field whenever you run aging.| ||
+|leaseNumberOfAsset | The number of active assets associated with the contract.| ||
+|leasePaymentInvoicedCount | The number of payments billed to the customer.| ||
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| TAPE|TAPE|
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| DISCOUNTED_PAYMENT|DISCOUNTED_PAYMENT|
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| POST_DATED_CHEQUE|POST_DATED_CHEQUE|
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| UNDISCOUNTED_PAYMENT|UNDISCOUNTED_PAYMENT|
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| ASSUMED_PAY|ASSUMED_PAY|
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| NORMAL_PAY|NORMAL_PAY|
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| COUPON|COUPON|
+|leasePlatformCode | PLATFORM| ||
+|leasePreviousContractNumber | Lease Previous Contract Number| ||
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| SAMS_NY_TELESALES|SAMS_NY_TELESALES|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| RSA_SEVEN_DAY_NO_PPWK|RSA_SEVEN_DAY_NO_PPWK|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| ATLANTA_TELESALES|ATLANTA_TELESALES|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| LARGE_LEASE|LARGE_LEASE|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| DBG_RECOURSE|DBG_RECOURSE|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| PAPERLESS_LEASE|PAPERLESS_LEASE|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| IMS_PORTFOLIO_PURCHASE|IMS_PORTFOLIO_PURCHASE|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CLOVER|CLOVER|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CROSS_SALES_LARGE_LEASE|CROSS_SALES_LARGE_LEASE|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_REGIONAL_SALES|MCA_REGIONAL_SALES|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_FDIS_AGENT|MCA_FDIS_AGENT|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| RSA_SEVEN_DAY|RSA_SEVEN_DAY|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_FDIS_ISO|MCA_FDIS_ISO|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_TELESALES|MCA_TELESALES|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CROSS_SALES|CROSS_SALES|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CASH_ADVANCE|CASH_ADVANCE|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| RSA_RECOURSE_PROJECT|RSA_RECOURSE_PROJECT|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| VAPP|VAPP|
+|leaseProvisionForLossAmount | The amount set aside to record in the first month for bad debt expense. Enter an amount or default to the system-calculated amount. Gross Contract x Provision for Loss Percentage (lessor file) = Provision for Loss Enter the provision for loss percentage in the Prov for Loss field accessed via the Lessor Parameter Maintenance Screen and the Lessor Default Fields Screen.| ||
+|leaseRelationCode | Lease Relationship code| ||
+|leaseRenewalStatusCode | Lease Renewal status code| ||
+|leaseSaleLeasebackInd | Enter yes if the contract is a sale/leaseback. A sale/leaseback agreement involves two separate transactions: the sale of the asset to the prospective lessor and the subsequent lease of the asset to the original owner. This field is informational only.| YES|YES|
+|leaseSaleLeasebackInd | Enter yes if the contract is a sale/leaseback. A sale/leaseback agreement involves two separate transactions: the sale of the asset to the prospective lessor and the subsequent lease of the asset to the original owner. This field is informational only.| NO|NO|
+|leaseSecurityDepositAmount | This window displays the Security Deposit and the Down Payment fields.The Security Deposit field represents the amount received from the lessee. The Down Payment field represents the amount received from the lessee. | ||
+|leaseTaxExemptIndicator | This field indicates whether the contract has interest income that is exempt from federal income tax. The default is (N)o.| YES|YES|
+|leaseTaxExemptIndicator | This field indicates whether the contract has interest income that is exempt from federal income tax. The default is (N)o.| NO|NO|
+|leaseTotalRentalPaymentNumber | Total number of rental payments made to date.| ||
+|leaseVariablePaymentAmount | Variable Payment Amount of the lease| ||
+|leaseVariablePaymentIndicator | This yes/no field indicates whether this contract has a variable payment schedule. | NO|NO|
+|leaseVariablePaymentIndicator | This yes/no field indicates whether this contract has a variable payment schedule. | YES|YES|
+|leaseWriteOffAmount | The income used to offset the initial expense associated with a new lease. The amount is calculated by multiplying the setup income percentage on the Lessor Parameter File by the gross finance income.| ||
+|protectionPlan | Type of protection plan/program on devices on lease| ||
+|rentalAmountWithInsurance | Rental Amount including Device Protection Plan(Insurance)| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|lease | billMethodDescription | Description of the type of lease| ||
-|lease | leaseActivationDate | The activation date of the contract. Entering this date activates the contract. InfoLease uses this date along with the Contract Term and the Payments in Arrears Code to determine the termination date of the contract.| ||
-|lease | leaseAdditionalMid | This will be the Mainframe MID for ISOs that have a 15 digit MID that contains a zero added to the infolease record for cash advance| ||
-|lease | leaseAmortizableResidualAmount | The calculation for amortizable residual is as follows.~ ~ Gross Residual~ - Residual Writedown ~ - Discount Residual~ - Present Value Amount~ = Amount of Residual Amortized~ ~ This field usually projects a conservative amount for residual. The Managers Residual field generally projects a more optimistic figure.| ||
-|lease | leaseApproverSignatoryName | The name of the person who signs the contract. This field defaults to the name entered in the Contact Name field.| ||
-|lease | leaseAssetSerialNumber | Lease Asset Serial Number| ||
-|lease | leaseBankSequenceNumber | Lease Bank Sequence Number added to Merchant Bank Account| ||
-|lease | leaseBillingCycle | Billing Cycle of a lease| MONTHLY|MONTHLY|
-|lease | leaseBillingCycle | Billing Cycle of a lease| NO|NO|
-|lease | leaseBillingCycle | Billing Cycle of a lease| YES|YES|
-|lease | leaseBillingCycle | Billing Cycle of a lease| QUARTERLY|QUARTERLY|
-|lease | leaseBillingCycle | Billing Cycle of a lease| SEMI_ANNUAL|SEMI_ANNUAL|
-|lease | leaseBillingCycle | Billing Cycle of a lease| ANNUAL|ANNUAL|
-|lease | leaseBranchCode | This 5-character code indicates the branch associated with the contract. You can use the branch as a sort sequence when requesting reports.| ||
-|lease | leaseBuyoutQuoteCode | This yes/no field indicates whether the lessor has access to the Buyout Quotes Screen for this contract. Refer to the Buyout Quotes Module documentation.| NO|NO|
-|lease | leaseBuyoutQuoteCode | This yes/no field indicates whether the lessor has access to the Buyout Quotes Screen for this contract. Refer to the Buyout Quotes Module documentation.| YES|YES|
-|lease | leaseCollateralCode | This code identifies additional collateral (other than the actual equipment) assigned to a contract.| ||
-|lease | leaseCompanyName | UATB.LEASING.COMPANY| ||
-|lease | leaseContractBalanceAmount | Contract balance remaining after all payments received are applied to the gross contract. This amount is system-calculated.| ||
-|lease | leaseContractStatus | The status of the contract. | NO|NO|
-|lease | leaseContractStatus | The status of the contract. | YES|YES|
-|lease | leaseContractStatusDate | The date the status was assigned to the contract.| ||
-|lease | leaseContractStatusDesc | Contract Status Description| ||
-|lease | leaseCustomerAccountReceivableName | The accounts receivable name. This name prints on the customers invoice.| ||
-|lease | leaseCustomerArAddressCityName | The city for the accounts receivable address.| ||
-|lease | leaseCustomerArAddressCountryCode | The country code for the accounts receivable address.| ||
-|lease | leaseCustomerArAddressLine1 | The first line of the accounts receivable address. This address prints on the customers invoice.| ||
-|lease | leaseCustomerArAddressLine2 | The second line of the accounts receivable address. This address prints on the customers invoice.| ||
-|lease | leaseCustomerArAddressLine3 | The third line of the accounts receivable address. This address prints on the customers invoice.| ||
-|lease | leaseCustomerArAddressPostalCode | The zip code of the city for the accounts receivable address.| ||
-|lease | leaseCustomerArAddressStateName | The state for accounts receivable address.| ||
-|lease | leaseCustomerDoingBusinessName | The Customerdoing business name| ||
-|lease | leaseCustomerFedSsnId | The appropriate identification number. The ability to modify this field depends on your security settings.| ||
-|lease | leaseCustomerName | The customer name. Use the customer name to create alphabetical listings and locate a name when using Soundex.| ||
-|lease | leaseCustomerShortName | The Short Name is another name to use when referring to the customer. The Short Name cannot be the same as the Customer Name. This field defaults to the Short Name previously entered for the customer.| ||
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_01_30_DAYS|PAST_DUE_01_30_DAYS|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | NOT_DELINQUENT|NOT_DELINQUENT|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_121_150_DAYS|PAST_DUE_121_150_DAYS|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_91_120_DAYS|PAST_DUE_91_120_DAYS|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_61_90_DAYS|PAST_DUE_61_90_DAYS|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_31_60_DAYS|PAST_DUE_31_60_DAYS|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_151_180_DAYS|PAST_DUE_151_180_DAYS|
-|lease | leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_181_DAYS_AND_MORE|PAST_DUE_181_DAYS_AND_MORE|
-|lease | leaseDispositionDate | The last date any disposition or inventory occurred on the contract. InfoLease updates this field at the time of a disposition.| ||
-|lease | leaseEarlyBuyoutAmount | You can enter buyout amounts for the contract in this field. You must first fill in the Date field. The information in this field does not default to the Buyout Quotes module.| ||
-|lease | leaseEarlyBuyoutDate | You can enter the buyout date for the contract in this field. Entering information here does not default to the Buyout Quotes module.| ||
-|lease | leaseFdmsDecisionDate | UATB.DATE.FDMS.DECISION| ||
-|lease | leaseFdmsDecisionInd | UATB.FDMS.DECISION| ||
-|lease | leaseFloatingRateIndicator | This yes/no field indicates whether this is a floating rate contract.| NO|NO|
-|lease | leaseFloatingRateIndicator | This yes/no field indicates whether this is a floating rate contract.| YES|YES|
-|lease | leaseFollowUpDays | The number of days after the payment due date that you need to contact the customer. InfoLease uses the number of follow-up days to generate follow-up lists for payment collections. This field is used with the Customer Service Module.| ||
-|lease | leaseGeneralLedgerBookingDate | Lease General Booking Date| ||
-|lease | leaseGrossAssetAmount | The total equipment cost for all assets (not including disposed assets) on the contract.| ||
-|lease | leaseInterimRentAmount | The amount of interest payments received prior to the commencement of the contract.| ||
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| NO_MORE_INVOICING|NO_MORE_INVOICING|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| INVOICE_BY_CONTRACT|INVOICE_BY_CONTRACT|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| MANUAL_INVOICING|MANUAL_INVOICING|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| RENTALS_SEPARATED|RENTALS_SEPARATED|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| SEPARATED_BY_NOTE_DATE|SEPARATED_BY_NOTE_DATE|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| INVOICE_SUPRESSED|INVOICE_SUPRESSED|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| INVOICE_BY_CUSTOMER|INVOICE_BY_CUSTOMER|
-|lease | leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| CONTRACT_SEPARATED_INDIVIDUAL_INVOICES|CONTRACT_SEPARATED_INDIVIDUAL_INVOICES|
-|lease | leaseLastPaymentDate | The date you received the last payment.| ||
-|lease | leaseLegalStatus | Lease Legal Status| RECOURSE_PIF|RECOURSE_PIF|
-|lease | leaseLegalStatus | Lease Legal Status| ATTORNEY_NEGOTIATION|ATTORNEY_NEGOTIATION|
-|lease | leaseLegalStatus | Lease Legal Status| SIF_MERCH_KEEP_EQUIP|SIF_MERCH_KEEP_EQUIP|
-|lease | leaseLegalStatus | Lease Legal Status| PIF_MERCH_RETURN_EQUIP|PIF_MERCH_RETURN_EQUIP|
-|lease | leaseLegalStatus | Lease Legal Status| SIF_MERCH_RETURN_EQUIP|SIF_MERCH_RETURN_EQUIP|
-|lease | leaseLegalStatus | Lease Legal Status| END_OF_LEASE_W_RTN_EQUIP|END_OF_LEASE_W_RTN_EQUIP|
-|lease | leaseLegalStatus | Lease Legal Status| CANCELLED|CANCELLED|
-|lease | leaseLegalStatus | Lease Legal Status| PIF_MERCH_KEEP_EQUIP|PIF_MERCH_KEEP_EQUIP|
-|lease | leaseLegalStatus | Lease Legal Status| UPGRADE_BUYOUT|UPGRADE_BUYOUT|
-|lease | leaseLegalStatus | Lease Legal Status| EQUIP_RETURNED_TO_TASQ|EQUIP_RETURNED_TO_TASQ|
-|lease | leaseLegalStatus | Lease Legal Status| BUYBACK|BUYBACK|
-|lease | leaseLegalStatus | Lease Legal Status| WRITEOFF|WRITEOFF|
-|lease | leaseLegalStatus | Lease Legal Status| WRITEOFF_DEAD|WRITEOFF_DEAD|
-|lease | leaseLegalStatus | Lease Legal Status| WRITEOFF_REVERSAL|WRITEOFF_REVERSAL|
-|lease | leaseManagerResidualAmount | An alternate residual amount that you can select when calculating a buyout quote. Managers residual does not accrue income.This field usually projects an optimistic figure for residual. The Amortizable Residual field usually projects a more conservative figure.| ||
-|lease | leaseMerchantId | Lease Merchant ID| ||
-|lease | leaseNetInvestmentAmount | The net investment of the contract. The net investment is the loss the lessor would incur if the lessee stopped payment today.| ||
-|lease | leaseNextAgingDate | The next date InfoLease will age the contract. You cannot modify this field. | ||
-|lease | leaseNextChargeDate | The next date InfoLease will assess the appropriate late charges during the aging process. You cannot modify this field. InfoLease updates this field whenever you run aging.| ||
-|lease | leaseNumberOfAsset | The number of active assets associated with the contract.| ||
-|lease | leasePaymentInvoicedCount | The number of payments billed to the customer.| ||
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| TAPE|TAPE|
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| DISCOUNTED_PAYMENT|DISCOUNTED_PAYMENT|
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| POST_DATED_CHEQUE|POST_DATED_CHEQUE|
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| UNDISCOUNTED_PAYMENT|UNDISCOUNTED_PAYMENT|
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| ASSUMED_PAY|ASSUMED_PAY|
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| NORMAL_PAY|NORMAL_PAY|
-|lease | leasePaymentOptionCode | This field depicts different options of Lease Payment.| COUPON|COUPON|
-|lease | leasePlatformCode | PLATFORM| ||
-|lease | leasePreviousContractNumber | Lease Previous Contract Number| ||
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| SAMS_NY_TELESALES|SAMS_NY_TELESALES|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| RSA_SEVEN_DAY_NO_PPWK|RSA_SEVEN_DAY_NO_PPWK|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| ATLANTA_TELESALES|ATLANTA_TELESALES|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| LARGE_LEASE|LARGE_LEASE|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| DBG_RECOURSE|DBG_RECOURSE|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| PAPERLESS_LEASE|PAPERLESS_LEASE|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| IMS_PORTFOLIO_PURCHASE|IMS_PORTFOLIO_PURCHASE|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CLOVER|CLOVER|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CROSS_SALES_LARGE_LEASE|CROSS_SALES_LARGE_LEASE|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_REGIONAL_SALES|MCA_REGIONAL_SALES|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_FDIS_AGENT|MCA_FDIS_AGENT|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| RSA_SEVEN_DAY|RSA_SEVEN_DAY|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_FDIS_ISO|MCA_FDIS_ISO|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_TELESALES|MCA_TELESALES|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CROSS_SALES|CROSS_SALES|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CASH_ADVANCE|CASH_ADVANCE|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| RSA_RECOURSE_PROJECT|RSA_RECOURSE_PROJECT|
-|lease | leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| VAPP|VAPP|
-|lease | leaseProvisionForLossAmount | The amount set aside to record in the first month for bad debt expense. Enter an amount or default to the system-calculated amount. Gross Contract x Provision for Loss Percentage (lessor file) = Provision for Loss Enter the provision for loss percentage in the Prov for Loss field accessed via the Lessor Parameter Maintenance Screen and the Lessor Default Fields Screen.| ||
-|lease | leaseRelationCode | Lease Relationship code| ||
-|lease | leaseRenewalStatusCode | Lease Renewal status code| ||
-|lease | leaseSaleLeasebackInd | Enter yes if the contract is a sale/leaseback. A sale/leaseback agreement involves two separate transactions: the sale of the asset to the prospective lessor and the subsequent lease of the asset to the original owner. This field is informational only.| YES|YES|
-|lease | leaseSaleLeasebackInd | Enter yes if the contract is a sale/leaseback. A sale/leaseback agreement involves two separate transactions: the sale of the asset to the prospective lessor and the subsequent lease of the asset to the original owner. This field is informational only.| NO|NO|
-|lease | leaseSecurityDepositAmount | This window displays the Security Deposit and the Down Payment fields.The Security Deposit field represents the amount received from the lessee. The Down Payment field represents the amount received from the lessee. | ||
-|lease | leaseTaxExemptIndicator | This field indicates whether the contract has interest income that is exempt from federal income tax. The default is (N)o.| YES|YES|
-|lease | leaseTaxExemptIndicator | This field indicates whether the contract has interest income that is exempt from federal income tax. The default is (N)o.| NO|NO|
-|lease | leaseTotalRentalPaymentNumber | Total number of rental payments made to date.| ||
-|lease | leaseVariablePaymentAmount | Variable Payment Amount of the lease| ||
-|lease | leaseVariablePaymentIndicator | This yes/no field indicates whether this contract has a variable payment schedule. | NO|NO|
-|lease | leaseVariablePaymentIndicator | This yes/no field indicates whether this contract has a variable payment schedule. | YES|YES|
-|lease | leaseWriteOffAmount | The income used to offset the initial expense associated with a new lease. The amount is calculated by multiplying the setup income percentage on the Lessor Parameter File by the gross finance income.| ||
-|lease | protectionPlan | Type of protection plan/program on devices on lease| ||
-|lease | rentalAmountWithInsurance | Rental Amount including Device Protection Plan(Insurance)| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|billMethodDescription | Description of the type of lease| ||
+|leaseActivationDate | The activation date of the contract. Entering this date activates the contract. InfoLease uses this date along with the Contract Term and the Payments in Arrears Code to determine the termination date of the contract.| ||
+|leaseAdditionalMid | This will be the Mainframe MID for ISOs that have a 15 digit MID that contains a zero added to the infolease record for cash advance| ||
+|leaseAmortizableResidualAmount | The calculation for amortizable residual is as follows.~ ~ Gross Residual~ - Residual Writedown ~ - Discount Residual~ - Present Value Amount~ = Amount of Residual Amortized~ ~ This field usually projects a conservative amount for residual. The Managers Residual field generally projects a more optimistic figure.| ||
+|leaseApproverSignatoryName | The name of the person who signs the contract. This field defaults to the name entered in the Contact Name field.| ||
+|leaseAssetSerialNumber | Lease Asset Serial Number| ||
+|leaseBankSequenceNumber | Lease Bank Sequence Number added to Merchant Bank Account| ||
+|leaseBillingCycle | Billing Cycle of a lease| MONTHLY|MONTHLY|
+|leaseBillingCycle | Billing Cycle of a lease| NO|NO|
+|leaseBillingCycle | Billing Cycle of a lease| YES|YES|
+|leaseBillingCycle | Billing Cycle of a lease| QUARTERLY|QUARTERLY|
+|leaseBillingCycle | Billing Cycle of a lease| SEMI_ANNUAL|SEMI_ANNUAL|
+|leaseBillingCycle | Billing Cycle of a lease| ANNUAL|ANNUAL|
+|leaseBranchCode | This 5-character code indicates the branch associated with the contract. You can use the branch as a sort sequence when requesting reports.| ||
+|leaseBuyoutQuoteCode | This yes/no field indicates whether the lessor has access to the Buyout Quotes Screen for this contract. Refer to the Buyout Quotes Module documentation.| NO|NO|
+|leaseBuyoutQuoteCode | This yes/no field indicates whether the lessor has access to the Buyout Quotes Screen for this contract. Refer to the Buyout Quotes Module documentation.| YES|YES|
+|leaseCollateralCode | This code identifies additional collateral (other than the actual equipment) assigned to a contract.| ||
+|leaseCompanyName | UATB.LEASING.COMPANY| ||
+|leaseContractBalanceAmount | Contract balance remaining after all payments received are applied to the gross contract. This amount is system-calculated.| ||
+|leaseContractStatus | The status of the contract. | NO|NO|
+|leaseContractStatus | The status of the contract. | YES|YES|
+|leaseContractStatusDate | The date the status was assigned to the contract.| ||
+|leaseContractStatusDesc | Contract Status Description| ||
+|leaseCustomerAccountReceivableName | The accounts receivable name. This name prints on the customers invoice.| ||
+|leaseCustomerArAddressCityName | The city for the accounts receivable address.| ||
+|leaseCustomerArAddressCountryCode | The country code for the accounts receivable address.| ||
+|leaseCustomerArAddressLine1 | The first line of the accounts receivable address. This address prints on the customers invoice.| ||
+|leaseCustomerArAddressLine2 | The second line of the accounts receivable address. This address prints on the customers invoice.| ||
+|leaseCustomerArAddressLine3 | The third line of the accounts receivable address. This address prints on the customers invoice.| ||
+|leaseCustomerArAddressPostalCode | The zip code of the city for the accounts receivable address.| ||
+|leaseCustomerArAddressStateName | The state for accounts receivable address.| ||
+|leaseCustomerDoingBusinessName | The Customerdoing business name| ||
+|leaseCustomerFedSsnId | The appropriate identification number. The ability to modify this field depends on your security settings.| ||
+|leaseCustomerName | The customer name. Use the customer name to create alphabetical listings and locate a name when using Soundex.| ||
+|leaseCustomerShortName | The Short Name is another name to use when referring to the customer. The Short Name cannot be the same as the Customer Name. This field defaults to the Short Name previously entered for the customer.| ||
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_01_30_DAYS|PAST_DUE_01_30_DAYS|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | NOT_DELINQUENT|NOT_DELINQUENT|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_121_150_DAYS|PAST_DUE_121_150_DAYS|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_91_120_DAYS|PAST_DUE_91_120_DAYS|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_61_90_DAYS|PAST_DUE_61_90_DAYS|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_31_60_DAYS|PAST_DUE_31_60_DAYS|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_151_180_DAYS|PAST_DUE_151_180_DAYS|
+|leaseDelinquentStatusCode | The delinquent status of the contract. This is a system-calculated field. | PAST_DUE_181_DAYS_AND_MORE|PAST_DUE_181_DAYS_AND_MORE|
+|leaseDispositionDate | The last date any disposition or inventory occurred on the contract. InfoLease updates this field at the time of a disposition.| ||
+|leaseEarlyBuyoutAmount | You can enter buyout amounts for the contract in this field. You must first fill in the Date field. The information in this field does not default to the Buyout Quotes module.| ||
+|leaseEarlyBuyoutDate | You can enter the buyout date for the contract in this field. Entering information here does not default to the Buyout Quotes module.| ||
+|leaseFdmsDecisionDate | UATB.DATE.FDMS.DECISION| ||
+|leaseFdmsDecisionInd | UATB.FDMS.DECISION| ||
+|leaseFloatingRateIndicator | This yes/no field indicates whether this is a floating rate contract.| NO|NO|
+|leaseFloatingRateIndicator | This yes/no field indicates whether this is a floating rate contract.| YES|YES|
+|leaseFollowUpDays | The number of days after the payment due date that you need to contact the customer. InfoLease uses the number of follow-up days to generate follow-up lists for payment collections. This field is used with the Customer Service Module.| ||
+|leaseGeneralLedgerBookingDate | Lease General Booking Date| ||
+|leaseGrossAssetAmount | The total equipment cost for all assets (not including disposed assets) on the contract.| ||
+|leaseInterimRentAmount | The amount of interest payments received prior to the commencement of the contract.| ||
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| NO_MORE_INVOICING|NO_MORE_INVOICING|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| INVOICE_BY_CONTRACT|INVOICE_BY_CONTRACT|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| MANUAL_INVOICING|MANUAL_INVOICING|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| RENTALS_SEPARATED|RENTALS_SEPARATED|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| SEPARATED_BY_NOTE_DATE|SEPARATED_BY_NOTE_DATE|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| INVOICE_SUPRESSED|INVOICE_SUPRESSED|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| INVOICE_BY_CUSTOMER|INVOICE_BY_CUSTOMER|
+|leaseInvoiceCode | The method InfoLease uses to create invoices. A value defaults to this field from the Invoice Code field on the Lessor Default Fields Screen. Use this invoice code when selling a stream of contract payments.| CONTRACT_SEPARATED_INDIVIDUAL_INVOICES|CONTRACT_SEPARATED_INDIVIDUAL_INVOICES|
+|leaseLastPaymentDate | The date you received the last payment.| ||
+|leaseLegalStatus | Lease Legal Status| RECOURSE_PIF|RECOURSE_PIF|
+|leaseLegalStatus | Lease Legal Status| ATTORNEY_NEGOTIATION|ATTORNEY_NEGOTIATION|
+|leaseLegalStatus | Lease Legal Status| SIF_MERCH_KEEP_EQUIP|SIF_MERCH_KEEP_EQUIP|
+|leaseLegalStatus | Lease Legal Status| PIF_MERCH_RETURN_EQUIP|PIF_MERCH_RETURN_EQUIP|
+|leaseLegalStatus | Lease Legal Status| SIF_MERCH_RETURN_EQUIP|SIF_MERCH_RETURN_EQUIP|
+|leaseLegalStatus | Lease Legal Status| END_OF_LEASE_W_RTN_EQUIP|END_OF_LEASE_W_RTN_EQUIP|
+|leaseLegalStatus | Lease Legal Status| CANCELLED|CANCELLED|
+|leaseLegalStatus | Lease Legal Status| PIF_MERCH_KEEP_EQUIP|PIF_MERCH_KEEP_EQUIP|
+|leaseLegalStatus | Lease Legal Status| UPGRADE_BUYOUT|UPGRADE_BUYOUT|
+|leaseLegalStatus | Lease Legal Status| EQUIP_RETURNED_TO_TASQ|EQUIP_RETURNED_TO_TASQ|
+|leaseLegalStatus | Lease Legal Status| BUYBACK|BUYBACK|
+|leaseLegalStatus | Lease Legal Status| WRITEOFF|WRITEOFF|
+|leaseLegalStatus | Lease Legal Status| WRITEOFF_DEAD|WRITEOFF_DEAD|
+|leaseLegalStatus | Lease Legal Status| WRITEOFF_REVERSAL|WRITEOFF_REVERSAL|
+|leaseManagerResidualAmount | An alternate residual amount that you can select when calculating a buyout quote. Managers residual does not accrue income.This field usually projects an optimistic figure for residual. The Amortizable Residual field usually projects a more conservative figure.| ||
+|leaseMerchantId | Lease Merchant ID| ||
+|leaseNetInvestmentAmount | The net investment of the contract. The net investment is the loss the lessor would incur if the lessee stopped payment today.| ||
+|leaseNextAgingDate | The next date InfoLease will age the contract. You cannot modify this field. | ||
+|leaseNextChargeDate | The next date InfoLease will assess the appropriate late charges during the aging process. You cannot modify this field. InfoLease updates this field whenever you run aging.| ||
+|leaseNumberOfAsset | The number of active assets associated with the contract.| ||
+|leasePaymentInvoicedCount | The number of payments billed to the customer.| ||
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| TAPE|TAPE|
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| DISCOUNTED_PAYMENT|DISCOUNTED_PAYMENT|
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| POST_DATED_CHEQUE|POST_DATED_CHEQUE|
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| UNDISCOUNTED_PAYMENT|UNDISCOUNTED_PAYMENT|
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| ASSUMED_PAY|ASSUMED_PAY|
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| NORMAL_PAY|NORMAL_PAY|
+|leasePaymentOptionCode | This field depicts different options of Lease Payment.| COUPON|COUPON|
+|leasePlatformCode | PLATFORM| ||
+|leasePreviousContractNumber | Lease Previous Contract Number| ||
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| SAMS_NY_TELESALES|SAMS_NY_TELESALES|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| RSA_SEVEN_DAY_NO_PPWK|RSA_SEVEN_DAY_NO_PPWK|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| ATLANTA_TELESALES|ATLANTA_TELESALES|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| LARGE_LEASE|LARGE_LEASE|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| DBG_RECOURSE|DBG_RECOURSE|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| PAPERLESS_LEASE|PAPERLESS_LEASE|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| IMS_PORTFOLIO_PURCHASE|IMS_PORTFOLIO_PURCHASE|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CLOVER|CLOVER|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CROSS_SALES_LARGE_LEASE|CROSS_SALES_LARGE_LEASE|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_REGIONAL_SALES|MCA_REGIONAL_SALES|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_FDIS_AGENT|MCA_FDIS_AGENT|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| RSA_SEVEN_DAY|RSA_SEVEN_DAY|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_FDIS_ISO|MCA_FDIS_ISO|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| MCA_TELESALES|MCA_TELESALES|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CROSS_SALES|CROSS_SALES|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| CASH_ADVANCE|CASH_ADVANCE|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| RSA_RECOURSE_PROJECT|RSA_RECOURSE_PROJECT|
+|leaseProgramTypeCode | A 2-digit program type distinguishing the different types of credit applications taken by your company. The program type also determines the Document Checklist to assign to the credit application.| VAPP|VAPP|
+|leaseProvisionForLossAmount | The amount set aside to record in the first month for bad debt expense. Enter an amount or default to the system-calculated amount. Gross Contract x Provision for Loss Percentage (lessor file) = Provision for Loss Enter the provision for loss percentage in the Prov for Loss field accessed via the Lessor Parameter Maintenance Screen and the Lessor Default Fields Screen.| ||
+|leaseRelationCode | Lease Relationship code| ||
+|leaseRenewalStatusCode | Lease Renewal status code| ||
+|leaseSaleLeasebackInd | Enter yes if the contract is a sale/leaseback. A sale/leaseback agreement involves two separate transactions: the sale of the asset to the prospective lessor and the subsequent lease of the asset to the original owner. This field is informational only.| YES|YES|
+|leaseSaleLeasebackInd | Enter yes if the contract is a sale/leaseback. A sale/leaseback agreement involves two separate transactions: the sale of the asset to the prospective lessor and the subsequent lease of the asset to the original owner. This field is informational only.| NO|NO|
+|leaseSecurityDepositAmount | This window displays the Security Deposit and the Down Payment fields.The Security Deposit field represents the amount received from the lessee. The Down Payment field represents the amount received from the lessee. | ||
+|leaseTaxExemptIndicator | This field indicates whether the contract has interest income that is exempt from federal income tax. The default is (N)o.| YES|YES|
+|leaseTaxExemptIndicator | This field indicates whether the contract has interest income that is exempt from federal income tax. The default is (N)o.| NO|NO|
+|leaseTotalRentalPaymentNumber | Total number of rental payments made to date.| ||
+|leaseVariablePaymentAmount | Variable Payment Amount of the lease| ||
+|leaseVariablePaymentIndicator | This yes/no field indicates whether this contract has a variable payment schedule. | NO|NO|
+|leaseVariablePaymentIndicator | This yes/no field indicates whether this contract has a variable payment schedule. | YES|YES|
+|leaseWriteOffAmount | The income used to offset the initial expense associated with a new lease. The amount is calculated by multiplying the setup income percentage on the Lessor Parameter File by the gross finance income.| ||
+|protectionPlan | Type of protection plan/program on devices on lease| ||
+|rentalAmountWithInsurance | Rental Amount including Device Protection Plan(Insurance)| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## MASTERCARD MONEYSEND
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASMCMONEYSEND`
-* Product Description: MASTERCARD MONEYSEND
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASMCMONEYSEND  | MASTERCARD MONEYSEND  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASMCMONEYSEND  | MASTERCARD MONEYSEND  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| GOV-NPROF_DISBRMTS|GOV-NPROF_DISBRMTS|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| GAMING_PAYMENTS|GAMING_PAYMENTS|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| P2P_TRANSFER|P2P_TRANSFER|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| MERCH_DISBURSEMENTS|MERCH_DISBURSEMENTS|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| P2P_TRANSFER_TO_CARD|P2P_TRANSFER_TO_CARD|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| GEN_B2B_TRAN_TO_CARD|GEN_B2B_TRAN_TO_CARD|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| BUS_DISBURS_TO_CARD|BUS_DISBURS_TO_CARD|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| CREDIT_CARD_BILL_PMT|CREDIT_CARD_BILL_PMT|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| AGENT_CASH_OUT|AGENT_CASH_OUT|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| PERSON_TO_PERSON|PERSON_TO_PERSON|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| BUS_TO_BUS_TRANSFER|BUS_TO_BUS_TRANSFER|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| PYMNT_OF_OWN_CC_BILL|PYMNT_OF_OWN_CC_BILL|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| CASH_2_CARD|CASH_2_CARD|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| AGENT_CASH_OUT|AGENT_CASH_OUT|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| CASH_2_ATM|CASH_2_ATM|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| STAGED_WALLET_LOAD|STAGED_WALLET_LOAD|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| TR_OWN_DB_OR_PP_CARD|TR_OWN_DB_OR_PP_CARD|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| RAPID_DEPOSIT|RAPID_DEPOSIT|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
-|serviceAttr | mcMoneySendStatus | Program Status for MC Moneysend| ACTIVE|ACTIVE|
-|serviceAttr | mcMoneySendStatus | Program Status for MC Moneysend| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| GOV-NPROF_DISBRMTS|GOV-NPROF_DISBRMTS|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| GAMING_PAYMENTS|GAMING_PAYMENTS|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| P2P_TRANSFER|P2P_TRANSFER|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| MERCH_DISBURSEMENTS|MERCH_DISBURSEMENTS|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| P2P_TRANSFER_TO_CARD|P2P_TRANSFER_TO_CARD|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| GEN_B2B_TRAN_TO_CARD|GEN_B2B_TRAN_TO_CARD|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| BUS_DISBURS_TO_CARD|BUS_DISBURS_TO_CARD|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| CREDIT_CARD_BILL_PMT|CREDIT_CARD_BILL_PMT|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| AGENT_CASH_OUT|AGENT_CASH_OUT|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| PERSON_TO_PERSON|PERSON_TO_PERSON|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| BUS_TO_BUS_TRANSFER|BUS_TO_BUS_TRANSFER|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| PYMNT_OF_OWN_CC_BILL|PYMNT_OF_OWN_CC_BILL|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| CASH_2_CARD|CASH_2_CARD|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| AGENT_CASH_OUT|AGENT_CASH_OUT|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| CASH_2_ATM|CASH_2_ATM|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| STAGED_WALLET_LOAD|STAGED_WALLET_LOAD|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| TR_OWN_DB_OR_PP_CARD|TR_OWN_DB_OR_PP_CARD|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| RAPID_DEPOSIT|RAPID_DEPOSIT|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
+|mcMoneySendStatus | Program Status for MC Moneysend| ACTIVE|ACTIVE|
+|mcMoneySendStatus | Program Status for MC Moneysend| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| GOV-NPROF_DISBRMTS|GOV-NPROF_DISBRMTS|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| GAMING_PAYMENTS|GAMING_PAYMENTS|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| P2P_TRANSFER|P2P_TRANSFER|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| MERCH_DISBURSEMENTS|MERCH_DISBURSEMENTS|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| P2P_TRANSFER_TO_CARD|P2P_TRANSFER_TO_CARD|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| GEN_B2B_TRAN_TO_CARD|GEN_B2B_TRAN_TO_CARD|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| BUS_DISBURS_TO_CARD|BUS_DISBURS_TO_CARD|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| CREDIT_CARD_BILL_PMT|CREDIT_CARD_BILL_PMT|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| AGENT_CASH_OUT|AGENT_CASH_OUT|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| PERSON_TO_PERSON|PERSON_TO_PERSON|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| BUS_TO_BUS_TRANSFER|BUS_TO_BUS_TRANSFER|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| PYMNT_OF_OWN_CC_BILL|PYMNT_OF_OWN_CC_BILL|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| CASH_2_CARD|CASH_2_CARD|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| AGENT_CASH_OUT|AGENT_CASH_OUT|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| CASH_2_ATM|CASH_2_ATM|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| STAGED_WALLET_LOAD|STAGED_WALLET_LOAD|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| TR_OWN_DB_OR_PP_CARD|TR_OWN_DB_OR_PP_CARD|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| RAPID_DEPOSIT|RAPID_DEPOSIT|
-|serviceAttr | mcMoneySendOfferingType | Offering Type for MC Moneysend| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
-|serviceAttr | mcMoneySendStatus | Program Status for MC Moneysend| ACTIVE|ACTIVE|
-|serviceAttr | mcMoneySendStatus | Program Status for MC Moneysend| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| GOV-NPROF_DISBRMTS|GOV-NPROF_DISBRMTS|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| GAMING_PAYMENTS|GAMING_PAYMENTS|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| P2P_TRANSFER|P2P_TRANSFER|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| MERCH_DISBURSEMENTS|MERCH_DISBURSEMENTS|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| P2P_TRANSFER_TO_CARD|P2P_TRANSFER_TO_CARD|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| GEN_B2B_TRAN_TO_CARD|GEN_B2B_TRAN_TO_CARD|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| BUS_DISBURS_TO_CARD|BUS_DISBURS_TO_CARD|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| CREDIT_CARD_BILL_PMT|CREDIT_CARD_BILL_PMT|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| AGENT_CASH_OUT|AGENT_CASH_OUT|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| PERSON_TO_PERSON|PERSON_TO_PERSON|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| BUS_TO_BUS_TRANSFER|BUS_TO_BUS_TRANSFER|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| PYMNT_OF_OWN_CC_BILL|PYMNT_OF_OWN_CC_BILL|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| CASH_2_CARD|CASH_2_CARD|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| AGENT_CASH_OUT|AGENT_CASH_OUT|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| CASH_2_ATM|CASH_2_ATM|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| STAGED_WALLET_LOAD|STAGED_WALLET_LOAD|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| TR_OWN_DB_OR_PP_CARD|TR_OWN_DB_OR_PP_CARD|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| RAPID_DEPOSIT|RAPID_DEPOSIT|
+|mcMoneySendOfferingType | Offering Type for MC Moneysend| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
+|mcMoneySendStatus | Program Status for MC Moneysend| ACTIVE|ACTIVE|
+|mcMoneySendStatus | Program Status for MC Moneysend| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Merchant Surcharge Program
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASMERSRCH`
-* Product Description: Merchant Surcharge Program
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASMERSRCH  | Merchant Surcharge Program  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASMERSRCH  | Merchant Surcharge Program  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | merchSurchargeProgEffectiveDate | Surcharge Effective Date for Merchant Surcharge Program| ||
-|serviceAttr | merchSurchargeProgOfferingType | Offering Type for Merchant Surcharge Program| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | merchSurchargeProgSolutionType | Solution Type for Merchant Surcharge Program| FDMS_POS|FDMS_POS|
-|serviceAttr | merchSurchargeProgSolutionType | Solution Type for Merchant Surcharge Program| BLANK|BLANK|
-|serviceAttr | merchSurchargeProgSolutionType | Solution Type for Merchant Surcharge Program| NON_FDMS_POS|NON_FDMS_POS|
-|serviceAttr | merchSurchargeProgStatus | Program Status for Merchant Surcharge Program| CANCEL_SURCHARGING|CANCEL_SURCHARGING|
-|serviceAttr | merchSurchargeProgStatus | Program Status for Merchant Surcharge Program| ACTIVE_SURCHARGING|ACTIVE_SURCHARGING|
-|serviceAttr | merchSurchargeProgSurchargeRate | Surcharge Rate for Merchant Surcharge Program| ||
-|serviceAttr | thirdParty | Third Party for Merchant Surcharge Program| OTHER|OTHER|
-|serviceAttr | thirdParty | Third Party for Merchant Surcharge Program| CARDX|CARDX|
-|serviceAttr | thirdParty | Third Party for Merchant Surcharge Program| NON_SURCHARGE_SNAPPAY_CARDX|NON_SURCHARGE_SNAPPAY_CARDX|
-|serviceAttr | thirdParty | Third Party for Merchant Surcharge Program| TEMPUS|TEMPUS|
-|serviceAttr | thirdParty | Third Party for Merchant Surcharge Program| SNAPPAY_CARDX|SNAPPAY_CARDX|
-|serviceAttr | thirdParty | Third Party for Merchant Surcharge Program| CENPOS|CENPOS|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|merchSurchargeProgEffectiveDate | Surcharge Effective Date for Merchant Surcharge Program| ||
+|merchSurchargeProgOfferingType | Offering Type for Merchant Surcharge Program| STANDARD_OFFERING|STANDARD_OFFERING|
+|merchSurchargeProgSolutionType | Solution Type for Merchant Surcharge Program| FDMS_POS|FDMS_POS|
+|merchSurchargeProgSolutionType | Solution Type for Merchant Surcharge Program| BLANK|BLANK|
+|merchSurchargeProgSolutionType | Solution Type for Merchant Surcharge Program| NON_FDMS_POS|NON_FDMS_POS|
+|merchSurchargeProgStatus | Program Status for Merchant Surcharge Program| CANCEL_SURCHARGING|CANCEL_SURCHARGING|
+|merchSurchargeProgStatus | Program Status for Merchant Surcharge Program| ACTIVE_SURCHARGING|ACTIVE_SURCHARGING|
+|merchSurchargeProgSurchargeRate | Surcharge Rate for Merchant Surcharge Program| ||
+|thirdParty | Third Party for Merchant Surcharge Program| OTHER|OTHER|
+|thirdParty | Third Party for Merchant Surcharge Program| CARDX|CARDX|
+|thirdParty | Third Party for Merchant Surcharge Program| NON_SURCHARGE_SNAPPAY_CARDX|NON_SURCHARGE_SNAPPAY_CARDX|
+|thirdParty | Third Party for Merchant Surcharge Program| TEMPUS|TEMPUS|
+|thirdParty | Third Party for Merchant Surcharge Program| SNAPPAY_CARDX|SNAPPAY_CARDX|
+|thirdParty | Third Party for Merchant Surcharge Program| CENPOS|CENPOS|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | merchSurchargeProgEffectiveDate | Surcharge Effective Date for Merchant Surcharge Program| ||
-|serviceAttr | merchSurchargeProgOfferingType | Offering Type for Merchant Surcharge Program| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | merchSurchargeProgSolutionType | Solution Type for Merchant Surcharge Program| FDMS_POS|FDMS_POS|
-|serviceAttr | merchSurchargeProgSolutionType | Solution Type for Merchant Surcharge Program| BLANK|BLANK|
-|serviceAttr | merchSurchargeProgSolutionType | Solution Type for Merchant Surcharge Program| NON_FDMS_POS|NON_FDMS_POS|
-|serviceAttr | merchSurchargeProgStatus | Program Status for Merchant Surcharge Program| CANCEL_SURCHARGING|CANCEL_SURCHARGING|
-|serviceAttr | merchSurchargeProgStatus | Program Status for Merchant Surcharge Program| ACTIVE_SURCHARGING|ACTIVE_SURCHARGING|
-|serviceAttr | merchSurchargeProgSurchargeRate | Surcharge Rate for Merchant Surcharge Program| ||
-|serviceAttr | thirdParty | Third Party for Merchant Surcharge Program| OTHER|OTHER|
-|serviceAttr | thirdParty | Third Party for Merchant Surcharge Program| CARDX|CARDX|
-|serviceAttr | thirdParty | Third Party for Merchant Surcharge Program| NON_SURCHARGE_SNAPPAY_CARDX|NON_SURCHARGE_SNAPPAY_CARDX|
-|serviceAttr | thirdParty | Third Party for Merchant Surcharge Program| TEMPUS|TEMPUS|
-|serviceAttr | thirdParty | Third Party for Merchant Surcharge Program| SNAPPAY_CARDX|SNAPPAY_CARDX|
-|serviceAttr | thirdParty | Third Party for Merchant Surcharge Program| CENPOS|CENPOS|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|merchSurchargeProgEffectiveDate | Surcharge Effective Date for Merchant Surcharge Program| ||
+|merchSurchargeProgOfferingType | Offering Type for Merchant Surcharge Program| STANDARD_OFFERING|STANDARD_OFFERING|
+|merchSurchargeProgSolutionType | Solution Type for Merchant Surcharge Program| FDMS_POS|FDMS_POS|
+|merchSurchargeProgSolutionType | Solution Type for Merchant Surcharge Program| BLANK|BLANK|
+|merchSurchargeProgSolutionType | Solution Type for Merchant Surcharge Program| NON_FDMS_POS|NON_FDMS_POS|
+|merchSurchargeProgStatus | Program Status for Merchant Surcharge Program| CANCEL_SURCHARGING|CANCEL_SURCHARGING|
+|merchSurchargeProgStatus | Program Status for Merchant Surcharge Program| ACTIVE_SURCHARGING|ACTIVE_SURCHARGING|
+|merchSurchargeProgSurchargeRate | Surcharge Rate for Merchant Surcharge Program| ||
+|thirdParty | Third Party for Merchant Surcharge Program| OTHER|OTHER|
+|thirdParty | Third Party for Merchant Surcharge Program| CARDX|CARDX|
+|thirdParty | Third Party for Merchant Surcharge Program| NON_SURCHARGE_SNAPPAY_CARDX|NON_SURCHARGE_SNAPPAY_CARDX|
+|thirdParty | Third Party for Merchant Surcharge Program| TEMPUS|TEMPUS|
+|thirdParty | Third Party for Merchant Surcharge Program| SNAPPAY_CARDX|SNAPPAY_CARDX|
+|thirdParty | Third Party for Merchant Surcharge Program| CENPOS|CENPOS|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Masterpass Digital Wallet
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASMSTPWLT`
-* Product Description: Masterpass Digital Wallet
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASMSTPWLT  | Masterpass Digital Wallet  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASMSTPWLT  | Masterpass Digital Wallet  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | masterpassofferingType | Masterpass Offering Type| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | masterpassstatus | Masterpass Status| CANCEL|CANCEL|
-|serviceAttr | masterpassstatus | Masterpass Status| ACTIVE|ACTIVE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|masterpassofferingType | Masterpass Offering Type| STANDARD_OFFERING|STANDARD_OFFERING|
+|masterpassstatus | Masterpass Status| CANCEL|CANCEL|
+|masterpassstatus | Masterpass Status| ACTIVE|ACTIVE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | masterpassofferingType | Masterpass Offering Type| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | masterpassstatus | Masterpass Status| CANCEL|CANCEL|
-|serviceAttr | masterpassstatus | Masterpass Status| ACTIVE|ACTIVE|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|masterpassofferingType | Masterpass Offering Type| STANDARD_OFFERING|STANDARD_OFFERING|
+|masterpassstatus | Masterpass Status| CANCEL|CANCEL|
+|masterpassstatus | Masterpass Status| ACTIVE|ACTIVE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Small Medium Businesses Analytics
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASMSTTIST`
-* Product Description: Small Medium Businesses Analytics
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASMSTTIST  | Small Medium Businesses Analytics  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASMSTTIST  | Small Medium Businesses Analytics  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | analyticsProductType | Product Offering That A Merchant Is Enrolled To Use.| MAIN_STREET_INSIGHTS|MAIN_STREET_INSIGHTS|
-|serviceAttr | analyticsProductType | Product Offering That A Merchant Is Enrolled To Use.| MSI_APP|MSI_APP|
-|serviceAttr | analyticsProductType | Product Offering That A Merchant Is Enrolled To Use.| MSI_EXPRESS|MSI_EXPRESS|
-|serviceAttr | cloverInsightsEmail | User Provided Clover Insights Email| ||
-|serviceAttr | dataRightsOptOutCode | Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.| IAS_PRODUCT_EXCEPTION|IAS_PRODUCT_EXCEPTION|
-|serviceAttr | dataRightsOptOutCode | Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.| OPTED_OUT|OPTED_OUT|
-|serviceAttr | mainStreetProgramstatus | Program Status| NO_RESPONSE|NO_RESPONSE|
-|serviceAttr | mainStreetProgramstatus | Program Status| UNSUBSCRIBED|UNSUBSCRIBED|
-|serviceAttr | mainStreetProgramstatus | Program Status| PENDING_CONTACTED|PENDING_CONTACTED|
-|serviceAttr | mainStreetProgramstatus | Program Status| CANCELLED_BY_FD|CANCELLED_BY_FD|
-|serviceAttr | mainStreetProgramstatus | Program Status| PENDING_UNCONTACTED|PENDING_UNCONTACTED|
-|serviceAttr | mainStreetProgramstatus | Program Status| ACTIVE|ACTIVE|
-|serviceAttr | mainStreetProgramstatus | Program Status| PENDING_UPGRADE|PENDING_UPGRADE|
-|serviceAttr | mainStreetProgramstatus | Program Status| SUBSCRIBED|SUBSCRIBED|
-|serviceAttr | mainStreetProgramstatus | Program Status| FREE_TRIAL|FREE_TRIAL|
-|serviceAttr | mainStreetProgramstatus | Program Status| CANCELLED_BY_MERCHANT|CANCELLED_BY_MERCHANT|
-|serviceAttr | mainStreetbillingEffectiveDate | Billing Effective Date| ||
-|serviceAttr | primaryEmailInd | Primary Email Indicator| USE_USER_PROVIDED|USE_USER_PROVIDED|
-|serviceAttr | primaryEmailInd | Primary Email Indicator| USE_PRIMARY_EMAIL|USE_PRIMARY_EMAIL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|analyticsProductType | Product Offering That A Merchant Is Enrolled To Use.| MAIN_STREET_INSIGHTS|MAIN_STREET_INSIGHTS|
+|analyticsProductType | Product Offering That A Merchant Is Enrolled To Use.| MSI_APP|MSI_APP|
+|analyticsProductType | Product Offering That A Merchant Is Enrolled To Use.| MSI_EXPRESS|MSI_EXPRESS|
+|cloverInsightsEmail | User Provided Clover Insights Email| ||
+|dataRightsOptOutCode | Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.| IAS_PRODUCT_EXCEPTION|IAS_PRODUCT_EXCEPTION|
+|dataRightsOptOutCode | Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.| OPTED_OUT|OPTED_OUT|
+|mainStreetProgramstatus | Program Status| NO_RESPONSE|NO_RESPONSE|
+|mainStreetProgramstatus | Program Status| UNSUBSCRIBED|UNSUBSCRIBED|
+|mainStreetProgramstatus | Program Status| PENDING_CONTACTED|PENDING_CONTACTED|
+|mainStreetProgramstatus | Program Status| CANCELLED_BY_FD|CANCELLED_BY_FD|
+|mainStreetProgramstatus | Program Status| PENDING_UNCONTACTED|PENDING_UNCONTACTED|
+|mainStreetProgramstatus | Program Status| ACTIVE|ACTIVE|
+|mainStreetProgramstatus | Program Status| PENDING_UPGRADE|PENDING_UPGRADE|
+|mainStreetProgramstatus | Program Status| SUBSCRIBED|SUBSCRIBED|
+|mainStreetProgramstatus | Program Status| FREE_TRIAL|FREE_TRIAL|
+|mainStreetProgramstatus | Program Status| CANCELLED_BY_MERCHANT|CANCELLED_BY_MERCHANT|
+|mainStreetbillingEffectiveDate | Billing Effective Date| ||
+|primaryEmailInd | Primary Email Indicator| USE_USER_PROVIDED|USE_USER_PROVIDED|
+|primaryEmailInd | Primary Email Indicator| USE_PRIMARY_EMAIL|USE_PRIMARY_EMAIL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | analyticsProductType | Product Offering That A Merchant Is Enrolled To Use.| MAIN_STREET_INSIGHTS|MAIN_STREET_INSIGHTS|
-|serviceAttr | analyticsProductType | Product Offering That A Merchant Is Enrolled To Use.| MSI_APP|MSI_APP|
-|serviceAttr | analyticsProductType | Product Offering That A Merchant Is Enrolled To Use.| MSI_EXPRESS|MSI_EXPRESS|
-|serviceAttr | cloverInsightsEmail | User Provided Clover Insights Email| ||
-|serviceAttr | dataRightsOptOutCode | Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.| IAS_PRODUCT_EXCEPTION|IAS_PRODUCT_EXCEPTION|
-|serviceAttr | dataRightsOptOutCode | Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.| OPTED_OUT|OPTED_OUT|
-|serviceAttr | mainStreetProgramstatus | Program Status| NO_RESPONSE|NO_RESPONSE|
-|serviceAttr | mainStreetProgramstatus | Program Status| UNSUBSCRIBED|UNSUBSCRIBED|
-|serviceAttr | mainStreetProgramstatus | Program Status| PENDING_CONTACTED|PENDING_CONTACTED|
-|serviceAttr | mainStreetProgramstatus | Program Status| CANCELLED_BY_FD|CANCELLED_BY_FD|
-|serviceAttr | mainStreetProgramstatus | Program Status| PENDING_UNCONTACTED|PENDING_UNCONTACTED|
-|serviceAttr | mainStreetProgramstatus | Program Status| ACTIVE|ACTIVE|
-|serviceAttr | mainStreetProgramstatus | Program Status| PENDING_UPGRADE|PENDING_UPGRADE|
-|serviceAttr | mainStreetProgramstatus | Program Status| SUBSCRIBED|SUBSCRIBED|
-|serviceAttr | mainStreetProgramstatus | Program Status| FREE_TRIAL|FREE_TRIAL|
-|serviceAttr | mainStreetProgramstatus | Program Status| CANCELLED_BY_MERCHANT|CANCELLED_BY_MERCHANT|
-|serviceAttr | mainStreetbillingEffectiveDate | Billing Effective Date| ||
-|serviceAttr | primaryEmailInd | Primary Email Indicator| USE_USER_PROVIDED|USE_USER_PROVIDED|
-|serviceAttr | primaryEmailInd | Primary Email Indicator| USE_PRIMARY_EMAIL|USE_PRIMARY_EMAIL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|analyticsProductType | Product Offering That A Merchant Is Enrolled To Use.| MAIN_STREET_INSIGHTS|MAIN_STREET_INSIGHTS|
+|analyticsProductType | Product Offering That A Merchant Is Enrolled To Use.| MSI_APP|MSI_APP|
+|analyticsProductType | Product Offering That A Merchant Is Enrolled To Use.| MSI_EXPRESS|MSI_EXPRESS|
+|cloverInsightsEmail | User Provided Clover Insights Email| ||
+|dataRightsOptOutCode | Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.| IAS_PRODUCT_EXCEPTION|IAS_PRODUCT_EXCEPTION|
+|dataRightsOptOutCode | Type Of Merchant Data Rights Opt Out For Usage Of Their Internal Data.| OPTED_OUT|OPTED_OUT|
+|mainStreetProgramstatus | Program Status| NO_RESPONSE|NO_RESPONSE|
+|mainStreetProgramstatus | Program Status| UNSUBSCRIBED|UNSUBSCRIBED|
+|mainStreetProgramstatus | Program Status| PENDING_CONTACTED|PENDING_CONTACTED|
+|mainStreetProgramstatus | Program Status| CANCELLED_BY_FD|CANCELLED_BY_FD|
+|mainStreetProgramstatus | Program Status| PENDING_UNCONTACTED|PENDING_UNCONTACTED|
+|mainStreetProgramstatus | Program Status| ACTIVE|ACTIVE|
+|mainStreetProgramstatus | Program Status| PENDING_UPGRADE|PENDING_UPGRADE|
+|mainStreetProgramstatus | Program Status| SUBSCRIBED|SUBSCRIBED|
+|mainStreetProgramstatus | Program Status| FREE_TRIAL|FREE_TRIAL|
+|mainStreetProgramstatus | Program Status| CANCELLED_BY_MERCHANT|CANCELLED_BY_MERCHANT|
+|mainStreetbillingEffectiveDate | Billing Effective Date| ||
+|primaryEmailInd | Primary Email Indicator| USE_USER_PROVIDED|USE_USER_PROVIDED|
+|primaryEmailInd | Primary Email Indicator| USE_PRIMARY_EMAIL|USE_PRIMARY_EMAIL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Network Tokens
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASNTWKTKN`
-* Product Description: Network Tokens
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASNTWKTKN  | Network Tokens  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASNTWKTKN  | Network Tokens  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | americanExpress | American Express Network Tokens| NO|NO|
-|serviceAttr | americanExpress | American Express Network Tokens| YES|YES|
-|serviceAttr | discover | Discover Token| NO|NO|
-|serviceAttr | discover | Discover Token| YES|YES|
-|serviceAttr | fiservTokenRequesterId | Fiserv Token Requester ID for Network Tokens| ||
-|serviceAttr | masterCard | Master Card Network Tokens| YES|YES|
-|serviceAttr | masterCard | Master Card Network Tokens| NO|NO|
-|serviceAttr | networkTokenBillingEffectiveDate | Billing Effective Date for Network Tokens| ||
-|serviceAttr | networkTokenOfferingType | Offering Type for Network Tokens| NT_HYBRID|NT_HYBRID|
-|serviceAttr | networkTokenOfferingType | Offering Type for Network Tokens| NT_ON_THE_GO|NT_ON_THE_GO|
-|serviceAttr | networkTokenOfferingType | Offering Type for Network Tokens| NT_STANDARD|NT_STANDARD|
-|serviceAttr | networkTokenStatus | Program Status for Network Tokens| CANCEL|CANCEL|
-|serviceAttr | networkTokenStatus | Program Status for Network Tokens| ACTIVE|ACTIVE|
-|serviceAttr | visa | Visa Network Tokens| YES|YES|
-|serviceAttr | visa | Visa Network Tokens| NO|NO|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|americanExpress | American Express Network Tokens| NO|NO|
+|americanExpress | American Express Network Tokens| YES|YES|
+|discover | Discover Token| NO|NO|
+|discover | Discover Token| YES|YES|
+|fiservTokenRequesterId | Fiserv Token Requester ID for Network Tokens| ||
+|masterCard | Master Card Network Tokens| YES|YES|
+|masterCard | Master Card Network Tokens| NO|NO|
+|networkTokenBillingEffectiveDate | Billing Effective Date for Network Tokens| ||
+|networkTokenOfferingType | Offering Type for Network Tokens| NT_HYBRID|NT_HYBRID|
+|networkTokenOfferingType | Offering Type for Network Tokens| NT_ON_THE_GO|NT_ON_THE_GO|
+|networkTokenOfferingType | Offering Type for Network Tokens| NT_STANDARD|NT_STANDARD|
+|networkTokenStatus | Program Status for Network Tokens| CANCEL|CANCEL|
+|networkTokenStatus | Program Status for Network Tokens| ACTIVE|ACTIVE|
+|visa | Visa Network Tokens| YES|YES|
+|visa | Visa Network Tokens| NO|NO|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | americanExpress | American Express Network Tokens| NO|NO|
-|serviceAttr | americanExpress | American Express Network Tokens| YES|YES|
-|serviceAttr | discover | Discover Token| NO|NO|
-|serviceAttr | discover | Discover Token| YES|YES|
-|serviceAttr | fiservTokenRequesterId | Fiserv Token Requester ID for Network Tokens| ||
-|serviceAttr | masterCard | Master Card Network Tokens| YES|YES|
-|serviceAttr | masterCard | Master Card Network Tokens| NO|NO|
-|serviceAttr | networkTokenBillingEffectiveDate | Billing Effective Date for Network Tokens| ||
-|serviceAttr | networkTokenOfferingType | Offering Type for Network Tokens| NT_HYBRID|NT_HYBRID|
-|serviceAttr | networkTokenOfferingType | Offering Type for Network Tokens| NT_ON_THE_GO|NT_ON_THE_GO|
-|serviceAttr | networkTokenOfferingType | Offering Type for Network Tokens| NT_STANDARD|NT_STANDARD|
-|serviceAttr | networkTokenStatus | Program Status for Network Tokens| CANCEL|CANCEL|
-|serviceAttr | networkTokenStatus | Program Status for Network Tokens| ACTIVE|ACTIVE|
-|serviceAttr | visa | Visa Network Tokens| YES|YES|
-|serviceAttr | visa | Visa Network Tokens| NO|NO|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|americanExpress | American Express Network Tokens| NO|NO|
+|americanExpress | American Express Network Tokens| YES|YES|
+|discover | Discover Token| NO|NO|
+|discover | Discover Token| YES|YES|
+|fiservTokenRequesterId | Fiserv Token Requester ID for Network Tokens| ||
+|masterCard | Master Card Network Tokens| YES|YES|
+|masterCard | Master Card Network Tokens| NO|NO|
+|networkTokenBillingEffectiveDate | Billing Effective Date for Network Tokens| ||
+|networkTokenOfferingType | Offering Type for Network Tokens| NT_HYBRID|NT_HYBRID|
+|networkTokenOfferingType | Offering Type for Network Tokens| NT_ON_THE_GO|NT_ON_THE_GO|
+|networkTokenOfferingType | Offering Type for Network Tokens| NT_STANDARD|NT_STANDARD|
+|networkTokenStatus | Program Status for Network Tokens| CANCEL|CANCEL|
+|networkTokenStatus | Program Status for Network Tokens| ACTIVE|ACTIVE|
+|visa | Visa Network Tokens| YES|YES|
+|visa | Visa Network Tokens| NO|NO|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Payeezy
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASPAYEEZY`
-* Product Description: Payeezy
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASPAYEEZY  | Payeezy  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASPAYEEZY  | Payeezy  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | developerEmailId | Developer Email ID| ||
-|serviceAttr | developerId | Developer ID| ||
-|serviceAttr | payezeeyBillingEffectiveDate | Billing Effective Date| ||
-|serviceAttr | payezeeyOfferingType | Payeezy Offering Type| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | payezeeyProgramStatus | Payeezy Program Status| ACTIVE|ACTIVE|
-|serviceAttr | payezeeyProgramStatus | Payeezy Program Status| CANCEL|CANCEL|
-|serviceAttr | referralCode | Referral Code| ||
-|serviceAttr | webStore | Web Store| CLOVER_ONLINE_STORE|CLOVER_ONLINE_STORE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|developerEmailId | Developer Email ID| ||
+|developerId | Developer ID| ||
+|payezeeyBillingEffectiveDate | Billing Effective Date| ||
+|payezeeyOfferingType | Payeezy Offering Type| STANDARD_OFFERING|STANDARD_OFFERING|
+|payezeeyProgramStatus | Payeezy Program Status| ACTIVE|ACTIVE|
+|payezeeyProgramStatus | Payeezy Program Status| CANCEL|CANCEL|
+|referralCode | Referral Code| ||
+|webStore | Web Store| CLOVER_ONLINE_STORE|CLOVER_ONLINE_STORE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | developerEmailId | Developer Email ID| ||
-|serviceAttr | developerId | Developer ID| ||
-|serviceAttr | payezeeyBillingEffectiveDate | Billing Effective Date| ||
-|serviceAttr | payezeeyOfferingType | Payeezy Offering Type| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | payezeeyProgramStatus | Payeezy Program Status| ACTIVE|ACTIVE|
-|serviceAttr | payezeeyProgramStatus | Payeezy Program Status| CANCEL|CANCEL|
-|serviceAttr | referralCode | Referral Code| ||
-|serviceAttr | webStore | Web Store| CLOVER_ONLINE_STORE|CLOVER_ONLINE_STORE|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|developerEmailId | Developer Email ID| ||
+|developerId | Developer ID| ||
+|payezeeyBillingEffectiveDate | Billing Effective Date| ||
+|payezeeyOfferingType | Payeezy Offering Type| STANDARD_OFFERING|STANDARD_OFFERING|
+|payezeeyProgramStatus | Payeezy Program Status| ACTIVE|ACTIVE|
+|payezeeyProgramStatus | Payeezy Program Status| CANCEL|CANCEL|
+|referralCode | Referral Code| ||
+|webStore | Web Store| CLOVER_ONLINE_STORE|CLOVER_ONLINE_STORE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Personal Data Protection
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASPDATAPRT`
-* Product Description: Personal Data Protection
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASPDATAPRT  | Personal Data Protection  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASPDATAPRT  | Personal Data Protection  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | personalDataProtectionBillingEffectiveDate | Billing Effective Date for Personal Data Protection| ||
-|serviceAttr | personalDataProtectionOfferingType | Offering Type for Personal Data Protection| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | personalDataProtectionStatus | Program Status for Personal Data Protection| CANCEL|CANCEL|
-|serviceAttr | personalDataProtectionStatus | Program Status for Personal Data Protection| ACTIVE|ACTIVE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|personalDataProtectionBillingEffectiveDate | Billing Effective Date for Personal Data Protection| ||
+|personalDataProtectionOfferingType | Offering Type for Personal Data Protection| STANDARD_OFFERING|STANDARD_OFFERING|
+|personalDataProtectionStatus | Program Status for Personal Data Protection| CANCEL|CANCEL|
+|personalDataProtectionStatus | Program Status for Personal Data Protection| ACTIVE|ACTIVE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | personalDataProtectionBillingEffectiveDate | Billing Effective Date for Personal Data Protection| ||
-|serviceAttr | personalDataProtectionOfferingType | Offering Type for Personal Data Protection| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | personalDataProtectionStatus | Program Status for Personal Data Protection| CANCEL|CANCEL|
-|serviceAttr | personalDataProtectionStatus | Program Status for Personal Data Protection| ACTIVE|ACTIVE|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|personalDataProtectionBillingEffectiveDate | Billing Effective Date for Personal Data Protection| ||
+|personalDataProtectionOfferingType | Offering Type for Personal Data Protection| STANDARD_OFFERING|STANDARD_OFFERING|
+|personalDataProtectionStatus | Program Status for Personal Data Protection| CANCEL|CANCEL|
+|personalDataProtectionStatus | Program Status for Personal Data Protection| ACTIVE|ACTIVE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Perka Is A Mobile Loyalty Application
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASPERKA`
-* Product Description: Perka Is A Mobile Loyalty Application
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASPERKA  | Perka Is A Mobile Loyalty Application  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASPERKA  | Perka Is A Mobile Loyalty Application  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | contractSignDateTime | Date Time Contract Signed| ||
-|serviceAttr | perkaAccountNum | Perka Account Number| ||
-|serviceAttr | perkaAccountStatus | Account Status| CANCEL|CANCEL|
-|serviceAttr | perkaAccountStatus | Account Status| ACTIVE|ACTIVE|
-|serviceAttr | perkaAccountStatus | Account Status| PENDING|PENDING|
-|serviceAttr | perkaBillingEffectiveDate | Billing Effective Date for Perka| ||
-|serviceAttr | perkaProductType | Perka Product Type| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | perkaTrainInd | Perka Training Indicator| TRAINING_NOT_REQUESTED|TRAINING_NOT_REQUESTED|
-|serviceAttr | perkaTrainInd | Perka Training Indicator| TRAINING_REQUESTED|TRAINING_REQUESTED|
-|serviceAttr | perkaUniqueId | Perka Unique Identifier| ||
-|serviceAttr | reccuringCharge | Recurring Charge| ||
-|serviceAttr | term | Term| MONTHLY|MONTHLY|
-|serviceAttr | term | Term| ANNUAL|ANNUAL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|contractSignDateTime | Date Time Contract Signed| ||
+|perkaAccountNum | Perka Account Number| ||
+|perkaAccountStatus | Account Status| CANCEL|CANCEL|
+|perkaAccountStatus | Account Status| ACTIVE|ACTIVE|
+|perkaAccountStatus | Account Status| PENDING|PENDING|
+|perkaBillingEffectiveDate | Billing Effective Date for Perka| ||
+|perkaProductType | Perka Product Type| STANDARD_OFFERING|STANDARD_OFFERING|
+|perkaTrainInd | Perka Training Indicator| TRAINING_NOT_REQUESTED|TRAINING_NOT_REQUESTED|
+|perkaTrainInd | Perka Training Indicator| TRAINING_REQUESTED|TRAINING_REQUESTED|
+|perkaUniqueId | Perka Unique Identifier| ||
+|reccuringCharge | Recurring Charge| ||
+|term | Term| MONTHLY|MONTHLY|
+|term | Term| ANNUAL|ANNUAL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | contractSignDateTime | Date Time Contract Signed| ||
-|serviceAttr | perkaAccountNum | Perka Account Number| ||
-|serviceAttr | perkaAccountStatus | Account Status| CANCEL|CANCEL|
-|serviceAttr | perkaAccountStatus | Account Status| ACTIVE|ACTIVE|
-|serviceAttr | perkaAccountStatus | Account Status| PENDING|PENDING|
-|serviceAttr | perkaBillingEffectiveDate | Billing Effective Date for Perka| ||
-|serviceAttr | perkaProductType | Perka Product Type| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | perkaTrainInd | Perka Training Indicator| TRAINING_NOT_REQUESTED|TRAINING_NOT_REQUESTED|
-|serviceAttr | perkaTrainInd | Perka Training Indicator| TRAINING_REQUESTED|TRAINING_REQUESTED|
-|serviceAttr | perkaUniqueId | Perka Unique Identifier| ||
-|serviceAttr | reccuringCharge | Recurring Charge| ||
-|serviceAttr | term | Term| MONTHLY|MONTHLY|
-|serviceAttr | term | Term| ANNUAL|ANNUAL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|contractSignDateTime | Date Time Contract Signed| ||
+|perkaAccountNum | Perka Account Number| ||
+|perkaAccountStatus | Account Status| CANCEL|CANCEL|
+|perkaAccountStatus | Account Status| ACTIVE|ACTIVE|
+|perkaAccountStatus | Account Status| PENDING|PENDING|
+|perkaBillingEffectiveDate | Billing Effective Date for Perka| ||
+|perkaProductType | Perka Product Type| STANDARD_OFFERING|STANDARD_OFFERING|
+|perkaTrainInd | Perka Training Indicator| TRAINING_NOT_REQUESTED|TRAINING_NOT_REQUESTED|
+|perkaTrainInd | Perka Training Indicator| TRAINING_REQUESTED|TRAINING_REQUESTED|
+|perkaUniqueId | Perka Unique Identifier| ||
+|reccuringCharge | Recurring Charge| ||
+|term | Term| MONTHLY|MONTHLY|
+|term | Term| ANNUAL|ANNUAL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## PINLESS ECOMM DEBIT
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASPINLESSECOM`
-* Product Description: PINLESS ECOMM DEBIT
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASPINLESSECOM  | PINLESS ECOMM DEBIT  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASPINLESSECOM  | PINLESS ECOMM DEBIT  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | pinlessEcomStatus | Program Status for Pinless Ecomm| ACTIVE|ACTIVE|
-|serviceAttr | pinlessEcomStatus | Program Status for Pinless Ecomm| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|pinlessEcomStatus | Program Status for Pinless Ecomm| ACTIVE|ACTIVE|
+|pinlessEcomStatus | Program Status for Pinless Ecomm| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | pinlessEcomStatus | Program Status for Pinless Ecomm| ACTIVE|ACTIVE|
-|serviceAttr | pinlessEcomStatus | Program Status for Pinless Ecomm| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|pinlessEcomStatus | Program Status for Pinless Ecomm| ACTIVE|ACTIVE|
+|pinlessEcomStatus | Program Status for Pinless Ecomm| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Sams Plus Membership Program
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASSAMSPLS`
-* Product Description: Sams Plus Membership Program
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASSAMSPLS  | Sams Plus Membership Program  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASSAMSPLS  | Sams Plus Membership Program  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | clubNum | SAMS Club - Club Number| ||
-|serviceAttr | memberShipId | SAMS Club Membership ID| ||
-|serviceAttr | newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| RENEWAL|RENEWAL|
-|serviceAttr | newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| UPGRADE|UPGRADE|
-|serviceAttr | newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| NONE|NONE|
-|serviceAttr | newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| NEW|NEW|
-|serviceAttr | nxtRnwlDt | SAMS Club Next Renewal Date| ||
-|serviceAttr | rnwlAmtPaid | SAMS Club Renewal Amount Paid| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clubNum | SAMS Club - Club Number| ||
+|memberShipId | SAMS Club Membership ID| ||
+|newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| RENEWAL|RENEWAL|
+|newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| UPGRADE|UPGRADE|
+|newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| NONE|NONE|
+|newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| NEW|NEW|
+|nxtRnwlDt | SAMS Club Next Renewal Date| ||
+|rnwlAmtPaid | SAMS Club Renewal Amount Paid| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | clubNum | SAMS Club - Club Number| ||
-|serviceAttr | memberShipId | SAMS Club Membership ID| ||
-|serviceAttr | newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| RENEWAL|RENEWAL|
-|serviceAttr | newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| UPGRADE|UPGRADE|
-|serviceAttr | newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| NONE|NONE|
-|serviceAttr | newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| NEW|NEW|
-|serviceAttr | nxtRnwlDt | SAMS Club Next Renewal Date| ||
-|serviceAttr | rnwlAmtPaid | SAMS Club Renewal Amount Paid| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clubNum | SAMS Club - Club Number| ||
+|memberShipId | SAMS Club Membership ID| ||
+|newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| RENEWAL|RENEWAL|
+|newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| UPGRADE|UPGRADE|
+|newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| NONE|NONE|
+|newUpgRnwlInd | SAMS Club New/Upgrade/Renewal Indicator| NEW|NEW|
+|nxtRnwlDt | SAMS Club Next Renewal Date| ||
+|rnwlAmtPaid | SAMS Club Renewal Amount Paid| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Transarmor P2PE
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASTAP2PE`
-* Product Description: Transarmor P2PE
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASTAP2PE  | Transarmor P2PE  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASTAP2PE  | Transarmor P2PE  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | 3des | 3DES for Transarmor| CHECKED|CHECKED|
-|serviceAttr | 3des | 3DES for Transarmor| NOT_CHECKED|NOT_CHECKED|
-|serviceAttr | aesDukpt | AES DUKPT for Transarmor| CHECKED|CHECKED|
-|serviceAttr | aesDukpt | AES DUKPT for Transarmor| NOT_CHECKED|NOT_CHECKED|
-|serviceAttr | ingenicoOnguard | Ingenico On-Guard for Transarmor| CHECKED|CHECKED|
-|serviceAttr | ingenicoOnguard | Ingenico On-Guard for Transarmor| NOT_CHECKED|NOT_CHECKED|
-|serviceAttr | rsavpki | rsavpki for Transarmor| NOT_CHECKED|NOT_CHECKED|
-|serviceAttr | rsavpki | rsavpki for Transarmor| CHECKED|CHECKED|
-|serviceAttr | transarmorP2peStatus | Transrmor P2PE Pragram Status| ACTIVE|ACTIVE|
-|serviceAttr | transarmorP2peStatus | Transrmor P2PE Pragram Status| CANCEL|CANCEL|
-|serviceAttr | verifoneProtect | Verifone Protect for Transarmor| CHECKED|CHECKED|
-|serviceAttr | verifoneProtect | Verifone Protect for Transarmor| NOT_CHECKED|NOT_CHECKED|
-|serviceAttr | verifoneProtectWsp | Verifone Protect W/SP for Transarmor| NOT_CHECKED|NOT_CHECKED|
-|serviceAttr | verifoneProtectWsp | Verifone Protect W/SP for Transarmor| CHECKED|CHECKED|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|3des | 3DES for Transarmor| CHECKED|CHECKED|
+|3des | 3DES for Transarmor| NOT_CHECKED|NOT_CHECKED|
+|aesDukpt | AES DUKPT for Transarmor| CHECKED|CHECKED|
+|aesDukpt | AES DUKPT for Transarmor| NOT_CHECKED|NOT_CHECKED|
+|ingenicoOnguard | Ingenico On-Guard for Transarmor| CHECKED|CHECKED|
+|ingenicoOnguard | Ingenico On-Guard for Transarmor| NOT_CHECKED|NOT_CHECKED|
+|rsavpki | rsavpki for Transarmor| NOT_CHECKED|NOT_CHECKED|
+|rsavpki | rsavpki for Transarmor| CHECKED|CHECKED|
+|transarmorP2peStatus | Transrmor P2PE Pragram Status| ACTIVE|ACTIVE|
+|transarmorP2peStatus | Transrmor P2PE Pragram Status| CANCEL|CANCEL|
+|verifoneProtect | Verifone Protect for Transarmor| CHECKED|CHECKED|
+|verifoneProtect | Verifone Protect for Transarmor| NOT_CHECKED|NOT_CHECKED|
+|verifoneProtectWsp | Verifone Protect W/SP for Transarmor| NOT_CHECKED|NOT_CHECKED|
+|verifoneProtectWsp | Verifone Protect W/SP for Transarmor| CHECKED|CHECKED|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | 3des | 3DES for Transarmor| CHECKED|CHECKED|
-|serviceAttr | 3des | 3DES for Transarmor| NOT_CHECKED|NOT_CHECKED|
-|serviceAttr | aesDukpt | AES DUKPT for Transarmor| CHECKED|CHECKED|
-|serviceAttr | aesDukpt | AES DUKPT for Transarmor| NOT_CHECKED|NOT_CHECKED|
-|serviceAttr | ingenicoOnguard | Ingenico On-Guard for Transarmor| CHECKED|CHECKED|
-|serviceAttr | ingenicoOnguard | Ingenico On-Guard for Transarmor| NOT_CHECKED|NOT_CHECKED|
-|serviceAttr | rsavpki | rsavpki for Transarmor| NOT_CHECKED|NOT_CHECKED|
-|serviceAttr | rsavpki | rsavpki for Transarmor| CHECKED|CHECKED|
-|serviceAttr | transarmorP2peStatus | Transrmor P2PE Pragram Status| ACTIVE|ACTIVE|
-|serviceAttr | transarmorP2peStatus | Transrmor P2PE Pragram Status| CANCEL|CANCEL|
-|serviceAttr | verifoneProtect | Verifone Protect for Transarmor| CHECKED|CHECKED|
-|serviceAttr | verifoneProtect | Verifone Protect for Transarmor| NOT_CHECKED|NOT_CHECKED|
-|serviceAttr | verifoneProtectWsp | Verifone Protect W/SP for Transarmor| NOT_CHECKED|NOT_CHECKED|
-|serviceAttr | verifoneProtectWsp | Verifone Protect W/SP for Transarmor| CHECKED|CHECKED|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|3des | 3DES for Transarmor| CHECKED|CHECKED|
+|3des | 3DES for Transarmor| NOT_CHECKED|NOT_CHECKED|
+|aesDukpt | AES DUKPT for Transarmor| CHECKED|CHECKED|
+|aesDukpt | AES DUKPT for Transarmor| NOT_CHECKED|NOT_CHECKED|
+|ingenicoOnguard | Ingenico On-Guard for Transarmor| CHECKED|CHECKED|
+|ingenicoOnguard | Ingenico On-Guard for Transarmor| NOT_CHECKED|NOT_CHECKED|
+|rsavpki | rsavpki for Transarmor| NOT_CHECKED|NOT_CHECKED|
+|rsavpki | rsavpki for Transarmor| CHECKED|CHECKED|
+|transarmorP2peStatus | Transrmor P2PE Pragram Status| ACTIVE|ACTIVE|
+|transarmorP2peStatus | Transrmor P2PE Pragram Status| CANCEL|CANCEL|
+|verifoneProtect | Verifone Protect for Transarmor| CHECKED|CHECKED|
+|verifoneProtect | Verifone Protect for Transarmor| NOT_CHECKED|NOT_CHECKED|
+|verifoneProtectWsp | Verifone Protect W/SP for Transarmor| NOT_CHECKED|NOT_CHECKED|
+|verifoneProtectWsp | Verifone Protect W/SP for Transarmor| CHECKED|CHECKED|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## TELECHECK CP ENTITLEMENT
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASTCKCP`
-* Product Description: TELECHECK CP ENTITLEMENT
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASTCKCP  | TELECHECK CP ENTITLEMENT  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASTCKCP  | TELECHECK CP ENTITLEMENT  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | tckCpPrcsInd | Process Indicator Telecheck CP| ||
-|serviceAttr | tckCpPrdct | Product for Telecheck CP| ||
-|serviceAttr | tckCpServEntl | Service Entitlement for Telecheck CP| ||
-|serviceAttr | tckCpSettlInd | Settlement Indicator for Telecheck CP| ||
-|serviceAttr | tckCpStatus | Program Status for Telecheck CP| ACTIVE|ACTIVE|
-|serviceAttr | tckCpStatus | Program Status for Telecheck CP| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|tckCpPrcsInd | Process Indicator Telecheck CP| ||
+|tckCpPrdct | Product for Telecheck CP| ||
+|tckCpServEntl | Service Entitlement for Telecheck CP| ||
+|tckCpSettlInd | Settlement Indicator for Telecheck CP| ||
+|tckCpStatus | Program Status for Telecheck CP| ACTIVE|ACTIVE|
+|tckCpStatus | Program Status for Telecheck CP| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | tckCpPrcsInd | Process Indicator Telecheck CP| ||
-|serviceAttr | tckCpPrdct | Product for Telecheck CP| ||
-|serviceAttr | tckCpServEntl | Service Entitlement for Telecheck CP| ||
-|serviceAttr | tckCpSettlInd | Settlement Indicator for Telecheck CP| ||
-|serviceAttr | tckCpStatus | Program Status for Telecheck CP| ACTIVE|ACTIVE|
-|serviceAttr | tckCpStatus | Program Status for Telecheck CP| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|tckCpPrcsInd | Process Indicator Telecheck CP| ||
+|tckCpPrdct | Product for Telecheck CP| ||
+|tckCpServEntl | Service Entitlement for Telecheck CP| ||
+|tckCpSettlInd | Settlement Indicator for Telecheck CP| ||
+|tckCpStatus | Program Status for Telecheck CP| ACTIVE|ACTIVE|
+|tckCpStatus | Program Status for Telecheck CP| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Tempus
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASTEMPUS`
-* Product Description: Tempus
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASTEMPUS  | Tempus  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASTEMPUS  | Tempus  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | tempusProgramStatus | Tempus Program Status| ACTIVE|ACTIVE|
-|serviceAttr | tempusProgramStatus | Tempus Program Status| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|tempusProgramStatus | Tempus Program Status| ACTIVE|ACTIVE|
+|tempusProgramStatus | Tempus Program Status| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | tempusProgramStatus | Tempus Program Status| ACTIVE|ACTIVE|
-|serviceAttr | tempusProgramStatus | Tempus Program Status| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|tempusProgramStatus | Tempus Program Status| ACTIVE|ACTIVE|
+|tempusProgramStatus | Tempus Program Status| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Transarmor Token File
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASTRNSARM`
-* Product Description: Transarmor Token File
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASTRNSARM  | Transarmor Token File  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASTRNSARM  | Transarmor Token File  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | encryptExceptionKeyId | Encryption exception key ID| ||
-|serviceAttr | encryptServiceLevelCode | Encryption security level code| ENCRP_ONLY|MM2_STM_SVC_CD|
-|serviceAttr | encryptServiceLevelCode | Encryption security level code| BOTH|MM2_STM_SVC_CD|
-|serviceAttr | encryptServiceLevelCode | Encryption security level code| NONE|MM2_STM_SVC_CD|
-|serviceAttr | encryptServiceLevelCode | Encryption security level code| TOKEN_ONLY|MM2_STM_SVC_CD|
-|serviceAttr | encryptTokenCode | Encryption token type code| ||
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| CORP|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| CHAIN|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| BUSINESS|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| NONE|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| AGENT|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| BANK|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| OUTLET|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenOverrideIndicator | Encryption multipay token override indicator| NO|MM2_TKN_OVERRIDE_IND|
-|serviceAttr | encryptTokenOverrideIndicator | Encryption multipay token override indicator| YES|MM2_TKN_OVERRIDE_IND|
-|serviceAttr | encryptTypeCode | Encryption type code| VERIFONE_PROTECT_WITH_SP|MM_ENCRYPTION_TYPE|
-|serviceAttr | encryptTypeCode | Encryption type code| INGENICO_ONGUARD|MM_ENCRYPTION_TYPE|
-|serviceAttr | encryptTypeCode | Encryption type code| VERIFONE_PROTECT|MM_ENCRYPTION_TYPE|
-|serviceAttr | encryptTypeCode | Encryption type code| RSA_PKI|MM_ENCRYPTION_TYPE|
-|serviceAttr | encryptTypeCode | Encryption type code| AES_DUKPT|MM_ENCRYPTION_TYPE|
-|serviceAttr | encryptTypeCode | Encryption type code| 3DES|MM_ENCRYPTION_TYPE|
-|serviceAttr | encryptTypeCode | Encryption type code| NONE|MM_ENCRYPTION_TYPE|
-|serviceAttr | transarmorProgramstatus | Transarmor Program Status| CANCEL|CANCEL|
-|serviceAttr | transarmorProgramstatus | Transarmor Program Status| ACTIVE|ACTIVE|
-|serviceAttr | transarmorofferingType | Transarmor Offering Type| AUTH_AND_SETTLEMENT|AUTH_AND_SETTLEMENT|
-|serviceAttr | transarmorofferingType | Transarmor Offering Type| AUTHORIZATION_DATA|AUTHORIZATION_DATA|
-|serviceAttr | transarmorofferingType | Transarmor Offering Type| SETTLEMENT_DATA|SETTLEMENT_DATA|
-|serviceAttr | vspBrand | VSP brand indicates the TransArmor VeriFone VSP Brand| ||
-|serviceAttr | vspDomain | VSP domain Indicates the Corporate Identifier for TransArmor VeriFone Edition| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|encryptExceptionKeyId | Encryption exception key ID| ||
+|encryptServiceLevelCode | Encryption security level code| ENCRP_ONLY|MM2_STM_SVC_CD|
+|encryptServiceLevelCode | Encryption security level code| BOTH|MM2_STM_SVC_CD|
+|encryptServiceLevelCode | Encryption security level code| NONE|MM2_STM_SVC_CD|
+|encryptServiceLevelCode | Encryption security level code| TOKEN_ONLY|MM2_STM_SVC_CD|
+|encryptTokenCode | Encryption token type code| ||
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| CORP|MM2_TOKEN_HIER_LVL|
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| CHAIN|MM2_TOKEN_HIER_LVL|
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| BUSINESS|MM2_TOKEN_HIER_LVL|
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| NONE|MM2_TOKEN_HIER_LVL|
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| AGENT|MM2_TOKEN_HIER_LVL|
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| BANK|MM2_TOKEN_HIER_LVL|
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| OUTLET|MM2_TOKEN_HIER_LVL|
+|encryptTokenOverrideIndicator | Encryption multipay token override indicator| NO|MM2_TKN_OVERRIDE_IND|
+|encryptTokenOverrideIndicator | Encryption multipay token override indicator| YES|MM2_TKN_OVERRIDE_IND|
+|encryptTypeCode | Encryption type code| VERIFONE_PROTECT_WITH_SP|MM_ENCRYPTION_TYPE|
+|encryptTypeCode | Encryption type code| INGENICO_ONGUARD|MM_ENCRYPTION_TYPE|
+|encryptTypeCode | Encryption type code| VERIFONE_PROTECT|MM_ENCRYPTION_TYPE|
+|encryptTypeCode | Encryption type code| RSA_PKI|MM_ENCRYPTION_TYPE|
+|encryptTypeCode | Encryption type code| AES_DUKPT|MM_ENCRYPTION_TYPE|
+|encryptTypeCode | Encryption type code| 3DES|MM_ENCRYPTION_TYPE|
+|encryptTypeCode | Encryption type code| NONE|MM_ENCRYPTION_TYPE|
+|transarmorProgramstatus | Transarmor Program Status| CANCEL|CANCEL|
+|transarmorProgramstatus | Transarmor Program Status| ACTIVE|ACTIVE|
+|transarmorofferingType | Transarmor Offering Type| AUTH_AND_SETTLEMENT|AUTH_AND_SETTLEMENT|
+|transarmorofferingType | Transarmor Offering Type| AUTHORIZATION_DATA|AUTHORIZATION_DATA|
+|transarmorofferingType | Transarmor Offering Type| SETTLEMENT_DATA|SETTLEMENT_DATA|
+|vspBrand | VSP brand indicates the TransArmor VeriFone VSP Brand| ||
+|vspDomain | VSP domain Indicates the Corporate Identifier for TransArmor VeriFone Edition| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | encryptExceptionKeyId | Encryption exception key ID| ||
-|serviceAttr | encryptServiceLevelCode | Encryption security level code| ENCRP_ONLY|MM2_STM_SVC_CD|
-|serviceAttr | encryptServiceLevelCode | Encryption security level code| BOTH|MM2_STM_SVC_CD|
-|serviceAttr | encryptServiceLevelCode | Encryption security level code| NONE|MM2_STM_SVC_CD|
-|serviceAttr | encryptServiceLevelCode | Encryption security level code| TOKEN_ONLY|MM2_STM_SVC_CD|
-|serviceAttr | encryptTokenCode | Encryption token type code| ||
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| CORP|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| CHAIN|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| BUSINESS|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| NONE|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| AGENT|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| BANK|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| OUTLET|MM2_TOKEN_HIER_LVL|
-|serviceAttr | encryptTokenOverrideIndicator | Encryption multipay token override indicator| NO|MM2_TKN_OVERRIDE_IND|
-|serviceAttr | encryptTokenOverrideIndicator | Encryption multipay token override indicator| YES|MM2_TKN_OVERRIDE_IND|
-|serviceAttr | encryptTypeCode | Encryption type code| VERIFONE_PROTECT_WITH_SP|MM_ENCRYPTION_TYPE|
-|serviceAttr | encryptTypeCode | Encryption type code| INGENICO_ONGUARD|MM_ENCRYPTION_TYPE|
-|serviceAttr | encryptTypeCode | Encryption type code| VERIFONE_PROTECT|MM_ENCRYPTION_TYPE|
-|serviceAttr | encryptTypeCode | Encryption type code| RSA_PKI|MM_ENCRYPTION_TYPE|
-|serviceAttr | encryptTypeCode | Encryption type code| AES_DUKPT|MM_ENCRYPTION_TYPE|
-|serviceAttr | encryptTypeCode | Encryption type code| 3DES|MM_ENCRYPTION_TYPE|
-|serviceAttr | encryptTypeCode | Encryption type code| NONE|MM_ENCRYPTION_TYPE|
-|serviceAttr | transarmorProgramstatus | Transarmor Program Status| CANCEL|CANCEL|
-|serviceAttr | transarmorProgramstatus | Transarmor Program Status| ACTIVE|ACTIVE|
-|serviceAttr | transarmorofferingType | Transarmor Offering Type| AUTH_AND_SETTLEMENT|AUTH_AND_SETTLEMENT|
-|serviceAttr | transarmorofferingType | Transarmor Offering Type| AUTHORIZATION_DATA|AUTHORIZATION_DATA|
-|serviceAttr | transarmorofferingType | Transarmor Offering Type| SETTLEMENT_DATA|SETTLEMENT_DATA|
-|serviceAttr | vspBrand | VSP brand indicates the TransArmor VeriFone VSP Brand| ||
-|serviceAttr | vspDomain | VSP domain Indicates the Corporate Identifier for TransArmor VeriFone Edition| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|encryptExceptionKeyId | Encryption exception key ID| ||
+|encryptServiceLevelCode | Encryption security level code| ENCRP_ONLY|MM2_STM_SVC_CD|
+|encryptServiceLevelCode | Encryption security level code| BOTH|MM2_STM_SVC_CD|
+|encryptServiceLevelCode | Encryption security level code| NONE|MM2_STM_SVC_CD|
+|encryptServiceLevelCode | Encryption security level code| TOKEN_ONLY|MM2_STM_SVC_CD|
+|encryptTokenCode | Encryption token type code| ||
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| CORP|MM2_TOKEN_HIER_LVL|
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| CHAIN|MM2_TOKEN_HIER_LVL|
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| BUSINESS|MM2_TOKEN_HIER_LVL|
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| NONE|MM2_TOKEN_HIER_LVL|
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| AGENT|MM2_TOKEN_HIER_LVL|
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| BANK|MM2_TOKEN_HIER_LVL|
+|encryptTokenHierarchyCode | Encryption multipay token hierarchy level code| OUTLET|MM2_TOKEN_HIER_LVL|
+|encryptTokenOverrideIndicator | Encryption multipay token override indicator| NO|MM2_TKN_OVERRIDE_IND|
+|encryptTokenOverrideIndicator | Encryption multipay token override indicator| YES|MM2_TKN_OVERRIDE_IND|
+|encryptTypeCode | Encryption type code| VERIFONE_PROTECT_WITH_SP|MM_ENCRYPTION_TYPE|
+|encryptTypeCode | Encryption type code| INGENICO_ONGUARD|MM_ENCRYPTION_TYPE|
+|encryptTypeCode | Encryption type code| VERIFONE_PROTECT|MM_ENCRYPTION_TYPE|
+|encryptTypeCode | Encryption type code| RSA_PKI|MM_ENCRYPTION_TYPE|
+|encryptTypeCode | Encryption type code| AES_DUKPT|MM_ENCRYPTION_TYPE|
+|encryptTypeCode | Encryption type code| 3DES|MM_ENCRYPTION_TYPE|
+|encryptTypeCode | Encryption type code| NONE|MM_ENCRYPTION_TYPE|
+|transarmorProgramstatus | Transarmor Program Status| CANCEL|CANCEL|
+|transarmorProgramstatus | Transarmor Program Status| ACTIVE|ACTIVE|
+|transarmorofferingType | Transarmor Offering Type| AUTH_AND_SETTLEMENT|AUTH_AND_SETTLEMENT|
+|transarmorofferingType | Transarmor Offering Type| AUTHORIZATION_DATA|AUTHORIZATION_DATA|
+|transarmorofferingType | Transarmor Offering Type| SETTLEMENT_DATA|SETTLEMENT_DATA|
+|vspBrand | VSP brand indicates the TransArmor VeriFone VSP Brand| ||
+|vspDomain | VSP domain Indicates the Corporate Identifier for TransArmor VeriFone Edition| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Transactions Insights
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASTXNINS`
-* Product Description: Transactions Insights
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASTXNINS  | Transactions Insights  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASTXNINS  | Transactions Insights  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | transactionInsightBillingEffectiveDate | Billing Effective Date for Transaction Insights| ||
-|serviceAttr | transactionInsightOfferingType | Offering Type for Transaction Insights| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | transactionInsightStatus | Program Status for Transaction Insights| CANCEL|CANCEL|
-|serviceAttr | transactionInsightStatus | Program Status for Transaction Insights| ACTIVE|ACTIVE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|transactionInsightBillingEffectiveDate | Billing Effective Date for Transaction Insights| ||
+|transactionInsightOfferingType | Offering Type for Transaction Insights| STANDARD_OFFERING|STANDARD_OFFERING|
+|transactionInsightStatus | Program Status for Transaction Insights| CANCEL|CANCEL|
+|transactionInsightStatus | Program Status for Transaction Insights| ACTIVE|ACTIVE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | transactionInsightBillingEffectiveDate | Billing Effective Date for Transaction Insights| ||
-|serviceAttr | transactionInsightOfferingType | Offering Type for Transaction Insights| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | transactionInsightStatus | Program Status for Transaction Insights| CANCEL|CANCEL|
-|serviceAttr | transactionInsightStatus | Program Status for Transaction Insights| ACTIVE|ACTIVE|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|transactionInsightBillingEffectiveDate | Billing Effective Date for Transaction Insights| ||
+|transactionInsightOfferingType | Offering Type for Transaction Insights| STANDARD_OFFERING|STANDARD_OFFERING|
+|transactionInsightStatus | Program Status for Transaction Insights| CANCEL|CANCEL|
+|transactionInsightStatus | Program Status for Transaction Insights| ACTIVE|ACTIVE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Veterans Program
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASVETPRG`
-* Product Description: Veterans Program
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASVETPRG  | Veterans Program  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASVETPRG  | Veterans Program  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | veteransProgramType | Veterans Program Offering Type| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | veteransProgramstatus | Veterans Program Account Status| CANCEL|CANCEL|
-|serviceAttr | veteransProgramstatus | Veterans Program Account Status| ACTIVE|ACTIVE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|veteransProgramType | Veterans Program Offering Type| STANDARD_OFFERING|STANDARD_OFFERING|
+|veteransProgramstatus | Veterans Program Account Status| CANCEL|CANCEL|
+|veteransProgramstatus | Veterans Program Account Status| ACTIVE|ACTIVE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | veteransProgramType | Veterans Program Offering Type| STANDARD_OFFERING|STANDARD_OFFERING|
-|serviceAttr | veteransProgramstatus | Veterans Program Account Status| CANCEL|CANCEL|
-|serviceAttr | veteransProgramstatus | Veterans Program Account Status| ACTIVE|ACTIVE|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|veteransProgramType | Veterans Program Offering Type| STANDARD_OFFERING|STANDARD_OFFERING|
+|veteransProgramstatus | Veterans Program Account Status| CANCEL|CANCEL|
+|veteransProgramstatus | Veterans Program Account Status| ACTIVE|ACTIVE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## VISA ACCOUNT FUNDING TRANSACTION
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASVISAACTFNDTRX`
-* Product Description: VISA ACCOUNT FUNDING TRANSACTION
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASVISAACTFNDTRX  | VISA ACCOUNT FUNDING TRANSACTION  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASVISAACTFNDTRX  | VISA ACCOUNT FUNDING TRANSACTION  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| FUNDS_TRANSFER|FUNDS_TRANSFER|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| WALLET_TRANSFER|WALLET_TRANSFER|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| PERSON_TO_PERSON|PERSON_TO_PERSON|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| NON-CARD_BILL_PAY|NON-CARD_BILL_PAY|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| PREPAID_LOADS|PREPAID_LOADS|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| BUSINESS_TO_BUSINESS|BUSINESS_TO_BUSINESS|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| CREDIT_CARD_BILL_PAY|CREDIT_CARD_BILL_PAY|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| BANK_INITIATED_TRANS|BANK_INITIATED_TRANS|
-|serviceAttr | visaActFndStatus | Program Status for Visa Account Funding| ACTIVE|ACTIVE|
-|serviceAttr | visaActFndStatus | Program Status for Visa Account Funding| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| FUNDS_TRANSFER|FUNDS_TRANSFER|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| WALLET_TRANSFER|WALLET_TRANSFER|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| PERSON_TO_PERSON|PERSON_TO_PERSON|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| NON-CARD_BILL_PAY|NON-CARD_BILL_PAY|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| PREPAID_LOADS|PREPAID_LOADS|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| BUSINESS_TO_BUSINESS|BUSINESS_TO_BUSINESS|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| CREDIT_CARD_BILL_PAY|CREDIT_CARD_BILL_PAY|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| BANK_INITIATED_TRANS|BANK_INITIATED_TRANS|
+|visaActFndStatus | Program Status for Visa Account Funding| ACTIVE|ACTIVE|
+|visaActFndStatus | Program Status for Visa Account Funding| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| FUNDS_TRANSFER|FUNDS_TRANSFER|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| WALLET_TRANSFER|WALLET_TRANSFER|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| PERSON_TO_PERSON|PERSON_TO_PERSON|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| NON-CARD_BILL_PAY|NON-CARD_BILL_PAY|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| PREPAID_LOADS|PREPAID_LOADS|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| BUSINESS_TO_BUSINESS|BUSINESS_TO_BUSINESS|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| CREDIT_CARD_BILL_PAY|CREDIT_CARD_BILL_PAY|
-|serviceAttr | visaActFndOfferingType | Offering Type for Visa Account Funding| BANK_INITIATED_TRANS|BANK_INITIATED_TRANS|
-|serviceAttr | visaActFndStatus | Program Status for Visa Account Funding| ACTIVE|ACTIVE|
-|serviceAttr | visaActFndStatus | Program Status for Visa Account Funding| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| FUNDS_TRANSFER|FUNDS_TRANSFER|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| WALLET_TRANSFER|WALLET_TRANSFER|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| PERSON_TO_PERSON|PERSON_TO_PERSON|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| NON-CARD_BILL_PAY|NON-CARD_BILL_PAY|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| PREPAID_LOADS|PREPAID_LOADS|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| BUSINESS_TO_BUSINESS|BUSINESS_TO_BUSINESS|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| CREDIT_CARD_BILL_PAY|CREDIT_CARD_BILL_PAY|
+|visaActFndOfferingType | Offering Type for Visa Account Funding| BANK_INITIATED_TRANS|BANK_INITIATED_TRANS|
+|visaActFndStatus | Program Status for Visa Account Funding| ACTIVE|ACTIVE|
+|visaActFndStatus | Program Status for Visa Account Funding| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## VISA ACCOUNT UPDATER
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASVISAACTUPD`
-* Product Description: VISA ACCOUNT UPDATER
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASVISAACTUPD  | VISA ACCOUNT UPDATER  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASVISAACTUPD  | VISA ACCOUNT UPDATER  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | visaAcctUpdStatus | Program Status for VISA Account Update| CANCEL|CANCEL|
-|serviceAttr | visaAcctUpdStatus | Program Status for VISA Account Update| ACTIVE|ACTIVE|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|visaAcctUpdStatus | Program Status for VISA Account Update| CANCEL|CANCEL|
+|visaAcctUpdStatus | Program Status for VISA Account Update| ACTIVE|ACTIVE|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | visaAcctUpdStatus | Program Status for VISA Account Update| CANCEL|CANCEL|
-|serviceAttr | visaAcctUpdStatus | Program Status for VISA Account Update| ACTIVE|ACTIVE|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|visaAcctUpdStatus | Program Status for VISA Account Update| CANCEL|CANCEL|
+|visaAcctUpdStatus | Program Status for VISA Account Update| ACTIVE|ACTIVE|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## VISA CHECKOUT
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASVISACHKOUT`
-* Product Description: VISA CHECKOUT
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASVISACHKOUT  | VISA CHECKOUT  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASVISACHKOUT  | VISA CHECKOUT  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | visaChkOutStatus | Program Sttatus for Visa Check Out| ACTIVE|ACTIVE|
-|serviceAttr | visaChkOutStatus | Program Sttatus for Visa Check Out| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|visaChkOutStatus | Program Sttatus for Visa Check Out| ACTIVE|ACTIVE|
+|visaChkOutStatus | Program Sttatus for Visa Check Out| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | visaChkOutStatus | Program Sttatus for Visa Check Out| ACTIVE|ACTIVE|
-|serviceAttr | visaChkOutStatus | Program Sttatus for Visa Check Out| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|visaChkOutStatus | Program Sttatus for Visa Check Out| ACTIVE|ACTIVE|
+|visaChkOutStatus | Program Sttatus for Visa Check Out| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## VISA OCT
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASVISAOCT`
-* Product Description: VISA OCT
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASVISAOCT  | VISA OCT  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASVISAOCT  | VISA OCT  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| GAMBLING_PAYOUT|GAMBLING_PAYOUT|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| PERSON_TO_PERSON|PERSON_TO_PERSON|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| MERCH_DISBURSEMENTS|MERCH_DISBURSEMENTS|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| FUNDS_DISBURSEMENTS|FUNDS_DISBURSEMENTS|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| LOYALTY_N_OFFERS|LOYALTY_N_OFFERS|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| FUNDS_TRANSFER|FUNDS_TRANSFER|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| ONLINE_GAMBLING|ONLINE_GAMBLING|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| PAYRL_PNSN_DISBRSMNT|PAYRL_PNSN_DISBRSMNT|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| CASH_DEPOSIT|CASH_DEPOSIT|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| RAPID_DEPOSIT|RAPID_DEPOSIT|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| BUSINESS_TO_BUSINESS|BUSINESS_TO_BUSINESS|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| BANK_INITIATED_P2P|BANK_INITIATED_P2P|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| WALLET_TRANSFER|WALLET_TRANSFER|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| MNY_TRFR_MERCH_INIT|MNY_TRFR_MERCH_INIT|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| GOVT_DISBURSEMENTS|GOVT_DISBURSEMENTS|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
-|serviceAttr | visaOctStatus | Program Status for Visa Oct| ACTIVE|ACTIVE|
-|serviceAttr | visaOctStatus | Program Status for Visa Oct| CANCEL|CANCEL|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|visaOctOfferingType | Offering Type for Visa Oct| GAMBLING_PAYOUT|GAMBLING_PAYOUT|
+|visaOctOfferingType | Offering Type for Visa Oct| PERSON_TO_PERSON|PERSON_TO_PERSON|
+|visaOctOfferingType | Offering Type for Visa Oct| MERCH_DISBURSEMENTS|MERCH_DISBURSEMENTS|
+|visaOctOfferingType | Offering Type for Visa Oct| FUNDS_DISBURSEMENTS|FUNDS_DISBURSEMENTS|
+|visaOctOfferingType | Offering Type for Visa Oct| LOYALTY_N_OFFERS|LOYALTY_N_OFFERS|
+|visaOctOfferingType | Offering Type for Visa Oct| FUNDS_TRANSFER|FUNDS_TRANSFER|
+|visaOctOfferingType | Offering Type for Visa Oct| ONLINE_GAMBLING|ONLINE_GAMBLING|
+|visaOctOfferingType | Offering Type for Visa Oct| PAYRL_PNSN_DISBRSMNT|PAYRL_PNSN_DISBRSMNT|
+|visaOctOfferingType | Offering Type for Visa Oct| CASH_DEPOSIT|CASH_DEPOSIT|
+|visaOctOfferingType | Offering Type for Visa Oct| RAPID_DEPOSIT|RAPID_DEPOSIT|
+|visaOctOfferingType | Offering Type for Visa Oct| BUSINESS_TO_BUSINESS|BUSINESS_TO_BUSINESS|
+|visaOctOfferingType | Offering Type for Visa Oct| BANK_INITIATED_P2P|BANK_INITIATED_P2P|
+|visaOctOfferingType | Offering Type for Visa Oct| WALLET_TRANSFER|WALLET_TRANSFER|
+|visaOctOfferingType | Offering Type for Visa Oct| MNY_TRFR_MERCH_INIT|MNY_TRFR_MERCH_INIT|
+|visaOctOfferingType | Offering Type for Visa Oct| GOVT_DISBURSEMENTS|GOVT_DISBURSEMENTS|
+|visaOctOfferingType | Offering Type for Visa Oct| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
+|visaOctStatus | Program Status for Visa Oct| ACTIVE|ACTIVE|
+|visaOctStatus | Program Status for Visa Oct| CANCEL|CANCEL|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| GAMBLING_PAYOUT|GAMBLING_PAYOUT|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| PERSON_TO_PERSON|PERSON_TO_PERSON|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| MERCH_DISBURSEMENTS|MERCH_DISBURSEMENTS|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| FUNDS_DISBURSEMENTS|FUNDS_DISBURSEMENTS|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| LOYALTY_N_OFFERS|LOYALTY_N_OFFERS|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| FUNDS_TRANSFER|FUNDS_TRANSFER|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| ONLINE_GAMBLING|ONLINE_GAMBLING|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| PAYRL_PNSN_DISBRSMNT|PAYRL_PNSN_DISBRSMNT|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| CASH_DEPOSIT|CASH_DEPOSIT|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| RAPID_DEPOSIT|RAPID_DEPOSIT|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| BUSINESS_TO_BUSINESS|BUSINESS_TO_BUSINESS|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| BANK_INITIATED_P2P|BANK_INITIATED_P2P|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| WALLET_TRANSFER|WALLET_TRANSFER|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| MNY_TRFR_MERCH_INIT|MNY_TRFR_MERCH_INIT|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| GOVT_DISBURSEMENTS|GOVT_DISBURSEMENTS|
-|serviceAttr | visaOctOfferingType | Offering Type for Visa Oct| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
-|serviceAttr | visaOctStatus | Program Status for Visa Oct| ACTIVE|ACTIVE|
-|serviceAttr | visaOctStatus | Program Status for Visa Oct| CANCEL|CANCEL|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|visaOctOfferingType | Offering Type for Visa Oct| GAMBLING_PAYOUT|GAMBLING_PAYOUT|
+|visaOctOfferingType | Offering Type for Visa Oct| PERSON_TO_PERSON|PERSON_TO_PERSON|
+|visaOctOfferingType | Offering Type for Visa Oct| MERCH_DISBURSEMENTS|MERCH_DISBURSEMENTS|
+|visaOctOfferingType | Offering Type for Visa Oct| FUNDS_DISBURSEMENTS|FUNDS_DISBURSEMENTS|
+|visaOctOfferingType | Offering Type for Visa Oct| LOYALTY_N_OFFERS|LOYALTY_N_OFFERS|
+|visaOctOfferingType | Offering Type for Visa Oct| FUNDS_TRANSFER|FUNDS_TRANSFER|
+|visaOctOfferingType | Offering Type for Visa Oct| ONLINE_GAMBLING|ONLINE_GAMBLING|
+|visaOctOfferingType | Offering Type for Visa Oct| PAYRL_PNSN_DISBRSMNT|PAYRL_PNSN_DISBRSMNT|
+|visaOctOfferingType | Offering Type for Visa Oct| CASH_DEPOSIT|CASH_DEPOSIT|
+|visaOctOfferingType | Offering Type for Visa Oct| RAPID_DEPOSIT|RAPID_DEPOSIT|
+|visaOctOfferingType | Offering Type for Visa Oct| BUSINESS_TO_BUSINESS|BUSINESS_TO_BUSINESS|
+|visaOctOfferingType | Offering Type for Visa Oct| BANK_INITIATED_P2P|BANK_INITIATED_P2P|
+|visaOctOfferingType | Offering Type for Visa Oct| WALLET_TRANSFER|WALLET_TRANSFER|
+|visaOctOfferingType | Offering Type for Visa Oct| MNY_TRFR_MERCH_INIT|MNY_TRFR_MERCH_INIT|
+|visaOctOfferingType | Offering Type for Visa Oct| GOVT_DISBURSEMENTS|GOVT_DISBURSEMENTS|
+|visaOctOfferingType | Offering Type for Visa Oct| ACCOUNT_TO_ACCOUNT|ACCOUNT_TO_ACCOUNT|
+|visaOctStatus | Program Status for Visa Oct| ACTIVE|ACTIVE|
+|visaOctStatus | Program Status for Visa Oct| CANCEL|CANCEL|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## VRU Services
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASVRUSRV`
-* Product Description: VRU Services
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASVRUSRV  | VRU Services  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASVRUSRV  | VRU Services  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | requestNewVruIdCd | Request New VRU Id For Compromised One| NO_REQUEST_OF_NEW_VRU|NO_REQUEST_OF_NEW_VRU|
-|serviceAttr | requestNewVruIdCd | Request New VRU Id For Compromised One| NEW_VRU_ID_COMPLETED|NEW_VRU_ID_COMPLETED|
-|serviceAttr | requestNewVruIdCd | Request New VRU Id For Compromised One| NEW_VRU_ID_REQUESTED|NEW_VRU_ID_REQUESTED|
-|serviceAttr | vruServiceofferingType | VRU Services Offering Type| BLACK_LISTED|BLACK_LISTED|
-|serviceAttr | vruServiceofferingType | VRU Services Offering Type| WHITE_LISTED|WHITE_LISTED|
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|requestNewVruIdCd | Request New VRU Id For Compromised One| NO_REQUEST_OF_NEW_VRU|NO_REQUEST_OF_NEW_VRU|
+|requestNewVruIdCd | Request New VRU Id For Compromised One| NEW_VRU_ID_COMPLETED|NEW_VRU_ID_COMPLETED|
+|requestNewVruIdCd | Request New VRU Id For Compromised One| NEW_VRU_ID_REQUESTED|NEW_VRU_ID_REQUESTED|
+|vruServiceofferingType | VRU Services Offering Type| BLACK_LISTED|BLACK_LISTED|
+|vruServiceofferingType | VRU Services Offering Type| WHITE_LISTED|WHITE_LISTED|
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | requestNewVruIdCd | Request New VRU Id For Compromised One| NO_REQUEST_OF_NEW_VRU|NO_REQUEST_OF_NEW_VRU|
-|serviceAttr | requestNewVruIdCd | Request New VRU Id For Compromised One| NEW_VRU_ID_COMPLETED|NEW_VRU_ID_COMPLETED|
-|serviceAttr | requestNewVruIdCd | Request New VRU Id For Compromised One| NEW_VRU_ID_REQUESTED|NEW_VRU_ID_REQUESTED|
-|serviceAttr | vruServiceofferingType | VRU Services Offering Type| BLACK_LISTED|BLACK_LISTED|
-|serviceAttr | vruServiceofferingType | VRU Services Offering Type| WHITE_LISTED|WHITE_LISTED|
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|requestNewVruIdCd | Request New VRU Id For Compromised One| NO_REQUEST_OF_NEW_VRU|NO_REQUEST_OF_NEW_VRU|
+|requestNewVruIdCd | Request New VRU Id For Compromised One| NEW_VRU_ID_COMPLETED|NEW_VRU_ID_COMPLETED|
+|requestNewVruIdCd | Request New VRU Id For Compromised One| NEW_VRU_ID_REQUESTED|NEW_VRU_ID_REQUESTED|
+|vruServiceofferingType | VRU Services Offering Type| BLACK_LISTED|BLACK_LISTED|
+|vruServiceofferingType | VRU Services Offering Type| WHITE_LISTED|WHITE_LISTED|
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Wells Statement And Notice Preferences
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASWELLSP`
-* Product Description: Wells Statement And Notice Preferences
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASWELLSP  | Wells Statement And Notice Preferences  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASWELLSP  | Wells Statement And Notice Preferences  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | bobPreference | Wells Bob Preference Field| PRINT_ONLY|PRINT_ONLY|
-|serviceAttr | bobPreference | Wells Bob Preference Field| ONLINE_AND_PRINT|ONLINE_AND_PRINT|
-|serviceAttr | bobPreference | Wells Bob Preference Field| ONLINE_ONLY|ONLINE_ONLY|
-|serviceAttr | ceoLPreference | Wells Ceo Preference Field| PRINT_ONLY|PRINT_ONLY|
-|serviceAttr | ceoLPreference | Wells Ceo Preference Field| ONLINE_AND_PRINT|ONLINE_AND_PRINT|
-|serviceAttr | ceoLPreference | Wells Ceo Preference Field| ONLINE_ONLY|ONLINE_ONLY|
-|serviceAttr | companyId | Wells Company Id Field| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|bobPreference | Wells Bob Preference Field| PRINT_ONLY|PRINT_ONLY|
+|bobPreference | Wells Bob Preference Field| ONLINE_AND_PRINT|ONLINE_AND_PRINT|
+|bobPreference | Wells Bob Preference Field| ONLINE_ONLY|ONLINE_ONLY|
+|ceoLPreference | Wells Ceo Preference Field| PRINT_ONLY|PRINT_ONLY|
+|ceoLPreference | Wells Ceo Preference Field| ONLINE_AND_PRINT|ONLINE_AND_PRINT|
+|ceoLPreference | Wells Ceo Preference Field| ONLINE_ONLY|ONLINE_ONLY|
+|companyId | Wells Company Id Field| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | bobPreference | Wells Bob Preference Field| PRINT_ONLY|PRINT_ONLY|
-|serviceAttr | bobPreference | Wells Bob Preference Field| ONLINE_AND_PRINT|ONLINE_AND_PRINT|
-|serviceAttr | bobPreference | Wells Bob Preference Field| ONLINE_ONLY|ONLINE_ONLY|
-|serviceAttr | ceoLPreference | Wells Ceo Preference Field| PRINT_ONLY|PRINT_ONLY|
-|serviceAttr | ceoLPreference | Wells Ceo Preference Field| ONLINE_AND_PRINT|ONLINE_AND_PRINT|
-|serviceAttr | ceoLPreference | Wells Ceo Preference Field| ONLINE_ONLY|ONLINE_ONLY|
-|serviceAttr | companyId | Wells Company Id Field| ||
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|bobPreference | Wells Bob Preference Field| PRINT_ONLY|PRINT_ONLY|
+|bobPreference | Wells Bob Preference Field| ONLINE_AND_PRINT|ONLINE_AND_PRINT|
+|bobPreference | Wells Bob Preference Field| ONLINE_ONLY|ONLINE_ONLY|
+|ceoLPreference | Wells Ceo Preference Field| PRINT_ONLY|PRINT_ONLY|
+|ceoLPreference | Wells Ceo Preference Field| ONLINE_AND_PRINT|ONLINE_AND_PRINT|
+|ceoLPreference | Wells Ceo Preference Field| ONLINE_ONLY|ONLINE_ONLY|
+|companyId | Wells Company Id Field| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
 
 ## Wisely Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
 
-* Product Code: `VASWSLENT`
-* Product Description: Wisely Entitlement
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASWSLENT  | Wisely Entitlement  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| VASWSLENT  | Wisely Entitlement  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
 
 ### serviceAttr
 
-* Attribute Specification:
+---
+
+ tags: [serviceAttr]
+
+---
 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | enrollmentStatus | Enrollment Status for Wisely Entitlement| ||
-|serviceAttr | merchantIdentifier | Merchant Identifier for Wisely Entitlement| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|enrollmentStatus | Enrollment Status for Wisely Entitlement| ||
+|merchantIdentifier | Merchant Identifier for Wisely Entitlement| ||
 <!-- type: tab -->
-|Domain                | Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|serviceAttr | enrollmentStatus | Enrollment Status for Wisely Entitlement| ||
-|serviceAttr | merchantIdentifier | Merchant Identifier for Wisely Entitlement| ||
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|enrollmentStatus | Enrollment Status for Wisely Entitlement| ||
+|merchantIdentifier | Merchant Identifier for Wisely Entitlement| ||
 <!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
 <!-- type: tab-end -->
+
 ---
