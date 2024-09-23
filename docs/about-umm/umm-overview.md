@@ -22,27 +22,31 @@ By unifying data and APIs, UMM simplifies the integration process, reducing comp
 
 ## Functionality
 
+### Merchant
+
 <!-- type: row -->
 
 <!-- type: card
-title: Merchant Onboarding
+title: Onboarding
 description:
 link:
 -->
 
 <!-- type: card
-title: Merchant Maintenance
+title: Maintenance
 description:
 link:
 -->
 
 <!-- type: card
-title: Merchant Inquiry
+title: Inquiry
 description:
 link:
 -->
 
 <!-- type: row-end -->
+
+### Miscellaneous
 
 <!-- type: row -->
 

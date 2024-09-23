@@ -1,20 +1,20 @@
 # Getting Started
 
-## Integration Options
+## Integrations
 
-UMM supports two ways to integrate:
+The following methods of intergration are currently supported
 
 <!-- type: row -->
 
 <!-- type: card
-title: UMM API 
-description: Use GraphQL queries to retrieve or manage merchant data as well as Rest APIs for UMM Master Data definition.
+title: Unified API 
+description: Use GraphQL queries to inquire/manage merchant data along with Rest APIs for master data definition.
 link: ?path=docs/getting-access/api-access.md
 -->
 
 <!-- type: card
-title: Direct Access to UMM Snowflake Database
-description: Consumer will have full read access to UMM Snowflake database and can use the data to Synch with their application incrementally or periodically.
+title: Direct Access to Snowflake Data Lake
+description: Consumer will have full read access to Snowflake data lake and can use the data to sync with their application incrementally or periodically.
 link: ?path=docs/getting-access/database-access.md
 -->
 
@@ -22,6 +22,6 @@ link: ?path=docs/getting-access/database-access.md
 
 ---
 
-## UMM Layout
+## Specifications
 
-Explore UMM documentation [here](?path=docs/specification/readMe.md)
+The platform aims to provide a single, exhaustive specification to work with. For more details, explore the specification documentation [here](?path=docs/specification/readMe.md)
