@@ -28,9 +28,9 @@
 # the delivery of this work
 ################################################################################
 
-- sections:
-  - title: About
-    link: docs/about-umm/umm-overview.md
+# - sections:
+#   - title: About
+#     link: docs/about-umm/umm-overview.md
 - sections:
   - title: Integrations
     # link: docs/getting-started.md
