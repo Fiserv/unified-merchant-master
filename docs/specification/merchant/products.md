@@ -6,6 +6,11 @@
     * Frequency Indicator - Indicates the frequency at which the fee will be billed(e.g. Monhtly or Daily)
     * Retail Date - date When fee will be billed to merchant
 
+* Explore Entitlement Domain & Attribute [Here](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
+* Explore Value Added Services Domain & Attribute [Here](?path=docs/specification/merchant/productAttributes_VAS.md)
+* Explore Fee Domain & Attribute [Here](?path=docs/specification/merchant/productAttributes_fees.md)
+* Explore Equipment Domain & Attribute [here](?path=docs/specification/merchant/productAttributes_equipment.md)
+
 * **How to Retrieve product & associated attributes from Snowflake Data tables?**:
   * Master Tables: Attributes are defined using below Master tables in UMM
     * UMM.DOMAIN_MASTER : Contains the definition of the Domain
@@ -17,11 +22,6 @@
 
 * Explore MERCHANT_PRODUCT entity  [Here](?path=docs/specification/merchant/merchantProduct.md)
 * Explore MERCHANT_PRODUCT_ATTRIBUTES entity  [Here](?path=docs/specification/merchant/ProductAttributes.md)
-
-* Explore Entitlement Attribute [Here](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
-* Explore Value Added Services Attribute [Here](?path=docs/specification/merchant/productAttributes_VAS.md)
-* Explore Fee Attribute [Here](?path=docs/specification/merchant/productAttributes_fees.md)
-* Explore Equipment Attribute [here](?path=docs/specification/merchant/productAttributes_equipment.md)
 
 ## Sample Queries
 
