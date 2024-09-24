@@ -81,6 +81,8 @@
         link: docs/specification/merchant/Tax_Adtnl_Data_US.md
       - title: Xref
         link: docs/specification/merchant/Merchant_Xref.md
+      - title: Product
+        link: docs/specification/merchant/products.md       
     - title: Product
       link: docs/specification/merchant/merchantProduct.md
       sections:
