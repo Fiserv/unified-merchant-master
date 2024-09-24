@@ -48,10 +48,10 @@ featuredFeatures:
     tags: ["UMM", "Merchant", "GraphQL", "Create"]
     bullets: ["UMM", "Merchant", "GraphQL", "Create"]
     relatedDocs:
-      - relatedDoc: 
-        title: Merchant
-        description: Merchant
-        link: /docs/getting-started.md
+      # - relatedDoc: 
+      #   title: Merchant
+      #   description: Merchant
+      #   link: /docs/getting-started.md
     relatedAPIs:
       - relatedAPI: 
         title: Merchant Create
@@ -63,10 +63,10 @@ featuredFeatures:
     tags: ["UMM", "Merchant", "GraphQL", "Inquiry", "Search"]
     bullets: ["UMM", "Merchant", "GraphQL", "Inquiry", "Search"]
     relatedDocs:
-      - relatedDoc: 
-        title: Merchant
-        description: Merchant
-        link: /docs/getting-started.md
+      # - relatedDoc: 
+      #   title: Merchant
+      #   description: Merchant
+      #   link: /docs/getting-started.md
     relatedAPIs:
       - relatedAPI: 
         title: Merchant Inquiry
@@ -83,10 +83,10 @@ featuredFeatures:
     tags: ["UMM", "Merchant", "GraphQL", "Update"]
     bullets: ["UMM", "Merchant", "GraphQL", "Update"]
     relatedDocs:
-      - relatedDoc: 
-        title: Merchant
-        description: Merchant
-        link: /docs/getting-started.md
+      # - relatedDoc: 
+      #   title: Merchant
+      #   description: Merchant
+      #   link: /docs/getting-started.md
     relatedAPIs:
       - relatedAPI: 
         title: Merchant Update
@@ -97,11 +97,11 @@ featuredFeatures:
     description: Unified Product Inquiry API to retrieve all available products for a given backend and product category
     tags: ["UMM", "Product", "Inquiry"]
     bullets: ["UMM", "Product", "Inquiry"] 
-    relatedDocs:
-      - relatedDoc: 
-        title: Products
-        description: Products
-        link: /docs/getting-started.md
+    # relatedDocs:
+    #   - relatedDoc: 
+    #     title: Products
+    #     description: Products
+    #     link: /docs/getting-started.md
     relatedAPIs:
       - relatedAPI: 
         title: Product Inquiry

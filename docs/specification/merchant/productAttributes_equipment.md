@@ -1,6 +1,4 @@
-# Product Attributes - Equipment 
-
-**List of attributes for  Equipment product.**
+# Equipment Product List
 
 * Product Code: Any Equipment Product  [Supported Equipment Product List ](?path=docs/specification/products_equipments.md)
 
@@ -11,9 +9,9 @@
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
-|Domain        | Attribute                    | Description                                       | Values        | Value Description                                         | 
-|:-------------|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|
-|equipmentFeatures|autoCloseHhmm|Auto close HHMM|||
+| Attribute                    | Description                                       | Values        | Value Description                                         | 
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|
+|autoCloseHhmm|Auto close HHMM|||
 |equipmentFeatures|autoCloseMethod|Auto close method|||
 |equipmentFeatures|autoTidPopulate|Auto tid populate|||
 |equipmentFeatures|captureType1|Capture 1|||
@@ -43,9 +41,9 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-|Domain        | Attribute                    | Description                                       | Values        | Value Description                                         | 
-|:-------------|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|
-|equipmentFeatures|autoCloseHhmm|Auto close HHMM|||
+| Attribute                    | Description                                       | Values        | Value Description                                         | 
+|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|
+|autoCloseHhmm|Auto close HHMM|||
 |equipmentFeatures|autoCloseMethod|Auto close method|||
 |equipmentFeatures|autoTidPopulate|Auto tid populate|||
 |equipmentFeatures|captureType1|Capture 1|||
