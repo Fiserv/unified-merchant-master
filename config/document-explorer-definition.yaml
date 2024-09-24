@@ -92,32 +92,32 @@
           link: docs/specification/merchant/prodAttributes_Entitlements.md
         - title: Value Added Attribute
           link: docs/specification/merchant/productAttributes_VAS.md
-        - title: Fees Attribute
+        - title: Fee Attribute
           link:  docs/specification/merchant/productAttributes_fees.md
         - title: Equipment Attributes
           link:   docs/specification/merchant/productAttributes_equipment.md     
-    - title: Product
-      link: docs/specification/merchant/merchantProduct.md
-      sections:
-      - title: Entitlements
-        link: docs/specification/products_entitlements.md
-      - title: Equipment
-        link: docs/specification/products_equipments.md
-      - title: Fees
-        link: docs/specification/products_fees.md
-      - title: Value Added Services
-        link: docs/specification/products_vas.md
-    - title: Product Attributes
-      link: docs/specification/merchant/ProductAttributes.md  
-      sections:
-      - title: Entitlements
-        link: docs/specification/merchant/prodAttributes_Entitlements.md
-      - title: Equipment
-        link: docs/specification/merchant/productAttributes_equipment.md
-      - title: Fees
-        link: docs/specification/merchant/productAttributes_fees.md
-      - title: Value Added Services
-        link: docs/specification/merchant/productAttributes_VAS.md
+    # - title: Product
+    #   link: docs/specification/merchant/merchantProduct.md
+    #   sections:
+    #   - title: Entitlements
+    #     link: docs/specification/products_entitlements.md
+    #   - title: Equipment
+    #     link: docs/specification/products_equipments.md
+    #   - title: Fees
+    #     link: docs/specification/products_fees.md
+    #   - title: Value Added Services
+    #     link: docs/specification/products_vas.md
+    # - title: Product Attributes
+    #   link: docs/specification/merchant/ProductAttributes.md  
+    #   sections:
+    #   - title: Entitlements
+    #     link: docs/specification/merchant/prodAttributes_Entitlements.md
+    #   - title: Equipment
+    #     link: docs/specification/merchant/productAttributes_equipment.md
+    #   - title: Fees
+    #     link: docs/specification/merchant/productAttributes_fees.md
+    #   - title: Value Added Services
+    #     link: docs/specification/merchant/productAttributes_VAS.md
 - sections:
   - title: Release notes
     sections:
