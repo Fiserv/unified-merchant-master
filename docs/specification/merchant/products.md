@@ -27,10 +27,8 @@ Here are few attributes linked to fee product:
   * UMM.MERCHANT_PRODUCT: Contains available products for a merchant
   * UMM.MERCHANT_PRODUCT_ATTRIBUTES: Contains the ID of the UMM.ATTRIBUTE_MASTER for each merchant and product
 
-* Explore MERCHANT_PRODUCT entity structure [Here](path=docs/specification/merchant/merchantProduct.md)
-* Explore MERCHANT_PRODUCT_ATTRIBUTES entity structure [Here](path=docs/specification/merchant/ProductAttributes.md)
-
-
+* Explore MERCHANT_PRODUCT entity structure [Here](?path=docs/specification/merchant/merchantProduct.md)
+* Explore MERCHANT_PRODUCT_ATTRIBUTES entity structure [Here](?path=docs/specification/merchant/ProductAttributes.md)
 
 ## Sample Queries
 
