@@ -15,6 +15,8 @@
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Number  |         |    38        |    NA     | NA     | NA |    NA     |
 
+---
+
 ### TABLE_NAME
 
 * Description: Name of the Table or entity got modified
@@ -24,6 +26,8 @@
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  |     5    |    100        |    NA     | NA     | NA |    NA     |
+
+---
 
 ### MERCHANT_ID
 
@@ -35,6 +39,9 @@
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  |     5    |    50        |    NA     | NA     | NA |    NA     |
 
+
+---
+
 ### BE_PLATFORM_CODE
 
 * Description:  Backend Platform of the merchant  
@@ -44,6 +51,8 @@
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  |     5    |    10        |    NA     | NA     | NA |    NA     |
+
+---
 
 ### ACTION
 
@@ -62,6 +71,8 @@
 | `UPDATE`     |   Update of existing Record       |
 | `DELETE`     |   Deletion of existing Record |
 
+---
+
 ### AUDIT_COLUMN_NAME
 
 * Description:  Specific column name got modified in a table
@@ -71,6 +82,8 @@
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  |     2    |    100        |    NA     | NA     | NA |    NA     |
+
+---
 
 ### OLD_VALUE
 
@@ -82,6 +95,8 @@
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  |     1    |    10000        |    NA     | NA     | NA |    NA     |
 
+---
+
 ### NEW_VALUE
 
 * Description:  New Value after modification
@@ -92,6 +107,8 @@
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  |     1    |    10000        |    NA     | NA     | NA |    NA     |
 
+---
+
 ### CHANGED_TIMESTAMP
 
 * Description:   Date when insert/update/delete event occured  
@@ -101,6 +118,8 @@
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Timestamp   |     NA    |    NA        |    NA     | NA     | NA |    NA     |
 
+---
+
 ### CHANGED_BY
 
 * Description:   Who performed the change  
@@ -109,3 +128,5 @@
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Timestamp   |     1    |    100        |    NA     | NA     | NA |    NA     |
+
+---

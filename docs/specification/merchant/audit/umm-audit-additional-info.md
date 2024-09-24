@@ -15,6 +15,8 @@
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Number  |         |    38        |    NA     | NA     | NA |    NA     |
 
+--
+
 ### TABLE_NAME
 
 * Description: Name of the Table or entity got modified
@@ -24,6 +26,8 @@
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  |     5    |    100        |    NA     | NA     | NA |    NA     |
+
+---
 
 ### KEY_COLUMN_NAME
 
@@ -39,6 +43,8 @@
 * `UMM_AUDIT_INFO` will contain Merchant# and platform code as standard columns, where as third primary key
 * `ATTRIBUTE_ID` will be stored under `KEY_COLUMN_NAME`
 
+---
+
 ### KEY_COLUMN_VALUE
 
 * Description: Value of the `KEY_COLUMN_NAME`
@@ -49,6 +55,8 @@
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | String  |     1    |    600        |    NA     | NA     | NA |    NA     |
 
+---
+
 ### CREATED_DATE
 
 * Description: Audit Date
@@ -58,3 +66,5 @@
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
 | Date  |     10    |    10        |    NA     | NA     | NA |    NA     |
+
+---
