@@ -1,12 +1,33 @@
 # Merchant Products
 
 * **Description**: Merchant may have a variety of products. In UMM Fee, Equipment , Entitlement and Value added service everything is csondidered as a product. Products are grouped  into four different categories :
+
   * Equipment: Includes processing devices owned by the merchant, denoted by the product code prefix "EQ". See supported Equipments [here](?path=docs/specification/products_equipments.md)
   * Entitlement: Encompasses the range of cards supported by the merchant, identified by the product code prefix "ENTL". See supported Entitlements [here](?path=docs/specification/products_entitlements.md)
   * Value Added Services (VAS): Consists of additional services consumed by the merchant, such as Transarmor, distinguished by the product code prefix "VAS". See supported Value Added Services [here](?path=docs/specification/products_vas.md)
   * Fee: Represents the fees that apply to the merchant, labeled with the product code prefix "F". Se supported Fees [here](?path=docs/specification/products_fees.md)
 
-Every product is defined by a group of attributes, with each attribute representing a specific aspect of the product.Explore more about product attribute [here] (path=docs\specification\merchant\ProductAttributes.md).
+Every product is defined by a group of attributes, with each attribute representing a specific aspect of the product.For instance, a merchant could have a Mastercard product with  Merchant Category Code  5521, Service Type Code 'F', and Floor Limit Amount 15.00. When we assign attribute ID 1 to the Merchant Category Code, ID 2 to the Service Type Code, and ID 3 to the Floor Limit Amount, Merchant will have attribute ID 1 set to 5521, attribute ID 2 set to 'F', and attribute ID 3 set to 15.00 for the Mastercard product. This means, product attributes are stored as key-value pairs for that specific Merchant and product combination.
+
+Further, these attributes will be organized under logical **Domains**. Refer to the list of Domains with attribrutes [here](?path=docs/specification/domain_attribute_list.md)
+
+* Example of a **Domain**: `feeAttr` is a **domain** that groups all  **Attributes** related to a fee product.
+
+Here are some attributes linked to fee product:
+
+* Frequency Indicator - Indicates whether is a monthly or daily fee
+* Retail Date - When fee will be billed to merchant
+
+* **How to Retrieve product & associated attributes from Snowflake Data tables?**:
+  * Master Tables: Attributes are defined using below Master tables in UMM
+    * UMM.DOMAIN_MASTER : Contains the definition of the Domain
+    * UMM.ATTRIBUTE_MASTER: Contains the definition of the attributes and tied to Domain
+    * UMM.PRDCT_MASTER: Contains the definition of products
+    * umm.PRDCT_ATTRIBUTE_MASTER: Contains the associated attributes for a product
+  * UMM.MERCHANT_PRODUCT: Contains available products for a merchant 
+  * UMM.MERCHANT_PRODUCT_ATTRIBUTES: Contains the ID of the UMM.ATTRIBUTE_MASTER for each merchant and product
+  
+  * Sample Query to pull the attributes:
 
 * Sample Query to pull all products for a merchant :
 
@@ -19,6 +40,7 @@ Every product is defined by a group of attributes, with each attribute represent
     and status = 'Y'
 
 ```
+
 * Sample Query to fetch available products in UMM:
 
 ```text
