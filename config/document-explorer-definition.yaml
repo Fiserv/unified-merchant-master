@@ -84,8 +84,10 @@
       - title: Product
         link: docs/specification/merchant/products.md   
         sections:
-        - title: Entitlements
-          link: docs/specification/products_entitlements.md    
+        - title: Merchant Product
+          link: docs/specification/merchant/merchantProduct.md
+        - title: Merchant Product Attribute
+          link: docs/specification/merchant/ProductAttributes.md
     - title: Product
       link: docs/specification/merchant/merchantProduct.md
       sections:
