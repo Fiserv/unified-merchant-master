@@ -1,62 +1,17 @@
 # Entitlement Product List
 
-## Alipay
+## Mastercard
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
 
 |  Value    |     Description  |
 |:-----------|:----------------:|
-| ENTLALIPAY  | Alipay Eligibility Program  |
+| ENTLMC  | Mastercard Entitlement  |
 <!-- type: tab -->
 |  Value    |     Description  |
 |:-----------|:----------------:|
-| ENTLALIPAY  | Alipay Eligibility Program  |
-
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### entitlementAttr
-
----
-
- tags: [entitlementAttr]
-
----
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|alipayOfferingType | Alipay Entitlement| ALIPAY_ELIGIBLE|ALIPAY_ELIGIBLE|
-|effectiveDate | Effective Date| ||
-|mccCode | Merchant Category Code| ||
-<!-- type: tab -->
-|Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|alipayOfferingType | Alipay Entitlement| ALIPAY_ELIGIBLE|ALIPAY_ELIGIBLE|
-|effectiveDate | Effective Date| ||
-|mccCode | Merchant Category Code| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
----
-
-## American Express Multi Acquirer
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLAMEXMA  | American Express Multi Acquirer Entitlement  |
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLAMEXMA  | American Express Multi Acquirer Entitlement  |
+| ENTLMC  | Mastercard Entitlement  |
 
 <!-- type: tab -->
 |  Value    |     Description  |
@@ -78,44 +33,366 @@ titles: UMM, North, GMA
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
 |edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
 |edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### specialProgramIndicators
+
+---
+
+ tags: [specialProgramIndicators]
+
+---
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|canadaDebit | Canada Debit| ||
+|dicksSporting | Dicks Sporting| ||
+|lbrandss | Lbrandss| ||
+|toysUs | Toys Us| ||
+|walmartKotak | Walmart Kotak| ||
+<!-- type: tab -->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|canadaDebit | Canada Debit| ||
+|dicksSporting | Dicks Sporting| ||
+|lbrandss | Lbrandss| ||
+|toysUs | Toys Us| ||
+|walmartKotak | Walmart Kotak| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+---
+
+## Visa Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLVI  | Visa Entitlement  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLVI  | Visa Entitlement  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### entitlementAttr
+
+---
+
+ tags: [entitlementAttr]
+
+---
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |effectiveDate | Effective Date| ||
 |floorLimitAmount | Floor Limit Amount| ||
 |mccCode | Merchant Category Code| ||
 |pricingPlanCode | Pricing Plan Code| ||
 |serviceEstablishmentNumber | Service Establishment Number| ||
 |serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
 |serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
 |serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
 |serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 |Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
 |edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |effectiveDate | Effective Date| ||
 |floorLimitAmount | Floor Limit Amount| ||
 |mccCode | Merchant Category Code| ||
 |pricingPlanCode | Pricing Plan Code| ||
 |serviceEstablishmentNumber | Service Establishment Number| ||
 |serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
 |serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
 |serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
 |serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
@@ -134,13 +411,13 @@ titles: UMM, North, GMA
 -->
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
-|chase | Chase| ||
-|chaseNet | Chase Net| ||
+|visaAEO | visa AEO| ||
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
-|chase | Chase| ||
-|chaseNet | Chase Net| ||
+|visaAEO | visa AEO| ||
+|walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
@@ -475,6 +752,750 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
+## Diners
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLDINER  | Diners Entitlement  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLDINER  | Diners Entitlement  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### entitlementAttr
+
+---
+
+ tags: [entitlementAttr]
+
+---
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### specialProgramIndicators
+
+---
+
+ tags: [specialProgramIndicators]
+
+---
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|walmartKotak | Walmart Kotak| ||
+<!-- type: tab -->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|walmartKotak | Walmart Kotak| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+---
+
+## Discover
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLDISC  | Discover Entitlement  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLDISC  | Discover Entitlement  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### entitlementAttr
+
+---
+
+ tags: [entitlementAttr]
+
+---
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
+|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### paypalOptOutReason
+
+---
+
+ tags: [paypalOptOutReason]
+
+---
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|reasonCode | Opt Out Reason Code| OTHER|VALUE|
+|reasonCode | Opt Out Reason Code| NOT_INTERESTED|VALUE|
+|reasonCode | Opt Out Reason Code| NOT_SOLICITED|VALUE|
+|reasonCode | Opt Out Reason Code| NOT_ELIGIBLE|VALUE|
+|reasonCode | Opt Out Reason Code| PREV_BAN_EXPERIENCE|VALUE|
+|reasonCode | Opt Out Reason Code| RATE_CONCERNS|VALUE|
+<!-- type: tab -->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|effectiveDate | Effective Date| ||
+|reasonCode | Opt Out Reason Code| OTHER|VALUE|
+|reasonCode | Opt Out Reason Code| NOT_INTERESTED|VALUE|
+|reasonCode | Opt Out Reason Code| NOT_SOLICITED|VALUE|
+|reasonCode | Opt Out Reason Code| NOT_ELIGIBLE|VALUE|
+|reasonCode | Opt Out Reason Code| PREV_BAN_EXPERIENCE|VALUE|
+|reasonCode | Opt Out Reason Code| RATE_CONCERNS|VALUE|
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### specialProgramIndicators
+
+---
+
+ tags: [specialProgramIndicators]
+
+---
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|upi | Upi| ||
+|walmartKotak | Walmart Kotak| ||
+<!-- type: tab -->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|upi | Upi| ||
+|walmartKotak | Walmart Kotak| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+---
+
+## Telecheck
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLTCK  | Telecheck Entitlement  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLTCK  | Telecheck Entitlement  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### checkAcceptanceMethod
+
+---
+
+ tags: [checkAcceptanceMethod]
+
+---
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|checkCashingVerification | Check Cashing Verification| ||
+|checkCashingWarranty | Check Cashing Warranty| ||
+|cloverGoSettle | Clover Go Settle| ||
+|cloverGoWarranty | Clover Go Warranty| ||
+|codWarranty | Cod Warranty| ||
+|holdCheckWarranty | Hold Check Warranty| ||
+|inPersonECAVerification | InPerson ECA Verification| ||
+|inPersonECAVerificationTRS | InPerson ECA Verification TRS| ||
+|inPersonECAWarranty | InPerson ECA Warranty| ||
+|inPersonPaperVerification | InPerson Paper Verification| ||
+|inPersonPaperWarranty | InPerson Paper Warranty| ||
+|lockboxVerification | Lockbox Verification| ||
+|lockboxWarranty | Lockbox Warranty| ||
+|mailDropboxVerification | Mail Dropbox Verification| ||
+|mailDropboxWarranty | Mail Dropbox Warranty| ||
+|mailOrderWarranty | Mail Order Warranty| ||
+|miscInfoText | Misc Info Text| ||
+|mobileAppSettle | Mobile App Settle| ||
+|mobileAppWarranty | Mobile App Warranty| ||
+|onlineVerification | Online Verification| ||
+|onlineVerificationTRS | Online Verification TRS| ||
+|onlineWarranty | Online Warranty| ||
+|phoneVerification | Phone Verification| ||
+|phoneVerificationTRS | Phone Verification TRS| ||
+|phoneWarranty | Phone Warranty| ||
+|recurringPaymentsVerification | Recurring Payments Verification| ||
+|recurringPaymentsVerificationTRS | Recurring Payments Verification TRS| ||
+|recurringPaymentsWarranty | Recurring Payments Warranty| ||
+|specialtyItemsSettle | Specialty Items Settle| ||
+|specialtyItemsWarranty | Specialty Items Warranty| ||
+|trsCollections | Trs Collections| ||
+<!-- type: tab -->
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|checkCashingVerification | Check Cashing Verification| ||
+|checkCashingWarranty | Check Cashing Warranty| ||
+|cloverGoSettle | Clover Go Settle| ||
+|cloverGoWarranty | Clover Go Warranty| ||
+|codWarranty | Cod Warranty| ||
+|holdCheckWarranty | Hold Check Warranty| ||
+|inPersonECAVerification | InPerson ECA Verification| ||
+|inPersonECAVerificationTRS | InPerson ECA Verification TRS| ||
+|inPersonECAWarranty | InPerson ECA Warranty| ||
+|inPersonPaperVerification | InPerson Paper Verification| ||
+|inPersonPaperWarranty | InPerson Paper Warranty| ||
+|lockboxVerification | Lockbox Verification| ||
+|lockboxWarranty | Lockbox Warranty| ||
+|mailDropboxVerification | Mail Dropbox Verification| ||
+|mailDropboxWarranty | Mail Dropbox Warranty| ||
+|mailOrderWarranty | Mail Order Warranty| ||
+|miscInfoText | Misc Info Text| ||
+|mobileAppSettle | Mobile App Settle| ||
+|mobileAppWarranty | Mobile App Warranty| ||
+|onlineVerification | Online Verification| ||
+|onlineVerificationTRS | Online Verification TRS| ||
+|onlineWarranty | Online Warranty| ||
+|phoneVerification | Phone Verification| ||
+|phoneVerificationTRS | Phone Verification TRS| ||
+|phoneWarranty | Phone Warranty| ||
+|recurringPaymentsVerification | Recurring Payments Verification| ||
+|recurringPaymentsVerificationTRS | Recurring Payments Verification TRS| ||
+|recurringPaymentsWarranty | Recurring Payments Warranty| ||
+|specialtyItemsSettle | Specialty Items Settle| ||
+|specialtyItemsWarranty | Specialty Items Warranty| ||
+|trsCollections | Trs Collections| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### entitlementAttr
+
+---
+
+ tags: [entitlementAttr]
+
+---
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+---
+
+## Visa Multi Acquirer Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLVIMA  | Visa Multi Acquirer Entitlement  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLVIMA  | Visa Multi Acquirer Entitlement  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### entitlementAttr
+
+---
+
+ tags: [entitlementAttr]
+
+---
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### specialProgramIndicators
+
+---
+
+ tags: [specialProgramIndicators]
+
+---
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
+<!-- type: tab -->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+---
+
+## American Express Multi Acquirer
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLAMEXMA  | American Express Multi Acquirer Entitlement  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLAMEXMA  | American Express Multi Acquirer Entitlement  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### entitlementAttr
+
+---
+
+ tags: [entitlementAttr]
+
+---
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### specialProgramIndicators
+
+---
+
+ tags: [specialProgramIndicators]
+
+---
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
+<!-- type: tab -->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|chase | Chase| ||
+|chaseNet | Chase Net| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+---
+
+
+
+## Alipay
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLALIPAY  | Alipay Eligibility Program  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLALIPAY  | Alipay Eligibility Program  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### entitlementAttr
+
+---
+
+ tags: [entitlementAttr]
+
+---
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|alipayOfferingType | Alipay Entitlement| ALIPAY_ELIGIBLE|ALIPAY_ELIGIBLE|
+|effectiveDate | Effective Date| ||
+|mccCode | Merchant Category Code| ||
+<!-- type: tab -->
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|alipayOfferingType | Alipay Entitlement| ALIPAY_ELIGIBLE|ALIPAY_ELIGIBLE|
+|effectiveDate | Effective Date| ||
+|mccCode | Merchant Category Code| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+---
+
 
 ## Arvato Eold
 <!-- type: tab 
@@ -2128,344 +3149,6 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Diners
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLDINER  | Diners Entitlement  |
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLDINER  | Diners Entitlement  |
-
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### entitlementAttr
-
----
-
- tags: [entitlementAttr]
-
----
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-|Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### specialProgramIndicators
-
----
-
- tags: [specialProgramIndicators]
-
----
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|walmartKotak | Walmart Kotak| ||
-<!-- type: tab -->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|walmartKotak | Walmart Kotak| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
----
-
-## Discover
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLDISC  | Discover Entitlement  |
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLDISC  | Discover Entitlement  |
-
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### entitlementAttr
-
----
-
- tags: [entitlementAttr]
-
----
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-|Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### paypalOptOutReason
-
----
-
- tags: [paypalOptOutReason]
-
----
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|effectiveDate | Effective Date| ||
-|reasonCode | Opt Out Reason Code| OTHER|VALUE|
-|reasonCode | Opt Out Reason Code| NOT_INTERESTED|VALUE|
-|reasonCode | Opt Out Reason Code| NOT_SOLICITED|VALUE|
-|reasonCode | Opt Out Reason Code| NOT_ELIGIBLE|VALUE|
-|reasonCode | Opt Out Reason Code| PREV_BAN_EXPERIENCE|VALUE|
-|reasonCode | Opt Out Reason Code| RATE_CONCERNS|VALUE|
-<!-- type: tab -->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|effectiveDate | Effective Date| ||
-|reasonCode | Opt Out Reason Code| OTHER|VALUE|
-|reasonCode | Opt Out Reason Code| NOT_INTERESTED|VALUE|
-|reasonCode | Opt Out Reason Code| NOT_SOLICITED|VALUE|
-|reasonCode | Opt Out Reason Code| NOT_ELIGIBLE|VALUE|
-|reasonCode | Opt Out Reason Code| PREV_BAN_EXPERIENCE|VALUE|
-|reasonCode | Opt Out Reason Code| RATE_CONCERNS|VALUE|
-<!-- type: tab -->
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### specialProgramIndicators
-
----
-
- tags: [specialProgramIndicators]
-
----
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|upi | Upi| ||
-|walmartKotak | Walmart Kotak| ||
-<!-- type: tab -->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|upi | Upi| ||
-|walmartKotak | Walmart Kotak| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
----
 
 ## Discover Multi Acquirer
 <!-- type: tab 
@@ -4136,219 +4819,6 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Mastercard
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLMC  | Mastercard Entitlement  |
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLMC  | Mastercard Entitlement  |
-
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### entitlementAttr
-
----
-
- tags: [entitlementAttr]
-
----
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-|Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### specialProgramIndicators
-
----
-
- tags: [specialProgramIndicators]
-
----
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|canadaDebit | Canada Debit| ||
-|dicksSporting | Dicks Sporting| ||
-|lbrandss | Lbrandss| ||
-|toysUs | Toys Us| ||
-|walmartKotak | Walmart Kotak| ||
-<!-- type: tab -->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|canadaDebit | Canada Debit| ||
-|dicksSporting | Dicks Sporting| ||
-|lbrandss | Lbrandss| ||
-|toysUs | Toys Us| ||
-|walmartKotak | Walmart Kotak| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
----
 
 ## Mastercard Multi Acquirer
 <!-- type: tab 
@@ -5190,163 +5660,6 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Telecheck
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLTCK  | Telecheck Entitlement  |
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLTCK  | Telecheck Entitlement  |
-
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### checkAcceptanceMethod
-
----
-
- tags: [checkAcceptanceMethod]
-
----
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|checkCashingVerification | Check Cashing Verification| ||
-|checkCashingWarranty | Check Cashing Warranty| ||
-|cloverGoSettle | Clover Go Settle| ||
-|cloverGoWarranty | Clover Go Warranty| ||
-|codWarranty | Cod Warranty| ||
-|holdCheckWarranty | Hold Check Warranty| ||
-|inPersonECAVerification | InPerson ECA Verification| ||
-|inPersonECAVerificationTRS | InPerson ECA Verification TRS| ||
-|inPersonECAWarranty | InPerson ECA Warranty| ||
-|inPersonPaperVerification | InPerson Paper Verification| ||
-|inPersonPaperWarranty | InPerson Paper Warranty| ||
-|lockboxVerification | Lockbox Verification| ||
-|lockboxWarranty | Lockbox Warranty| ||
-|mailDropboxVerification | Mail Dropbox Verification| ||
-|mailDropboxWarranty | Mail Dropbox Warranty| ||
-|mailOrderWarranty | Mail Order Warranty| ||
-|miscInfoText | Misc Info Text| ||
-|mobileAppSettle | Mobile App Settle| ||
-|mobileAppWarranty | Mobile App Warranty| ||
-|onlineVerification | Online Verification| ||
-|onlineVerificationTRS | Online Verification TRS| ||
-|onlineWarranty | Online Warranty| ||
-|phoneVerification | Phone Verification| ||
-|phoneVerificationTRS | Phone Verification TRS| ||
-|phoneWarranty | Phone Warranty| ||
-|recurringPaymentsVerification | Recurring Payments Verification| ||
-|recurringPaymentsVerificationTRS | Recurring Payments Verification TRS| ||
-|recurringPaymentsWarranty | Recurring Payments Warranty| ||
-|specialtyItemsSettle | Specialty Items Settle| ||
-|specialtyItemsWarranty | Specialty Items Warranty| ||
-|trsCollections | Trs Collections| ||
-<!-- type: tab -->
-|Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|checkCashingVerification | Check Cashing Verification| ||
-|checkCashingWarranty | Check Cashing Warranty| ||
-|cloverGoSettle | Clover Go Settle| ||
-|cloverGoWarranty | Clover Go Warranty| ||
-|codWarranty | Cod Warranty| ||
-|holdCheckWarranty | Hold Check Warranty| ||
-|inPersonECAVerification | InPerson ECA Verification| ||
-|inPersonECAVerificationTRS | InPerson ECA Verification TRS| ||
-|inPersonECAWarranty | InPerson ECA Warranty| ||
-|inPersonPaperVerification | InPerson Paper Verification| ||
-|inPersonPaperWarranty | InPerson Paper Warranty| ||
-|lockboxVerification | Lockbox Verification| ||
-|lockboxWarranty | Lockbox Warranty| ||
-|mailDropboxVerification | Mail Dropbox Verification| ||
-|mailDropboxWarranty | Mail Dropbox Warranty| ||
-|mailOrderWarranty | Mail Order Warranty| ||
-|miscInfoText | Misc Info Text| ||
-|mobileAppSettle | Mobile App Settle| ||
-|mobileAppWarranty | Mobile App Warranty| ||
-|onlineVerification | Online Verification| ||
-|onlineVerificationTRS | Online Verification TRS| ||
-|onlineWarranty | Online Warranty| ||
-|phoneVerification | Phone Verification| ||
-|phoneVerificationTRS | Phone Verification TRS| ||
-|phoneWarranty | Phone Warranty| ||
-|recurringPaymentsVerification | Recurring Payments Verification| ||
-|recurringPaymentsVerificationTRS | Recurring Payments Verification TRS| ||
-|recurringPaymentsWarranty | Recurring Payments Warranty| ||
-|specialtyItemsSettle | Specialty Items Settle| ||
-|specialtyItemsWarranty | Specialty Items Warranty| ||
-|trsCollections | Trs Collections| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### entitlementAttr
-
----
-
- tags: [entitlementAttr]
-
----
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
----
 
 ## Telecredit
 <!-- type: tab 
@@ -6307,313 +6620,6 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Visa Entitlement
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLVI  | Visa Entitlement  |
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLVI  | Visa Entitlement  |
-
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### entitlementAttr
-
----
-
- tags: [entitlementAttr]
-
----
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-|Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### specialProgramIndicators
-
----
-
- tags: [specialProgramIndicators]
-
----
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|visaAEO | visa AEO| ||
-|walmartKotak | Walmart Kotak| ||
-<!-- type: tab -->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|visaAEO | visa AEO| ||
-|walmartKotak | Walmart Kotak| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
----
-
-## Visa Multi Acquirer Entitlement
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLVIMA  | Visa Multi Acquirer Entitlement  |
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLVIMA  | Visa Multi Acquirer Entitlement  |
-
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### entitlementAttr
-
----
-
- tags: [entitlementAttr]
-
----
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-|Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### specialProgramIndicators
-
----
-
- tags: [specialProgramIndicators]
-
----
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|chase | Chase| ||
-|chaseNet | Chase Net| ||
-<!-- type: tab -->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|chase | Chase| ||
-|chaseNet | Chase Net| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
----
 
 ## Voyager Entitlement
 <!-- type: tab 
@@ -6735,7 +6741,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Wright Express Entitlement
+## Wright Express
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->

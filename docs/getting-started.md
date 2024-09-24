@@ -24,7 +24,6 @@ link: ?path=docs/getting-access/database-access.md
 
 ## Specifications
 
-For more details please refer below documentations:
+Please refer below documentations:
 
 * Specification documentation [here](?path=docs/specification/readMe.md)
-* Auditing documentation [here](?path=docs/specification/merchant/audit/merchantAuditing.md)
