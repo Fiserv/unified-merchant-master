@@ -2,7 +2,7 @@
 
 * Product Code: Any Fee Product  
 
-Supported Fee Products  can be retrieved using Product Inquiry API Call:
+Supported Fee Products  can be retrieved using Product Inquiry API Call.
 
 ```http
 
@@ -11,6 +11,7 @@ x-consumer-name: $consume-name
 x-encrypted-data: true
 
 ```
+
 
 * Attribute List by Domain:
 
@@ -26,7 +27,7 @@ x-encrypted-data: true
 titles: UMM, North, GMA 
 -->
 
-|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|
+
 | Attribute                    | Description                                       | Values        | Value Description                                         | 
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|
 | frequencyInd                 | Frequency Indicator                               | S             |  Special                                                  |
@@ -44,7 +45,6 @@ titles: UMM, North, GMA
 
 <!-- type: tab -->
 
-|:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|
 | Attribute                    | Description                                       | Values        | Value Description                                         | 
 |:-----------------------------|:--------------------------------------------------|:--------------|:----------------------------------------------------------|
 | frequencyInd                 | Frequency Indicator                               | S             |  Special                                                  |
