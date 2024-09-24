@@ -30,7 +30,6 @@ Here are few attributes linked to fee product:
 * Explore MERCHANT_PRODUCT entity structure [Here](?path=docs/specification/merchant/merchantProduct.md)
 * Explore MERCHANT_PRODUCT_ATTRIBUTES entity structure [Here](?path=docs/specification/merchant/ProductAttributes.md)
 
-
 ## Sample Queries
 
 * Sample Query to pull all products for a merchant :
