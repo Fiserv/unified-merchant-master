@@ -1,10 +1,20 @@
 # Fee Product List
 
-* Product Code: Any Fee Product  [Supported Fee Product List ](?path=docs/specification/products_fees.md)
+* Product Code: Any Fee Product  
+
+Supported Fee Products  can be retrieved using Product Inquiry API Call:
+
+```http
+
+GET https://connect.fiservapis.com/unifiedmerchantmaster/internal/v1/products?platformCode=$platform&productCategory=EQUIPMENT HTTP/1.1
+x-consumer-name: $consume-name
+x-encrypted-data: true
+
+```
 
 * Attribute List by Domain:
 
-### feeAttr
+## feeAttr
 
 ---
 
