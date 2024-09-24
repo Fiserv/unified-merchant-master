@@ -84,10 +84,18 @@
       - title: Product
         link: docs/specification/merchant/products.md   
         sections:
-        - title: Merchant Product
+        - title: Merchant Product Entity
           link: docs/specification/merchant/merchantProduct.md
-        - title: Merchant Product Attribute
+        - title: Merchant Product Attribute Entity
           link: docs/specification/merchant/ProductAttributes.md
+        - title: Entitlement Attribute
+          link: docs/specification/merchant/prodAttributes_Entitlements.md
+        - title: Value Added Attribute
+          link: docs/specification/merchant/productAttributes_VAS.md
+        - title: Fees Attribute
+          link:  docs/specification/merchant/productAttributes_fees.md
+        - title: Equipment Attributes
+          link:   docs/specification/merchant/productAttributes_equipment.md     
     - title: Product
       link: docs/specification/merchant/merchantProduct.md
       sections:
