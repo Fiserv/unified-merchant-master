@@ -32,8 +32,8 @@
   - title: About
     link: docs/about-umm/umm-overview.md
 - sections:
-  - title: Getting Started
-    link: docs/getting-started.md
+  - title: Integrations
+    # link: docs/getting-started.md
 # - sections:
 #   - title: Getting Access
 #     link: docs/getting-access/umm-access.md
