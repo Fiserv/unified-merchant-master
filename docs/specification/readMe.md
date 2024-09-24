@@ -2,14 +2,14 @@
 
 This document will help you to understand the UMM data specification that enables UMM to support multiple different back ends.
 
-Consumers can use UMM data in two different ways -
+> Consumers can use UMM data in two different ways -
 
 * API
 * Snowflake Database as a Canonical data source
 
-> This documentation covers specifications for both way and provides in depth details on what any consumer needs to know in order to start using the UMM data
+ This documentation covers specifications for both way and provides in depth details on what any consumer needs to know in order to start using the UMM data
 
-## General construct of the data store
+## General construct of the Merchant Data
 
 Three Fundamental Models used by UMM to store merchant data
 
@@ -28,7 +28,7 @@ Each entity has the below columns as part of their key
 
 Each entity will provide a comprehensive list of all fields/columns it has , including their specifications such as minimum and maximum length, data type, allowable values (if applicable). Additionally, it will detail the corresponding API field name, indicate if the field is a mandatory component of the onboarding request, and specify whether it can be modified via an API call.
 
-Moreover, each field will have tabs for UMM and specific backend , providing detailed information on the data type, restrictions, and allowable values for both UMM and the respective backend systems. For instance, the UMM tab will include allowable values specific to UMM, regardless of the backend system, while the backend-specific tab will list allowable values tailored to that particular backend. For instance, if a field can support values 'a' and 'b' for the North backend, and value 'C' for Omnipay GMA, UMM will list values 'a', 'b', and 'c' under the UMM tab. In contrast, the North backend tab will display values 'a' and 'b', while the GMA tab will list value 'C' only.
+> Moreover, each field will have tabs for UMM and specific backend , providing detailed information on the data type, restrictions, and allowable values for both UMM and the respective backend systems. For instance, the UMM tab will include allowable values specific to UMM, regardless of the backend system, while the backend-specific tab will list allowable values tailored to that particular backend. For instance, if a field can support values 'a' and 'b' for the North backend, and value 'c' for Omnipay GMA, UMM will list values 'a', 'b', and 'c' under the UMM tab. In contrast, the North backend tab will display values 'a' and 'b', while the GMA tab will list value 'c' only.
 
 Refer to UMM's [Auditing strategy](?path=docs/specification/merchant/audit/merchantAuditing.md) for additional information.
 
