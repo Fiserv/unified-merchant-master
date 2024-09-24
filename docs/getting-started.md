@@ -2,7 +2,7 @@
 
 ## Integrations
 
-The following methods of intergration are currently supported
+The following methods of intergration are currently supported:
 
 <!-- type: row -->
 
@@ -24,4 +24,7 @@ link: ?path=docs/getting-access/database-access.md
 
 ## Specifications
 
-The platform aims to provide a single, exhaustive specification to work with. For more details, explore the specification documentation [here](?path=docs/specification/readMe.md)
+For more details please refer below documentations:
+
+* Specification documentation [here](?path=docs/specification/readMe.md)
+* Auditing documentation [here](?path=docs\specification\merchant\audit\merchantAuditing.md)
