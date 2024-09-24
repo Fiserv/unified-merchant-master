@@ -82,7 +82,10 @@
       - title: Xref
         link: docs/specification/merchant/Merchant_Xref.md
       - title: Product
-        link: docs/specification/merchant/products.md       
+        link: docs/specification/merchant/products.md   
+        sections:
+        - title: Entitlements
+          link: docs/specification/products_entitlements.md    
     - title: Product
       link: docs/specification/merchant/merchantProduct.md
       sections:

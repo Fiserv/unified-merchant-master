@@ -1,6 +1,6 @@
 # Entitlement Product List
 
-## Alipay Eligibility Program
+## Alipay
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -45,7 +45,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## American Express Multi Acquirer Entitlement
+## American Express Multi Acquirer
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -145,7 +145,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Amex Opt Blue Entitlement
+## Amex Opt Blue
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -353,7 +353,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Amex Pass Through Entitlement
+## Amex Pass Through
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -476,7 +476,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Arvato Eold Entitlement
+## Arvato Eold
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -553,7 +553,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Bill Me Later Entitlement
+## Bill Me Later
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -673,7 +673,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Check Non Warranty Entitlement
+## Check Non Warranty
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -750,7 +750,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Check Warranty Entitlement
+## Check Warranty
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -872,7 +872,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## China Union Pay Eligibilty Program
+## China Union Pay
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -917,7 +917,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Debit Eds Entitlement
+## Debit Eds
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -1545,7 +1545,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Debit Gateway Entitlement
+## Debit Gateway
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2028,7 +2028,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Debit Multi Acquirer Entitlement
+## Debit Multi Acquirer
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2128,7 +2128,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Diners Entitlement
+## Diners
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2226,7 +2226,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Discover Entitlement
+## Discover
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2467,7 +2467,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Discover Multi Acquirer Entitlement
+## Discover Multi Acquirer
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2567,7 +2567,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Ebt Entitlement
+## Ebt
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2644,7 +2644,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Encore Entitlement
+## Encore
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2721,7 +2721,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Earn Loyalty Entitlement
+## Earn Loyalty
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2798,7 +2798,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Etc Entitlement
+## Etc
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2875,7 +2875,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Explore Entitlement
+## Explore
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2952,7 +2952,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Fleetcore Entitlement
+## Fleetcore
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3029,7 +3029,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Fleetone Entitlement
+## Fleetone
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3106,7 +3106,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Funded Stored Value Entitlement
+## Funded Stored Value
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3214,7 +3214,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Future Petroleum 1 Entitlement
+## Future Petroleum 1
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3291,7 +3291,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Future Petroleum 2 Entitlement
+## Future Petroleum 2
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3368,7 +3368,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Future Petroleum 3 Entitlement
+## Future Petroleum 3
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3445,7 +3445,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Google Checkout Entitlement
+## Google Checkout
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3522,7 +3522,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Global Alternate Mops Entitlement
+## Global Alternate Mops
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3599,7 +3599,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Generic Private Label Entitlement
+## Generic Private Label
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3676,7 +3676,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Interac Contact Entitlement
+## Interac Contact
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3719,7 +3719,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Interac Flash Entitlement
+## Interac Flash
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3764,7 +3764,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Interac In App Entitlement
+## Interac In App
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3807,7 +3807,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Interlink Entitlement
+## Interlink
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3884,7 +3884,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Jbs Entitlement
+## Jbs
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3961,7 +3961,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Jcb Entitlement
+## Jcb
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -4059,7 +4059,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Maestro Entitlement
+## Maestro
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -4136,7 +4136,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Mastercard Entitlement
+## Mastercard
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -4350,7 +4350,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Mastercard Multi Acquirer Entitlement
+## Mastercard Multi Acquirer
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -4450,7 +4450,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Maestro International Entitlement
+## Maestro International
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -4527,7 +4527,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Offerwise Entitlement
+## Offerwise
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -4604,7 +4604,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Paypal Entitlement
+## Paypal
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -4832,7 +4832,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Purchase Card Entitlement
+## Purchase Card
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -5015,7 +5015,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Signature Debit Entitlement
+## Signature Debit
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -5113,7 +5113,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Tier Ii Credit Entitlement
+## Tier Ii Credit
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -5190,7 +5190,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Telecheck Entitlement
+## Telecheck
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -5348,7 +5348,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Telecredit Entitlement
+## Telecredit
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -5425,7 +5425,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Unfunded Stored Value Entitlement
+## Unfunded Stored Value
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
