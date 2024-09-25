@@ -97,7 +97,7 @@ titles: UMM
 
 ### UNIQUE_IDENTIFIER
 
-* Description: This field serves as a unique identifier for a particular product
+* Description: This field serves as a unique identifier for a particular product. E.g. For equipment product, it will have Equipment#
 * API field: `uniqueIdentifier`
 * Field Specification:
 
@@ -161,3 +161,5 @@ titles: UMM
 | BigDecimal  | NA       |    NA        |    Available   | Optional  |  Allowed   |    NA      |
 
 <!-- type: tab-end -->
+
+---
