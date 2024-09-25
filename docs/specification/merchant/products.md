@@ -25,7 +25,7 @@
 
 ## Sample Queries
 
-* Sample Query to pull all products for a merchant :
+### Sample Query to pull all products for a merchant
 
 ```text
 
@@ -37,7 +37,7 @@
 
 ```
 
-* Sample Query to pull the attributes for a merchant and product
+### Sample Query to pull the attributes for a merchant and product
 
 ```sql
 select merchant_id , prdct_code, attribute_id , name attribute_name  , value  
@@ -49,7 +49,7 @@ and p.attribute_id = am.id
 order by name
 ```
 
-* Sample Query to fetch associated attributes for a product 
+### Sample Query to fetch associated attributes for a product 
 
 ```text
 
@@ -62,7 +62,7 @@ and AM.DOMAIN_ID = DM.ID
 
 ```
 
-* Sample Query to fetch available products in UMM:
+### Sample Query to fetch available products in UMM:
 
 ```text
 
