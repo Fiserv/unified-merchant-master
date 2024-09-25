@@ -6,5 +6,7 @@
 |----------|:----------------:|:-------:|:------:|:------:|
 | North    |      `NORTH`     |   ✅    |  ✅    |  ✅    |
 | GMA      |    `OMNIPAY26`   |   ✅    |  ✅    |  ✅    |
-| South    |      `SOUTH`     | Limited | Q3 2024 | Q3 2024 |
+| South    |      `SOUTH`     | Limited | Q4 2024 | Q4 2024 |
 | Omaha    |      `OMAHA`     | Limited |   No    |   No   |
+
+Go Back to [Get Started](?path=docs/getting-started.md)
