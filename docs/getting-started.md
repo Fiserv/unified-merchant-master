@@ -22,6 +22,10 @@ link: ?path=docs/getting-access/database-access.md
 
 ---
 
+## Support Backend Platforms
+
+Explore supported backend platforms [Here](?path=docs/specification/supportedPlatforms.md)
+
 ## Specifications
 
 Please refer below documentations:
