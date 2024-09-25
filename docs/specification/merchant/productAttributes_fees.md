@@ -6,9 +6,25 @@ Supported Fee Products  can be retrieved using Product Inquiry API Call.
 
 ```http
 
-GET https://connect.fiservapis.com/unifiedmerchantmaster/internal/v1/products?platformCode=$platform&productCategory=EQUIPMENT HTTP/1.1
+GET https://connect.fiservapis.com/unifiedmerchantmaster/internal/v1/products?platformCode=$platform&productCategory=$category HTTP/1.1
 x-consumer-name: $consume-name
 x-encrypted-data: true
+
+$category can have below Values: 
+
+          - ENTITLEMENT
+          - VAS
+          - EQUIPMENT
+          - PAYMENT_FEATURE
+          - FEE
+
+$platform can have below Values: 
+
+          - NORTH
+          - OMAHA
+          - SOUTH
+          - OMNIPAY26
+          - OMNIPAY21
 
 ```
 
