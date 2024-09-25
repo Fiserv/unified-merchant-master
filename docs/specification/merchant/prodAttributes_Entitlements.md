@@ -198,7 +198,6 @@ titles: UMM, North, GMA
 
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### specialProgramIndicators
 
 ---
@@ -248,6 +247,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 
  Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -424,13 +424,10 @@ titles: UMM, North, GMA
 
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### specialProgramIndicators
 
 ---
-
  tags: [specialProgramIndicators]
-
 ---
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -470,9 +467,7 @@ titles: UMM, North, GMA
 ### entitlementAttr
 
 ---
-
  tags: [entitlementAttr]
-
 ---
 
 <!-- type: tab 
@@ -632,7 +627,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### specialProgramIndicators
 
 ---
