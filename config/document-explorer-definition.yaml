@@ -87,7 +87,13 @@
         - title: Fee Attribute
           link:  docs/specification/merchant/productAttributes_fees.md
         - title: Equipment Attributes
-          link:   docs/specification/merchant/productAttributes_equipment.md     
+          link:   docs/specification/merchant/productAttributes_equipment.md  
+      - Title: Master Data
+        link: docs/specification/master/master.md
+        sections:
+        - title: Domain Master
+          link: docs/specification/master/domain_master.md
+
     # - title: Product
     #   link: docs/specification/merchant/merchantProduct.md
     #   sections:
