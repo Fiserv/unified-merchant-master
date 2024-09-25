@@ -43,8 +43,9 @@ Refer to UMM's [Auditing strategy](?path=docs/specification/merchant/audit/merch
 * [Merchant Bank Account](?path=docs/specification/merchant/MerchantBankAccount.md): This entiry stores the bank accounts for a specific merchant
 * [Merchant Cross Reference](?path=docs/specification/merchant/Merchant_Xref.md): This entiry stores the cross references for a specific merchant
 * [Merchant IRS Information](?path=docs/specification/merchant/Tax_Adtnl_Data_US.md): All tax related information for a merchant
-* [Merchant Products](?path=docs/specification/merchant/merchantProduct.md): Stores all entitlements, services, equipments fees a merchant has and further segregated into following logical groups
-  <!-- * [Entitlements](?path=docs/specification/products_entitlements.md): Contains all acquiring entitlements e.g. MasterCard, VISA etc. [🔗](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
+* [Merchant Products](?path=docs/specification/merchant/merchantProduct.md): Stores all entitlements, services, equipments fees a merchant has 
+<!-- and further segregated into following logical groups
+ * [Entitlements](?path=docs/specification/products_entitlements.md): Contains all acquiring entitlements e.g. MasterCard, VISA etc. [🔗](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
   * [Equipment](?path=docs/specification/products_equipments.md): Contains all acquiring entitlements e.g. MasterCard, VISA etc. [🔗](?path=docs/specification/merchant/productAttributes_equipment.md)
   * [Fees](?path=docs/specification/products_fees.md): All fees for a merchant [🔗](?path=docs/specification/merchant/productAttributes_fees.md)
-  * [Value Added Services](?path=docs/specification/products_vas.md): Example of Value Added services would be TransArmor, Auth Optimization etc. [🔗](?path=docs/specification/merchant/productAttributes_VAS.md) -->
+  * [Value Added Services](?path=docs/specification/products_vas.md): Example of Value Added services would be TransArmor, Auth Optimization etc. [🔗](?path=docs/specification/merchant/productAttributes_VAS.md)  -->
