@@ -16,6 +16,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 |  Value    |     Description  |
 |:-----------|:----------------:|
+| ENTLMC  | Mastercard Entitlement  |
 <!-- type: tab-end -->
 
  Attribute List by Domain:
@@ -105,6 +106,10 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
 |serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
+| mcIpQualification | Mastercard IP Qualification |           |                |
+| mcIpValue | Mastercard IP Value |           |                |
+| isoId | ISO_ID as assigned by Mastercard |           |                |
+
 <!-- type: tab -->
 |Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
@@ -181,7 +186,16 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
 |serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
+
 <!-- type: tab -->
+
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+| mcIpQualification | Mastercard IP Qualification |           |                |
+| mcIpValue | Mastercard IP Value |           |                |
+| isoId | ISO_ID as assigned by Mastercard |           |                |
+| floorLimitAmount | Floor Limit Amount |           |                |
+
 <!-- type: tab-end -->
 
  Attribute List by Domain:
@@ -230,6 +244,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 |  Value    |     Description  |
 |:-----------|:----------------:|
+| ENTLVI  | Visa Entitlement  |
 <!-- type: tab-end -->
 
  Attribute List by Domain:
@@ -319,6 +334,9 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
 |serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
+|visaIpQualification | Visa IP Qualification |           |                |
+|visaIpValue | Visa IP Value |           |                |
+|apfAuthFee | APF Auth Fee for Omnipay Visa Entitlement |           |                |
 <!-- type: tab -->
 |Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
@@ -396,6 +414,14 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+| visaIpQualification | Visa IP Qualification |           |                |
+| visaIpValue | Visa IP Value |           |                |
+| apfAuthFee | APF Auth Fee for Omnipay Visa Entitlement |           |                |
+| floorLimitAmount | Floor Limit Amount |           |                |
+
 <!-- type: tab-end -->
 
  Attribute List by Domain:
@@ -646,6 +672,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 |  Value    |     Description  |
 |:-----------|:----------------:|
+| ENTLAMEXPT  | Amex Pass Through Entitlement  |
 <!-- type: tab-end -->
 
  Attribute List by Domain:
@@ -727,6 +754,12 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+| serviceEstablishmentNumber | Service Establishment Number |           |                |
+| floorLimitAmount | Floor Limit Amount |           |                |
+
 <!-- type: tab-end -->
 
  Attribute List by Domain:
@@ -768,6 +801,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 |  Value    |     Description  |
 |:-----------|:----------------:|
+| ENTLDINER  | Diners Entitlement  |
 <!-- type: tab-end -->
 
  Attribute List by Domain:
@@ -803,6 +837,7 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
 |serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
+|intesdsxCode | Intes/DSX code for Omnipay Diners Entitlement |           |                |
 <!-- type: tab -->
 |Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
@@ -826,6 +861,12 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+| intesdsxCode | Intes/DSX code for Omnipay Diners Entitlement |           |                |
+| floorLimitAmount | Floor Limit Amount |           |                |
+
 <!-- type: tab-end -->
 
  Attribute List by Domain:
@@ -1909,6 +1950,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 |  Value    |     Description  |
 |:-----------|:----------------:|
+| ENTLCUP  | China Union Pay Eligibilty Program  |
 <!-- type: tab-end -->
 
  Attribute List by Domain:
@@ -1928,6 +1970,7 @@ titles: UMM, North, GMA
 |chinaUnionOfferingType | China Union Pay Entitlement| CUP_ELIGIBLE|CUP_ELIGIBLE|
 |effectiveDate | Effective Date| ||
 |mccCode | Merchant Category Code| ||
+|floorLimitAmount | Floor Limit Amount |               |                                   |
 <!-- type: tab -->
 |Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
@@ -1935,6 +1978,11 @@ titles: UMM, North, GMA
 |effectiveDate | Effective Date| ||
 |mccCode | Merchant Category Code| ||
 <!-- type: tab -->
+
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|-----------------------|
+|floorLimitAmount | Floor Limit Amount |               |                                   |
+
 <!-- type: tab-end -->
 ---
 
@@ -4660,6 +4708,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 |  Value    |     Description  |
 |:-----------|:----------------:|
+| ENTLJCB  | Jcb Entitlement  |
 <!-- type: tab-end -->
 
  Attribute List by Domain:
@@ -4718,6 +4767,11 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|-----------------------|
+|floorLimitAmount | Floor Limit Amount |               |                                   |
+
 <!-- type: tab-end -->
 
  Attribute List by Domain:
@@ -4758,6 +4812,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 |  Value    |     Description  |
 |:-----------|:----------------:|
+| ENTLMASTRO  | Maestro Entitlement  |
 <!-- type: tab-end -->
 
  Attribute List by Domain:
@@ -4816,6 +4871,11 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|-----------------------|
+|floorLimitAmount | Floor Limit Amount |   |   |
+
 <!-- type: tab-end -->
 ---
 
@@ -5090,6 +5150,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 |  Value    |     Description  |
 |:-----------|:----------------:|
+| ENTLPAYPAL  | Paypal Entitlement  |
 <!-- type: tab-end -->
 
  Attribute List by Domain:
@@ -5148,6 +5209,11 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|-----------------------|
+|floorLimitAmount | Floor Limit Amount |               |                                   |
+
 <!-- type: tab-end -->
 ---
 
@@ -6817,6 +6883,100 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 |  Value    |     Description  |
 |:-----------|:----------------:|
+<!-- type: tab-end -->
+
+## APM Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLAPM  | APM Entitlement  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLAPM  | APM Entitlement  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLAPM  | APM Entitlement  |
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### entitlementAttr
+
+---
+
+ tags: [entitlementAttr]
+
+---
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|floorLimitAmount | Floor Limit Amount |               |                                   |
+
+<!-- type: tab -->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|NA                    | NA                            |       NA             |               NA                    |
+
+<!-- type: tab -->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|floorLimitAmount | Floor Limit Amount |               |                                   |
+<!-- type: tab-end -->
+
+---
+
+## Electronic Funds Transfer at Point of Sale Entitlement
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLEFTPOS  | Electronic Funds Transfer at Point of Sale Entitlement  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLEFTPOS  | Electronic Funds Transfer at Point of Sale Entitlement  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLEFTPOS  | Electronic Funds Transfer at Point of Sale Entitlement  |
+<!-- type: tab-end -->
+
+ Attribute List by Domain:
+### entitlementAttr
+
+---
+
+ tags: [entitlementAttr]
+
+---
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|floorLimitAmount | Floor Limit Amount |               |                                   |
+
+<!-- type: tab -->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|NA                    | NA                            |       NA             |               NA                    |
+
+<!-- type: tab -->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|floorLimitAmount | Floor Limit Amount |               |                                   |
 <!-- type: tab-end -->
 
 ---
