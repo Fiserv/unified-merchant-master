@@ -1,10 +1,37 @@
 # Equipment Product List
 
-* Product Code: Any Equipment Product  [Supported Equipment Product List ](?path=docs/specification/products_equipments.md)
+* Product Code: Any Equipment Product  
+
+Supported Equipment Products  can be retrieved using Product Inquiry API Call.
+
+```http
+
+GET https://connect.fiservapis.com/unifiedmerchantmaster/internal/v1/products?platformCode=$platform&productCategory=$category HTTP/1.1
+x-consumer-name: $consume-name
+x-encrypted-data: true
+
+$category can have below Values: 
+
+          - ENTITLEMENT
+          - VAS
+          - EQUIPMENT
+          - PAYMENT_FEATURE
+          - FEE
+
+$platform can have below Values: 
+
+          - NORTH
+          - OMAHA
+          - SOUTH
+          - OMNIPAY26
+          - OMNIPAY21
+
+```
+
+* Attribute List by Domain:
 
 ### equipmentFeatures
 
-* Attribute Specification:
 
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -72,6 +99,7 @@ titles: UMM, North, GMA
 |equipmentFeatures|dateAdded|Date when the equipment was installed|||
 
 <!-- type: tab -->
+
 <!-- type: tab-end -->
 
 ---
