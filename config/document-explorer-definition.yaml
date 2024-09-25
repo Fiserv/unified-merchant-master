@@ -93,6 +93,8 @@
       sections:
       - title: Domain Master
         link: docs/specification/master/domain_master.md
+      - title: Attribute Master  
+        link: docs/specification/master/attribute_master.md
 
     # - title: Product
     #   link: docs/specification/merchant/merchantProduct.md
