@@ -2,7 +2,7 @@
 
 * Product Code: Any Fee Product  
 
-Supported Fee Products  can be retrieved using Product Inquiry API Call.
+Supported Fee Products  can be retrieved using Product Inquiry API Call. [Explore API](../api/?type=get&path=/internal/v1/products&branch=develop&version=1.0.0)
 
 ```http
 
