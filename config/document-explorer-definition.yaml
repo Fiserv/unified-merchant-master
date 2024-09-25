@@ -47,17 +47,9 @@
     #   link: docs/getting-access/umm-overview.md
     # - title: Snowflake Access
     #   link: docs/getting-access/database-access.md
-- sections:
-  - title: Supported Backend Platforms
-    link: docs/specification/supportedPlatforms.md   
-- sections:
-  - title: Auditing
-    link: docs/specification/merchant/audit/merchantAuditing.md
-    sections:
-    - title: Audit Info
-      link: docs/specification/merchant/audit/umm-audit-info.md
-    - title: Audit Additional Info
-      link: docs/specification/merchant/audit/umm-audit-additional-info.md
+# - sections:
+#   - title: Supported Backend Platforms
+#     link: docs/specification/supportedPlatforms.md   
 - sections:
   - title: Data Specification
     link: docs/specification/readMe.md
@@ -118,6 +110,14 @@
     #     link: docs/specification/merchant/productAttributes_fees.md
     #   - title: Value Added Services
     #     link: docs/specification/merchant/productAttributes_VAS.md
+- sections:
+  - title: Auditing
+    link: docs/specification/merchant/audit/merchantAuditing.md
+    sections:
+    - title: Audit Info
+      link: docs/specification/merchant/audit/umm-audit-info.md
+    - title: Audit Additional Info
+      link: docs/specification/merchant/audit/umm-audit-additional-info.md    
 - sections:
   - title: Release notes
     sections:
