@@ -15,9 +15,9 @@ Three Fundamental Models used by UMM to store merchant data
 
 > **Entity**: Merchant data in UMM is logically grouped under multiple entities and stored as tables in Snowflake as well as represented in UMM APIs. See the [Entities](#entities) section for the full list of entities UMM has and click on each entity to further reading.
 >
-> **Product**: UMM maintains a list of products to represent subscribed card entitlements,fees, payment features, value added services and equipments. Additional information about product can be found [here](?path=docs/specification/merchant/merchantProduct.md)
+> **Product**: UMM maintains a list of products to represent subscribed card entitlements,fees, payment features, value added services and equipments. Additional information about product can be found [here](?path=docs/specification/merchant/products.md)
 >
-> **Attribute**: Related fields logically grouped under a domain and stored as key value pair. This construct is used at both merchant level and product level. For additional information see [Merchant Level Attributes](?path=docs/specification/merchant/merchantAttributes.md) and [Product Level Attribute](?path=docs/specification/merchant/merchantProductAttributes.md)
+> **Attribute**: Related fields logically grouped under a domain and stored as key value pair. This construct is used at both merchant level and product level. For additional information see [Merchant Level Attributes](?path=docs/specification/merchant/merchantAttributes.md) and [Product Level Attribute](?path=path=docs/specification/merchant/products.md)
 
 Each entity has the below columns as part of their key
 
@@ -35,7 +35,7 @@ Refer to UMM's [Auditing strategy](?path=docs/specification/merchant/audit/merch
 ## Entities
 
 * [Merchant](?path=docs/specification/merchant/merchant.md): Stores basic but critical information about the merchant. Any merchant in UMM will always have this entity
-* [Merchant Business Information](?path=docs/specification/merchant/merchantBusinessInformation.md): This entity stores information about the business of the merchant
+* [Merchant Business Information](?docs/specification/merchant/MerchantBusinessInformation.md): This entity stores information about the business of the merchant
 * [Merchant Attributes](?path=docs/specification/merchant/merchantAttributes.md): This entity stores various merchant attributes grouped under logical domains
 * [Merchant Hierarchy](?path=docs/specification/merchant/MerchantHierarchy.md): Hierarchy of the merchant
 * [Merchant Address](?path=docs/specification/merchant/MerchantAddress.md): All addresses on file for a merchant
@@ -44,7 +44,7 @@ Refer to UMM's [Auditing strategy](?path=docs/specification/merchant/audit/merch
 * [Merchant Cross Reference](?path=docs/specification/merchant/Merchant_Xref.md): This entiry stores the cross references for a specific merchant
 * [Merchant IRS Information](?path=docs/specification/merchant/Tax_Adtnl_Data_US.md): All tax related information for a merchant
 * [Merchant Products](?path=docs/specification/merchant/merchantProduct.md): Stores all entitlements, services, equipments fees a merchant has and further segregated into following logical groups
-  * [Entitlements](?path=docs/specification/products_entitlements.md): Contains all acquiring entitlements e.g. MasterCard, VISA etc. [🔗](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
+  <!-- * [Entitlements](?path=docs/specification/products_entitlements.md): Contains all acquiring entitlements e.g. MasterCard, VISA etc. [🔗](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
   * [Equipment](?path=docs/specification/products_equipments.md): Contains all acquiring entitlements e.g. MasterCard, VISA etc. [🔗](?path=docs/specification/merchant/productAttributes_equipment.md)
   * [Fees](?path=docs/specification/products_fees.md): All fees for a merchant [🔗](?path=docs/specification/merchant/productAttributes_fees.md)
-  * [Value Added Services](?path=docs/specification/products_vas.md): Example of Value Added services would be TransArmor, Auth Optimization etc. [🔗](?path=docs/specification/merchant/productAttributes_VAS.md)
+  * [Value Added Services](?path=docs/specification/products_vas.md): Example of Value Added services would be TransArmor, Auth Optimization etc. [🔗](?path=docs/specification/merchant/productAttributes_VAS.md) -->
