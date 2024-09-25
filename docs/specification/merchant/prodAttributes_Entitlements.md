@@ -19,7 +19,7 @@ titles: UMM, North, GMA
 | ENTLMC  | Mastercard Entitlement  |
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -246,7 +246,7 @@ titles: UMM, North, GMA
 | ENTLVI  | Visa Entitlement  |
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 
 ### entitlementAttr
 
@@ -427,7 +427,9 @@ titles: UMM, North, GMA
 ### specialProgramIndicators
 
 ---
+
  tags: [specialProgramIndicators]
+
 ---
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -463,11 +465,14 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
+
  tags: [entitlementAttr]
+
 ---
 
 <!-- type: tab 
@@ -670,7 +675,8 @@ titles: UMM, North, GMA
 | ENTLAMEXPT  | Amex Pass Through Entitlement  |
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+ 
 ### amexSourceCode
 
 ---
@@ -694,7 +700,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -757,7 +763,7 @@ titles: UMM, North, GMA
 
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### specialProgramIndicators
 
 ---
@@ -779,8 +785,11 @@ titles: UMM, North, GMA
 |walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
+
 ---
+
 ## Diners
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -799,7 +808,8 @@ titles: UMM, North, GMA
 | ENTLDINER  | Diners Entitlement  |
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+ *Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -864,7 +874,7 @@ titles: UMM, North, GMA
 
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### specialProgramIndicators
 
 ---
@@ -872,6 +882,7 @@ titles: UMM, North, GMA
  tags: [specialProgramIndicators]
 
 ---
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -882,11 +893,14 @@ titles: UMM, North, GMA
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |walmartKotak | Walmart Kotak| ||
+
 <!-- type: tab -->
 <!-- type: tab-end -->
+
 ---
 
 ## Discover
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -904,7 +918,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+** Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -992,6 +1007,7 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
 |Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
@@ -1067,10 +1083,11 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
 |serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
+
 <!-- type: tab -->
+
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### paypalOptOutReason
 
 ---
@@ -1091,6 +1108,7 @@ titles: UMM, North, GMA
 |reasonCode | Opt Out Reason Code| PREV_BAN_EXPERIENCE|VALUE|
 |reasonCode | Opt Out Reason Code| RATE_CONCERNS|VALUE|
 <!-- type: tab -->
+
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |effectiveDate | Effective Date| ||
@@ -1101,9 +1119,9 @@ titles: UMM, North, GMA
 |reasonCode | Opt Out Reason Code| PREV_BAN_EXPERIENCE|VALUE|
 |reasonCode | Opt Out Reason Code| RATE_CONCERNS|VALUE|
 <!-- type: tab -->
+
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### specialProgramIndicators
 
 ---
@@ -1111,6 +1129,7 @@ titles: UMM, North, GMA
  tags: [specialProgramIndicators]
 
 ---
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -1124,6 +1143,194 @@ titles: UMM, North, GMA
 |upi | Upi| ||
 |walmartKotak | Walmart Kotak| ||
 <!-- type: tab -->
+<!-- type: tab-end -->
+
+---
+## Jcb
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLJCB  | Jcb Entitlement  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLJCB  | Jcb Entitlement  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLJCB  | Jcb Entitlement  |
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
+
+### entitlementAttr
+
+---
+
+ tags: [entitlementAttr]
+
+---
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|-----------------------|
+|floorLimitAmount | Floor Limit Amount |               |                                   |
+
+<!-- type: tab-end -->
+
+### specialProgramIndicators
+
+---
+
+ tags: [specialProgramIndicators]
+
+---
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|walmartKotak | Walmart Kotak| ||
+<!-- type: tab -->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|walmartKotak | Walmart Kotak| ||
+<!-- type: tab -->
+<!-- type: tab-end -->
+---
+
+## Maestro
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLMASTRO  | Maestro Entitlement  |
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLMASTRO  | Maestro Entitlement  |
+
+<!-- type: tab -->
+|  Value    |     Description  |
+|:-----------|:----------------:|
+| ENTLMASTRO  | Maestro Entitlement  |
+<!-- type: tab-end -->
+
+* Attribute List by Domain:
+
+### entitlementAttr
+
+---
+
+ tags: [entitlementAttr]
+
+---
+
+<!-- type: tab 
+titles: UMM, North, GMA 
+-->
+| Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|------------------------|
+|clearingPlanCode | Clearing Plan Code| ||
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
+|edcCode | EDC Code| NO_SERVICE|edcCode|
+|effectiveDate | Effective Date| ||
+|floorLimitAmount | Floor Limit Amount| ||
+|mccCode | Merchant Category Code| ||
+|pricingPlanCode | Pricing Plan Code| ||
+|serviceEstablishmentNumber | Service Establishment Number| ||
+|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
+|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
+|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
+|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
+|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
+|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
+|signedVolumeAmount | Signed Volume Amount| ||
+<!-- type: tab -->
+
+|Attribute            | Description                   | UMM Value                  | Value Description             |
+|:---------------------|:------------------------------|:----------------------------------|-----------------------|
+|floorLimitAmount | Floor Limit Amount |   |   |
+
 <!-- type: tab-end -->
 ---
 
@@ -1145,7 +1352,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+** Attribute List by Domain:
+
 ### checkAcceptanceMethod
 
 ---
@@ -1157,6 +1365,7 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
+
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |checkCashingVerification | Check Cashing Verification| ||
@@ -1191,6 +1400,7 @@ titles: UMM, North, GMA
 |specialtyItemsWarranty | Specialty Items Warranty| ||
 |trsCollections | Trs Collections| ||
 <!-- type: tab -->
+
 |Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |checkCashingVerification | Check Cashing Verification| ||
@@ -1225,9 +1435,9 @@ titles: UMM, North, GMA
 |specialtyItemsWarranty | Specialty Items Warranty| ||
 |trsCollections | Trs Collections| ||
 <!-- type: tab -->
+
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -1235,9 +1445,11 @@ titles: UMM, North, GMA
  tags: [entitlementAttr]
 
 ---
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
+
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
@@ -1260,6 +1472,7 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
@@ -1282,7 +1495,9 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
 <!-- type: tab-end -->
+
 ---
 
 ## Visa Multi Acquirer Entitlement
@@ -1303,7 +1518,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+** Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -1315,6 +1531,7 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
+
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
@@ -1337,6 +1554,7 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
+
 |Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
@@ -1358,10 +1576,11 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
 |serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
+
 <!-- type: tab -->
+
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### specialProgramIndicators
 
 ---
@@ -1383,6 +1602,7 @@ titles: UMM, North, GMA
 |chaseNet | Chase Net| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
+
 ---
 
 ## American Express Multi Acquirer
@@ -1403,7 +1623,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+** Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -1461,7 +1682,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### specialProgramIndicators
 
 ---
@@ -1469,6 +1689,7 @@ titles: UMM, North, GMA
  tags: [specialProgramIndicators]
 
 ---
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -1483,11 +1704,11 @@ titles: UMM, North, GMA
 |chaseNet | Chase Net| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
+
 ---
-
-
 
 ## Alipay
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -1505,7 +1726,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+** Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -1530,10 +1752,11 @@ titles: UMM, North, GMA
 |mccCode | Merchant Category Code| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
----
 
+---
 
 ## Arvato Eold
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -1551,7 +1774,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+** Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -1608,9 +1832,11 @@ titles: UMM, North, GMA
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
+
 ---
 
 ## Bill Me Later
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -1628,7 +1854,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+** Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -1705,7 +1932,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+** Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -1731,6 +1959,7 @@ titles: UMM, North, GMA
 ---
 
 ## Check Non Warranty
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -1748,7 +1977,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+** Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -1825,7 +2055,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+ ** Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -1882,6 +2113,7 @@ titles: UMM, North, GMA
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
+
 ---
 
 ## Clover Go
@@ -1902,7 +2134,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+** Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -1914,6 +2147,7 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
+
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clovergoOfferingType | Offering Type for Clover Go| STANDARD_OFFERING|STANDARD_OFFERING|
@@ -1927,6 +2161,7 @@ titles: UMM, North, GMA
 |clovergoStatus | Program Status for Clover Go| ACTIVE|ACTIVE|
 <!-- type: tab -->
 <!-- type: tab-end -->
+
 ---
 
 ## China Union Pay
@@ -1948,7 +2183,8 @@ titles: UMM, North, GMA
 | ENTLCUP  | China Union Pay Eligibilty Program  |
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+** Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -1979,6 +2215,7 @@ titles: UMM, North, GMA
 |floorLimitAmount | Floor Limit Amount |               |                                   |
 
 <!-- type: tab-end -->
+
 ---
 
 ## Debit Eds
@@ -1999,7 +2236,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+** Attribute List by Domain:
+
 ### disbursementssements
 
 ---
@@ -2011,6 +2249,7 @@ titles: UMM, North, GMA
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
+
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |miscInfoText | Misc Info Text| ||
@@ -2029,7 +2268,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### ecommercerce
 
 ---
@@ -2037,6 +2275,7 @@ titles: UMM, North, GMA
  tags: [ecommercerce]
 
 ---
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2058,7 +2297,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -2066,6 +2305,7 @@ titles: UMM, North, GMA
  tags: [entitlementAttr]
 
 ---
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2115,7 +2355,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcAccel
 
 ---
@@ -2123,6 +2362,7 @@ titles: UMM, North, GMA
  tags: [hcAccel]
 
 ---
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2144,7 +2384,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcAffn
 
 ---
@@ -2152,9 +2391,11 @@ titles: UMM, North, GMA
  tags: [hcAffn]
 
 ---
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
+
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |healthcare | Healthcare| PIN_AND_PINLESS|VALUE|
@@ -2173,7 +2414,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcAth
 
 ---
@@ -2202,7 +2442,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### hcAts
 
 ---
@@ -2231,7 +2471,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcCu24
 
 ---
@@ -2260,7 +2499,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### hcInterlink
 
 ---
@@ -2289,7 +2528,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcJeanie
 
 ---
@@ -2318,7 +2556,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcMaestro
 
 ---
@@ -2347,7 +2584,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcNyce
 
 ---
@@ -2376,7 +2612,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcPulse
 
 ---
@@ -2405,7 +2640,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcShazam
 
 ---
@@ -2434,7 +2668,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcStarEast
 
 ---
@@ -2463,7 +2696,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcStarNortheast
 
 ---
@@ -2492,7 +2724,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcStarWest
 
 ---
@@ -2521,7 +2752,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### lcrBillPayment
 
 ---
@@ -2550,7 +2780,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### moneyTransfers
 
 ---
@@ -2579,7 +2808,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### pos
 
 ---
@@ -2587,6 +2815,7 @@ titles: UMM, North, GMA
  tags: [pos]
 
 ---
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2607,6 +2836,7 @@ titles: UMM, North, GMA
 |pinEntryMethods | Pin Entry Methods| PINLESS|VALUE|
 <!-- type: tab -->
 <!-- type: tab-end -->
+
 ---
 
 ## Debit Gateway
@@ -2627,7 +2857,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+** Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -2685,7 +2916,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcAccel
 
 ---
@@ -2714,7 +2944,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### hcAffn
 
 ---
@@ -2743,7 +2973,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcAth
 
 ---
@@ -2772,7 +3001,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcAts
 
 ---
@@ -2801,7 +3029,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcCu24
 
 ---
@@ -2830,7 +3057,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### hcInterlink
 
 ---
@@ -2859,7 +3086,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### hcJeanie
 
 ---
@@ -2888,7 +3115,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### hcMaestro
 
 ---
@@ -2917,7 +3144,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### hcNyce
 
 ---
@@ -2946,7 +3173,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### hcPulse
 
 ---
@@ -2954,6 +3181,7 @@ titles: UMM, North, GMA
  tags: [hcPulse]
 
 ---
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -2975,7 +3203,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### hcShazam
 
 ---
@@ -3004,7 +3232,8 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### hcStarEast
 
 ---
@@ -3012,6 +3241,7 @@ titles: UMM, North, GMA
  tags: [hcStarEast]
 
 ---
+
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -3033,7 +3263,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcStarNortheast
 
 ---
@@ -3062,7 +3291,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### hcStarWest
 
 ---
@@ -3090,6 +3318,7 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
+
 ---
 
 ## Debit Multi Acquirer
@@ -3110,7 +3339,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -3168,7 +3397,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### specialProgramIndicators
 
 ---
@@ -3190,6 +3418,7 @@ titles: UMM, North, GMA
 |chaseNet | Chase Net| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
+
 ---
 
 
@@ -3211,7 +3440,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -3269,7 +3499,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### specialProgramIndicators
 
 ---
@@ -3311,7 +3540,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -3388,7 +3618,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -3465,7 +3696,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -3542,7 +3774,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -3619,7 +3852,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -3696,7 +3930,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -3773,7 +4008,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -3830,6 +4066,7 @@ titles: UMM, North, GMA
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
+
 ---
 
 ## Funded Stored Value
@@ -3850,7 +4087,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -3908,7 +4146,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### specialProgramIndicators
 
 ---
@@ -3958,7 +4195,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -4035,7 +4273,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -4112,7 +4351,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -4189,7 +4429,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -4266,7 +4507,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -4343,7 +4585,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -4420,7 +4663,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -4463,7 +4707,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -4508,7 +4753,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -4551,7 +4797,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -4628,7 +4875,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -4687,192 +4935,6 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Jcb
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLJCB  | Jcb Entitlement  |
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLJCB  | Jcb Entitlement  |
-
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLJCB  | Jcb Entitlement  |
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### entitlementAttr
-
----
-
- tags: [entitlementAttr]
-
----
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-|Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-
-|Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|-----------------------|
-|floorLimitAmount | Floor Limit Amount |               |                                   |
-
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### specialProgramIndicators
-
----
-
- tags: [specialProgramIndicators]
-
----
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|walmartKotak | Walmart Kotak| ||
-<!-- type: tab -->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|walmartKotak | Walmart Kotak| ||
-<!-- type: tab -->
-<!-- type: tab-end -->
----
-
-## Maestro
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLMASTRO  | Maestro Entitlement  |
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLMASTRO  | Maestro Entitlement  |
-
-<!-- type: tab -->
-|  Value    |     Description  |
-|:-----------|:----------------:|
-| ENTLMASTRO  | Maestro Entitlement  |
-<!-- type: tab-end -->
-
- Attribute List by Domain:
-### entitlementAttr
-
----
-
- tags: [entitlementAttr]
-
----
-
-<!-- type: tab 
-titles: UMM, North, GMA 
--->
-| Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-|Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|------------------------|
-|clearingPlanCode | Clearing Plan Code| ||
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
-|edcCode | EDC Code| NO_SERVICE|edcCode|
-|effectiveDate | Effective Date| ||
-|floorLimitAmount | Floor Limit Amount| ||
-|mccCode | Merchant Category Code| ||
-|pricingPlanCode | Pricing Plan Code| ||
-|serviceEstablishmentNumber | Service Establishment Number| ||
-|serviceTypeCode | Service Type Code| AUTH_ONLY|serviceTypeCode|
-|serviceTypeCode | Service Type Code| INFO_ONLY_SPLIT_DIAL|serviceTypeCode|
-|serviceTypeCode | Service Type Code| NOT_ENTITLED|serviceTypeCode|
-|serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
-|serviceTypeCode | Service Type Code| MEMO_POST|serviceTypeCode|
-|serviceTypeCode | Service Type Code| DEPOSIT_AND_AUTH_CAPTURE|serviceTypeCode|
-|signedVolumeAmount | Signed Volume Amount| ||
-<!-- type: tab -->
-
-|Attribute            | Description                   | UMM Value                  | Value Description             |
-|:---------------------|:------------------------------|:----------------------------------|-----------------------|
-|floorLimitAmount | Floor Limit Amount |   |   |
-
-<!-- type: tab-end -->
----
 
 
 ## Mastercard Multi Acquirer
@@ -4893,7 +4955,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -4951,7 +5013,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### specialProgramIndicators
 
 ---
@@ -4993,7 +5055,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -5070,7 +5132,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -5148,7 +5210,7 @@ titles: UMM, North, GMA
 | ENTLPAYPAL  | Paypal Entitlement  |
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -5230,7 +5292,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -5273,7 +5335,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -5338,7 +5400,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -5381,7 +5443,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -5458,7 +5520,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -5516,7 +5578,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### specialProgramIndicators
 
 ---
@@ -5564,7 +5626,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -5622,7 +5684,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### specialProgramIndicators
 
 ---
@@ -5662,7 +5724,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -5740,7 +5802,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
 ### entitlementAttr
 
 ---
@@ -5817,7 +5879,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### accentIntermedia
 
 ---
@@ -5843,7 +5906,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### blackhawk
 
 ---
@@ -5868,7 +5930,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
 ### coinstarar
 
 ---
@@ -5893,7 +5954,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### dataOnly
 
 ---
@@ -5918,7 +5979,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### duguesneUniv
 
 ---
@@ -5943,7 +6004,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### egiftSocial
 
 ---
@@ -5968,7 +6029,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -6025,7 +6086,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### flexCache
 
 ---
@@ -6052,7 +6113,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### franchiseEnabled
 
 ---
@@ -6077,7 +6138,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### fraudWatch
 
 ---
@@ -6102,7 +6163,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### giftangogo
 
 ---
@@ -6127,7 +6188,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### greatLakesScript
 
 ---
@@ -6152,7 +6213,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### incomm
 
 ---
@@ -6177,7 +6238,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### jet
 
 ---
@@ -6202,7 +6263,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### lsn
 
 ---
@@ -6227,7 +6288,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### mondex
 
 ---
@@ -6252,7 +6313,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### nearRealTimeMessaging
 
 ---
@@ -6277,7 +6338,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### premiumPrepaid
 
 ---
@@ -6304,7 +6365,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### robertMorrisCollege
 
 ---
@@ -6329,7 +6390,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### settlementSwitch
 
 ---
@@ -6354,7 +6415,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### standardGCMisc
 
 ---
@@ -6379,7 +6440,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### standardGCProject
 
 ---
@@ -6404,7 +6465,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### standardGCReport
 
 ---
@@ -6429,7 +6490,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### univofPenn
 
 ---
@@ -6456,7 +6517,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### valueLink
 
 ---
@@ -6481,7 +6542,7 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+
 ### visaCash
 
 ---
@@ -6505,9 +6566,10 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
+
 ---
 
-## UPI Credit Entitlement
+## UPI Credit 
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -6525,7 +6587,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -6550,7 +6613,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## UPI Debit Entitlement
+## UPI Debit
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -6568,7 +6631,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -6611,7 +6675,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -6652,7 +6717,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -6700,7 +6766,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -6777,7 +6844,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -6820,7 +6888,8 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -6899,7 +6968,8 @@ titles: UMM, North, GMA
 | ENTLAPM  | APM Entitlement  |
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
@@ -6928,7 +6998,7 @@ titles: UMM, North, GMA
 
 ---
 
-## Electronic Funds Transfer at Point of Sale Entitlement
+## Electronic Funds Transfer at Point of Sale
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -6947,7 +7017,8 @@ titles: UMM, North, GMA
 | ENTLEFTPOS  | Electronic Funds Transfer at Point of Sale Entitlement  |
 <!-- type: tab-end -->
 
- Attribute List by Domain:
+* Attribute List by Domain:
+
 ### entitlementAttr
 
 ---
