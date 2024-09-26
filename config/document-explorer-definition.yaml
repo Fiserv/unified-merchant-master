@@ -58,7 +58,7 @@
       link: docs/specification/merchant/merchant.md
     - title: Address
       link: docs/specification/merchant/MerchantAddress.md
-    - title: Attributes
+    - title: Merchant Attributes
       link: docs/specification/merchant/merchantAttributes.md
     - title: Bank Account
       link: docs/specification/merchant/MerchantBankAccount.md

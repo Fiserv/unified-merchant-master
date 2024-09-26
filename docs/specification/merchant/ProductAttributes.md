@@ -114,7 +114,7 @@ titles: UMM
 
 | Type   | Minimum Length | Max Length | Inquiry  |    Create    |    Update    |    Delete    |
 |--------|:--------------:|:----------:|:--------:|:------------:|:------------:|:------------:|
-| String  | 1        |    50       |    Available     | NA     |      NA       |    NA         |
+| String  | 1        |    50        |    Available     | NA     |      Allowed       |    NA         |
 
 <!-- type: tab-end -->
 ---
