@@ -4,7 +4,7 @@
 * **Description**: Stores all the products a merchant has.
 * **API section**: `products`
 
-* Explore more about products [Here] (path=?docs/specification/merchant/products.md)
+* Explore more about products [Here] (?path=?docs/specification/merchant/products.md)
 
 ## List of Fields
 
@@ -65,10 +65,46 @@ titles: UMM
 
 ** PRDCT_CODE is required to update or delete corresponding product
 
-* See supported Entitlements [here](?path=docs/specification/products_entitlements.md)
-* See supported Value Added Services [here](?path=docs/specification/products_vas.md)
-* See supported Fees [here](?path=docs/specification/products_fees.md)
-* See supported Equipments [here](?path=docs/specification/products_equipments.md)
+* See supported Entitlements [here](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
+* See supported Value Added Services [here](?path=docs/specification/merchant/productAttributes_VAS.md)
+* See supported Fees [here](?path=docs/specification/merchant/productAttributes_fees.md)
+* See supported Equipments [here](?docs/specification/merchant/productAttributes_equipment.md)
+
+Supported  Products  can be retrieved using Product Inquiry API Call.
+
+```http
+
+GET https://connect.fiservapis.com/unifiedmerchantmaster/internal/v1/products?platformCode=$platform&productCategory=$category HTTP/1.1
+x-consumer-name: $consume-name
+x-encrypted-data: true
+
+$category can have below Values: 
+
+          - ENTITLEMENT
+          - VAS
+          - EQUIPMENT
+          - PAYMENT_FEATURE
+          - FEE
+
+$platform can have below Values: 
+
+          - NORTH
+          - OMAHA
+          - SOUTH
+          - OMNIPAY26
+          - OMNIPAY21
+
+```
+
+OR Sample Query to fetch available products from snowflake:
+
+```text
+
+      select *  
+      from umm.prdct_master 
+      where is_active = 'Y'
+
+```
 
 <!-- type: tab-end -->
 ---
