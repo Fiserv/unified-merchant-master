@@ -73,21 +73,34 @@
         link: docs/specification/merchant/Tax_Adtnl_Data_US.md
       - title: Xref
         link: docs/specification/merchant/Merchant_Xref.md
-      - title: Product
-        link: docs/specification/merchant/products.md   
-        sections:
-        - title: Merchant Product Entity
-          link: docs/specification/merchant/merchantProduct.md
-        - title: Merchant Product Attribute Entity
-          link: docs/specification/merchant/ProductAttributes.md
-        - title: Entitlement Attribute
+      - title: Products
+        link : docs/specification/merchant/merchantProduct.md
+        sections: 
+        - tile: Entitlement 
           link: docs/specification/merchant/prodAttributes_Entitlements.md
-        - title: Value Added Attribute
+        - tile: Value Added Attribute
           link: docs/specification/merchant/productAttributes_VAS.md
-        - title: Fee Attribute
-          link:  docs/specification/merchant/productAttributes_fees.md
-        - title: Equipment Attributes
-          link:   docs/specification/merchant/productAttributes_equipment.md  
+        - title: Fee
+          link: docs/specification/merchant/productAttributes_fees.md
+        - tile: Equipment
+          link: docs/specification/merchant/productAttributes_equipment.md         
+      - tile: Product Attributes 
+        link:  docs/specification/merchant/ProductAttributes.md
+      # - title: Product
+      #   link: docs/specification/merchant/products.md   
+      #   sections:
+      #   - title: Merchant Product Entity
+      #     link: docs/specification/merchant/merchantProduct.md
+      #   - title: Merchant Product Attribute Entity
+      #     link: docs/specification/merchant/ProductAttributes.md
+      #   - title: Entitlement Attribute
+      #     link: docs/specification/merchant/prodAttributes_Entitlements.md
+      #   - title: Value Added Attribute
+      #     link: docs/specification/merchant/productAttributes_VAS.md
+      #   - title: Fee Attribute
+      #     link:  docs/specification/merchant/productAttributes_fees.md
+      #   - title: Equipment Attributes
+      #     link:   docs/specification/merchant/productAttributes_equipment.md  
     - Title: Master Data
       link: docs/specification/master/master.md
       sections:
