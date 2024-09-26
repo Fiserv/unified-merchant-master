@@ -117,3 +117,12 @@ featuredFeatures:
         title: Merchant
         description: Merchant
         link: /docs/specification/merchant/audit/merchantAuditing.md
+  - title: Co-located merchant data on Snowflake 
+    description: Co-located merchant data in Unified format on Snowflake data store for different Fiserv backend platforms
+    tags: ["UMM", "Merchant", "Co-located"]
+    bullets: ["UMM", "Merchant", "Co-located"]
+    relatedDocs:
+      - relatedDoc: 
+        title: Merchant
+        description: Merchant
+        link: /docs/specification/readMe.md       
