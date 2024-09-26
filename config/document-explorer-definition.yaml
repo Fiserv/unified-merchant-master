@@ -76,15 +76,15 @@
       - title: Products
         link: docs/specification/merchant/merchantProduct.md
         sections: 
-        - tile: Entitlement 
+        - title: Entitlement 
           link: docs/specification/merchant/prodAttributes_Entitlements.md
-        - tile: Value Added Attribute
+        - title: Value Added Attribute
           link: docs/specification/merchant/productAttributes_VAS.md
         - title: Fee
           link: docs/specification/merchant/productAttributes_fees.md
-        - tile: Equipment
+        - title: Equipment
           link: docs/specification/merchant/productAttributes_equipment.md         
-      - tile: Product Attributes 
+      - title: Product Attributes 
         link: docs/specification/merchant/ProductAttributes.md
       # - title: Product
       #   link: docs/specification/merchant/products.md   
