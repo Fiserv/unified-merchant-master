@@ -24,11 +24,11 @@ Each entity has the below columns as part of their key
 * `EFFECTIVE_START_DATE`: UMM audits and stores snapshot record of Merchant data for all entities. This date is when a record was added to the merchant
 * `EFFECTIVE_END_DATE`: When there is any change in entity record for a merchant, UMM snapshots the earlier record with previous date and creates a new record with this field set to NULL. Therefore, any record which is active at this moment will have this field as `NULL`
 
+Refer to UMM's [Auditing strategy](?path=docs/specification/merchant/audit/merchantAuditing.md) for additional information.
+
 Each entity will provide a comprehensive list of all fields/columns it has , including their specifications such as minimum and maximum length, data type, allowable values (if applicable). Additionally, it will detail the corresponding API field name, indicate if the field is a mandatory component of the onboarding request, and specify whether it can be modified via an API call.
 
 Moreover, each field will have tabs for UMM and specific backend , providing detailed information on the data type, restrictions, and allowable values for both UMM and the respective backend systems. For instance, the UMM tab will include allowable values specific to UMM, regardless of the backend system, while the backend-specific tab will list allowable values tailored to that particular backend. For instance, if a field can support values 'a' and 'b' for the North backend, and value 'c' for Omnipay GMA, UMM will list values 'a', 'b', and 'c' under the UMM tab. In contrast, the North backend tab will display values 'a' and 'b', while the GMA tab will list value 'c' only.
-
-Refer to UMM's [Auditing strategy](?path=docs/specification/merchant/audit/merchantAuditing.md) for additional information.
 
 ## Entities
 
