@@ -3,7 +3,7 @@
 * **Description**: Stores attribute definition and tied with a domain.
 * **Table Name**: `UMM.ATTRIBUTE_MASTER`
 
-## List of Fields for UMM DOMAIN MASTER
+## List of Fields
 
 ### ID
 

@@ -3,7 +3,7 @@
 * **Description**: Stores logical domain definition
 * **Table Name**: `UMM.DOMAIN_MASTER`
 
-## List of Fields for UMM DOMAIN MASTER
+## List of Fields
 
 ### ID
 
