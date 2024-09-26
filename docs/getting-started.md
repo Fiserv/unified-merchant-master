@@ -1,5 +1,13 @@
 # Getting Started
 
+## Specifications
+
+Please refer UMM Specification [here](?path=docs/specification/readMe.md)
+
+## Support Backend Platforms
+
+Explore supported backend platforms [Here](?path=docs/specification/supportedPlatforms.md)
+
 ## Integrations
 
 The following methods of intergration are currently supported:
@@ -21,13 +29,3 @@ link: ?path=docs/getting-access/database-access.md
 <!-- type: row-end -->
 
 ---
-
-## Support Backend Platforms
-
-Explore supported backend platforms [Here](?path=docs/specification/supportedPlatforms.md)
-
-## Specifications
-
-Please refer below documentations:
-
-* Specification documentation [here](?path=docs/specification/readMe.md)
