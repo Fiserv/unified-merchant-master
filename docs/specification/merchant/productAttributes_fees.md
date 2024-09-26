@@ -1,4 +1,4 @@
-# Fee Product List
+# Fee Product
 
 * Product Code: Any Fee Product  
 
@@ -24,13 +24,13 @@ $platform can have below Values:
           - OMAHA
           - SOUTH
           - OMNIPAY26
-          - OMNIPAY21
+          - OMNIPAY21          
 
 ```
 
-* Attribute List by Domain:
+## Attributes
 
-## feeAttr
+### Domain:feeAttr
 
 ---
 

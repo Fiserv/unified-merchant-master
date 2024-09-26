@@ -4,6 +4,8 @@
 * **Description**: Stores all the products a merchant has.
 * **API section**: `products`
 
+* Explore more about products [Here] (path=?docs/specification/merchant/products.md)
+
 ## List of Fields
 
 ### MERCHANT_ID
