@@ -3,7 +3,7 @@
 * **Description**: Stores attribute definition and tied with a domain.
 * **Table Name**: `UMM.ATTRIBUTE_MASTER`
 
-## List of Fields for UMM DOMAIN MASTER
+## List of Fields
 
 ### ID
 
@@ -43,7 +43,7 @@
 
 ### DOMAIN_ID
 
-* Description: ID from Domain Master table to link attribute with specific domain
+* Description: ID from Domain Master table to link attribute with a domain
 * API field: NA
 * Field Specification:
 
