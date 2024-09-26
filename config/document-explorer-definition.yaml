@@ -27,29 +27,6 @@
 # are granted or extended by this work or 
 # the delivery of this work
 ################################################################################
-
-# - sections:
-#   - title: About
-#     link: docs/about-umm/umm-overview.md
-# - sections:
-#   - title: Integrations
-#     # link: docs/getting-started.md
-# # - sections:
-# #   - title: Getting Access
-# #     link: docs/getting-access/umm-access.md
-#     sections:
-#     - title: API Access
-#       link: docs/getting-access/api-access.md
-#     - title: Snowflake Access
-#       link: docs/getting-access/database-access.md
-    # sections:
-    # - title: UMM Overview
-    #   link: docs/getting-access/umm-overview.md
-    # - title: Snowflake Access
-    #   link: docs/getting-access/database-access.md
-# - sections:
-#   - title: Supported Backend Platforms
-#     link: docs/specification/supportedPlatforms.md   
 - sections:
   - title: Data Specification
     link: docs/specification/readMe.md
