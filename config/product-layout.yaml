@@ -29,7 +29,7 @@
 ################################################################################
 header:
   productName: Unified Merchant Master
-  productionDescription: Unified Merchant Master (UMM) aims to offer a developer friendly and unified/canonical data model for GBS Merchant Account & product offerings, backed by Snowflake data store along with a standard CRUD interface and real time bi-directional synchronization with multiple backend merchant master databases (North, Optis, South, Memphis and OmniPay). With unification in data and API, it promotes ease of integration, low maintenance and easy consumption of change and reduce development time for merchant onboarding and maintenance. It serves as a comprehensive analytical platform for merchant data
+  productionDescription: UMM
   whoIsItFor: Internal
   image: 
     link: "/assets/images/Fiserv_Logo.jpg"
