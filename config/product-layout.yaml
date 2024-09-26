@@ -37,10 +37,10 @@ header:
 benefits:
   - title: Unified Data Model
     description: UMM provides a unified data model for Merchant,Equipment,Fee and Product offerings to ensures consistency across different Merchant backends.
-  - title: Unified API Gateway
+  - title: API Layer
     description: Unified API layer to retrieve, on-board or update merchant across Fiserv platforms in user-friendly and intuitive manner for easier integration
   - title: Real-time Bi-directional Synchronization
-    description: UMM enables real-time synchronization with backend merchant master databases to ensures consistency and accuracy of the data across all systems.
+    description: UMM enables real-time synchronization with backend data sources to ensures up-to-date data in UMM to be consumed by multiple systems 
 getStarted: /docs/getting-started.md
 featuredFeatures:
   - title: Merchant On-boarding 
@@ -93,8 +93,8 @@ featuredFeatures:
         description: Unified GraphQL Merchant Update API
         type: "post"
         path: "/graphql⁣⁣"
-  - title: Product Inquiry
-    description: Unified Product Inquiry API to retrieve all available products for a given backend and product category
+  - title: Product Catalogue
+    description: Unified Product Inquiry API to retrieve  available products for a given backend and product category
     tags: ["UMM", "Product", "Inquiry"]
     bullets: ["UMM", "Product", "Inquiry"] 
     # relatedDocs:
