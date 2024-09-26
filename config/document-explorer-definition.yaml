@@ -75,15 +75,15 @@
         link: docs/specification/merchant/Merchant_Xref.md
       - title: Products
         link: docs/specification/merchant/merchantProduct.md
-        sections: 
-        - title: Entitlement 
-          link: docs/specification/merchant/prodAttributes_Entitlements.md
-        - title: Value Added Attribute
-          link: docs/specification/merchant/productAttributes_VAS.md
-        - title: Fee
-          link: docs/specification/merchant/productAttributes_fees.md
-        - title: Equipment
-          link: docs/specification/merchant/productAttributes_equipment.md         
+        # sections: 
+        # - title: Entitlement 
+        #   link: docs/specification/merchant/prodAttributes_Entitlements.md
+        # - title: Value Added Attribute
+        #   link: docs/specification/merchant/productAttributes_VAS.md
+        # - title: Fee
+        #   link: docs/specification/merchant/productAttributes_fees.md
+        # - title: Equipment
+        #   link: docs/specification/merchant/productAttributes_equipment.md         
       - title: Product Attributes 
         link: docs/specification/merchant/ProductAttributes.md
       # - title: Product
