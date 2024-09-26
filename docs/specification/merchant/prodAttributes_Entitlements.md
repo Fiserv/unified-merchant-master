@@ -5,16 +5,16 @@
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLMC  | Mastercard Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLMC  | Mastercard Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLMC  | Mastercard Entitlement  |
 <!-- type: tab-end -->
@@ -35,60 +35,60 @@ titles: UMM, North, GMA
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|T2 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|T9 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|BAMS DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|T5 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|RT DISCOUNT RATES|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|T4 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|T0 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|FISERV DISCOUNT OPTION 3|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|3TIER RETAIL|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|T16 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|T15 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|T17 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|FISERV DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|T13 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|ML DISCOUNT OPTION 3|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|ML DISCOUNT OPTION 4|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|T20 TIERED DISCOUNT 20|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|IP INTERCHANGE FEES|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|PF PROCESSING FEES|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|T18 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|T6 TIERED DISCOUNT 2|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|W01 TWO TIERED|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|ML DISCOUNT OPTION 7|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|9TIER RETAIL|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|ML DISCOUNT OPTION 2|
+|discountMethodCode | Discount Method Code| GD_GRID|GD GRID|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|T27 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|ISO TIER TABLE 9Z|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|T19 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|T20 TIERED DISCOUNT 21|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|T10 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|3TIER MOTO|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|FISERV DISCOUNT OPTION 2|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|T22 TIERED DISCOUNT 22|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|2TIER MOTO|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|HD HOLD ACCOUNT|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|T3 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|T7 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|W02 THREE TIERED|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|ML DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|ML DISCOUNT OPTION 5|
+|discountMethodCode | Discount Method Code| NONE|NONE|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|ML DISCOUNT OPTION 6|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|T23 TIERED DISCCOUNT|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|T1 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|T12 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|T24 TIERED DISCCOUNT|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|ISO TIER TABLE 8Y|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|DM DUMMY ACCOUNT|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|T11 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|T8 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|TIERED DISCOUNT 43|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|WELLS FLAT RATE|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|T14 TIERED DISCOUNT|
 |edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -115,60 +115,60 @@ titles: UMM, North, GMA
 |Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|T2 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|T9 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|BAMS DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|T5 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|RT DISCOUNT RATES|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|T4 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|T0 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|FISERV DISCOUNT OPTION 3|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL|3TIER RETAIL|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|T16 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|T15 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|T17 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|FISERV DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|T13 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|ML DISCOUNT OPTION 3|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|ML DISCOUNT OPTION 4|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|T20 TIERED DISCOUNT 20|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|IP INTERCHANGE FEES|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|PF PROCESSING FEES|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|T18 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|T6 TIERED DISCOUNT 2|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED|W01 TWO TIERED|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|ML DISCOUNT OPTION 7|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL|9TIER RETAIL|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|ML DISCOUNT OPTION 2|
+|discountMethodCode | Discount Method Code| GD_GRID|GD GRID|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|T27 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|ISO TIER TABLE 9Z|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|T19 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|T20 TIERED DISCOUNT 21|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|T10 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO|3TIER MOTO|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|FISERV DISCOUNT OPTION 2|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|T22 TIERED DISCOUNT 22|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO|2TIER MOTO|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|HD HOLD ACCOUNT|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|T3 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|T7 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED|W02 THREE TIERED|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|ML DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|ML DISCOUNT OPTION 5|
+|discountMethodCode | Discount Method Code| NONE|NONE|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|ML DISCOUNT OPTION 6|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|T23 TIERED DISCCOUNT|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|T1 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|T12 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|T24 TIERED DISCCOUNT|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|ISO TIER TABLE 8Y|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|DM_DUMMY ACCOUNT|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|T11 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|T8 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|TIERED DISCOUNT 43|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|WELLS FLAT RATE|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|T14 TIERED DISCOUNT|
 |edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -233,16 +233,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLVI  | Visa Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLVI  | Visa Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLVI  | Visa Entitlement  |
 <!-- type: tab-end -->
@@ -263,60 +263,60 @@ titles: UMM, North, GMA
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT| HD HOLD ACCOUNT|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES| IP INTERCHANGE FEES|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3| FISERV DISCOUNT OPTION 3|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1| ML DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1| FISERV DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT| DM DUMMY ACCOUNT|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE| WELLS FLAT RATE|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT| T1 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL| 3TIER RETAIL|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7| ML DISCOUNT OPTION 7|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3| ML DISCOUNT OPTION 3|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z| ISO TIER TABLE 9Z|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT| T16 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT| T19 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT| T9 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4| ML DISCOUNT OPTION 4|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2| ML DISCOUNT OPTION 2|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2| FISERV DISCOUNT OPTION 2|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED| W02 THREE TIERED|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1| BAMS DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT| T4 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES| PF PROCESSING FEES|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5| ML DISCOUNT OPTION 5|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT| T27 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT| T24 TIERED DISCCOUNT|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL| 9TIER RETAIL|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT| T15 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT| T17 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22| T22 TIERED DISCOUNT 22|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21| T20 TIERED DISCOUNT 21|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2| T6 TIERED DISCOUNT 2|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT| T11 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y| ISO TIER TABLE 8Y|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT| T14 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT| T10 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT| T0 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| GD_GRID| GD GRID|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43| TIERED DISCOUNT 43|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT| T8 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO| 3TIER MOTO|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT| T2 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT| T12 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| NONE| NONE|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED| W01 TWO TIERED|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6| ML DISCOUNT OPTION 6|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT| T18 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT| T5 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES| RT DISCOUNT RATES|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT| T13 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO| 2TIER MOTO|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT| T7 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20| T20 TIERED DISCOUNT 20|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT| T23 TIERED DISCCOUNT|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT| T3 TIERED DISCOUNT|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
 |edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -342,60 +342,60 @@ titles: UMM, North, GMA
 |Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT| HD HOLD ACCOUNT|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES| IP INTERCHANGE FEES|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3| FISERV DISCOUNT OPTION 3|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1| ML DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1| FISERV DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT| DM DUMMY ACCOUNT|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE| WELLS FLAT RATE|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT| T1 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL| 3TIER RETAIL|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7| ML DISCOUNT OPTION 7|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3| ML DISCOUNT OPTION 3|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z| ISO TIER TABLE 9Z|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT| T16 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT| T19 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT| T9 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4| ML DISCOUNT OPTION 4|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2| ML DISCOUNT OPTION 2|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2| FISERV DISCOUNT OPTION 2|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED| W02 THREE TIERED|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1| BAMS DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT| T4 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES| PF PROCESSING FEES|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5| ML DISCOUNT OPTION 5|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT| T27 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT| T24 TIERED DISCCOUNT|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL| 9TIER RETAIL|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT| T15 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT| T17 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22| T22 TIERED DISCOUNT 22|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21| T20 TIERED DISCOUNT 21|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2| T6 TIERED DISCOUNT 2|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT| T11 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y| ISO TIER TABLE 8Y|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT| T14 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT| T10 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT| T0 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| GD_GRID| GD GRID|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43| TIERED DISCOUNT 43|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT| T8 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO| 3TIER MOTO|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT| T2 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT| T12 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| NONE| NONE|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED| W01 TWO TIERED|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6| ML DISCOUNT OPTION 6|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT| T18 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT| T5 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES| RT DISCOUNT RATES|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT| T13 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO| 2TIER MOTO|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT| T7 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20| T20 TIERED DISCOUNT 20|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT| T23 TIERED DISCCOUNT|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT| T3 TIERED DISCOUNT|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
 |edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -453,16 +453,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLAMEXOB  | Amex Opt Blue Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLAMEXOB  | Amex Opt Blue Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -482,60 +482,60 @@ titles: UMM, North, GMA
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT| T11_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT| T2_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2| FISERV_DISCOUNT_OPTION_2|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT| T23_TIERED_DISCCOUNT|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT| T24_TIERED_DISCCOUNT|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT| DM_DUMMY_ACCOUNT|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES| RT_DISCOUNT_RATES|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3| ML_DISCOUNT_OPTION_3|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT| T8_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT| T3_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT| T27_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22| T22_TIERED_DISCOUNT_22|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED| W02_THREE_TIERED|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT| T15_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1| FISERV_DISCOUNT_OPTION_1|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6| ML_DISCOUNT_OPTION_6|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5| ML_DISCOUNT_OPTION_5|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT| T18_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL| 3TIER_RETAIL|
+|discountMethodCode | Discount Method Code| GD_GRID| GD_GRID|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21| T20_TIERED_DISCOUNT_21|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT| T12_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL| 9TIER_RETAIL|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED| W01_TWO_TIERED|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z| ISO_TIER_TABLE_9Z|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT| T19_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT| T0_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT| T10_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4| ML_DISCOUNT_OPTION_4|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT| T14_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2| ML_DISCOUNT_OPTION_2|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT| T16_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT| T7_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT| T4_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20| T20_TIERED_DISCOUNT_20|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43| TIERED_DISCOUNT_43|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE| WELLS_FLAT_RATE|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO| 3TIER_MOTO|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT| T1_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| NONE| NONE|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO| 2TIER_MOTO|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7| ML_DISCOUNT_OPTION_7|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1| ML_DISCOUNT_OPTION_1|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT| T9_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y| ISO_TIER_TABLE_8Y|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT| T17_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES| PF_PROCESSING_FEES|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT| T5_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT| T13_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES| IP_INTERCHANGE_FEES|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2| T6_TIERED_DISCOUNT_2|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3| FISERV_DISCOUNT_OPTION_3|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT| HD_HOLD_ACCOUNT|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1| BAMS_DISCOUNT_OPTION_1|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
 |edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
@@ -558,60 +558,60 @@ titles: UMM, North, GMA
 |Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT| T11 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT| T2 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2| FISERV DISCOUNT OPTION 2|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT| T23 TIERED DISCCOUNT|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT| T24 TIERED DISCCOUNT|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT| DM DUMMY ACCOUNT|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES| RT DISCOUNT RATES|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3| ML DISCOUNT OPTION 3|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT| T8 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT| T3 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT| T27 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22| T22 TIERED DISCOUNT 22|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED| W02 THREE TIERED|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT| T15 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1| FISERV DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6| ML DISCOUNT OPTION 6|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5| ML DISCOUNT OPTION 5|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT| T18 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL| 3TIER RETAIL|
+|discountMethodCode | Discount Method Code| GD_GRID| GD GRID|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21| T20 TIERED DISCOUNT 21|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT| T12 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL| 9TIER RETAIL|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED| W01 TWO TIERED|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z| ISO TIER TABLE 9Z|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT| T19 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT| T0 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT| T10 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4| ML DISCOUNT OPTION 4|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT| T14 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2| ML DISCOUNT OPTION 2|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT| T16 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT| T7 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT| T4 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20| T20 TIERED DISCOUNT 20|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43| TIERED DISCOUNT 43|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE| WELLS FLAT RATE|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO| 3TIER MOTO|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT| T1 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| NONE| NONE|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO| 2TIER MOTO|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7| ML DISCOUNT OPTION 7|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1| ML DISCOUNT OPTION 1|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT| T9 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y| ISO TIER TABLE 8Y|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT| T17 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES| PF PROCESSING FEES|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT| T5 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT| T13 TIERED DISCOUNT|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES| IP INTERCHANGE FEES|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2| T6 TIERED DISCOUNT 2|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3| FISERV DISCOUNT OPTION 3|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT| HD HOLD ACCOUNT|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1| BAMS DISCOUNT OPTION 1|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
 |edcCode | EDC Code| MERCHANT_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
@@ -662,16 +662,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLAMEXPT  | Amex Pass Through Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLAMEXPT  | Amex Pass Through Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLAMEXPT  | Amex Pass Through Entitlement  |
 <!-- type: tab-end -->
@@ -795,16 +795,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLDINER  | Diners Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLDINER  | Diners Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLDINER  | Diners Entitlement  |
 <!-- type: tab-end -->
@@ -906,16 +906,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLDISC  | Discover Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLDISC  | Discover Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -935,60 +935,60 @@ titles: UMM, North, GMA
 | Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT| T2_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2| T6_TIERED_DISCOUNT_2|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT| DM_DUMMY_ACCOUNT|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT| T0_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED| W01_TWO_TIERED|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT| T16_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT| HD_HOLD_ACCOUNT|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT| T14_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT| T23_TIERED_DISCCOUNT|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT| T7_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT| T3_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1| ML_DISCOUNT_OPTION_1|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES| PF_PROCESSING_FEES|
+|discountMethodCode | Discount Method Code| GD_GRID| GD_GRID|
+|discountMethodCode | Discount Method Code| NONE| NONE|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES| RT_DISCOUNT_RATES|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT| T11_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2| ML_DISCOUNT_OPTION_2|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL| 3TIER_RETAIL|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z| ISO_TIER_TABLE_9Z|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1| FISERV_DISCOUNT_OPTION_1|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT| T27_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT| T1_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT| T18_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT| T12_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT| T17_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6| ML_DISCOUNT_OPTION_6|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5| ML_DISCOUNT_OPTION_5|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO| 2TIER_MOTO|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1| BAMS_DISCOUNT_OPTION_1|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20| T20_TIERED_DISCOUNT_20|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT| T10_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT| T9_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO| 3TIER_MOTO|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22| T22_TIERED_DISCOUNT_22|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT| T19_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT| T8_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4| ML_DISCOUNT_OPTION_4|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7| ML_DISCOUNT_OPTION_7|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED| W02_THREE_TIERED|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43| TIERED_DISCOUNT_43|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL| 9TIER_RETAIL|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE| WELLS_FLAT_RATE|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21| T20_TIERED_DISCOUNT_21|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3| FISERV_DISCOUNT_OPTION_3|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT| T15_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3| ML_DISCOUNT_OPTION_3|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT| T4_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT| T5_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES| IP_INTERCHANGE_FEES|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2| FISERV_DISCOUNT_OPTION_2|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT| T24_TIERED_DISCCOUNT|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y| ISO_TIER_TABLE_8Y|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT| T13_TIERED_DISCOUNT|
 |edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -1012,60 +1012,60 @@ titles: UMM, North, GMA
 |Attribute            | Description                   | UMM Value                  | Value Description             |
 |:---------------------|:------------------------------|:----------------------------------|------------------------|
 |clearingPlanCode | Clearing Plan Code| ||
-|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| W01_TWO_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| GD_GRID|discountMethodCode|
-|discountMethodCode | Discount Method Code| NONE|discountMethodCode|
-|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES|discountMethodCode|
-|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5|discountMethodCode|
-|discountMethodCode | Discount Method Code| 2TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20|discountMethodCode|
-|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| 3TIER_MOTO|discountMethodCode|
-|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22|discountMethodCode|
-|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7|discountMethodCode|
-|discountMethodCode | Discount Method Code| W02_THREE_TIERED|discountMethodCode|
-|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43|discountMethodCode|
-|discountMethodCode | Discount Method Code| 9TIER_RETAIL|discountMethodCode|
-|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE|discountMethodCode|
-|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3|discountMethodCode|
-|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES|discountMethodCode|
-|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2|discountMethodCode|
-|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT|discountMethodCode|
-|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y|discountMethodCode|
-|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT|discountMethodCode|
+|discountMethodCode | Discount Method Code| T2_TIERED_DISCOUNT| T2_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T6_TIERED_DISCOUNT_2| T6_TIERED_DISCOUNT_2|
+|discountMethodCode | Discount Method Code| DM_DUMMY_ACCOUNT| DM_DUMMY_ACCOUNT|
+|discountMethodCode | Discount Method Code| T0_TIERED_DISCOUNT| T0_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| W01_TWO_TIERED| W01_TWO_TIERED|
+|discountMethodCode | Discount Method Code| T16_TIERED_DISCOUNT| T16_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| HD_HOLD_ACCOUNT| HD_HOLD_ACCOUNT|
+|discountMethodCode | Discount Method Code| T14_TIERED_DISCOUNT| T14_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T23_TIERED_DISCCOUNT| T23_TIERED_DISCCOUNT|
+|discountMethodCode | Discount Method Code| T7_TIERED_DISCOUNT| T7_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T3_TIERED_DISCOUNT| T3_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_1| ML_DISCOUNT_OPTION_1|
+|discountMethodCode | Discount Method Code| PF_PROCESSING_FEES| PF_PROCESSING_FEES|
+|discountMethodCode | Discount Method Code| GD_GRID| GD_GRID|
+|discountMethodCode | Discount Method Code| NONE| NONE|
+|discountMethodCode | Discount Method Code| RT_DISCOUNT_RATES| RT_DISCOUNT_RATES|
+|discountMethodCode | Discount Method Code| T11_TIERED_DISCOUNT| T11_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_2| ML_DISCOUNT_OPTION_2|
+|discountMethodCode | Discount Method Code| 3TIER_RETAIL| 3TIER_RETAIL|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_9Z| ISO_TIER_TABLE_9Z|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_1| FISERV_DISCOUNT_OPTION_1|
+|discountMethodCode | Discount Method Code| T27_TIERED_DISCOUNT| T27_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T1_TIERED_DISCOUNT| T1_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T18_TIERED_DISCOUNT| T18_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T12_TIERED_DISCOUNT| T12_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T17_TIERED_DISCOUNT| T17_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_6| ML_DISCOUNT_OPTION_6|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_5| ML_DISCOUNT_OPTION_5|
+|discountMethodCode | Discount Method Code| 2TIER_MOTO| 2TIER_MOTO|
+|discountMethodCode | Discount Method Code| BAMS_DISCOUNT_OPTION_1| BAMS_DISCOUNT_OPTION_1|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_20| T20_TIERED_DISCOUNT_20|
+|discountMethodCode | Discount Method Code| T10_TIERED_DISCOUNT| T10_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T9_TIERED_DISCOUNT| T9_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| 3TIER_MOTO| 3TIER_MOTO|
+|discountMethodCode | Discount Method Code| T22_TIERED_DISCOUNT_22| T22_TIERED_DISCOUNT_22|
+|discountMethodCode | Discount Method Code| T19_TIERED_DISCOUNT| T19_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T8_TIERED_DISCOUNT| T8_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_4| ML_DISCOUNT_OPTION_4|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_7| ML_DISCOUNT_OPTION_7|
+|discountMethodCode | Discount Method Code| W02_THREE_TIERED| W02_THREE_TIERED|
+|discountMethodCode | Discount Method Code| TIERED_DISCOUNT_43| TIERED_DISCOUNT_43|
+|discountMethodCode | Discount Method Code| 9TIER_RETAIL| 9TIER_RETAIL|
+|discountMethodCode | Discount Method Code| WELLS_FLAT_RATE| WELLS_FLAT_RATE|
+|discountMethodCode | Discount Method Code| T20_TIERED_DISCOUNT_21| T20_TIERED_DISCOUNT_21|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_3| FISERV_DISCOUNT_OPTION_3|
+|discountMethodCode | Discount Method Code| T15_TIERED_DISCOUNT| T15_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| ML_DISCOUNT_OPTION_3| ML_DISCOUNT_OPTION_3|
+|discountMethodCode | Discount Method Code| T4_TIERED_DISCOUNT| T4_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| T5_TIERED_DISCOUNT| T5_TIERED_DISCOUNT|
+|discountMethodCode | Discount Method Code| IP_INTERCHANGE_FEES| IP_INTERCHANGE_FEES|
+|discountMethodCode | Discount Method Code| FISERV_DISCOUNT_OPTION_2| FISERV_DISCOUNT_OPTION_2|
+|discountMethodCode | Discount Method Code| T24_TIERED_DISCCOUNT| T24_TIERED_DISCCOUNT|
+|discountMethodCode | Discount Method Code| ISO_TIER_TABLE_8Y| ISO_TIER_TABLE_8Y|
+|discountMethodCode | Discount Method Code| T13_TIERED_DISCOUNT| T13_TIERED_DISCOUNT|
 |edcCode | EDC Code| FISERV_HOLDS_PAPER|edcCode|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
 |edcCode | EDC Code| NO_SERVICE|edcCode|
@@ -1153,16 +1153,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLJCB  | Jcb Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLJCB  | Jcb Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLJCB  | Jcb Entitlement  |
 <!-- type: tab-end -->
@@ -1257,16 +1257,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLMASTRO  | Maestro Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLMASTRO  | Maestro Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLMASTRO  | Maestro Entitlement  |
 <!-- type: tab-end -->
@@ -1341,16 +1341,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLTCK  | Telecheck Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLTCK  | Telecheck Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -1507,16 +1507,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLVIMA  | Visa Multi Acquirer Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLVIMA  | Visa Multi Acquirer Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -1612,16 +1612,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLAMEXMA  | American Express Multi Acquirer Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLAMEXMA  | American Express Multi Acquirer Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -1715,16 +1715,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLALIPAY  | Alipay Eligibility Program  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLALIPAY  | Alipay Eligibility Program  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -1763,16 +1763,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLARVEOL  | Arvato Eold Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLARVEOL  | Arvato Eold Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -1843,16 +1843,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLBILLAT  | Bill Me Later Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLBILLAT  | Bill Me Later Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -1921,16 +1921,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLBNTBOX  | BentoBox  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLBNTBOX  | BentoBox  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -1966,16 +1966,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLCHKNWR  | Check Non Warranty Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLCHKNWR  | Check Non Warranty Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -2044,16 +2044,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLCHKWAR  | Check Warranty Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLCHKWAR  | Check Warranty Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -2123,16 +2123,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLCLOVERGO  | Clover Go  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLCLOVERGO  | Clover Go  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -2171,16 +2171,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLCUP  | China Union Pay Eligibilty Program  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLCUP  | China Union Pay Eligibilty Program  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLCUP  | China Union Pay Eligibilty Program  |
 <!-- type: tab-end -->
@@ -2225,16 +2225,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLDBTEDS  | Debit Eds Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLDBTEDS  | Debit Eds Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -2846,16 +2846,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLDBTGTW  | Debit Gateway Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLDBTGTW  | Debit Gateway Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -3328,16 +3328,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLDBTMA  | Debit Multi Acquirer Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLDBTMA  | Debit Multi Acquirer Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -3430,16 +3430,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLDISCMA  | Discover Multi Acquirer Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLDISCMA  | Discover Multi Acquirer Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -3530,16 +3530,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLEBT  | Ebt Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLEBT  | Ebt Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -3608,16 +3608,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLENCORE  | Encore Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLENCORE  | Encore Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -3686,16 +3686,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLERNLYT  | Earn Loyalty Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLERNLYT  | Earn Loyalty Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -3764,16 +3764,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLETC  | Etc Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLETC  | Etc Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -3842,16 +3842,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLEXPLR  | Explore Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLEXPLR  | Explore Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -3920,16 +3920,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLFLTCOR  | Fleetcore Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLFLTCOR  | Fleetcore Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -3998,16 +3998,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLFLTONE  | Fleetone Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLFLTONE  | Fleetone Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -4077,16 +4077,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLFNDSV  | Funded Stored Value Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLFNDSV  | Funded Stored Value Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -4185,16 +4185,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLFRPET1  | Future Petroleum 1 Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLFRPET1  | Future Petroleum 1 Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -4263,16 +4263,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLFRPET2  | Future Petroleum 2 Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLFRPET2  | Future Petroleum 2 Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -4341,16 +4341,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLFRPET3  | Future Petroleum 3 Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLFRPET3  | Future Petroleum 3 Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -4419,16 +4419,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLGGLCKT  | Google Checkout Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLGGLCKT  | Google Checkout Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -4497,16 +4497,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLGLALTM  | Global Alternate Mops Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLGLALTM  | Global Alternate Mops Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -4575,16 +4575,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLGNPVLB  | Generic Private Label Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLGNPVLB  | Generic Private Label Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -4653,16 +4653,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLINTERACCNT  | Interac Contact Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLINTERACCNT  | Interac Contact Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -4697,16 +4697,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLINTERACFLS  | Interac Flash Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLINTERACFLS  | Interac Flash Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -4743,16 +4743,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLINTERACINAPP  | Interac In App Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLINTERACINAPP  | Interac In App Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -4787,16 +4787,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLINTLNK  | Interlink Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLINTLNK  | Interlink Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -4865,16 +4865,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLJBS  | Jbs Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLJBS  | Jbs Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -4945,16 +4945,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLMCMA  | Mastercard Multi Acquirer Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLMCMA  | Mastercard Multi Acquirer Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -5047,16 +5047,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLMSTROI  | Maestro International Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLMSTROI  | Maestro International Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -5125,16 +5125,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLOFRWSE  | Offerwise Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLOFRWSE  | Offerwise Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -5203,16 +5203,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLPAYPAL  | Paypal Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLPAYPAL  | Paypal Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLPAYPAL  | Paypal Entitlement  |
 <!-- type: tab-end -->
@@ -5287,16 +5287,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLPPALDIS  | Paypal Enablement For Discover Full Service Merchant  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLPPALDIS  | Paypal Enablement For Discover Full Service Merchant  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -5331,16 +5331,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLPPLVNMO  | Merchants Participating In The Paypal/Venmo Qrc Program  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLPPLVNMO  | Merchants Participating In The Paypal/Venmo Qrc Program  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -5397,16 +5397,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLPPRO  | PPRO  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLPPRO  | PPRO  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -5441,16 +5441,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLPURCRD  | Purchase Card Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLPURCRD  | Purchase Card Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -5519,16 +5519,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLPVTLBL  | Pvt Label Multicard Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLPVTLBL  | Pvt Label Multicard Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -5627,16 +5627,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLSIGDBT  | Signature Debit Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLSIGDBT  | Signature Debit Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -5727,16 +5727,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLT2CRD  | Tier Ii Credit Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLT2CRD  | Tier Ii Credit Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -5806,16 +5806,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLTELCRD  | Telecredit Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLTELCRD  | Telecredit Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -5884,16 +5884,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLUFNDSV  | Unfunded Stored Value Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLUFNDSV  | Unfunded Stored Value Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -6592,16 +6592,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLUPICRD  | UPI Credit Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLUPICRD  | UPI Credit Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -6636,16 +6636,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLUPIDBT  | UPI Debit Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLUPIDBT  | UPI Debit Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -6680,16 +6680,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLVALLNK  | Valuelink Premium Autoboard  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLVALLNK  | Valuelink Premium Autoboard  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -6722,16 +6722,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLVASGYFT  | GYFT  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLVASGYFT  | GYFT  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -6771,16 +6771,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLVOYGER  | Voyager Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLVOYGER  | Voyager Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -6849,16 +6849,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLWECHATPAY  | We Chat Pay  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLWECHATPAY  | We Chat Pay  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -6893,16 +6893,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLWRTEXP  | Wright Express Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLWRTEXP  | Wright Express Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -6963,7 +6963,7 @@ titles: UMM, North, GMA
 |serviceTypeCode | Service Type Code| FULL_SERVICE|serviceTypeCode|
 |signedVolumeAmount | Signed Volume Amount| ||
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
@@ -6972,16 +6972,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLAPM  | APM Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLAPM  | APM Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLAPM  | APM Entitlement  |
 <!-- type: tab-end -->
@@ -7021,16 +7021,16 @@ titles: UMM, North, GMA
 titles: UMM, North, GMA 
 -->
 
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLEFTPOS  | Electronic Funds Transfer at Point of Sale Entitlement  |
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLEFTPOS  | Electronic Funds Transfer at Point of Sale Entitlement  |
 
 <!-- type: tab -->
-|  Value    |     Description  |
+|  Product Code    |     Description  |
 |:-----------|:----------------:|
 | ENTLEFTPOS  | Electronic Funds Transfer at Point of Sale Entitlement  |
 <!-- type: tab-end -->
