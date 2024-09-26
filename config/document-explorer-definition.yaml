@@ -31,17 +31,17 @@
 # - sections:
 #   - title: About
 #     link: docs/about-umm/umm-overview.md
-- sections:
-  - title: Integrations
-    # link: docs/getting-started.md
 # - sections:
-#   - title: Getting Access
-#     link: docs/getting-access/umm-access.md
-    sections:
-    - title: API Access
-      link: docs/getting-access/api-access.md
-    - title: Snowflake Access
-      link: docs/getting-access/database-access.md
+#   - title: Integrations
+#     # link: docs/getting-started.md
+# # - sections:
+# #   - title: Getting Access
+# #     link: docs/getting-access/umm-access.md
+#     sections:
+#     - title: API Access
+#       link: docs/getting-access/api-access.md
+#     - title: Snowflake Access
+#       link: docs/getting-access/database-access.md
     # sections:
     # - title: UMM Overview
     #   link: docs/getting-access/umm-overview.md
