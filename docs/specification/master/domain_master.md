@@ -7,7 +7,7 @@
 
 ### ID
 
-* Description: Unique identifier of each record in this table, called Domain Id.
+* Description: Unique identifier of each domain record , called Domain Id.
 * API field: NA
 * Field Specification:
 

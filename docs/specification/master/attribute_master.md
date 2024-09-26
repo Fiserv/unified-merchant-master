@@ -43,7 +43,7 @@
 
 ### DOMAIN_ID
 
-* Description: ID from Domain Master table to link attribute with specific domain
+* Description: ID from Domain Master table to link attribute with a domain
 * API field: NA
 * Field Specification:
 
