@@ -62,10 +62,42 @@ titles: UMM
 |--------|:--------------:|:----------:|:-------:|:------:|:------:|:------:|
 | Enum   |   NA   |   NA  |  Available |  Required   |     NA      |   NA   |
 
-* See supported Entitlements [here](?path=docs/specification/products_entitlements.md)
-* See supported Value Added Services [here](?path=docs/specification/products_vas.md)
-* See supported Fees [here](?path=docs/specification/products_fees.md)
-* See supported Equipments [here](?path=docs/specification/products_equipments.md)
+
+Supported  Products  can be retrieved using Product Inquiry API Call.
+
+```http
+
+GET https://connect.fiservapis.com/unifiedmerchantmaster/internal/v1/products?platformCode=$platform&productCategory=$category HTTP/1.1
+x-consumer-name: $consume-name
+x-encrypted-data: true
+
+$category can have below Values: 
+
+          - ENTITLEMENT
+          - VAS
+          - EQUIPMENT
+          - PAYMENT_FEATURE
+          - FEE
+
+$platform can have below Values: 
+
+          - NORTH
+          - OMAHA
+          - SOUTH
+          - OMNIPAY26
+          - OMNIPAY21
+
+```
+
+OR Sample Query to fetch available products from snowflake:
+
+```text
+
+      select *  
+      from umm.prdct_master 
+      where is_active = 'Y'
+
+```
 
 <!-- type: tab-end -->
 ---
@@ -89,7 +121,7 @@ titles: UMM
 
 ### ATTRIBUTE_ID
 
-* Description: Attribute ID that represents a specific characteristic of a product.
+* Description: UMM defined attribute ID that represents a specific characteristic of a product.
 * API field: NA
 
 <!-- type: tab 
@@ -102,10 +134,10 @@ titles: UMM
 
 <!-- type: tab-end -->
 
-* See **Entitlements** attribute [here](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
-* See **Fees** attrubute [here](?path=docs/specification/merchant/productAttributes_fees.md)
-* See **Value Added Services (VAS)** attribute [here](?path=docs/specification/merchant/productAttributes_VAS.md)
-* See **Equipment** attribute [here](?path=docs/specification/merchant/productAttributes_equipment.md)
+* See supported Entitlement Attributes [here](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
+* See supported Value Added Service Attributes [here](?path=docs/specification/merchant/productAttributes_VAS.md)
+* See supported Fee Attributes [here](?path=docs/specification/merchant/productAttributes_fees.md)
+* See supported Equipment Attributes [here](?docs/specification/merchant/productAttributes_equipment.md)
 
 ---
 
