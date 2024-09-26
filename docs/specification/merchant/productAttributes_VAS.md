@@ -2062,14 +2062,14 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-## Transarmor Token File
+## Transarmor Token
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
 
 |  Value    |     Description  |
 |:-----------|:----------------:|
-| VASTRNSARM  | Transarmor Token File  |
+| VASTRNSARM  | Transarmor Token  |
 <!-- type: tab -->
 |  Value    |     Description  |
 |:-----------|:----------------:|

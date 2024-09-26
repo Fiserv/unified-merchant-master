@@ -137,7 +137,7 @@ titles: UMM
 * See supported Entitlement Attributes [here](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
 * See supported Value Added Service Attributes [here](?path=docs/specification/merchant/productAttributes_VAS.md)
 * See supported Fee Attributes [here](?path=docs/specification/merchant/productAttributes_fees.md)
-* See supported Equipment Attributes [here](?docs/specification/merchant/productAttributes_equipment.md)
+* See supported Equipment Attributes [here](?path=docs/specification/merchant/productAttributes_equipment.md)
 
 ---
 

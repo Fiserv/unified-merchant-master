@@ -68,7 +68,7 @@ titles: UMM
 * See supported Entitlements [here](?path=docs/specification/merchant/prodAttributes_Entitlements.md)
 * See supported Value Added Services [here](?path=docs/specification/merchant/productAttributes_VAS.md)
 * See supported Fees [here](?path=docs/specification/merchant/productAttributes_fees.md)
-* See supported Equipments [here](?docs/specification/merchant/productAttributes_equipment.md)
+* See supported Equipments [here](?path=docs/specification/merchant/productAttributes_equipment.md)
 
 Supported  Products  can be retrieved using Product Inquiry API Call.
 
