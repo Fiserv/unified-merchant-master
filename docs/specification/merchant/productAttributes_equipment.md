@@ -1,4 +1,4 @@
-# Equipment Product List
+# Equipment Product
 
 * Product Code: Any Equipment Product  
 
@@ -28,9 +28,9 @@ $platform can have below Values:
 
 ```
 
-* Attribute List by Domain:
+## Attributes
 
-### equipmentFeatures
+### Domain:equipmentFeatures
 
 
 <!-- type: tab 
