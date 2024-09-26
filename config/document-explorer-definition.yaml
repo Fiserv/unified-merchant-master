@@ -74,7 +74,7 @@
       - title: Xref
         link: docs/specification/merchant/Merchant_Xref.md
       - title: Products
-        link : docs/specification/merchant/merchantProduct.md
+        link: docs/specification/merchant/merchantProduct.md
         sections: 
         - tile: Entitlement 
           link: docs/specification/merchant/prodAttributes_Entitlements.md
@@ -85,7 +85,7 @@
         - tile: Equipment
           link: docs/specification/merchant/productAttributes_equipment.md         
       - tile: Product Attributes 
-        link:  docs/specification/merchant/ProductAttributes.md
+        link: docs/specification/merchant/ProductAttributes.md
       # - title: Product
       #   link: docs/specification/merchant/products.md   
       #   sections:
