@@ -15,7 +15,7 @@ Three Fundamental Models used by UMM to store merchant data
 >
 > **Product**: UMM maintains a list of products to represent subscribed card entitlements,fees, payment features, value added services and equipments. Additional information about product can be found [here](?path=docs/specification/merchant/products.md)
 >
-> **Attribute**: Related fields logically grouped under a domain and stored as key value pair. This construct is used at both merchant level and product level. For additional information see [Merchant Level Attributes](?path=docs/specification/merchant/merchantAttributes.md) and [Product Level Attribute](?path=path=docs/specification/merchant/products.md)
+> **Attribute**: Related fields logically grouped under a domain and stored as key value pair. This construct is used at both merchant level and product level. For additional information see [Merchant Level Attributes](?path=docs/specification/merchant/merchantAttributes.md) and [Product Level Attribute](?path=docs/specification/merchant/ProductAttributes.md)
 
 Each entity has the below columns as part of their key
 
