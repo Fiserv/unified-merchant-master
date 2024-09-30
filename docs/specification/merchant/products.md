@@ -33,13 +33,13 @@
 
 ### Sample Query to pull all products for a merchant
 
-```text
+```sql
 
-    select *
-    from umm.merchant_product p 
-    where effective_end_date is null 
-    and merchant_id = '302246063994' 
-    and status = 'Y'
+select *
+from umm.merchant_product p 
+where effective_end_date is null 
+and merchant_id = '302246063994' 
+and status = 'Y'
 
 ```
 
@@ -55,9 +55,9 @@ and p.attribute_id = am.id
 order by name
 ```
 
-### Sample Query to fetch associated attributes for a product 
+### Sample Query to fetch associated attributes for a product
 
-```text
+```sql
 
 select DOMAIN, P.prdct_code, p.PRDCT_SHORT_DESC , AM.ID AS ATTRIBUTE_ID, AM.NAME ATTRIBUTE_NAME 
 from UMM.PRDCT_MASTER P , UMM.PRDCT_ATTRIBUTE_MASTER PA , UMM.ATTRIBUTE_MASTER AM , UMM.DOMAIN_MASTER DM
@@ -68,13 +68,13 @@ and AM.DOMAIN_ID = DM.ID
 
 ```
 
-### Sample Query to fetch available products in UMM:
+### Sample Query to fetch available products in UMM
 
-```text
+```sql
 
-      select *  
-      from umm.prdct_master 
-      where is_active = 'Y'
+select *  
+from umm.prdct_master 
+where is_active = 'Y'
 
 ```
 
