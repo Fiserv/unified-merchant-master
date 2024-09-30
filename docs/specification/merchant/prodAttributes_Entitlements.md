@@ -633,7 +633,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: specialProgramIndicators
 
 ---
@@ -677,7 +676,7 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 
 ### Attributes
- 
+
 #### Domain: amexSourceCode
 
 ---
@@ -700,7 +699,6 @@ titles: UMM, North, GMA
 |sourceCode | Amex SourceCode| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: entitlementAttr
 
@@ -764,7 +762,6 @@ titles: UMM, North, GMA
 
 <!-- type: tab-end -->
 
-
 #### Domain: specialProgramIndicators
 
 ---
@@ -809,7 +806,7 @@ titles: UMM, North, GMA
 | ENTLDINER  | Diners Entitlement  |
 <!-- type: tab-end -->
 
- *Attribute List by Domain:
+### Attributes
 
 #### Domain: entitlementAttr
 
@@ -875,7 +872,6 @@ titles: UMM, North, GMA
 
 <!-- type: tab-end -->
 
-
 #### Domain: specialProgramIndicators
 
 ---
@@ -919,7 +915,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
-*### Attributes
+### Attributes
 
 #### Domain: entitlementAttr
 
@@ -1354,7 +1350,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
-*### Attributes
+### Attributes
 
 #### Domain: checkAcceptanceMethod
 
@@ -1520,7 +1516,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
-*### Attributes
+### Attributes
 
 #### Domain: entitlementAttr
 
@@ -1625,7 +1621,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
-*### Attributes
+### Attributes
 
 #### Domain: entitlementAttr
 
@@ -1728,7 +1724,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
-*### Attributes
+### Attributes
 
 #### Domain: entitlementAttr
 
@@ -1776,7 +1772,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
-*### Attributes
+### Attributes
 
 #### Domain: entitlementAttr
 
@@ -1856,7 +1852,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
-*### Attributes
+### Attributes
 
 #### Domain: entitlementAttr
 
@@ -1934,7 +1930,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
-*### Attributes
+### Attributes
 
 #### Domain: entitlementAttr
 
@@ -1979,7 +1975,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
-*### Attributes
+### Attributes
 
 #### Domain: entitlementAttr
 
@@ -2057,7 +2053,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
- *### Attributes
+### Attributes
 
 #### Domain: entitlementAttr
 
@@ -2136,7 +2132,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
-*### Attributes
+### Attributes
 
 #### Domain: entitlementAttr
 
@@ -2185,7 +2181,7 @@ titles: UMM, North, GMA
 | ENTLCUP  | China Union Pay Eligibilty Program  |
 <!-- type: tab-end -->
 
-*### Attributes
+### Attributes
 
 #### Domain: entitlementAttr
 
@@ -2238,7 +2234,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
-*### Attributes
+### Attributes
 
 #### Domain: disbursementssements
 
@@ -2298,7 +2294,6 @@ titles: UMM, North, GMA
 |pinEntryMethods | Pin Entry Methods| PIN_AND_PINLESS|VALUE|
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: entitlementAttr
 
@@ -2444,7 +2439,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: hcAts
 
 ---
@@ -2500,7 +2494,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: hcInterlink
 
@@ -2859,7 +2852,7 @@ titles: UMM, North, GMA
 |:-----------|:----------------:|
 <!-- type: tab-end -->
 
-*### Attributes
+### Attributes
 
 #### Domain: entitlementAttr
 
@@ -2945,7 +2938,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: hcAffn
 
@@ -3059,7 +3051,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: hcInterlink
 
 ---
@@ -3087,7 +3078,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: hcJeanie
 
@@ -3117,7 +3107,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: hcMaestro
 
 ---
@@ -3145,7 +3134,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: hcNyce
 
@@ -3175,7 +3163,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: hcPulse
 
 ---
@@ -3204,7 +3191,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: hcShazam
 
@@ -3423,7 +3409,6 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 
 ---
-
 
 ## Discover Multi Acquirer
 <!-- type: tab 
@@ -4938,8 +4923,6 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-
-
 ## Mastercard Multi Acquirer
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5800,7 +5783,6 @@ titles: UMM, North, GMA
 <!-- type: tab-end -->
 ---
 
-
 ## Telecredit
 <!-- type: tab 
 titles: UMM, North, GMA 
@@ -5972,7 +5954,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: dataOnly
 
 ---
@@ -5996,7 +5977,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: duguesneUniv
 
@@ -6022,7 +6002,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: egiftSocial
 
 ---
@@ -6046,7 +6025,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: entitlementAttr
 
@@ -6104,7 +6082,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: flexCache
 
 ---
@@ -6131,7 +6108,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: franchiseEnabled
 
 ---
@@ -6155,7 +6131,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: fraudWatch
 
@@ -6181,7 +6156,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: giftangogo
 
 ---
@@ -6205,7 +6179,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: greatLakesScript
 
@@ -6231,7 +6204,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: incomm
 
 ---
@@ -6255,7 +6227,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: jet
 
@@ -6281,7 +6252,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: lsn
 
 ---
@@ -6305,7 +6275,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: mondex
 
@@ -6331,7 +6300,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: nearRealTimeMessaging
 
 ---
@@ -6355,7 +6323,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: premiumPrepaid
 
@@ -6383,7 +6350,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: robertMorrisCollege
 
 ---
@@ -6407,7 +6373,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: settlementSwitch
 
@@ -6433,7 +6398,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: standardGCMisc
 
 ---
@@ -6457,7 +6421,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: standardGCProject
 
@@ -6483,7 +6446,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: standardGCReport
 
 ---
@@ -6507,7 +6469,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: univofPenn
 
@@ -6535,7 +6496,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 
-
 #### Domain: valueLink
 
 ---
@@ -6559,7 +6519,6 @@ titles: UMM, North, GMA
 |miscInfoText | Misc Info Text| ||
 <!-- type: tab -->
 <!-- type: tab-end -->
-
 
 #### Domain: visaCash
 
@@ -6587,7 +6546,7 @@ titles: UMM, North, GMA
 
 ---
 
-## UPI Credit 
+## UPI Credit
 <!-- type: tab 
 titles: UMM, North, GMA 
 -->
@@ -6764,7 +6723,6 @@ titles: UMM, North, GMA
 <!-- type: tab -->
 <!-- type: tab-end -->
 ---
-
 
 ## Voyager Entitlement
 <!-- type: tab 

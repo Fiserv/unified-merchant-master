@@ -7,7 +7,7 @@
 
 ### ID
 
-* Description: Unique identifier of each record in this table, called attribute ID. 
+* Description: Unique identifier of each record in this table, called attribute ID.
 * API field: NA
 * Field Specification:
 
@@ -31,7 +31,7 @@
 
 ### DESCRIPTION
 
-* Description:  Detailed Description of the Attribute. 
+* Description:  Detailed Description of the Attribute.
 * API field: NA
 * Field Specification:
 
