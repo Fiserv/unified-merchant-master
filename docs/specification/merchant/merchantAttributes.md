@@ -1480,6 +1480,7 @@ titles: UMM, North, GMA
 |                  |                            |    REJECT_IF_GTE_80000   |   Reject If Gte 80000        |    Available     | Optional     | Allowed |    NA |
 |                  |                            |    REJECT_IF_GTE_140000   |   Reject If Gte 140000        |    Available     | Optional     | Allowed |    NA |
 |                  |                            |    REJECT_IF_GTE_700000   |   Reject If Gte 700000        |    Available     | Optional     | Allowed |    NA |
+|                  |                            |    REJECT_IF_GTE_090000   |   Reject If Gte 90000        |    Available     | Optional     | Allowed |    NA |
 | cumulativeCreditLimitAmount| Cumulative Credit Limit Amount        |    REJECT_IF_GTE_300000   |   Reject If Gte 300000        |    Available     | Optional     | Allowed |    NA |
 |                            |                                       |    REJECT_IF_GTE_700000   |   Reject If Gte 700000        |    Available     | Optional     | Allowed |    NA |
 |                            |                                       |    REJECT_IF_GTE_400000   |   Reject If Gte 400000        |    Available     | Optional     | Allowed |    NA |
@@ -4860,7 +4861,8 @@ titles: UMM, North, GMA
 |                    |                                       |    TIER_39   |   Tier 39        |    Available     | Optional     | Allowed |    NA |  
 |                    |                                       |    TIER_21   |   Tier 21        |    Available     | Optional     | Allowed |    NA |  
 |                    |                                       |    TIER_13   |   Tier 13        |    Available     | Optional     | Allowed |    NA |  
-|                    |                                       |    TIER_23   |   Tier 23        |    Available     | Optional     | Allowed |    NA |  
+|                    |                                       |    TIER_28   |   Tier 28        |    Available     | Optional     | Allowed |    NA |  
+
 | xrefIndicator| Xref Indicator        |    YES   |   Yes        |    Available     | Optional     | Allowed |    NA |  
 |                    |                                       |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
 | doNotChargeVee | Do Not Charge Vee for Omnipay  |    STRING   |   String   |    Available     | Optional | Allowed |    NA |
@@ -6471,7 +6473,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
 | billbackSurchargeCode| Billback Surcharge Code        |    AUTO_BILL_SRCHRG_BSNS   |   Auto Bill Srchrg Bsns        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    FUEL_CARD_PALN_CODE_VI   |   Fuel Card Paln Code Vi        |    Available     | Optional     | Allowed |    NA |
+|          -            |                 -                    |    FUEL_CARD_PLAN_CODE_VI   |   Fuel Card Paln Code Vi        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    EXCLUDE_AUTO_FUEL_VI   |   Exclude Auto Fuel Vi        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    GOVT_PLAN_CODE_VI   |   Govt Plan Code Vi        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    CORP_CARD_PLAN_CODE_MC_VI   |   Corp Card Plan Code Mc Vi        |    Available     | Optional     | Allowed |    NA |
@@ -6538,7 +6540,7 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    NO   |   No        |    Available     | Optional     | Allowed |    NA |
 | billbackSurchargeCode| Billback Surcharge Code        |    AUTO_BILL_SRCHRG_BSNS   |   Auto Bill Srchrg Bsns        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NOT_SPECIFIED   |   Not Specified        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    FUEL_CARD_PALN_CODE_VI   |   Fuel Card Paln Code Vi        |    Available     | Optional     | Allowed |    NA |
+|          -            |                 -                    |    FUEL_CARD_PLAN_CODE_VI   |   Fuel Card Paln Code Vi        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    EXCLUDE_AUTO_FUEL_VI   |   Exclude Auto Fuel Vi        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    GOVT_PLAN_CODE_VI   |   Govt Plan Code Vi        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    CORP_CARD_PLAN_CODE_MC_VI   |   Corp Card Plan Code Mc Vi        |    Available     | Optional     | Allowed |    NA |
@@ -7496,8 +7498,8 @@ titles: UMM, North, GMA
 |          -            |                 -                    |    REFFERAL   |   Refferal        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    NONTMP_NONAPPRVD_TRANS   |   Nontmp Nonapprvd Trans        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    ISS_APPRVD   |   Iss Apprvd        |    Available     | Optional     | Allowed |    NA |
-| visaTechnologyMigrationProgramCardholderIdCode| Visa Technology Migration Program  cardholder ID code        |    UNATTENDED_NOPIN_4   |   Unattended Nopin 4        |    Available     | Optional     | Allowed |    NA |
-|          -            |                 -                    |    UNATTENDED_NOPIN_3   |   Unattended Nopin 3        |    Available     | Optional     | Allowed |    NA |
+| visaTechnologyMigrationProgramCardholderIdCode| Visa Technology Migration Program  cardholder ID code        |    UNATTENDED_TERM_NO_PIN   |   Unattended Term Nopin        |    Available     | Optional     | Allowed |    NA |
+|          -            |                 -                    |    MAIL_PHONE_ORDER   |   Mail Phone order        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    PIN_ENTERED   |   Pin Entered        |    Available     | Optional     | Allowed |    NA |
 |          -            |                 -                    |    SIG_VERIFIED   |   Sig Verified        |    Available     | Optional     | Allowed |    NA |
 | visaTechnologyMigrationProgramEntryMode| Visa Technology Migration Program terminal entry mode code        |    MAG_STRP_TRACK_READ_XMIT   |   Mag Strp Track Read Xmit        |    Available     | Optional     | Allowed |    NA |

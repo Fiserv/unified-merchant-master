@@ -311,6 +311,7 @@ titles: UMM, North, GMA
 | REJECTED_DESC_RECEIVABLE | Account Usage Code |
 | GST_COLLECT_RECEIVABLE | Account Usage Code |
 | VEASE_FUND_CLEAR_RECEIVABLE | Account Usage Code |
+| EFTPOS_PYMT | Account Usage Code |
 
 <!-- type: tab -->
 
@@ -481,6 +482,7 @@ titles: UMM, North, GMA
 | REJECTED_DESC_RECEIVABLE | Account Usage Code |
 | GST_COLLECT_RECEIVABLE | Account Usage Code |
 | VEASE_FUND_CLEAR_RECEIVABLE | Account Usage Code |
+| EFTPOS_PYMT | Account Usage Code |
 
 <!-- type: tab-end -->
 ---
