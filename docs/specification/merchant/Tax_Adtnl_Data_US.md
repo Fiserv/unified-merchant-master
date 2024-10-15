@@ -816,7 +816,8 @@ titles: UMM, North, GMA
 | Enum   |       NA        |    NA        |    Available   | NA   | Allowed   |   NA   |
 
 **Valid Values**:
-|              Value   |                    Description                 |
+
+|              Value   |                    Description                   |
 |:----------------------|:------------------------------------------------|
 |ADD_MISSING_TIN/TFN | Add missing TIN/TFN|
 |CORRECT_WRONG_TIN/TFN | Correct wrong TIN/TFN|
