@@ -1,0 +1,226 @@
+openapi: 3.0.1
+info:
+  title: UMM Internal Service
+  description: APIs to retrieve UMM master data
+  version: 1.0.0
+servers:
+- url: https://connect.fiservapis.com/unifiedmerchantmaster
+paths:
+  /internal/v1/products:
+    get:
+      tags:
+      - Product Inquiry
+      summary: API to retrieve Products
+      operationId: products
+      parameters:
+      - name: platformCode
+        in: query
+        description: |
+          Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
+          <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+        required: true
+        schema:
+          type: string
+          description: |
+            Code to identify the specific backend platform. It adds the required information for the merchant. For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchant.md&branch=develop#platform_code">specification</a>
+          example: NORTH
+          enum:
+          - NORTH
+          - OMAHA
+          - SOUTH
+          - OMNIPAY26
+          - OMNIPAY21
+        example: NORTH
+      - name: productCategory
+        in: query
+        required: true
+        schema:
+          type: string
+          example: VAS
+          enum:
+          - ENTITLEMENT
+          - VAS
+          - EQUIPMENT
+          - PAYMENT_FEATURE
+          - FEE
+        example: VAS
+      - name: productCode
+        in: query
+        description: |
+          The product code associated with the product and defined by UMM API
+          > For more details refer to
+          <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
+        required: false
+        schema:
+          type: string
+          description: |
+            The product code associated with the product and defined by UMM API
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
+          example: VASPAYEEZY
+        example: VASPAYEEZY
+      - name: productShortDescription
+        in: query
+        required: false
+        schema:
+          maxLength: 2147483647
+          minLength: 4
+          type: string
+          example: Payeezy
+        example: Payeezy
+      - name: includeInactive
+        in: query
+        required: false
+        schema:
+          type: boolean
+          example: true
+        example: true
+      - name: pageNumber
+        in: query
+        required: false
+        schema:
+          type: number
+          example: 1
+        example: 1
+      - name: tags
+        in: query
+        required: false
+        schema:
+          maxLength: 10
+          minLength: 0
+          type: string
+      - name: Authorization
+        in: header
+        description: |
+          Bearer access token. For token generation refer to
+          <a href="../docs?path=docs/getting-access/api-access.md">API access</a>
+        required: true
+        schema:
+          type: string
+        example: "Bearer {token}"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProductMasterResponse"
+      x-proxy-name: v1/products
+      x-group-name: Inquiry
+      x-core: UMM
+      x-child-product-name: Product
+components:
+  schemas:
+    ProductMasterExternalCrossRefResponse:
+      type: object
+      properties:
+        xrefPlatform:
+          type: string
+        xrefPlatformIdentifier:
+          type: string
+    ProductMasterResponse:
+      type: object
+      properties:
+        products:
+          type: array
+          items:
+            $ref: "#/components/schemas/ProductResponse"
+        pageNumber:
+          type: integer
+          format: int32
+        pageSize:
+          type: integer
+          format: int32
+        totalCount:
+          type: integer
+          format: int64
+    ProductResponse:
+      type: object
+      properties:
+        productId:
+          type: integer
+          format: int64
+        productCode:
+          type: string
+          description: |
+            The product code associated with the product and defined by UMM API
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#prdct_code">specification</a>
+        productLongDesc:
+          type: string
+        productShortDesc:
+          type: string
+        productSubCategory:
+          type: string
+        pricingConfigType:
+          type: string
+        feeTypeCode:
+          type: string
+        isActive:
+          type: string
+          description: |
+            This field indicates whether the product is active or not
+            > For more details refer to
+            <a href="../docs?path=docs/specification/merchant/merchantProduct.md&branch=develop#status">specification</a>
+        productCategory:
+          type: string
+          description: |
+            > For more details refer to
+            <a href="../docs?path=docs/specification/products_entitlements.md&branch=develop">entitlements</a>,
+            <a href="../docs?path=docs/specification/products_vas.md&branch=develop">vas</a>,
+            <a href="../docs?path=docs/specification/products_fees.md&branch=develop">fee</a>,
+            <a href="../docs?path=docs/specification/products_equipments.md&branch=develop">equipment</a>
+            specifications
+        crossReference:
+          type: array
+          items:
+            $ref: "#/components/schemas/ProductMasterExternalCrossRefResponse"
+        attributes:
+          type: object
+          additionalProperties:
+            type: object
+            additionalProperties:
+              type: object
+              description: |
+                Will contain one or more attributes in the format shown below
+                ```json
+                {
+                  "domain#1": {
+                    "attribute#1": {
+                      "values": [ "some value" ]
+                    },
+                    "attribute#2": {
+                      "values": [ "some value" ]
+                    }
+                  }
+                }
+                ```
+            description: |
+              Will contain one or more attributes in the format shown below
+              ```json
+              {
+                "domain#1": {
+                  "attribute#1": {
+                    "values": [ "some value" ]
+                  },
+                  "attribute#2": {
+                    "values": [ "some value" ]
+                  }
+                }
+              }
+              ```
+          description: |
+            Will contain one or more attributes in the format shown below
+            ```json
+            {
+              "domain#1": {
+                "attribute#1": {
+                  "values": [ "some value" ]
+                },
+                "attribute#2": {
+                  "values": [ "some value" ]
+                }
+              }
+            }
+            ```
