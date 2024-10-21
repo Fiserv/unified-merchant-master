@@ -20,8 +20,8 @@
   "product": {
     "featured": true,
     "logoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Portal_Logo.png",
-    "description": "To onboard properly into the Developer Studio as a tenant each product must support these APIs. ",
-    "longDescription": "To onboard properly into the Developer Studi as a tenant each product must support these APIs so that we can retrieve product specific API specifications and documentation.",
+    "description": "Single Unified Definition of products and offerings, fees, equipment and merchant demographic information",
+    "longDescription": "Unified Merchant Master (UMM) aims to offer a developer friendly and unified/canonical data model for  Merchant Account, Fee, Equipment & product offerings, backed by Snowflake data store along with a standard CRUD interface and real time bi-directional synchronization with multiple backend merchant master databases (North, Optis, South, Memphis and OmniPay). With unification in data and API, it promotes ease of integration, low maintenance and easy consumption of change and reduce development time for merchant onboarding and maintenance. It serves as a comprehensive analytical platform for merchant data",
     "apiSpecification": "/v1/apis/UNIFIEDMERCHANTMASTER",
     "layout": "/v1/layouts/UNIFIEDMERCHANTMASTER",
     "documentation": "/v1/docs/UNIFIEDMERCHANTMASTER",
